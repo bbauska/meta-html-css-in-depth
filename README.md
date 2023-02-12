@@ -1,5 +1,5 @@
 # meta-html-css-in-depth
-Advanced (in depth) CSS brought to you by meta.
+Advanced (in depth) HTML & CSS brought to you by Coursera / Meta.
 HTML & CSS in Depth
 
 Perhaps you know a little about HTML and CSS from another course you did, or perhaps you don't know much at all. 
