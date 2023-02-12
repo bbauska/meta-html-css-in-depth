@@ -1,4 +1,4 @@
-# meta-css-in-depth
+# meta-html-css-in-depth
 Advanced (in depth) CSS brought to you by meta.
 HTML & CSS in Depth
 
