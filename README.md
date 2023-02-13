@@ -1,23 +1,24 @@
-<H1>meta-html-css-in-depth</H1>
-Advanced (in depth) HTML & CSS brought to you by Coursera / Meta.
+<h1>meta-html-css-in-depth</h1>
 
-HTML & CSS in Depth
+<h3>Advanced (in depth) HTML & CSS brought to you by Coursera / Meta</h3>
 
-Perhaps you know a little about HTML and CSS from another course you did, or perhaps you don't know much at all. 
-Either way, a quick summary will be useful. 
-So let's explore some basic HTML and CSS principles and practices. 
-HTML stands for Hypertext Markup Language. 
-But what does that mean? 
- 
-Hypertext is text which contains links to other text. 
-Markup refers to tags and elements used within a document. 
- 
-HTML elements with their opening and closing tags in angle brackets make up an HTML document. 
-These elements form the structure of a webpage and describe what to display to the web browser. 
-When it comes to HTML, it's important to know about the purpose of HTML in the web browser. 
-The use of HTML tags and correct syntax, and how HTML elements are used in a web document. 
-But what can you do with HTML? 
-You can add images to a web page with HTML code. 
+<h3>HTML & CSS in Depth</h3>
+
+<p>Perhaps you know a little about HTML and CSS from another course you did, or perhaps you don't know much at all.<br>
+Either way, a quick summary will be useful.<br>
+So let's explore some basic HTML and CSS principles and practices.<br>
+HTML stands for Hypertext Markup Language.<br>
+But what does that mean?<br>
+<br>
+Hypertext is text which contains links to other text.<br>
+Markup refers to tags and elements used within a document.<br>
+<br>
+HTML elements with their opening and closing tags in angle brackets make up an HTML document.<br>
+These elements form the structure of a webpage and describe what to display to the web browser.<br>
+When it comes to HTML, it's important to know about the purpose of HTML in the web browser.<br>
+The use of HTML tags and correct syntax, and how HTML elements are used in a web document.<br>
+But what can you do with HTML?<br>
+You can add images to a web page with HTML code.<br>
 You can use it to display data in tables, and you can build forms with a wide range of inputs. 
 Also, using the correct HTML structure and appropriate elements as a foundation is an essential part of building accessible websites. 
 HTML can assist in ensuring web accessibility by supporting the technology people with disabilities use to interact with and understand websites. 
