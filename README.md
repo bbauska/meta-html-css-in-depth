@@ -76,7 +76,7 @@ Examples; forum post, magazine or newspaper article, a blog entry, user submitte
 Let's examine how the article element is used say you are developing a blog about your summer holiday.<br>
 It's good practice to contain the blog post content inside of the article element because it's a complete self-contained composition on a web page.<br>
 You should place the article element within the main element.<br>
-Then add your regular heading <h2> and paragraph <p> tags within the article element.<br>
+Then add your regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags within the article element.<br>
 The reason for doing it this way is because the main element semantically represents the main content of the page.<br>
 And inside of it there can be multiple article elements for something like a blog post list.<br>
 At the end of your document is the footer element.<br>
