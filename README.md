@@ -51,7 +51,7 @@ In this report I will share a structured approach you can take to make sure that
 <br>
 Let's revisit the basic structure of an HTML page which includes the head and body.<br>
 Inside the body tag you can lay out the website with very semantic tags to describe each of the sections.<br>
-<br> 
+<br>
 For a typical HTML page, the structure can be semantically described using the header, main and footer semantic HTML tags.<br>
 <br>
 For example, suppose you lay out your page with a header section that contains some company logo and navigation links.<br>
@@ -69,32 +69,31 @@ First let's examine the article element.<br>
 The HTML specification states that according to the World Wide Web Consortium's website, the article element indicates content which represents a complete.<br>
 Or self-contained composition in a document page application or site that is independently distributable.<br>
 That's quite a mouthful.<br>
-It may help to think of a page in a newspaper. 
-It may help to think of a page in a newspaper.
-There are many articles on the page and you can cut out the individual articles with scissors if needed.
-The articles you can remove are the article element.
-Examples; forum post, magazine or newspaper article, a blog entry, user submitted comment, interactive widget or gadget, or any independent item of content.
-Let's examine how the article element is used say you are developing a blog about your summer holiday.
-It's good practice to contain the blog post content inside of the article element because it's a complete self-contained composition on a web page. 
-You should place the article element within the main element.
-Then add your regular heading <h2> and paragraph <p> tags within the article element.
-The reason for doing it this way is because the main element semantically represents the main content of the page. 
-And inside of it there can be multiple article elements for something like a blog post list. 
-At the end of your document is the footer element.  
-This might contain additional navigational links or content.
-
-It is important to note that semantic elements are not limited to this structure. 
-Since their purpose is to describe the semantics of the content, the elements can be nested inside of each other. 
-If it accurately describes the content, let's update the previous example to use a nested semantic structure.
-You add a header element to the article element, inside the header element at the heading element with the blog title and a paragraph element describing the date and author of the blog post. 
-Inside the main element at the content of the blog post. 
-That's it, let's examine the section element. 
-You can add a section element to semantically define individual sections of the article. 
-It is important to note that sections should contain heading elements to semantically describe the section. 
-It is also possible to use section elements to describe different sections of your webpage, the section element doesn’t require the article element.
-It all depends on how you want to semantically describe your page. 
-And now you know how to semantically describe the contents of a web page, your web pages more accessible because the content is semantically described to add meaning.
-Now, search engines and accessibility software can easily understand the contents of your well-formed web page.
+It may help to think of a page in a newspaper.<br>
+There are many articles on the page and you can cut out the individual articles with scissors if needed.<br>
+The articles you can remove are the article element.<br>
+Examples; forum post, magazine or newspaper article, a blog entry, user submitted comment, interactive widget or gadget, or any independent item of content.<br>
+Let's examine how the article element is used say you are developing a blog about your summer holiday.<br>
+It's good practice to contain the blog post content inside of the article element because it's a complete self-contained composition on a web page.<br>
+You should place the article element within the main element.<br>
+Then add your regular heading <h2> and paragraph <p> tags within the article element.<br>
+The reason for doing it this way is because the main element semantically represents the main content of the page.<br>
+And inside of it there can be multiple article elements for something like a blog post list.<br>
+At the end of your document is the footer element.<br>
+This might contain additional navigational links or content.<br>
+<br>
+It is important to note that semantic elements are not limited to this structure.<br>
+Since their purpose is to describe the semantics of the content, the elements can be nested inside of each other.<br>
+If it accurately describes the content, let's update the previous example to use a nested semantic structure.<br>
+You add a header element to the article element, inside the header element at the heading element with the blog title and a paragraph element describing the date and author of the blog post.<br>
+Inside the main element at the content of the blog post.<br>
+That's it, let's examine the section element.<br>
+You can add a section element to semantically define individual sections of the article.<br>
+It is important to note that sections should contain heading elements to semantically describe the section.<br>
+It is also possible to use section elements to describe different sections of your webpage, the section element doesn’t require the article element.<br>
+It all depends on how you want to semantically describe your page.<br>
+And now you know how to semantically describe the contents of a web page, your web pages more accessible because the content is semantically described to add meaning.<br>
+Now, search engines and accessibility software can easily understand the contents of your well-formed web page.<br>
 
 
 
