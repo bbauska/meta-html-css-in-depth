@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in form</title>
+    <link rel="stylesheet" href="Week1\css\styles.css">
+</head>
+<body>
+    <form method="post">
+        <label for="user">Username:</label><br>
+        <input type="text" id="user" name="user" required minlength="3"- maxlength="12"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="pass" name="pass" required minlength="5"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <style>
+        input:focus:invalid {
+            border: 2px solid red;
+        }
+    </style>
+
+</body>
+</html>

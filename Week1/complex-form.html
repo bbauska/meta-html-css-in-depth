@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://littlelemon">
+    <meta property="og:description"
+        content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="Week1\css\styles.css">
+</head>
+
+<body>
+    <!--header element used to display logo-->
+    <header>
+        <img src="Week1\images\logo.png">
+    </header>
+
+    <!--nav element used to describe the navigational structure-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!--main element used to display content-->
+    <main>
+
+        <form>
+            <div>
+                <label for="email_address">Email Address</label>
+                <input type="email" id="email_address" name="email_address">
+            </div>
+            <div>
+                <label for="booking_date">Date of Booking</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <label for="people">Number of people</label>
+                <input type="number" id="people" min="1" max="8" name="people">
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="agree" name="agree" required>
+                    I agree to the cancellation policy
+                </label>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+
+    </main>
+
+    <!--footer element used to display copyright information-->
+    <footer>
+        <p>Copyright Little Lemon</p>
+    </footer>
+</body>
+
+</html>

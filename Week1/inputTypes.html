@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+    <link rel="stylesheet" href="Week1\css\styles.css">
+</head>
+
+<body>
+    <div>
+        <h2>Button</h2>
+        <button onclick="alert('Are you sure you want to continue?')"> <img src="https://yourserver.com/button_img.jpg"
+                alt="Submit the form" height="64" width="64"> </button>
+
+        <h2>Checkbox</h2>
+        <input type="checkbox" id="dog" name="dog" value="Dog">
+        <label for="dog">I like dogs</label>
+        <input type="checkbox" id="cat" name="cat" value="Cat">
+        <label for="cat">I like cats</label>
+
+        <h2>Radio</h2>
+        <input type="radio" id="light" name="theme" value="Light">
+        <label for="light">Light</label>
+        <input type="radio" id="dark" name="theme" value="Dark">
+        <label for="dark">Dark</label>
+
+        <h2>Submit</h2>
+        <form action="myserver.com" method="POST">
+        <input type="submit" value="Submit" />
+        </form>
+
+        <h2>Text</h2>
+        <label for="fname">First name:</label>
+        <input type="text" id="name" name="name">
+
+        <h2>Password</h2>
+        <label for="password">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+
+        <h2>Date</h2>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="date of birth">
+
+        <h2>Datetime-local</h2>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+
+        <h2>Email</h2>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+
+        <h2>File</h2>
+        <label for="file">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+
+        <h2>Hidden</h2>
+        <input type="hidden" id="custId" name="custId" value="3487">
+
+        <h2>Image</h2>
+        <input type="image" src="submit_img.png" alt="Submit" width="48" height="48">
+
+        <h2>Number</h2>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+        <h2>Range</h2>
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="10">
+
+        <h2>Reset</h2>
+        <input type="reset">
+
+        <h2>Search</h2>
+        <label for="gsearch">Search in Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+
+        <h2>Time</h2>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+
+        <h2>Tel</h2>
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
+
+        <h2>URL</h2>
+        <label for="homepage">Enter your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+
+        <h2>Week</h2>
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+
+        <h2>Month</h2>
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+
+    </div>
+</body>
+
+</html>
