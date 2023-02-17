@@ -1,0 +1,30 @@
+/*
+Developers use the acronym LVHA to remind them of the order that they need to follow when writing pseudo-class rules.
+LVHA stands for link, visited, hover, active. 
+So always apply pseudo-class styles in the correct order.
+*/
+* {
+    font-family: cursive;
+    background-color: #E0E0E2;
+}
+
+/* Links by defualt */
+a:link {
+    color: blue;
+}
+
+/* Links already visited */
+a:visited {
+    color: blueviolet;
+}
+
+/* When hovering over link */
+a:hover {
+    color: green;
+}
+
+/* When link is selected */
+a:active {
+    color: white;
+    background-color: black;
+}

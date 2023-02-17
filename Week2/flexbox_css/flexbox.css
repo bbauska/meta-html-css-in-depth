@@ -1,0 +1,34 @@
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    flex: 0 1 auto;
+}
+/* color and alignment of box3 have been changed and overrides the properties set using align-items */
+.box3{
+    background-color: blanchedalmond;
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+/* 
+    Justify-content: for item alignment on main axis align-items: for item alignment on cross axis align-self: for unique flex items on cross axis align-content: used for packing flex lines and control over space
+
+    flex-wrap: default is 'nowrap', the items will span the entire width of the axis. 'wrap' means the items will now be wrapped to the size of the available viewport.
+
+    flex-direction: used to set the main axis, which is a ‘row’ by default. It basically means you are changing your ‘main’ axis from horizontal rows to vertical columns.
+
+    gap: can be used to create space between the items along the main axis. You can also individually configure the gaps in rows and columns using row-gap and column-gap properties.
+    
+    flex-grow, flex-shrink and flex-basis: Together these determine how the flex takes up space, grows or shrinks according to the space available. These are the sub-properties of a property called flex. Together all three properties can also be given values with the help of something called the shorthand notation in CSS.
+*/

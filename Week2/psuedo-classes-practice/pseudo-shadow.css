@@ -1,0 +1,9 @@
+.textual { 
+    border: 1px;
+    padding: 10px;
+}
+
+.textual:hover {
+    box-shadow: 5px 0px 25px black;
+}
+/* box-shadow: 'horizontal offset' 'vertical offset' 'blur radius' 'shadow color' */

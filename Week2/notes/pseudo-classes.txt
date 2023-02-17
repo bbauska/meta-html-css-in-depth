@@ -1,0 +1,81 @@
+Pseudo-elements:
+
+Syntax:
+selector::pseudo-element {
+    property: value; 
+}
+It is important to note that pseudo-elements use two colon characters instead of one.
+
+::first-letter
+You can use first-letter to change the color of just the first letter of each of the three points in the example text.
+li::first-letter { 
+    color:coral; 
+    font-size: 1.3em; 
+    font-weight: bold; 
+    line-height: 1; 
+}
+Although the code only changed the first letter of each bullet point, it makes a big difference in terms of presentation.
+
+::first-line:
+First-line will change the complete first line of each of the bullet points to light sea green. 
+li::first-line {
+    color: lightseagreen;
+    text-decoration: underline;
+    line-height: 1;
+}
+Because it’s only the first line of each bullet point, it almost functions like dividers between the three different points instead of having to rely on bullets.  
+Note that the contents of the line to which this pseudo-element is applied will change as you increase or decrease the size of your viewport. 
+
+::selection:
+Selection is another useful pseudo-element.
+For example, you may use it when you are taking notes on your device because it allows you to highlight specific text.
+The effect of it becomes obvious only after the user selects content.
+On web pages today, you will typically see inverted colors from white-black to black-white when selecting a portion of text.
+li::selection {
+    color:brown;
+    background-color: antiquewhite;
+    line-height: 1;
+}
+
+::marker:  
+Markers are typically used to add style elements to a list, for instance, to color bullet points.
+For example, you can enhance the user experience when you use a marker in the following way.    
+li::marker {
+    color: cornflowerblue;
+    content: '<> ';
+    font-size: 1.1em;
+}
+Now the bullet points are cornflower blue and they have the shape specified in the code.
+
+::before and ::after:
+One more pair of pseudo-elements are the ::before and ::after pseudo-elements.
+They allow you to add content before and after an element on which they are allowed.
+In other words, new content can be added to a page without adding HTML code for it.
+You can also add styling options for this content.
+#tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#tips::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    padding-right: 5px;
+    border-radius: 20%;
+}
+The “content” property is where the text for the guidelines goes.
+The word “tip” has been added before each guideline thanks to the rules added for tips::before.
+And, each of the three guidelines now has two exclamation marks after them thanks to the rules added for tips::after.
+You don’t have to use after and before together like this, but sometimes it is useful to combine them.
+
+Additional Resources:
+Comprehensive list of pseudo-classes
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+Comprehensive list of pseudo-elements
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements

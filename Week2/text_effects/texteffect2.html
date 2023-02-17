@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Effect Example</title>
+    
+    <!-- CSS Code -->
+    <style>
+        body {
+            font-family: 'Trebuchet MS';
+        }
+
+        .text {
+            width: 300px;
+            border: 2px solid brown; 
+            white-space: nowrap; /* Controls how whitespace inside a css property is handled */
+            overflow: hidden; /* Specifies what to do if the content overflows an element's box */
+            text-overflow: clip; /* Adds clip when text is too long */
+        }
+
+        .text:hover {
+            overflow: visible;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 style="color:brown">Clip property</h1>
+
+    <div class="text">
+        This is a sample write-up to show use of clip property of text-overflow.
+    </div>
+</body>
+</html>

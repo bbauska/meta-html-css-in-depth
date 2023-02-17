@@ -1,0 +1,49 @@
+Skill based errors:
+- typos
+    - Ex: Delimiters (;), Quotations (""), Brackets ({})
+
+Example:
+  incorrect format         correct format
+#someid {                 #someid {
+    width: 40px;              width: 40px;
+    height: 30px;             height: 30px;
+                           }
+
+- syntax errors
+    - closing tags in html(<>)
+- Doctype
+    - proper declaration
+
+- Bad practice of writing tags in the uppercase
+
+Rule based errors:
+- starting class names with numbers
+
+Knowledge based errors:
+- complicated code
+- complex queries
+    - attribute selectors and rules for multiple classes
+
+Best practices:
+- using short hand methods
+    - using one property instead of multiple properties
+
+- Specificity
+    - Over specificity can lead to increase loading time for browsers because they need to apply specific rules
+    - A good practice in programming is to apply the rules as broadly as possible
+    - For example, where possible apply over a container instead of to the content inside it
+
+Overspecificity:
+- wasting browsers time
+- wasting time troubleshooting
+
+More best practices:
+- Avoid the redundancy of rules, selectors and properties to prevent confusion
+- Perform a CSS reset using a universal selector before you begin writing your code
+- By removing browser specific configurations using the universal or star selector, you can avoid the chances of misconfigured layouts appearing on web pages and save a lot of effort later
+- By continually designing pages, you will develop your skills. And as a result, you will progressively make fewer errors
+
+Handling errors in CSS:
+- CSS handles errors differently
+- the code does not break or stop executing
+- code with errors is ignored
