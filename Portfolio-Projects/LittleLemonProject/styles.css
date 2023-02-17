@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 50, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3rem 5% 3rem 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > img {
+    display: block;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+nav ul {
+    background-color: #2b2d42;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    margin: 0 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li:hover {
+    background-color: lightsteelblue;
+}
+
+section {
+    display: flex;
+    padding-top: 10px;
+}
+
+article {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#promo {
+    position: relative;
+    text-align: left;
+    height: 25vh;
+}
+
+#promo img {
+    border-radius: 25px;
+}
+
+#promo h1 {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    color: white;
+}
+
+#promo h3 {
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
+    color: white;
+}
+
+.info {
+    background-color: blanchedalmond;
+    border-radius: 25px;
+}
+
+#promo img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.info img {
+    padding: 10px 0 10px 0;
+}
+
+.info a {
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #2b2d42;
+    border: 1px solid #2b2d42;
+    border-radius: 25px;
+}
+
+.info ul {
+    margin: 10px 0 10px 0;
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+footer div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
