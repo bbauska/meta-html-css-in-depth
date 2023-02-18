@@ -8,8 +8,8 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img  src="./images/meta-logo.jpg?raw=true"
-  alt="meta logo"
-  style="width:35%;" />
+  alt="meta logo."
+  width="35%" />
 </p>
 
 <h3 align="center">meta-html-css-in-depth - HTML &amp; CSS in Depth</h3>
