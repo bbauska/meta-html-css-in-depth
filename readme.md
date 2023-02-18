@@ -13,20 +13,17 @@
 </p>
 
 <h3 align="center">meta-html-css-in-depth - HTML &amp; CSS in Depth</h3>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 01. html & css in depth logo (01) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image001.png?raw=true"
-  style="width:65%;"
+  style="width:1.2083333333333333in height=0.59375in"
   alt="HTML &amp; CSS in Depth logo." />
 
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 (Coursera/meta)
-
-![](./images/media/image1.png){width="1.2083333333333333in"
-height="0.59375in"}
 
 # Course syllabus
 
@@ -118,14 +115,14 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 
-![](./images/media/image002.png){width="5.0in"
+![](./images/image002.png){width="5.0in"
 height="1.6068372703412073in"}
 
 Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-![](./images/media/image3.png){width="5.0in"
+![](./images/image003.png){width="5.0in"
 height="1.6068350831146108in"}
 
 HTML elements with their opening and closing tags in angle brackets make
@@ -177,7 +174,7 @@ wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
 
-![](./images/media/image4.png){width="5.0in"
+![](./images/image004.png){width="5.0in"
 height="1.6068372703412073in"}
 
 You use CSS to style elements within an HTML document, create an
@@ -221,7 +218,7 @@ a developer.
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
-![](./images/media/image5.png){width="6.5in"
+![](./images/image005.png){width="6.5in"
 height="2.088888888888889in"}
 
 Let\'s revisit the basic structure of an HTML page which includes the
@@ -230,13 +227,13 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 
-![](./images/media/image6.png){width="6.5in"
+![](./images/image006.png){width="6.5in"
 height="2.828472222222222in"}
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
 
-![](./images/media/image7.png){width="6.5in"
+![](./images/image007.png){width="6.5in"
 height="3.0819444444444444in"}
 
 For example, suppose you lay out your page with a header section that
@@ -247,7 +244,7 @@ Then a main section contains sections and articles.
 Finally, a footer section contains contact information and social media
 links.
 
-![](./images/media/image8.png){width="6.5in"
+![](./images/image008.png){width="6.5in"
 height="3.0819444444444444in"}
 
 The main navigation section of your web page can also be described
@@ -256,7 +253,7 @@ semantically using the Nav tag.
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
 
-![](./images/media/image9.png){width="5.0in"
+![](./images/image009.png){width="5.0in"
 height="2.3707272528433947in"}
 
 The main links of your website are then added inside the Nav element.
@@ -282,7 +279,7 @@ That\'s quite a mouthful.
 
 It may help to think of a page in a newspaper.
 
-![](./images/media/image10.png){width="1.5in"
+![](./images/image010.png){width="1.5in"
 height="1.9452449693788276in"}It may help to think of a page in a
 newspaper.
 
@@ -302,7 +299,7 @@ It\'s good practice to contain the blog post content inside of the
 article element because it\'s a complete self-contained composition on a
 web page.
 
-![](./images/media/image11.png){width="4.0in"
+![](./images/image011.png){width="4.0in"
 height="2.4813560804899386in"}You should place the article element
 within the main element.
 
@@ -314,7 +311,7 @@ semantically represents the main content of the page.
 And inside of it there can be multiple article elements for something
 like a blog post list.
 
-![](./images/media/image12.png){width="4.0in"
+![](./images/image012.png){width="4.0in"
 height="2.424242125984252in"}At the end of your document is the footer
 element.
 
@@ -343,7 +340,7 @@ of the article.
 It is important to note that sections should contain heading elements to
 semantically describe the section.
 
-![](./images/media/image13.png){width="4.0in"
+![](./images/image013.png){width="4.0in"
 height="1.9722222222222223in"}It is also possible to use section
 elements to describe different sections of your webpage, the section
 element doesn't require the article element.\
@@ -363,13 +360,13 @@ website. They\'ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
 
-![](./images/media/image14.png){width="4.0in"
+![](./images/image014.png){width="4.0in"
 height="2.4551279527559053in"}
 
 I\'ve set up my basic html document structure in a file named blog.html.
 I\'ll start off by adding my basic semantic structure.
 
-![](./images/media/image15.png){width="6.0in"
+![](./images/image015.png){width="6.0in"
 height="3.598718285214348in"}
 
 First, I add the header element. Followed by the nav element, Followed
@@ -443,7 +440,7 @@ engine determine which web pages are most relevant in this video? You
 will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.
 
-![](./images/media/image16.png){width="3.1041666666666665in"
+![](./images/image016.png){width="3.1041666666666665in"
 height="1.8125in"}
 
 A major part of launching a website is a process called search engine
@@ -475,7 +472,7 @@ analyze and rank your website.
 But for now, let\'s just focus on how meta tags influence website
 ranking.
 
-![](./images/media/image17.png){width="6.0in"
+![](./images/image017.png){width="6.0in"
 height="1.5410258092738407in"}
 
 Meta tags define metadata about a web page.
@@ -487,12 +484,12 @@ Meta tags are added inside the head element of your html document and as
 you know, nothing inside the head element is displayed in the web
 browser.
 
-![](./images/media/image18.png){width="3.2in"
+![](./images/image018.png){width="3.2in"
 height="2.4929385389326333in"}In other words, meta tags are unseen
 elements within the browser. Note that there is no closing tag for the
 meta tag.
 
-![](./images/media/image19.png){width="6.0in" height="1.275in"}
+![](./images/image019.png){width="6.0in" height="1.275in"}
 
 The meta element has two attributes, name and content.
 
@@ -501,7 +498,7 @@ attribute specifies the value of the metadata.
 
 Let\'s examine some examples of metadata.
 
-![](./images/media/image20.png){width="6.0in"
+![](./images/image020.png){width="6.0in"
 height="2.388461286089239in"}
 
 The author metadata specifies the author of the web page.
@@ -509,7 +506,7 @@ The author metadata specifies the author of the web page.
 The name attribute is author and the content attribute is the person and
 company who are the author of the web page.
 
-![](./images/media/image21.png){width="6.0in"
+![](./images/image021.png){width="6.0in"
 height="2.388461286089239in"}
 
 The description metadata describes the content of the web page.
@@ -520,7 +517,7 @@ results.
 The name attribute is set to description and the content attribute is
 the descriptive text.
 
-![](./images/media/image22.png){width="6.0in"
+![](./images/image022.png){width="6.0in"
 height="2.388461286089239in"}
 
 The keywords metadata was previously used to provide search keywords for
@@ -533,7 +530,7 @@ One of the major search engines now ignores this metadata and another
 uses keywords metadata as a spam indicator because of this, it\'s
 recommended not to include this metadata in modern web pages.
 
-![](./images/media/image23.png){width="6.0in"
+![](./images/image023.png){width="6.0in"
 height="2.388461286089239in"}
 
 Another type of metadata is the robot\'s metadata and it tells search
@@ -542,7 +539,7 @@ engines if and how they should analyze your web page.
 The name 'robots' comes from the automated software often referred to as
 bots, that search engines used to analyze websites.
 
-![](./images/media/image24.png){width="2.6041666666666665in"
+![](./images/image024.png){width="2.6041666666666665in"
 height="4.90625in"}
 
 The content attribute for Robots has four possible values. Index tells
@@ -553,7 +550,7 @@ bots from analyzing your page and no follow tells the bot not to visit
 links on the web page. Again, some bots will ignore this value so it\'s
 best not to rely on it.
 
-![](./images/media/image25.png){width="6.0in"
+![](./images/image025.png){width="6.0in"
 height="2.1801279527559054in"}
 
 Finally, there\'s the view ports metadata. The view port metadata is
@@ -581,7 +578,7 @@ on social media.
 
 But that\'s for later modules.
 
-![](./images/media/image26.png){width="1.1618055555555555in"
+![](./images/image026.png){width="1.1618055555555555in"
 height="3.0in"}
 
 For now, it\'s important to know that author, description, keywords,
@@ -606,7 +603,7 @@ content in this file, but it is here so that you can easily add CSS
 rules to the webpage. Again, it\'s best if you add any other CSS files
 also to this folder.
 
-![](./images/media/image27.png){width="6.0in"
+![](./images/image027.png){width="6.0in"
 height="3.4929483814523183in"}
 
 I go back to my template folder and open it in Visual Studio Code. I
@@ -625,7 +622,7 @@ For now, the main thing to know is that if you plan on sharing the
 webpage on social media, you should remember to uncomment this HTML
 section and update the content attributes.
 
-![](./images/media/image28.png){width="6.0in"
+![](./images/image028.png){width="6.0in"
 height="3.4929483814523183in"}
 
 The next block of commented out code is for icons. If you want to show
@@ -640,7 +637,7 @@ the styles.css file in the CSS folder.
 
 By now you can probably see how useful this template is.
 
-![](./images/media/image29.png){width="6.0in"
+![](./images/image029.png){width="6.0in"
 height="3.4929483814523183in"}
 
 Let\'s continue to the body element. The body element already contains a
@@ -649,7 +646,7 @@ website title or logo, the nav element for your website navigation, the
 main element for your main content, and the footer element for any
 copyright notices or links to secondary webpages.
 
-![](./images/media/image30.png){width="6.0in"
+![](./images/image030.png){width="6.0in"
 height="0.7339741907261592in"}
 
 Below the footer element, you add script elements for JavaScript files.
@@ -682,7 +679,7 @@ provides the visitor to the website with a consistent navigation
 experience.
 
 ![Example of a top navbar layout on a web
-page.](./images/media/image31.png){width="6.0in"
+page.](./images/image031.png){width="6.0in"
 height="2.6327504374453192in"}
 
 Carousel layout
@@ -693,7 +690,7 @@ contains content items that will rotate through the carousel area at a
 fixed interval.
 
 ![Example of a Carousel Layout on a web
-page](./images/media/image32.png){width="6.0in"
+page](./images/image032.png){width="6.0in"
 height="3.431632764654418in"}
 
 Blog layout
@@ -705,14 +702,14 @@ It is often seen on news websites where new articles will appear on the
 page each day based on current events.
 
 ![Example of a large style Blog Layout on a web
-page](./images/media/image33.png){width="6.0in"
+page](./images/image033.png){width="6.0in"
 height="3.919861111111111in"}
 
 The layout typically features different-sized feature areas followed by
 a series of article summary areas that link to full articles.
 
 ![Example of a regular style Blog Layout ron a web
-page](./images/media/image34.png){width="6.0in"
+page](./images/image034.png){width="6.0in"
 height="3.579003718285214in"}
 
 Dashboard layout
@@ -724,7 +721,7 @@ or reporting data such as graphs and tables. This trendy layout provides
 a good user experience for business users.
 
 ![Example of a Dashboard Layout on a web
-page](./images/media/image35.png){width="6.0in"
+page](./images/image035.png){width="6.0in"
 height="3.0491305774278215in"}
 
 More layouts
@@ -768,7 +765,7 @@ information about a website before a user clicks on the link.
 To address this challenge, Facebook established the Open Graph Protocol
 in 2010.
 
-![](./images/media/image36.png){width="3.3in"
+![](./images/image036.png){width="3.3in"
 height="1.4413790463692038in"}The Open Graph Protocol is a set of
 Metadata rules that allow web pages to describe themselves to social
 networks.\
@@ -792,7 +789,7 @@ convention to identify it as an Open Graph Protocol related tag.
 The Open Graph Protocol requires that you must always include four
 properties on a webpage.
 
-![](./images/media/image37.png){width="6.0in"
+![](./images/image037.png){width="6.0in"
 height="1.8320516185476816in"}
 
 These are title, type, URL, and image.
@@ -827,7 +824,7 @@ about later. But let\'s briefly explore three of these.
 
 The description property provides a description of the webpage.
 
-![](./images/media/image38.png){width="4.0in"
+![](./images/image038.png){width="4.0in"
 height="1.2213681102362204in"}
 
 The og:locale property describes the language and territory of the
@@ -924,7 +921,7 @@ social media platforms.
 
 I\'ve opened index.html in visual studio code.
 
-![](./images/media/image39.png){width="5.0in"
+![](./images/image039.png){width="5.0in"
 height="2.775107174103237in"}
 
 At a minimum, I need to add four pieces of metadata required by the
@@ -976,7 +973,7 @@ information to the platforms.
 Since the platforms vary in what they display to their users, it\'s best
 to provide as much information as possible.
 
-![](./images/media/image40.png){width="5.0in"
+![](./images/image040.png){width="5.0in"
 height="2.775107174103237in"}
 
 I\'ll add three more or meta tags to the head element.
@@ -1132,7 +1129,7 @@ Let\'s examine how HTML allows you to do simple client-side validation.
 
 HTML has several input types that are validated by the web browser.
 
-![](./images/media/image41.png){width="2.0in"
+![](./images/image041.png){width="2.0in"
 height="2.766961942257218in"}
 
 As demonstrated in the example, email is used for email addresses.
@@ -1147,7 +1144,7 @@ entering a telephone number and URL, the browser will validate the
 entered data against the requirements of the input type and provide user
 feedback.
 
-![](./images/media/image42.png){width="3.0in"
+![](./images/image042.png){width="3.0in"
 height="1.2400995188101487in"}
 
 Another example is the required attribute, which indicates that the user
@@ -1178,6 +1175,7 @@ Keep in mind you can also define buttons with the **\<button\>** tag,
 with the added benefit of being able to place content like text or
 images inside the tag.
 
+```
 > \<button onclick=\"alert(\'Are you sure you want to continue?\')\"\> 
 >
 >     \<img src=\"[https://yourserver.com/button_img.jpg]{.underline}\" 
@@ -1185,6 +1183,7 @@ images inside the tag.
 >         alt=\"Submit the form\" height=\"64\" width=\"64\"\>
 >
 > \</button\> 
+```
 
 ### Checkbox
 
@@ -1192,6 +1191,7 @@ Defines a check box allowing single values to be selected or deselected.
 They are used to let a user select one or more options of a limited
 number of choices.
 
+```
 > \<input type=\"checkbox\" id=\"dog\" name=\"dog\" value=\"Dog\"\>
 >
 > \<label for=\"dog\"\>I like dogs\</label\>
@@ -1199,6 +1199,7 @@ number of choices.
 > \<input type=\"checkbox\" id=\"cat\" name=\"cat\" value=\"Cat\"\>
 >
 > \<label for=\"cat\"\>I like cats\</label\>
+```
 
 ### Radio
 
@@ -1395,7 +1396,7 @@ website.
 In this module, you will learn how to create a simple signup form for
 user accounts on the Little Lemon website.
 
-![](./images/media/image43.png){width="5.0in" height="3.0in"}
+![](./images/image043.png){width="5.0in" height="3.0in"}
 
 I\'ve set up my basic HTML document structure in a file named,
 signup.html.
@@ -1487,7 +1488,7 @@ Everything displays correctly.
 However, I\'d like to improve the user experience by informing the user
 what each field represents.
 
-![](./images/media/image44.png){width="5.0in"
+![](./images/image044.png){width="5.0in"
 height="3.115918635170604in"}
 
 To do this, I\'ll add a label element before each input element.
@@ -1516,7 +1517,7 @@ Finally, I\'ll add a line break tag after the label element so that the
 input field displays below the label. I then repeat the same process for
 each input element.
 
-![](./images/media/image45.png){width="2.0in"
+![](./images/image045.png){width="2.0in"
 height="2.996363735783027in"}
 
 I save the file again and open the Live Preview.
@@ -1525,7 +1526,7 @@ Oh, yes, that\'s much better.
 
 The form labels now display above the input fields.
 
-![](./images/media/image46.png){width="4.0in"
+![](./images/image046.png){width="4.0in"
 height="1.3523129921259842in"}
 
 To finalize the form, I need to add one more thing, the submit button.
@@ -1570,7 +1571,7 @@ By now you\'ve learned about the different HTML input types and how they
 validate the format of data, but there are additional attributes that
 you can apply to elements for further validation.
 
-![](./images/media/image47.png){width="6.5in"
+![](./images/image047.png){width="6.5in"
 height="2.2104166666666667in"}
 
 First, let\'s explore how you can ensure that the user provides a value
@@ -1589,14 +1590,14 @@ processing of the request, a HTTP request was still submitted.
 Let\'s improve this form by using client-side validation to ensure the
 user enters values to both fields.
 
-![](./images/media/image48.png){width="6.5in"
+![](./images/image048.png){width="6.5in"
 height="2.2104166666666667in"}
 
 Now with the required attribute in the code, if one of the fields is
 empty and the user clicks the submit button, the request will not be
 submitted to the web server.
 
-![](./images/media/image49.png){width="2.7395833333333335in"
+![](./images/image049.png){width="2.7395833333333335in"
 height="4.697916666666667in"}The web browser will focus on the first
 empty input element and inform the user that a field is empty.
 
@@ -1615,7 +1616,7 @@ passwords by requiring a minimum password length of five characters.
 Fortunately, there are two more attributes you can use to ensure the
 correct length of data.
 
-![](./images/media/image50.png){width="6.5in" height="2.49375in"}
+![](./images/image050.png){width="6.5in" height="2.49375in"}
 
 You can add the min length and max length attributes to the fields to
 specify the required length. In this case, since the minimum value for
@@ -1638,7 +1639,7 @@ This can be readily implemented using CSS.
 To highlight a field in red when the data is invalid, you use the input
 element selector.
 
-![](./images/media/image51.png){width="6.5in"
+![](./images/image051.png){width="6.5in"
 height="2.8131944444444446in"}
 
 You then apply the pseudo-class selector called invalid.
@@ -1649,7 +1650,7 @@ For now, the key thing to know is that they are used to select elements
 based on their state, such as whether the input data is valid or
 invalid.
 
-![](./images/media/image52.png){width="6.5in"
+![](./images/image052.png){width="6.5in"
 height="2.8131944444444446in"}
 
 Then you add a CSS property to set the border of the element to read.
@@ -1663,7 +1664,7 @@ demonstrated in this Real-world example of a login screen.
 Ideally, you only want fields to appear red as the user enters invalid
 data.
 
-![](./images/media/image53.png){width="6.5in"
+![](./images/image053.png){width="6.5in"
 height="3.154166666666667in"}
 
 To do this, you need to apply another pseudo-class called focus, which
@@ -1691,31 +1692,31 @@ hands-on activities called **Labs**. In these labs you\'ll be able to
 open Visual Studio Code and start writing code without ever leaving the
 course.
 
-### ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0](./images/media/image54.png){width="3.4375in" height="0.4270833333333333in"}
+### ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0](./images/image054.png){width="3.4375in" height="0.4270833333333333in"}
 
 ### How to get started working on Labs
 
 The Labs contain instructions explaining the coding task.
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](./images/media/image55.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](./images/image055.png){width="5.0in"
 height="3.3633628608923885in"}
 
 When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing
 code!
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](./images/media/image56.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](./images/image056.png){width="5.0in"
 height="2.674922353455818in"}
 
 You\'ll see all the files for the lab in the Project folder in the left
 sidebar.
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](./images/media/image57.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](./images/image057.png){width="5.0in"
 height="2.674922353455818in"}
 
 And the large editor area where you write your code for the lab.
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](./images/media/image58.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](./images/image058.png){width="5.0in"
 height="2.674922353455818in"}
 
 All **Lab** exercises will include two important files. A **README.md**
@@ -1743,7 +1744,7 @@ from time to time to complete course activities. You can open this by
 selecting the **Terminal** option in the upper Visual Studio Code
 toolbar.
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](./images/media/image59.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](./images/image059.png){width="5.0in"
 height="3.3579494750656167in"}
 
 **How to download files from your Visual Studio Code Lab to your local
@@ -1757,7 +1758,7 @@ or individual files through the checkbox selection tool.
 3\. After you\'ve selected these files, use the **Download** link to
 download your files to your local device.
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](./images/media/image60.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](./images/image060.png){width="5.0in"
 height="3.4154932195975505in"}
 
 **How to upload local files to your Visual Studio Code Lab**
@@ -1766,7 +1767,7 @@ If you\'d like to upload your course files from your local device to
 your Visual Studio Code lab, **drag and drop** your file from your local
 device into the Visual Studio Code file tree.
 
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](./images/media/image61.png){width="5.0in"
+![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](./images/image061.png){width="5.0in"
 height="3.491418416447944in"}
 
 **How to get a fresh copy of course-provided starter files**
@@ -1790,7 +1791,7 @@ For example for index.html, this could be renamed to *\`index
 2.  Select **Lab Help** from your Lab Toolbar and then select **Get
     latest version.**
 
-![](./images/media/image62.png){width="5.0in"
+![](./images/image062.png){width="5.0in"
 height="3.5083333333333333in"}
 
 3.  You should now see a fresh copy of the original instructor-provided
@@ -1851,7 +1852,7 @@ The ability to book things online is super convenient.
 That\'s one of the reasons why the Little Lemon restaurant is adding a
 table booking system to their website.
 
-![](./images/media/image63.png){width="3.0in"
+![](./images/image063.png){width="3.0in"
 height="1.6472222222222221in"}By now, you should know that a HTML form
 will be an ideal solution for that.
 
@@ -1871,7 +1872,7 @@ selected.
 
 Now, let\'s explore how to set up a HTML form with radio buttons.
 
-![](./images/media/image64.png){width="5.0in"
+![](./images/image064.png){width="5.0in"
 height="3.546474190726159in"}I\'ve opened Visual Studio Code and added a
 new file called booking.html.
 
@@ -1946,14 +1947,14 @@ value attribute to outdoors.
 
 Again, I set the name attribute to location.
 
-![](./images/media/image65.png){width="5.0in"
+![](./images/image065.png){width="5.0in"
 height="2.6196576990376204in"}
 
 I save the file and open it in Live Preview. Success.
 
 The form is set up correctly. Let\'s test it.
 
-![](./images/media/image66.png){width="5.0in"
+![](./images/image066.png){width="5.0in"
 height="2.6196576990376204in"}
 
 If I choose an option for the table size and then choose a different
@@ -1967,7 +1968,7 @@ However, I\'m testing this form on a laptop with a large screen.
 On a mobile device with a way smaller screen, it may be difficult for
 the user to accurately select the small button elements.
 
-![](./images/media/image67.png){width="6.0in"
+![](./images/image067.png){width="6.0in"
 height="3.223718285214348in"}
 
 Luckily, there is a way to improve this by setting the text and button
@@ -2143,7 +2144,7 @@ wondering what exactly happens when you click on that order button.
 In this module, you will learn what happens when forms are submitted in
 the web browser.
 
-![](./images/media/image68.png){width="3.0in"
+![](./images/image068.png){width="3.0in"
 height="1.6926279527559056in"}By now, you know that the web browser
 communicates with a web server using a HTTP request response cycle.
 
@@ -2156,7 +2157,7 @@ files.
 
 But it is also possible to send data as part of a request.
 
-![](./images/media/image69.png){width="3.5in"
+![](./images/image069.png){width="3.5in"
 height="1.9747331583552057in"}This is how form send data to the web
 server.
 
@@ -2173,12 +2174,12 @@ This login form, excepts a username and password.
 
 It also has a login button that submits the form to the web server.
 
-![](./images/media/image70.png){width="5.0in"
+![](./images/image070.png){width="5.0in"
 height="2.821046587926509in"}
 
 How would it work if the method attribute is set to GET?
 
-![](./images/media/image71.png){width="5.0in"
+![](./images/image071.png){width="5.0in"
 height="1.626068460192476in"}
 
 When the Login button is clicked, the form data is sent as part of the
@@ -2187,7 +2188,7 @@ request URL.
 This means that the user data is appended to the end of the URL in the
 web browser navigation bar.
 
-![](./images/media/image72.png){width="5.0in"
+![](./images/image072.png){width="5.0in"
 height="2.173611111111111in"}
 
 The web server receives the HTTP GET request, and extracts the form data
@@ -2223,7 +2224,7 @@ card numbers, this is a major privacy and security risk.
 Now, let\'s focus on how the form would work if we set the method
 attribute to post.
 
-![](./images/media/image73.png){width="5.0in"
+![](./images/image073.png){width="5.0in"
 height="2.173611111111111in"}
 
 When the form is submitted using the post method, the form data is
@@ -2360,7 +2361,7 @@ on various web browsers and how to solve this problem.
 
 First, let\'s focus on the most common form element, the input elements.
 
-![](./images/media/image74.png){width="5.0in"
+![](./images/image074.png){width="5.0in"
 height="2.58707239720035in"}
 
 The same input type HTML code displays differently in web browsers such
@@ -2374,7 +2375,7 @@ and Safari compared to other browsers like Microsoft Edge and Chrome.
 Safari on Mac OS differs a lot from the other browsers using a thinner
 border on regular corners.
 
-![](./images/media/image75.png){width="5.0in"
+![](./images/image075.png){width="5.0in"
 height="2.58707239720035in"}
 
 Next, let\'s explore the checkbox input type.
@@ -2396,7 +2397,7 @@ Now that you\'ve explored how HTML form elements can appear
 inconsistently across different web browsers, let\'s focus on how to
 solve this.
 
-![](./images/media/image76.png){width="5.0in"
+![](./images/image076.png){width="5.0in"
 height="2.58707239720035in"}
 
 As you know, CSS allows you to define the visual styling of HTML
@@ -2416,7 +2417,7 @@ To select the input HTML element, use the input element selector, and
 then specify the individual styling by adding a pair of square brackets,
 and then type equals in this case text or email.
 
-![](./images/media/image77.png){width="5.0in"
+![](./images/image077.png){width="5.0in"
 height="2.58707239720035in"}
 
 Then apply CSS properties to set the font, width, height, and border.
@@ -2478,7 +2479,7 @@ appearance of the element. For example, this code:
 Results in the following output:
 
 ![Two input types, text and password, as it displays in the
-browser.](./images/media/image78.png){width="2.0in"
+browser.](./images/image078.png){width="2.0in"
 height="1.397195975503062in"}
 
 Note how the type **password** hides the user input.
@@ -2621,7 +2622,7 @@ input other than the listed options.
 > \</form\>
 
 ![Datalist input type with its drop-down list containing the options
-visible](./images/media/image79.png){width="2.0in"
+visible](./images/image079.png){width="2.0in"
 height="2.150837707786527in"}
 
 ## \<output\> 
@@ -2650,7 +2651,7 @@ below the code block.
 \</select\> 
 
 ![Option input type as with its drop-down list
-visible](./images/media/image80.png){width="2.0in"
+visible](./images/image080.png){width="2.0in"
 height="1.5905511811023623in"}
 
 By default, the first item in the drop-down list is selected. To define
@@ -2781,7 +2782,7 @@ The Little Lemon Restaurant wants to add an about page to their website.
 They\'ve asked me to set up the page and include some audio and video in
 embedded players.
 
-![](./images/media/image81.png){width="6.0in"
+![](./images/image081.png){width="6.0in"
 height="3.187179571303587in"}
 
 I\'ve set up my basic html document structure in a file named
@@ -2810,7 +2811,7 @@ audio.
 To do this, I add the controls attribute to the audio element. I saved
 the file and opened the web page in my browser.
 
-![](./images/media/image82.png){width="6.0in"
+![](./images/image082.png){width="6.0in"
 height="3.1173075240594925in"}
 
 I can see that the audio is loading and is displayed in the browser
@@ -2823,7 +2824,7 @@ Everything is working as expected.
 
 Now I\'ll add the video.
 
-![](./images/media/image83.png){width="6.0in"
+![](./images/image083.png){width="6.0in"
 height="3.1173075240594925in"}
 
 I add a video element before the paragraph element.
@@ -2843,7 +2844,7 @@ To provide a good user experience, I\'ll also enable the video controls.
 
 To do this, I add the controls attribute to the video element.
 
-![](./images/media/image84.png){width="6.0in"
+![](./images/image084.png){width="6.0in"
 height="3.3833333333333333in"}
 
 I saved the file again and open the page in my browser.
@@ -2856,7 +2857,7 @@ disabled by default.
 To do this, I go back to my html and add the muted attribute to the
 video element.
 
-![](./images/media/image85.png){width="6.0in"
+![](./images/image085.png){width="6.0in"
 height="3.3833333333333333in"}
 
 I saved the file again and opened the page.
@@ -3162,7 +3163,7 @@ In this section, I\'m going to demonstrate how to do that.
 
 I\'ve opened the index.html in Visual Studio Code.
 
-![](./images/media/image86.png){width="6.0in"
+![](./images/image086.png){width="6.0in"
 height="3.364102143482065in"}
 
 First, I add the iFrame element.
@@ -3197,7 +3198,7 @@ and customers interacting with your website.
 Their concerns are valid as there are many security vulnerabilities with
 embedding content from another website.
 
-![](./images/media/image87.png){width="6.5in"
+![](./images/image087.png){width="6.5in"
 height="0.6861111111111111in"}
 
 To address these concerns, I\'ve decided to sandbox and limit the
@@ -3247,7 +3248,7 @@ potentially unsecured browser features.
 Now that they know it\'s secure, the other restaurant is going to
 implement the same code on their website.
 
-![](./images/media/image88.png){width="5.0in"
+![](./images/image088.png){width="5.0in"
 height="2.0747867454068243in"}
 
 Hopefully this will lead to a lot more business for both restaurants.
@@ -3309,7 +3310,7 @@ information so for now let\'s focus on the canvas element.
 
 Let\'s examine how to animate some simple graphics.
 
-![](./images/media/image89.png){width="5.0in"
+![](./images/image089.png){width="5.0in"
 height="2.2067311898512685in"}
 
 Using the 2D canvas.
@@ -3322,7 +3323,7 @@ I have added the canvas html element.
 
 I have set its with attribute to 640 its height attribute to 480.
 
-![](./images/media/image90.png){width="5.0in"
+![](./images/image090.png){width="5.0in"
 height="2.7243591426071743in"}
 
 I have also set its ID attribute to my underscore canvas so that I can
@@ -3334,7 +3335,7 @@ underscore canvas at the parameter.
 
 The result is stored in a variable named canvas.
 
-![](./images/media/image91.png){width="5.0in"
+![](./images/image091.png){width="5.0in"
 height="2.2441240157480316in"}
 
 Next, I look up the two D canvas context using canvas dot get context
@@ -3354,7 +3355,7 @@ The function clears the canvas area using context dot clear wreck it
 then draws the ball in its current position using the context dot begin
 path, context dot arc and context dot fill functions.
 
-![](./images/media/image92.png){width="5.0in"
+![](./images/image092.png){width="5.0in"
 height="1.0293799212598425in"}
 
 Finally, I define an animate function which calls the move ball and draw
@@ -3599,7 +3600,7 @@ control alignment, spacing, direction and eventually styling of the
 container and items present inside it. 
 
 ![Diagram of a flexbox and all its
-properties.](./images/media/image93.png){width="5.0in"
+properties.](./images/image093.png){width="5.0in"
 height="2.00704615048119in"}
 
 Image source:
@@ -3653,7 +3654,7 @@ to configure a flexbox.
 ## Output:
 
 ![Output for CSS Code with listed number
-boxes](./images/media/image94.png){width="3.2604166666666665in"
+boxes](./images/image094.png){width="3.2604166666666665in"
 height="3.6145833333333335in"}
 
 There are seven div containers inside the HTML file.
@@ -3680,7 +3681,7 @@ The output is now seven flex containers that run from left to right
 starting in the top left corner.
 
 ![Output for CSS Code with aligned number
-boxes](./images/media/image95.png){width="5.395833333333333in"
+boxes](./images/image095.png){width="5.395833333333333in"
 height="1.8125in"}
 
 ## Alignment properties
@@ -3720,7 +3721,7 @@ Let's first examine the use of justify-content which has a value of
 ## Output:
 
 ![The output for CSS Code with justification in the
-center](./images/media/image96.png){width="6.208333333333333in"
+center](./images/image096.png){width="6.208333333333333in"
 height="0.875in"}
 
 ## flex-wrap:
@@ -3743,7 +3744,7 @@ span the entire width of the axis.
 ## Output:
 
 ![Output for CSS code with wrapped number boxes justified in the
-center](./images/media/image97.png){width="2.9166666666666665in"
+center](./images/image097.png){width="2.9166666666666665in"
 height="2.03125in"}
 
 The items will now be wrapped to the size of the available viewport.
@@ -3773,7 +3774,7 @@ rows to vertical columns.
 ## Output:
 
 ![Display of listed number boxes as a
-flex](./images/media/image98.png){width="3.4479166666666665in"
+flex](./images/image098.png){width="3.4479166666666665in"
 height="3.6770833333333335in"}
 
 The output looks like the original output; however, it is now actually a
@@ -3808,7 +3809,7 @@ Let's change the value for it to 'flex-end'.
 ## Output:
 
 ![Right-centered number boxes with the flex end aligning
-method.](./images/media/image99.png){width="2.5729166666666665in"
+method.](./images/image099.png){width="2.5729166666666665in"
 height="3.71875in"}
 
 The term 'end' refers to the right side of the page as the left side is
@@ -3845,7 +3846,7 @@ This property can be used on individual items inside the flex.
 ## Output:       
 
 ![Output to display of a change in the color and alignment of individual
-items](./images/media/image100.png){width="2.9166666666666665in"
+items](./images/image100.png){width="2.9166666666666665in"
 height="3.7604166666666665in"}
 
 Here the color and alignment of the third box have been changed and it
@@ -3888,7 +3889,7 @@ columns using row-gap and column-gap properties.
 ## Output:
 
 ![Display of items with different
-spacing](./images/media/image101.png){width="2.8645833333333335in"
+spacing](./images/image101.png){width="2.8645833333333335in"
 height="3.34375in"}
 
 There is a clear change in spacing between the items.
@@ -3928,7 +3929,7 @@ horizontal best-distributed between two rows.
 ## Output:
 
 ![List of items as default raw modified by removing the flex
-direction](./images/media/image102.png){width="4.625in"
+direction](./images/image102.png){width="4.625in"
 height="1.5416666666666667in"}
 
 The rest of the remaining code is unchanged. However, the output will
@@ -3952,7 +3953,7 @@ inside the flex item box3 class.
 ## Output:
 
 ![Different spacing of items in row
-display](./images/media/image103.png){width="4.697916666666667in"
+display](./images/image103.png){width="4.697916666666667in"
 height="1.84375in"}
 
 The third box now takes up the entire free space available because
@@ -4088,7 +4089,7 @@ binding elements together or creating an easy layout.
 
 Let\'s explore the three most common uses of flexbox is in CSS.
 
-![](./images/media/image104.png){width="3.0in"
+![](./images/image104.png){width="3.0in"
 height="0.5715277777777777in"}The first application of flexbox that you
 will cover that is commonly used is a search bar.
 
@@ -4096,14 +4097,14 @@ You can use flex in search bars because it ties up all the elements,
 such as the small Search icon, the search input area, and the Submit
 button.
 
-![](./images/media/image105.png){width="6.5in"
+![](./images/image105.png){width="6.5in"
 height="0.7138888888888889in"}
 
 Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
 responsive on different devices.
 
-![](./images/media/image106.png){width="2.0in"
+![](./images/image106.png){width="2.0in"
 height="1.6397517497812772in"}Finally, another type of flexbox that is
 commonly used is an image gallery.
 
@@ -4111,7 +4112,7 @@ Flexes helpful here is it can realign itself as you change the size of
 the window. In the next few minutes, you will discover how to create
 these flexboxes to ensure a simple layout.
 
-![](./images/media/image107.png){width="6.5in"
+![](./images/image107.png){width="6.5in"
 height="3.2194444444444446in"}
 
 In the first example of a flexbox file, I will create a search bar, I
@@ -4123,7 +4124,7 @@ I first create a container class with a div tag. Inside this container,
 I have three different elements, which are the search icon, the search
 box where I typed my search, and finally the Submit button.
 
-![](./images/media/image108.png){width="3.1875in"
+![](./images/image108.png){width="3.1875in"
 height="4.958333333333333in"}In the CSS code, I first write rules for
 the container, then for the search icon, the search box, and finally for
 the button.
@@ -4161,12 +4162,12 @@ change.
 Another place where flexbox is used quite frequently is in navigation
 menus.
 
-![](./images/media/image109.png){width="3.4166666666666665in"
+![](./images/image109.png){width="3.4166666666666665in"
 height="1.5345330271216098in"}
 
 In this case, I created an unordered list that consists of four items.
 
-![](./images/media/image110.png){width="3.0729166666666665in"
+![](./images/image110.png){width="3.0729166666666665in"
 height="4.729166666666667in"}
 
 Notice that in my CSS code I use something called a star or universal
@@ -4201,7 +4202,7 @@ horizontal navigation menu.
 One final flexbox example that I will demonstrate is a responsive image
 gallery.
 
-![](./images/media/image111.png){width="6.5in"
+![](./images/image111.png){width="6.5in"
 height="3.2416666666666667in"}
 
 All the elements for the gallery are in the body of the HTML file.
@@ -4220,7 +4221,7 @@ border to zero.
 
 Next, let\'s focus on the container.
 
-![](./images/media/image112.png){width="3.375in"
+![](./images/image112.png){width="3.375in"
 height="4.052083333333333in"}First, I set the value of display to flex,
 then I add the flex-wrap property which determines whether the flex
 items should be forced in one line or should wrap over multiple lines.
@@ -4279,7 +4280,7 @@ These bar charts are called flex charts.
 The most important property when using flex is the flex property that in
 turn has the following three sub properties.
 
-![](./images/media/image113.png){width="3.0in"
+![](./images/image113.png){width="3.0in"
 height="0.25416666666666665in"}
 
 Flex grow, which specifies how much the item will grow compared to other
@@ -4288,7 +4289,7 @@ shrink compared to other flexible items.
 
 And flex basis, which specifies the initial length of the flexible item.
 
-![](./images/media/image114.png){width="5.0in"
+![](./images/image114.png){width="5.0in"
 height="0.9262828083989502in"}
 
 Flex property can be declared with something called a shorthand notation
@@ -4304,7 +4305,7 @@ website to draw attention to their most popular dishes.
 
 I\'ve been asked to write code to make this possible.
 
-![](./images/media/image115.png){width="5.125in"
+![](./images/image115.png){width="5.125in"
 height="4.916666666666667in"}
 
 I\'ve set up my basic html document structure in a file named flex
@@ -4325,14 +4326,14 @@ add the name of the label preferred dishes.
 Next, I create another class called container by typing dot container
 and then I press enter.
 
-![](./images/media/image116.png){width="6.5in"
+![](./images/image116.png){width="6.5in"
 height="4.179861111111111in"}
 
 Inside the container I create a class called dish by typing dot dish and
 pressing enter as there are three dishes in the popular list, I copy and
 paste this item twice.
 
-![](./images/media/image117.png){width="6.5in"
+![](./images/image117.png){width="6.5in"
 height="4.179861111111111in"}
 
 To distinguish between the dishes, I add a class name for each of the
@@ -4354,7 +4355,7 @@ Finally, I add the respective labels for each dish.
 To do this, I add the percentage between the angle brackets at the end
 of each item.
 
-![](./images/media/image118.png){width="6.5in"
+![](./images/image118.png){width="6.5in"
 height="3.7784722222222222in"}
 
 Now that my code is created, I move to CSS by clicking on the flex
@@ -4408,13 +4409,13 @@ The output preferred dishes and the percentage is 35, 50 and 15 appear
 on my screen, to improve the visuals of my chart and make it easier to
 interpret.
 
-![](./images/media/image119.png){width="6.5in"
+![](./images/image119.png){width="6.5in"
 height="3.7784722222222222in"}
 
 I\'m going to add individual colors to the chart items at the bottom of
 my CSS file I press enter twice and type dot pasta.
 
-![](./images/media/image120.png){width="4.0in"
+![](./images/image120.png){width="4.0in"
 height="1.0751706036745408in"}I press enter and within this div class I
 add background color, followed by the hex code of the color I want to
 use in the next line.
@@ -4429,7 +4430,7 @@ background colors as indicated.
 What\'s important to note here is that as you change the size of the web
 page, the flex adjusts itself while the label remains unchanged.
 
-![](./images/media/image121.png){width="6.333333333333333in"
+![](./images/image121.png){width="6.333333333333333in"
 height="5.041666666666667in"}
 
 The next example is very similar to the one I created for the earlier
@@ -4439,7 +4440,7 @@ In this example, when I create horizontal objects, I first add four
 containers for male and female and then I set the flex spaces for each
 of them.
 
-![](./images/media/image122.png){width="3.0in"
+![](./images/image122.png){width="3.0in"
 height="3.6488549868766404in"}If you look at my CSS code, I follow the
 same order.
 
@@ -4456,13 +4457,13 @@ horizontal bar charts.
 When I display the output of this code, the male and female classes are
 stacked on top of each other.
 
-![](./images/media/image123.png){width="4.09375in"
+![](./images/image123.png){width="4.09375in"
 height="3.0208333333333335in"}
 
 What alignment to use may or may not come intuitively, but if you look
 at a few more examples, it will start making sense.
 
-![](./images/media/image124.png){width="6.5in"
+![](./images/image124.png){width="6.5in"
 height="3.7527777777777778in"}
 
 Like in this case the container contains male and female classes that
@@ -4493,7 +4494,7 @@ Let\'s learn more about layouts.
 When someone says the word grid, you probably think of lines that cross
 each other to form squares or rectangles.
 
-![](./images/media/image125.png){width="5.0in"
+![](./images/image125.png){width="5.0in"
 height="2.8867530621172355in"}
 
 CSS Grids are two-dimensional design layouts that are responsive and
@@ -4505,13 +4506,13 @@ especially when you are working with larger scale layouts.
 Columns are the vertical tracks and rows are the horizontal tracks in
 your viewport.
 
-![](./images/media/image126.png){width="6.5in"
+![](./images/image126.png){width="6.5in"
 height="3.6326388888888888in"}
 
 Grids divide the page into rows and columns, and the space between these
 tracks are called gutters or gaps.
 
-![](./images/media/image127.png){width="6.5in"
+![](./images/image127.png){width="6.5in"
 height="3.540277777777778in"}
 
 A cell is the space in a grid container where a row and column
@@ -4523,7 +4524,7 @@ modify grids.
 Let\'s examine an example that uses a HTML document to demonstrate how
 to iteratively make changes to a grid.
 
-![](./images/media/image128.png){width="3.0in"
+![](./images/image128.png){width="3.0in"
 height="3.720317147856518in"}First, let\'s create a HTML document called
 index.html.
 
@@ -4545,7 +4546,7 @@ necessary for its size.
 What\'s displayed in the viewport may appear to be a grid, but it\'s not
 actually one.
 
-![](./images/media/image129.png){width="3.0in"
+![](./images/image129.png){width="3.0in"
 height="3.118733595800525in"}It\'s just the default settings of CSS for
 a layout.
 
@@ -4562,13 +4563,13 @@ such as flex, block, inline, and so on.
 
 It\'s usually a part of container elements inside our code.
 
-![](./images/media/image130.png){width="6.5in"
+![](./images/image130.png){width="6.5in"
 height="3.886111111111111in"}
 
 The updated container now has the display property value set to grid and
 the property values configured for three columns and two rows.
 
-![](./images/media/image131.png){width="6.5in"
+![](./images/image131.png){width="6.5in"
 height="2.8604166666666666in"}
 
 That\'s two changes from the previous configuration.
@@ -4578,7 +4579,7 @@ Let\'s examine them.
 The grid template columns property has been added into the CSS code to
 set the size of each of the three columns using pixel values.
 
-![](./images/media/image132.png){width="6.5in"
+![](./images/image132.png){width="6.5in"
 height="2.736111111111111in"}
 
 The use of fr, which is an abbreviation for fraction, has been
@@ -4601,7 +4602,7 @@ actual pixel sizes.
 It must be noted though, that fraction and pixel sizes can be used
 interchangeably with both rows and columns.
 
-![](./images/media/image133.png){width="6.5in"
+![](./images/image133.png){width="6.5in"
 height="2.7805555555555554in"}
 
 Now to add a couple of properties such as grid gap or gutter and
@@ -4616,7 +4617,7 @@ more space between the grid cells.
 You can also opt to use the auto properties such as grid, auto rows and
 grid auto columns collectively called the implicit grid.
 
-![](./images/media/image134.png){width="6.5in"
+![](./images/image134.png){width="6.5in"
 height="2.7805555555555554in"}
 
 Let\'s replace the grid template rows property in the code with grid
@@ -4625,7 +4626,7 @@ auto rows. All the rows are now auto-resized to 100 pixels.
 Now let\'s examine some of the functions that can make configuring the
 layout easier.
 
-![](./images/media/image135.png){width="6.5in"
+![](./images/image135.png){width="6.5in"
 height="2.7805555555555554in"}
 
 First, the repeat function passes the number of repeats required for a
@@ -4638,7 +4639,7 @@ reduced the amount of code you need to write.
 Therefore, the repeat function helps reduce redundancy and provides ease
 of code modification.
 
-![](./images/media/image136.png){width="6.5in"
+![](./images/image136.png){width="6.5in"
 height="2.7805555555555554in"}
 
 Next, the min-max function sets the minimum and maximum values expected
@@ -4691,9 +4692,9 @@ selector{
 
 }
 
-![](./images/media/image137.wmf)
+![](./images/image137.wmf)
 
-![](./images/media/image138.wmf)
+![](./images/image138.wmf)
 
 Grid shorthand consists of the following properties with default values:
 
@@ -5012,7 +5013,7 @@ I\'ve opened extra.HTML in Visual Studio Code.
 
 Now I can start adding the different elements.
 
-![](./images/media/image139.png){width="3.0in"
+![](./images/image139.png){width="3.0in"
 height="2.3651159230096237in"}First is the restaurant\'s name, little
 lemon, which I put into the header.
 
@@ -5025,7 +5026,7 @@ and then the footer.
 
 First for the body, I need to use the display property to code the grid.
 
-![](./images/media/image140.png){width="3.0in"
+![](./images/image140.png){width="3.0in"
 height="2.3651159230096237in"}I define as high as 150 VH. One VH is
 equal to 1 percent of the viewport height.
 
@@ -5046,7 +5047,7 @@ Let\'s examine the output.
 
 It looks good.
 
-![](./images/media/image141.png){width="3.0in"
+![](./images/image141.png){width="3.0in"
 height="2.9506944444444443in"}I\'m going to do the same for the main and
 the footer elements.
 
@@ -5067,7 +5068,7 @@ equal size.
 One can add different elements to the grid by determining their starting
 point and the number of columns each element spans.
 
-![](./images/media/image142.png){width="3.75in"
+![](./images/image142.png){width="3.75in"
 height="3.426025809273841in"}Don\'t worry, this will all become a lot
 clearer when I go through the following example.
 
@@ -5091,7 +5092,7 @@ For the parent class, I write display grid and then add the grid
 template columns property, which I\'m going to repeat 12 times with one
 fraction each.
 
-![](./images/media/image143.png){width="6.5in"
+![](./images/image143.png){width="6.5in"
 height="3.0347222222222223in"}
 
 Next, I define the properties of the segment.
@@ -5108,7 +5109,7 @@ Now, let\'s set the properties for the different segments.
 The first one spends 12 columns, I start by adding a light green
 background.
 
-![](./images/media/image144.png){width="4.46875in" height="4.40625in"}
+![](./images/image144.png){width="4.46875in" height="4.40625in"}
 
 The next part is important.
 
@@ -5128,7 +5129,7 @@ Again, I copy the same code, but instead of starting from the first
 column this time, I\'ll start from say, the fifth column, and it will
 span across eight columns.
 
-![](./images/media/image145.png){width="4.46875in" height="4.40625in"}
+![](./images/image145.png){width="4.46875in" height="4.40625in"}
 
 Let\'s change the color here to bisque.
 
@@ -5137,7 +5138,7 @@ column and spans eight columns.
 
 Let\'s add the other segments and then we\'ll examine the code again.
 
-![](./images/media/image146.png){width="6.5in"
+![](./images/image146.png){width="6.5in"
 height="4.1194444444444445in"}
 
 Let\'s examine the output again.
@@ -5323,7 +5324,7 @@ conventionally. Let\'s examine an example.
 ## Output:  
 
 ![Grid-based output presenting \"header, navigation, main area, and
-footer.\"](./images/media/image147.png){width="5.0in"
+footer.\"](./images/image147.png){width="5.0in"
 height="2.7146172353455817in"}
 
 Though there are five sets of rules, logically the CSS code is divided
@@ -5500,14 +5501,14 @@ commonly used CSS selectors.
 But before you explore them, let\'s briefly revise the ones you\'ve
 already covered.
 
-![](./images/media/image148.png){width="3.0in"
+![](./images/image148.png){width="3.0in"
 height="2.7163867016622922in"}You learned about element or type
 selectors.
 
 The element selector allows developers to select html elements based on
 their element type.
 
-![](./images/media/image149.png){width="3.0in"
+![](./images/image149.png){width="3.0in"
 height="2.7163867016622922in"}
 
 You also get ID selectors,
@@ -5517,7 +5518,7 @@ ID Selectors use the ID attribute of html element.
 Since the ID is unique within a web page, it allows the developer to
 select a specific element for styling.
 
-![](./images/media/image150.png){width="3.0in"
+![](./images/image150.png){width="3.0in"
 height="2.7163867016622922in"}You were introduced to class selectors.
 Class selectors allow you to select elements based on the class
 attribute applied to them.
@@ -5542,7 +5543,7 @@ Attribute selectors match the attribute of value for a given element.
 
 Can you recall what attributes and value mean?
 
-![](./images/media/image151.png){width="5.0in"
+![](./images/image151.png){width="5.0in"
 height="2.6837609361329835in"}
 
 A quick recap, let\'s say you have a html image tag, img is the name of
@@ -5550,7 +5551,7 @@ the tag, while src and alt are the names of its attributes.
 
 The actual name of the image file, first.jpeg is the value.
 
-![](./images/media/image152.png){width="5.0in"
+![](./images/image152.png){width="5.0in"
 height="2.662671697287839in"}
 
 Now let\'s explore an example of how attribute selectors can be used.
@@ -5564,7 +5565,7 @@ home, and the third class called about.
 With different variations of the attribute selectors you can target
 different attributes of the html.
 
-![](./images/media/image153.png){width="4.0in"
+![](./images/image153.png){width="4.0in"
 height="3.123287401574803in"}
 
 For instance, you can style all elements that have a defined class by
@@ -5572,7 +5573,7 @@ adding class inside the square brackets.
 
 In this case, it will turn the second and third link green.
 
-![](./images/media/image154.png){width="4.0in"
+![](./images/image154.png){width="4.0in"
 height="3.123287401574803in"}
 
 Alternatively, you can target all three elements by inserting the href
@@ -5584,7 +5585,7 @@ In this case, it can be the text meta.
 Now all three links will be green because each link contains the word
 meta.
 
-![](./images/media/image155.png){width="4.0in"
+![](./images/image155.png){width="4.0in"
 height="3.123287401574803in"}
 
 Or you can target only the first element by adding the specific link as
@@ -5597,7 +5598,7 @@ of an attribute selector to modify it.
 This makes attribute selectors a very flexible styling tool, but let\'s
 move on to two other widely used selectors that you need to know about.
 
-![](./images/media/image156.png){width="5.0in"
+![](./images/image156.png){width="5.0in"
 height="1.9545942694663168in"}
 
 Nth-of-type and nth-child selectors, the syntax of these two selectors
@@ -5606,7 +5607,7 @@ is very similar.
 As their name suggests, these selectors target the nth-child or nth-type
 of a specified parent element, but what does parent mean exactly?
 
-![](./images/media/image157.png){width="6.5in"
+![](./images/image157.png){width="6.5in"
 height="4.215972222222222in"}
 
 Well, say you have a few list elements in an unordered list element.
@@ -5621,7 +5622,7 @@ nth-child selectors to do that.
 Both will produce the same output, where the second list element will be
 colored aqua in this case.
 
-![](./images/media/image158.png){width="2.5in"
+![](./images/image158.png){width="2.5in"
 height="2.4502843394575677in"}
 
 Another commonly used selector is the star selector, just like in many
@@ -5633,12 +5634,12 @@ It will affect all the elements in the html file.
 It is especially helpful when you want to reset the default settings and
 styles that browsers use before they apply your styling to the web page.
 
-![](./images/media/image159.png){width="5.0in"
+![](./images/image159.png){width="5.0in"
 height="2.368589238845144in"}
 
 Finally, did you know that you can group selectors?
 
-![](./images/media/image160.png){width="4.0in"
+![](./images/image160.png){width="4.0in"
 height="2.388888888888889in"}
 
 If you want to apply the same styling to more than one type of element,
@@ -5846,7 +5847,7 @@ different groups of elements.
 CSS makes it possible to combine more than one selector so that you can
 apply rules to elements based on their relationship with one another.
 
-![](./images/media/image161.png){width="3.0in"
+![](./images/image161.png){width="3.0in"
 height="3.145278871391076in"}4 main types of combination selectors.
 Descendant selectors, child selectors, general sibling selectors, and
 adjacent sibling selectors.
@@ -5866,7 +5867,7 @@ You pick a person in the family and then select all descendants, such as
 children, grandchildren and great grandchildren, who have, say, brown
 hair.
 
-![](./images/media/image162.png){width="3.0in"
+![](./images/image162.png){width="3.0in"
 height="3.138888888888889in"}
 
 For example, you can have an HTML file with a div tag, and its ID
@@ -5875,14 +5876,14 @@ attributes set to blog, inside the div tag are a few heading tags.
 In this example, all h1 elements are descendants of the element with the
 ID blog.
 
-![](./images/media/image163.png){width="6.0in"
+![](./images/image163.png){width="6.0in"
 height="2.9967946194225723in"}
 
 So, to make all the h1 descendants blue, you can add the ID selector
 hash #blog followed by the h1 selector with a space in between and then
 the properties in curly brackets.
 
-![](./images/media/image164.png){width="6.0in"
+![](./images/image164.png){width="6.0in"
 height="2.9967946194225723in"}
 
 Child selectors on the other hand are more specific than descendant
@@ -5899,7 +5900,7 @@ The effect is that now only the first h1 element turns blue.
 This is because it is the only h1 element that is a child of the element
 with the blog id attribute.
 
-![](./images/media/image165.png){width="6.0in"
+![](./images/image165.png){width="6.0in"
 height="2.9967946194225723in"}
 
 Next, let\'s focus on general sibling selectors, which apply rules to
@@ -5925,7 +5926,7 @@ another element.
 Once again, if you think about a family, this selector selects a person
 and then selects the next younger brothers.
 
-![](./images/media/image166.png){width="6.0in"
+![](./images/image166.png){width="6.0in"
 height="2.9967946194225723in"}
 
 Finally, let\'s replace the tilde with a plus sign to update this
@@ -5962,7 +5963,7 @@ with two list items.
 
 Now, let\'s inspect the CSS rules.
 
-![](./images/media/image167.png){width="6.0in"
+![](./images/image167.png){width="6.0in"
 height="2.9967946194225723in"}
 
 First, I set basic rules for the html body.
@@ -5992,7 +5993,7 @@ case is set to gray.
 
 So what elements will be styled?
 
-![](./images/media/image168.png){width="6.0in"
+![](./images/image168.png){width="6.0in"
 height="2.9967946194225723in"}
 
 Remember, sibling selectors apply rules to all the selectors of the same
@@ -6007,7 +6008,7 @@ So, the rules will target the un ordered list that follows it.
 And again, the second div tag will also serve as a reference and the
 rules will affect the un ordered list that follows it.
 
-![](./images/media/image169.png){width="6.0in"
+![](./images/image169.png){width="6.0in"
 height="3.1955129046369204in"}
 
 Let\'s inspect the output.
@@ -6023,7 +6024,7 @@ The sibling selector only targets the items that follow the div tags.
 By now you should realize that you can use the sibling selector to
 efficiently apply the same styling to several elements with one rule.
 
-![](./images/media/image170.png){width="6.0in"
+![](./images/image170.png){width="6.0in"
 height="3.1955129046369204in"}
 
 If there is another instance where an un ordered list follows a div tag
@@ -6032,7 +6033,7 @@ on this page, it will also have a box shadow.
 But say the page has other un ordered lists that do not follow a div
 tag, the styling will not be applied to those elements.
 
-![](./images/media/image171.png){width="6.0in"
+![](./images/image171.png){width="6.0in"
 height="3.1955129046369204in"}
 
 Next, I will demonstrate how to use the adjacent selector.
@@ -6060,7 +6061,7 @@ element following the reference element.
 Whereas the sibling selector targets all the elements of the same type
 after the reference element.
 
-![](./images/media/image172.png){width="5.0in"
+![](./images/image172.png){width="5.0in"
 height="2.66292760279965in"}
 
 Let\'s inspect the output and CSS code.
@@ -6117,7 +6118,7 @@ Pseudo-classes are also very effective to target specific elements such
 as, let\'s say, the fifth item in a list, bold items, empty elements,
 and so on.
 
-![](./images/media/image173.png){width="3.0in"
+![](./images/image173.png){width="3.0in"
 height="2.3188779527559054in"}
 
 Let\'s review the general syntax that you use for various
@@ -6131,7 +6132,7 @@ you can group them in terms of general similarities and their purpose.
 
 Let\'s explore a few of these general classifications.
 
-![](./images/media/image174.png){width="1.5in"
+![](./images/image174.png){width="1.5in"
 height="2.45675634295713in"}
 
 The first group you need to know about is user action states, which
@@ -6151,13 +6152,13 @@ be used.
 Say you have a HTML file with an a tag inside a paragraph and a button
 element inside a div element.
 
-![](./images/media/image175.png){width="4.0in"
+![](./images/image175.png){width="4.0in"
 height="1.9089741907261593in"}
 
 The paragraph element has a class defined as \"mypage\" and the button
 class is defined as \"mybutton.\"
 
-![](./images/media/image176.png){width="4.0in"
+![](./images/image176.png){width="4.0in"
 height="1.9089741907261593in"}Now, let\'s explore the CSS.
 
 First it contains basically styling for the mypage and mybutton class
@@ -6166,7 +6167,7 @@ elements.
 Then to make the link change its appearance when a user hovers over it,
 you use the hover pseudo-class to target a tag.
 
-![](./images/media/image177.png){width="4.0in"
+![](./images/image177.png){width="4.0in"
 height="1.9089741907261593in"}
 
 To change the mybutton class, you use the active pseudo-class.
@@ -6180,7 +6181,7 @@ presses and holds the mouse button.
 In this example, the pseudo-class selectors target HTML elements, but
 you can also use them to target HTML class attributes.
 
-![](./images/media/image178.png){width="2.0in"
+![](./images/image178.png){width="2.0in"
 height="2.3480828958880138in"}Next, let\'s focus on Form states.
 
 Previously, when discussing form validation, you were introduced to the
@@ -6197,7 +6198,7 @@ for buttons, checked and indeterminate, that are used for checkboxes,
 and valid and invalid used in case of fields like emails and phone
 numbers.
 
-![](./images/media/image179.png){width="2.0in"
+![](./images/image179.png){width="2.0in"
 height="2.3480828958880138in"}
 
 Another pseudo-class type that you should know about is specific
@@ -6328,7 +6329,7 @@ each of the three points in the example text.
 
 Output
 
-![](./images/media/image180.png){width="4.0in"
+![](./images/image180.png){width="4.0in"
 height="2.9822779965004376in"}
 
 Although the code only changed the first letter of each bullet point, it
@@ -6364,7 +6365,7 @@ points to light sea green.
 
 Output:
 
-![](./images/media/image181.png){width="4.0in"
+![](./images/image181.png){width="4.0in"
 height="1.812587489063867in"}
 
 Because it's only the first line of each bullet point, it almost
@@ -6377,7 +6378,7 @@ viewport.
 
 Output:
 
-![](./images/media/image182.png){width="4.0in"
+![](./images/image182.png){width="4.0in"
 height="3.24050634295713in"}
 
 ## ::selection
@@ -6416,7 +6417,7 @@ Here is an example of a selection of text.
 ## Output:
 
 ![Output for selection of text
-display](./images/media/image183.png){width="6.238194444444445in"
+display](./images/image183.png){width="6.238194444444445in"
 height="3.838888888888889in"}
 
 And another example of the same text but with a different section
@@ -6424,7 +6425,7 @@ selected and highlighted.
 
 ## Output:
 
-![](./images/media/image184.png){width="4.0in"
+![](./images/image184.png){width="4.0in"
 height="2.4914523184601927in"}
 
 Different segments of the text are highlighted depending on the text
@@ -6452,7 +6453,7 @@ experience when you use a marker in the following way.
 
 Output
 
-![](./images/media/image185.png){width="4.0in"
+![](./images/image185.png){width="4.0in"
 height="2.205076552930884in"}
 
 Now the bullet points are cornflower blue and they have the shape
@@ -6521,7 +6522,7 @@ important tips.
 ## Output:
 
 ![Selection of texts preceding and following a
-statement](./images/media/image186.png){width="4.0in"
+statement](./images/image186.png){width="4.0in"
 height="1.3951760717410324in"}
 
 The "content" property is where the text for the guidelines goes. The
@@ -6550,13 +6551,13 @@ Although, you can use web-link states for many functionalities,
 developers often use them to style the color of links that a user
 already opened.
 
-![](./images/media/image187.png){width="4.0in"
+![](./images/image187.png){width="4.0in"
 height="1.481058617672791in"}
 
 For instance, a HTML file can have two a tags, each with its own href
 that links to a different page of a website.
 
-![](./images/media/image188.png){width="4.0in"
+![](./images/image188.png){width="4.0in"
 height="1.2613757655293087in"}
 
 To give the links their initial color, you can use the link pseudo-class
@@ -6574,7 +6575,7 @@ So be careful not to accidentally overwrite a style you want to set.
 Developers use the acronym LVHA to remind them of the order that they
 need to follow when writing pseudo-class rules.
 
-![](./images/media/image189.png){width="1.75in"
+![](./images/image189.png){width="1.75in"
 height="2.192946194225722in"}LVHA stands for link, visited, hover,
 active.
 
@@ -6588,7 +6589,7 @@ the link, visited, hover, and active pseudo-classes.
 Additionally, you will learn two more effects that you can create with
 the hover pseudo-class.
 
-![](./images/media/image190.png){width="6.0in"
+![](./images/image190.png){width="6.0in"
 height="3.066666666666667in"}
 
 In the pseudo_links.html file, I added three tags: a heading tag,
@@ -6597,7 +6598,7 @@ followed by a paragraph tag, and another paragraph tag.
 In the heading tag, I added the name of the restaurant, Little Lemon,
 and the first paragraph tag has a link to their Instagram page.
 
-![](./images/media/image191.png){width="3.0in"
+![](./images/image191.png){width="3.0in"
 height="3.5801531058617675in"}Now I go to my CSS code by clicking on the
 pseudo_links.css file at the top of my screen.
 
@@ -6611,7 +6612,7 @@ By default, the link to the Little Lemon Instagram page displays in a
 blue color because I set it to blue with the link pseudo-class in the
 CSS code.
 
-![](./images/media/image192.png){width="3.0in"
+![](./images/image192.png){width="3.0in"
 height="3.09911854768154in"}
 
 As expected, when I move the mouse over the link, the color changes to
@@ -6635,7 +6636,7 @@ I\'m now going to demonstrate how you can use the pseudo-class hover.
 
 To do this, I use the pseudoshadow.html file I created previously.
 
-![](./images/media/image193.png){width="6.0in"
+![](./images/image193.png){width="6.0in"
 height="3.548570647419073in"}
 
 In this file, I added four paragraph tags, each belonging to a class
@@ -6644,7 +6645,7 @@ called textual.
 I also added random text, commonly used in publishing and graphic design
 as placeholder text.
 
-![](./images/media/image194.png){width="3.0in"
+![](./images/image194.png){width="3.0in"
 height="1.9930074365704287in"}The CSS code that I added is fairly
 simple.
 
@@ -6663,7 +6664,7 @@ The horizontal offset is set to five pixels, the vertical offset is set
 to zero pixels, the blur radius is set to 25 pixels, and the color of
 the shadow is set to black.
 
-![](./images/media/image195.png){width="6.0in"
+![](./images/image195.png){width="6.0in"
 height="3.038096019247594in"}
 
 I moved back to my HTML file to output this code and click on the
@@ -6673,7 +6674,7 @@ The Little Lemon page with blocks of texts displays.
 
 The text looks like regular blocks of texts.
 
-![](./images/media/image196.png){width="6.0in"
+![](./images/image196.png){width="6.0in"
 height="3.038096019247594in"}
 
 But when I hover over a block of code with my mouse, it gets highlighted
@@ -6950,7 +6951,7 @@ time.
 The idea of animation had been around for many years before technology
 was good enough to integrate it into online experiences.
 
-![](./images/media/image197.png){width="5.0in"
+![](./images/image197.png){width="5.0in"
 height="0.9904757217847769in"}
 
 The graphics interchange form or 'gifs' can arguably be labeled as the
@@ -7029,7 +7030,7 @@ users are scrolling.
 Now that you are familiar with some popular effects, let\'s briefly
 visit the pros and cons of adding effects on web pages.
 
-![](./images/media/image198.png){width="5.0in"
+![](./images/image198.png){width="5.0in"
 height="1.5174606299212599in"}
 
 The primary driving factor of web pages these days is to attract the
@@ -7050,7 +7051,7 @@ cause your web page to load slowly in areas with low bandwidth.
 Nonetheless, effects improve online experiences in general and are
 especially used to create intuitive navigation.
 
-![](./images/media/image199.png){width="3.0in"
+![](./images/image199.png){width="3.0in"
 height="3.1425339020122482in"}You should now understand what effects and
 animations are.
 
@@ -7076,7 +7077,7 @@ also make you look dull and cause users to lose attention.
 With the help of CSS, you can make the most of texts by adding
 interesting effects.
 
-![](./images/media/image200.png){width="5.0in"
+![](./images/image200.png){width="5.0in"
 height="3.6455030621172355in"}
 
 First, I will explain how to use the text-overflow property that
@@ -7102,11 +7103,11 @@ scroll to add a scroll bar.
 It is important to note that the text-overflow property here is set to
 ellipsis.
 
-![](./images/media/image201.png){width="4.0in"
+![](./images/image201.png){width="4.0in"
 height="0.7689818460192476in"}An ellipsis is three dots that represent
 the texts that is clipped.
 
-![](./images/media/image202.png){width="4.0in"
+![](./images/image202.png){width="4.0in"
 height="0.7689818460192476in"}If I hover over the overflowing text which
 is present inside, the hidden text is displayed.
 
@@ -7121,7 +7122,7 @@ limits of the box. (no ellipsis).
 
 If I hover over with the cursor, the clipped text is displayed.
 
-![](./images/media/image203.png){width="4.0in"
+![](./images/image203.png){width="4.0in"
 height="4.245989720034996in"}In the third example, I demonstrate how to
 create vertical text.
 
@@ -7133,7 +7134,7 @@ named vert.
 
 Then in the CSS code, I set the writing mode property to be vertical-rl.
 
-![](./images/media/image204.png){width="4.0in"
+![](./images/image204.png){width="4.0in"
 height="4.162047244094488in"}The next example demonstrates the word wrap
 property.
 
@@ -7150,7 +7151,7 @@ across multiple lines.
 
 In the next two examples, I will add text effects using simple CSS code.
 
-![](./images/media/image205.png){width="2.40625in"
+![](./images/image205.png){width="2.40625in"
 height="0.8229166666666666in"}In this example, I use a property called
 text shadow, which has a shorthand with four values.
 
@@ -7161,7 +7162,7 @@ The second is the y-coordinate, which represents the vertical shadow.
 
 The third is the blur radius, and the fourth is the shadow color.
 
-![](./images/media/image206.png){width="5.0in"
+![](./images/image206.png){width="5.0in"
 height="2.854640201224847in"}
 
 This next example explores an extension of the same idea.
@@ -7171,7 +7172,7 @@ My HTML code has two heading tags, each with the class name glow.
 In the corresponding CSS code, I\'ve added the text shadow effects for
 that class.
 
-![](./images/media/image207.png){width="3.0in" height="1.78125in"}I can
+![](./images/image207.png){width="3.0in" height="1.78125in"}I can
 use the output to determine whether I need to adjust the color effects
 until I\'m happy with it.
 
