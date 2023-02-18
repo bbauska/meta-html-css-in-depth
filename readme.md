@@ -2913,6 +2913,7 @@ the **\<figure\>** and **\<figcaption\>** tags to provide a description
 of the image. The **\<img\>** tag is added inside the **\<figure\>** tag
 and the **\<figcaption\>** is specified after it.
 
+```
 > \<figure\> 
 >
 >    \<img src=\"[photo.png]{.underline}\" width=\"320\" alt=\"My Profile Photo\"\> 
@@ -2920,6 +2921,7 @@ and the **\<figcaption\>** is specified after it.
 >    \<figcaption\>A photo of myself on a beach in 2015\</figcaption\> 
 >
 > \</figure\>
+```
 
 One last thing to note is that like videos and audio, the web browser
 only supports specific file types. These file types are:
@@ -3613,42 +3615,30 @@ to configure a flexbox.
 
 ## Original HTML code:
 
+```
 \<body\>
-
   \<div class=\"flex-container\"\>
-
     \<div class=\"box box1\"\>  One..\</div\>
-
     \<div class=\"box box2\"\>  Two..\</div\>
-
     \<div class=\"box box3\"\>  Three..\</div\>
-
     \<div class=\"box box4\"\>  Four..\</div\>
-
     \<div class=\"box box5\"\>  Five..\</div\>
-
     \<div class=\"box box6\"\>  Six..\</div\>
-
     \<div class=\"box box7\"\>  Seven..\</div\>
-
   \</div\>
-
 \</body\>
+```
 
 ## Original CSS file: 
 
+```
 .box{
-
     background-color: aquamarine;
-
     border-radius: 5px;
-
     margin: 2px;
-
     padding: 10px;
-
 }
-
+```
  
 
 ## Output:
@@ -3669,13 +3659,11 @@ flex.
 
 ## display: flex;
 
+```
 .flex-container{
-
     display: flex;
-
 }
-
- 
+```
 
 The output is now seven flex containers that run from left to right
 starting in the top left corner.
@@ -3708,15 +3696,12 @@ Let's first examine the use of justify-content which has a value of
 
 ## CSS:
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center
-
 }
-
- 
+```
 
 ## Output:
 
@@ -3729,17 +3714,13 @@ height="0.875in"}
 The default for this property is 'nowrap' which means the items will
 span the entire width of the axis.
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
 }
-
- 
+```
 
 ## Output:
 
@@ -3757,19 +3738,14 @@ rows to vertical columns.
 
 ## CSS Code:
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
 }
-
- 
+```
 
 ## Output:
 
@@ -3790,20 +3766,15 @@ Let's change the value for it to 'flex-end'.
 
 ## CSS Code:
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
 }
-
+```
  
 
 ## Output:
@@ -3819,28 +3790,19 @@ seen as the beginning.
 
 This property can be used on individual items inside the flex.
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
 }
-
 .box3{
-
     background-color: blanchedalmond;
-
     align-self: center;
-
 }
-
+```
  
 
 ## Output:       
@@ -3860,30 +3822,20 @@ columns using row-gap and column-gap properties.
 
 ## CSS Code:
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
     gap:10px;
-
 }
-
 .box3{
-
     background-color: blanchedalmond;
-
     align-self: center;
-
 }
-
+```
  
 
 ## Output:
@@ -3906,12 +3858,13 @@ empty in shorthand notation are given their default values.
 
 ## For example:
 
+```
 .flex-container{
 
 flex: 0 1 auto;
 
 }
-
+```
  
 
 Here for the flex-container class, there is a set rule for the flex
@@ -3938,17 +3891,13 @@ inside the flex item box3 class.
 
 ## CSS Code:
 
+```
 .box3{
-
     background-color: blanchedalmond;
-
     align-self: center;
-
     flex: 1 1 auto;
-
 }
-
- 
+```
 
 ## Output:
 
@@ -6343,25 +6292,17 @@ points to light sea green.
 
 ## CSS code:
 
+```
 > ul{
->
 >     list-style-type: none;
->
 > }
->
->  
 >
 > li::first-line {
->
 >     color: lightseagreen;
->
 >     text-decoration: underline;
->
 >     line-height: 1;
->
 > }
-
- 
+```
 
 Output:
 
@@ -6392,25 +6333,17 @@ of text.
 
 ## CSS code:
 
+```
 > ul{
->
 >     list-style-type: none;
->
 > }
->
->  
 >
 > li::selection {
->
 >     color:brown;
->
 >     background-color: antiquewhite;
->
 >     line-height: 1;
->
 > }
-
- 
+```
 
 Here is an example of a selection of text.
 
@@ -6437,6 +6370,7 @@ Markers are typically used to add style elements to a list, for
 instance, to color bullet points. For example, you can enhance the user
 experience when you use a marker in the following way.
 
+```
 > CSS code:
 >
 > li::marker {
@@ -6450,6 +6384,7 @@ experience when you use a marker in the following way.
 > }
 >
 >  
+```
 
 Output
 
@@ -6471,6 +6406,7 @@ important tips.
 
 ## HTML code:
 
+```
 > \<body\>
 >
 >     \<p id=\"tips\"\> Don\'t rinse your pasta after it is drained. \</p\>
@@ -6482,41 +6418,28 @@ important tips.
 > \</body\>
 >
 >  
+```
 
 ## CSS code:
 
+```
 > #tips::before{
->
 >     background: darkkhaki;
->
 >     color:darkslategray;
->
 >     content: \"Tip:\";
->
 >     padding-left: 3px;
->
 >     padding-right: 5px;
->
 >     border-radius: 10%;
->
 > }
->
->  
 >
 > #tips::after{
->
 >     background:darkkhaki;
->
 >     color:darkslategray;
->
 >     content: \"!!\";
->
 >     padding-right: 5px;
->
 >     border-radius: 20%;
->
 > }
-
+```
  
 
 ## Output:
