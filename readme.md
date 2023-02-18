@@ -1,3 +1,28 @@
+<h2 align="center">HTML &amp; CSS in Depth</h2>
+<br/>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img  src="./images/meta-logo.jpg?raw=true"
+  alt="meta logo"
+  style="width:35%;" />
+</p>
+
+<h3 align="center">meta-html-css-in-depth - HTML &amp; CSS in Depth</h3>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 01. html & css in depth logo (01) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="./images/image001.png?raw=true"
+  style="width:65%;"
+  alt="HTML &amp; CSS in Depth logo." />
+
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
+
 (Coursera/meta)
 
 ![](./images/media/image1.png){width="1.2083333333333333in"
@@ -93,7 +118,7 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 
-![](./images/media/image2.png){width="5.0in"
+![](./images/media/image002.png){width="5.0in"
 height="1.6068372703412073in"}
 
 Hypertext is text which contains links to other text.
