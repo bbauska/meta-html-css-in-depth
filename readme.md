@@ -7333,4 +7333,4 @@ and transition properties in conjunction.
 
 A number of different effects like these can be performed with the help
 of the two properties, transform and transition and combining them with
-pseudo classes such as hover active and others
+pseudo classes such as hover active and others.
