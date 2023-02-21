@@ -2,9 +2,9 @@
 
 (Coursera/meta)
 
-![](RackMultipart20230221-1-dcr3jc_html_6e72c8cf36acec1d.png)
+![Coursera logo](./images/Coursera-logo.png)
 
-![](RackMultipart20230221-1-dcr3jc_html_a6696f6b28cf7ffb.png)
+![meta logo](./images/image001.png)
 
 # Course syllabus
 
@@ -58,13 +58,13 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 
-![](RackMultipart20230221-1-dcr3jc_html_139f1f07841c686f.png)
+![Hypertext vs Markup](./image/image002.png)
 
 Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-![](RackMultipart20230221-1-dcr3jc_html_9260f3aab02926f3.png)
+![Basic HTML document template](./image/image003.png)
 
 HTML elements with their opening and closing tags in angle brackets make up an HTML document.
 
