@@ -148,7 +148,7 @@ Inside the body tag you can lay out the website with very semantic tags to descr
 
 For a typical HTML page, the structure can be semantically described using the header, main and footer semantic HTML tags.
 
-![](RackMultipart20230221-1-dcr3jc_html_b6969de263997d52.png)
+![Header, main and footer](./images/image007.png)
 
 For example, suppose you lay out your page with a header section that contains some company logo and navigation links.
 
@@ -156,13 +156,13 @@ Then a main section contains sections and articles.
 
 Finally, a footer section contains contact information and social media links.
 
-![](RackMultipart20230221-1-dcr3jc_html_9515db6868740707.png)
+![nav tag](./images/image008.png)
 
 The main navigation section of your web page can also be described semantically using the Nav tag.
 
 Depending on how web pages designed the Nav element is often placed after the header element and the header element is used for logos.
 
-![](RackMultipart20230221-1-dcr3jc_html_2212bbe7437e0446.png)
+![unordered list tag](./images/image009.png)
 
 The main links of your website are then added inside the Nav element.
 
@@ -180,9 +180,9 @@ Or self-contained composition in a document page application or site that is ind
 
 That's quite a mouthful.
 
-It may help to think of a page in a newspaper.
+![newspaper template](./images/image010.png)
 
-I ![](RackMultipart20230221-1-dcr3jc_html_8049c6a131a424b7.png) t may help to think of a page in a newspaper.
+It may help to think of a page in a newspaper.
 
 There are many articles on the page and you can cut out the individual articles with scissors if needed.
 
@@ -194,7 +194,9 @@ Let's examine how the article element is used say you are developing a blog abou
 
 It's good practice to contain the blog post content inside of the article element because it's a complete self-contained composition on a web page.
 
-Y ![](RackMultipart20230221-1-dcr3jc_html_a8f80ead64cccde6.png) ou should place the article element within the main element.
+![article tag within main element](./images/image011.png)
+
+You should place the article element within the main element.
 
 Then add your regular heading \<h2\> and paragraph \<p\> tags within the article element.
  The reason for doing it this way is because the main element semantically represents the main content of the page.
