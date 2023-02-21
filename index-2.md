@@ -58,13 +58,13 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 
-![Hypertext vs Markup](./image/image002.png)
+![Hypertext vs Markup](./images/image002.png)
 
 Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-![Basic HTML document template](./image/image003.png)
+![Basic HTML document template](./images/image003.png)
 
 HTML elements with their opening and closing tags in angle brackets make up an HTML document.
 
@@ -102,7 +102,7 @@ If HTML is the frame and structure of a building, then CSS is the paint, wallpap
 
 CSS tells the web browser how to display HTML elements on screen.
 
-![](RackMultipart20230221-1-dcr3jc_html_f66c1501c98bd504.png)
+![Style elements, box model, document flow](./images/image004.png)
 
 You use CSS to style elements within an HTML document, create an appealing layout for your webpage using the box model, and arrange page elements using normal document flow.
 
@@ -134,13 +134,13 @@ However, there are many more semantic HTML elements available to you as a develo
 
 In this report I will share a structured approach you can take to make sure that you create a well-formed web page.
 
-![](RackMultipart20230221-1-dcr3jc_html_618d6af1ead4a93c.png)
+![Basic HTML Page Structure](./images/image005.png)
 
 Let's revisit the basic structure of an HTML page which includes the head and body.
 
 Inside the body tag you can lay out the website with very semantic tags to describe each of the sections.
 
-![](RackMultipart20230221-1-dcr3jc_html_eaa55c3abea1a157.png)
+![HTML Tags](./images/image006.png)
 
 For a typical HTML page, the structure can be semantically described using the header, main and footer semantic HTML tags.
 
