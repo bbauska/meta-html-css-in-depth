@@ -2,7 +2,7 @@
 
 (Coursera/meta)
 
-![Coursera logo](./images/Coursera-logo.png)
+![Coursera logo](./images/coursera-logo.png)
 
 ![meta logo](./images/image001.png)
 
