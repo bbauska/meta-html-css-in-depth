@@ -203,7 +203,8 @@ Then add your regular heading \<h2\> and paragraph \<p\> tags within the article
 
 And inside of it there can be multiple article elements for something like a blog post list.
 
-A ![](RackMultipart20230221-1-dcr3jc_html_7b8a3d42bea15282.png) t the end of your document is the footer element.
+![footer element](./images/image012.png)
+At the end of your document is the footer element.
 
 This might contain additional navigational links or content.
 
@@ -223,7 +224,9 @@ You can add a section element to semantically define individual sections of the 
 
 It is important to note that sections should contain heading elements to semantically describe the section.
 
-I ![](RackMultipart20230221-1-dcr3jc_html_d60e86479d61f394.png) t is also possible to use section elements to describe different sections of your webpage, the section element doesn't require the article element.
+![Descriptive section elements](./images/image013.png)
+
+It is also possible to use section elements to describe different sections of your webpage, the section element doesn't require the article element.
  It all depends on how you want to semantically describe your page.
 
 And now you know how to semantically describe the contents of a web page, your web pages more accessible because the content is semantically described to add meaning.
@@ -234,11 +237,11 @@ Now, search engines and accessibility software can easily understand the content
 
 The Little Lemon Restaurant has asked me to add a new blog page to their website. They've told me that the page will contain several blog posts, and that it must use semantic html so that search engines and accessibility software can understand the semantics of the page.
 
-![](RackMultipart20230221-1-dcr3jc_html_bda471746b259bd6.png)
+![blog.html](./images/image014.png)
 
 I've set up my basic html document structure in a file named blog.html. I'll start off by adding my basic semantic structure.
 
-![](RackMultipart20230221-1-dcr3jc_html_79cbe5a483215d92.png)
+![SEO - Search Engine Optimization](./images/image015.png)
 
 First, I add the header element. Followed by the nav element, Followed by the main element. Followed by the footer element.
 
@@ -280,11 +283,10 @@ The blog page looks good and all thanks to proper semantic design that ensures a
 
 I'm sure that the Little Lemon Restaurant will get lots of business through their blog, and their customers with disabilities will be able to access the blog with no problems
 
-**Metadata**
-
+<b>Metadata</b>
 When was the last time you used a search engine? Probably in the last few hours or minutes. Perhaps you just wanted to quickly look something up or maybe you needed more in-depth information on a topic. Either way, the search engine you used will have returned a list of results that were most relevant to what you searched for. But how does a search engine determine which web pages are most relevant in this video? You will learn how search engines analyze web pages and how meta tags help provide information for search engines.
 
-![](RackMultipart20230221-1-dcr3jc_html_8e2b6ea693acae5c.png)
+![SEO - Search Engine Optimization](./images/image015.png)
 
 A major part of launching a website is a process called search engine optimization or SEO. This process involves making improvements to a website's content semantics & delivery to improve its ranking in search results.
  You might be wondering what exactly does a search engine do when it analyzes a web page?
@@ -303,7 +305,7 @@ And while it's not disclosed how the ranks are determined, there are many best p
 
 But for now, let's just focus on how meta tags influence website ranking.
 
-![](RackMultipart20230221-1-dcr3jc_html_aa5cfe8b201e35b9.png)
+![metadata vs meta tags](./images/image016.png)
 
 Meta tags define metadata about a web page.
 
@@ -311,9 +313,11 @@ What is metadata? You ask? It's data about other data which in this case is data
 
 Meta tags are added inside the head element of your html document and as you know, nothing inside the head element is displayed in the web browser.
 
-I ![](RackMultipart20230221-1-dcr3jc_html_f0a3d352b3e85b.png) n other words, meta tags are unseen elements within the browser. Note that there is no closing tag for the meta tag.
+![](./images/image017.png)
 
-![](RackMultipart20230221-1-dcr3jc_html_dea62d6ef3531fd2.png)
+In other words, meta tags are unseen elements within the browser. Note that there is no closing tag for the meta tag.
+
+![name and content of meta data element](./images/image018.png)
 
 The meta element has two attributes, name and content.
 
@@ -321,13 +325,13 @@ The name attribute specifies the name of the metadata and the content attribute 
 
 Let's examine some examples of metadata.
 
-![](RackMultipart20230221-1-dcr3jc_html_b20f1392670b5bf3.png)
+![](./images/image019.png)
 
 The author metadata specifies the author of the web page.
 
 The name attribute is author and the content attribute is the person and company who are the author of the web page.
 
-![](RackMultipart20230221-1-dcr3jc_html_7b4f5b15bcac76b.png)
+![](./images/image020.png)
 
 The description metadata describes the content of the web page.
 
@@ -335,7 +339,7 @@ This is often used by search engines as descriptive text in search results.
 
 The name attribute is set to description and the content attribute is the descriptive text.
 
-![](RackMultipart20230221-1-dcr3jc_html_ca811b00587791c.png)
+![](./images/image021.png)
 
 The keywords metadata was previously used to provide search keywords for search engines.
 
@@ -343,17 +347,17 @@ However, this led to a lot of websites using the keywords metadata to manipulate
 
 One of the major search engines now ignores this metadata and another uses keywords metadata as a spam indicator because of this, it's recommended not to include this metadata in modern web pages.
 
-![](RackMultipart20230221-1-dcr3jc_html_d12e1823b161f60b.png)
+![](./images/image022.png)
 
 Another type of metadata is the robot's metadata and it tells search engines if and how they should analyze your web page.
 
 The name 'robots' comes from the automated software often referred to as bots, that search engines used to analyze websites.
 
-![](RackMultipart20230221-1-dcr3jc_html_651760ad009cd4c9.png)
+![](./images/image023.png)
 
 The content attribute for Robots has four possible values. Index tells the bot to analyze the page. Follow tells the bot to also visit all links on the web page. No index tells the bot not to analyze the page. Some bots will ignore this so it's best not to rely on this to stop bots from analyzing your page and no follow tells the bot not to visit links on the web page. Again, some bots will ignore this value so it's best not to rely on it.
 
-![](RackMultipart20230221-1-dcr3jc_html_a55df79838060c1c.png)
+![](./images/image024.png)
 
 Finally, there's the view ports metadata. The view port metadata is important when designing responsive web pages. Why you might ask because when a web pages viewed on a phone or tablet, the device will by default attempt to render the web page as if it is being viewed on a desktop. This results in a poor browsing experience for the user. The solution is to define view ports metadata. There are many values available for view ports metadata. The most used value for the mobile experiences is to set the width to device dash with and the initial scale to 1.0, you can learn more about view ports in the additional reading. It's important to note that view port metadata does not solve all the issues with browsing websites on mobile devices.
 
@@ -365,7 +369,7 @@ This is because many search engines now include websites mobile experience as a 
 
 But that's for later modules.
 
-![](RackMultipart20230221-1-dcr3jc_html_246e294b2f5f754d.png)
+![](./images/image025.png)
 
 For now, it's important to know that author, description, keywords, robots and viewports metadata all play a role in the search engine optimization of web pages.
 
@@ -373,7 +377,7 @@ For now, it's important to know that author, description, keywords, robots and v
 
 An important part of being a developer is not just the tools you use, such as your integrated development environment, but also the repository of knowledge and code templates you build up over time. In this module, I'm going to introduce you to one of these templates, which will help you get set up quickly for building webpages. Let's open Visual Studio Code to go through the templates step-by-step. In the folder, we have _ **index.html** _along with the JS folder and a CSS folder. Inside the JS folder, there's a file named _ **script.js** _. There is no content in this file. It is added to this folder so that you can easily add JavaScript code to the webpage. I recommend that you add any other JavaScript files to this folder too. Next, I'll open the CSS folder. In the folder there's a file named _ **styles.css** _. Again, there is no content in this file, but it is here so that you can easily add CSS rules to the webpage. Again, it's best if you add any other CSS files also to this folder.
 
-![](RackMultipart20230221-1-dcr3jc_html_bf7d5a5237f7c88f.png)
+![](./images/image026.png)
 
 I go back to my template folder and open it in Visual Studio Code. I open the index.html file. The file has a semantic HTML document structure set up.
 
@@ -381,7 +385,7 @@ At the top, there is the DOCTYPE declaration followed by the HTML root element. 
 
 For now, the main thing to know is that if you plan on sharing the webpage on social media, you should remember to uncomment this HTML section and update the content attributes.
 
-![](RackMultipart20230221-1-dcr3jc_html_97eb2cb5f73b2ddd.png)
+![](./images/image027.png)
 
 The next block of commented out code is for icons. If you want to show an icon in the web browser tab for your website, you can update the href attributes here to point to your icon.
 
@@ -391,17 +395,17 @@ To speed things up for you, there is a link already set up to reference the styl
 
 By now you can probably see how useful this template is.
 
-![](RackMultipart20230221-1-dcr3jc_html_7a7c3b819149e726.png)
+![](./images/image028.png)
 
 Let's continue to the body element. The body element already contains a basic semantic structure. This includes the header element for your website title or logo, the nav element for your website navigation, the main element for your main content, and the footer element for any copyright notices or links to secondary webpages.
 
-![](RackMultipart20230221-1-dcr3jc_html_7a1b13f91c562203.png)
+![](./images/image029.png)
 
 Below the footer element, you add script elements for JavaScript files. To make your life easy, a script element is already set up to reference the script.js file in the JS folder. With this template, you'll be able to quickly start building out webpages. It's worth keeping a copy of this template on your local machine to use and reference in future projects.
 
 In this module, you've been introduced to a semantic HTML template that you can use for building webpages. Good luck.
 
-**Layout design**
+<b>Layout design</b>
 
 As you build web pages throughout your career, you'll notice that many pages follow similar layouts and structures. This is the outcome of many years of research into user interface design and user experience. Different companies, libraries and frameworks then adopt the resulting best practices.
 
@@ -411,13 +415,13 @@ Many examples of these layouts can be seen in the popular bootstrap framework. H
 
 Websites often have a top navbar layout to provide a set of essential anchor links to the user. These typically link to the main areas of the website, such as product pages, careers pages or contact pages. This provides the visitor to the website with a consistent navigation experience.
 
-![](RackMultipart20230221-1-dcr3jc_html_c9dab9af13cfee44.png)
+![](./images/image030.png)
 
 **Carousel layout**
 
 Product-focused websites often use a large carousel on their homepage to highlight their featured products, discounts and offers. The carousel contains content items that will rotate through the carousel area at a fixed interval.
 
-![](RackMultipart20230221-1-dcr3jc_html_aa9585346dfd9cf0.png)
+![](./images/image031.png)
 
 **Blog layout**
 
@@ -425,17 +429,17 @@ The blog layout is used to feature multiple content items of differing importanc
 
 It is often seen on news websites where new articles will appear on the page each day based on current events.
 
-![](RackMultipart20230221-1-dcr3jc_html_567694175567e876.png)
+![](./images/image032.png)
 
 The layout typically features different-sized feature areas followed by a series of article summary areas that link to full articles.
 
-![](RackMultipart20230221-1-dcr3jc_html_b52e4e8f2900497c.png)
+![](./images/image033.png)
 
 **Dashboard layout**
 
 Dashboard layouts are often used in enterprise software for managing various web applications. They typically feature a sidebar for navigation with the main content area containing forms for configuration or reporting data such as graphs and tables. This trendy layout provides a good user experience for business users.
 
-![](RackMultipart20230221-1-dcr3jc_html_a02e16e8b87dd2f9.png)
+![](./images/image034.png)
 
 **More layouts**
 
@@ -465,7 +469,9 @@ To improve the user experience, they had to find a way to display information ab
 
 To address this challenge, Facebook established the Open Graph Protocol in 2010.
 
-T ![](RackMultipart20230221-1-dcr3jc_html_f92a09f9277ef9ba.png) he Open Graph Protocol is a set of Metadata rules that allow web pages to describe themselves to social networks.
+![](./images/image035.png)
+
+The Open Graph Protocol is a set of Metadata rules that allow web pages to describe themselves to social networks.
  There are many Metadata options available within the protocol, but before you learn about them, let's first discuss how the Open Graph Protocol Metadata is defined.
 
 Earlier in this lesson, you learned that Meta tags are defined inside of the head element of an HTML document.
@@ -478,7 +484,7 @@ Each property in the Open Graph Protocol starts with og : as a convention to ide
 
 The Open Graph Protocol requires that you must always include four properties on a webpage.
 
-![](RackMultipart20230221-1-dcr3jc_html_3f936d584e28c279.png)
+![](./images/image036.png)
 
 These are title, type, URL, and image.
 
@@ -550,7 +556,7 @@ Now let's examine how to prepare a web page so it can be linked on social media 
 
 I've opened index.html in visual studio code.
 
-![](RackMultipart20230221-1-dcr3jc_html_973430c3437a6389.png)
+![](./images/image037.png)
 
 At a minimum, I need to add four pieces of metadata required by the protocol.
 
@@ -588,7 +594,7 @@ However, there is some optional metadata I can add to provide additional informa
 
 Since the platforms vary in what they display to their users, it's best to provide as much information as possible.
 
-![](RackMultipart20230221-1-dcr3jc_html_d96cd81ae52bf279.png)
+![](./images/image038.png)
 
 I'll add three more or meta tags to the head element.
 
@@ -685,7 +691,7 @@ Let's examine how HTML allows you to do simple client-side validation.
 
 HTML has several input types that are validated by the web browser.
 
-![](RackMultipart20230221-1-dcr3jc_html_6b23c4c6e477e19b.png)
+![](./images/image039.png)
 
 As demonstrated in the example, email is used for email addresses.
 
@@ -693,7 +699,7 @@ Others include "tel" for telephone numbers, "url" for URLs such as www.data.com,
 
 Say for instance, a user makes mistakes on a user account form when entering a telephone number and URL, the browser will validate the entered data against the requirements of the input type and provide user feedback.
 
-![](RackMultipart20230221-1-dcr3jc_html_b714a6901595fbba.png)
+![](./images/image040.png)
 
 Another example is the required attribute, which indicates that the user must supply a value to an input field.
 
@@ -967,7 +973,7 @@ Everything displays correctly.
 
 However, I'd like to improve the user experience by informing the user what each field represents.
 
-![](RackMultipart20230221-1-dcr3jc_html_7b91970950f05951.png)
+![](./images/image041.png)
 
 To do this, I'll add a label element before each input element.
 
@@ -987,7 +993,7 @@ Then, to associate the label with the input field, I add the four attribute and 
 
 Finally, I'll add a line break tag after the label element so that the input field displays below the label. I then repeat the same process for each input element.
 
-![](RackMultipart20230221-1-dcr3jc_html_c942e67dce7c32a9.png)
+![](./images/image042.png)
 
 I save the file again and open the Live Preview.
 
@@ -995,7 +1001,7 @@ Oh, yes, that's much better.
 
 The form labels now display above the input fields.
 
-![](RackMultipart20230221-1-dcr3jc_html_8eafa5420fc5999e.png)
+![](./images/image043.png)
 
 To finalize the form, I need to add one more thing, the submit button. Inside the last div element, I add a button element.
 
@@ -1025,7 +1031,7 @@ In this section, you will learn more about the capabilities of client-side valid
 
 By now you've learned about the different HTML input types and how they validate the format of data, but there are additional attributes that you can apply to elements for further validation.
 
-![](RackMultipart20230221-1-dcr3jc_html_214aad038d2b5b3b.png)
+![](./images/image044.png)
 
 First, let's explore how you can ensure that the user provides a value to a form field. This example of a log-in form contains two fields, one for the username and one for the password.
 
@@ -1037,11 +1043,13 @@ But this is a waste of server resources because although the server-side validat
 
 Let's improve this form by using client-side validation to ensure the user enters values to both fields.
 
-![](RackMultipart20230221-1-dcr3jc_html_7edc7fc3aed296f1.png)
+![](./images/image045.png)
 
 Now with the required attribute in the code, if one of the fields is empty and the user clicks the submit button, the request will not be submitted to the web server.
 
-T ![](RackMultipart20230221-1-dcr3jc_html_c70e845c14bfe3a5.png) he web browser will focus on the first empty input element and inform the user that a field is empty.
+![](./images/image046.png)
+
+The web browser will focus on the first empty input element and inform the user that a field is empty.
 
 Now the form creates a much better user experience and prevents unnecessary usage of web server resources, but user input that is too short or too long would also result in unnecessary submissions to the web server.
 
@@ -1051,7 +1059,7 @@ Let's say you want the usernames to be at least three characters long and a maxi
 
 Fortunately, there are two more attributes you can use to ensure the correct length of data.
 
-![](RackMultipart20230221-1-dcr3jc_html_3c49b2f76276fa3c.png)
+![](./images/image047.png)
 
 You can add the min length and max length attributes to the fields to specify the required length. In this case, since the minimum value for the username is set to three, a two-character entry would be invalid.
 
@@ -1067,7 +1075,7 @@ This can be readily implemented using CSS.
 
 To highlight a field in red when the data is invalid, you use the input element selector.
 
-![](RackMultipart20230221-1-dcr3jc_html_4f2715273554b79e.png)
+![](./images/image048.png)
 
 You then apply the pseudo-class selector called invalid.
 
@@ -1075,7 +1083,7 @@ You will learn more about pseudo-class selectors later in this course.
 
 For now, the key thing to know is that they are used to select elements based on their state, such as whether the input data is valid or invalid.
 
-![](RackMultipart20230221-1-dcr3jc_html_1478b33740c2632c.png)
+![](./images/image049.png)
 
 Then you add a CSS property to set the border of the element to read.
 
@@ -1085,7 +1093,7 @@ This will cause all form fields to display read from the start like demonstrated
 
 Ideally, you only want fields to appear red as the user enters invalid data.
 
-![](RackMultipart20230221-1-dcr3jc_html_6f2f513570aa56c4.png)
+![](./images/image050.png)
 
 To do this, you need to apply another pseudo-class called focus, which checks if the user is currently entering data into this field.
 
