@@ -198,7 +198,7 @@ It's good practice to contain the blog post content inside of the article elemen
 
 You should place the article element within the main element.
 
-Then add your regular heading \<h2\> and paragraph \<p\> tags within the article element.
+Then add your regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags within the article element.
  The reason for doing it this way is because the main element semantically represents the main content of the page.
 
 And inside of it there can be multiple article elements for something like a blog post list.
@@ -286,7 +286,7 @@ I'm sure that the Little Lemon Restaurant will get lots of business through thei
 <b>Metadata</b>
 When was the last time you used a search engine? Probably in the last few hours or minutes. Perhaps you just wanted to quickly look something up or maybe you needed more in-depth information on a topic. Either way, the search engine you used will have returned a list of results that were most relevant to what you searched for. But how does a search engine determine which web pages are most relevant in this video? You will learn how search engines analyze web pages and how meta tags help provide information for search engines.
 
-![SEO - Search Engine Optimization](./images/image015.png)
+![SEO - Search Engine Optimization](./images/image016.png)
 
 A major part of launching a website is a process called search engine optimization or SEO. This process involves making improvements to a website's content semantics & delivery to improve its ranking in search results.
  You might be wondering what exactly does a search engine do when it analyzes a web page?
@@ -305,7 +305,7 @@ And while it's not disclosed how the ranks are determined, there are many best p
 
 But for now, let's just focus on how meta tags influence website ranking.
 
-![metadata vs meta tags](./images/image016.png)
+![metadata vs meta tags](./images/image017.png)
 
 Meta tags define metadata about a web page.
 
@@ -313,11 +313,11 @@ What is metadata? You ask? It's data about other data which in this case is data
 
 Meta tags are added inside the head element of your html document and as you know, nothing inside the head element is displayed in the web browser.
 
-![](./images/image017.png)
+![](./images/image018.png)
 
 In other words, meta tags are unseen elements within the browser. Note that there is no closing tag for the meta tag.
 
-![name and content of meta data element](./images/image018.png)
+![name and content of meta data element](./images/image019.png)
 
 The meta element has two attributes, name and content.
 
@@ -325,13 +325,13 @@ The name attribute specifies the name of the metadata and the content attribute 
 
 Let's examine some examples of metadata.
 
-![](./images/image019.png)
+![](./images/image020.png)
 
 The author metadata specifies the author of the web page.
 
 The name attribute is author and the content attribute is the person and company who are the author of the web page.
 
-![](./images/image020.png)
+![](./images/image021.png)
 
 The description metadata describes the content of the web page.
 
@@ -339,7 +339,7 @@ This is often used by search engines as descriptive text in search results.
 
 The name attribute is set to description and the content attribute is the descriptive text.
 
-![](./images/image021.png)
+![](./images/image022.png)
 
 The keywords metadata was previously used to provide search keywords for search engines.
 
@@ -347,17 +347,17 @@ However, this led to a lot of websites using the keywords metadata to manipulate
 
 One of the major search engines now ignores this metadata and another uses keywords metadata as a spam indicator because of this, it's recommended not to include this metadata in modern web pages.
 
-![](./images/image022.png)
+![](./images/image023.png)
 
 Another type of metadata is the robot's metadata and it tells search engines if and how they should analyze your web page.
 
 The name 'robots' comes from the automated software often referred to as bots, that search engines used to analyze websites.
 
-![](./images/image023.png)
+![](./images/image024.png)
 
 The content attribute for Robots has four possible values. Index tells the bot to analyze the page. Follow tells the bot to also visit all links on the web page. No index tells the bot not to analyze the page. Some bots will ignore this so it's best not to rely on this to stop bots from analyzing your page and no follow tells the bot not to visit links on the web page. Again, some bots will ignore this value so it's best not to rely on it.
 
-![](./images/image024.png)
+![](./images/image025.png)
 
 Finally, there's the view ports metadata. The view port metadata is important when designing responsive web pages. Why you might ask because when a web pages viewed on a phone or tablet, the device will by default attempt to render the web page as if it is being viewed on a desktop. This results in a poor browsing experience for the user. The solution is to define view ports metadata. There are many values available for view ports metadata. The most used value for the mobile experiences is to set the width to device dash with and the initial scale to 1.0, you can learn more about view ports in the additional reading. It's important to note that view port metadata does not solve all the issues with browsing websites on mobile devices.
 
@@ -369,7 +369,7 @@ This is because many search engines now include websites mobile experience as a 
 
 But that's for later modules.
 
-![](./images/image025.png)
+![](./images/image026.png)
 
 For now, it's important to know that author, description, keywords, robots and viewports metadata all play a role in the search engine optimization of web pages.
 
@@ -377,7 +377,7 @@ For now, it's important to know that author, description, keywords, robots and v
 
 An important part of being a developer is not just the tools you use, such as your integrated development environment, but also the repository of knowledge and code templates you build up over time. In this module, I'm going to introduce you to one of these templates, which will help you get set up quickly for building webpages. Let's open Visual Studio Code to go through the templates step-by-step. In the folder, we have _ **index.html** _along with the JS folder and a CSS folder. Inside the JS folder, there's a file named _ **script.js** _. There is no content in this file. It is added to this folder so that you can easily add JavaScript code to the webpage. I recommend that you add any other JavaScript files to this folder too. Next, I'll open the CSS folder. In the folder there's a file named _ **styles.css** _. Again, there is no content in this file, but it is here so that you can easily add CSS rules to the webpage. Again, it's best if you add any other CSS files also to this folder.
 
-![](./images/image026.png)
+![](./images/image027.png)
 
 I go back to my template folder and open it in Visual Studio Code. I open the index.html file. The file has a semantic HTML document structure set up.
 
@@ -385,7 +385,7 @@ At the top, there is the DOCTYPE declaration followed by the HTML root element. 
 
 For now, the main thing to know is that if you plan on sharing the webpage on social media, you should remember to uncomment this HTML section and update the content attributes.
 
-![](./images/image027.png)
+![](./images/image028.png)
 
 The next block of commented out code is for icons. If you want to show an icon in the web browser tab for your website, you can update the href attributes here to point to your icon.
 
@@ -395,11 +395,11 @@ To speed things up for you, there is a link already set up to reference the styl
 
 By now you can probably see how useful this template is.
 
-![](./images/image028.png)
+![](./images/image029.png)
 
 Let's continue to the body element. The body element already contains a basic semantic structure. This includes the header element for your website title or logo, the nav element for your website navigation, the main element for your main content, and the footer element for any copyright notices or links to secondary webpages.
 
-![](./images/image029.png)
+![](./images/image030.png)
 
 Below the footer element, you add script elements for JavaScript files. To make your life easy, a script element is already set up to reference the script.js file in the JS folder. With this template, you'll be able to quickly start building out webpages. It's worth keeping a copy of this template on your local machine to use and reference in future projects.
 
@@ -415,13 +415,13 @@ Many examples of these layouts can be seen in the popular bootstrap framework. H
 
 Websites often have a top navbar layout to provide a set of essential anchor links to the user. These typically link to the main areas of the website, such as product pages, careers pages or contact pages. This provides the visitor to the website with a consistent navigation experience.
 
-![](./images/image030.png)
+![](./images/image031.png)
 
 **Carousel layout**
 
 Product-focused websites often use a large carousel on their homepage to highlight their featured products, discounts and offers. The carousel contains content items that will rotate through the carousel area at a fixed interval.
 
-![](./images/image031.png)
+![](./images/image032.png)
 
 **Blog layout**
 
@@ -429,17 +429,17 @@ The blog layout is used to feature multiple content items of differing importanc
 
 It is often seen on news websites where new articles will appear on the page each day based on current events.
 
-![](./images/image032.png)
+![](./images/image033.png)
 
 The layout typically features different-sized feature areas followed by a series of article summary areas that link to full articles.
 
-![](./images/image033.png)
+![](./images/image034.png)
 
 **Dashboard layout**
 
 Dashboard layouts are often used in enterprise software for managing various web applications. They typically feature a sidebar for navigation with the main content area containing forms for configuration or reporting data such as graphs and tables. This trendy layout provides a good user experience for business users.
 
-![](./images/image034.png)
+![](./images/image035.png)
 
 **More layouts**
 
@@ -469,7 +469,7 @@ To improve the user experience, they had to find a way to display information ab
 
 To address this challenge, Facebook established the Open Graph Protocol in 2010.
 
-![](./images/image035.png)
+![](./images/image036.png)
 
 The Open Graph Protocol is a set of Metadata rules that allow web pages to describe themselves to social networks.
  There are many Metadata options available within the protocol, but before you learn about them, let's first discuss how the Open Graph Protocol Metadata is defined.
@@ -484,7 +484,7 @@ Each property in the Open Graph Protocol starts with og : as a convention to ide
 
 The Open Graph Protocol requires that you must always include four properties on a webpage.
 
-![](./images/image036.png)
+![](./images/image037.png)
 
 These are title, type, URL, and image.
 
@@ -510,7 +510,7 @@ There are several other optional properties that you will learn more about later
 
 The description property provides a description of the webpage.
 
-![](RackMultipart20230221-1-dcr3jc_html_d0d87fb4d59469f.png)
+![](./images/image038.png)
 
 The og:locale property describes the language and territory of the webpage's content.
 
@@ -556,7 +556,7 @@ Now let's examine how to prepare a web page so it can be linked on social media 
 
 I've opened index.html in visual studio code.
 
-![](./images/image037.png)
+![](./images/image039.png)
 
 At a minimum, I need to add four pieces of metadata required by the protocol.
 
@@ -594,7 +594,7 @@ However, there is some optional metadata I can add to provide additional informa
 
 Since the platforms vary in what they display to their users, it's best to provide as much information as possible.
 
-![](./images/image038.png)
+![](./images/image040.png)
 
 I'll add three more or meta tags to the head element.
 
@@ -691,7 +691,7 @@ Let's examine how HTML allows you to do simple client-side validation.
 
 HTML has several input types that are validated by the web browser.
 
-![](./images/image039.png)
+![](./images/image041.png)
 
 As demonstrated in the example, email is used for email addresses.
 
@@ -699,7 +699,7 @@ Others include "tel" for telephone numbers, "url" for URLs such as www.data.com,
 
 Say for instance, a user makes mistakes on a user account form when entering a telephone number and URL, the browser will validate the entered data against the requirements of the input type and provide user feedback.
 
-![](./images/image040.png)
+![](./images/image042.png)
 
 Another example is the required attribute, which indicates that the user must supply a value to an input field.
 
@@ -715,181 +715,213 @@ You already learned about the input HTML tag and how the type property determine
 
 ### Button
 
-This displays a clickable button and it's mostly used in HTML forms to activate a script when clicked. **\<input****   ****type="button"****   ****value="Click me"****  ****onclick="msg()" /\>**
+This displays a clickable button and it's mostly used in HTML forms to activate a script when clicked. **&lt;input****   ****type="button"****   ****value="Click me"****  ****onclick="msg()" /&gt;**
 
-Keep in mind you can also define buttons with the **\<button\>** tag, with the added benefit of being able to place content like text or images inside the tag.
+Keep in mind you can also define buttons with the **&lt;button&gt;** tag, with the added benefit of being able to place content like text or images inside the tag.
 
-\<button onclick="alert('Are you sure you want to continue?')"\>
-
-    \<img src="https://yourserver.com/button\_img.jpg"
-
-        alt="Submit the form" height="64" width="64"\>
-
-\</button\>
+```
+<button onclick="alert('Are you sure you want to continue?')">
+    <img src="https://yourserver.com/button_img.jpg"
+        alt="Submit the form" height="64" width="64">
+</button>
+```
 
 ### Checkbox
 
 Defines a check box allowing single values to be selected or deselected. They are used to let a user select one or more options of a limited number of choices.
 
-\<input type="checkbox" id="dog" name="dog" value="Dog"\>
-
-\<label for="dog"\>I like dogs\</label\>
-
-\<input type="checkbox" id="cat" name="cat" value="Cat"\>
-
-\<label for="cat"\>I like cats\</label\>
+```
+<input type="checkbox" id="dog" name="dog" value="Dog">
+<label for="dog">I like dogs</label>
+<input type="checkbox" id="cat" name="cat" value="Cat">
+<label for="cat">I like cats</label>
+```
 
 ### Radio
 
 Displays a radio button, allowing only a single value to be selected out of multiple choices. They are normally presented in radio groups, which is a collection of radio buttons describing a set of related options that share the same "name" attribute.
 
-\<input type="radio" id="light" name="theme" value="Light"\>
-
-\<label for="light"\>Light\</label\>
-
-\<input type="radio" id="dark" name="theme" value="Dark"\>
-
-\<label for="dark"\>Dark\</label\>
+```
+<input type="radio" id="light" name="theme" value="Light">
+<label for="light">Light</label>
+<input type="radio" id="dark" name="theme" value="Dark">
+<label for="dark">Dark</label>
+```
 
 ### Submit
 
 Displays a submit button for submitting all values from an HTML form to a form-handler, typically a server. The form-handler is specified in the form's "action" attribute:
 
-\<form action="myserver.com" method="POST"\>
+```
+<form action="myserver.com" method="POST">
 
   …
 
-\<input type="submit" value="Submit" /\>
+<input type="submit" value="Submit" />
 
-\</form\>
+</form>
+```
 
-### Text
+<h3>Text</h3>
 
 Defines a basic single-line text field that a user can enter text into.
 
-\<label for="fname"\>First name:\</label\>
-
-\<input type="text" id="fname" name="fname"\>
+```
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+```
 
 ### Password
 
 Defines a single-line text field whose value is obscured, suited for sensitive information like passwords.
 
-\<label for="pwd"\>Password:\</label\>
+```
+<label for="pwd">Password:</label>
 
-\<input type="password" id="pwd" name="pwd"\>
+<input type="password" id="pwd" name="pwd">
+```
 
 ### Date
 
 Displays a control for entering a date with no time (year, month and day).
 
-\<label for="dob"\>Date of birth:\</label\>
+```
+<label for="dob">Date of birth:</label>
 
-\<input type="date" id="dob" name="date of birth"\>
+<input type="date" id="dob" name="date of birth">
+```
 
 ### Datetime-local
 
 Defines a control for entering a date and time, including the year, month and day, as well as the time in hours and minutes.
 
-\<label for="birthdaytime"\>Birthday (date and time):\</label\>
+```
+<label for="birthdaytime">Birthday (date and time):</label>
 
-\<input type="datetime-local" id="birthdaytime" name="birthdaytime"\>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+```
 
 ### Email
 
 Defines a field for an email address. It's similar to a plain text input, with the addition that it validates automatically when submitted to the server.
 
-\<label for="email"\>Enter your email:\</label\>
+```
+<label for="email">Enter your email:</label>
 
-\<input type="email" id="email" name="email"\>
+<input type="email" id="email" name="email">
+```
 
 ### File
 
 Displays a control that lets the user select and upload a file from their computer. To define the types of files permissible you can use the "accept" attribute. Also, to enable multiple files to be selected, add the "multiple" attribute.
 
-\<label for="myfile"\>Select a file:\</label\>
+```
+<label for="myfile">Select a file:</label>
 
-\<input type="file" id="myfile" name="myfile"\>
+<input type="file" id="myfile" name="myfile">
+```
 
 ### Hidden
 
 Defines a control that is not displayed but whose value is still submitted to the server.
 
-\<input type="hidden" id="custId" name="custId" value="3487"\>
+```
+<input type="hidden" id="custId" name="custId" value="3487">
+```
 
 ### Image
 
 Defines an image as a graphical submit button. You should use the "src" attribute to point to the location of your image file.
 
-\<input type="image"src="submit\_img.png" alt="Submit" width="48" height="48"\>
+```
+<input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
+```
 
 ### Number
 
 Defines a control for entering a number. You can use attributes to specify restrictions, such as min and max values allowed, number intervals or a default value.
 
-\<input type="number" id="quantity" name="quantity" min="1" max="5"\>
+```
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+```
 
 ### Range
 
 Displays a range widget for specifying a number between two values. The precise value, however, is not considered important. This is typically represented using a slider or dial control. To define the range of acceptable values, use the "min" and "max" properties.
 
-\<label for="volume"\>Volume:\</label\>
+```
+<label for="volume">Volume:</label>
 
-\<input type="range" id="volume" name="volume" min="0" max="10"\>
+<input type="range" id="volume" name="volume" min="0" max="10">
+```
 
 ### Reset
 
 Displays a button that resets the contents of the form to their default values.
 
-\<input type="reset"\>
+```
+<input type="reset">
+```
 
 ### Search
 
 Defines a text field for entering a search query. These are functionally identical to text inputs, but may be styled differently depending on the browser.
 
-\<label for="gsearch"\>Search in Google:\</label\>
+```
+<label for="gsearch">Search in Google:</label>
 
-\<input type="search" id="gsearch" name="gsearch"\>
+<input type="search" id="gsearch" name="gsearch">
+```
 
 ### Time
 
 Displays a control for entering a time value in hours and minutes, with no time zone.
 
-\<label for="appt"\>Select a time:\</label\>
+```
+<label for="appt">Select a time:</label>
 
-\<input type="time" id="appt" name="appt"\>
+<input type="time" id="appt" name="appt">
+```
 
 ### Tel
 
 Defines a control for entering a telephone number. Browsers that do not support "tel" fall back to standard text input. You can optionally use the "pattern" field to perform validation.
 
-\<label for="phone"\>Enter your phone number:\</label\>
+```
+<label for="phone">Enter your phone number:</label>
 
-\<input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"\>
+<input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
+```
 
 ### Url
 
 Displays a field for entering a text URL. It works similar to a text input, but performs automatic validation before being submitted to the server.
 
-\<label for="homepage"\>Add your homepage:\</label\>
+```
+<label for="homepage">Add your homepage:</label>
 
-\<input type="url" id="homepage" name="homepage"\>
+<input type="url" id="homepage" name="homepage">
+```
 
 ### Week
 
 Defines a control for entering a date consisting of a week-year number and a year, with no time zone. Keep in mind that this is a newer type that is not supported by all the browsers.
 
-\<label for="week"\>Select a week:\</label\>
+```
+<label for="week">Select a week:</label>
 
-\<input type="week" id="week" name="week"\>
+<input type="week" id="week" name="week">
+```
 
 ### Month
 
 Displays a control for entering a month and year, with no time zone. Keep in mind that this is a newer type that is not supported by all the browsers.
 
-\<label for="bdaymonth"\>Birthday (month and year):\</label\>
+```
+&lt;label for="bdaymonth">Birthday (month and year):&lt;/label>
 
-\<input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01"\>
+&lt;input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+```
 
 **Creating a form**
 
@@ -899,7 +931,8 @@ To do this, they need their customers to set up an account on their website.
 
 In this module, you will learn how to create a simple signup form for user accounts on the Little Lemon website.
 
-![](RackMultipart20230221-1-dcr3jc_html_bd61082ef4d3cd76.png)
+
+![](./images/image043.png)
 
 I've set up my basic HTML document structure in a file named, signup.html.
 
@@ -973,7 +1006,7 @@ Everything displays correctly.
 
 However, I'd like to improve the user experience by informing the user what each field represents.
 
-![](./images/image041.png)
+![](./images/image044.png)
 
 To do this, I'll add a label element before each input element.
 
@@ -993,7 +1026,7 @@ Then, to associate the label with the input field, I add the four attribute and 
 
 Finally, I'll add a line break tag after the label element so that the input field displays below the label. I then repeat the same process for each input element.
 
-![](./images/image042.png)
+![](./images/image045.png)
 
 I save the file again and open the Live Preview.
 
@@ -1001,7 +1034,7 @@ Oh, yes, that's much better.
 
 The form labels now display above the input fields.
 
-![](./images/image043.png)
+![](./images/image046.png)
 
 To finalize the form, I need to add one more thing, the submit button. Inside the last div element, I add a button element.
 
@@ -1031,7 +1064,7 @@ In this section, you will learn more about the capabilities of client-side valid
 
 By now you've learned about the different HTML input types and how they validate the format of data, but there are additional attributes that you can apply to elements for further validation.
 
-![](./images/image044.png)
+![](./images/image047.png)
 
 First, let's explore how you can ensure that the user provides a value to a form field. This example of a log-in form contains two fields, one for the username and one for the password.
 
@@ -1043,11 +1076,11 @@ But this is a waste of server resources because although the server-side validat
 
 Let's improve this form by using client-side validation to ensure the user enters values to both fields.
 
-![](./images/image045.png)
+![](./images/image048.png)
 
 Now with the required attribute in the code, if one of the fields is empty and the user clicks the submit button, the request will not be submitted to the web server.
 
-![](./images/image046.png)
+![](./images/image049.png)
 
 The web browser will focus on the first empty input element and inform the user that a field is empty.
 
@@ -1059,7 +1092,7 @@ Let's say you want the usernames to be at least three characters long and a maxi
 
 Fortunately, there are two more attributes you can use to ensure the correct length of data.
 
-![](./images/image047.png)
+![](./images/image050.png)
 
 You can add the min length and max length attributes to the fields to specify the required length. In this case, since the minimum value for the username is set to three, a two-character entry would be invalid.
 
@@ -1075,7 +1108,7 @@ This can be readily implemented using CSS.
 
 To highlight a field in red when the data is invalid, you use the input element selector.
 
-![](./images/image048.png)
+![](./images/image051.png)
 
 You then apply the pseudo-class selector called invalid.
 
@@ -1083,7 +1116,7 @@ You will learn more about pseudo-class selectors later in this course.
 
 For now, the key thing to know is that they are used to select elements based on their state, such as whether the input data is valid or invalid.
 
-![](./images/image049.png)
+![](./images/image052.png)
 
 Then you add a CSS property to set the border of the element to read.
 
@@ -1093,7 +1126,7 @@ This will cause all form fields to display read from the start like demonstrated
 
 Ideally, you only want fields to appear red as the user enters invalid data.
 
-![](./images/image050.png)
+![](./images/image053.png)
 
 To do this, you need to apply another pseudo-class called focus, which checks if the user is currently entering data into this field.
 
@@ -1109,25 +1142,25 @@ In addition to having Visual Studio Code installed on your own computer, in this
 
 As you progress through the course, you'll be able to write code in hands-on activities called **Labs**. In these labs you'll be able to open Visual Studio Code and start writing code without ever leaving the course.
 
-### ![](RackMultipart20230221-1-dcr3jc_html_4cec089ed1c95a88.png)
+![](./images/image054.png)
 
 ### How to get started working on Labs
 
 The Labs contain instructions explaining the coding task.
 
-![](RackMultipart20230221-1-dcr3jc_html_517fa00a28258237.png)
+![](./images/image055.png)
 
 When you click the button to open the lab, a new tab will open with Visual Studio Code already setup and ready for you to start writing code!
 
-![](RackMultipart20230221-1-dcr3jc_html_6b9eae8880b8565e.png)
+![](./images/image056.png)
 
 You'll see all the files for the lab in the Project folder in the left sidebar.
 
-![](RackMultipart20230221-1-dcr3jc_html_8426e3fb4ab3c668.png)
+![](./images/image057.png)
 
 And the large editor area where you write your code for the lab.
 
-![](RackMultipart20230221-1-dcr3jc_html_56dd99206d7b7c96.png)
+![](./images/image058.png)
 
 All **Lab** exercises will include two important files. A **README.md** file which contains instructions for using Visual Studio Code and most importantly, how to run and view the output of your code. The README.md file is the same for every Lab. There will also be an **instructions.md** file which provides specific instructions for each Lab.
 
@@ -1139,7 +1172,7 @@ You'll also likely see quite a few files and folders when you open in the Lab. M
 
 For Labs in some courses, you may need to use a tool called the Terminal from time to time to complete course activities. You can open this by selecting the **Terminal** option in the upper Visual Studio Code toolbar.
 
-![](RackMultipart20230221-1-dcr3jc_html_8d0344fc6353378b.png)
+![](./images/image059.png)
 
 **How to download files from your Visual Studio Code Lab to your local device**
 
@@ -1147,13 +1180,13 @@ For Labs in some courses, you may need to use a tool called the Terminal from ti
 2. You'll be able to download your full workspace, specific folders, or individual files through the checkbox selection tool.
 3. After you've selected these files, use the **Download** link to download your files to your local device.
 
-![](RackMultipart20230221-1-dcr3jc_html_43c6f3cba71516f7.png)
+![](./images/image060.png)
 
 How to upload local files to your Visual Studio Code Lab
 
 If you'd like to upload your course files from your local device to your Visual Studio Code lab, **drag and drop** your file from your local device into the Visual Studio Code file tree.
 
-![](RackMultipart20230221-1-dcr3jc_html_c7fc5c03089e0672.png)
+![](./images/image061.png)
 
 How to get a fresh copy of course-provided starter files
 
@@ -1165,7 +1198,7 @@ For example for index.html, this could be renamed to _`index [original].html`_
 
 1. Select **Lab Help** from your Lab Toolbar and then select **Get latest version.**
 
-![](RackMultipart20230221-1-dcr3jc_html_844c258debd8a8d1.png)
+![](./images/image062.png)
 
 1. You should nowsee a fresh copy of the original instructor-provided files in your lab, in addition to your own (renamed) files.
 
@@ -1173,29 +1206,21 @@ For example for index.html, this could be renamed to _`index [original].html`_
 
 The following code is an example solution for the previous exercise.
 
-This code is placed inside the \<main\> element of index.html.
+This code is placed inside the &lt;main&gt; element of index.html.
 
-\<form\>
-
-    \<div\>
-
-        \<label for="username"\>Username\</label\>
-
-        \<input type="text" id="username" required minlength="2"\>
-
-    \</div\>
-
-    \<div\>
-
-        \<label for="password"\>Password\</label\>
-
-        \<input type="password" id="password" required minlength="2"\>
-
-    \</div\>
-
-    \<button type="submit"\>Log In\</button\>
-
-\</form\>
+```
+<form>
+    <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" required minlength="2">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" required minlength="2">
+    </div>
+    <button type="submit">Log In</button>
+</form>
+```
 
 While reviewing the code, note the following items:
 
@@ -1215,7 +1240,9 @@ The ability to book things online is super convenient.
 
 That's one of the reasons why the Little Lemon restaurant is adding a table booking system to their website.
 
-B ![](RackMultipart20230221-1-dcr3jc_html_b022718a0c4838a4.png) y now, you should know that a HTML form will be an ideal solution for that.
+![](./images/image063.png)
+
+By now, you should know that a HTML form will be an ideal solution for that.
 
 Like most restaurants, Little Lemon has different table sizes and different sections in the restaurant where customers can be seated.
 
@@ -1227,7 +1254,9 @@ Radio buttons are ideal for this forum because they allow me to set up groups of
 
 Now, let's explore how to set up a HTML form with radio buttons.
 
-I ![](RackMultipart20230221-1-dcr3jc_html_4aa153e8455abc0c.png) 've opened Visual Studio Code and added a new file called booking.html.
+![](./images/image064.png)
+
+I've opened Visual Studio Code and added a new file called booking.html.
 
 I've set up the basic HTML structure and added a form element.
 
@@ -1283,13 +1312,13 @@ On the second input element, I set the type attribute to radio and the value att
 
 Again, I set the name attribute to location.
 
-![](RackMultipart20230221-1-dcr3jc_html_9c01c210553095ab.png)
+![](./images/image065.png)
 
 I save the file and open it in Live Preview. Success.
 
 The form is set up correctly. Let's test it.
 
-![](RackMultipart20230221-1-dcr3jc_html_6318364bc655a8fe.png)
+![](./images/image066.png)
 
 If I choose an option for the table size and then choose a different option, my previous choice is deselected.
 
@@ -1299,7 +1328,7 @@ However, I'm testing this form on a laptop with a large screen.
 
 On a mobile device with a way smaller screen, it may be difficult for the user to accurately select the small button elements.
 
-![](RackMultipart20230221-1-dcr3jc_html_b0c06dea499b8226.png)
+![](./images/image067.png)
 
 Luckily, there is a way to improve this by setting the text and button as the input area.
 
@@ -1429,7 +1458,9 @@ Because you are learning more about front-end development, you might be wonderin
 
 In this module, you will learn what happens when forms are submitted in the web browser.
 
-B ![](RackMultipart20230221-1-dcr3jc_html_452c5b68806d1db6.png) y now, you know that the web browser communicates with a web server using a HTTP request response cycle.
+![](./images/image068.png)
+
+By now, you know that the web browser communicates with a web server using a HTTP request response cycle.
 
 This means that the web browser sends requests to the web server, and the web server sends back a response.
 
@@ -1437,7 +1468,9 @@ Up to now, the main type of requests you've been introduced to were for resource
 
 But it is also possible to send data as part of a request.
 
-T ![](RackMultipart20230221-1-dcr3jc_html_d8ac9c70b8bdf3b6.png) his is how form send data to the web server.
+![](./images/image069.png)
+
+This is how form send data to the web server.
 
 In fact, there are two ways a form can send data to the web server using the HTTP GET method or the HTTP POST method.
 
@@ -1449,17 +1482,17 @@ This login form, excepts a username and password.
 
 It also has a login button that submits the form to the web server.
 
-![](RackMultipart20230221-1-dcr3jc_html_555acb496c85a80e.png)
+![](./images/image070.png)
 
 How would it work if the method attribute is set to GET?
 
-![](RackMultipart20230221-1-dcr3jc_html_8ccb72ee976cc53.png)
+![](./images/image071.png)
 
 When the Login button is clicked, the form data is sent as part of the request URL.
 
 This means that the user data is appended to the end of the URL in the web browser navigation bar.
 
-![](RackMultipart20230221-1-dcr3jc_html_456ac6fefdbbfaba.png)
+![](./images/image072.png)
 
 The web server receives the HTTP GET request, and extracts the form data from the URL.
 
@@ -1483,7 +1516,7 @@ If you're transmitting personal information such as addresses or credit card num
 
 Now, let's focus on how the form would work if we set the method attribute to post.
 
-![](RackMultipart20230221-1-dcr3jc_html_a5296f6d3497a63e.png)
+![](./images/image073.png)
 
 When the form is submitted using the post method, the form data is inserted into the content of the HTTP request.
 
@@ -1513,17 +1546,20 @@ Form submissions are an essential part of the world wide web. Nearly every websi
 
 As you know by now, you add a form to your web page using the form tag.
 
-\<form\>
-
-\</form\>
+```
+<form>
+. . .
+</form>
+```
 
 But how the form is submitted is determined by two essential attributes: action and method.
 
 The action attribute specifies to which web address the form must be sent. This is address is location of server-side code that will process the request.
 
-\<form action="/login"\>
-
-\</form\>
+```
+<form action="/login">
+</form>
+```
 
 It is important to note that action can be a full URL address such as **https://meta.com** , an absolute path such as **/login** , or a relative path such as **login**.
 
@@ -1533,13 +1569,15 @@ Similarly, a relative path will combine the current web address with a relative 
 
 The method attribute specifies which HTTP method is used to submit the form; GET or POST.
 
-\<form method="get"\>
+```
+<form method="get">
 
-\</form\>
+</form>
 
-\<form method="post"
+<form method="post"
 
-\</form\>
+</form>
+```
 
 The form will default to the HTTP GET method when the method attribute is not provided.
 
@@ -1569,7 +1607,7 @@ In this module, you will explore how form elements displayed differently on vari
 
 First, let's focus on the most common form element, the input elements.
 
-![](RackMultipart20230221-1-dcr3jc_html_f04443f9f2679e1.png)
+![](./images/image074.png)
 
 The same input type HTML code displays differently in web browsers such as Firefox, Microsoft Edge, Chrome, and Safari.
 
@@ -1577,7 +1615,7 @@ For example, there are subtle differences in the height and corners of the input
 
 There is also a difference in the default input box widths of Firefox and Safari compared to other browsers like Microsoft Edge and Chrome. Safari on Mac OS differs a lot from the other browsers using a thinner border on regular corners.
 
-![](RackMultipart20230221-1-dcr3jc_html_d59c0fc14c66eafa.png)
+![](./images/image075.png)
 
 Next, let's explore the checkbox input type.
 
@@ -1591,7 +1629,7 @@ Safari's checkbox is also smaller than the other.
 
 Now that you've explored how HTML form elements can appear inconsistently across different web browsers, let's focus on how to solve this.
 
-![](RackMultipart20230221-1-dcr3jc_html_d1aeccba20d7863f.png)
+![](./images/image076.png)
 
 As you know, CSS allows you to define the visual styling of HTML elements.
 
@@ -1605,7 +1643,7 @@ You can add a CSS rule using the element selector.
 
 To select the input HTML element, use the input element selector, and then specify the individual styling by adding a pair of square brackets, and then type equals in this case text or email.
 
-![](RackMultipart20230221-1-dcr3jc_html_c82edbda3c4cb8a0.png)
+![](./images/image077.png)
 
 Then apply CSS properties to set the font, width, height, and border.
 
@@ -1619,45 +1657,47 @@ You should now know why it is important to pay attention to the appearance of di
 
 # Glossary: HTML form elements
 
-The **\<form\>** element in HTML is an important and useful element. The following sheet provides an overview of the **\<form\>** constituent elements and their common attributes with simple examples for quick reference.
+The **&lt;form&gt;** element in HTML is an important and useful element. The following sheet provides an overview of the **&lt;form&gt;** constituent elements and their common attributes with simple examples for quick reference.
 
-## \<input\>
+## &lt;input&gt;
 
 It is used to create interactive controls, for example, buttons and various types of text fields and so on, to accept input or data from the user. The key attribute of this element is **type**. Some common values for the **type** include: **button, checkbox, date, email, number, password, submit, text,** and **url**. These values dictate the appearance of the element. For example, this code:
 
-\<form action="my\_action\_page"\>
+```
+<form action="my_action_page">
 
-  \<label for="uname"\>Username:\</label\>
+  <label for="uname">Username:</label>
 
-  \<br\>
+  <br>
 
-  \<input type="text" id="uname" name="username"\>
+  <input type="text" id="uname" name="username">
 
-  \<br\>
+  <br>
 
-  \<label for="pwd"\>Password:\</label\>
+  <label for="pwd">Password:</label>
 
-  \<br\>
+  <br>
 
-  \<input type="password" id="pwd" name="pwd"\>
+  <input type="password" id="pwd" name="pwd">
 
-  \<br\>\<br\>
+  <br><br>
 
-  \<input type="submit" value="Login"\>
+  <input type="submit" value="Login">
 
-\</form\>
+</form>
+```
 
 Results in the following output:
 
-![](RackMultipart20230221-1-dcr3jc_html_a031590adea6bc8c.png)
+![](./images/image078.png)
 
 Note how the type **password** hides the user input.
 
-## \<label\>
+## &lt;label&gt;
 
-Defines a label for an element. It has an attribute "for", the value of which should be equal to the id attribute of the element it is associated with. Note how in the example above, the **\<label\>** is associated with the **\<input\>** using its id value.
+Defines a label for an element. It has an attribute "for", the value of which should be equal to the id attribute of the element it is associated with. Note how in the example above, the **&lt;label&gt;** is associated with the **&lt;input&gt;** using its id value.
 
-## \<select\>
+## &lt;select&gt;
 
 Defines a drop-down list of options presented to the user. It has a couple of attributes:
 
@@ -1666,9 +1706,9 @@ Defines a drop-down list of options presented to the user. It has a couple of at
 - Multiple Boolean attribute, when specified, indicates if a user can select multiple options out of the list
 - Required indicates if the user is required to select an option before submitting a form
 - Size mentions the number of visible options in a drop-down list
-- The options in a drop-down list are defined using the **\<option\>** element inside **\<select\>**. Note the example in the **\<option\>** description below.
+- The options in a drop-down list are defined using the **&lt;option&gt;** element inside **&lt;select&gt;**. Note the example in the **&lt;option&gt;** description below.
 
-## \<textarea\>
+## &lt;textarea&gt;
 
 Defines a multi-line input field, typically to allow the user to input longer textual data. The common attributes for this element include:
 
@@ -1680,111 +1720,123 @@ Defines a multi-line input field, typically to allow the user to input longer te
 - **rows** defines the number of visible text lines for the text area
 - The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:
 
-\<textarea name="response" rows="10" cols="30" maxlength="200"\>
+```
+<textarea name="response" rows="10" cols="30" maxlength="200">
 
-\</textarea\>
+</textarea>
+```
 
-## \<button\>
+## &lt;button&gt;
 
 Defines a clickable button. The **onclick** attribute defines the behavior when the button is clicked by the user. For example, in the code below, an alert message is shown to the user.
 
-\<button type="button" onclick="alert('You just clicked!')"\>Click Me!
+```
+<button type="button" onclick="alert('You just clicked!')">Click Me!
 
-\</button\>
+</button>
+```
 
-## \<fieldset\>
+## &lt;fieldset&gt;
 
 Used to group related input elements in a form. For instance, elements related to the user's personal information and educational qualification can be grouped separately in two field sets.
 
-## \<legend\>
+## &lt;legend&gt;
 
-Defines a caption for the **\<fieldset\>** element. For example:
+Defines a caption for the <b>&lt;fieldset&gt;</b> element. For example:
 
-\<fieldset\>
+```
+<fieldset>
 
-  \<legend\>Personal Info\</legend\>
+  <legend>Personal Info</legend>
 
-  \<label for="fname"\>First name:\</label\>\<br\>
+  <label for="fname">First name:</label><br>
 
-  \<input type="text" id="fname" name="fname" value="John"\>\<br\>
+  <input type="text" id="fname" name="fname" value="John"><br>
 
-  \<label for="lname"\>Last name:\</label\>\<br\>
+  <label for="lname">Last name:</label><br>
 
-  \<input type="text" id="lname" name="lname" value="Doe"\>\<br\>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
 
-\</fieldset\>
+</fieldset>
 
-\<fieldset\>
+<fieldset>
 
-  \<legend\>Qualificaiton\</legend\>
+  <legend>Qualificaiton</legend>
 
-  \<label for="pdegree"\>Primary degree:\</label\>\<br\>
+  <label for="pdegree">Primary degree:</label><br>
 
-  \<input type="text" id="pdegree" name="degree" value="Masters"\>\<br\>
+  <input type="text" id="pdegree" name="degree" value="Masters"><br>
 
-  \<label for="fos"\>Last name:\</label\>\<br\>
+  <label for="fos">Last name:</label><br>
 
-  \<input type="text" id="fos" name="field" value="Psychology"\>\<br\>
+  <input type="text" id="fos" name="field" value="Psychology"><br>
 
-\</fieldset\>
+</fieldset>
+```
 
-## \<datalist\>
+## &lt;datalist&gt;
 
-Specifies a list of pre-defined options for an input element. It differs from **\<select\>** since the user can still provide textual or numeric input other than the listed options.
+Specifies a list of pre-defined options for an input element. It differs from <b>&lt;select&gt;</b> since the user can still provide textual or numeric input other than the listed options.
 
-\<form action="/my\_action\_page"\>
+```
+<form action="/my_action_page">
 
-  \<label for="flowers"\>Favourite flower:\</label\>\<br\>
+  <label for="flowers">Favourite flower:</label><br>
 
-  \<input list="flowers" name="flowers"\>
+  <input list="flowers" name="flowers">
 
-  \<datalist id="flowers"\>
+  <datalist id="flowers">
 
-    \<option value="Rose"\>
+    <option value="Rose">
 
-    \<option value="Lily"\>
+    <option value="Lily">
 
-    \<option value="Tulip"\>
+    <option value="Tulip">
 
-    \<option value="Daffodil"\>
+    <option value="Daffodil">
 
-    \<option value="Orchid"\>
+    <option value="Orchid">
 
-  \</datalist\>
+  </datalist>
 
   ...
 
-\</form\>
+</form>
+```
+
 
 ![](RackMultipart20230221-1-dcr3jc_html_974dc0f03f255fa7.png)
 
-## \<output\>
+## &lt;output&gt;
 
 Represents the result of a calculation (typically the output of a script) or the outcome of the user action.
 
-## \<option\>
+## &lt;option&gt;
 
 Defines an option for the drop-down list. The following code example demonstrates how a simple list can be defined, with the rendered view below the code block.
 
-\<label for="course"\>Choose a course:\</label\>\<br\>
+```
+<label for="course">Choose a course:</label><br>
 
-\<select id="course" name="courselist"\>
+<select id="course" name="courselist">
 
-  \<option value="html"\>HTML Introduction\</option\>
+  <option value="html">HTML Introduction</option>
 
-  \<option value="css"\>Styling with CSS\</option\>
+  <option value="css">Styling with CSS</option>
 
-  \<option value="js"\>JavaScript\</option\>
+  <option value="js">JavaScript</option>
 
-  \<option value="react"\>React Basics\</option\>
+  <option value="react">React Basics</option>
 
-\</select\>
+</select>
+```
+
 
 ![](RackMultipart20230221-1-dcr3jc_html_856eb278fbe25c42.png)
 
 By default, the first item in the drop-down list is selected. To define a pre-selected option, add the selected attribute to the option.
 
-## \<optgroup\>
+<h3>&lt;optgroup&gt;</h3>
 
 Defines a group of related options in a drop-down list. Its attribute label names the group.
 
@@ -1794,7 +1846,7 @@ The following resources will be helpful as additional references in dealing with
 
 [Client-side validation of forms with HTML5](https://www.sitepoint.com/client-side-form-validation-html5/)
 
-[\<input\> tag in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+[&lt;input&gt; tag in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 
 [Form validation examples](https://www.the-art-of-web.com/html/html5-form-validation/)
 
@@ -1948,30 +2000,35 @@ What's more, you can add controls to allow the user to decide what they want to 
 
 These audio and video players are sure to grab customer's attention when they browse the about page.
 
-**Images**
+<h4>Images</h4>
 
-This lesson will help refresh your knowledge of the **\<img\>** tag and how you can use it to embed images in webpages. The **\<img\>** tag is used to add an image to a web page. The image's address is specified using the src attribute. For example, if you wanted to embed an image file named photo.png, you can do that with the following HTML. **\<img src="photo.png"\>** You can also specify the width and height of the image using the width and height attributes. For example, if the width of the photo is 640 pixels and the height of the photo is 480 pixels, you can use the following HTML. **\<img src="photo.png" width="640" height="480"\>** It is important to note that you can set the image to a larger or smaller size and the web browser will automatically scale the image. For example, you can update the previous HTML to half the width and height and the image would shrink by 50%. **\<img src="photo.png" width="320" height="240"\>** One useful feature of rendering images in the web browser is that the web browser can automatically keep the correct ratio of width to height. So for example, if you want to scale the image by 50%, you can simply set the width attribute and the web browser will automatically calculate the height. **\<img src="photo.png" width="320"\>** But what happens if the photo doesn't load? Perhaps the file was accidentally deleted, or you mistyped the file name. Luckily, the web browser has a way to display some text when the image fails to load. This is done using the alt attribute. For example, you can display the text My Profile Photo using the alt attribute in the previous HTML. **\<img src="photo.png" width="320" alt="My Profile Photo"\>** It is important to ensure that screen reader accessibility software can interpret images displayed in the web browser. To support this, the \<img\> tag is combined with the **\<figure\>** and **\<figcaption\>** tags to provide a description of the image. The **\<img\>** tag is added inside the **\<figure\>** tag and the **\<figcaption\>** is specified after it.
+This lesson will help refresh your knowledge of the <b>&lt;img&gt;</b> tag and how you can use it to embed images in webpages. The <b>&lt;img&gt;</b> tag is used to add an image to a web page.
+The image's address is specified using the src attribute. 
+For example, if you wanted to embed an image file named photo.png, you can do that with the following HTML. <b>&lt;img src="photo.png"&gt;</b> You can also specify the width and height of the image using the width and height attributes.
+For example, if the width of the photo is 640 pixels and the height of the photo is 480 pixels, you can use the following HTML. <b>&lt;img src="photo.png" width="640" height="480"&gt;</b>.
+It is important to note that you can set the image to a larger or smaller size and the web browser will automatically scale the image. For example, you can update the previous HTML to half the width and height and the image would shrink by 50%. **<img src="photo.png" width="320" height="240">** One useful feature of rendering images in the web browser is that the web browser can automatically keep the correct ratio of width to height. So for example, if you want to scale the image by 50%, you can simply set the width attribute and the web browser will automatically calculate the height. **<img src="photo.png" width="320">** But what happens if the photo doesn't load? Perhaps the file was accidentally deleted, or you mistyped the file name. Luckily, the web browser has a way to display some text when the image fails to load. This is done using the alt attribute. For example, you can display the text My Profile Photo using the alt attribute in the previous HTML. **<img src="photo.png" width="320" alt="My Profile Photo">** It is important to ensure that screen reader accessibility software can interpret images displayed in the web browser. To support this, the <img> tag is combined with the **<figure>** and **<figcaption>** tags to provide a description of the image. The **<img>** tag is added inside the **<figure>** tag and the **<figcaption>** is specified after it.
 
-\<figure\>
+```
+<figure>
+   <img src="photo.png" width="320" alt="My Profile Photo">
+   <figcaption>A photo of myself on a beach in 2015</figcaption>
+</figure>
+```
 
-   \<img src="photo.png" width="320" alt="My Profile Photo"\>
+One last thing to note is that like videos and audio, the web browser only supports specific file types. 
 
-   \<figcaption\>A photo of myself on a beach in 2015\</figcaption\>
+These file types are:
 
-\</figure\>
+  - .APNG – Animated Portable Network Graphics
+  - .AVIF – AV1 Image Format
+  - .GIF – Graphics Interchange Format
+  - .JPEG / .JPG – Joint Photographic Expert Group image format
+  - .PNG – Portable Network Graphics
+  - .SVG – Scalable Vector Graphics
+  - .WEBP – Web Picture Format
+  - Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.
 
-One last thing to note is that like videos and audio, the web browser only supports specific file types. These file types are:
-
-- .APNG – Animated Portable Network Graphics
-- .AVIF – AV1 Image Format
-- .GIF – Graphics Interchange Format
-- .JPEG / .JPG – Joint Photographic Expert Group image format
-- .PNG – Portable Network Graphics
-- .SVG – Scalable Vector Graphics
-- .WEBP – Web Picture Format
-- Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.
-
-**iFrames**
+<h4>iFrames</h4>
 
 Have you ever visited a website with a map video or social media posts contained in the webpage?
 
@@ -2033,7 +2090,7 @@ Therefore, it's always best to be cautious when using iframes and ensure that yo
 
 **iFrame sandbox cheat sheet**
 
-The **\<iframe\>** is the inline frame element that embeds an HTML page into another page. Apart from the global attributes, which can be a part of the **iframe** , major element-specific attributes are listed below.
+The **&lt;iframe&gt;** is the inline frame element that embeds an HTML page into another page. Apart from the global attributes, which can be a part of the **iframe** , major element-specific attributes are listed below.
 
 ## allow
 
@@ -2042,11 +2099,11 @@ It specifies what features or permissions are available to the frame, for instan
 - **allow="fullscreen"** the fullscreen mode can be activated
 - **allow="geolocation"** lets you access the user's location
 - To specify more than one feature, a semicolon-separator should be used between features. For example, the following would allow using the camera and the microphone:
-- **\<iframe src="https://example.com/…" allow="camera; microphone"\> \</iframe\>**
+- **<iframe src="https://example.com/…" allow="camera; microphone"> </iframe>**
 
 ## name
 
-The name for the **\<iframe\>**. For example: **\<iframe name = "My Frame" width="400" height="300"\>\</iframe\>**
+The name for the **<iframe>**. For example: **<iframe name = "My Frame" width="400" height="300"></iframe>**
 
 ## height
 
@@ -2066,7 +2123,7 @@ A referrer is the HTTP header that lets the page know who is loading it. This at
 
 ## sandbox
 
-To enforce greater security, a sandbox applies extra restrictions to the content in the **\<iframe\>**. To lift particular restrictions, an attribute value (permission token) is used. The common permission tokens are listed below:
+To enforce greater security, a sandbox applies extra restrictions to the content in the **<iframe>**. To lift particular restrictions, an attribute value (permission token) is used. The common permission tokens are listed below:
 
 - **allow-downloads** Allows the user to download an item
 - **allow-forms** Allows the user to submit forms
@@ -2078,37 +2135,37 @@ To enforce greater security, a sandbox applies extra restrictions to the content
 
 Note that when the value of this attribute is empty, all restrictions are applied. To apply more than one permission, use a space-separated list. For example, the following would allow form submission and scripts while keeping other restrictions active:
 
-\<iframe src="my\_iframe\_sandbox.html" sandbox="allow-forms allow-scripts"\>
+<iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts">
 
-\</iframe\>
+</iframe>
 
 ## src
 
-The URL of the page to embed in the **\<iframe\>**. Using the value **about:blank** would embed an empty page.
+The URL of the page to embed in the **<iframe>**. Using the value **about:blank** would embed an empty page.
 
 ## srcdoc
 
-Let's you specify the inline HTML to embed in the **\<iframe\>**. When defined, this attribute would override the **src** attribute. For instance, the following code will display "My inline html" in the frame, instead of loading **my\_iframe\_src.html**.
+Let's you specify the inline HTML to embed in the **<iframe>**. When defined, this attribute would override the **src** attribute. For instance, the following code will display "My inline html" in the frame, instead of loading **my_iframe_src.html**.
 
-\<iframe src="my\_iframe\_src.html" srcdoc="\<p\>My inline html\</p\>" \>
+<iframe src="my_iframe_src.html" srcdoc="<p>My inline html</p>" >
 
-\</iframe\>
+</iframe>
 
 ## loading
 
 This attribute let's you specify if the iframe should be loaded immediately when the web page loads ( **eager** ) or loaded when iframe is displayed in the browser ( **lazy** ). This allows you to defer loading iframe content if it is further down your web page and outside of the display area when the page is initially loaded.
 
-\<iframe src="my\_iframe\_src.html" loading="lazy" \>
+<iframe src="my_iframe_src.html" loading="lazy" >
 
-\</iframe\>
+</iframe>
 
 ## title
 
 This attribute let's you add a description to the iframe for accessibility purposes. The value of this attribute should accurately describe the iframe's content.
 
-\<iframe src="history.html" title="An embedded document about the history of my family" \>
+<iframe src="history.html" title="An embedded document about the history of my family" >
 
-\</iframe\>
+</iframe>
 
 **iFrame as a picture**
 
@@ -2336,7 +2393,7 @@ The following resources will be helpful as additional references in dealing with
 
 [https://studio.support.brightcove.com/publish/choosing-correct-embed-code.html](https://studio.support.brightcove.com/publish/choosing-correct-embed-code.html)
 
-[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia\_and\_embedding/Images\_in\_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
 
 [https://www.educba.com/iframes-in-html/](https://www.educba.com/iframes-in-html/)
 
@@ -2428,27 +2485,22 @@ Let's now examine some of the important properties that will allow you to config
 
 ## Original HTML code:
 
-\<body\>
+```
+<body>
+  <div class="flex-container">
+    <div class="box box1">  One..</div>
+    <div class="box box2">  Two..</div>
+    <div class="box box3">  Three..</div>
+    <div class="box box4">  Four..</div>
+    <div class="box box5">  Five..</div>
+    <div class="box box6">  Six..</div>
 
-  \<div class="flex-container"\>
+    <div class="box box7">  Seven..</div>
 
-    \<div class="box box1"\>  One..\</div\>
+  </div>
 
-    \<div class="box box2"\>  Two..\</div\>
-
-    \<div class="box box3"\>  Three..\</div\>
-
-    \<div class="box box4"\>  Four..\</div\>
-
-    \<div class="box box5"\>  Five..\</div\>
-
-    \<div class="box box6"\>  Six..\</div\>
-
-    \<div class="box box7"\>  Seven..\</div\>
-
-  \</div\>
-
-\</body\>
+</body>
+```
 
 ## Original CSS file:
 
@@ -2733,7 +2785,7 @@ When you create a web page, you will almost never have only a single element pre
 | **ch** | Width of the font character. |
 | **rem** | Font size of the root element. |
 | **lh** | Value computed for line height of parent element.  |
-| **rlh** | Value computed for line height of root element which is \<html\>.  |
+| **rlh** | Value computed for line height of root element which is <html>.  |
 | **vw** | 1% of the viewport width. |
 | **vh** | 1% of the viewport height. |
 | **vmin** | 1% of the smaller dimension of viewport. |
@@ -2966,7 +3018,7 @@ It is the same as for the container above but here the alignments are centered.
 
 This will become clear once you see the results, I have one more set of selectors to define.
 
-But first let me display the output. \>\> To do this, I switch to my HTML file and click on the display icon in the top right corner of my screen.
+But first let me display the output. >> To do this, I switch to my HTML file and click on the display icon in the top right corner of my screen.
 
 The output preferred dishes and the percentage is 35, 50 and 15 appear on my screen, to improve the visuals of my chart and make it easier to interpret.
 
@@ -3162,7 +3214,7 @@ The syntax for creating a grid:
 
 selector{
 
-    display: grid; /\* or inline-grid \*/
+    display: grid; /* or inline-grid */
 
 }
 
@@ -3262,7 +3314,7 @@ Defines the default space that is allot to each item on the grid
 
 Defines the default space related to an item along the grid's block axis
 
-**place-items: start | stretch /\* shorthand for two properties above \*/**
+**place-items: start | stretch /* shorthand for two properties above */**
 
 This feature allows you align items with the block and inline directions.
 
@@ -3296,7 +3348,7 @@ This relates to the size for rows created without specific size specifications
 
 ## Grid properties for items (child)
 
-**grid-column: column position /\* E.g. 1/2 \*/**
+**grid-column: column position /* E.g. 1/2 */**
 
 Allows for specifying where on the grid the column is to start.
 
@@ -3308,7 +3360,7 @@ This property determines the starting column position an item is placed on a gri
 
 This property determines the end column position an item is placed on a grid.
 
-**grid-row: row position /\* E.g. 1/2 \*/**
+**grid-row: row position /* E.g. 1/2 */**
 
 Allows for specifying where on the grid the row is to start.
 
@@ -3330,7 +3382,7 @@ Determines how an item is positioned inside its aligned container in relation to
 
 Aligns an item within a grid area.
 
-**place-self: start | stretch /\* shorthand for two properties above \*/**
+**place-self: start | stretch /* shorthand for two properties above */**
 
 This setting lets one align and justify an item within a block.
 
@@ -3405,7 +3457,7 @@ This allows elements to shrink in relation to items around it.
 
 The sets the initial main size of an item. It can be overridden if other stylized elements are configured.
 
-**order:position in flex /\* Set ascending by default \*/**
+**order:position in flex /* Set ascending by default */**
 
 The standard positioning of items is by source order, however this feature will enable you to configure where the items appear on the page.
 
@@ -3561,25 +3613,17 @@ But how exactly do you use these names and where do they come from? The names th
 
 ## HTML Code:
 
-\<head\>
-
-    \<link rel="stylesheet" href="gridta.css"\>
-
-\</head\>
-
-
-
-\<body\>
-
-    \<header\> Header \</header\>
-
-    \<nav class="nav-bar"\> Navigation \</nav\>
-
-    \<main\> Main area \</main\>
-
-    \<footer\> Footer \</footer\>
-
-\</body\>
+```
+<head>
+    <link rel="stylesheet" href="gridta.css">
+</head>
+<body>
+    <header> Header </header>
+    <nav class="nav-bar"> Navigation </nav>
+    <main> Main area </main>
+    <footer> Footer </footer>
+</body>
+```
 
 ## CSS Code:
 
@@ -3882,7 +3926,7 @@ Inline styles are attached to the elements within your HTML code like with the '
 
 For example, take these two rules that create a conflict in color styling for a p tag:
 
- \<p style="color: white;"\>
+ <p style="color: white;">
 
 p{color: blue}
 
@@ -3930,27 +3974,31 @@ Let's explore a couple of examples for clarity. Take note that the properties an
 
 ## Example 1
 
+```
 p {}
 
 div p {}
 
 div p.foo {}
 
-p  =\> 1 element =\>  0 0 0 1 =\> Score: 1
+p  => 1 element =>  0 0 0 1 => Score: 1
 
-div p =\> 2 elements =\> 0 0 0 2 =\> Score: 2
+div p => 2 elements => 0 0 0 2 => Score: 2
 
-div p.foo {} =\> 2 elements and 1 class selector =\> 0 0 1 2 =\> Score: 12
+div p.foo {} => 2 elements and 1 class selector => 0 0 1 2 => Score: 12
+```
 
 The third case has a total of 12 for the p tag and so has the highest specificity. The rules for the other two cases are then overridden and the rules inside the third case are applied.
 
 ## Example 2
 
-p#bar =\> 1 element & 1 ID =\>  0 1 0 1 =\> Score: 101
+```
+p#bar => 1 element & 1 ID =>  0 1 0 1 => Score: 101
 
-p.foo =\> 1 element & 1 class =\> 0 0 1 1 =\> Score: 11
+p.foo => 1 element & 1 class => 0 0 1 1 => Score: 11
 
-p.p.foo =\> 1 element & 2 class =\>  0 0 2 1 =\> Score: 21
+p.p.foo => 1 element & 2 class =>  0 0 2 1 => Score: 21
+```
 
 By now it should be clear that the case containing ID has a much higher score and the rules inside it will be applied.
 
@@ -4265,31 +4313,21 @@ You can use first-letter to change the color of just the first letter of each of
 
 ## HTML code:
 
-\<!DOCTYPE html\>
-
-\<html\>
-
-    \<head\>
-
-        \<link rel="stylesheet" href="pseudo4.css"\>
-
-    \</head\>
-
-\<body\>
-
-    \<ul\>
-
-        \<li\>Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. \</li\>
-
-    \<li\>The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.\</li\>
-
-    \<li\>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.\</li\>
-
-  \</ul\>
-
-\</body\>
-
-\</html\>
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="pseudo4.css">
+    </head>
+<body>
+    <ul>
+        <li>Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. </li>
+    <li>The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.</li>
+    <li>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.</li>
+  </ul>
+</body>
+</html>
+```
 
 ## CSS code:
 
@@ -4387,15 +4425,17 @@ Markers are typically used to add style elements to a list, for instance, to col
 
 CSS code:
 
+```
 li::marker {
 
     color: cornflowerblue;
 
-    content: '\<\> ';
+    content: '<> ';
 
     font-size: 1.1em;
 
 }
+```
 
 Output
 
@@ -4409,20 +4449,19 @@ One more pair of pseudo-elements are the **::before** and **::after** pseudo-ele
 
 ## HTML code:
 
-\<body\>
-
-    \<p id="tips"\> Don't rinse your pasta after it is drained. \</p\>
-
-    \<p\> Slice the tomatoes. Take the extra efforts to seed them. \</p\>
-
-    \<p id="tips"\> Peel and seed large tomatoes. \</p\>
-
-\</body\>
+```
+<body>
+    <p id="tips"> Don't rinse your pasta after it is drained. </p>
+    <p> Slice the tomatoes. Take the extra efforts to seed them. </p>
+    <p id="tips"> Peel and seed large tomatoes. </p>
+</body>
+```
 
 ## CSS code:
 
 #tips::before{
 
+```
     background: darkkhaki;
 
     color:darkslategray;
@@ -4450,12 +4489,13 @@ One more pair of pseudo-elements are the **::before** and **::after** pseudo-ele
     border-radius: 20%;
 
 }
+```
 
 ## Output:
 
 ![](RackMultipart20230221-1-dcr3jc_html_a640c888ee004f89.png)
 
-The "content" property is where the text for the guidelines goes. The word "tip" has been added before each guideline thanks to the rules added for **tips::before**. And, each of the three guidelines now has two exclamation marks after them thanks to the rules added for **tips::after**. Note how the second \<p\> element inside the HTML code remains unaffected. You don't have to use after and before together like this, but sometimes it is useful to combine them.
+The "content" property is where the text for the guidelines goes. The word "tip" has been added before each guideline thanks to the rules added for **tips::before**. And, each of the three guidelines now has two exclamation marks after them thanks to the rules added for **tips::after**. Note how the second <p> element inside the HTML code remains unaffected. You don't have to use after and before together like this, but sometimes it is useful to combine them.
 
 The examples covered here illustrate that adding simple code for pseudo-elements can greatly enhance the appearance of websites. There are plenty of other pseudo-elements and some of them are more popular than others. You can follow your own style and explore the creative possibilities that pseudo-classes and pseudo-elements offer.
 
@@ -4495,11 +4535,11 @@ Additionally, you will learn two more effects that you can create with the hover
 
 ![](RackMultipart20230221-1-dcr3jc_html_b5c282561141b872.png)
 
-In the pseudo\_links.html file, I added three tags: a heading tag, followed by a paragraph tag, and another paragraph tag.
+In the pseudo_links.html file, I added three tags: a heading tag, followed by a paragraph tag, and another paragraph tag.
 
 In the heading tag, I added the name of the restaurant, Little Lemon, and the first paragraph tag has a link to their Instagram page.
 
-N ![](RackMultipart20230221-1-dcr3jc_html_e0e38ca34b11f6a9.png) ow I go to my CSS code by clicking on the pseudo\_links.css file at the top of my screen.
+N ![](RackMultipart20230221-1-dcr3jc_html_e0e38ca34b11f6a9.png) ow I go to my CSS code by clicking on the pseudo_links.css file at the top of my screen.
 
 In this file, I already added properties related to the pseudo-classes we discussed previously, namely link, visited, hover, and active.
 
@@ -4571,7 +4611,7 @@ You also explored additional effects that you can create with the hover effect.
 | --- | --- | --- |
 | Class | .class | **.alpha { }** |
 | ID | #id | **#alpha { }** |
-| Universal | \* | **\* { }** |
+| Universal | * | *** { }** |
 
 ## Variations of simple selectors
 
@@ -4579,19 +4619,19 @@ You also explored additional effects that you can create with the hover effect.
 | --- | --- | --- | --- |
 | Two classes | .first-class.second-class | **.alpha.beta { }** | All elements with classes alpha and beta |
 | --- | --- | --- | --- |
-| Element and class | element.class | **p.alpha { }** | All alpha class elements inside \<p\> |
-| Two elements | element, element | **p, div { }** | All \<p\> and \<div\> elements |
-| Two elements | element element | **p div { }** | All \<div\> elements inside \<p\> |
+| Element and class | element.class | **p.alpha { }** | All alpha class elements inside &lt;p&gt; |
+| Two elements | element, element | **p, div { }** | All &lt;p&gt; and &lt;div&gt; elements |
+| Two elements | element element | **p div { }** | All &lt;div&gt; elements inside &lt;p&gt; |
 
 ## Descendant selectors/combinators
 
 | **Selector** | **Syntax** | **Example** | **Description** |
 | --- | --- | --- | --- |
-| Descendant | element element | **div p { }** | All \<p\> descendants of \<div\> |
+| Descendant | element element | **div p { }** | All &lt;p&gt; descendants of &lt;div&gt; |
 | --- | --- | --- | --- |
-| Child | element\>element | **div \> p { }** | All \<p\> direct descendants of \<div\> |
-| Adjacent Sibling | element+element | **div + p { }** | \<p\> element directly after \<div\> |
-| General Sibling | element~element | **div ~ p { }** | All \<p\> element iterations after \<div\> |
+| Child | element>element | **div > p { }** | All <p> direct descendants of <div> |
+| Adjacent Sibling | element+element | **div + p { }** | <p> element directly after <div> |
+| General Sibling | element~element | **div ~ p { }** | All <p> element iterations after <div> |
 
 ## Attribute selectors
 
@@ -4602,32 +4642,32 @@ You also explored additional effects that you can create with the hover effect.
 | [attribute=value] | **[lang="fr"] {****}** | Selects all elements with lang attribute that has a value of "fr" |
 | [attribute~=value] | **[input~=hello] {****}** | Elements with input attribute containing the whitespace separated substring "hello" |
 | [attribute|=value] | **[lang|=en] {****}** | Elements with lang attribute value equal to "en" or "en-"(en hyphen) |
-| [attribute^=value] | **a[href^="https"] {****}** | Every \<a\> element with href attribute value begins with "https" |
-| [attribute$=value] | **a[href$=".docx"] {****}** | Every \<a\> element with href attribute value ends with ".docx" |
-| [attribute\*=value] | **a[href\*="meta"] {****}** | Every \<a\> element with href attribute value has substring "meta" |
+| [attribute^=value] | **a[href^="https"] {****}** | Every <a> element with href attribute value begins with "https" |
+| [attribute$=value] | **a[href$=".docx"] {****}** | Every <a> element with href attribute value ends with ".docx" |
+| [attribute*=value] | **a[href*="meta"] {****}** | Every <a> element with href attribute value has substring "meta" |
 | **Pseudo-class** | **Example** | **Description of selection** |
 | :active | **a:active { }** | All active links  |
-| :checked | **input:checked { }** | All the checked \<input\> elements |
-| :default | **input:default { }** | All default \<input\> elements |
-| :disabled | **input:disabled { }** | All disabled \<input\> elements |
-| :empty | **div:empty { }** | All the \<div\> elements with no children |
-| :enabled | **input:enabled { }** | All the enabled \<input\> elements |
-| :first-child | **p:first-child { }** | All the \<p\> elements who are the first child of a parent element |
-| :first-of-type | **p:first-of-type { }** | All the \<p\> element who are the first \<p\> element of a parent element |
+| :checked | **input:checked { }** | All the checked <input> elements |
+| :default | **input:default { }** | All default <input> elements |
+| :disabled | **input:disabled { }** | All disabled <input> elements |
+| :empty | **div:empty { }** | All the <div> elements with no children |
+| :enabled | **input:enabled { }** | All the enabled <input> elements |
+| :first-child | **p:first-child { }** | All the <p> elements who are the first child of a parent element |
+| :first-of-type | **p:first-of-type { }** | All the <p> element who are the first <p> element of a parent element |
 | :focus | **input:focus { }** | Input element under focus |
 | :fullscreen | **:fullscreen { }** | The element in full-screen mode |
 | :hover | **p:hover { }** | Action effect on mouse hover |
 | :invalid | **input:invalid { }** | Input elements with an invalid value |
-| :last-child | **p:last-child { }** | All the \<p\> elements who are the last child of a parent element |
-| :last-of-type | **p:last-of-type { }** | All the \<p\> elements who are the last \<p\> element of a parent element |
+| :last-child | **p:last-child { }** | All the <p> elements who are the last child of a parent element |
+| :last-of-type | **p:last-of-type { }** | All the <p> elements who are the last <p> element of a parent element |
 | :link | **a:link { }** | All unvisited links |
-| :not(_selector_) | **:not(div) { }** | All the elements that are not a \<div\> element |
-| :nth-child(_n_) | **div:nth-child(3) { }** | All the \<p\> elements that are the third child of a parent element |
-| :nth-last-child(_n_) | **div:nth-last-child(3) { }** | All the \<div\> elements which are the third child of a parent element, counting from last child element |
+| :not(_selector_) | **:not(div) { }** | All the elements that are not a <div> element |
+| :nth-child(_n_) | **div:nth-child(3) { }** | All the <p> elements that are the third child of a parent element |
+| :nth-last-child(_n_) | **div:nth-last-child(3) { }** | All the <div> elements which are the third child of a parent element, counting from last child element |
 | :nth-last-of-type(_n_) | **p:nth-last-of-type(2) { }** | The second sibling from the last child of a parent element. |
 | :nth-of-type(_n_) | **p:nth-of-type(2) { }** | The second sibling of a parent element. |
-| :only-of-type | **p:only-of-type { }** | All the \<p\> elements which are only \<p\> elements inside its parent |
-| :only-child | **p:only-child { }** | All the \<p\> elements which are only child of a parent element |
+| :only-of-type | **p:only-of-type { }** | All the <p> elements which are only <p> elements inside its parent |
+| :only-child | **p:only-child { }** | All the <p> elements which are only child of a parent element |
 | :optional | **input:optional { }** | The input elements with no "required" attribute |
 | :required | **input:required { }** | Selects input elements with the "required" attribute specified |
 | :root | **:root { }** | The Root element of document |
@@ -4639,11 +4679,11 @@ You also explored additional effects that you can create with the hover effect.
 
 | **Syntax** | **Example** | **Description** |
 | --- | --- | --- |
-| ::after | **p::after { }** | Inserts content after content of \<p\> element |
+| ::after | **p::after { }** | Inserts content after content of <p> element |
 | --- | --- | --- |
-| ::before | **p::before { }** | Inserts content before content of \<p\> element |
-| ::first-letter | **p::first-letter { }** | Selects first letter of every \<p\> element |
-| ::first-line | **p::first-line { }** | Selects first line of every \<p\> element |
+| ::before | **p::before { }** | Inserts content before content of <p> element |
+| ::first-letter | **p::first-letter { }** | Selects first letter of every <p> element |
+| ::first-line | **p::first-line { }** | Selects first line of every <p> element |
 | ::placeholder | **input::placeholder { }** | Selects input elements with "placeholder" attribute specified |
 | ::marker | **::marker { }** | Selects markers in a list |
 
@@ -5193,16 +5233,19 @@ Let's now examine an example of how you can use @keyframes and the animation pro
 
 ## HTML code:
 
-\<body\>
+```
+<body>
 
-\<div class="box"\>\</div\>
+<div class="box"></div>
 
-\</body\>
+</body>
 
-\</html\>
+</html>
+```
 
 ## CSS code:
 
+```
 body{
 
 padding: 30px;}
@@ -5234,6 +5277,7 @@ from{width: 50px;
 to{width: 100px;
 
 }
+```
 
 ## And this is the output:
 
@@ -5614,7 +5658,7 @@ Percentage denotes the timing of the animation.
 
 @keyframes animation-name {
 
-/\* declare actions here \*/
+/* declare actions here */
 
 }
 
@@ -6038,7 +6082,7 @@ Often, isolation will not work, as the problem is the result of the relative map
 
 Similar to the isolation of elements, you can move a certain element to observe its behavior. Doing a comparison can often help you to understand the source of the problem.
 
-The CSS compiler reads the elements from right to left. As an example, for a selector such as div .alpha \> p, the element read first will be p before moving 'outside'. When you change the position of the p from inside the .alpha class to some other position inside your code, it is easier to debug the source of the problem. This should be done on a case-specific basis.
+The CSS compiler reads the elements from right to left. As an example, for a selector such as div .alpha &gt; p, the element read first will be p before moving 'outside'. When you change the position of the p from inside the .alpha class to some other position inside your code, it is easier to debug the source of the problem. This should be done on a case-specific basis.
 
 ## Getting familiar with the box model
 
