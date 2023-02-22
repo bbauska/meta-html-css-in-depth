@@ -2,7 +2,7 @@
 meta-html-css-in-depth: "Meta HTML & CSS in Depth"
 ---
 
-# HTML & CSS in Depth
+<h1>meta/coursera HTML & CSS in Depth</h1>
 
 (Coursera/meta)
 
@@ -10,13 +10,13 @@ meta-html-css-in-depth: "Meta HTML & CSS in Depth"
 
 ![meta logo](./images/image001.png)
 
-# Course syllabus
+<h2>Course syllabus</h2>
 
-## Prerequisites
+<h3>Prerequisites</h3>
 
 To take this course, you don't need any developer experience, but you must be eager to get started with coding.
 
-## Module 1
+<h3>Module 1</h3>
 
 In the first module, you will start with an introduction to the course and gain insight into what your career path as an HTML and CSS developer might look like. You will also receive tips on how to take this course successfully. Then, you'll move on to semantic tags and the importance of taking a structured approach to creating a well-formed web page. After which you will learn about metadata and tags and how you can use them to influence your web page's ranking through Search Engine Optimization (SEO). Following this section, you will learn about user input and forms and you will create and test a form by yourself. In the final part of the module, you will learn about media elements and you'll learn how to embed video and audio on a web page.
 
@@ -29,7 +29,7 @@ After completing this module, you should be able to:
 - Post form data to a server.
 - Create a video and audio player that can rate the media played.
 
-## Module 2
+<h3>Module 2</h3>
 
 In module 2, you will focus on CSS layouts, grids and flexboxes. You will learn about fundamental layouts that you can use to design a good web page. Next, you will learn about CSS selectors which correspond to specific elements or element groups in an HTML document. In this section, you also learn about pseudo-class selectors that you can use to improve the interactivity of your web pages without having to add overly advanced styling. In this module, you will also learn about keyframes, animations and effects in CSS. The final part of this module is about how to use browser developer tools to assist with debugging and resolving HTML and CSS issues.
 
@@ -42,7 +42,7 @@ After completing this module you should be able to:
 - Perform basic front-end testing, debugging and error handling.
 - Adapt your CSS to perform as expected in different browsers.
 
-## Module 3
+<h3>Module 3</h3>
 
 In the last module, you will have an opportunity to recap what you learned in the course and put it into practice by creating a home page for a client persona.
 
@@ -50,7 +50,7 @@ After completing this module, you should be able to:
 
 - Apply the skills you learned in this course to introduce more advanced styling into your portfolio.
 
-**Course Introduction**
+<b>Course Introduction</b>
 
 Perhaps you know a little about HTML and CSS from another course you did, or perhaps you don't know much at all.
 
@@ -114,7 +114,7 @@ That was your HTML and CSS refresher.
 
 Now get ready to dive deeper into learning more about these two topics.
 
-**Semantic tags and why we need them**
+<b>Semantic tags and why we need them</b>
 
 By now you know that HTML describes the content of a web page.
 
@@ -233,7 +233,7 @@ And now you know how to semantically describe the contents of a web page, your w
 
 Now, search engines and accessibility software can easily understand the contents of your well-formed web page.
 
-**Semantic tags in action**
+<b>Semantic tags in action</b>
 
 The Little Lemon Restaurant has asked me to add a new blog page to their website. They've told me that the page will contain several blog posts, and that it must use semantic html so that search engines and accessibility software can understand the semantics of the page.
 
@@ -373,9 +373,9 @@ But that's for later modules.
 
 For now, it's important to know that author, description, keywords, robots and viewports metadata all play a role in the search engine optimization of web pages.
 
-**Bare bones layout**
+<b>Bare bones layout</b>
 
-An important part of being a developer is not just the tools you use, such as your integrated development environment, but also the repository of knowledge and code templates you build up over time. In this module, I'm going to introduce you to one of these templates, which will help you get set up quickly for building webpages. Let's open Visual Studio Code to go through the templates step-by-step. In the folder, we have _ **index.html** _along with the JS folder and a CSS folder. Inside the JS folder, there's a file named _ **script.js** _. There is no content in this file. It is added to this folder so that you can easily add JavaScript code to the webpage. I recommend that you add any other JavaScript files to this folder too. Next, I'll open the CSS folder. In the folder there's a file named _ **styles.css** _. Again, there is no content in this file, but it is here so that you can easily add CSS rules to the webpage. Again, it's best if you add any other CSS files also to this folder.
+An important part of being a developer is not just the tools you use, such as your integrated development environment, but also the repository of knowledge and code templates you build up over time. In this module, I'm going to introduce you to one of these templates, which will help you get set up quickly for building webpages. Let's open Visual Studio Code to go through the templates step-by-step. In the folder, we have _ <b>index.html</b> _along with the JS folder and a CSS folder. Inside the JS folder, there's a file named _ <b>script.js</b> _. There is no content in this file. It is added to this folder so that you can easily add JavaScript code to the webpage. I recommend that you add any other JavaScript files to this folder too. Next, I'll open the CSS folder. In the folder there's a file named _ <b>styles.css</b> _. Again, there is no content in this file, but it is here so that you can easily add CSS rules to the webpage. Again, it's best if you add any other CSS files also to this folder.
 
 ![](./images/image027.png)
 
@@ -411,19 +411,19 @@ As you build web pages throughout your career, you'll notice that many pages fol
 
 Many examples of these layouts can be seen in the popular bootstrap framework. However, many other frameworks provide similar designs.
 
-**Top navbar layout**
+<b>Top navbar layout</b>
 
 Websites often have a top navbar layout to provide a set of essential anchor links to the user. These typically link to the main areas of the website, such as product pages, careers pages or contact pages. This provides the visitor to the website with a consistent navigation experience.
 
 ![](./images/image031.png)
 
-**Carousel layout**
+<b>Carousel layout</b>
 
 Product-focused websites often use a large carousel on their homepage to highlight their featured products, discounts and offers. The carousel contains content items that will rotate through the carousel area at a fixed interval.
 
 ![](./images/image032.png)
 
-**Blog layout**
+<b>Blog layout</b>
 
 The blog layout is used to feature multiple content items of differing importance.
 
@@ -435,19 +435,19 @@ The layout typically features different-sized feature areas followed by a series
 
 ![](./images/image034.png)
 
-**Dashboard layout**
+<b>Dashboard layout</b>
 
 Dashboard layouts are often used in enterprise software for managing various web applications. They typically feature a sidebar for navigation with the main content area containing forms for configuration or reporting data such as graphs and tables. This trendy layout provides a good user experience for business users.
 
 ![](./images/image035.png)
 
-**More layouts**
+<b>More layouts</b>
 
 You can explore more of these layouts on the bootstrap examples page in the additional resources.
 
 Consider these layouts when building websites and web applications so that you provide your audience with the best user experience possible.
 
-**UX with meta tags**
+<b>UX with meta tags</b>
 
 Social networks are a great tool to share content with friends and family, and even with coworkers and business partners.
 
@@ -522,19 +522,19 @@ You've now learned how to use Metadata to describe web pages so that social netw
 
 Next time you share a website on a social network, you can use what you've learned about Open Graph Protocol properties to generate more clicks.
 
-**Social media cards**
+<b>Social media cards</b>
 
 Before Facebook introduced the Open Graph Protocol (OGP), search engine web crawlers, including social media websites, used the internal heuristics of a website to make the best possible guess in terms of the title, description, and preview images to be used for the content. This often led to social networks not completely successfully interpreting the post or information shared in the URL provided. Even today sometimes when you open a link for a website, the preview generated will be an out-of-scale image or a random image that is possibly embedded somewhere within the web page. This is where meta tags come in to help the end-user take better control of their content.
 
 Over the years, the successful implementation of OGP has led to other social media giants, including sister companies owned by Meta, to adopt the protocol to improve the user experience. These platforms have their own meta tags that prefix and replace 'og' that you have encountered earlier in the course.
 
-**Need for social media cards**
+<b>Need for social media cards</b>
 
 With the number of users and the use of internet marketing on the rise, user attention is the currency. It is said that a picture is worth a thousand words and the internet is a living proof of it: a caption and image can drive users towards or away from a website. The title and description shared with an URL should summarize the contents of a web page. In some cases, it may refer to generic information about the entire website. While for others you may tailor the social media (SM) card for a specific page on a website that you're sharing. 'type' is an important OGP tag in SM cards that help describe the details of a link such as if it's a book, article, movie and so on, and provide more detailed metadata for specific types. For example, in case of the music type, you can add details for the song, album, duration or any other information about the song. For a regular user scrolling through social media, the link provided with the image preview has only one chance and a moment's attention to make a good impression. In such cases, the role of social media cards becomes very important.
 
 The extra time spent by a developer to add social media tags is worth the effort!
 
-**Social media cards and SEO**
+<b>Social media cards and SEO</b>
 
 The internet today is an interconnected graph that is internally a web of URL links, web crawlers, and search engine optimization tools. Together, a web page's image and title are the store front to invite the user. But the social media cards also play an important role in boosting the rankings for the web crawlers used by search engines. They provide the crawlers with the necessary information to build metadata that eventually helps in ranking websites. Additionally, it also helps track traffic to your website.
 
@@ -544,7 +544,7 @@ For example, the use of the video tag that helps to play in-line when displayed 
 
 Meta also has a dedicated page to assist developers that you can find in the additional resources for this section.
 
-**Setting up a social media card**
+<b>Setting up a social media card</b>
 
 Little Lemon restaurant has hired a marketing firm to help them advertise their business.
 
@@ -628,7 +628,7 @@ You should now know how to add the four required meta tags title, type, image, a
 
 You also learned how to add additional meta tags that provide extra information like the website description and locale. Well done.
 
-**Additional resources**
+<b>Additional resources</b>
 
 The following resources will be helpful as additional references in dealing with different concepts related to the topics you have covered in this section. 
 
@@ -645,7 +645,7 @@ The following resources will be helpful as additional references in dealing with
 - [Bootstrap with HTML](https://www.bootstrapdash.com/blog/use-bootstrap-with-html)
 - [Bootstrap Layout Examples](https://getbootstrap.com/docs/5.2/examples/)
 
-**Forms and validation**
+<b>Forms and validation</b>
 
 You've most likely encountered forms when registering an account on a website, or when filling out your address for something you've bought online.
 
@@ -709,15 +709,15 @@ That's the basics of client and server-side validation of forms.
 
 You'll learn more about HTML validation capabilities in the next reading.
 
-**Input types**
+<b>Input types</b>
 
 You already learned about the input HTML tag and how the type property determines the data your users can type in. This cheat sheet should be a reference to decide what type best suits your use case. Most of the inputs go hand in hand with the label tag for best accessibility practices.
 
-### Button
+<h4>Button</h4>
 
-This displays a clickable button and it's mostly used in HTML forms to activate a script when clicked. **&lt;input****   ****type="button"****   ****value="Click me"****  ****onclick="msg()" /&gt;**
+This displays a clickable button and it's mostly used in HTML forms to activate a script when clicked. <b>&lt;input</b><b>   </b><b>type="button"</b><b>   </b><b>value="Click me"</b><b>  </b><b>onclick="msg()" /&gt;</b>
 
-Keep in mind you can also define buttons with the **&lt;button&gt;** tag, with the added benefit of being able to place content like text or images inside the tag.
+Keep in mind you can also define buttons with the <b>&lt;button&gt;</b> tag, with the added benefit of being able to place content like text or images inside the tag.
 
 ```
 <button onclick="alert('Are you sure you want to continue?')">
@@ -726,7 +726,7 @@ Keep in mind you can also define buttons with the **&lt;button&gt;** tag, with t
 </button>
 ```
 
-### Checkbox
+<h4>Checkbox</h4>
 
 Defines a check box allowing single values to be selected or deselected. They are used to let a user select one or more options of a limited number of choices.
 
@@ -737,7 +737,7 @@ Defines a check box allowing single values to be selected or deselected. They ar
 <label for="cat">I like cats</label>
 ```
 
-### Radio
+<h4>Radio</h4>
 
 Displays a radio button, allowing only a single value to be selected out of multiple choices. They are normally presented in radio groups, which is a collection of radio buttons describing a set of related options that share the same "name" attribute.
 
@@ -748,7 +748,7 @@ Displays a radio button, allowing only a single value to be selected out of mult
 <label for="dark">Dark</label>
 ```
 
-### Submit
+<h4>Submit</h4>
 
 Displays a submit button for submitting all values from an HTML form to a form-handler, typically a server. The form-handler is specified in the form's "action" attribute:
 
@@ -762,7 +762,7 @@ Displays a submit button for submitting all values from an HTML form to a form-h
 </form>
 ```
 
-<h3>Text</h3>
+<h3>Text</h3></h3>
 
 Defines a basic single-line text field that a user can enter text into.
 
@@ -771,7 +771,7 @@ Defines a basic single-line text field that a user can enter text into.
 <input type="text" id="fname" name="fname">
 ```
 
-### Password
+<h4>Password</h4>
 
 Defines a single-line text field whose value is obscured, suited for sensitive information like passwords.
 
@@ -781,7 +781,7 @@ Defines a single-line text field whose value is obscured, suited for sensitive i
 <input type="password" id="pwd" name="pwd">
 ```
 
-### Date
+<h4>Date</h4>
 
 Displays a control for entering a date with no time (year, month and day).
 
@@ -791,7 +791,7 @@ Displays a control for entering a date with no time (year, month and day).
 <input type="date" id="dob" name="date of birth">
 ```
 
-### Datetime-local
+<h4>Datetime-local</h4>
 
 Defines a control for entering a date and time, including the year, month and day, as well as the time in hours and minutes.
 
@@ -801,7 +801,7 @@ Defines a control for entering a date and time, including the year, month and da
 <input type="datetime-local" id="birthdaytime" name="birthdaytime">
 ```
 
-### Email
+<h4>Email</h4>
 
 Defines a field for an email address. It's similar to a plain text input, with the addition that it validates automatically when submitted to the server.
 
@@ -811,7 +811,7 @@ Defines a field for an email address. It's similar to a plain text input, with t
 <input type="email" id="email" name="email">
 ```
 
-### File
+<h4>File</h4>
 
 Displays a control that lets the user select and upload a file from their computer. To define the types of files permissible you can use the "accept" attribute. Also, to enable multiple files to be selected, add the "multiple" attribute.
 
@@ -821,7 +821,7 @@ Displays a control that lets the user select and upload a file from their comput
 <input type="file" id="myfile" name="myfile">
 ```
 
-### Hidden
+<h4>Hidden</h4>
 
 Defines a control that is not displayed but whose value is still submitted to the server.
 
@@ -829,7 +829,7 @@ Defines a control that is not displayed but whose value is still submitted to th
 <input type="hidden" id="custId" name="custId" value="3487">
 ```
 
-### Image
+<h4>Image</h4>
 
 Defines an image as a graphical submit button. You should use the "src" attribute to point to the location of your image file.
 
@@ -837,7 +837,7 @@ Defines an image as a graphical submit button. You should use the "src" attribut
 <input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
 ```
 
-### Number
+<h4>Number</h4>
 
 Defines a control for entering a number. You can use attributes to specify restrictions, such as min and max values allowed, number intervals or a default value.
 
@@ -845,7 +845,7 @@ Defines a control for entering a number. You can use attributes to specify restr
 <input type="number" id="quantity" name="quantity" min="1" max="5">
 ```
 
-### Range
+<h4>Range</h4>
 
 Displays a range widget for specifying a number between two values. The precise value, however, is not considered important. This is typically represented using a slider or dial control. To define the range of acceptable values, use the "min" and "max" properties.
 
@@ -855,7 +855,7 @@ Displays a range widget for specifying a number between two values. The precise 
 <input type="range" id="volume" name="volume" min="0" max="10">
 ```
 
-### Reset
+<h4>Reset</h4>
 
 Displays a button that resets the contents of the form to their default values.
 
@@ -863,7 +863,7 @@ Displays a button that resets the contents of the form to their default values.
 <input type="reset">
 ```
 
-### Search
+<h4>Search</h4>
 
 Defines a text field for entering a search query. These are functionally identical to text inputs, but may be styled differently depending on the browser.
 
@@ -873,7 +873,7 @@ Defines a text field for entering a search query. These are functionally identic
 <input type="search" id="gsearch" name="gsearch">
 ```
 
-### Time
+<h4>Time</h4>
 
 Displays a control for entering a time value in hours and minutes, with no time zone.
 
@@ -883,7 +883,7 @@ Displays a control for entering a time value in hours and minutes, with no time 
 <input type="time" id="appt" name="appt">
 ```
 
-### Tel
+<h4>Tel</h4>
 
 Defines a control for entering a telephone number. Browsers that do not support "tel" fall back to standard text input. You can optionally use the "pattern" field to perform validation.
 
@@ -893,7 +893,7 @@ Defines a control for entering a telephone number. Browsers that do not support 
 <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
 ```
 
-### Url
+<h4>Url</h4>
 
 Displays a field for entering a text URL. It works similar to a text input, but performs automatic validation before being submitted to the server.
 
@@ -903,7 +903,7 @@ Displays a field for entering a text URL. It works similar to a text input, but 
 <input type="url" id="homepage" name="homepage">
 ```
 
-### Week
+<h4>Week</h4>
 
 Defines a control for entering a date consisting of a week-year number and a year, with no time zone. Keep in mind that this is a newer type that is not supported by all the browsers.
 
@@ -913,7 +913,7 @@ Defines a control for entering a date consisting of a week-year number and a yea
 <input type="week" id="week" name="week">
 ```
 
-### Month
+<h4>Month</h4>
 
 Displays a control for entering a month and year, with no time zone. Keep in mind that this is a newer type that is not supported by all the browsers.
 
@@ -923,7 +923,7 @@ Displays a control for entering a month and year, with no time zone. Keep in min
 &lt;input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
 ```
 
-**Creating a form**
+<b>Creating a form</b>
 
 The Little Lemon restaurant wants to expand its service by taking online orders to deliver food to customers at home.
 
@@ -1052,7 +1052,7 @@ In this module, you learned how to create a basic form with several different in
 
 Good luck with creating your own signup forms.
 
-**Making the most of client-side validation**
+<b>Making the most of client-side validation</b>
 
 Have you ever completed a form online and then after you've clicked on the submit button, one of the fields turned red?
 
@@ -1136,15 +1136,15 @@ This module gave you a brief introduction to how you can use client-side validat
 
 As you learn more about JavaScript in other courses, you will be able to use even more advanced techniques to improve form validation.
 
-**Visual Studio Code on Coursera**
+<b>Visual Studio Code on Coursera</b>
 
 In addition to having Visual Studio Code installed on your own computer, in this course and throughout this program, you'll have the opportunity to work in Visual Studio Code right here on Coursera!
 
-As you progress through the course, you'll be able to write code in hands-on activities called **Labs**. In these labs you'll be able to open Visual Studio Code and start writing code without ever leaving the course.
+As you progress through the course, you'll be able to write code in hands-on activities called </b>Labs</b>. In these labs you'll be able to open Visual Studio Code and start writing code without ever leaving the course.
 
 ![](./images/image054.png)
 
-### How to get started working on Labs
+<h4>How to get started working on Labs</h4>
 
 The Labs contain instructions explaining the coding task.
 
@@ -1162,47 +1162,47 @@ And the large editor area where you write your code for the lab.
 
 ![](./images/image058.png)
 
-All **Lab** exercises will include two important files. A **README.md** file which contains instructions for using Visual Studio Code and most importantly, how to run and view the output of your code. The README.md file is the same for every Lab. There will also be an **instructions.md** file which provides specific instructions for each Lab.
+All <b>Lab</b> exercises will include two important files. A <b>README.md</b> file which contains instructions for using Visual Studio Code and most importantly, how to run and view the output of your code. The README.md file is the same for every Lab. There will also be an <b>instructions.md</b> file which provides specific instructions for each Lab.
 
-These files may look a little confusing at first. They're written using a language called Markdown. Markdown is just used to add formatting to text elements. Don't worry, you don't have to know anything about Markdown. If you open these files in **Preview** you'll just see the formatted output and they'll look totally normal.
+These files may look a little confusing at first. They're written using a language called Markdown. Markdown is just used to add formatting to text elements. Don't worry, you don't have to know anything about Markdown. If you open these files in <b>Preview</b> you'll just see the formatted output and they'll look totally normal.
 
-You'll also likely see quite a few files and folders when you open in the Lab. Many of the files and folders you'll be able to ignore. To get started, look at the **instructions.md** file and it will explain which file or files you'll be working in.
+You'll also likely see quite a few files and folders when you open in the Lab. Many of the files and folders you'll be able to ignore. To get started, look at the <b>instructions.md</b> file and it will explain which file or files you'll be working in.
 
-**Working in the Terminal**
+<b>Working in the Terminal</b>
 
-For Labs in some courses, you may need to use a tool called the Terminal from time to time to complete course activities. You can open this by selecting the **Terminal** option in the upper Visual Studio Code toolbar.
+For Labs in some courses, you may need to use a tool called the Terminal from time to time to complete course activities. You can open this by selecting the <b>Terminal</b> option in the upper Visual Studio Code toolbar.
 
 ![](./images/image059.png)
 
-**How to download files from your Visual Studio Code Lab to your local device**
+<b>How to download files from your Visual Studio Code Lab to your local device</b>
 
-1. Select the **Lab Files** button in your Lab Toolbar.
+1. Select the <b>Lab Files</b> button in your Lab Toolbar.
 2. You'll be able to download your full workspace, specific folders, or individual files through the checkbox selection tool.
-3. After you've selected these files, use the **Download** link to download your files to your local device.
+3. After you've selected these files, use the <b>Download</b> link to download your files to your local device.
 
 ![](./images/image060.png)
 
 How to upload local files to your Visual Studio Code Lab
 
-If you'd like to upload your course files from your local device to your Visual Studio Code lab, **drag and drop** your file from your local device into the Visual Studio Code file tree.
+If you'd like to upload your course files from your local device to your Visual Studio Code lab, <b>drag and drop</b> your file from your local device into the Visual Studio Code file tree.
 
 ![](./images/image061.png)
 
 How to get a fresh copy of course-provided starter files
 
-Your work will be saved and persist within your Visual Studio Code lab while you are enrolled in the course. If you'd like to get a fresh copy of the original instructor-provided files at any time, you can do this through the **Lab Help** option in your Lab Toolbar. Don't worry - your original work and files will still remain in your lab until you personally remove or delete them, even when refreshing your files through the steps below.
+Your work will be saved and persist within your Visual Studio Code lab while you are enrolled in the course. If you'd like to get a fresh copy of the original instructor-provided files at any time, you can do this through the <b>Lab Help</b> option in your Lab Toolbar. Don't worry - your original work and files will still remain in your lab until you personally remove or delete them, even when refreshing your files through the steps below.
 
-1. First rename your original files to something like _[yourfilename] [original].[your file extension]`._ You can do this by right-clicking on your file in the Visual Studio Code file tree, selecting **Rename** , and providing a new file name.
+1. First rename your original files to something like _[yourfilename] [original].[your file extension]`._ You can do this by right-clicking on your file in the Visual Studio Code file tree, selecting <b>Rename</b> , and providing a new file name.
 
 For example for index.html, this could be renamed to _`index [original].html`_
 
-1. Select **Lab Help** from your Lab Toolbar and then select **Get latest version.**
+1. Select <b>Lab Help</b> from your Lab Toolbar and then select <b>Get latest version.</b>
 
 ![](./images/image062.png)
 
 1. You should nowsee a fresh copy of the original instructor-provided files in your lab, in addition to your own (renamed) files.
 
-**Create and test a form (solution)**
+<b>Create and test a form (solution)</b>
 
 The following code is an example solution for the previous exercise.
 
@@ -1230,7 +1230,7 @@ While reviewing the code, note the following items:
 - Each field has a _required_ attribute to enable client-side validation which checks that the form is filled out by the user
 - Each field has a _minlength_ attribute with its value set to 2. This enables client-side validation which will prompt the user if the content of the field is less than 2 characters.
 
-**Radio buttons**
+<b>Radio buttons</b>
 
 You've surely booked something online before.
 
@@ -1348,7 +1348,7 @@ In this module, you've covered how to use radio buttons to create a simple onlin
 
 Hopefully, Little Lemon will get a lot more table bookings now.
 
-**Using interactive form elements**
+<b>Using interactive form elements</b>
 
 Little Lemon restaurant is becoming very popular in their local area, so much so that they've opened a second Little Lemon in another area nearby.
 
@@ -1450,7 +1450,7 @@ You should now be able to add a calendar, create a slider with values, and add a
 
 With the continued success of Little Lemon, I'm sure I'll be updating this form again in the near future.
 
-**Form submission**
+<b>Form submission</b>
 
 When ordering products online, you fill out your address and your credit card number, then you click on an Order button that confirms your order.
 
@@ -1536,11 +1536,11 @@ If errors occurred, there are many ways this can be handled by the webpage as ex
 
 You should now be familiar with how forms are sent to web servers, and the difference between GET and POST.
 
-### Submit
+<h4>Submit</h4>
 
 You have recently learned about how forms are sent to web servers and the difference between Get and Post. In this reading, you will build on this knowledge by learning about Submit.
 
-## Action and method
+<h3>Action and method</h3>
 
 Form submissions are an essential part of the world wide web. Nearly every website uses forms, from buying items online to ordering food for delivery. When you click the login button on a website, it sends your username and password to a web server to log you into your account.
 
@@ -1561,11 +1561,11 @@ The action attribute specifies to which web address the form must be sent. This 
 </form>
 ```
 
-It is important to note that action can be a full URL address such as **https://meta.com** , an absolute path such as **/login** , or a relative path such as **login**.
+It is important to note that action can be a full URL address such as <b>https://meta.com</b> , an absolute path such as <b>/login</b> , or a relative path such as <b>login</b>.
 
-The absolute path, which starts with a forward slash, will use the base address of the current website, such as **https://meta.com** and combine it with the absolute path. For example, if **/login** is the absolute path, the form will be submitted to **https://meta.com/login**. If the address is **https://meta.com/company-info/** and **/login** is the absolute path, the submission address will still be [**https://meta.com/login**](https://meta.com/login).
+The absolute path, which starts with a forward slash, will use the base address of the current website, such as <b>https://meta.com</b> and combine it with the absolute path. For example, if <b>/login</b> is the absolute path, the form will be submitted to <b>https://meta.com/login</b>. If the address is <b>https://meta.com/company-info/</b> and <b>/login</b> is the absolute path, the submission address will still be [<b>https://meta.com/login</b>](https://meta.com/login).
 
-Similarly, a relative path will combine the current web address with a relative path. For example, if the web browser is currently on the web page **https://meta.com/company-info/** , and the relative path is set to **login** , the form will be submitted to [**https://meta.com/company-info/login**](https://meta.com/company-info/login).
+Similarly, a relative path will combine the current web address with a relative path. For example, if the web browser is currently on the web page <b>https://meta.com/company-info/</b> , and the relative path is set to <b>login</b> , the form will be submitted to [<b>https://meta.com/company-info/login</b>](https://meta.com/company-info/login).
 
 The method attribute specifies which HTTP method is used to submit the form; GET or POST.
 
@@ -1587,7 +1587,7 @@ When the web server receives the request, it processes the data and sends back a
 
 However, as a front-end developer, it is essential to know that forms are not the only way to submit data to the web server. As you learn more about JavaScript and front-end libraries, you'll discover that developers often submit HTTP requests directly via code and send data as part of the HTTP request body in a text format called JavaScript Object Notation, or JSON. But that is a topic for another course. For now, practice building HTML forms and submitting data to the web server using the different attributes available.
 
-**Browser differences**
+<b>Browser differences</b>
 
 An important part of being a front-end developer is to provide a good user experience on the websites and web applications that you develop.
 
@@ -1655,13 +1655,13 @@ Popular libraries and frameworks such as Bootstrap, Tailwind CSS, and Foundation
 
 You should now know why it is important to pay attention to the appearance of different HTML elements across web browsers, and how you can ensure consistency with CSS rules.
 
-# Glossary: HTML form elements
+<h2>Glossary: HTML form elements</h2>
 
-The **&lt;form&gt;** element in HTML is an important and useful element. The following sheet provides an overview of the **&lt;form&gt;** constituent elements and their common attributes with simple examples for quick reference.
+The <b>&lt;form&gt;</b> element in HTML is an important and useful element. The following sheet provides an overview of the <b>&lt;form&gt;</b> constituent elements and their common attributes with simple examples for quick reference.
 
-## &lt;input&gt;
+<h3>&lt;input&gt;</h3>
 
-It is used to create interactive controls, for example, buttons and various types of text fields and so on, to accept input or data from the user. The key attribute of this element is **type**. Some common values for the **type** include: **button, checkbox, date, email, number, password, submit, text,** and **url**. These values dictate the appearance of the element. For example, this code:
+It is used to create interactive controls, for example, buttons and various types of text fields and so on, to accept input or data from the user. The key attribute of this element is <b>type</b>. Some common values for the <b>type</b> include: <b>button, checkbox, date, email, number, password, submit, text,</b> and <b>url</b>. These values dictate the appearance of the element. For example, this code:
 
 ```
 <form action="my_action_page">
@@ -1691,13 +1691,13 @@ Results in the following output:
 
 ![](./images/image078.png)
 
-Note how the type **password** hides the user input.
+Note how the type <b>password</b> hides the user input.
 
-## &lt;label&gt;
+<h3>&lt;label&gt;</h3>
 
-Defines a label for an element. It has an attribute "for", the value of which should be equal to the id attribute of the element it is associated with. Note how in the example above, the **&lt;label&gt;** is associated with the **&lt;input&gt;** using its id value.
+Defines a label for an element. It has an attribute "for", the value of which should be equal to the id attribute of the element it is associated with. Note how in the example above, the <b>&lt;label&gt;</b> is associated with the <b>&lt;input&gt;</b> using its id value.
 
-## &lt;select&gt;
+<h3>&lt;select&gt;</h3>
 
 Defines a drop-down list of options presented to the user. It has a couple of attributes:
 
@@ -1706,18 +1706,18 @@ Defines a drop-down list of options presented to the user. It has a couple of at
 - Multiple Boolean attribute, when specified, indicates if a user can select multiple options out of the list
 - Required indicates if the user is required to select an option before submitting a form
 - Size mentions the number of visible options in a drop-down list
-- The options in a drop-down list are defined using the **&lt;option&gt;** element inside **&lt;select&gt;**. Note the example in the **&lt;option&gt;** description below.
+- The options in a drop-down list are defined using the </b>&lt;option&gt;</b> element inside <b>&lt;select&gt;</b>. Note the example in the </b>&lt;option&gt;</b> description below.
 
-## &lt;textarea&gt;
+<h3>&lt;textarea&gt;</h3>
 
 Defines a multi-line input field, typically to allow the user to input longer textual data. The common attributes for this element include:
 
-- **cols** defines the width of the text area, the default value is 20
-- **form** the form element the text area is associated with
-- **maxlength** when specified, limits the maximum number of characters that can be entered in the text area
-- **minlength** the minimum number of characters that the user should enter
-- **readonly** once set, the user cannot modify the contents
-- **rows** defines the number of visible text lines for the text area
+- <b>cols</b> defines the width of the text area, the default value is 20
+- <b>form</b> the form element the text area is associated with
+- <b>maxlength</b> when specified, limits the maximum number of characters that can be entered in the text area
+- <b>minlength</b> the minimum number of characters that the user should enter
+- <b>readonly</b> once set, the user cannot modify the contents
+- <b>rows</b> defines the number of visible text lines for the text area
 - The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:
 
 ```
@@ -1726,9 +1726,9 @@ Defines a multi-line input field, typically to allow the user to input longer te
 </textarea>
 ```
 
-## &lt;button&gt;
+<h3>&lt;button&gt;</h3>
 
-Defines a clickable button. The **onclick** attribute defines the behavior when the button is clicked by the user. For example, in the code below, an alert message is shown to the user.
+Defines a clickable button. The <b>onclick</b> attribute defines the behavior when the button is clicked by the user. For example, in the code below, an alert message is shown to the user.
 
 ```
 <button type="button" onclick="alert('You just clicked!')">Click Me!
@@ -1736,11 +1736,11 @@ Defines a clickable button. The **onclick** attribute defines the behavior when 
 </button>
 ```
 
-## &lt;fieldset&gt;
+<h3>&lt;fieldset&gt;</h3>
 
 Used to group related input elements in a form. For instance, elements related to the user's personal information and educational qualification can be grouped separately in two field sets.
 
-## &lt;legend&gt;
+<h3>&lt;legend&gt;</h3>
 
 Defines a caption for the <b>&lt;fieldset&gt;</b> element. For example:
 
@@ -1774,7 +1774,7 @@ Defines a caption for the <b>&lt;fieldset&gt;</b> element. For example:
 </fieldset>
 ```
 
-## &lt;datalist&gt;
+<h3>&lt;datalist&gt;</h3>
 
 Specifies a list of pre-defined options for an input element. It differs from <b>&lt;select&gt;</b> since the user can still provide textual or numeric input other than the listed options.
 
@@ -1807,11 +1807,11 @@ Specifies a list of pre-defined options for an input element. It differs from <b
 
 ![](RackMultipart20230221-1-dcr3jc_html_974dc0f03f255fa7.png)
 
-## &lt;output&gt;
+<h3>&lt;output&gt;</h3>
 
 Represents the result of a calculation (typically the output of a script) or the outcome of the user action.
 
-## &lt;option&gt;
+<h3>&lt;option&gt;</h3>
 
 Defines an option for the drop-down list. The following code example demonstrates how a simple list can be defined, with the rendered view below the code block.
 
@@ -1840,7 +1840,7 @@ By default, the first item in the drop-down list is selected. To define a pre-se
 
 Defines a group of related options in a drop-down list. Its attribute label names the group.
 
-## Additional resources
+<h3>Additional resources</h3>
 
 The following resources will be helpful as additional references in dealing with different concepts related to the topics you have covered in this section.
 
@@ -1856,7 +1856,7 @@ The following resources will be helpful as additional references in dealing with
 
 [HTML Form submission – sending form data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
 
-**Video and audio**
+<b>Video and audio</b>
 
 These days it's difficult to think of using the Internet without streaming music or videos, but this wasn't always possible on the World Wide Web.
 
@@ -1920,7 +1920,7 @@ Now you know how to add and customize both the video player and an audio player.
 
 Well done. You'll learn about other video and audio attributes in the next video.
 
-**Embedded players**
+<b>Embedded players</b>
 
 The Little Lemon Restaurant wants to add an about page to their website.
 
@@ -2006,7 +2006,7 @@ This lesson will help refresh your knowledge of the <b>&lt;img&gt;</b> tag and h
 The image's address is specified using the src attribute. 
 For example, if you wanted to embed an image file named photo.png, you can do that with the following HTML. <b>&lt;img src="photo.png"&gt;</b> You can also specify the width and height of the image using the width and height attributes.
 For example, if the width of the photo is 640 pixels and the height of the photo is 480 pixels, you can use the following HTML. <b>&lt;img src="photo.png" width="640" height="480"&gt;</b>.
-It is important to note that you can set the image to a larger or smaller size and the web browser will automatically scale the image. For example, you can update the previous HTML to half the width and height and the image would shrink by 50%. **<img src="photo.png" width="320" height="240">** One useful feature of rendering images in the web browser is that the web browser can automatically keep the correct ratio of width to height. So for example, if you want to scale the image by 50%, you can simply set the width attribute and the web browser will automatically calculate the height. **<img src="photo.png" width="320">** But what happens if the photo doesn't load? Perhaps the file was accidentally deleted, or you mistyped the file name. Luckily, the web browser has a way to display some text when the image fails to load. This is done using the alt attribute. For example, you can display the text My Profile Photo using the alt attribute in the previous HTML. **<img src="photo.png" width="320" alt="My Profile Photo">** It is important to ensure that screen reader accessibility software can interpret images displayed in the web browser. To support this, the <img> tag is combined with the **<figure>** and **<figcaption>** tags to provide a description of the image. The **<img>** tag is added inside the **<figure>** tag and the **<figcaption>** is specified after it.
+It is important to note that you can set the image to a larger or smaller size and the web browser will automatically scale the image. For example, you can update the previous HTML to half the width and height and the image would shrink by 50%. <b>&lt;img src="photo.png" width="320" height="240"&gt;</b> One useful feature of rendering images in the web browser is that the web browser can automatically keep the correct ratio of width to height. So for example, if you want to scale the image by 50%, you can simply set the width attribute and the web browser will automatically calculate the height. <b>&lt;img src="photo.png" width="320"&gt;</b> But what happens if the photo doesn't load? Perhaps the file was accidentally deleted, or you mistyped the file name. Luckily, the web browser has a way to display some text when the image fails to load. This is done using the alt attribute. For example, you can display the text My Profile Photo using the alt attribute in the previous HTML. <b>&lt;img src="photo.png" width="320" alt="My Profile Photo"&gt;</b> It is important to ensure that screen reader accessibility software can interpret images displayed in the web browser. To support this, the &lt;img&gt; tag is combined with the <b>&lt;figure&gt;</b> and <b>&lt;figcaption&gt;</b> tags to provide a description of the image. The <b>&lt;img&gt;</b> tag is added inside the <b>&lt;figure&gt;</b> tag and the <b>&lt;figcaption&gt;</b> is specified after it.
 
 ```
 <figure>
@@ -2088,86 +2088,94 @@ While these restrictions help to keep your users secure, there may still be secu
 
 Therefore, it's always best to be cautious when using iframes and ensure that you trust the website that you are embedding.
 
-**iFrame sandbox cheat sheet**
+<b>iFrame sandbox cheat sheet</b>
 
-The **&lt;iframe&gt;** is the inline frame element that embeds an HTML page into another page. Apart from the global attributes, which can be a part of the **iframe** , major element-specific attributes are listed below.
+The <b>&lt;iframe&gt;</b> is the inline frame element that embeds an HTML page into another page. Apart from the global attributes, which can be a part of the <b>iframe</b> , major element-specific attributes are listed below.
 
-## allow
+<h3>allow</h3>
 
 It specifies what features or permissions are available to the frame, for instance, access to the microphone, camera, other APIs and so on. For example:
 
-- **allow="fullscreen"** the fullscreen mode can be activated
-- **allow="geolocation"** lets you access the user's location
+- <b>allow="fullscreen"</b> the fullscreen mode can be activated
+- <b>allow="geolocation"</b> lets you access the user's location
 - To specify more than one feature, a semicolon-separator should be used between features. For example, the following would allow using the camera and the microphone:
-- **<iframe src="https://example.com/…" allow="camera; microphone"> </iframe>**
+- <b><iframe src="https://example.com/…" allow="camera; microphone"> </iframe></b>
 
-## name
+<h3>name</h3>
 
-The name for the **<iframe>**. For example: **<iframe name = "My Frame" width="400" height="300"></iframe>**
+The name for the <b><iframe></b>. For example: <b><iframe name = "My Frame" width="400" height="300"></iframe></b>
 
-## height
+<h3>height</h3>
 
 It specifies the height of the frame. The default value is 150, in terms of CSS pixels. width
 
-## width
+<h3>width</h3>
 
 Specifies the width of the frame, in terms of CSS pixels. The default value is 300 pixels.
 
-## referrerpolicy
+<h3>referrerpolicy</h3>
 
 A referrer is the HTTP header that lets the page know who is loading it. This attribute indicates which referrer information to send when loading the frame resource. The common values are:
 
-- **no-referrer** The referrer header will not be sent.
-- **origin** The referrer will be limited to the origin of the referring page
-- **strict-origin** The origin of the document is sent as the referrer only when using the same protocol security level (HTTPS to HTTPS)
+- <b>no-referrer</b> The referrer header will not be sent.
+- <b>origin</b> The referrer will be limited to the origin of the referring page
+- <b>strict-origin</b> The origin of the document is sent as the referrer only when using the same protocol security level (HTTPS to HTTPS)
 
-## sandbox
+<h3>sandbox</h3>
 
-To enforce greater security, a sandbox applies extra restrictions to the content in the **<iframe>**. To lift particular restrictions, an attribute value (permission token) is used. The common permission tokens are listed below:
+To enforce greater security, a sandbox applies extra restrictions to the content in the <b><iframe></b>. To lift particular restrictions, an attribute value (permission token) is used. The common permission tokens are listed below:
 
-- **allow-downloads** Allows the user to download an item
-- **allow-forms** Allows the user to submit forms
-- **allow-modals** The resource can open modal windows
-- **allow-orientation-lock** Lets the resource lock the screen orientation
-- **allow-popups** Allows popups to open
-- **allow-presentation** Allows a presentation session to start
-- **allow-scripts** Lets the resource run scripts without creating popup windows
+- <b>allow-downloads</b> Allows the user to download an item
+- <b>allow-forms</b> Allows the user to submit forms
+- <b>allow-modals</b> The resource can open modal windows
+- <b>allow-orientation-lock</b> Lets the resource lock the screen orientation
+- <b>allow-popups</b> Allows popups to open
+- <b>allow-presentation</b> Allows a presentation session to start
+- <b>allow-scripts</b> Lets the resource run scripts without creating popup windows
 
 Note that when the value of this attribute is empty, all restrictions are applied. To apply more than one permission, use a space-separated list. For example, the following would allow form submission and scripts while keeping other restrictions active:
 
+```
 <iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts">
 
 </iframe>
+```
 
-## src
+<h3>src</h3>
 
-The URL of the page to embed in the **<iframe>**. Using the value **about:blank** would embed an empty page.
+The URL of the page to embed in the <b>&lt;iframe&gt;</b>. Using the value <b>about:blank</b> would embed an empty page.
 
-## srcdoc
+<h3>srcdoc</h3>
 
-Let's you specify the inline HTML to embed in the **<iframe>**. When defined, this attribute would override the **src** attribute. For instance, the following code will display "My inline html" in the frame, instead of loading **my_iframe_src.html**.
+Let's you specify the inline HTML to embed in the <b><iframe></b>. When defined, this attribute would override the <b>src</b> attribute. For instance, the following code will display "My inline html" in the frame, instead of loading <b>my_iframe_src.html</b>.
 
+```
 <iframe src="my_iframe_src.html" srcdoc="<p>My inline html</p>" >
 
 </iframe>
+```
 
-## loading
+<h3>loading</h3>
 
-This attribute let's you specify if the iframe should be loaded immediately when the web page loads ( **eager** ) or loaded when iframe is displayed in the browser ( **lazy** ). This allows you to defer loading iframe content if it is further down your web page and outside of the display area when the page is initially loaded.
+This attribute let's you specify if the iframe should be loaded immediately when the web page loads ( <b>eager</b> ) or loaded when iframe is displayed in the browser ( <b>lazy</b> ). This allows you to defer loading iframe content if it is further down your web page and outside of the display area when the page is initially loaded.
 
+```
 <iframe src="my_iframe_src.html" loading="lazy" >
 
 </iframe>
+```
 
-## title
+<h3>title</h3>
 
 This attribute let's you add a description to the iframe for accessibility purposes. The value of this attribute should accurately describe the iframe's content.
 
+```
 <iframe src="history.html" title="An embedded document about the history of my family" >
 
 </iframe>
+```
 
-**iFrame as a picture**
+<b>iFrame as a picture</b>
 
 The Little Lemon restaurant has partnered with another restaurant for cross promotional purposes.
 
@@ -2249,7 +2257,7 @@ Now that they know it's secure, the other restaurant is going to implement the s
 
 Hopefully this will lead to a lot more business for both restaurants.
 
-**The canvas element**
+</b>The canvas element</b>
 
 You've most likely played a video game or watched an animation in your web browser before.
 
@@ -2333,7 +2341,7 @@ There are many more possibilities to develop animations and video games and ther
 
 These are linked in the additional resources Reading.
 
-**Module summary: HTML deep dive**
+<b>Module summary: HTML deep dive</b>
 
 You've reached the end of this module on HTML.
 
@@ -2385,7 +2393,7 @@ Like using semantic tags to construct a well-formed webpage, or how to use input
 
 You're making good progress on your learning journey.
 
-**Additional resources**
+<b>Additional resources</b>
 
 The following resources will be helpful as additional references in dealing with different concepts related to the topics you have covered in this module.
 
@@ -2401,7 +2409,7 @@ The following resources will be helpful as additional references in dealing with
 
 [https://html.spec.whatwg.org/multipage/media.html](https://html.spec.whatwg.org/multipage/media.html)
 
-**CSS web layout**
+<b>CSS web layout</b>
 
 CSS or cascading style sheets is a set of rules that enhance the appearance of web pages.
 
@@ -2467,7 +2475,7 @@ The rules for these layouts and CSS are standardized but that doesn't mean you a
 
 When designing a web page, you will learn more about how to use these layouts during the course.
 
-**Understanding flexbox**
+<b>Understanding flexbox</b>
 
 Much like the div and box container that you can create using HTML, flexbox is a type of container. Flexbox can overcome the limitations caused by containers such as block and inline because it does a better job of scaling over larger web pages and also provides more dynamic control of the containers. This is because it can grow, shrink and align the items inside it which give better control to the programmer over the contents and styling of the items inside the container.
 
@@ -2481,12 +2489,13 @@ Image source: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics
 
 Let's now examine some of the important properties that will allow you to configure a flexbox.
 
-## Flexbox properties
+<h3>Flexbox properties</h3>
 
-## Original HTML code:
+<h3>Original HTML code:</h3>
 
 ```
 <body>
+
   <div class="flex-container">
     <div class="box box1">  One..</div>
     <div class="box box2">  Two..</div>
@@ -2494,15 +2503,13 @@ Let's now examine some of the important properties that will allow you to config
     <div class="box box4">  Four..</div>
     <div class="box box5">  Five..</div>
     <div class="box box6">  Six..</div>
-
     <div class="box box7">  Seven..</div>
-
   </div>
 
 </body>
 ```
 
-## Original CSS file:
+<h3>Original CSS file:</h3>
 
 .box{
 
@@ -2516,7 +2523,7 @@ Let's now examine some of the important properties that will allow you to config
 
 }
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_b8a5e25c79a0cbf3.png)
 
@@ -2526,7 +2533,7 @@ The corresponding CSS file contains rules for all seven div tags that have the b
 
 Now let's add properties to the flex container by converting it into flex.
 
-## display: flex;
+<h3>display: flex;</h3>
 
 .flex-container{
 
@@ -2538,7 +2545,7 @@ The output is now seven flex containers that run from left to right starting in 
 
 ![](RackMultipart20230221-1-dcr3jc_html_2607ce247b867fde.png)
 
-## Alignment properties
+<h3>Alignment properties</h3>
 
 Let's examine a few alignment properties inside the flex. There are four main properties used to align a flex container and items present inside it:
 
@@ -2550,10 +2557,11 @@ Let's examine a few alignment properties inside the flex. There are four main pr
 
 Let's first examine the use of justify-content which has a value of 'left' by default.
 
-## justify-content
+<h3>justify-content</h3>
 
-## CSS:
+<h3>CSS:</h3>
 
+```
 .flex-container{
 
     display: flex;
@@ -2561,50 +2569,46 @@ Let's first examine the use of justify-content which has a value of 'left' by de
     justify-content: center
 
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_b642baa71a0cd17f.png)
 
-## flex-wrap:
+<h3>flex-wrap:</h3>
 
 The default for this property is 'nowrap' which means the items will span the entire width of the axis.
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_977b4fb292baf786.png)
 
 The items will now be wrapped to the size of the available viewport.
 
-## flex-direction:
+<h3>flex-direction:</h3>
 
 This property is used to set the main axis, which is a 'row' by default. It basically means you are changing your 'main' axis from horizontal rows to vertical columns.
 
-## CSS Code:
+<h3>CSS Code:</h3>
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_93b355e43d8de051.png)
 
@@ -2612,82 +2616,68 @@ The output looks like the original output; however, it is now actually a flex.
 
 Now let's align the items again and examine a couple of the other properties mentioned earlier.
 
-## align-items:
+<h3>align-items:</h3>
 
 The alignment on the cross-axis is done with the help of this property. Let's change the value for it to 'flex-end'.
 
-## CSS Code:
+<h3>CSS Code:</h3>
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_d06cf540d9ce6843.png)
 
 The term 'end' refers to the right side of the page as the left side is seen as the beginning.
 
-## align-self:
+<h3>align-self:</h3>
 
 This property can be used on individual items inside the flex.
 
+```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
 }
 
 .box3{
-
     background-color: blanchedalmond;
-
     align-self: center;
 
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_134f43332ec1c869.png)
 
 Here the color and alignment of the third box have been changed and it overrides the properties set using align-items.
 
-## gap:
+<h3>gap:</h3>
 
 gap property can be used to create space between the items along the main axis. You can also individually configure the gaps in rows and columns using row-gap and column-gap properties.
 
-## CSS Code:
+<h3>CSS Code:</h3>
 
+```
 .flex-container{
 
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
     gap:10px;
 
 }
@@ -2699,8 +2689,9 @@ gap property can be used to create space between the items along the main axis. 
     align-self: center;
 
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_6241a7679be82f5f.png)
 
@@ -2710,57 +2701,58 @@ The final set of properties are flex-grow, flex-shrink and flex-basis. Together 
 
 These are the sub-properties of a property called flex. Together all three properties can also be given values with the help of something called the shorthand notation in CSS. Shorthand notation helps you make your code compact and also easy to write and follow. The values left empty in shorthand notation are given their default values.
 
-## For example:
+<h3>For example:</h3>
 
+```
 .flex-container{
 
 flex: 0 1 auto;
 
 }
+```
 
 Here for the flex-container class, there is a set rule for the flex property. The values correspond to the three properties, namely the flex-grow set to 0, flex-shrink to 1 and flex-basis to auto. The flex-basis sets the initial size of the container. and together they define the rigidity or flexibility and dynamism you want to add to the flexbox.
 
 To demonstrate the effect of this, the code has to be modified slightly by removing the flex-direction value set to 'column'. This will change it to default 'row' and the output will again be centrally aligned and horizontal best-distributed between two rows.
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_be8d5584e9278451.png)
 
 The rest of the remaining code is unchanged. However, the output will change if the code is modified with the addition of the flex property inside the flex item box3 class.
 
-## CSS Code:
+<h3>CSS Code:</h3>
 
+```
 .box3{
 
     background-color: blanchedalmond;
-
     align-self: center;
-
     flex: 1 1 auto;
-
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_8fcfe860f19aeceb.png)
 
-The third box now takes up the entire free space available because flex-growth's value has been set to 1. So if we have  **flex-grow**  set to 1, the children will all set to equal size. And if one of the children has a value of 1.5, that child would take up more space as compared to the others.
+The third box now takes up the entire free space available because flex-growth's value has been set to 1. So if we have  <b>flex-grow</b>  set to 1, the children will all set to equal size. And if one of the children has a value of 1.5, that child would take up more space as compared to the others.
 
 It's important to understand how the changes in the main and cross axis affect the way you imagine and manipulate the flexbox. Once you've had more practice you'll be more comfortable with the use of these properties, and it will become easier to use flexboxes and understand the flow and alignment of items inside the flexbox.
 
-**CSS units of measurement**
+<b>CSS units of measurement</b>
 
 A web page, as you know it, is two-dimensional. In other words, it has width and height. There are a number of other ways you can express this such as vertical and horizontal, length and breadth, x and y axis and so on. Another property of a web page is its size which can either be static or dynamic. When you've encountered enough CSS code, you will note a number of different ways in which the values for the same property can be declared using different units of measurement. Most of these units of measurement are used to account for the dynamism and dimensionality of a web page.
 
 Let's examine the most widely used units of measurement. They can broadly be categorized as Absolute and Relative units.
 
-## Absolute units
+<h3>Absolute units</h3>
 
 Absolute units are constant across different devices and have a fixed size. They are useful for activities like printing a page. They are not so suitable when it comes to the wide variety of devices in use today that have different viewport sizes. Because of this, absolute units are used when the size of the web page is known and will remain constant.
 
 The table for absolute units can be seen below:
 
-| **Unit** | **Name** | **Comparison** |
+| <b>Unit</b> | <b>Name</b> | <b>Comparison</b> |
 | --- | --- | --- |
 | Q | Quarter-millimeters | 1Q = 1/40th of 1cm |
 | --- | --- | --- |
@@ -2773,30 +2765,30 @@ The table for absolute units can be seen below:
 
 Of these, the pixels and centimeters are most frequently used for defining properties.
 
-## Relative values
+<h3>Relative values</h3>
 
 When you create a web page, you will almost never have only a single element present inside it. Even in case of containers such as flexboxes and grids, there's usually more than one element present that rules are applied to. Relative values are defined 'in relation' to the other elements present inside the parent element. Additionally, they are defined 'in relation' to the viewport or the size of the visible web page. Given the dynamic nature of web pages today and the variable size of devices in use, relative units are the go-to option in many cases. Below is a list of some of the important relative units.
 
-| **Unit** | **Description and relativity** |
+| <b>Unit</b> | <b>Description and relativity</b> |
 | --- | --- |
-| **em** | Font size of the parent where present. |
+| <b>em</b> | Font size of the parent where present. |
 | --- | --- |
-| **ex** | x-co-ordinate or height of the font element. |
-| **ch** | Width of the font character. |
-| **rem** | Font size of the root element. |
-| **lh** | Value computed for line height of parent element.  |
-| **rlh** | Value computed for line height of root element which is <html>.  |
-| **vw** | 1% of the viewport width. |
-| **vh** | 1% of the viewport height. |
-| **vmin** | 1% of the smaller dimension of viewport. |
-| **vmax** | 1% of the larger dimension of viewport. |
-| **%** | Denotes a percentage value in relation to its parent element.  |
+| <b>ex</b> | x-co-ordinate or height of the font element. |
+| <b>ch</b> | Width of the font character. |
+| <b>rem</b> | Font size of the root element. |
+| <b>lh</b> | Value computed for line height of parent element.  |
+| <b>rlh</b> | Value computed for line height of root element which is <html>.  |
+| <b>vw</b> | 1% of the viewport width. |
+| <b>vh</b> | 1% of the viewport height. |
+| <b>vmin</b> | 1% of the smaller dimension of viewport. |
+| <b>vmax</b> | 1% of the larger dimension of viewport. |
+| <b>%</b> | Denotes a percentage value in relation to its parent element.  |
 
-Many of these units are used in terms of the relative size of fonts. Some units are more suitable depending on the relative context. Like when the dimensions of the viewport are important, it's more appropriate to use **vw** and **vh**. In a broader context, the relative units you will see most frequently used are percentage, **em** , **vh** , **vw** and **rem**.
+Many of these units are used in terms of the relative size of fonts. Some units are more suitable depending on the relative context. Like when the dimensions of the viewport are important, it's more appropriate to use <b>vw</b> and <b>vh</b>. In a broader context, the relative units you will see most frequently used are percentage, <b>em</b> , <b>vh</b> , <b>vw</b> and <b>rem</b>.
 
-Much like the absolute and relative units discussed above, certain properties have their own set of acceptable values that need to be taken into account. For example, color-based properties such as **backgroundcolor** will have values such as hexadecimal, **rgb()**, **rgba()**, **hsl()**, **hsla()** and so on. Each property should be explored on an individual basis and practicing with the code will help you to decide which of these units of measurement are the most suitable choice.
+Much like the absolute and relative units discussed above, certain properties have their own set of acceptable values that need to be taken into account. For example, color-based properties such as <b>backgroundcolor</b> will have values such as hexadecimal, <b>rgb()</b>, <b>rgba()</b>, <b>hsl()</b>, <b>hsla()</b> and so on. Each property should be explored on an individual basis and practicing with the code will help you to decide which of these units of measurement are the most suitable choice.
 
-**Basic flexbox**
+<b>Basic flexbox</b>
 
 At this stage, you should be familiar with different layouts and grid structures, and you should be ready to start using flexbox.
 
@@ -2920,7 +2912,7 @@ These are just some of the ways in which you use flexboxes to provide responsive
 
 You should now be more familiar with some simple ways in which you can use flexboxes to bind elements together to create an easy responsive layout on your webpage. Good job.
 
-**Flex charts**
+<b>Flex charts</b>
 
 So far, you've covered different ways in which a flex box can be used to add functionality to a web page.
 
@@ -3068,7 +3060,7 @@ The graphical representation of information or data makes it accessible and allo
 
 In this section you've explored ways to create bar charts using flex box.
 
-**CSS grids**
+<b>CSS grids</b>
 
 CSS Grid layouts are important when it comes to designing a good webpage.
 
@@ -3198,14 +3190,15 @@ Soon you'll be building your own web pages and you'll be able to test out some o
 
 Don't forget the repeat and min-max functions, they'll save you time and effort.
 
-# Grids and flexbox cheat sheet
+<h2>Grids and flexbox cheat sheet</h2>
 
 Note: '|' stands for alternatives or OR.
 
-# Grid
+<h2>Grid</h2>
 
 The syntax for creating a grid:
 
+```
 1
 
 2
@@ -3217,6 +3210,7 @@ selector{
     display: grid; /* or inline-grid */
 
 }
+```
 
 ![Shape1](RackMultipart20230221-1-dcr3jc_html_3ec2a22741ebb412.gif)
 
@@ -3224,169 +3218,169 @@ selector{
 
 Grid shorthand consists of the following properties with default values:
 
-**grid**
+<b>grid</b>
 
 A grid will allow you organize the various elements on your page.
 
-**grid-template-rows: none**
+<b>grid-template-rows: none</b>
 
 This feature allows you configure your elements so that they are organized similarly to rows on a table.
 
-**grid-template-columns: none**
+<b>grid-template-columns: none</b>
 
 This feature allows you configure your elements but with this setting the elements are organized like columns on a table.
 
-**grid-template-areas: none**
+<b>grid-template-areas: none</b>
 
 This feature allows you configure the names of a grid and how they sit in relation to one another.
 
-**grid-auto-rows: auto**
+<b>grid-auto-rows: auto</b>
 
 Default setting for all row sizes that have not been explicitly configured.
 
-**grid-auto-columns: auto**
+<b>grid-auto-columns: auto</b>
 
 Default setting for all column sizes that have not been explicitly configured.
 
-**grid-auto-flow: row**
+<b>grid-auto-flow: row</b>
 
 Default location for rows that are not explicitly allocated.
 
-**column-gap: normal**
+<b>column-gap: normal</b>
 
 This sets the gap between the columns
 
-**row-gap: normal**
+<b>row-gap: normal</b>
 
 This sets the gap between the rows
 
-## Grid properties for container
+<h3>Grid properties for container</h3>
 
-**grid-template-columns: measurement units | % units |repeat()**
+<b>grid-template-columns: measurement units | % units |repeat()</b>
 
 Defines the line names, and maintains a constant size of column items. Can accept a range of different measurement sizes.
 
-**grid-template-rows: measurement units | % units |repeat()**
+<b>grid-template-rows: measurement units | % units |repeat()</b>
 
 Defines the line names, and maintains a constant size of rows. Can accept a range of different measurement sizes.
 
-**grid-auto-columns: measurement unit (fixed value for all columns)**
+<b>grid-auto-columns: measurement unit (fixed value for all columns)</b>
 
 Determines the default size for columns that have not been explicitly configured.
 
-**grid-auto-rows: measurement unit (fixed value for all rows)**
+</b>grid-auto-rows: measurement unit (fixed value for all rows)</b>
 
 Determines the default size for rows that have not been explicitly configured.
 
-**grid-template: "header header" auto**
+</b>grid-template: "header header" auto</b>
 
 This allows you define and maintain named cells on a grid
 
-" **main right" 75vh**
+" </b>main right" 75vh</b>
 
 This defines two cells named main and right, that have a sizing of 75% of the viewport height.
 
-" **footer footer" 20rem**
+" </b>footer footer" 20rem</b>
 
 This defines two cells named footer and footer, that have a sizing of 20 root em (rem). This defines the size in relation to the html font size.
 
-### Gap
+<h4>Gap</h4>
 
-**grid-gap: measurement units**
+</b>grid-gap: measurement units</b>
 
 Determines the gap between rows and columns
 
-**grid-column-gap: measurement units**
+</b>grid-column-gap: measurement units</b>
 
 Determines the gap between columns
 
-**grid-row-gap: m-unit-1 m-unit-2**
+</b>grid-row-gap: m-unit-1 m-unit-2</b>
 
 Determines the gap between columns
 
-### Alignment
+<h4>Alignment</h4>
 
-**justify-items: start | center | end | stretch**
+<b>justify-items: start | center | end | stretch</b>
 
 Defines the default space that is allot to each item on the grid
 
-**align-items: start | center | end | stretch**
+<b>align-items: start | center | end | stretch</b>
 
 Defines the default space related to an item along the grid's block axis
 
-**place-items: start | stretch /* shorthand for two properties above */**
+<b>place-items: start | stretch /* shorthand for two properties above */</b>
 
 This feature allows you align items with the block and inline directions.
 
-### Justification
+<h4>Justification</h4>
 
-**justify-content: start | center | end | stretch | space-between | space-evenly | space-around**
+<b>justify-content: start | center | end | stretch | space-between | space-evenly | space-around</b>
 
 Defines browser allocation of space to content items in relation to the main-axis
 
-**align-content: start | center | end | stretch | space-between | space-evenly | space-around**
+<b>align-content: start | center | end | stretch | space-between | space-evenly | space-around</b>
 
 Defines browser allocation of space to content items in relation to cross axis and block axis
 
-**place-content: center | start**
+<b>place-content: center | start</b>
 
 This feature allows you align items with the block and inline directions.
 
-### Positioning
+<h4>Positioning</h4>
 
-**grid-auto-flow: row | column | dense**
+<b>grid-auto-flow: row | column | dense</b>
 
 This relates to how the items are placed automatically within the grid
 
-**grid-auto-columns: measurement units**
+<b>grid-auto-columns: measurement units</b>
 
 This relates to the size for columns created without specific size specifications
 
-**grid-auto-rows: measurement units**
+<b>grid-auto-rows: measurement units</b>
 
 This relates to the size for rows created without specific size specifications
 
-## Grid properties for items (child)
+<h3>Grid properties for items (child)</h3>
 
-**grid-column: column position /* E.g. 1/2 */**
+<b>grid-column: column position /* E.g. 1/2 */</b>
 
 Allows for specifying where on the grid the column is to start.
 
-**grid-column-start: column start position**
+<b>grid-column-start: column start position</b>
 
 This property determines the starting column position an item is placed on a grid.
 
-**grid-column-end: column end position**
+<b>grid-column-end: column end position</b>
 
 This property determines the end column position an item is placed on a grid.
 
-**grid-row: row position /* E.g. 1/2 */**
+<b>grid-row: row position /* E.g. 1/2 */</b>
 
 Allows for specifying where on the grid the row is to start.
 
-**grid-row-start: row start position**
+<b>grid-row-start: row start position</b>
 
 This property determines the starting row position an item is placed on a grid.
 
-**grid-row-end: row end position**
+<b>grid-row-end: row end position</b>
 
 This property determines the end row position an item is placed on a grid.
 
-## Justification and alignment
+<h3>Justification and alignment</h3>
 
-**justify-self: start | center | end | stretch**
+<b>justify-self: start | center | end | stretch</b>
 
 Determines how an item is positioned inside its aligned container in relation to the appropriate axis.
 
-**align-self: start | center | end | stretch**
+<b>align-self: start | center | end | stretch</b>
 
 Aligns an item within a grid area.
 
-**place-self: start | stretch /* shorthand for two properties above */**
+<b>place-self: start | stretch /* shorthand for two properties above */</b>
 
 This setting lets one align and justify an item within a block.
 
-**Flexbox**
+<b>Flexbox</b>
 
 The syntax for creating a flexbox:
 
@@ -3404,11 +3398,11 @@ Here the selector can refer to any of the following flex attributes
 - Type Selectors
 - Universal Selectors
 
-The display relates to how you want the selector to be shown. Setting display to flex makes the given selector a flex box. Setting display to **inline-flex** makes the selector a flex box container while will be inline.
+The display relates to how you want the selector to be shown. Setting display to flex makes the given selector a flex box. Setting display to <b>inline-flex</b> makes the selector a flex box container while will be inline.
 
-## Properties for flexbox container
+<h3>Properties for flexbox container</h3>
 
-**flex-direction: row | row-reverse | column | column-reverse**
+<b>flex-direction: row | row-reverse | column | column-reverse</b>
 
 It is possible to specify the direction your elements will follow. Traditionally text goes from left to right which is flex's default setting however it can be set from right to left or even top to bottom. The four flex-direction are:
 
@@ -3417,14 +3411,14 @@ It is possible to specify the direction your elements will follow. Traditionally
 - column: organized from top to bottom
 - column-reverse: organized from bottom to top.
 
-**flex-wrap: wrap | nowrap**
+<b>flex-wrap: wrap | nowrap</b>
 
 The standard layout is to plot the elements from left to right in a straight line. The wrap feature allows you customize this to match the size of the window displaying the page.
 
 - wrap: Automatically wrap the items with as the window space gets smaller.
 - Nowrap: Default setting, items remain rigid and don't respond to adjustments made to the window size.
 
-**align-items: flex-start | flex-end | center |Stretch**
+<b>align-items: flex-start | flex-end | center |Stretch</b>
 
 This determines how the flex items are to be positioned on the page. Items can be aligned in a variety of ways
 
@@ -3433,7 +3427,7 @@ This determines how the flex items are to be positioned on the page. Items can b
 - Center: Item is positioned from the center.
 - Stretch: item expands to fill the container.
 
-**justify-content: flex-start | flex-end | center | space-between | space-evenly**
+<b>justify-content: flex-start | flex-end | center | space-between | space-evenly</b>
 
 Justify-content determines the alignment of the flex items.
 
@@ -3443,29 +3437,29 @@ Justify-content determines the alignment of the flex items.
 - Space-between: first and last item are flush with the left and right wall respectively, every other item is evenly spaced.
 - Space-evenly: each item is equidistant from each other and the boundary wall
 
-## Properties for flexbox items (child)
+<h3>Properties for flexbox items (child)</h3>
 
-**flex-grow: factor of flex's main size**
+<b>flex-grow: factor of flex's main size</b>
 
 This attribute enables the flex container to grow proportionally to the other containers present.
 
-**flex-shrink: factor of flex's main size**
+<b>flex-shrink: factor of flex's main size</b>
 
 This allows elements to shrink in relation to items around it.
 
-**flex-basis: auto | factor of main's size | measurement unit**
+<b>flex-basis: auto | factor of main's size | measurement unit</b>
 
 The sets the initial main size of an item. It can be overridden if other stylized elements are configured.
 
-**order:position in flex /* Set ascending by default */**
+<b>order:position in flex /* Set ascending by default */</b>
 
 The standard positioning of items is by source order, however this feature will enable you to configure where the items appear on the page.
 
-**align-self: start | center | end | stretch**
+<b>align-self: start | center | end | stretch</b>
 
 This determines where on the page the child items will be positioned. Similar to the main flex attributes, start is to the left and end is to the right.
 
-**Grid showcase**
+<b>Grid showcase</b>
 
 In this section (grid showcase), you will learn about how differently commonly used grid layouts are created and where you can use them.
 
@@ -3591,13 +3585,13 @@ Grids like these are really useful when it comes to designing something like a m
 
 Now, you know about the basic grid layout in the 12-column grid.
 
-**Grid template area**
+<b>Grid template area</b>
 
 Grid areas are a way to group one or more grid cells. The grid template area is an extension of this concept where you can give names to these grid areas. Once you have the names defined, you can address these new grid area items by their names and configure them accordingly.
 
 The property grid-template-areas is usually placed inside the body tag or any container where the grid needs to be placed, the same way that you would define the rules for the grid. The main difference is, in case of grid-template-areas the values present will be the different names.
 
-## Process
+<h3>Process</h3>
 
 The process isn't prescriptive but these are the steps in general:
 
@@ -3609,9 +3603,9 @@ The process isn't prescriptive but these are the steps in general:
 
 But how exactly do you use these names and where do they come from? The names that you use inside the grid template areas are the HTML tags that you have used. Or, where you need to get more specific, you designate a class name to these tags. Once the names are assigned, you define the properties for each class the same way that you define them conventionally. Let's examine an example.
 
-## Example
+<h3>Example</h3>
 
-## HTML Code:
+<h3>HTML Code:</h3>
 
 ```
 <head>
@@ -3625,7 +3619,7 @@ But how exactly do you use these names and where do they come from? The names th
 </body>
 ```
 
-## CSS Code:
+<h3>CSS Code:</h3>
 
 body {
 
@@ -3667,7 +3661,7 @@ body {
 
 
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_a36b7b28b288e32e.png)
 
@@ -3695,7 +3689,7 @@ The output will remain the same as you have fixed the value of the third row to 
 
 Grid-areas are convenient when you have a clear schematic of what you want in a grid. It's also easier to configure individual areas if you can address them by their names. Let's say you are designing a resume on your website, you will be able to name the different areas such as 'Bio', 'Education', 'Work experience' and so on. And it's easier to use these labels when you are defining the rules. Creating a block diagram using pen and paper before starting to work on a grid is always a good idea.
 
-**Case study: How Meta creates responsive builds**
+<b>Case study: How Meta creates responsive builds</b>
 
 Websites have to work on a lot of things.
 
@@ -3761,7 +3755,7 @@ If you make it work across a width from here all the way down to here, you're pr
 
 Instead of focusing on making that device work properly, try to make your interface forward and walk across a range of dimensions versus just ticking the boxes.
 
-**_Additional resources_**
+<b>_Additional resources_</b>
 
 Here is a list of resources about layouts, flexboxes, grids and viewports in HTML and CSS that may be helpful as you continue your learning journey.
 
@@ -3779,7 +3773,7 @@ Here is a list of resources about layouts, flexboxes, grids and viewports in HTM
 
 [Overview of different layouts](https://csslayout.io/)
 
-**Widely used selectors**
+<b>Widely used selectors</b>
 
 Earlier you learned about the different types of CSS selectors.
 
@@ -3905,13 +3899,13 @@ In the rest of this lesson, you'll be introduced to several advanced selectors.
 
 At first, they might seem more complex than the ones covered in this last section, but with a bit of practice, they will become part of your everyday web styling toolkit.
 
-**All selectors and their specificity**
+<b>All selectors and their specificity</b>
 
 As you build a website, the complexity of the code might increase to such a point that more than one CSS rule is applied to the same element. Or, you might accidentally add more than one rule over the same element. This results in conflicts as only one rule can be applied to a specific property. For example, the color of a certain p tag can either be blue or white, but not both. CSS engines use something called specificity to resolve these conflicts. Specificity is the ranking or score that helps CSS determine the final rule that will be applied to a given element.
 
 This reading will help you grasp how the element with the 'highest' specificity is selected by CSS. But before you read on, it is important to note that these rules only apply in cases where conflicts arise for the properties.
 
-## Specificity hierarchy
+<h3>Specificity hierarchy</h3>
 
 CSS has a set of rules that it uses to 'score' or assign a certain weight to selectors and this creates a specificity hierarchy. Based on the weights, there are four categories in this hierarchy:
 
@@ -3920,7 +3914,7 @@ CSS has a set of rules that it uses to 'score' or assign a certain weight to sel
 - Classes, attributes, and pseudo-classes
 - Elements and pseudo-elements
 
-## Inline styles
+<h3>Inline styles</h3>
 
 Inline styles are attached to the elements within your HTML code like with the 'style' attribute. inline styles have the highest specificity. That means that rules that are defined as inline styles will be applied irrespective of other rules.
 
@@ -3932,29 +3926,31 @@ p{color: blue}
 
 The p tag will be colored white because it is declared inside the inline tag.
 
-## IDs
+<h3>IDs</h3>
 
 Next in the hierarchy are IDs and by now you know that they are represented by '#'.  For example:
 
 #div
 
-## Classes, attributes, and pseudo-classes
+<h3>Classes, attributes, and pseudo-classes
 
 Classes, and the attributes inside the selectors, come next with what is called the pseudo-classes that you will soon learn more about.
 
-## For example:
+<h3>For example:</h3>
 
+```
 .my-class
 
 p["attribute"]
 
 div:hover
+```
 
-## Elements and pseudo-elements
+<h3>Elements and pseudo-elements</h3>
 
 Finally, elements and something you call pseudo-elements have the lowest position in the specificity hierarchy. You will learn more about pseudo-elements later in this lesson.
 
-## Calculating scores
+<h3>Calculating scores</h3>
 
 But by now you might wonder how is specificity calculated?
 
@@ -3962,17 +3958,19 @@ CSS uses the hierarchical model internally to calculate the specificity of the s
 
 Let's explore a practical example of how to determine the score of a few selectors.
 
+```
 #hello {} will be 0100
 
 div {} will be 0001 and
 
 div p.foo {} will be 0012
+```
 
 In the order stated above, the four categories will be assigned values 1000, 100, 10 and 1 with the element selectors having the lowest value of 1. These scores will be calculated respectively for each element present inside the selector. The total score for these elements is then calculated and the one with the highest value has the highest specificity.
 
 Let's explore a couple of examples for clarity. Take note that the properties and values are not included in these examples to keep the focus on the selectors only.
 
-## Example 1
+<h3>Example 1</h3>
 
 ```
 p {}
@@ -3990,7 +3988,7 @@ div p.foo {} => 2 elements and 1 class selector => 0 0 1 2 => Score: 12
 
 The third case has a total of 12 for the p tag and so has the highest specificity. The rules for the other two cases are then overridden and the rules inside the third case are applied.
 
-## Example 2
+<h3>Example 2</h3>
 
 ```
 p#bar => 1 element & 1 ID =>  0 1 0 1 => Score: 101
@@ -4019,7 +4017,7 @@ Cascade is a type of small waterfall that falls in stages down the rocks and tha
 
 Don't be too worried about applying what you've learned now, there are CSS specificity calculators available that can help you with determining the styling outcomes of your pages.
 
-**Combination selectors**
+<b>Combination selectors</b>
 
 Sometimes you want to apply the same styling to different elements or to different groups of elements.
 
@@ -4195,7 +4193,7 @@ In this section, you learned about combination selectors and how to use them.
 
 As you become more advanced in styling your Web pages, these CSS selectors will surely be helpful in targeting specific items and save you a lot of time.
 
-**Pseudo-classes**
+<b>Pseudo-classes</b>
 
 Pseudo-class selectors give developers great control over what they select and style.
 
@@ -4291,27 +4289,27 @@ There are plenty of other pseudo-classes and some of them are more popular than 
 
 You're encouraged to follow your own style and explore the creative possibilities that pseudo-classes offer.
 
-**Pseudo-elements**
+<b>Pseudo-elements</b>
 
 By now you know that pseudo-elements help you style a specific part of an element. For example, you can decide to apply styling to only the first word or line in a given element. First, let's examine the syntax of a pseudo-element.
 
-## Syntax
+<h3>Syntax</h3>
 
-**selector::pseudo-element {**
+<b>selector::pseudo-element {</b>
 
-  **property: value;**
+  <b>property: value;</b>
 
-**}**
+<b>}</b>
 
 It is important to note that pseudo-elements use two colon characters instead of one.
 
 Now, let's explore some examples of popular pseudo-elements.
 
-## ::first-letter
+<h3>::first-letter</h3>
 
 You can use first-letter to change the color of just the first letter of each of the three points in the example text.
 
-## HTML code:
+<h3>HTML code:</h3>
 
 ```
 <!DOCTYPE html>
@@ -4329,8 +4327,9 @@ You can use first-letter to change the color of just the first letter of each of
 </html>
 ```
 
-## CSS code:
+<h3>CSS code:</h3>
 
+```
 li::first-letter {
 
 color:coral;
@@ -4342,19 +4341,21 @@ font-weight: bold;
 line-height: 1;
 
 }
+```
 
-Output
+<h3>Output</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_cfe2909d609bbaf1.png)
 
 Although the code only changed the first letter of each bullet point, it makes a big difference in terms of presentation. Now let's change the font in a different way.
 
-## ::first-line
+<h3>::first-line</h3>
 
 First-line will change the complete first line of each of the bullet points to light sea green.
 
-## CSS code:
+<h3>CSS code:</h3>
 
+```
 ul{
 
     list-style-type: none;
@@ -4370,8 +4371,9 @@ li::first-line {
     line-height: 1;
 
 }
+```
 
-Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_9af28bccde078360.png)
 
@@ -4379,16 +4381,17 @@ Because it's only the first line of each bullet point, it almost functions like 
 
 Note that the contents of the line to which this pseudo-element is applied will change as you increase or decrease the size of your viewport.
 
-Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_e6ea79e699ae615d.png)
 
-## ::selection
+<h3>::selection</h3>
 
 Selection is another useful pseudo-element. For example, you may use it when you are taking notes on your device because it allows you to highlight specific text. The effect of it becomes obvious only after the user selects content. On web pages today, you will typically see inverted colors from white-black to black-white when selecting a portion of text.
 
-## CSS code:
+<h3>CSS code:</h3>
 
+```
 ul{
 
     list-style-type: none;
@@ -4404,22 +4407,23 @@ li::selection {
     line-height: 1;
 
 }
+```
 
 Here is an example of a selection of text.
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_7e4958be78e226b6.png)
 
 And another example of the same text but with a different section selected and highlighted.
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_4997d31f30cfb070.png)
 
 Different segments of the text are highlighted depending on the text that is selected at any given point.
 
-## ::marker
+<h3>::marker</h3>
 
 Markers are typically used to add style elements to a list, for instance, to color bullet points. For example, you can enhance the user experience when you use a marker in the following way.
 
@@ -4437,17 +4441,17 @@ li::marker {
 }
 ```
 
-Output
+<h3>Output</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_672239256136b222.png)
 
 Now the bullet points are cornflower blue and they have the shape specified in the code.
 
-## ::before and ::after
+<h3>::before and ::after</h3>
 
-One more pair of pseudo-elements are the **::before** and **::after** pseudo-elements. They allow you to add content before and after an element on which they are allowed. In other words, new content can be added to a page without adding HTML code for it. You can also add styling options for this content. Let's do an example where text is added both before and after some cooking guidelines to identify them as important tips.
+One more pair of pseudo-elements are the <b>::before</b> and <b>::after</b> pseudo-elements. They allow you to add content before and after an element on which they are allowed. In other words, new content can be added to a page without adding HTML code for it. You can also add styling options for this content. Let's do an example where text is added both before and after some cooking guidelines to identify them as important tips.
 
-## HTML code:
+<h3>HTML code:</h3>
 
 ```
 <body>
@@ -4457,11 +4461,11 @@ One more pair of pseudo-elements are the **::before** and **::after** pseudo-ele
 </body>
 ```
 
-## CSS code:
-
-#tips::before{
+<h3>CSS code:</h3>
 
 ```
+#tips::before{
+
     background: darkkhaki;
 
     color:darkslategray;
@@ -4491,15 +4495,15 @@ One more pair of pseudo-elements are the **::before** and **::after** pseudo-ele
 }
 ```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_a640c888ee004f89.png)
 
-The "content" property is where the text for the guidelines goes. The word "tip" has been added before each guideline thanks to the rules added for **tips::before**. And, each of the three guidelines now has two exclamation marks after them thanks to the rules added for **tips::after**. Note how the second <p> element inside the HTML code remains unaffected. You don't have to use after and before together like this, but sometimes it is useful to combine them.
+The "content" property is where the text for the guidelines goes. The word "tip" has been added before each guideline thanks to the rules added for <b>tips::before</b>. And, each of the three guidelines now has two exclamation marks after them thanks to the rules added for <b>tips::after</b>. Note how the second <p> element inside the HTML code remains unaffected. You don't have to use after and before together like this, but sometimes it is useful to combine them.
 
 The examples covered here illustrate that adding simple code for pseudo-elements can greatly enhance the appearance of websites. There are plenty of other pseudo-elements and some of them are more popular than others. You can follow your own style and explore the creative possibilities that pseudo-classes and pseudo-elements offer.
 
-**Practical use of pseudo**
+<b>Practical use of pseudo</b>
 
 By now you should know that developers use pseudo-classes to style and make web pages more interactive.
 
@@ -4601,93 +4605,93 @@ In this section, you learned how to use pseudo-classes like web-link states to i
 
 You also explored additional effects that you can create with the hover effect.
 
-**CSS Pseudo cheat sheet**
+<b>CSS Pseudo cheat sheet</b>
 
-## Simple selectors
+<h3>Simple selectors</h3>
 
-| **Selector** | **Syntax** | **Example** |
+| <b>Selector</b> | <b>Syntax</b> | <b>Example</b> |
 | --- | --- | --- |
-| Element | element | **div {**** }** |
+| Element | element | <b>div {</b><b> }</b> |
 | --- | --- | --- |
-| Class | .class | **.alpha { }** |
-| ID | #id | **#alpha { }** |
-| Universal | * | *** { }** |
+| Class | .class | <b>.alpha { }</b> |
+| ID | #id | <b>#alpha { }</b> |
+| Universal | * | <b>* { }</b> |
 
-## Variations of simple selectors
+<h3>Variations of simple selectors</h3>
 
-| **Elements** | **Syntax** | **Example** | **Description** |
+| <b>Elements</b> | <b>Syntax</b> | <b>Example</b> | <b>Description</b> |
 | --- | --- | --- | --- |
-| Two classes | .first-class.second-class | **.alpha.beta { }** | All elements with classes alpha and beta |
+| Two classes | .first-class.second-class | <b>.alpha.beta { }</b> | All elements with classes alpha and beta |
 | --- | --- | --- | --- |
-| Element and class | element.class | **p.alpha { }** | All alpha class elements inside &lt;p&gt; |
-| Two elements | element, element | **p, div { }** | All &lt;p&gt; and &lt;div&gt; elements |
-| Two elements | element element | **p div { }** | All &lt;div&gt; elements inside &lt;p&gt; |
+| Element and class | element.class | <b>p.alpha { }</b> | All alpha class elements inside &lt;p&gt; |
+| Two elements | element, element | <b>p, div { }</b> | All &lt;p&gt; and &lt;div&gt; elements |
+| Two elements | element element | <b>p div { }</b> | All &lt;div&gt; elements inside &lt;p&gt; |
 
-## Descendant selectors/combinators
+<h3>Descendant selectors/combinators</h3>
 
-| **Selector** | **Syntax** | **Example** | **Description** |
+| <b>Selector</b> | <b>Syntax</b> | <b>Example</b> | <b>Description</b> |
 | --- | --- | --- | --- |
-| Descendant | element element | **div p { }** | All &lt;p&gt; descendants of &lt;div&gt; |
+| Descendant | element element | <b>div p { }</b> | All &lt;p&gt; descendants of &lt;div&gt; |
 | --- | --- | --- | --- |
-| Child | element>element | **div > p { }** | All <p> direct descendants of <div> |
-| Adjacent Sibling | element+element | **div + p { }** | <p> element directly after <div> |
-| General Sibling | element~element | **div ~ p { }** | All <p> element iterations after <div> |
+| Child | element>element | <b>div > p { }</b> | All <p> direct descendants of <div> |
+| Adjacent Sibling | element+element | <b>div + p { }</b> | <p> element directly after <div> |
+| General Sibling | element~element | <b>div ~ p { }</b> | All <p> element iterations after <div> |
 
-## Attribute selectors
+<h3>Attribute selectors</h3>
 
-| **Selector** | **Syntax** | **Example** |
+| <b>Selector</b> | <b>Syntax</b> | <b>Example</b> |
 | --- | --- | --- |
-| [attribute] | **[href] {****}** | Selects all elements with a href attribute |
+| [attribute] | <b>[href] {</b><b>}</b> | Selects all elements with a href attribute |
 | --- | --- | --- |
-| [attribute=value] | **[lang="fr"] {****}** | Selects all elements with lang attribute that has a value of "fr" |
-| [attribute~=value] | **[input~=hello] {****}** | Elements with input attribute containing the whitespace separated substring "hello" |
-| [attribute|=value] | **[lang|=en] {****}** | Elements with lang attribute value equal to "en" or "en-"(en hyphen) |
-| [attribute^=value] | **a[href^="https"] {****}** | Every <a> element with href attribute value begins with "https" |
-| [attribute$=value] | **a[href$=".docx"] {****}** | Every <a> element with href attribute value ends with ".docx" |
-| [attribute*=value] | **a[href*="meta"] {****}** | Every <a> element with href attribute value has substring "meta" |
-| **Pseudo-class** | **Example** | **Description of selection** |
-| :active | **a:active { }** | All active links  |
-| :checked | **input:checked { }** | All the checked <input> elements |
-| :default | **input:default { }** | All default <input> elements |
-| :disabled | **input:disabled { }** | All disabled <input> elements |
-| :empty | **div:empty { }** | All the <div> elements with no children |
-| :enabled | **input:enabled { }** | All the enabled <input> elements |
-| :first-child | **p:first-child { }** | All the <p> elements who are the first child of a parent element |
-| :first-of-type | **p:first-of-type { }** | All the <p> element who are the first <p> element of a parent element |
-| :focus | **input:focus { }** | Input element under focus |
-| :fullscreen | **:fullscreen { }** | The element in full-screen mode |
-| :hover | **p:hover { }** | Action effect on mouse hover |
-| :invalid | **input:invalid { }** | Input elements with an invalid value |
-| :last-child | **p:last-child { }** | All the <p> elements who are the last child of a parent element |
-| :last-of-type | **p:last-of-type { }** | All the <p> elements who are the last <p> element of a parent element |
-| :link | **a:link { }** | All unvisited links |
-| :not(_selector_) | **:not(div) { }** | All the elements that are not a <div> element |
-| :nth-child(_n_) | **div:nth-child(3) { }** | All the <p> elements that are the third child of a parent element |
-| :nth-last-child(_n_) | **div:nth-last-child(3) { }** | All the <div> elements which are the third child of a parent element, counting from last child element |
-| :nth-last-of-type(_n_) | **p:nth-last-of-type(2) { }** | The second sibling from the last child of a parent element. |
-| :nth-of-type(_n_) | **p:nth-of-type(2) { }** | The second sibling of a parent element. |
-| :only-of-type | **p:only-of-type { }** | All the <p> elements which are only <p> elements inside its parent |
-| :only-child | **p:only-child { }** | All the <p> elements which are only child of a parent element |
-| :optional | **input:optional { }** | The input elements with no "required" attribute |
-| :required | **input:required { }** | Selects input elements with the "required" attribute specified |
-| :root | **:root { }** | The Root element of document |
-| ::selection | **::selection { }** | The portion of an element that is selected by a user |
-| :valid | **input:valid { }** | All the input elements with a valid value |
-| :visited | **a:visited { }** | Selects all visited links |
+| [attribute=value] | <b>[lang="fr"] {</b><b>}</b> | Selects all elements with lang attribute that has a value of "fr" |
+| [attribute~=value] | <b>[input~=hello] {</b><b>}</b> | Elements with input attribute containing the whitespace separated substring "hello" |
+| [attribute|=value] | <b>[lang|=en] {</b><b>}</b> | Elements with lang attribute value equal to "en" or "en-"(en hyphen) |
+| [attribute^=value] | <b>a[href^="https"] {</b><b>}</b> | Every <a> element with href attribute value begins with "https" |
+| [attribute$=value] | <b>a[href$=".docx"] {</b><b>}</b> | Every <a> element with href attribute value ends with ".docx" |
+| [attribute*=value] | <b>a[href*="meta"] {</b><b>}</b> | Every <a> element with href attribute value has substring "meta" |
+| <b>Pseudo-class</b> | <b>Example</b> | <b>Description of selection</b> |
+| :active | <b>a:active { }</b> | All active links  |
+| :checked | <b>input:checked { }</b> | All the checked <input> elements |
+| :default | <b>input:default { }</b> | All default <input> elements |
+| :disabled | <b>input:disabled { }</b> | All disabled <input> elements |
+| :empty | <b>div:empty { }</b> | All the <div> elements with no children |
+| :enabled | <b>input:enabled { }</b> | All the enabled <input> elements |
+| :first-child | <b>p:first-child { }</b> | All the <p> elements who are the first child of a parent element |
+| :first-of-type | <b>p:first-of-type { }</b> | All the <p> element who are the first <p> element of a parent element |
+| :focus | <b>input:focus { }</b> | Input element under focus |
+| :fullscreen | <b>:fullscreen { }</b> | The element in full-screen mode |
+| :hover | <b>p:hover { }</b> | Action effect on mouse hover |
+| :invalid | <b>input:invalid { }</b> | Input elements with an invalid value |
+| :last-child | <b>p:last-child { }</b> | All the <p> elements who are the last child of a parent element |
+| :last-of-type | <b>p:last-of-type { }</b> | All the <p> elements who are the last <p> element of a parent element |
+| :link | <b>a:link { }</b> | All unvisited links |
+| :not(_selector_) | <b>:not(div) { }</b> | All the elements that are not a <div> element |
+| :nth-child(_n_) | <b>div:nth-child(3) { }</b> | All the <p> elements that are the third child of a parent element |
+| :nth-last-child(_n_) | <b>div:nth-last-child(3) { }</b> | All the <div> elements which are the third child of a parent element, counting from last child element |
+| :nth-last-of-type(_n_) | <b>p:nth-last-of-type(2) { }</b> | The second sibling from the last child of a parent element. |
+| :nth-of-type(_n_) | <b>p:nth-of-type(2) { }</b> | The second sibling of a parent element. |
+| :only-of-type | <b>p:only-of-type { }</b> | All the <p> elements which are only <p> elements inside its parent |
+| :only-child | <b>p:only-child { }</b> | All the <p> elements which are only child of a parent element |
+| :optional | <b>input:optional { }</b> | The input elements with no "required" attribute |
+| :required | <b>input:required { }</b> | Selects input elements with the "required" attribute specified |
+| :root | <b>:root { }</b> | The Root element of document |
+| ::selection | <b>::selection { }</b> | The portion of an element that is selected by a user |
+| :valid | <b>input:valid { }</b> | All the input elements with a valid value |
+| :visited | <b>a:visited { }</b> | Selects all visited links |
 
-## Pseudo-element selectors
+<h3>Pseudo-element selectors</h3>
 
-| **Syntax** | **Example** | **Description** |
+| <b>Syntax</b> | <b>Example</b> | <b>Description</b> |
 | --- | --- | --- |
-| ::after | **p::after { }** | Inserts content after content of <p> element |
+| ::after | <b>p::after { }</b> | Inserts content after content of <p> element |
 | --- | --- | --- |
-| ::before | **p::before { }** | Inserts content before content of <p> element |
-| ::first-letter | **p::first-letter { }** | Selects first letter of every <p> element |
-| ::first-line | **p::first-line { }** | Selects first line of every <p> element |
-| ::placeholder | **input::placeholder { }** | Selects input elements with "placeholder" attribute specified |
-| ::marker | **::marker { }** | Selects markers in a list |
+| ::before | <b>p::before { }</b> | Inserts content before content of <p> element |
+| ::first-letter | <b>p::first-letter { }</b> | Selects first letter of every <p> element |
+| ::first-line | <b>p::first-line { }</b> | Selects first line of every <p> element |
+| ::placeholder | <b>input::placeholder { }</b> | Selects input elements with "placeholder" attribute specified |
+| ::marker | <b>::marker { }</b> | Selects markers in a list |
 
-**Additional resources**
+<b>Additional resources</b>
 
 Here is a list of resources about selectors, pseudo-classes and pseudo-elements in HTML and CSS that may be helpful as you continue your learning journey.
 
@@ -4701,7 +4705,7 @@ Here is a list of resources about selectors, pseudo-classes and pseudo-elements 
 
 [Comprehensive list of pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
-**What is an effect**
+<b>What is an effect</b>
 
 Most popular websites have numerous animation effects.
 
@@ -4793,7 +4797,7 @@ Today, lastly, you explore the benefits and disadvantages of adding effects to w
 
 Without effects are not only dull, but users also have a hard time finding their way around such sites, mastering CSS effects will enable you to create Web pages that users love to use.
 
-**Text effects**
+<b>Text effects</b>
 
 Have you ever opened a website with a lot of texts and thought, Wow!
 
@@ -4873,13 +4877,13 @@ I ![](RackMultipart20230221-1-dcr3jc_html_bc989f8ba201da22.png) can use the outp
 
 That's all my examples. In this section, you learned how to add effects to your text using a few simple rules in CSS.
 
-## Text effects cheat sheet
+<h3>Text effects cheat sheet</h3>
 
 The effects developers use on text items on a web page are chosen mainly because of their styling and layout style. Interesting effects can be created by combining these with other CSS properties.
 
 The visual representation of text content can be changed by four main properties: text-transform, font-style, font-weight and text-decoration.
 
-| **Property ** | **Values** | **Description** |
+| <b>Property </b> | <b>Values</b> | <b>Description</b> |
 | --- | --- | --- |
 | Text-transform | None, uppercase, lowercase, capitalize, full-width | Modify text properties |
 | --- | --- | --- |
@@ -4889,7 +4893,7 @@ The visual representation of text content can be changed by four main properties
 
 The additional properties that help configure styling effects are below.
 
-| **Text-align** | **For horizontal alignment of text** |
+| <b>Text-align</b> | <b>For horizontal alignment of text</b> |
 | --- | --- |
 | Text-align-last | Alignment for the last line when text set to justify |
 | --- | --- |
@@ -4907,7 +4911,7 @@ The additional properties that help configure styling effects are below.
 
 Other than these, there are some more properties that help modify the alignment and define the scope of text with their containers.
 
-| **Property ** | **Values** | **Description** |
+| <b>Property </b> | <b>Values</b> | <b>Description</b> |
 | --- | --- | --- |
 | Text-overflow | Clip, ellipsis | Determines overflow behavior of text with the container |
 | --- | --- | --- |
@@ -4917,7 +4921,7 @@ Other than these, there are some more properties that help modify the alignment 
 
 The properties mentioned are ones that can be used for giving effects to text.
 
-# CSS Transforms and transitions
+<h2>CSS Transforms and transitions</h2>
 
 So far, you have learned how animation can be used to add interactivity and responsiveness to a web page.
 
@@ -5075,7 +5079,7 @@ You now know how to use the transform and transition properties in this video, y
 
 A number of different effects like these can be performed with the help of the two properties, transform and transition and combining them with pseudo classes such as hover active and others.
 
-## CSS animation
+<h3>CSS animation</h3>
 
 By now you should know the basics of CSS animation.
 
@@ -5157,7 +5161,7 @@ The properties and rules you covered can be configured in many more ways.
 
 For instance, you can combine them with other elements like images to achieve amazing animations using purely CSS.
 
-## CSS keyframes
+<h3>CSS keyframes</h3>
 
 In this reading, you will become acquainted with the @keyframes rule and you'll learn how to use it with the animation property in CSS.
 
@@ -5173,7 +5177,7 @@ Imagine an object on your web page moving from point A to point B.
 
 You can use the transition and transform properties to do that, but animation sequences are used to accomplish more complex behaviors in an easier way.
 
-## from{} and to{} keywords and using percentages(%) syntax
+<h3>from{} and to{} keywords and using percentages(%) syntax</h3>
 
 @keyframes animation-name {
 
@@ -5211,7 +5215,7 @@ The different percentages used in the example demonstrate the progression of the
 
 @keyframes are tied in with the animation-name to which they are going to be applied. To give an overview of the animation property, it consists of other sub-properties. Of these, animation-name and animation-duration must be defined while others such as timing-function, delay, direction, fill-more, iteration-count and so on can be added.
 
-## Animation property shorthand:
+<h3>Animation property shorthand:</h3>
 
 The shorthand for the animation property consists of the following properties with their default values:
 
@@ -5229,9 +5233,9 @@ If the values of any of these are not defined, you should assume that they are t
 
 Let's now examine an example of how you can use @keyframes and the animation property.
 
-## Animation example
+<h3>Animation example</h3>
 
-## HTML code:
+<h3>HTML code:</h3>
 
 ```
 <body>
@@ -5243,7 +5247,7 @@ Let's now examine an example of how you can use @keyframes and the animation pro
 </html>
 ```
 
-## CSS code:
+<h3>CSS code:</h3>
 
 ```
 body{
@@ -5279,7 +5283,7 @@ to{width: 100px;
 }
 ```
 
-## And this is the output:
+<h3>And this is the output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_3ddec2bcd5388bf0.png) ![](RackMultipart20230221-1-dcr3jc_html_d9f29d68fba6dbde.png)
 
@@ -5289,6 +5293,7 @@ This is a very simple example of how you can use the animation property with the
 
 If you modify this code and change the animation rules to percentages, it will have the same output.
 
+```
 @keyframes myanimation{
 
 0%{width: 50px;
@@ -5298,9 +5303,11 @@ If you modify this code and change the animation rules to percentages, it will h
 100%{width: 100px;
 
 }
+```
 
 Now, let's add an intermediary step at 50%.
 
+```
 @keyframes myanimation{
 
 0%{width: 50px;
@@ -5316,14 +5323,15 @@ Now, let's add an intermediary step at 50%.
 100%{width: 100px;
 
 }
+```
 
-## Output:
+<h3>Output:</h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_490a25472b094887.png) ![](RackMultipart20230221-1-dcr3jc_html_7f6bd847b62b36db.png)
 
 The output is drastically different now after adding just two lines of code. Just like this, you can keep adding steps inside your @keyframes rule to make it even more dynamic and add the desired animation effects. Animation property and @keyframes rule can be used in very creative ways to enhance a web page.
 
-# Animation examples
+<h2>Animation examples</h2>
 
 By now you should know that CSS offers many possibilities for creating interesting animations.
 
@@ -5427,88 +5435,103 @@ But CSS animations and keyframes are quite powerful.
 
 Try challenging yourself and see what animations you can build.
 
-# Animation and effects cheat sheet
+<h2>Animation and effects cheat sheet</h2>
 
-**Transform property**
+<b>Transform property</b>
 
-## Syntax
+<h3>Syntax</h3>
 
 transform: transform function-values
 
-### Example
+<h4>Example</h4>
 
+```
 .sample-class {
 
     transform: rotate(60deg);
 
 }
+```
 
-#### Keyword-value type: none
+<h4>Keyword-value type: none</h4>
 
+```
 .sample-class {
 
     transform: none;
 
 }
+```
 
-#### Function-value type: matrix()
+<h4>Function-value type: matrix()</h4>
 
-#### Variations: matrix(), matrix3d()
+<h4>Variations: matrix(), matrix3d()</h4>
 
+```
 .sample-class {
 
      transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
 
 }
+```
 
-#### Function-value type: rotate(deg)
+<h4>Function-value type: rotate(deg)</h4>
 
-#### Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()
+<h4>Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()</h4>
 
+```
 .sample-class {
 
     transform: rotate3d(3,2,1, 100deg);
 
 }
+```
 
 Note: In rotate3d(), the respective values represent x, y, z co-ordinate and degree of rotations
 
-#### Function-value type: translate(x,y)
+<h4>Function-value type: translate(x,y)</h4>
 
-#### Variations: translate(), translate3d(), translateX(), translateY(), translateZ()
+<h4>Variations: translate(), translate3d(), translateX(), translateY(), translateZ()</h4>
 
+```
 .sample-class {
 
     transform: translate3d(10px, 20px, 30px);
 
 }
+```
 
 Note: In translate3d(), the respective values represent translation along the x, y, z co-ordinates
 
-#### Function-value type: scale(factor)
+<h4>Function-value type: scale(factor)</h4>
 
-#### Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()
+<h4>Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()</h4>
 
+```
 .sample-class {
 
     transform: scale3d(2, 1, 0.3);
 
 }
+```
 
 Note: In scale3d(), the respective values represent scaling times along the x, y, z co-ordinates
 
-#### Function-value type: skew(deg, deg)
+<h4>Function-value type: skew(deg, deg)</h4>
 
-#### Variations: skew(), skewX(), skewY()
+<h4>Variations: skew(), skewX(), skewY()</h4>
 
+```
 .sample-class {
 
     transform: skew(100deg);
 
 }
+```
 
-#### Global value types:
+<h4>Global value types:</h4>
 
+```
 .sample-class {
 
     transform: inherit;
@@ -5538,27 +5561,31 @@ Note: In scale3d(), the respective values represent scaling times along the x, y
     transform: unset;
 
 }
+```
 
-## Multiple transform over the same element
+<h3>Multiple transform over the same element</h3>
 
-### Syntax
+<h4>Syntax</h4>
 
 Transform can be applied for rotate(), scale() and translate() that can be listed together. Each of these properties can have their own values and the actions will give a combined effect.
 
-### Example
+<h4>Example</h4>
 
+```
 .sample-class {
 
     transform: rotate(45deg) scale(1.5) translate(45px);
 
 }
+```
 
 Additional property under transform:transform-origin
 
 Determines the anchor point for the centering of transform.
 
-### Example
+<h4>Example</h4>
 
+```
 .sample-class {
 
     transform-origin: 10px 10px;
@@ -5570,10 +5597,11 @@ Determines the anchor point for the centering of transform.
     transform-origin: right bottom;
 
 }
+```
 
-## Transition property
+<h3>Transition property</h3>
 
-## Transition shorthand ** **
+<h3>Transition shorthand</h3>
 
 Transition shorthand has four following sub-properties, each of which can also be individually defined.
 
@@ -5584,29 +5612,31 @@ Transition shorthand has four following sub-properties, each of which can also b
 
 You have to list the values without naming them individually. Values skipped will be assigned their default values.
 
-### Syntax
+<h4>Syntax</h4>
 
 transition: property duration timing-function delay;
 
-### Example
+<h4>Example</h4>
 
-### transition: margin-left 2s ease-in-out 0.5s;
+<h4>transition: margin-left 2s ease-in-out 0.5s;</h4>
 
-## Animations and @keyframes
+<h3>Animations and @keyframes</h3>
 
-### animation property:
+<h4>animation property:</h4>
 
-### Syntax
+<h4>Syntax</h4>
 
-### animation: _name duration timing-function delay iteration-count direction fill-mode play-state_;
+<h4>animation: _name duration timing-function delay iteration-count direction fill-mode play-state_;</h4>
 
-### Example
+<h4>Example</h4>
 
+```
 .sample-class {
 
     animation: none 2 ease 0.5 4 normal none running;
 
 }
+```
 
 The animation property is a shorthand for the sub-properties below:
 
@@ -5630,10 +5660,11 @@ The values not mentioned are given default values.
 
 Animation-name property is used to tie-in the @keyframes rule.
 
-## @keyframes
+<h3>@keyframes</h3>
 
-## Syntax
+<h3>Syntax</h3>
 
+```
 @keyframes mymove {
 
   from {property: value}
@@ -5641,9 +5672,11 @@ Animation-name property is used to tie-in the @keyframes rule.
   to { property: value }
 
 }
+```
 
-## Example
+<h4>Example</h4>
 
+```
 @keyframes animation-name {
 
     from {bottom: 0px;}
@@ -5651,19 +5684,23 @@ Animation-name property is used to tie-in the @keyframes rule.
     to {bottom: 100px;}
 
 }
+```
 
 Percentage denotes the timing of the animation.
 
-### Alternative syntax
+<h4>Alternative syntax</h4>
 
+```
 @keyframes animation-name {
 
 /* declare actions here */
 
 }
+```
 
-### Example
+<h4>Example</h4>
 
+```
 @keyframes animation-name {
 
     0%,100%{
@@ -5679,11 +5716,13 @@ Percentage denotes the timing of the animation.
     }
 
 }
+```
 
-## Multiple animations
+<h3>Multiple animations</h3>
 
 Works the same as regular animation, multiple rules can be set.
 
+```
 #some-class{
 
     animation: animation-a 2s linear infinite alternate,
@@ -5691,10 +5730,11 @@ Works the same as regular animation, multiple rules can be set.
         animation-b 3s ease infinite alternate;
 
 }
+```
 
-# Preprocessors: sass, scss, Stylus
+<h2>Preprocessors: sass, scss, Stylus</h2>
 
-## Preprocessors: sass, scss
+<h3>Preprocessors: sass, scss</h3>
 
 Now that you have learned about different animation effects, let's explore the topic of preprocessors which can make the process of creating them easier. CSS preprocesses are special compilers used to create a CSS file that can be referenced by an HTML document. They are generally used to reduce the amount of CSS you need to write and allow you to re-use values across multiple rules. This will make re-using animations and effects much easier. And because preprocessors are an extension of CSS they'll help not just in animation but any CSS code. Let's learn a little more about them.
 
@@ -5702,7 +5742,7 @@ Preprocessors provide audit functionality on top of the CSS features already pre
 
 In the early days of CSS, the main problem developers faced was the difficulty of managing the code. The way CSS was designed made the code very long, messy and complex. It also made it difficult to troubleshoot. Preprocessors have their own scripting language that adds logical structures, automation properties, reusability and bloating of the code. You'll now explore some of the different preprocessors available.
 
-## SASS and SCSS
+<h3>SASS and SCSS</h3>
 
 Syntactically Awesome Style Sheets (SASS) is a scripting language that CSS compiles and interprets into CSS. SCSS, which stands for Sassy CSS is the syntax for SASS and can be seen as an advanced version of both SASS and CSS. The difference between SASS and SCSS is best explained by the SASS documentation, which states:
 
@@ -5712,8 +5752,9 @@ The second and older syntax, known as the indented syntax (or sometimes just "Sa
 
 This example highlights these differences.
 
-## Regular CSS:
+<h3>Regular CSS:</h3>
 
+```
 body {
 
     font: 100% Arial;
@@ -5721,9 +5762,11 @@ body {
     color: lightblue;
 
 }
+```
 
-## This is the SCSS:
+<h3>This is the SCSS:</h3>
 
+```
 $font-stack: Arial;
 
 $primary-color: lightblue;
@@ -5735,9 +5778,11 @@ body {
   color: $primary-color;
 
 }
+```
 
-## SASS for the same block:
+<h3>SASS for the same block:</h3>
 
+```
 $font-stack: Arial
 
 $primary-color: lightblue
@@ -5747,6 +5792,7 @@ body
   font: 100% $font-stack
 
   color: $primary-color
+```
 
 The variables have been defined at the top with labels such as '$font-stack' and '$primary-color'. This is done with the '$' suffix. The result for both will be the same, and it is not hard to imagine how much time this can save for the developer in complex code blocks where there are a number of occurrences of 'lightblue' color. These variables are placed at the top of the SCSS page.
 
@@ -5758,9 +5804,10 @@ For someone familiar with programming concepts, these preprocessors also allow t
 
 Another important functionality in SASS is the use of directives. Let us explore a couple of directives called @mixin and @include.
 
-### Syntax
+<h4>Syntax</h4>
 
-## @mixin _name _{ _property_: _value_; _property_: _value_;   ... }
+```
+@mixin _name _{ _property_: _value_; _property_: _value_;   ... }
 
 @mixin some-rules {
 
@@ -5777,6 +5824,7 @@ div {
     @include some-rules;
 
 }
+```
 
 There are two directives @mixin and @include, that are used here.
 
@@ -5786,7 +5834,7 @@ In the second step, you use the second directive @include and add the mixin iden
 
 Similar to these, there are a couple of other directives that are also used. @import allows the import of rules from another file, and @extend allows all the rules from a specific selector to be added inside another selector.
 
-## Stylus CSS
+<h3>Stylus CSS</h3>
 
 Now that you know how preprocessors behave let us explore one more of their type, called Stylus. If you continue to use the example above, the code for Stylus will look like this:
 
@@ -5816,7 +5864,7 @@ There are other features available for preprocessors too. And, just like any pro
 
 Once you have gained an understanding of regular CSS, the usage of preprocessors should be explored. The use of preprocessors today is almost inescapable given the number of advanced features they provide which are not available in conventional CSS.
 
-### Additional resources
+<h4>Additional resources</h4>
 
 Here is a list of resources about animation and keyframes in HTML and CSS that may be helpful as you continue your learning journey.
 
@@ -5830,7 +5878,7 @@ Here is a list of resources about animation and keyframes in HTML and CSS that m
 - [Types of effects added to websites (2)](https://goingclear.com/website-effects/)
 - [Collection of examples using HTML/CSS](https://freefrontend.com/css-animation-examples/)
 
-# Common errors
+<h2>Common errors</h2>
 
 Have you ever made a mistake while programming?
 
@@ -5952,7 +6000,7 @@ And as a result, you will progressively make fewer errors.
 
 You learned about the common errors made in HTML and CSS, as well as, good practices to avoid them. Great work.
 
-### Handling errors
+<h4>Handling errors</h4>
 
 In this video, you're going to learn about how you can handle errors in CSS.
 
@@ -6048,13 +6096,13 @@ Many browsers also have testing tools such as the inspector compute tools that a
 
 And verify the changes directly in the browser.
 
-# Installing a third-party Linter in VS Code
+<h2>Installing a third-party Linter in VS Code</h2>
 
 Bla bla bla
 
 Can't use it. Computer is not powerful enough.
 
-# Debugging the front-end
+<h2>Debugging the front-end</h2>
 
 In this reading, you will learn about some of the fundamental tasks used to debug CSS. The scope of what's covered will match the topics already covered in this course.
 
@@ -6068,15 +6116,15 @@ The first step in debugging CSS is to find the root of the issue and isolate the
 - Misplaced elements in relation to its container class
 - Browser and device-related inconsistencies resulting in variable viewports
 
-## Isolation by reduced test case
+<h3>Isolation by reduced test case</h3>
 
 One way to deal with a problem is to replicate your code and systematically remove any code unrelated to the HTML and CSS elements that could be the source of the problem. The code should be distilled down to the least amount of code possible, and only then are suitable changes made to get the results you want. Alternatively, you can enable rules one at a time to observe their impact on the displayed elements.
 
-## Items inside containers
+<h3>Items inside containers</h3>
 
 Often, isolation will not work, as the problem is the result of the relative mapping of elements. For example, with the misconfigured width of an item inside a flex layout. It's important to check the use of suitable CSS properties in such cases. For a given item inside a grid, depending on the use case, width, grid-template-column, margin and padding can all be used to give spacing to an element. Additionally, you can also set different units that will all have their own behavior. In most cases, it helps to be familiar with the unit of measurement in relation to the container type to avoid misconfigurations.
 
-## Relocating items
+<h3>Relocating items</h3>
 
 🛸🙀
 
@@ -6084,15 +6132,15 @@ Similar to the isolation of elements, you can move a certain element to observe 
 
 The CSS compiler reads the elements from right to left. As an example, for a selector such as div .alpha &gt; p, the element read first will be p before moving 'outside'. When you change the position of the p from inside the .alpha class to some other position inside your code, it is easier to debug the source of the problem. This should be done on a case-specific basis.
 
-## Getting familiar with the box model
+<h3>Getting familiar with the box model</h3>
 
 The box model is a very powerful source of information and can solve many issues with alignment. Using margin, padding and border is useful, but can be tricky and must be well understood.
 
-## Browser issues
+<h3>Browser issues</h3>
 
 Many times, the styling you have renders correctly in the IDE but misbehaves in a browser. That is because browsers have their own default CSS stylesheets called user-agent styles. While modern-day browsers are mostly compatible, you may encounter minor inconsistencies. Overriding the browser's settings can be done with universal selectors, in such cases written at the top of the code, and will include properties such as 'margin: 0px;' to reset the margin values set by the browser by default.
 
-## Dev tools
+<h3>Dev tools</h3>
 
 There are lots of user-friendly tools available today that can help debug CSS. However, the best tool you can use is the one provided by the browsers, called the developer tools, or dev tools. You can find these by right-clicking on a web page and selecting 'Inspect Element'. option Note how every browser has its own expression when it comes to the configuration options, but fundamentally they are similar. Browsers today are very powerful pieces of software. If you spend time exploring the options, you may not need any other additional tools or software for debugging CSS and other front-end languages.
 
@@ -6134,7 +6182,7 @@ When it comes to designing and styling CSS, if you don't understand how it works
 
 In this reading, you learned about some of the fundamental tasks used to debug CSS.
 
-# Debugging tools
+<h2>Debugging tools</h2>
 
 Have you ever had a broken power outlet in your home, or maybe a light switch stopped working?
 
@@ -6192,7 +6240,7 @@ Just like the electrician, you as a developer have many tools at your disposal t
 
 The next reading, we'll explore developer tools in more detail.
 
-# Browser-specific CSS
+<h2>Browser-specific CSS</h2>
 
 One of the frustrations you're likely to run into will be compatibility issues that occur when rendering your CSS files on different browsers.
 
@@ -6284,7 +6332,7 @@ In this video, you learned about CSS compatibility and the issues that can occur
 
 Finally, you explored browser-specific settings that you can add to your CSS code to ensure it's compatible and works properly with particular browsers. Well done.
 
-### What are some CSS bugs you have struggled with?
+<h4>What are some CSS bugs you have struggled with?</h4>
 
 Now it's time to discuss some of the challenges that you had with your fellow learners.
 
@@ -6293,7 +6341,7 @@ Now it's time to discuss some of the challenges that you had with your fellow le
 - What steps did you take to resolve the issue?
 - Share your thoughts with your classmates!
 
-# UI testing
+<h2>UI testing</h2>
 
 As you may have experienced when using different apps in your everyday life, first impressions matter, whether you are using an app to make a photo collage or to order food online.
 
@@ -6365,7 +6413,7 @@ You should now be able to identify the main UI testing strategies used to ensure
 
 You also learned about the web developer tools you can use to perform cross-device testing.
 
-**Case study: How Meta performs front-end testing**
+<b>Case study: How Meta performs front-end testing</b>
 
 An untested application is a wildcard. You have no idea whether it works or it doesn't work.
 
@@ -6419,7 +6467,7 @@ The testing is also its own, like challenging activity writing good test is hard
 
 Good luck in your first experience in testing, it's going to be very fundamental as you move forward in your career.
 
-**Module summary: Interactive CSS**
+<b>Module summary: Interactive CSS</b>
 
 Congratulations. You've reached the end of this module on interactive CSS where you delve deeper into CSS by applying increasingly specific styling to various elements.
 
@@ -6457,7 +6505,7 @@ You also know more about creating layouts using CSS selectors and applying CSS e
 
 You've done a great job so far, keep up the good work and continue progressing in your learning journey.
 
-**Additional resources**
+<b>Additional resources</b>
 
 The following resources will be helpful as additional references in dealing with the different concepts related to the topics you have covered in this lesson.
 
@@ -6471,7 +6519,7 @@ The following resources will be helpful as additional references in dealing with
 - [How to use Webkit in your CSS code](https://www.simplilearn.com/tutorials/css-tutorial/webkit-css)
 - [Commonly-occurring browser issues in CSS](https://www.lambdatest.com/blog/top-5-browser-compatibility-issues-in-css-for-developers-in-2021/)
 
-**Course recap**
+<b>Course recap</b>
 
 Wow, you've made it to the end of the course.
 
@@ -6535,7 +6583,7 @@ It's been a pleasure to embark on this journey of discovery with you.
 
 Best of luck in the future.
 
-**About the portfolio project**
+<b>About the portfolio project</b>
 
 By completing the lessons in this course, you have acquired the necessary HTML and CSS skills and knowledge to develop a home page with a header, main content and footer.
 
@@ -6545,15 +6593,15 @@ You will have to decide whether you are going to use a grid or flexbox layout fo
 
 To enable you to do all of this, the module covers the most essential features of your project. This includes: selecting your fictional client, working out your layout, positioning the elements, planning the user experience, creating themes and setting up your local development environment.
 
-## What is the purpose of the portfolio project?
+<h3>What is the purpose of the portfolio project?</h3>
 
 The graded assessment will help you to establish which topics you have mastered, and which topics require further focus before you can complete the course. Ultimately, the graded assessment is designed to help you make sure that you are ready for the next course in this program. And even more, you get the opportunity to create another project for your portfolio.
 
-## How do I prepare for the graded portfolio project?
+<h3>How do I prepare for the graded portfolio project?</h3>
 
 You have encountered exercises, knowledge checks, in-video questions and other assessments as you have progressed through the course. Nothing in the graded assessment will be outside what you have covered already, so you should be well placed to succeed.
 
-## What will I be doing?
+<h3>What will I be doing?</h3>
 
 The purpose of this graded assessment is to check your knowledge and understanding of the key learning objectives of this course. And what better way to do that than by applying your newly-learned skills in a practical way? You will develop a home page for one of four fictional clients. And you can read more about them in the [Subject selection](https://www.coursera.org/teach/html-and-css-in-depth/KYd9Lr9AEeyUxgoSRgtsGw/content/edit/supplement/bpM1T)reading. The client you choose will determine what links, pictures and colors you will use. You are free to use your creativity but the home page needs to meet certain criteria regarding the following:
 
@@ -6563,7 +6611,7 @@ The purpose of this graded assessment is to check your knowledge and understandi
 - CSS styling
 - CSS effects
 
-**Subject selection**
+<b>Subject selection</b>
 
 For the graded assessment, you need to develop a home page for one of four fictional clients.
 
@@ -6583,7 +6631,7 @@ The four client personas offer a great variety for you to choose from. They are:
 - Luxury jewelry: Mangata and Gallo
 - Read on to find out more about them.
 
-## **Retail: Lucky Shrub**
+<h3><b>Retail: Lucky Shrub</b></h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_c6b1df96099c5e56.png)
 
@@ -6591,13 +6639,13 @@ Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that 
 
 Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a long-time love for plants. Jason is the garden architect. He creates and oversees all designs while managing his team of landscapers. Maria manages all the marketing for the company and oversees the nursery.
 
-## Download their logos here:
+<h3>Download their logos here:</h3>
 
-[**Lucky-Shrub-Logos**](https://d3c33hcgiwev3.cloudfront.net/npNnGngyRCqTZxp4MnQq0A_8286812140e2430db6d39f1e267a4fe1_Lucky-Shrub-Logos.zip?Expires=1677024000&Signature=JidQFn5lSTj0sFL4~4lVInB7wGJPCt~nlKODLbKthuvF9aex169U5Rxt-L8c1lH-dccVWqHMQBrEmK1V0AgFATwKZSE75C6MEndtTNOGR7BEVhBeA6GUpJMMqQOy-f2c4~dz4uatUNu6GeCu4ppszJiPy7hEvKsFP4IeXR6RgvQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+[<b>Lucky-Shrub-Logos</b>](https://d3c33hcgiwev3.cloudfront.net/npNnGngyRCqTZxp4MnQq0A_8286812140e2430db6d39f1e267a4fe1_Lucky-Shrub-Logos.zip?Expires=1677024000&Signature=JidQFn5lSTj0sFL4~4lVInB7wGJPCt~nlKODLbKthuvF9aex169U5Rxt-L8c1lH-dccVWqHMQBrEmK1V0AgFATwKZSE75C6MEndtTNOGR7BEVhBeA6GUpJMMqQOy-f2c4~dz4uatUNu6GeCu4ppszJiPy7hEvKsFP4IeXR6RgvQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 [ZIP File](https://d3c33hcgiwev3.cloudfront.net/npNnGngyRCqTZxp4MnQq0A_8286812140e2430db6d39f1e267a4fe1_Lucky-Shrub-Logos.zip?Expires=1677024000&Signature=JidQFn5lSTj0sFL4~4lVInB7wGJPCt~nlKODLbKthuvF9aex169U5Rxt-L8c1lH-dccVWqHMQBrEmK1V0AgFATwKZSE75C6MEndtTNOGR7BEVhBeA6GUpJMMqQOy-f2c4~dz4uatUNu6GeCu4ppszJiPy7hEvKsFP4IeXR6RgvQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
-## **Professional services: Hair Day**
+<h3><b>Professional services: Hair Day</b></h3>
 
 ![Picture 12](RackMultipart20230221-1-dcr3jc_html_797020d2d25f710e.gif)
 
@@ -6605,13 +6653,13 @@ Based in Madison, Wisconsin, Hair Day is a boutique hair salon that specializes 
 
 Pria, the owner of Hair Day, earned her certificate as a colorist and immediately started specializing in edgy, custom coloring techniques. She wanted to create a "treat yourself" environment for her clients. Pria opened the salon with her good friend and talented hairdresser, Garry. They have a staff of seven: two stylists, three colorists, one manicurist and one make-up artist.
 
-## Download their logos here:
+<h3>Download their logos here:</h3>
 
-[**Hair Day logos**](https://d3c33hcgiwev3.cloudfront.net/jOXQp90cQzal0KfdHIM2eg_ffc47df1b7034d36a15dd95a39a4dae1_Hair-Day-logos.zip?Expires=1677024000&Signature=LQz-xo1nbMAKif92krRWshcYOlm3VSZP-9e5icvEgZh0gZgPKRyLoi4YJYkZbpZbvJ7hhf914PWlHzzmHLBnLqTKUJqhyCbV8~X8g8DdDsbJptLJyUA10NJDzDNvhShwDXa8pybwFbuc~a6IscVode9Mbcur-9Dm-0yxn7vQchQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+[<b>Hair Day logos</b>](https://d3c33hcgiwev3.cloudfront.net/jOXQp90cQzal0KfdHIM2eg_ffc47df1b7034d36a15dd95a39a4dae1_Hair-Day-logos.zip?Expires=1677024000&Signature=LQz-xo1nbMAKif92krRWshcYOlm3VSZP-9e5icvEgZh0gZgPKRyLoi4YJYkZbpZbvJ7hhf914PWlHzzmHLBnLqTKUJqhyCbV8~X8g8DdDsbJptLJyUA10NJDzDNvhShwDXa8pybwFbuc~a6IscVode9Mbcur-9Dm-0yxn7vQchQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 [ZIP File](https://d3c33hcgiwev3.cloudfront.net/jOXQp90cQzal0KfdHIM2eg_ffc47df1b7034d36a15dd95a39a4dae1_Hair-Day-logos.zip?Expires=1677024000&Signature=LQz-xo1nbMAKif92krRWshcYOlm3VSZP-9e5icvEgZh0gZgPKRyLoi4YJYkZbpZbvJ7hhf914PWlHzzmHLBnLqTKUJqhyCbV8~X8g8DdDsbJptLJyUA10NJDzDNvhShwDXa8pybwFbuc~a6IscVode9Mbcur-9Dm-0yxn7vQchQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
-## **Restaurant: Little Lemon**
+<h3><b>Restaurant: Little Lemon</b></h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_eb1d27337d6f981f.png)
 
@@ -6619,13 +6667,13 @@ Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaur
 
 Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region.
 
-## Download their logos here:
+<h3>Download their logos here:</h3>
 
-[**Little-Lemon-logos**](https://d3c33hcgiwev3.cloudfront.net/yonFVRknQEiJxVUZJzBIkA_c0e0039d4ddd4a33bc1c0854ba0361e1_Little-Lemon-logos.zip?Expires=1677024000&Signature=SJ8SgP-LJinkQ1CWq7WukmfLllGum57rxzfZTuoVmPEgHbG7iAGsWAqsG1SLQUyCez8ClwM4mlMXyWcpS0d~ryqpx00Vwxr8DmY0IPMaA9EfqF3oSXp0yBotWBDCK71Frd5HSweu3Ia3G3M8wkHUFJc41ZIEuFloKuJzc5MTW1c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+[<b>Little-Lemon-logos</b>](https://d3c33hcgiwev3.cloudfront.net/yonFVRknQEiJxVUZJzBIkA_c0e0039d4ddd4a33bc1c0854ba0361e1_Little-Lemon-logos.zip?Expires=1677024000&Signature=SJ8SgP-LJinkQ1CWq7WukmfLllGum57rxzfZTuoVmPEgHbG7iAGsWAqsG1SLQUyCez8ClwM4mlMXyWcpS0d~ryqpx00Vwxr8DmY0IPMaA9EfqF3oSXp0yBotWBDCK71Frd5HSweu3Ia3G3M8wkHUFJc41ZIEuFloKuJzc5MTW1c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 [ZIP File](https://d3c33hcgiwev3.cloudfront.net/yonFVRknQEiJxVUZJzBIkA_c0e0039d4ddd4a33bc1c0854ba0361e1_Little-Lemon-logos.zip?Expires=1677024000&Signature=SJ8SgP-LJinkQ1CWq7WukmfLllGum57rxzfZTuoVmPEgHbG7iAGsWAqsG1SLQUyCez8ClwM4mlMXyWcpS0d~ryqpx00Vwxr8DmY0IPMaA9EfqF3oSXp0yBotWBDCK71Frd5HSweu3Ia3G3M8wkHUFJc41ZIEuFloKuJzc5MTW1c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
-## **Luxury Jewelry: Mangata and Gallo**
+<h3><b>Luxury Jewelry: Mangata and Gallo</b></h3>
 
 ![](RackMultipart20230221-1-dcr3jc_html_5f23cb1f6176d2cd.png)
 
@@ -6635,7 +6683,7 @@ Mariana is the owner and the lead designer of Mangata and Gallo. After graduatin
 
 Download their logos here:
 
-[**Mangata and Gallo logos**](https://d3c33hcgiwev3.cloudfront.net/EB62uoKiQiietrqCouIoXA_12f23b7df3dc41f98259e1a3a6c4d5e1_Mangata-and-Gallo-logos.zip?Expires=1677024000&Signature=JOH0z-Ov4GNMxWFZH1obfPQLATv9wbbzxrKwg937kAdiFbd2fvOg2YYcNslhmS095EA9YmO0YPiGEyrdXGXAiqk5bYo70Y3Hfr0WgqIXgIrgGsF6RWCD5nfLF4AzDgxzL~bTld0LhmznNKyOOF5XauCpfWQ0~iad5zI00jXq3Vg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+[<b>Mangata and Gallo logos</b>](https://d3c33hcgiwev3.cloudfront.net/EB62uoKiQiietrqCouIoXA_12f23b7df3dc41f98259e1a3a6c4d5e1_Mangata-and-Gallo-logos.zip?Expires=1677024000&Signature=JOH0z-Ov4GNMxWFZH1obfPQLATv9wbbzxrKwg937kAdiFbd2fvOg2YYcNslhmS095EA9YmO0YPiGEyrdXGXAiqk5bYo70Y3Hfr0WgqIXgIrgGsF6RWCD5nfLF4AzDgxzL~bTld0LhmznNKyOOF5XauCpfWQ0~iad5zI00jXq3Vg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 [ZIP File](https://d3c33hcgiwev3.cloudfront.net/EB62uoKiQiietrqCouIoXA_12f23b7df3dc41f98259e1a3a6c4d5e1_Mangata-and-Gallo-logos.zip?Expires=1677024000&Signature=JOH0z-Ov4GNMxWFZH1obfPQLATv9wbbzxrKwg937kAdiFbd2fvOg2YYcNslhmS095EA9YmO0YPiGEyrdXGXAiqk5bYo70Y3Hfr0WgqIXgIrgGsF6RWCD5nfLF4AzDgxzL~bTld0LhmznNKyOOF5XauCpfWQ0~iad5zI00jXq3Vg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
