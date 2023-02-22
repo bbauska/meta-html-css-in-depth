@@ -24,7 +24,7 @@ meta-html-css-in-depth: "Meta HTML & CSS in Depth"
 <p align="center">
 <img  src="./images/image001.png?raw=true"
   alt="meta logo"
-  style="150px;" />
+  style="250px;" />
 </p>
 
 <h2>Course syllabus</h2>
@@ -85,7 +85,7 @@ But what does that mean?
 <p align="center">
 <img  src="./images/image002.png?raw=true"
   alt="Hypertext vs. Markup"
-  style="width:35%;" />
+  style="width:55%;" />
 </p>
 
 Hypertext is text which contains links to other text.
