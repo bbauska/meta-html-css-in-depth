@@ -227,7 +227,7 @@ a developer.
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. basic html template (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image005.png?raw=true"
 width="600"
@@ -239,7 +239,7 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. html tags (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image006.png?raw=true"
 width="600"
@@ -277,7 +277,7 @@ after the header element and the header element is used for logos.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. unordered list tage (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image009.png?raw=true"
-width="500"
+width="600"
 alt="Unordered list tag." /></p>
 
 The main links of your website are then added inside the Nav element.
@@ -306,8 +306,8 @@ It may help to think of a page in a newspaper.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. newspaper template (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image010.png?raw=true"
-width="600"
-alt="Newspaper page template." /></p>
+width="300"
+alt="Newspaper page articles template." /></p>
 
 It may help to think of a page in a newspaper.
 
@@ -343,9 +343,13 @@ semantically represents the main content of the page.
 And inside of it there can be multiple article elements for something
 like a blog post list.
 
-![](./images/image012.png){width="4.0in"
-height="2.424242125984252in"}At the end of your document is the footer
-element.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. footer element (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image012.png?raw=true"
+width="400"
+alt="Footer element." /></p>
+
+At the end of your document is the footer element.
 
 This might contain additional navigational links or content.
 
@@ -372,9 +376,13 @@ of the article.
 It is important to note that sections should contain heading elements to
 semantically describe the section.
 
-![](./images/image013.png){width="4.0in"
-height="1.9722222222222223in"}It is also possible to use section
-elements to describe different sections of your webpage, the section
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. section element (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image013.png?raw=true"
+width="400"
+alt="." /></p>
+
+It is also possible to use section elements to describe different sections of your webpage, the section
 element doesn't require the article element.\
 It all depends on how you want to semantically describe your page.
 
@@ -392,14 +400,20 @@ website. They\'ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
 
-![](./images/image014.png){width="4.0in"
-height="2.4551279527559053in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. adding basic semantic structure (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image014.png?raw=true"
+width="400"
+alt="Adding Basic Semantic Structure." /></p>
 
 I\'ve set up my basic html document structure in a file named blog.html.
 I\'ll start off by adding my basic semantic structure.
 
-![](./images/image015.png){width="6.0in"
-height="3.598718285214348in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. header, nav, main & footer elements (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image011.png?raw=true"
+width="600"
+alt="Header, Nav, Main & Footer elements example code." /></p>
 
 First, I add the header element. Followed by the nav element, Followed
 by the main element. Followed by the footer element.
@@ -472,8 +486,11 @@ engine determine which web pages are most relevant in this video? You
 will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.
 
-![](./images/image016.png){width="3.1041666666666665in"
-height="1.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. search engine optimization (seo) logo (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image016.png?raw=true"
+width="300"
+alt="SEO logo." /></p>
 
 A major part of launching a website is a process called search engine
 optimization or SEO. This process involves making improvements to a
