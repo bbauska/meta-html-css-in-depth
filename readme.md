@@ -128,7 +128,7 @@ Markup refers to tags and elements used within a document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. basic html page structure (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image003.png?raw=true"
-width="6000"
+width="600"
 alt="Basic HTML page structure." /></p>
 
 HTML elements with their opening and closing tags in angle brackets make
