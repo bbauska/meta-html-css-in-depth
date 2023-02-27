@@ -12,7 +12,7 @@
   width="35%" />
 </p>
 
-<h3 align="center">meta-html-css-in-depth - HTML &amp; CSS in Depth</h3>
+<h3 align="center">(https://github.com/bbauska/meta-html-css-in-depth/readme.md)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -114,9 +114,15 @@ So let\'s explore some basic HTML and CSS principles and practices.
 HTML stands for Hypertext Markup Language.
 
 But what does that mean?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image002.png?raw=true"
+  style="width:1.2083333333333333in height=0.59375in"
+width:5.0in height:1.6068372703412073in"
 
-![](./images/image002.png){width="5.0in"
-height="1.6068372703412073in"}
+alt="Hypertext Markup & HTML."
 
 Hypertext is text which contains links to other text.
 
