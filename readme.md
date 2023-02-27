@@ -18,7 +18,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image001.png?raw=true"
-  width="200"
+  width="150"
   alt="Meta logo." />
 
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
@@ -119,8 +119,9 @@ But what does that mean?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image002.png?raw=true"
-width:5.0in height:1.6068372703412073in"
+width="500"
 alt="Hypertext & Markup defined." /></p>
+<!-- width:5.0in height:1.6068372703412073in" -->
 
 <p>Hypertext is text which contains links to other text.
 
@@ -128,7 +129,7 @@ Markup refers to tags and elements used within a document.
 
 <p align="center">
 <img src="./images/image003.png?raw=true"
-width:2.5in height:0.8in"
+width="250"
 alt="Basic HTML page structure." /></p>
 
 HTML elements with their opening and closing tags in angle brackets make
@@ -180,8 +181,7 @@ wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
 
-![](./images/image004.png){width="5.0in"
-height="1.6068372703412073in"}
+![](./images/image004.png){width="500")
 
 You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
