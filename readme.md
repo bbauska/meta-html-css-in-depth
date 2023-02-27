@@ -18,7 +18,8 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image001.png?raw=true"
-  width="1.2083333333333333in" height="0.59375in"
+  width="200"
+<!--  width="1.2083333333333333in" height="0.59375in" -->
   alt="Meta logo." />
 
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
