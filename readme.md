@@ -18,7 +18,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image001.png?raw=true"
-  style="width:1.2083333333333333in height=0.59375in"
+  width="1.2083333333333333in" height="0.59375in"
   alt="Meta logo." />
 
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
@@ -115,21 +115,21 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext & markup defined (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image002.png?raw=true"
-  style="width:1.2083333333333333in height=0.59375in"
 width:5.0in height:1.6068372703412073in"
+alt="Hypertext & Markup defined." /></p>
 
-alt="Hypertext Markup & HTML."
-
-Hypertext is text which contains links to other text.
+<p>Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-![](./images/image003.png){width="5.0in"
-height="1.6068350831146108in"}
+<p align="center">
+<img src="./images/image003.png?raw=true"
+width:5.0in height:1.6068372703412073in"
+alt="Basic HTML page structure." /></p>
 
 HTML elements with their opening and closing tags in angle brackets make
 up an HTML document.
