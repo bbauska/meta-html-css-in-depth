@@ -12,7 +12,7 @@
   width="35%" />
 </p>
 
-<h3 align="center">(https://github.com/bbauska/meta-html-css-in-depth/readme.md)</h3>
+<h3 align="center">(https://github.com/bbauska/blob/main/meta-html-css-in-depth/readme.md)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -114,12 +114,10 @@ So let\'s explore some basic HTML and CSS principles and practices.
 HTML stands for Hypertext Markup Language.
 
 But what does that mean?
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. hypertext & markup defined (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image002.png?raw=true"
-width="500"
+width="600"
 alt="Hypertext & Markup defined." /></p>
 <!-- width:5.0in height:1.6068372703412073in" -->
 
@@ -127,9 +125,10 @@ alt="Hypertext & Markup defined." /></p>
 
 Markup refers to tags and elements used within a document.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. basic html page structure (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image003.png?raw=true"
-width="250"
+width="6000"
 alt="Basic HTML page structure." /></p>
 
 HTML elements with their opening and closing tags in angle brackets make
@@ -181,7 +180,11 @@ wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
 
-![](./images/image004.png){width="500")
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (02) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image004.png?raw=true"
+width="600"
+alt="." /></p>
 
 You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
@@ -224,8 +227,11 @@ a developer.
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
-![](./images/image005.png){width="6.5in"
-height="2.088888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image005.png?raw=true"
+width="600"
+alt="." /></p>
 
 Let\'s revisit the basic structure of an HTML page which includes the
 head and body.
@@ -233,14 +239,20 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 
-![](./images/image006.png){width="6.5in"
-height="2.828472222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image006.png?raw=true"
+width="600"
+alt="." /></p>
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
 
-![](./images/image007.png){width="6.5in"
-height="3.0819444444444444in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. header, main & footer (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image007.png?raw=true"
+width="600"
+alt="Header, Main and Footer example." /></p>
 
 For example, suppose you lay out your page with a header section that
 contains some company logo and navigation links.
@@ -250,8 +262,11 @@ Then a main section contains sections and articles.
 Finally, a footer section contains contact information and social media
 links.
 
-![](./images/image008.png){width="6.5in"
-height="3.0819444444444444in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. nav tag (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image008.png?raw=true"
+width="600"
+alt="Nav tag." /></p>
 
 The main navigation section of your web page can also be described
 semantically using the Nav tag.
@@ -259,8 +274,11 @@ semantically using the Nav tag.
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
 
-![](./images/image009.png){width="5.0in"
-height="2.3707272528433947in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. unordered list tage (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image009.png?raw=true"
+width="500"
+alt="Unordered list tag." /></p>
 
 The main links of your website are then added inside the Nav element.
 
@@ -285,9 +303,13 @@ That\'s quite a mouthful.
 
 It may help to think of a page in a newspaper.
 
-![](./images/image010.png){width="1.5in"
-height="1.9452449693788276in"}It may help to think of a page in a
-newspaper.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. newspaper template (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image010.png?raw=true"
+width="600"
+alt="Newspaper page template." /></p>
+
+It may help to think of a page in a newspaper.
 
 There are many articles on the page and you can cut out the individual
 articles with scissors if needed.
@@ -305,10 +327,14 @@ It\'s good practice to contain the blog post content inside of the
 article element because it\'s a complete self-contained composition on a
 web page.
 
-![](./images/image011.png){width="4.0in"
-height="2.4813560804899386in"}You should place the article element
-within the main element.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. article element (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image011.png?raw=true"
+width="600"
+alt="." /></p>
 
+You should place the article element within the main element.
+  
 Then add your regular heading \<h2\> and paragraph \<p\> tags within the
 article element.\
 The reason for doing it this way is because the main element
