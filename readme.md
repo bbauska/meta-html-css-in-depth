@@ -330,7 +330,7 @@ web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. article element (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image011.png?raw=true"
-width="600"
+width="400"
 alt="." /></p>
 
 You should place the article element within the main element.
