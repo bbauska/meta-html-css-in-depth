@@ -24,11 +24,11 @@
           margin-left: 5px; }
         h2 { font-size: 22px;
           font-family: Ditot, Bahnschrift, Arial, Helvetic, sans-serif;
-          text-align: left;
+          text-align: center;
           margin-left: 5px;  }
         h3 { font-size: 18px;
           font-family: Comic Sans, Bahnschrift, Arial, Helvetic, sans-serif;
-          text-align: left;
+          text-align: center;
 		  color: darkgreen;
           margin-left: 5px;  }
         h4 { font-size: 15px;
@@ -55,7 +55,7 @@
   </head>
 <body>
 
-<h2 align="center">meta/Coursera HTML &amp; CSS in Depth</h2>
+<h2>meta/Coursera HTML &amp; CSS in Depth</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of meta-html-css-in-depth ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -67,7 +67,7 @@
   style="width:25%;"
   alt="Coursera logo." />
 
-<h3 align="center">meta-html-css-in-depth - meta/Coursera's HTML &amp; CSS in Depth</h3>
+<h3>meta-html-css-in-depth - meta/Coursera's HTML &amp; CSS in Depth</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -80,14 +80,14 @@
 
 <p>(Coursera/meta)</p>
 
-<h1 id="course-syllabus">Course syllabus</h1>
+<h1>Course syllabus</h1>
 
-<h2 id="prerequisites">Prerequisites</h2>
+<h2>Prerequisites</h2>
 
 <p>To take this course, you don't need any developer experience, but you
 must be eager to get started with coding.</p>
 
-<h2 id="module-1">Module 1</h2>
+<h2>Module 1</h2>
 
 <p>In the first module, you will start with an introduction to the
 course and gain insight into what your career path as an HTML and CSS
@@ -134,7 +134,7 @@ resolving HTML and CSS issues.</p>
   <li><p>Adapt your CSS to perform as expected in different browsers.</p></li>
 </ul>
 
-<h2 id="module-3">Module 3</h2>
+<h2>Module 3</h2>
 
 <p>In the last module, you will have an opportunity to recap what you
 learned in the course and put it into practice by creating a home page
@@ -1750,17 +1750,21 @@ and the difference between GET and POST.</p>
 <p>You have recently learned about how forms are sent to web servers and
 the difference between Get and Post. In this reading, you will build on
 this knowledge by learning about Submit.</p>
-<h2 id="action-and-method">Action and method</h2>
+
+<h2>Action and method</h2>
+
 <p>Form submissions are an essential part of the world wide web. Nearly
 every website uses forms, from buying items online to ordering food for
 delivery. When you click the login button on a website, it sends your
 username and password to a web server to log you into your account.</p>
 <p>As you know by now, you add a form to your web page using the form
 tag.</p>
+
 <blockquote>
 <p>&lt;form&gt; </p>
 <p>&lt;/form&gt; </p>
 </blockquote>
+
 <p>But how the form is submitted is determined by two essential
 attributes: action and method.</p>
 <p>The action attribute specifies to which web address the form must be
@@ -1893,7 +1897,9 @@ elements</strong></h1>
 useful element. The following sheet provides an overview of the
 <strong>&lt;form&gt;</strong> constituent elements and their common
 attributes with simple examples for quick reference.</p>
-<h2 id="input">&lt;input&gt;</h2>
+
+<h2>&lt;input&gt;</h2>
+
 <p>It is used to create interactive controls, for example, buttons and
 various types of text fields and so on, to accept input or data from the
 user. The key attribute of this element is <strong>type</strong>. Some
@@ -1901,6 +1907,7 @@ common values for the <strong>type</strong> include: <strong>button,
 checkbox, date, email, number, password, submit, text,</strong> and
 <strong>url</strong>. These values dictate the appearance of the
 element. For example, this code:</p>
+
 <blockquote>
 <p>&lt;form action="my_action_page"&gt; </p>
 <p> </p>
@@ -1915,76 +1922,80 @@ element. For example, this code:</p>
 <p>  &lt;input type="submit" value="Login"&gt; </p>
 <p>&lt;/form&gt; </p>
 </blockquote>
+
 <p>Results in the following output:</p>
+
 <figure>
 <img src="./images/image078.png" style="width:2in;height:1.3972in"
 alt="Two input types, text and password, as it displays in the browser." />
 <figcaption aria-hidden="true">Two input types, text and password, as it
 displays in the browser.</figcaption>
 </figure>
+
 <p>Note how the type <strong>password</strong> hides the user input.</p>
-<h2 id="label">&lt;label&gt;</h2>
+
+<h2>&lt;label&gt;</h2>
+
 <p>Defines a label for an element. It has an attribute "for", the value
 of which should be equal to the id attribute of the element it is
 associated with. Note how in the example above, the
 <strong>&lt;label&gt;</strong> is associated with the
 <strong>&lt;input&gt;</strong> using its id value.</p>
-<h2 id="select">&lt;select&gt;</h2>
+
+<h2>&lt;select&gt;</h2>
 <p>Defines a drop-down list of options presented to the user. It has a
 couple of attributes:</p>
+
 <ul>
-<li><p>Form, the id of the form in which the drop-down appears</p></li>
-<li><p>Name specifies the name of the control</p></li>
-<li><p>Multiple Boolean attribute, when specified, indicates if a user
-can select multiple options out of the list</p></li>
-<li><p>Required indicates if the user is required to select an option
-before submitting a form</p></li>
-<li><p>Size mentions the number of visible options in a drop-down
-list</p></li>
-<li><p>The options in a drop-down list are defined using the
-<strong>&lt;option&gt;</strong> element inside
-<strong>&lt;select&gt;</strong>. Note the example in the
-<strong>&lt;option&gt;</strong> description below.</p></li>
+  <li><p>Form, the id of the form in which the drop-down appears</p></li>
+  <li><p>Name specifies the name of the control</p></li>
+  <li><p>Multiple Boolean attribute, when specified, indicates if a user can select multiple options out of the list</p></li>
+  <li><p>Required indicates if the user is required to select an option before submitting a form</p></li>
+  <li><p>Size mentions the number of visible options in a drop-down list</p></li>
+  <li><p>The options in a drop-down list are defined using the <strong>&lt;option&gt;</strong> element inside <strong>&lt;select&gt;</strong>. Note the example in the <strong>&lt;option&gt;</strong> description below.</p></li>
 </ul>
-<h2 id="textarea">&lt;textarea&gt;</h2>
+
+<h2>&lt;textarea&gt;</h2>
+
 <p>Defines a multi-line input field, typically to allow the user to
 input longer textual data. The common attributes for this element
 include:</p>
+
 <ul>
-<li><p><strong>cols</strong> defines the width of the text area, the
-default value is 20</p></li>
-<li><p><strong>form</strong> the form element the text area is
-associated with</p></li>
-<li><p><strong>maxlength</strong> when specified, limits the maximum
-number of characters that can be entered in the text area</p></li>
-<li><p><strong>minlength</strong> the minimum number of characters that
-the user should enter</p></li>
-<li><p><strong>readonly</strong> once set, the user cannot modify the
-contents</p></li>
-<li><p><strong>rows</strong> defines the number of visible text lines
-for the text area</p></li>
-<li><p>The following line of code defines a text area of 10 visible
-lines and nearly 30 characters wide where the user can input a maximum
-of 200 characters:</p></li>
+  <li><p><strong>cols</strong> defines the width of the text area, the default value is 20</p></li>
+  <li><p><strong>form</strong> the form element the text area is associated with</p></li>
+  <li><p><strong>maxlength</strong> when specified, limits the maximum number of characters that can be entered in the text area</p></li>
+  <li><p><strong>minlength</strong> the minimum number of characters that the user should enter</p></li>
+  <li><p><strong>readonly</strong> once set, the user cannot modify the contents</p></li>
+  <li><p><strong>rows</strong> defines the number of visible text lines for the text area</p></li>
+  <li><p>The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:</p></li>
 </ul>
+
 <blockquote>
 <p>&lt;textarea name="response" rows="10" cols="30" maxlength=“200”&gt; </p>
 <p> </p>
 <p>&lt;/textarea&gt; </p>
 </blockquote>
+
 <h2 id="button-1">&lt;button&gt;</h2>
+
 <p>Defines a clickable button. The <strong>onclick</strong> attribute
 defines the behavior when the button is clicked by the user. For
 example, in the code below, an alert message is shown to the user.</p>
 <p>&lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me! </p>
 <p>&lt;/button&gt; </p>
+
 <h2 id="fieldset">&lt;fieldset&gt;</h2>
+
 <p>Used to group related input elements in a form. For instance,
 elements related to the user’s personal information and educational
 qualification can be grouped separately in two field sets.</p>
+
 <h2 id="legend">&lt;legend&gt;</h2>
+
 <p>Defines a caption for the <strong>&lt;fieldset&gt;</strong> element.
 For example:</p>
+
 <blockquote>
 <p>&lt;fieldset&gt; </p>
 <p>  &lt;legend&gt;Personal Info&lt;/legend&gt; </p>
@@ -2002,10 +2013,13 @@ For example:</p>
 <p>  &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt; </p>
 <p>&lt;/fieldset&gt; </p>
 </blockquote>
+
 <h2 id="datalist">&lt;datalist&gt;</h2>
+
 <p>Specifies a list of pre-defined options for an input element. It
 differs from <strong>&lt;select&gt;</strong> since the user can still
 provide textual or numeric input other than the listed options.</p>
+
 <blockquote>
 <p>&lt;form action="/my_action_page"&gt; </p>
 <p>  &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt; </p>
@@ -2020,13 +2034,16 @@ provide textual or numeric input other than the listed options.</p>
 <p>  ... </p>
 <p>&lt;/form&gt;</p>
 </blockquote>
+
 <figure>
 <img src="./images/image079.png" style="width:2in;height:2.15084in"
 alt="Datalist input type with its drop-down list containing the options visible" />
 <figcaption aria-hidden="true">Datalist input type with its drop-down
 list containing the options visible</figcaption>
 </figure>
+
 <h2 id="output">&lt;output&gt;</h2>
+
 <p>Represents the result of a calculation (typically the output of a
 script) or the outcome of the user action.</p>
 <h2 id="option">&lt;option&gt;</h2>
@@ -2040,19 +2057,25 @@ below the code block.</p>
 <p>  &lt;option value="js"&gt;JavaScript&lt;/option&gt; </p>
 <p>  &lt;option value="react"&gt;React Basics&lt;/option&gt; </p>
 <p>&lt;/select&gt; </p>
+
 <figure>
 <img src="./images/image080.png" style="width:2in;height:1.59055in"
 alt="Option input type as with its drop-down list visible" />
 <figcaption aria-hidden="true">Option input type as with its drop-down
 list visible</figcaption>
 </figure>
+
 <p>By default, the first item in the drop-down list is selected. To
 define a pre-selected option, add the selected attribute to the
 option.</p>
+
 <h2 id="optgroup">&lt;optgroup&gt;</h2>
+
 <p>Defines a group of related options in a drop-down list. Its attribute
 label names the group.</p>
+
 <h2 id="additional-resources">Additional resources</h2>
+
 <p>The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
 in this section. </p>
@@ -2244,24 +2267,22 @@ tags to provide a description of the image. The
 &gt; \&lt;/figure\&gt;</code></pre>
 <p>One last thing to note is that like videos and audio, the web browser
 only supports specific file types. These file types are:</p>
+
 <ul>
-<li><p>.APNG – Animated Portable Network Graphics</p></li>
-<li><p>.AVIF – AV1 Image Format</p></li>
-<li><p>.GIF – Graphics Interchange Format</p></li>
-<li><p>.JPEG / .JPG – Joint Photographic Expert Group image
-format</p></li>
-<li><p>.PNG – Portable Network Graphics</p></li>
-<li><p>.SVG – Scalable Vector Graphics</p></li>
-<li><p>.WEBP – Web Picture Format</p></li>
-<li><p>Images will be important as you build websites and ensuring they
-are accessible will provide a better user experience for all
-visitors.</p></li>
+  <li><p>.APNG – Animated Portable Network Graphics</p></li>
+  <li><p>.AVIF – AV1 Image Format</p></li>
+  <li><p>.GIF – Graphics Interchange Format</p></li>
+  <li><p>.JPEG / .JPG – Joint Photographic Expert Group image format</p></li>
+  <li><p>.PNG – Portable Network Graphics</p></li>
+  <li><p>.SVG – Scalable Vector Graphics</p></li>
+  <li><p>.WEBP – Web Picture Format</p></li>
+  <li><p>Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.</p></li>
 </ul>
+
 <p>iFrames</p>
 <p>Have you ever visited a website with a map video or social media
 posts contained in the webpage?</p>
-<p>Now that you're learning about HTML, you may have wondered how that's
-done.</p>
+<p>Now that you're learning about HTML, you may have wondered how that's done.</p>
 <p>Well, it's done using something called an iframe.</p>
 <p>An iframe is HTML element that allows you to place or embed content
 from another website into a webpage.</p>
@@ -2319,105 +2340,119 @@ ensure that you trust the website that you are embedding.</p>
 embeds an HTML page into another page. Apart from the global attributes,
 which can be a part of the <strong>iframe</strong>, major
 element-specific attributes are listed below.</p>
+
 <h2 id="allow">allow</h2>
+
 <p>It specifies what features or permissions are available to the frame,
 for instance, access to the microphone, camera, other APIs and so on.
 For example:</p>
+
 <ul>
-<li><p><strong>allow="fullscreen”</strong> the fullscreen mode can be
-activated</p></li>
-<li><p><strong>allow=“geolocation”</strong> lets you access the user’s
-location</p></li>
-<li><p>To specify more than one feature, a semicolon-separator should be
-used between features. For example, the following would allow using the
-camera and the microphone:</p></li>
-<li><p><strong>&lt;iframe src="https://example.com/…" allow="camera;
-microphone"&gt; &lt;/iframe&gt;</strong></p></li>
+  <li><p><strong>allow="fullscreen”</strong> the fullscreen mode can be activated</p></li>
+  <li><p><strong>allow=“geolocation”</strong> lets you access the user’s location</p></li>
+  <li><p>To specify more than one feature, a semicolon-separator should be used between features. For example, the following would allow using the camera and the microphone:</p></li>
+  <li><p><strong>&lt;iframe src="https://example.com/…" allow="camera; microphone"&gt; &lt;/iframe&gt;</strong></p></li>
 </ul>
+
 <h2 id="name">name</h2>
+
 <p>The name for the <strong>&lt;iframe&gt;</strong>. For example:
 <strong>&lt;iframe name = "My Frame" width="400"
 height="300"&gt;&lt;/iframe&gt;</strong></p>
+
 <h2 id="height">height</h2>
+
 <p>It specifies the height of the frame. The default value is 150, in
 terms of CSS pixels. width</p>
+
 <h2 id="width">width</h2>
+
 <p>Specifies the width of the frame, in terms of CSS pixels. The default
 value is 300 pixels.</p>
+
 <h2 id="referrerpolicy">referrerpolicy</h2>
+
 <p>A referrer is the HTTP header that lets the page know who is loading
 it. This attribute indicates which referrer information to send when
 loading the frame resource. The common values are:</p>
+
 <ul>
-<li><p><strong>no-referrer</strong> The referrer header will not be
-sent.</p></li>
-<li><p><strong>origin</strong> The referrer will be limited to the
-origin of the referring page</p></li>
-<li><p><strong>strict-origin</strong> The origin of the document is sent
-as the referrer only when using the same protocol security level (HTTPS
-to HTTPS)</p></li>
+  <li><p><strong>no-referrer</strong> The referrer header will not be sent.</p></li>
+  <li><p><strong>origin</strong> The referrer will be limited to the origin of the referring page</p></li>
+  <li><p><strong>strict-origin</strong> The origin of the document is sent as the referrer only when using the same protocol security level (HTTPS to HTTPS)</p></li>
 </ul>
+
 <h2 id="sandbox">sandbox</h2>
+
 <p>To enforce greater security, a sandbox applies extra restrictions to
 the content in the <strong>&lt;iframe&gt;</strong>. To lift particular
 restrictions, an attribute value (permission token) is used. The common
 permission tokens are listed below:</p>
+
 <ul>
-<li><p><strong>allow-downloads</strong> Allows the user to download an
-item</p></li>
-<li><p><strong>allow-forms</strong> Allows the user to submit
-forms</p></li>
-<li><p><strong>allow-modals</strong> The resource can open modal
-windows</p></li>
-<li><p><strong>allow-orientation-lock</strong> Lets the resource lock
-the screen orientation</p></li>
-<li><p><strong>allow-popups</strong> Allows popups to open</p></li>
-<li><p><strong>allow-presentation</strong> Allows a presentation session
-to start</p></li>
-<li><p><strong>allow-scripts</strong> Lets the resource run scripts
-without creating popup windows</p></li>
+  <li><p><strong>allow-downloads</strong> Allows the user to download an item</p></li>
+  <li><p><strong>allow-forms</strong> Allows the user to submit forms</p></li>
+  <li><p><strong>allow-modals</strong> The resource can open modal windows</p></li>
+  <li><p><strong>allow-orientation-lock</strong> Lets the resource lock the screen orientation</p></li>
+  <li><p><strong>allow-popups</strong> Allows popups to open</p></li>
+  <li><p><strong>allow-presentation</strong> Allows a presentation session to start</p></li>
+  <li><p><strong>allow-scripts</strong> Lets the resource run scripts without creating popup windows</p></li>
 </ul>
+
 <p>Note that when the value of this attribute is empty, all restrictions
 are applied. To apply more than one permission, use a space-separated
 list. For example, the following would allow form submission and scripts
 while keeping other restrictions active:</p>
+
 <blockquote>
 <p>&lt;iframe src="<u>my_iframe_sandbox.html</u>" sandbox="allow-forms allow-scripts"&gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
+
 <h2 id="src">src</h2>
+
 <p>The URL of the page to embed in the <strong>&lt;iframe&gt;</strong>.
 Using the value <strong>about:blank</strong> would embed an empty
 page.</p>
+
 <h2 id="srcdoc">srcdoc</h2>
+
 <p>Let's you specify the inline HTML to embed in the
 <strong>&lt;iframe&gt;</strong>. When defined, this attribute would
 override the <strong>src</strong> attribute. For instance, the following
 code will display "My inline html" in the frame, instead of loading
 <strong>my_iframe_src.html</strong>.</p>
+
 <blockquote>
 <p>&lt;iframe src="<u>my_iframe_src.html</u>" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
+
 <h2 id="loading">loading</h2>
+
 <p>This attribute let's you specify if the iframe should be loaded
 immediately when the web page loads (<strong>eager</strong>) or loaded
 when iframe is displayed in the browser (<strong>lazy</strong>). This
 allows you to defer loading iframe content if it is further down your
 web page and outside of the display area when the page is initially
 loaded.</p>
+
 <blockquote>
 <p>&lt;iframe src="<u>my_iframe_src.html</u>" loading="lazy" &gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
+
 <h2 id="title">title</h2>
+
 <p>This attribute let's you add a description to the iframe for
 accessibility purposes. The value of this attribute should accurately
 describe the iframe's content.</p>
+
 <blockquote>
 <p>&lt;iframe src="<u>history.html</u>" title="An embedded document about the history of my family" &gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
+
 <p>iFrame as a picture</p>
 <p>The Little Lemon restaurant has partnered with another restaurant for
 cross promotional purposes.</p>
@@ -2431,6 +2466,8 @@ because it means that they can update their promotional image on the
 Little Lemon website without needing to contact me first.</p>
 <p>In this section, I'm going to demonstrate how to do that.</p>
 <p>I've opened the index.html in Visual Studio Code.</p>
+
+
 <p><img src="./images/image086.png"
 style="width:6in;height:3.3641in" /></p>
 <p>First, I add the iFrame element.</p>
@@ -2453,6 +2490,8 @@ about embedding content, especially now that they have online ordering
 and customers interacting with your website.</p>
 <p>Their concerns are valid as there are many security vulnerabilities
 with embedding content from another website.</p>
+
+
 <p><img src="./images/image087.png"
 style="width:6.5in;height:0.68611in" /></p>
 <p>To address these concerns, I've decided to sandbox and limit the
@@ -2486,6 +2525,8 @@ capabilities and then I use the allow attribute to disable some
 potentially unsecured browser features.</p>
 <p>Now that they know it's secure, the other restaurant is going to
 implement the same code on their website.</p>
+
+
 <p><img src="./images/image088.png"
 style="width:5in;height:2.07479in" /></p>
 <p>Hopefully this will lead to a lot more business for both
@@ -2526,6 +2567,7 @@ it's not guaranteed that the two D canvas will use the GPU.</p>
 <p>WebGL is a complex technology and requires a lot of background
 information so for now let's focus on the canvas element.</p>
 <p>Let's examine how to animate some simple graphics.</p>
+
 <p><img src="./images/image089.png"
 style="width:5in;height:2.20673in" /></p>
 <p>Using the 2D canvas.</p>
@@ -2534,6 +2576,7 @@ and have set up two files index dot html and animation dot Js inside
 index dot html.</p>
 <p>I have added the canvas html element.</p>
 <p>I have set its with attribute to 640 its height attribute to 480.</p>
+
 <p><img src="./images/image090.png"
 style="width:5in;height:2.72436in" /></p>
 <p>I have also set its ID attribute to my underscore canvas so that I
@@ -2543,6 +2586,7 @@ now open animation dot Js at the beginning of the file I look up the
 canvas element using the document dot get element by ID function and
 pass in my underscore canvas at the parameter.</p>
 <p>The result is stored in a variable named canvas.</p>
+
 <p><img src="./images/image091.png"
 style="width:5in;height:2.24412in" /></p>
 <p>Next, I look up the two D canvas context using canvas dot get context
@@ -2557,6 +2601,8 @@ reaches the left or right side of the screen.</p>
 <p>The function clears the canvas area using context dot clear wreck it
 then draws the ball in its current position using the context dot begin
 path, context dot arc and context dot fill functions.</p>
+
+
 <p><img src="./images/image092.png"
 style="width:5in;height:1.02938in" /></p>
 <p>Finally, I define an animate function which calls the move ball and
@@ -2623,6 +2669,7 @@ to use inputs and forums or embed videos and audio. Well done.</p>
 <p>The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
 in this module. </p>
+
 <p><a href="https://html.com/media/"
 class="uri">https://html.com/media/</a></p>
 <p><a
@@ -2739,12 +2786,14 @@ In such a case, the items will start from top left and move down along
 the vertical main axis. The properties you choose will help better
 control alignment, spacing, direction and eventually styling of the
 container and items present inside it. </p>
+
 <figure>
 <img src="./images/image093.png" style="width:5in;height:2.00705in"
 alt="Diagram of a flexbox and all its properties." />
 <figcaption aria-hidden="true">Diagram of a flexbox and all its
 properties.</figcaption>
 </figure>
+
 <p>Image source: <a
 href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology"
 class="uri">https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology</a></p>
@@ -2752,33 +2801,43 @@ class="uri">https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-an
 you to configure a flexbox.</p>
 <h2 id="flexbox-properties">Flexbox properties</h2>
 <h2 id="original-html-code">Original HTML code:</h2>
-<pre><code>\&lt;body\&gt;
-  \&lt;div class=\&quot;flex-container\&quot;\&gt;
-    \&lt;div class=\&quot;box box1\&quot;\&gt;  One..\&lt;/div\&gt;
-    \&lt;div class=\&quot;box box2\&quot;\&gt;  Two..\&lt;/div\&gt;
-    \&lt;div class=\&quot;box box3\&quot;\&gt;  Three..\&lt;/div\&gt;
-    \&lt;div class=\&quot;box box4\&quot;\&gt;  Four..\&lt;/div\&gt;
-    \&lt;div class=\&quot;box box5\&quot;\&gt;  Five..\&lt;/div\&gt;
-    \&lt;div class=\&quot;box box6\&quot;\&gt;  Six..\&lt;/div\&gt;
-    \&lt;div class=\&quot;box box7\&quot;\&gt;  Seven..\&lt;/div\&gt;
-  \&lt;/div\&gt;
-\&lt;/body\&gt;</code></pre>
+
+<pre><code>
+<body>
+  <div class="flex-container"/>
+    <div class="box box1">;  One..</div>;
+    <div class="box box2">;  Two..</div>;
+    <div class="box box3">;  Three..</div>;
+    <div class="box box4">;  Four..</div>;
+    <div class="box box5">;  Five..</div>;
+    <div class="box box6">;  Six..</div>;
+    <div class="box box7">;  Seven..</div>;
+  </div>
+</body>
+</code></pre>
+
 <h2 id="original-css-file">Original CSS file:</h2>
-<pre><code>.box{
+
+<pre><code>
+.box{
     background-color: aquamarine;
     border-radius: 5px;
     margin: 2px;
     padding: 10px;
-}</code></pre>
-<p> </p>
+}
+</code></pre>
+
 <h2 id="output-1">Output:</h2>
+
 <figure>
 <img src="./images/image094.png"
-style="width:3.26042in;height:3.61458in"
-alt="Output for CSS Code with listed number boxes" />
-<figcaption aria-hidden="true">Output for CSS Code with listed number
-boxes</figcaption>
+  style="width:3.26042in;height:3.61458in"
+  alt="Output for CSS Code with listed number boxes" />
+<figcaption aria-hidden="true">
+Output for CSS Code with listed number boxes
+</figcaption>
 </figure>
+
 <p>There are seven div containers inside the HTML file.</p>
 <p>The corresponding CSS file contains rules for all seven div tags that
 have the box class. Note how two class names are given for each of the
@@ -2792,49 +2851,66 @@ flex.</p>
 }</code></pre>
 <p>The output is now seven flex containers that run from left to right
 starting in the top left corner.</p>
+
 <figure>
 <img src="./images/image095.png" style="width:5.39583in;height:1.8125in"
 alt="Output for CSS Code with aligned number boxes" />
 <figcaption aria-hidden="true">Output for CSS Code with aligned number
 boxes</figcaption>
 </figure>
+
 <h2 id="alignment-properties">Alignment properties</h2>
+
 <p>Let’s examine a few alignment properties inside the flex. There are
 four main properties used to align a flex container and items present
 inside it:</p>
+
 <ul>
-<li><p>justify-content. For item alignment on main axis.</p></li>
-<li><p>align-items. For item alignment on cross axis.</p></li>
-<li><p>align-self. For unique flex items on cross axis.</p></li>
-<li><p>align-content. Used for packing flex lines and control over
-space.</p></li>
-<li><p>Of these, justify-content and align-items are frequently used for
-the respective two axes.</p></li>
+  <li><p>justify-content. For item alignment on main axis.</p></li>
+  <li><p>align-items. For item alignment on cross axis.</p></li>
+  <li><p>align-self. For unique flex items on cross axis.</p></li>
+  <li><p>align-content. Used for packing flex lines and control over space.</p></li>
+  <li><p>Of these, justify-content and align-items are frequently used for the respective two axes.</p></li>
 </ul>
+
 <p>Let’s first examine the use of justify-content which has a value of
 ‘left’ by default.</p>
+
 <h2 id="justify-content">justify-content</h2>
+
 <h2 id="css">CSS:</h2>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
     display: flex;
     justify-content: center
-}</code></pre>
+}
+</code></pre>
+
 <h2 id="output-2">Output:</h2>
+
 <figure>
 <img src="./images/image096.png" style="width:6.20833in;height:0.875in"
 alt="The output for CSS Code with justification in the center" />
 <figcaption aria-hidden="true">The output for CSS Code with
 justification in the center</figcaption>
 </figure>
+
 <h2 id="flex-wrap">flex-wrap:</h2>
+
 <p>The default for this property is ‘nowrap’ which means the items will
 span the entire width of the axis.</p>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}</code></pre>
+}
+</code></pre>
+
 <h2 id="output-3">Output:</h2>
+
 <figure>
 <img src="./images/image097.png"
 style="width:2.91667in;height:2.03125in"
@@ -2842,20 +2918,27 @@ alt="Output for CSS code with wrapped number boxes justified in the center" />
 <figcaption aria-hidden="true">Output for CSS code with wrapped number
 boxes justified in the center</figcaption>
 </figure>
+
 <p>The items will now be wrapped to the size of the available
 viewport.</p>
 <h2 id="flex-direction">flex-direction:</h2>
 <p>This property is used to set the main axis, which is a ‘row’ by
 default. It basically means you are changing your ‘main’ axis from
 horizontal rows to vertical columns.</p>
+
 <h2 id="css-code">CSS Code:</h2>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-}</code></pre>
+}
+</code></pre>
+
 <h2 id="output-4">Output:</h2>
+
 <figure>
 <img src="./images/image098.png"
 style="width:3.44792in;height:3.67708in"
@@ -2863,23 +2946,31 @@ alt="Display of listed number boxes as a flex" />
 <figcaption aria-hidden="true">Display of listed number boxes as a
 flex</figcaption>
 </figure>
+
 <p>The output looks like the original output; however, it is now
 actually a flex.</p>
 <p>Now let’s align the items again and examine a couple of the other
 properties mentioned earlier.</p>
+
 <h2 id="align-items">align-items:</h2>
+
 <p>The alignment on the cross-axis is done with the help of this
 property. Let’s change the value for it to ‘flex-end’.</p>
+
 <h2 id="css-code-1">CSS Code:</h2>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-items:flex-end;
-}</code></pre>
-<p> </p>
+}
+</code></pre>
+
 <h2 id="output-5">Output:</h2>
+
 <figure>
 <img src="./images/image099.png"
 style="width:2.57292in;height:3.71875in"
@@ -2887,11 +2978,16 @@ alt="Right-centered number boxes with the flex end aligning method." />
 <figcaption aria-hidden="true">Right-centered number boxes with the flex
 end aligning method.</figcaption>
 </figure>
+
 <p>The term ‘end’ refers to the right side of the page as the left side
 is seen as the beginning.</p>
+
 <h2 id="align-self">align-self:</h2>
+
 <p>This property can be used on individual items inside the flex.</p>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -2901,9 +2997,11 @@ is seen as the beginning.</p>
 .box3{
     background-color: blanchedalmond;
     align-self: center;
-}</code></pre>
-<p> </p>
-<h2 id="output-6">Output:      </h2>
+}
+</code></pre>
+
+<h2 id="output-6">Output:</h2>
+
 <figure>
 <img src="./images/image100.png"
 style="width:2.91667in;height:3.76042in"
@@ -2911,14 +3009,20 @@ alt="Output to display of a change in the color and alignment of individual item
 <figcaption aria-hidden="true">Output to display of a change in the
 color and alignment of individual items</figcaption>
 </figure>
+
 <p>Here the color and alignment of the third box have been changed and
-it overrides the properties set using align-items.  </p>
+it overrides the properties set using align-items.</p>
+
 <h2 id="gap">gap:</h2>
+
 <p>gap property can be used to create space between the items along the
 main axis. You can also individually configure the gaps in rows and
 columns using row-gap and column-gap properties.</p>
+
 <h2 id="css-code-2">CSS Code:</h2>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -2929,9 +3033,11 @@ columns using row-gap and column-gap properties.</p>
 .box3{
     background-color: blanchedalmond;
     align-self: center;
-}</code></pre>
-<p> </p>
+}
+</code></pre>
+
 <h2 id="output-7">Output:</h2>
+
 <figure>
 <img src="./images/image101.png"
 style="width:2.86458in;height:3.34375in"
@@ -2939,6 +3045,7 @@ alt="Display of items with different spacing" />
 <figcaption aria-hidden="true">Display of items with different
 spacing</figcaption>
 </figure>
+
 <p>There is a clear change in spacing between the items.</p>
 <p>The final set of properties are flex-grow, flex-shrink and
 flex-basis. Together these determine how the flex takes up space, grows
@@ -2948,13 +3055,17 @@ three properties can also be given values with the help of something
 called the shorthand notation in CSS. Shorthand notation helps you make
 your code compact and also easy to write and follow. The values left
 empty in shorthand notation are given their default values.</p>
+
 <h2 id="for-example">For example:</h2>
-<pre><code>.flex-container{
+
+<pre><code>
+.flex-container{
 
 flex: 0 1 auto;
 
-}</code></pre>
-<p> </p>
+}
+</code></pre>
+
 <p>Here for the flex-container class, there is a set rule for the flex
 property. The values correspond to the three properties, namely the
 flex-grow set to 0, flex-shrink to 1 and flex-basis to auto. The
@@ -2965,23 +3076,32 @@ flexbox.</p>
 slightly by removing the flex-direction value set to ‘column’. This will
 change it to default ‘row’ and the output will again be centrally
 aligned and horizontal best-distributed between two rows.</p>
+
 <h2 id="output-8">Output:</h2>
+
 <figure>
 <img src="./images/image102.png" style="width:4.625in;height:1.54167in"
 alt="List of items as default raw modified by removing the flex direction" />
 <figcaption aria-hidden="true">List of items as default raw modified by
 removing the flex direction</figcaption>
 </figure>
+
 <p>The rest of the remaining code is unchanged. However, the output will
 change if the code is modified with the addition of the flex property
 inside the flex item box3 class.</p>
+
 <h2 id="css-code-3">CSS Code:</h2>
-<pre><code>.box3{
+
+<pre><code>
+.box3{
     background-color: blanchedalmond;
     align-self: center;
     flex: 1 1 auto;
-}</code></pre>
+}
+</code></pre>
+
 <h2 id="output-9">Output:</h2>
+
 <figure>
 <img src="./images/image103.png"
 style="width:4.69792in;height:1.84375in"
@@ -2989,6 +3109,7 @@ alt="Different spacing of items in row display" />
 <figcaption aria-hidden="true">Different spacing of items in row
 display</figcaption>
 </figure>
+
 <p>The third box now takes up the entire free space available because
 flex-growth’s value has been set to 1. So if we
 have <strong>flex-grow</strong> set to 1, the children will all set to
@@ -3011,7 +3132,9 @@ these units of measurement are used to account for the dynamism and
 dimensionality of a web page. </p>
 <p>Let’s examine the most widely used units of measurement. They can
 broadly be categorized as Absolute and Relative units. </p>
+
 <h2 id="absolute-units">Absolute units</h2>
+
 <p>Absolute units are constant across different devices and have a fixed
 size. They are useful for activities like printing a page. They are not
 so suitable when it comes to the wide variety of devices in use today
@@ -3019,6 +3142,7 @@ that have different viewport sizes. Because of this, absolute units are
 used when the size of the web page is known and will remain
 constant. </p>
 <p>The table for absolute units can be seen below:</p>
+
 <table style="width:97%;">
 <colgroup>
 <col style="width: 14%" />
@@ -3070,9 +3194,12 @@ constant. </p>
 </tr>
 </tbody>
 </table>
+
 <p>Of these, the pixels and centimeters are most frequently used for
 defining properties. </p>
+
 <h2 id="relative-values">Relative values</h2>
+
 <p>When you create a web page, you will almost never have only a single
 element present inside it. Even in case of containers such as flexboxes
 and grids, there’s usually more than one element present that rules are
@@ -3081,7 +3208,8 @@ elements present inside the parent element. Additionally, they are
 defined ‘in relation’ to the viewport or the size of the visible web
 page. Given the dynamic nature of web pages today and the variable size
 of devices in use, relative units are the go-to option in many cases.
-Below is a list of some of the important relative units. </p>
+Below is a list of some of the important relative units.</p>
+
 <table style="width:97%;">
 <colgroup>
 <col style="width: 14%" />
@@ -3148,6 +3276,7 @@ its parent element. </td>
 </tr>
 </tbody>
 </table>
+
 <p>Many of these units are used in terms of the relative size of fonts.
 Some units are more suitable depending on the relative context. Like
 when the dimensions of the viewport are important, it's more appropriate
@@ -3176,23 +3305,27 @@ elements that you see on a page.</p>
 <p>You will discover simple ways in which you can utilize flexboxes for
 binding elements together or creating an easy layout.</p>
 <p>Let's explore the three most common uses of flexbox is in CSS.</p>
+
 <p><img src="./images/image104.png"
 style="width:3in;height:0.57153in" />The first application of flexbox
 that you will cover that is commonly used is a search bar.</p>
 <p>You can use flex in search bars because it ties up all the elements,
 such as the small Search icon, the search input area, and the Submit
 button.</p>
+
 <p><img src="./images/image105.png"
 style="width:6.5in;height:0.71389in" /></p>
 <p>Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
 responsive on different devices.</p>
+
 <p><img src="./images/image106.png"
 style="width:2in;height:1.63975in" />Finally, another type of flexbox
 that is commonly used is an image gallery.</p>
 <p>Flexes helpful here is it can realign itself as you change the size
 of the window. In the next few minutes, you will discover how to create
 these flexboxes to ensure a simple layout.</p>
+
 <p><img src="./images/image107.png"
 style="width:6.5in;height:3.21944in" /></p>
 <p>In the first example of a flexbox file, I will create a search bar, I
@@ -3204,6 +3337,7 @@ code.</p>
 container, I have three different elements, which are the search icon,
 the search box where I typed my search, and finally the Submit
 button.</p>
+
 <p><img src="./images/image108.png"
 style="width:3.1875in;height:4.95833in" />In the CSS code, I first write
 rules for the container, then for the search icon, the search box, and
@@ -3234,6 +3368,7 @@ menus.</p>
 style="width:3.41667in;height:1.53453in" /></p>
 <p>In this case, I created an unordered list that consists of four
 items.</p>
+
 <p><img src="./images/image110.png"
 style="width:3.07292in;height:4.72917in" /></p>
 <p>Notice that in my CSS code I use something called a star or universal
@@ -3257,8 +3392,10 @@ top of each other, and if I expand the window, it changes to a standard
 horizontal navigation menu.</p>
 <p>One final flexbox example that I will demonstrate is a responsive
 image gallery.</p>
+
 <p><img src="./images/image111.png"
 style="width:6.5in;height:3.24167in" /></p>
+
 <p>All the elements for the gallery are in the body of the HTML
 file.</p>
 <p>There is a div element with a class container that consists of six
@@ -3270,6 +3407,7 @@ the margin and the padding to zero.</p>
 <p>I then reset the basic alignment options for the images by setting
 the border to zero.</p>
 <p>Next, let's focus on the container.</p>
+
 <p><img src="./images/image112.png"
 style="width:3.375in;height:4.05208in" />First, I set the value of
 display to flex, then I add the flex-wrap property which determines
@@ -3314,6 +3452,7 @@ charts.</p>
 <p>These bar charts are called flex charts.</p>
 <p>The most important property when using flex is the flex property that
 in turn has the following three sub properties.</p>
+
 <p><img src="./images/image113.png"
 style="width:3in;height:0.25417in" /></p>
 <p>Flex grow, which specifies how much the item will grow compared to
@@ -3321,6 +3460,7 @@ other flexible items, flex shrink, which specifies how much the item
 will shrink compared to other flexible items.</p>
 <p>And flex basis, which specifies the initial length of the flexible
 item.</p>
+
 <p><img src="./images/image114.png"
 style="width:5in;height:0.92628in" /></p>
 <p>Flex property can be declared with something called a shorthand
@@ -3332,6 +3472,7 @@ their preferred dish.</p>
 <p>The management of little Lemon decided to publish the results on
 their website to draw attention to their most popular dishes.</p>
 <p>I've been asked to write code to make this possible.</p>
+
 <p><img src="./images/image115.png"
 style="width:5.125in;height:4.91667in" /></p>
 <p>I've set up my basic html document structure in a file named flex
@@ -3346,11 +3487,13 @@ for displaying the results of the survey.</p>
 then add the name of the label preferred dishes.</p>
 <p>Next, I create another class called container by typing dot container
 and then I press enter.</p>
+
 <p><img src="./images/image116.png"
 style="width:6.5in;height:4.17986in" /></p>
 <p>Inside the container I create a class called dish by typing dot dish
 and pressing enter as there are three dishes in the popular list, I copy
 and paste this item twice.</p>
+
 <p><img src="./images/image117.png"
 style="width:6.5in;height:4.17986in" /></p>
 <p>To distinguish between the dishes, I add a class name for each of the
@@ -3365,6 +3508,7 @@ length of the item.</p>
 <p>Finally, I add the respective labels for each dish.</p>
 <p>To do this, I add the percentage between the angle brackets at the
 end of each item.</p>
+
 <p><img src="./images/image118.png"
 style="width:6.5in;height:3.77847in" /></p>
 <p>Now that my code is created, I move to CSS by clicking on the flex
@@ -3403,10 +3547,12 @@ screen.</p>
 <p>The output preferred dishes and the percentage is 35, 50 and 15
 appear on my screen, to improve the visuals of my chart and make it
 easier to interpret.</p>
+
 <p><img src="./images/image119.png"
 style="width:6.5in;height:3.77847in" /></p>
 <p>I'm going to add individual colors to the chart items at the bottom
 of my CSS file I press enter twice and type dot pasta.</p>
+
 <p><img src="./images/image120.png"
 style="width:4in;height:1.07517in" />I press enter and within this div
 class I add background color, followed by the hex code of the color I
@@ -3417,6 +3563,7 @@ want to use in the next line.</p>
 background colors as indicated.</p>
 <p>What's important to note here is that as you change the size of the
 web page, the flex adjusts itself while the label remains unchanged.</p>
+
 <p><img src="./images/image121.png"
 style="width:6.33333in;height:5.04167in" /></p>
 <p>The next example is very similar to the one I created for the earlier
@@ -3424,6 +3571,7 @@ bar charts.</p>
 <p>In this example, when I create horizontal objects, I first add four
 containers for male and female and then I set the flex spaces for each
 of them.</p>
+
 <p><img src="./images/image122.png"
 style="width:3in;height:3.64885in" />If you look at my CSS code, I
 follow the same order.</p>
@@ -3436,12 +3584,15 @@ content and flex selection that have been adjusted to accommodate the
 horizontal bar charts.</p>
 <p>When I display the output of this code, the male and female classes
 are stacked on top of each other.</p>
+
 <p><img src="./images/image123.png"
 style="width:4.09375in;height:3.02083in" /></p>
 <p>What alignment to use may or may not come intuitively, but if you
 look at a few more examples, it will start making sense.</p>
+
 <p><img src="./images/image124.png"
 style="width:6.5in;height:3.75278in" /></p>
+
 <p>Like in this case the container contains male and female classes that
 need to be stacked on top of each other, which is why I have used flex
 direction.</p>
@@ -3460,6 +3611,7 @@ by organizing relevant content to make it easier to comprehend.</p>
 <p>Let's learn more about layouts.</p>
 <p>When someone says the word grid, you probably think of lines that
 cross each other to form squares or rectangles.</p>
+
 <p><img src="./images/image125.png"
 style="width:5in;height:2.88675in" /></p>
 <p>CSS Grids are two-dimensional design layouts that are responsive and
@@ -3468,20 +3620,27 @@ compatible with browser variations.</p>
 tables, especially when you are working with larger scale layouts.</p>
 <p>Columns are the vertical tracks and rows are the horizontal tracks in
 your viewport.</p>
+
 <p><img src="./images/image126.png"
 style="width:6.5in;height:3.63264in" /></p>
+
 <p>Grids divide the page into rows and columns, and the space between
 these tracks are called gutters or gaps.</p>
+
 <p><img src="./images/image127.png"
 style="width:6.5in;height:3.54028in" /></p>
+
 <p>A cell is the space in a grid container where a row and column
 intersect.</p>
 <p>There are several different configurations you can add to define and
 modify grids.</p>
 <p>Let's examine an example that uses a HTML document to demonstrate how
 to iteratively make changes to a grid.</p>
+
 <p><img src="./images/image128.png"
-style="width:3in;height:3.72032in" />First, let's create a HTML document
+style="width:3in;height:3.72032in" /></p>
+
+<p>First, let's create a HTML document
 called index.html.</p>
 <p>Right now, the contents displayed in the viewport are just a vertical
 series of letters from A to E without any styling.</p>
@@ -3495,6 +3654,7 @@ screen is unchanged.</p>
 necessary for its size.</p>
 <p>What's displayed in the viewport may appear to be a grid, but it's
 not actually one.</p>
+
 <p><img src="./images/image129.png"
 style="width:3in;height:3.11873in" />It's just the default settings of
 CSS for a layout.</p>
@@ -3506,16 +3666,19 @@ value to the display property.</p>
 <p>The display property is also used to set display types for other
 designs such as flex, block, inline, and so on.</p>
 <p>It's usually a part of container elements inside our code.</p>
+
 <p><img src="./images/image130.png"
 style="width:6.5in;height:3.88611in" /></p>
 <p>The updated container now has the display property value set to grid
 and the property values configured for three columns and two rows.</p>
+
 <p><img src="./images/image131.png"
 style="width:6.5in;height:2.86042in" /></p>
 <p>That's two changes from the previous configuration.</p>
 <p>Let's examine them.</p>
 <p>The grid template columns property has been added into the CSS code
 to set the size of each of the three columns using pixel values.</p>
+
 <p><img src="./images/image132.png"
 style="width:6.5in;height:2.73611in" /></p>
 <p>The use of fr, which is an abbreviation for fraction, has been
@@ -3531,6 +3694,7 @@ two to one.</p>
 actual pixel sizes.</p>
 <p>It must be noted though, that fraction and pixel sizes can be used
 interchangeably with both rows and columns.</p>
+
 <p><img src="./images/image133.png"
 style="width:6.5in;height:2.78056in" /></p>
 <p>Now to add a couple of properties such as grid gap or gutter and
@@ -3542,12 +3706,14 @@ size of the grid track or gutter has been adjusted to 10 pixels, which
 leaves more space between the grid cells.</p>
 <p>You can also opt to use the auto properties such as grid, auto rows
 and grid auto columns collectively called the implicit grid.</p>
+
 <p><img src="./images/image134.png"
 style="width:6.5in;height:2.78056in" /></p>
 <p>Let's replace the grid template rows property in the code with grid
 auto rows. All the rows are now auto-resized to 100 pixels.</p>
 <p>Now let's examine some of the functions that can make configuring the
 layout easier.</p>
+
 <p><img src="./images/image135.png"
 style="width:6.5in;height:2.78056in" /></p>
 <p>First, the repeat function passes the number of repeats required for
@@ -3557,6 +3723,7 @@ last instance because the repeat function didn't change anything, it
 just reduced the amount of code you need to write.</p>
 <p>Therefore, the repeat function helps reduce redundancy and provides
 ease of code modification.</p>
+
 <p><img src="./images/image136.png"
 style="width:6.5in;height:2.78056in" /></p>
 <p>Next, the min-max function sets the minimum and maximum values
@@ -3646,14 +3813,18 @@ configured.</p>
 <p>This defines two cells named footer and footer, that have a sizing of
 20 root em (rem). This defines the size in relation to the html font
 size.</p>
+
 <h3 id="gap-1">Gap</h3>
+
 <p><strong>grid-gap: measurement units</strong></p>
 <p>Determines the gap between rows and columns</p>
 <p><strong>grid-column-gap: measurement units</strong></p>
 <p>Determines the gap between columns</p>
 <p><strong>grid-row-gap: m-unit-1 m-unit-2</strong></p>
 <p>Determines the gap between columns</p>
+
 <h3 id="alignment">Alignment</h3>
+
 <p><strong>justify-items: start | center | end | stretch</strong></p>
 <p>Defines the default space that is allot to each item on the grid</p>
 <p><strong>align-items: start | center | end | stretch</strong></p>
@@ -3663,7 +3834,9 @@ axis</p>
 above */</strong></p>
 <p>This feature allows you align items with the block and inline
 directions.</p>
+
 <h3 id="justification">Justification</h3>
+
 <p><strong>justify-content: start | center | end | stretch |
 space-between | space-evenly | space-around</strong></p>
 <p>Defines browser allocation of space to content items in relation to
@@ -3675,7 +3848,9 @@ cross axis and block axis</p>
 <p><strong>place-content: center | start</strong></p>
 <p>This feature allows you align items with the block and inline
 directions.</p>
+
 <h3 id="positioning">Positioning</h3>
+
 <p><strong>grid-auto-flow: row | column | dense</strong></p>
 <p>This relates to how the items are placed automatically within the
 grid</p>
@@ -3685,8 +3860,9 @@ specifications</p>
 <p><strong>grid-auto-rows: measurement units</strong></p>
 <p>This relates to the size for rows created without specific size
 specifications</p>
-<h2 id="grid-properties-for-items-child">Grid properties for items
-(child)</h2>
+
+<h2 id="grid-properties-for-items-child">Grid properties for items (child)</h2>
+
 <p><strong>grid-column: column position /* E.g. 1/2 */</strong></p>
 <p>Allows for specifying where on the grid the column is to start.</p>
 <p><strong>grid-column-start: column start position</strong></p>
@@ -3703,7 +3879,9 @@ on a grid.</p>
 <p><strong>grid-row-end: row end position</strong></p>
 <p>This property determines the end row position an item is placed on a
 grid.</p>
+
 <h2 id="justification-and-alignment">Justification and alignment</h2>
+
 <p><strong>justify-self: start | center | end | stretch</strong></p>
 <p>Determines how an item is positioned inside its aligned container in
 relation to the appropriate axis.</p>
@@ -3720,68 +3898,72 @@ above */</strong></p>
 <p> </p>
 <p>Here the selector can refer to any of the following flex
 attributes</p>
+
 <ul>
-<li><p>Attribute selector</p></li>
-<li><p>Class Selector</p></li>
-<li><p>ID Selector</p></li>
-<li><p>Type Selectors</p></li>
-<li><p>Universal Selectors</p></li>
+  <li><p>Attribute selector</p></li>
+  <li><p>Class Selector</p></li>
+  <li><p>ID Selector</p></li>
+  <li><p>Type Selectors</p></li>
+  <li><p>Universal Selectors</p></li>
 </ul>
+
 <p>The display relates to how you want the selector to be shown. Setting
 display to flex makes the given selector a flex box. Setting display to
 <strong>inline-flex</strong> makes the selector a flex box container
 while will be inline.</p>
-<h2 id="properties-for-flexbox-container">Properties for flexbox
-container</h2>
+
+<h2 id="properties-for-flexbox-container">Properties for flexbox container</h2>
+
 <p><strong>flex-direction: row | row-reverse | column |
 column-reverse</strong></p>
 <p>It is possible to specify the direction your elements will follow.
 Traditionally text goes from left to right which is flex’s default
 setting however it can be set from right to left or even top to bottom.
 The four flex-direction are:</p>
+
 <ul>
-<li><p>row : organized from left to right</p></li>
-<li><p>row-reverse: organized from right to left</p></li>
-<li><p>column: organized from top to bottom</p></li>
-<li><p>column-reverse: organized from bottom to top.</p></li>
+  <li><p>row : organized from left to right</p></li>
+  <li><p>row-reverse: organized from right to left</p></li>
+  <li><p>column: organized from top to bottom</p></li>
+  <li><p>column-reverse: organized from bottom to top.</p></li>
 </ul>
+
 <p><strong>flex-wrap: wrap | nowrap</strong></p>
 <p>The standard layout is to plot the elements from left to right in a
 straight line. The wrap feature allows you customize this to match the
 size of the window displaying the page.</p>
+
 <ul>
-<li><p>wrap: Automatically wrap the items with as the window space gets
-smaller.</p></li>
-<li><p>Nowrap: Default setting, items remain rigid and don’t respond to
-adjustments made to the window size.</p></li>
+  <li><p>wrap: Automatically wrap the items with as the window space gets smaller.</p></li>
+  <li><p>Nowrap: Default setting, items remain rigid and don’t respond to adjustments made to the window size.</p></li>
 </ul>
+
 <p><strong>align-items: flex-start | flex-end | center
 |Stretch</strong></p>
 <p>This determines how the flex items are to be positioned on the page.
 Items can be aligned in a variety of ways</p>
+
 <ul>
-<li><p>Flex-start: Similar to standard writing, items start at the top
-left-hand corner and are positioned from left to right</p></li>
-<li><p>Flex-end: Position begins in the bottom right hand
-corner.</p></li>
-<li><p>Center: Item is positioned from the center.</p></li>
-<li><p>Stretch: item expands to fill the container.</p></li>
+  <li><p>Flex-start: Similar to standard writing, items start at the top left-hand corner and are positioned from left to right</p></li>
+  <li><p>Flex-end: Position begins in the bottom right hand corner.</p></li>
+  <li><p>Center: Item is positioned from the center.</p></li>
+  <li><p>Stretch: item expands to fill the container.</p></li>
 </ul>
+
 <p><strong>justify-content: flex-start | flex-end | center |
 space-between | space-evenly</strong></p>
 <p>Justify-content determines the alignment of the flex items.</p>
+
 <ul>
-<li><p>Flex-start: goes from right to left along the main axis.</p></li>
-<li><p>Flex-end: goes from left to right along the main axis.</p></li>
-<li><p>Center: Starting at the middle, alignments expands from
-there.</p></li>
-<li><p>Space-between: first and last item are flush with the left and
-right wall respectively, every other item is evenly spaced.</p></li>
-<li><p>Space-evenly: each item is equidistant from each other and the
-boundary wall</p></li>
+  <li><p>Flex-start: goes from right to left along the main axis.</p></li>
+  <li><p>Flex-end: goes from left to right along the main axis.</p></li>
+  <li><p>Center: Starting at the middle, alignments expands from there.</p></li>
+  <li><p>Space-between: first and last item are flush with the left and right wall respectively, every other item is evenly spaced.</p></li>
+  <li><p>Space-evenly: each item is equidistant from each other and the boundary wall</p></li>
 </ul>
-<h2 id="properties-for-flexbox-items-child">Properties for flexbox items
-(child)</h2>
+
+<h2 id="properties-for-flexbox-items-child">Properties for flexbox items (child)</h2>
+
 <p><strong>flex-grow: factor of flex’s main size</strong></p>
 <p>This attribute enables the flex container to grow proportionally to
 the other containers present.</p>
@@ -3806,6 +3988,7 @@ commonly used grid layouts are created and where you can use them.</p>
 <p>Let's start by examining the grid layout named the pancake stack.</p>
 <p>I've opened extra.HTML in Visual Studio Code.</p>
 <p>Now I can start adding the different elements.</p>
+
 <p><img src="./images/image139.png"
 style="width:3in;height:2.36512in" />First is the restaurant's name,
 little lemon, which I put into the header.</p>
@@ -3816,6 +3999,7 @@ Us.</p>
 name and then the footer.</p>
 <p>First for the body, I need to use the display property to code the
 grid.</p>
+
 <p><img src="./images/image140.png"
 style="width:3in;height:2.36512in" />I define as high as 150 VH. One VH
 is equal to 1 percent of the viewport height.</p>
@@ -3829,6 +4013,7 @@ alignment, which is centered and 2EM padding.</p>
 height.</p>
 <p>Let's examine the output.</p>
 <p>It looks good.</p>
+
 <p><img src="./images/image141.png"
 style="width:3in;height:2.95069in" />I'm going to do the same for the
 main and the footer elements.</p>
@@ -3859,6 +4044,7 @@ the individual segments are defined.</p>
 <p>For the parent class, I write display grid and then add the grid
 template columns property, which I'm going to repeat 12 times with one
 fraction each.</p>
+
 <p><img src="./images/image143.png"
 style="width:6.5in;height:3.03472in" /></p>
 <p>Next, I define the properties of the segment.</p>
@@ -3871,6 +4057,7 @@ continue.</p>
 <p>Now, let's set the properties for the different segments.</p>
 <p>The first one spends 12 columns, I start by adding a light green
 background.</p>
+
 <p><img src="./images/image144.png"
 style="width:4.46875in;height:4.40625in" /></p>
 <p>The next part is important.</p>
@@ -3884,6 +4071,7 @@ column and spending all the way to the 12th.</p>
 <p>Again, I copy the same code, but instead of starting from the first
 column this time, I'll start from say, the fifth column, and it will
 span across eight columns.</p>
+
 <p><img src="./images/image145.png"
 style="width:4.46875in;height:4.40625in" /></p>
 <p>Let's change the color here to bisque.</p>
@@ -3891,6 +4079,7 @@ style="width:4.46875in;height:4.40625in" /></p>
 fifth column and spans eight columns.</p>
 <p>Let's add the other segments and then we'll examine the code
 again.</p>
+
 <p><img src="./images/image146.png"
 style="width:6.5in;height:4.11944in" /></p>
 <p>Let's examine the output again.</p>
@@ -3917,27 +4106,31 @@ tag or any container where the grid needs to be placed, the same way
 that you would define the rules for the grid. The main difference is, in
 case of grid-template-areas the values present will be the different
 names. </p>
+
 <h2 id="process">Process</h2>
+
 <p>The process isn’t prescriptive but these are the steps in
 general:</p>
+
 <ul>
-<li><p>Define the grid using display property </p></li>
-<li><p>Set the height and width of the grid </p></li>
-<li><p>Set the grid-template-areas with the appropriate name
-identifiers</p></li>
-<li><p>Add the appropriate sizes for the rows inside the grid using
-grid-template-rows property </p></li>
-<li><p>Add the appropriate sizes for the columns inside the grid using
-grid-template-columns property </p></li>
+  <li><p>Define the grid using display property </p></li>
+  <li><p>Set the height and width of the grid </p></li>
+  <li><p>Set the grid-template-areas with the appropriate name identifiers</p></li>
+  <li><p>Add the appropriate sizes for the rows inside the grid using grid-template-rows property </p></li>
+  <li><p>Add the appropriate sizes for the columns inside the grid using grid-template-columns property </p></li>
 </ul>
+
 <p>But how exactly do you use these names and where do they come from?
 The names that you use inside the grid template areas are the HTML tags
 that you have used. Or, where you need to get more specific, you
 designate a class name to these tags. Once the names are assigned, you
 define the properties for each class the same way that you define them
 conventionally. Let's examine an example.</p>
+
 <h2 id="example">Example</h2>
+
 <h2 id="html-code">HTML Code:</h2>
+
 <blockquote>
 <p>&lt;head&gt; </p>
 <p> </p>
@@ -3959,7 +4152,9 @@ conventionally. Let's examine an example.</p>
 <p> </p>
 <p>&lt;/body&gt; </p>
 </blockquote>
+
 <h2 id="css-code-4">CSS Code:</h2>
+
 <blockquote>
 <p>body { </p>
 <p> </p>
@@ -3999,16 +4194,20 @@ conventionally. Let's examine an example.</p>
 <p> </p>
 <p>  } </p>
 </blockquote>
+
 <p> </p>
 <p>   </p>
 <p> </p>
+
 <h2 id="output-10">Output: </h2>
+
 <figure>
 <img src="./images/image147.png" style="width:5in;height:2.71462in"
 alt="Grid-based output presenting &quot;header, navigation, main area, and footer.&quot;" />
 <figcaption aria-hidden="true">Grid-based output presenting "header,
 navigation, main area, and footer."</figcaption>
 </figure>
+
 <p>Though there are five sets of rules, logically the CSS code is
 divided into two sections. The first is where you define the rules for
 the grid inside the body selector. And second is where you allocate
@@ -4016,11 +4215,13 @@ specific rules for the different grid areas. The way these grid areas
 are distributed is according to how you have defined the names inside
 the grid-template-areas property. In the example above the relevant code
 is:</p>
+
 <blockquote>
 <p> grid-template-areas: "head head"</p>
 <p>                      "nav  main"</p>
 <p>                      "footer  footer";</p>
 </blockquote>
+
 <p>The ‘head’ is written twice to imply two columns and the rest of the
 content follows the usual convention. The number of rows will be the
 number of ‘pairs of quotes’ you have used which in this case is three.
@@ -4035,11 +4236,13 @@ grid-names correctly, the height and width of the grid-areas will be
 distributed proportionately.</p>
 <p>Let’s return to the example. If you keep all other properties the
 same but you change the grid-template-areas as follows:</p>
+
 <blockquote>
 <p>grid-template-areas: "head head head"</p>
 <p>                     "nav  main main"</p>
 <p>                     "footer footer footer";</p>
 </blockquote>
+
 <p>The output will remain the same as you have fixed the value of the
 third row to “30px”. The example is simple for the sake of clarity, but
 if you had used relative values, you would’ve seen an observable change
@@ -4165,11 +4368,13 @@ improve the design and styling effect of CSS.</p>
 <p>Attribute selectors match the attribute of value for a given
 element.</p>
 <p>Can you recall what attributes and value mean?</p>
+
 <p><img src="./images/image151.png"
 style="width:5in;height:2.68376in" /></p>
 <p>A quick recap, let's say you have a html image tag, img is the name
 of the tag, while src and alt are the names of its attributes.</p>
 <p>The actual name of the image file, first.jpeg is the value.</p>
+
 <p><img src="./images/image152.png"
 style="width:5in;height:2.66267in" /></p>
 <p>Now let's explore an example of how attribute selectors can be
@@ -4180,11 +4385,13 @@ attribute that points to a different page on the meta website.</p>
 home, and the third class called about.</p>
 <p>With different variations of the attribute selectors you can target
 different attributes of the html.</p>
+
 <p><img src="./images/image153.png"
 style="width:4in;height:3.12329in" /></p>
 <p>For instance, you can style all elements that have a defined class by
 adding class inside the square brackets.</p>
 <p>In this case, it will turn the second and third link green.</p>
+
 <p><img src="./images/image154.png"
 style="width:4in;height:3.12329in" /></p>
 <p>Alternatively, you can target all three elements by inserting the
@@ -4193,6 +4400,7 @@ that you want to target.</p>
 <p>In this case, it can be the text meta.</p>
 <p>Now all three links will be green because each link contains the word
 meta.</p>
+
 <p><img src="./images/image155.png"
 style="width:4in;height:3.12329in" /></p>
 <p>Or you can target only the first element by adding the specific link
@@ -4203,6 +4411,7 @@ variation of an attribute selector to modify it.</p>
 <p>This makes attribute selectors a very flexible styling tool, but
 let's move on to two other widely used selectors that you need to know
 about.</p>
+
 <p><img src="./images/image156.png"
 style="width:5in;height:1.95459in" /></p>
 <p>Nth-of-type and nth-child selectors, the syntax of these two
@@ -4210,6 +4419,7 @@ selectors is very similar.</p>
 <p>As their name suggests, these selectors target the nth-child or
 nth-type of a specified parent element, but what does parent mean
 exactly?</p>
+
 <p><img src="./images/image157.png"
 style="width:6.5in;height:4.21597in" /></p>
 <p>Well, say you have a few list elements in an unordered list
@@ -4221,6 +4431,7 @@ styling. In this case, you can use both the nth-of-type and the
 nth-child selectors to do that.</p>
 <p>Both will produce the same output, where the second list element will
 be colored aqua in this case.</p>
+
 <p><img src="./images/image158.png"
 style="width:2.5in;height:2.45028in" /></p>
 <p>Another commonly used selector is the star selector, just like in
@@ -4230,9 +4441,11 @@ all the elements of a web page.</p>
 <p>It is especially helpful when you want to reset the default settings
 and styles that browsers use before they apply your styling to the web
 page.</p>
+
 <p><img src="./images/image159.png"
 style="width:5in;height:2.36859in" /></p>
 <p>Finally, did you know that you can group selectors?</p>
+
 <p><img src="./images/image160.png"
 style="width:4in;height:2.38889in" /></p>
 <p>If you want to apply the same styling to more than one type of
@@ -4276,46 +4489,61 @@ the properties. </p>
 <p>CSS has a set of rules that it uses to ‘score’ or assign a certain
 weight to selectors and this creates a specificity hierarchy. Based on
 the weights, there are four categories in this hierarchy: </p>
+
 <ul>
-<li><p>Inline styles </p></li>
-<li><p>IDs </p></li>
-<li><p>Classes, attributes, and pseudo-classes </p></li>
-<li><p>Elements and pseudo-elements </p></li>
+  <li><p>Inline styles </p></li>
+  <li><p>IDs </p></li>
+  <li><p>Classes, attributes, and pseudo-classes </p></li>
+  <li><p>Elements and pseudo-elements </p></li>
 </ul>
+
 <h2 id="inline-styles">Inline styles</h2>
+
 <p>Inline styles are attached to the elements within your HTML code like
 with the ‘style’ attribute. inline styles have the highest specificity.
 That means that rules that are defined as inline styles will be applied
 irrespective of other rules. </p>
 <p>For example, take these two rules that create a conflict in color
 styling for a p tag:</p>
+
 <blockquote>
 <p> &lt;p style=“color: white;”&gt; </p>
 <p>p{color: blue} </p>
 </blockquote>
+
 <p>The p tag will be colored white because it is declared inside the
 inline tag. </p>
+
 <h2 id="ids">IDs</h2>
+
 <p>Next in the hierarchy are IDs and by now you know that they are
 represented by ‘#’.  For example:</p>
+
 <blockquote>
 <p>#div</p>
 </blockquote>
-<h2 id="classes-attributes-and-pseudo-classes">Classes, attributes, and
-pseudo-classes</h2>
+
+<h2 id="classes-attributes-and-pseudo-classes">Classes, attributes, and pseudo-classes</h2>
+
 <p>Classes, and the attributes inside the selectors, come next with what
 is called the pseudo-classes that you will soon learn more about. </p>
+
 <h2 id="for-example-1">For example:</h2>
+
 <blockquote>
 <p>.my-class </p>
 <p>p[“attribute”]</p>
 <p>div:hover</p>
 </blockquote>
+
 <h2 id="elements-and-pseudo-elements">Elements and pseudo-elements</h2>
+
 <p>Finally, elements and something you call pseudo-elements have the
 lowest position in the specificity hierarchy. You will learn more about
 pseudo-elements later in this lesson.</p>
+
 <h2 id="calculating-scores">Calculating scores</h2>
+
 <p>But by now you might wonder how is specificity calculated? </p>
 <p>CSS uses the hierarchical model internally to calculate the
 specificity of the selectors used on a web page. But often as the size
@@ -4325,11 +4553,13 @@ precedence of CSS rules and to control the outcome of their web
 pages. </p>
 <p>Let’s explore a practical example of how to determine the score of a
 few selectors. </p>
+
 <blockquote>
 <p>#hello {} will be 0100</p>
 <p>div {} will be 0001 and</p>
 <p>div p.foo {} will be 0012</p>
 </blockquote>
+
 <p>In the order stated above, the four categories will be assigned
 values 1000, 100, 10 and 1 with the element selectors having the lowest
 value of 1. These scores will be calculated respectively for each
@@ -4339,7 +4569,9 @@ specificity.</p>
 <p>Let’s explore a couple of examples for clarity. Take note that the
 properties and values are not included in these examples to keep the
 focus on the selectors only. </p>
+
 <h2 id="example-1">Example 1</h2>
+
 <blockquote>
 <p>p {} </p>
 <p>div p {}</p>
@@ -4349,16 +4581,19 @@ focus on the selectors only. </p>
 <p>div p.foo {} =&gt; 2 elements and 1 class selector =&gt; 0 0 1 2
 =&gt; Score: 12</p>
 </blockquote>
+
 <p>The third case has a total of 12 for the p tag and so has the highest
 specificity. The rules for the other two cases are then overridden and
 the rules inside the third case are applied. </p>
+
 <h2 id="example-2">Example 2</h2>
+
 <blockquote>
 <p>p#bar =&gt; 1 element &amp; 1 ID =&gt;  0 1 0 1 =&gt; Score: 101</p>
 <p>p.foo =&gt; 1 element &amp; 1 class =&gt; 0 0 1 1 =&gt; Score: 11</p>
-<p>p.p.foo =&gt; 1 element &amp; 2 class =&gt;  0 0 2 1 =&gt; Score:
-21</p>
+<p>p.p.foo =&gt; 1 element &amp; 2 class =&gt;  0 0 2 1 =&gt; Score: 21</p>
 </blockquote>
+
 <p>By now it should be clear that the case containing ID has a much
 higher score and the rules inside it will be applied. </p>
 <p>Once you learn about the different pseudo-classes, pseudo-elements,
@@ -4368,15 +4603,14 @@ see why understanding specificity is important. </p>
 systematic approach, there are a few more guidelines and rules that
 become important especially in cases when the score for the different
 selectors is the same. Some of these are:</p>
+
 <ul>
-<li><p>Every selector will have a score and place in the
-hierarchy</p></li>
-<li><p>In the case of selectors with equal specificity, the latest or
-last written rule is the one that will be applied</p></li>
-<li><p>In general, ID selector should be applied in cases where you need
-to be certain about a rule </p></li>
-<li><p>Universal selectors have zero specificity value</p></li>
+  <li><p>Every selector will have a score and place in the hierarchy</p></li>
+  <li><p>In the case of selectors with equal specificity, the latest or last written rule is the one that will be applied</p></li>
+  <li><p>In general, ID selector should be applied in cases where you need to be certain about a rule </p></li>
+  <li><p>Universal selectors have zero specificity value</p></li>
 </ul>
+
 <p>This reading only gave you an overview of specificity, but you should
 know that it is a much broader topic and also the underlying basis on
 which CSS engines work.</p>
@@ -4394,6 +4628,7 @@ to different groups of elements.</p>
 <p>CSS makes it possible to combine more than one selector so that you
 can apply rules to elements based on their relationship with one
 another.</p>
+
 <p><img src="./images/image161.png"
 style="width:3in;height:3.14528in" />4 main types of combination
 selectors. Descendant selectors, child selectors, general sibling
@@ -4408,17 +4643,20 @@ family.</p>
 <p>You pick a person in the family and then select all descendants, such
 as children, grandchildren and great grandchildren, who have, say, brown
 hair.</p>
+
 <p><img src="./images/image162.png"
 style="width:3in;height:3.13889in" /></p>
 <p>For example, you can have an HTML file with a div tag, and its ID
 attributes set to blog, inside the div tag are a few heading tags.</p>
 <p>In this example, all h1 elements are descendants of the element with
 the ID blog.</p>
+
 <p><img src="./images/image163.png"
 style="width:6in;height:2.99679in" /></p>
 <p>So, to make all the h1 descendants blue, you can add the ID selector
 hash #blog followed by the h1 selector with a space in between and then
 the properties in curly brackets.</p>
+
 <p><img src="./images/image164.png"
 style="width:6in;height:2.99679in" /></p>
 <p>Child selectors on the other hand are more specific than descendant
@@ -4431,6 +4669,7 @@ close angle bracket in between the two selectors.</p>
 <p>The effect is that now only the first h1 element turns blue.</p>
 <p>This is because it is the only h1 element that is a child of the
 element with the blog id attribute.</p>
+
 <p><img src="./images/image165.png"
 style="width:6in;height:2.99679in" /></p>
 <p>Next, let's focus on general sibling selectors, which apply rules to
@@ -4450,6 +4689,7 @@ selectors to target only the first or adjacent element that follows
 another element.</p>
 <p>Once again, if you think about a family, this selector selects a
 person and then selects the next younger brothers.</p>
+
 <p><img src="./images/image166.png"
 style="width:6in;height:2.99679in" /></p>
 <p>Finally, let's replace the tilde with a plus sign to update this
@@ -4475,6 +4715,7 @@ items.</p>
 <p>So, there is another paragraph tag, a div tag, and then an ordered
 list with two list items.</p>
 <p>Now, let's inspect the CSS rules.</p>
+
 <p><img src="./images/image167.png"
 style="width:6in;height:2.99679in" /></p>
 <p>First, I set basic rules for the html body.</p>
@@ -4494,6 +4735,7 @@ which I set to three pixels.</p>
 <p>Thereafter, you need to specify the color of the shadow, which in
 this case is set to gray.</p>
 <p>So what elements will be styled?</p>
+
 <p><img src="./images/image168.png"
 style="width:6in;height:2.99679in" /></p>
 <p>Remember, sibling selectors apply rules to all the selectors of the
@@ -4515,12 +4757,14 @@ tags.</p>
 <p>By now you should realize that you can use the sibling selector to
 efficiently apply the same styling to several elements with one
 rule.</p>
+
 <p><img src="./images/image170.png"
 style="width:6in;height:3.19551in" /></p>
 <p>If there is another instance where an un ordered list follows a div
 tag on this page, it will also have a box shadow.</p>
 <p>But say the page has other un ordered lists that do not follow a div
 tag, the styling will not be applied to those elements.</p>
+
 <p><img src="./images/image171.png"
 style="width:6in;height:3.19551in" /></p>
 <p>Next, I will demonstrate how to use the adjacent selector.</p>
@@ -5503,8 +5747,12 @@ reaction.</p>
 can also make you look dull and cause users to lose attention.</p>
 <p>With the help of CSS, you can make the most of texts by adding
 interesting effects.</p>
+
+
 <p><img src="./images/image200.png"
 style="width:5in;height:3.6455in" /></p>
+
+
 <p>First, I will explain how to use the text-overflow property that
 determines how overflowing content is displayed on your website.</p>
 <p>The first example sets the text-overflow property with the value
@@ -5520,9 +5768,13 @@ it overflows its container.</p>
 scroll to add a scroll bar.</p>
 <p>It is important to note that the text-overflow property here is set
 to ellipsis.</p>
+
+
 <p><img src="./images/image201.png"
 style="width:4in;height:0.76898in" />An ellipsis is three dots that
 represent the texts that is clipped.</p>
+
+
 <p><img src="./images/image202.png"
 style="width:4in;height:0.76898in" />If I hover over the overflowing
 text which is present inside, the hidden text is displayed.</p>
@@ -5623,6 +5875,7 @@ text using other properties such as text-decoration-line</td>
 </table>
 <p>The additional properties that help configure styling effects are
 below.</p>
+
 <table style="width:98%;">
 <colgroup>
 <col style="width: 34%" />
@@ -5736,6 +5989,7 @@ should break or overflow</td>
 </tr>
 </tbody>
 </table>
+
 <p>The properties mentioned are ones that can be used for giving effects
 to text. </p>
 <p>CSS Transforms and transitions</p>
