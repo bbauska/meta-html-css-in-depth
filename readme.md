@@ -1,5 +1,5 @@
 ---
-title: "**HTML & CSS in Depth**"
+title: "HTML & CSS in Depth"
 ---
 
 (Coursera/meta)
