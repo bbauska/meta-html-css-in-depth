@@ -1,13 +1,13 @@
 ---
-title: "HTML & CSS in Depth"
+Coursera/meta: "HTML & CSS in Depth"
 ---
 
 (Coursera/meta)
 
-![](images2/media/image1.png){width="1.549261811023622in"
+![](images2/media/image001.png){width="1.549261811023622in"
 height="0.5in"}
 
-![](images2/media/image2.png){width="1.0175437445319335in"
+![](images2/media/image002.png){width="1.0175437445319335in"
 height="0.5in"}
 
 # Course syllabus
@@ -100,14 +100,14 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 
-![](images2/media/image3.png){width="5.0in"
+![](images/image003.png){width="5.0in"
 height="1.6068372703412073in"}
 
 Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-![](images2/media/image4.png){width="5.0in"
+![](images/image004.png){width="5.0in"
 height="1.6068350831146108in"}
 
 HTML elements with their opening and closing tags in angle brackets make
@@ -159,7 +159,7 @@ wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
 
-![](images2/media/image5.png){width="5.0in"
+![](images/image005.png){width="5.0in"
 height="1.6068372703412073in"}
 
 You use CSS to style elements within an HTML document, create an
@@ -203,7 +203,7 @@ a developer.
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
-![](images2/media/image6.png){width="6.5in"
+![](images/image006.png){width="6.5in"
 height="2.088888888888889in"}
 
 Let\'s revisit the basic structure of an HTML page which includes the
@@ -212,13 +212,13 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 
-![](images2/media/image7.png){width="6.5in"
+![](images/image007.png){width="6.5in"
 height="2.828472222222222in"}
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
 
-![](images2/media/image8.png){width="6.5in"
+![](images/image008.png){width="6.5in"
 height="3.0819444444444444in"}
 
 For example, suppose you lay out your page with a header section that
@@ -229,7 +229,7 @@ Then a main section contains sections and articles.
 Finally, a footer section contains contact information and social media
 links.
 
-![](images2/media/image9.png){width="6.5in"
+![](images/image009.png){width="6.5in"
 height="3.0819444444444444in"}
 
 The main navigation section of your web page can also be described
@@ -238,7 +238,7 @@ semantically using the Nav tag.
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
 
-![](images2/media/image10.png){width="5.0in"
+![](images/image010.png){width="5.0in"
 height="2.3707272528433947in"}
 
 The main links of your website are then added inside the Nav element.
@@ -264,7 +264,7 @@ That\'s quite a mouthful.
 
 It may help to think of a page in a newspaper.
 
-![](images2/media/image11.png){width="1.5in"
+![](images/image011.png){width="1.5in"
 height="1.9452449693788276in"}It may help to think of a page in a
 newspaper.
 
@@ -284,7 +284,7 @@ It\'s good practice to contain the blog post content inside of the
 article element because it\'s a complete self-contained composition on a
 web page.
 
-![](images2/media/image12.png){width="4.0in"
+![](images/image012.png){width="4.0in"
 height="2.4813560804899386in"}You should place the article element
 within the main element.
 
@@ -296,7 +296,7 @@ semantically represents the main content of the page.
 And inside of it there can be multiple article elements for something
 like a blog post list.
 
-![](images2/media/image13.png){width="4.0in"
+![](images/image013.png){width="4.0in"
 height="2.424242125984252in"}At the end of your document is the footer
 element.
 
@@ -325,7 +325,7 @@ of the article.
 It is important to note that sections should contain heading elements to
 semantically describe the section.
 
-![](images2/media/image14.png){width="4.0in"
+![](images/image014.png){width="4.0in"
 height="1.9722222222222223in"}It is also possible to use section
 elements to describe different sections of your webpage, the section
 element doesn't require the article element.\
@@ -345,13 +345,13 @@ website. They\'ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
 
-![](images2/media/image15.png){width="4.0in"
+![](images/image015.png){width="4.0in"
 height="2.4551279527559053in"}
 
 I\'ve set up my basic html document structure in a file named blog.html.
 I\'ll start off by adding my basic semantic structure.
 
-![](images2/media/image16.png){width="6.0in"
+![](images/image016.png){width="6.0in"
 height="3.598718285214348in"}
 
 First, I add the header element. Followed by the nav element, Followed
@@ -425,7 +425,7 @@ engine determine which web pages are most relevant in this video? You
 will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.
 
-![](images2/media/image17.png){width="3.1041666666666665in"
+![](images/image017.png){width="3.1041666666666665in"
 height="1.8125in"}
 
 A major part of launching a website is a process called search engine
@@ -457,7 +457,7 @@ analyze and rank your website.
 But for now, let\'s just focus on how meta tags influence website
 ranking.
 
-![](images2/media/image18.png){width="6.0in"
+![](images/image018.png){width="6.0in"
 height="1.5410258092738407in"}
 
 Meta tags define metadata about a web page.
@@ -469,12 +469,12 @@ Meta tags are added inside the head element of your html document and as
 you know, nothing inside the head element is displayed in the web
 browser.
 
-![](images2/media/image19.png){width="3.2in"
+![](images/image019.png){width="3.2in"
 height="2.4929385389326333in"}In other words, meta tags are unseen
 elements within the browser. Note that there is no closing tag for the
 meta tag.
 
-![](images2/media/image20.png){width="6.0in" height="1.275in"}
+![](images/image020.png){width="6.0in" height="1.275in"}
 
 The meta element has two attributes, name and content.
 
@@ -483,7 +483,7 @@ attribute specifies the value of the metadata.
 
 Let\'s examine some examples of metadata.
 
-![](images2/media/image21.png){width="6.0in"
+![](images/image021.png){width="6.0in"
 height="2.388461286089239in"}
 
 The author metadata specifies the author of the web page.
@@ -491,7 +491,7 @@ The author metadata specifies the author of the web page.
 The name attribute is author and the content attribute is the person and
 company who are the author of the web page.
 
-![](images2/media/image22.png){width="6.0in"
+![](images/image022.png){width="6.0in"
 height="2.388461286089239in"}
 
 The description metadata describes the content of the web page.
@@ -502,7 +502,7 @@ results.
 The name attribute is set to description and the content attribute is
 the descriptive text.
 
-![](images2/media/image23.png){width="6.0in"
+![](images/image023.png){width="6.0in"
 height="2.388461286089239in"}
 
 The keywords metadata was previously used to provide search keywords for
@@ -515,7 +515,7 @@ One of the major search engines now ignores this metadata and another
 uses keywords metadata as a spam indicator because of this, it\'s
 recommended not to include this metadata in modern web pages.
 
-![](images2/media/image24.png){width="6.0in"
+![](images/image024.png){width="6.0in"
 height="2.388461286089239in"}
 
 Another type of metadata is the robot\'s metadata and it tells search
@@ -524,7 +524,7 @@ engines if and how they should analyze your web page.
 The name 'robots' comes from the automated software often referred to as
 bots, that search engines used to analyze websites.
 
-![](images2/media/image25.png){width="2.6041666666666665in"
+![](images/image025.png){width="2.6041666666666665in"
 height="4.90625in"}
 
 The content attribute for Robots has four possible values. Index tells
@@ -535,7 +535,7 @@ bots from analyzing your page and no follow tells the bot not to visit
 links on the web page. Again, some bots will ignore this value so it\'s
 best not to rely on it.
 
-![](images2/media/image26.png){width="6.0in"
+![](images/image026.png){width="6.0in"
 height="2.1801279527559054in"}
 
 Finally, there\'s the view ports metadata. The view port metadata is
@@ -563,7 +563,7 @@ on social media.
 
 But that\'s for later modules.
 
-![](images2/media/image27.png){width="1.1618055555555555in"
+![](images/image027.png){width="1.1618055555555555in"
 height="3.0in"}
 
 For now, it\'s important to know that author, description, keywords,
