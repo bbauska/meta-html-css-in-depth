@@ -1,13 +1,13 @@
 ---
-Coursera/meta: "HTML & CSS in Depth"
+title: "**HTML & CSS in Depth**"
 ---
 
 (Coursera/meta)
 
-![](images2/media/image001.png){width="1.549261811023622in"
+![](images/image001.png){width="1.549261811023622in"
 height="0.5in"}
 
-![](images2/media/image002.png){width="1.0175437445319335in"
+![](images/image002.png){width="1.0175437445319335in"
 height="0.5in"}
 
 # Course syllabus
