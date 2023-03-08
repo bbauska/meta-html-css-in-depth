@@ -5,7 +5,7 @@ readme.md: "**HTML & CSS in Depth**"
 (Coursera/meta)
 
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="/images/image001.png?raw=true"
   width="1.5in"
   alt="meta logo" />
 </p>
@@ -13,8 +13,10 @@ readme.md: "**HTML & CSS in Depth**"
 <!-- ![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"} -->
 
 <!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
+
 <p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
+
+<img src="/images/image002.png?raw=true"
   width="1.01in"
   alt="meta logo" />
 </p>
