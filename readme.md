@@ -1,13 +1,13 @@
 ---
-meta-html-css-in-depth: "HTML &amp; CSS in Depth"
+meta-html-css-in-depth: "HTML & CSS in Depth"
 ---
 
 <h2 align="center">meta HTML &amp; CSS in Depth</h2>
 <h6 align="center">(Coursera/meta)</h6>
 
 <p align="center" width="100%">
-<img src="/images/image001.png?raw=true"
-  width="1.5in"
+<img src="/images/image001.png"
+  width="20%"
   alt="meta logo" />
 </p>
 
@@ -18,7 +18,7 @@ meta-html-css-in-depth: "HTML &amp; CSS in Depth"
 <p align="center" width="100%">
 
 <img src="/images/image002.png?raw=true"
-  width="1.01in"
+  width="10%"
   alt="meta logo" />
 </p>
 
