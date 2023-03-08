@@ -1,9 +1,9 @@
+---
+meta-html-css-in-depth: "HTML &amp; CSS in Depth"
+---
 
----
-readme.md: "**HTML & CSS in Depth**"
----
 <h2 align="center">meta HTML &amp; CSS in Depth</h2>
-(Coursera/meta)
+<h6 align="center">(Coursera/meta)</h6>
 
 <p align="center" width="100%">
 <img src="/images/image001.png?raw=true"
