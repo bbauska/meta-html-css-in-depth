@@ -1,14 +1,25 @@
 ---
-readme.md: " **HTML & CSS in Depth** "
+readme.md: **HTML & CSS in Depth**
 ---
 
 (Coursera/meta)
 
-![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"}
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+  width="1.5in"
+  alt="meta logo" />
+</p>
 
-![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"}
+<!-- ![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"} -->
 
-# Course syllabus
+<!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
+<p align="center" width="100%">
+<img src="./images/image002.png?raw=true"
+  width="1.01in"
+  alt="meta logo" />
+</p>
+
+<h1>Course syllabus</h1>
 
 ## Prerequisites
 
