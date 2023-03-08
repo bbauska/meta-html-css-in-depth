@@ -16,7 +16,6 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
 
 <p align="center" width="100%">
-
 <img src="/images/image002.png?raw=true"
   width="10%"
   alt="meta logo" />
