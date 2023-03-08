@@ -1,12 +1,12 @@
 ---
-title: "**HTML & CSS in Depth**"
+readme.md: " **HTML & CSS in Depth** "
 ---
 
 (Coursera/meta)
 
-![](images/image001.png){width="1.549261811023622in" height="0.5in"}
+![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"}
 
-![](images/image002.png){width="1.0175437445319335in" height="0.5in"}
+![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"}
 
 # Course syllabus
 
