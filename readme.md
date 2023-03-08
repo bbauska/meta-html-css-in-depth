@@ -1,5 +1,5 @@
 ---
-readme.md: **HTML & CSS in Depth**
+readme.md: "**HTML & CSS in Depth**"
 ---
 
 (Coursera/meta)
