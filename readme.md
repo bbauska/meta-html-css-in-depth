@@ -10,7 +10,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <p align="center" width="100%">
 <img src="/images/image001.png"
   width="20%"
-  alt="meta logo" />
+  alt="Coursera logo." />
 </p>
 
 <!-- ![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"} -->
@@ -115,18 +115,23 @@ Let\'s explore some basic HTML and CSS principles and practices.
 HTML stands for Hypertext Markup Language.
 
 But what does that mean?
-
-<!-- ![](images/image003.png){width="5.0in" height="1.6068372703412073in"} -->
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png"
   width="50%"
   alt="Hypertext and Markup." />
 </p>
+<!-- ![](images/image003.png){width="5.0in" height="1.6068372703412073in"} -->
 
 Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image004.png"
   width="65%"
@@ -182,8 +187,15 @@ If HTML is the frame and structure of a building, then CSS is the paint,
 wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
-
-![](images/image005.png){width="5.0in" height="1.6068372703412073in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. style, layout and arrange (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image005.png"
+  width="50%"
+  alt="Style, layout and arrange." />
+</p>
+<!-- ![](images/image005.png){width="5.0in" height="1.6068372703412073in"} -->
 
 You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
@@ -226,7 +238,15 @@ a developer.
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
-![](images/image006.png){width="5.0in" height="1.6068372703412073in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. html page structure, again (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image005.png"
+  width="50%"
+  alt="HTML page structre, again." />
+</p>
+<!-- ![](images/image006.png){width="5.0in" height="1.6068372703412073in"} -->
 
 Let\'s revisit the basic structure of an HTML page which includes the
 head and body.
