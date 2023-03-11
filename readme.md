@@ -115,7 +115,7 @@ But what does that mean?
 <p align="center" width="100%">
 <img src="/images/image003.png"
   width="50%"
-  alt="meta logo" />
+  alt="Hypertext and Markup." />
 </p>
 
 Hypertext is text which contains links to other text.
@@ -124,8 +124,8 @@ Markup refers to tags and elements used within a document.
 
 <p align="center" width="100%">
 <img src="/images/image004.png"
-  width="50%"
-  alt="meta logo" />
+  width="width="5.0in" height="1.6068350831146108in"
+  alt="Basic HTML page structure." />
 </p>
 <!-- ![](images/image004.png){width="5.0in" height="1.6068350831146108in"} -->
 
