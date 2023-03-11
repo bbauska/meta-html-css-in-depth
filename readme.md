@@ -12,10 +12,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
   width="20%"
   alt="Coursera logo." />
 </p>
-
 <!-- ![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"} -->
-
-<!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
 
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -25,6 +22,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
   width="10%"
   alt="meta logo" />
 </p>
+<!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
 
 <h1>Course syllabus</h1>
 
@@ -188,12 +186,12 @@ wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
 <!------------------------------------------------------------------------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. style, layout and arrange (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 05. style, box model and document flow (04) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image005.png"
   width="50%"
-  alt="Style, layout and arrange." />
+  alt="Style, box model and document flow." />
 </p>
 <!-- ![](images/image005.png){width="5.0in" height="1.6068372703412073in"} -->
 
@@ -239,12 +237,12 @@ In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
 
 <!------------------------------------------------------------------------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. html page structure, again (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 06. basic html page structure, again (05) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image005.png"
+<img src="/images/image006.png"
   width="50%"
-  alt="HTML page structre, again." />
+  alt="Basic HTML page structure, again." />
 </p>
 <!-- ![](images/image006.png){width="5.0in" height="1.6068372703412073in"} -->
 
@@ -254,12 +252,28 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 
-![](images/image007.png){width="5.0in" height="2.175748031496063in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image007.png"
+  width="50%"
+  alt="HTML tags." />
+</p>
+<!-- ![](images/image007.png){width="5.0in" height="2.175748031496063in"} -->
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
 
-![](images/image008.png){width="5.0in" height="2.370726159230096in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~ 08. template w/header, main and footer (06) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image008.png"
+  width="50%"
+  alt="Template example with header, main and footer." />
+</p>
+<!-- ![](images/image008.png){width="5.0in" height="2.370726159230096in"} -->
 
 For example, suppose you lay out your page with a header section that
 contains some company logo and navigation links.
@@ -269,7 +283,15 @@ Then a main section contains sections and articles.
 Finally, a footer section contains contact information and social media
 links.
 
-![](images/image009.png){width="5.0in" height="2.370726159230096in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image009.png"
+  width="50%"
+  alt="Nav tag." />
+</p>
+<!-- ![](images/image009.png){width="5.0in" height="2.370726159230096in"} -->
 
 The main navigation section of your web page can also be described
 semantically using the Nav tag.
@@ -277,7 +299,15 @@ semantically using the Nav tag.
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
 
-![](images/image010.png){width="5.0in" height="2.3707272528433947in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image010.png"
+  width="50%"
+  alt="Unordered list tag." />
+</p>
+<!-- ![](images/image010.png){width="5.0in" height="2.3707272528433947in"} -->
 
 The main links of your website are then added inside the Nav element.
 
@@ -302,8 +332,17 @@ That\'s quite a mouthful.
 
 It may help to think of a page in a newspaper.
 
-![](images/image011.png){width="1.5in" height="1.9452449693788276in"}It
-may help to think of a page in a newspaper.
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image011.png"
+  width="15%"
+  alt="Newspaper." />
+</p>
+<!-- ![](images/image011.png){width="1.5in" height="1.9452449693788276in"} -->
+
+It may help to think of a page in a newspaper.
 
 There are many articles on the page and you can cut out the individual
 articles with scissors if needed.
@@ -321,8 +360,17 @@ It\'s good practice to contain the blog post content inside of the
 article element because it\'s a complete self-contained composition on a
 web page.
 
-![](images/image012.png){width="4.0in" height="2.4813560804899386in"}You
-should place the article element within the main element.
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image012.png"
+  width="40%"
+  alt="Article element." />
+</p>
+< !-- ![](images/image012.png){width="4.0in" height="2.4813560804899386in"} -->
+
+You should place the article element within the main element.
 
 Then add your regular heading \<h2\> and paragraph \<p\> tags within the
 article element.\
@@ -332,8 +380,17 @@ semantically represents the main content of the page.
 And inside of it there can be multiple article elements for something
 like a blog post list.
 
-![](images/image013.png){width="4.0in" height="2.424242125984252in"}At the
-end of your document is the footer element.
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image013.png"
+  width="40%"
+  alt="At the end of your document is the footer element." />
+</p>
+<!-- ![](images/image013.png){width="4.0in" height="2.424242125984252in"} -->
+
+At the end of your document is the footer element.
 
 This might contain additional navigational links or content.
 
@@ -8927,18 +8984,40 @@ of specific elements on your web page. You can also access this option
 by hovering over a specific element on your page that will display its
 properties to you.
 
-![Hovering Icon](images/image233.png){width="1.0in"
-height="0.8010444006999126in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. hovering icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image233.png"
+  width="10%"
+  alt="Hovering Icon." />
+</p>
+<!-- ![Hovering Icon](images/image233.png){width="1.0in" height="0.8010444006999126in"} -->
 
-![Targetting Icon](images/image234.png){width="0.4in"
-height="0.32257983377077865in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. targetting icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image234.png"
+  width="4%"
+  alt="Targetting Icon." />
+</p>
+<!-- ![Targetting Icon](images/image234.png){width="0.4in" height="0.32257983377077865in"} -->
 
 On selecting the desired element, one way to use the Elements tab for
 debugging is by right-clicking on that element, scrolling to 'Copy' and
 then selecting an option from the drop-down list that appears.
 
-![Display of submenu from copy option](images/image235.png){width="5.0in"
-height="2.9711570428696414in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~ 235. display of submenu from copy option (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image235.png"
+  width="50%"
+  alt="Display of submenu from copy option." />
+</p>
+<!-- ![Display of submenu from copy option](images/image235.png){width="5.0in" height="2.9711570428696414in"} -->
 
 This way, you can explore the isolated code to find the problem.
 
@@ -8946,8 +9025,15 @@ Additionally, you can add the Breakpoint option that is more useful for
 interactive pages by selecting the 'Break on' option and selecting an
 option from the dropdown list that appears.
 
-![Break on Submenu options](images/image236.png){width="5.0in"
-height="2.7334055118110236in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 236. break point on submenu option (229) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image236.png"
+  width="50%"
+  alt="Break point on Submenu options." />
+</p>
+<!-- ![Break on Submenu options](images/image236.png){width="5.0in" height="2.7334055118110236in"} -->
 
 Nowadays, some browsers are providing options such as Cumulative Layout
 Shift (CLS) that helps determine the overall efficiency of a web page.
@@ -8955,8 +9041,15 @@ Shift (CLS) that helps determine the overall efficiency of a web page.
 You can also bring up the element families by clicking on the horizontal
 bar:
 
-![Horizontal bar and element families](images/image237.png){width="6.0in"
-height="0.39473206474190725in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~ 237. horizontal bar and element families (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image237.png"
+  width="50%"
+  alt="Horizontal bar and element families." />
+</p>
+<!-- ![Horizontal bar and element families](images/image237.png){width="6.0in" height="0.39473206474190725in"} -->
 
 One very useful feature is the ability to make changes in your code
 directly inside the browser. First, use the 'element selector' mentioned
@@ -9635,8 +9728,15 @@ Best of luck in the future.
 By completing the lessons in this course, you have acquired the
 necessary HTML and CSS skills and knowledge to develop a home page with
 a header, main content and footer.
-
-![](images/image238.png){width="4.0in" height="2.466454505686789in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~ 238. outline: header, main content and footer (###) ~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image238.png"
+  width="40%"
+  alt="Outline: Header, main and footer." />
+</p>
+<!-- ![](images/image238.png){width="4.0in" height="2.466454505686789in"} -->
 
 You will have to decide whether you are going to use a grid or flexbox
 layout for your home page. Your header should contain the client logo
@@ -9725,9 +9825,15 @@ They are:
 -   Read on to find out more about them.
 
 ## **Retail: Lucky Shrub**
-
-![Logo of the fictional client Lucky
-Shrub](images/image239.png){width="0.5in" height="1.0057808398950132in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. lucky shrub (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image239.png"
+  width="5%"
+  alt="Lucky shrub logo." />
+</p>
+<!-- ![Logo of the fictional client Lucky Shrub](images/image239.png){width="0.5in" height="1.0057808398950132in"} -->
 
 Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design
 firm that specializes in garden design and creation, maintenance and
@@ -9749,8 +9855,15 @@ nursery.
 
 ## **Professional services: Hair Day** 
 
-![Logo of the fictional client Hair
-day](images/image240.png){width="2.0in" height="1.3277668416447943in"}
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. hair day logo (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image240.png"
+  width="20%"
+  alt="Hair Day logo." />
+</p>
+<!-- ![Logo of the fictional client Hair day](images/image240.png){width="2.0in" height="1.3277668416447943in"} -->
 
 Based in Madison, Wisconsin, Hair Day is a boutique hair salon that
 specializes in cut, color and styling. Hair Day also offers makeup and
@@ -9775,9 +9888,16 @@ manicurist and one make-up artist.
 [ZIP File]{.underline}
 
 ## **Restaurant: Little Lemon** 
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~ 241. little lemon fictional client logo (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image241.png"
+  width="40%"
+  alt="Logo of the fictional client Little Lemon." />
+</p>
 
-![Logo of the fictional client Little
-Lemon](images/image241.png){width="4.0in" height="1.0925109361329834in"}
+<!-- ![Logo of the fictional client Little Lemon](images/image241.png){width="4.0in" height="1.0925109361329834in"} -->
 
 Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean
 restaurant, focused on traditional recipes served with a modern twist.
@@ -9819,6 +9939,20 @@ accounts.
 
 Download their logos here:
 
-**[Mangata and Gallo logos]{.underline}**
+**[Mangata and Gallo logos]**
 
-[ZIP File]{.underline}
+<!-- not quite done... near though -->
+<h6)3-10-2023 at 11:19pm</h6>
+<h5>wip - Work in Progress</h5>
+
+[ZIP File]
+<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!------------------------------------------------------------------------------------------------>
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image0xx.png"
+  width="50%"
+  alt="." />
+</p>
+-->
