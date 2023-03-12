@@ -4394,14 +4394,26 @@ change.
 
 Another place where flexbox is used quite frequently is in navigation
 menus.
-
-![](images/image110.png){width="3.4166666666666665in"
-height="1.5345330271216098in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. unordered list with four items (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image110.png"
+  width="34%"
+  alt="Unordered list with four items in a container class." />
+</p>
+<!-- ![](images/image110.png){width="3.4166666666666665in" height="1.5345330271216098in"} -->
 
 In this case, I created an unordered list that consists of four items.
-
-![](images/image111.png){width="3.0729166666666665in"
-height="4.729166666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 111. example start (*) universal selector (110) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image111.png"
+  width="30%"
+  alt="Star (*) or universal selector applies rule to every element in CSS code." />
+</p>
+<!-- ![](images/image111.png){width="3.0729166666666665in" height="4.729166666666667in"} -->
 
 Notice that in my CSS code I use something called a star or universal
 selector.
@@ -7647,8 +7659,15 @@ But say you want one or more of them to have the default settings, you
 simply leave them out.
 
 However, each of the sub properties can be listed individually as well.
-
-![](images/image222.png){width="3.0in" height="2.4266666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 222. clock example with hour and minute hands (200) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image222.png"
+  width="30%"
+  alt="Clock example with class hour and minute hands." />
+</p>
+<!-- ![](images/image222.png){width="3.0in" height="2.4266666666666667in"} -->
 
 To understand animation cues, let\'s explore a simple animation of a
 clock with hour and minute hands.
@@ -7664,9 +7683,17 @@ hand class with its own CSS rules.
 But since the focus of this lesson is to understand the animation part
 of the CSS, the basic styling properties of the clock are not covered
 now.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 223. two classes, clock and hand (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image223.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image223.png){width="3.0in" height="1.4677099737532808in"} -->
 
-![](images/image223.png){width="3.0in" height="1.4677099737532808in"}All
-that you need to know is that you create two classes, clock and hand,
+All that you need to know is that you create two classes, clock and hand,
 and insert style rules that specify the basic layout and appearance of
 the clock and hands.
 
@@ -7691,9 +7718,17 @@ function.
 
 Since the other animation properties are not mentioned, they are set to
 the default values.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. css keyframe cycle (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image224.png"
+  width="30%"
+  alt="CSS keyframe cycle." />
+</p>
+<!-- ![](images/image224.png){width="3.0in" height="1.4677099737532808in"} -->
 
-![](images/image224.png){width="3.0in"
-height="1.4677099737532808in"}Finally, you can add the \@keyframe rule.
+Finally, you can add the \@keyframe rule.
 
 Type \@keyframes cycle, and then the two special keywords, namely from
 and to.
@@ -7866,24 +7901,15 @@ is what\'s used to tie it to the \@keyframes rule.
 Let's now examine an example of how you can use \@keyframes and the
 animation property. 
 
-## Animation example
+<h3>Animation example</h3>
 
-## HTML code:
+<h4>HTML code:</h4>
 
 ```
-> <body> 
->
->  
->
-> <div class="box"></div> 
->
->  
->
-> </body> 
->
->  
->
-> </html> 
+  <body> 
+    <div class="box"></div> 
+  </body> 
+</html> 
 ```
 
 <h4>CSS code:</h4>
@@ -8073,24 +8099,23 @@ Finally, I set the background color property to #62687F to fill in the
 color of the circle.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 231. change ball color with background color property (208) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
 <p align="center" width="100%">
-<img src="/images/image0xx.png"
+<img src="/images/image231.png"
   width="15%"
-  alt="." />
+  alt="Change color of ball." />
 </p>
--->
-![](images/image231.png){width="1.5in" height="1.3216458880139983in"}I
-save the file and open index.html in live preview.
+<!-- ![](images/image231.png){width="1.5in" height="1.3216458880139983in"} -->
+
+I save the file and open index.html in live preview.
 
 Great, the ball is rendering correctly.
 
 Now to connect the animation to the element, I open styles.css again.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. transform in styles.css (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. transform in styles.css (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image232.png"
@@ -10075,7 +10100,7 @@ Download their logos here:
 <b>[Mangata and Gallo logos]**
 
 <!-- not quite done... near though -->
-<h6)3-10-2023 at 11:19pm</h6>
+<h6)3-11-2023 at 7:02pm</h6>
 <h5>wip - Work in Progress</h5>
 
 [ZIP File]
