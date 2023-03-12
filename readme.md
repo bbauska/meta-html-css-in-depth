@@ -7915,10 +7915,10 @@ to{width: 100px; 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p float="left">
 <img src="/images/image225.png"
-  width="100"
+  width="250px"
   alt="Width change from 50 to 100 pixels, left image." />
 <img src="/images/image226.png"
-  width="100"
+  width="500px"
   alt="100 pixels, right image." />
 </p>
 <!--
@@ -7963,10 +7963,10 @@ Now, let's add an intermediary step at 50%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p float="left">
 <img src="/images/image227.png"
-  width="100"
+  width="300"
   alt="Updating keyframes demo - left." />
 <img src="/images/image228.png"
-  width="100%"
+  width="300"
   alt="Updating keyframes demo - right." />
 </p>
 <!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"}
