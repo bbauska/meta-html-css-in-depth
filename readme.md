@@ -4,9 +4,9 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 
 <h2 align="center">meta HTML &amp; CSS in Depth</h2>
 <h6 align="center">(Coursera/meta)</h6>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image001.png"
   width="20%"
@@ -14,9 +14,9 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 </p>
 <!-- ![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"} -->
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
   width="10%"
@@ -113,9 +113,9 @@ Let\'s explore some basic HTML and CSS principles and practices.
 HTML stands for Hypertext Markup Language.
 
 But what does that mean?
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.png"
   width="50%"
@@ -127,9 +127,9 @@ Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image004.png"
   width="65%"
@@ -185,9 +185,9 @@ If HTML is the frame and structure of a building, then CSS is the paint,
 wallpaper, fixtures, and overall style.
 
 CSS tells the web browser how to display HTML elements on screen.
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 05. style, box model and document flow (04) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.png"
   width="50%"
@@ -235,10 +235,9 @@ a developer.
 
 In this report I will share a structured approach you can take to make
 sure that you create a well-formed web page.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 06. basic html page structure, again (05) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.png"
   width="50%"
@@ -251,10 +250,9 @@ head and body.
 
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image007.png"
   width="50%"
@@ -264,10 +262,9 @@ to describe each of the sections.
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 08. template w/header, main and footer (06) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.png"
   width="50%"
@@ -283,9 +280,9 @@ Then a main section contains sections and articles.
 Finally, a footer section contains contact information and social media
 links.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.png"
   width="50%"
@@ -298,10 +295,9 @@ semantically using the Nav tag.
 
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.png"
   width="50%"
@@ -332,9 +328,9 @@ That\'s quite a mouthful.
 
 It may help to think of a page in a newspaper.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image011.png"
   width="15%"
@@ -359,10 +355,9 @@ blog about your summer holiday.
 It\'s good practice to contain the blog post content inside of the
 article element because it\'s a complete self-contained composition on a
 web page.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image012.png"
   width="40%"
@@ -380,9 +375,9 @@ semantically represents the main content of the page.
 And inside of it there can be multiple article elements for something
 like a blog post list.
 
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image013.png"
   width="40%"
@@ -417,6 +412,15 @@ of the article.
 It is important to note that sections should contain heading elements to
 semantically describe the section.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx. descriptive section elements (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image0xx.png"
+  width="50%"
+  alt="." />
+</p>
 ![](images/image014.png){width="4.0in" height="1.9722222222222223in"}It is
 also possible to use section elements to describe different sections of
 your webpage, the section element doesn't require the article element.\
@@ -436,12 +440,28 @@ website. They\'ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
 
-![](images/image015.png){width="4.0in" height="2.4551279527559053in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. basic html document structure (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image015.png"
+  width="40%"
+  alt="Basic HTML document structure ." />
+</p>
+<!-- ![](images/image015.png){width="4.0in" height="2.4551279527559053in"} -->
 
 I\'ve set up my basic html document structure in a file named blog.html.
 I\'ll start off by adding my basic semantic structure.
 
-![](images/image016.png){width="6.0in" height="3.598718285214348in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image016.png"
+  width="60%"
+  alt="Header, nav, main and footer elements." />
+</p>
+<!-- ![](images/image016.png){width="6.0in" height="3.598718285214348in"} -->
 
 First, I add the header element. Followed by the nav element, Followed
 by the main element. Followed by the footer element.
@@ -514,7 +534,15 @@ engine determine which web pages are most relevant in this video? You
 will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.
 
-![](images/image017.png){width="3.1041666666666665in" height="1.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo - search engine optimization (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image017.png"
+  width="31%"
+  alt="S.E.O. Search Engine Optimization." />
+</p>
+<!-- ![](images/image017.png){width="3.1041666666666665in" height="1.8125in"} -->
 
 A major part of launching a website is a process called search engine
 optimization or SEO. This process involves making improvements to a
@@ -545,7 +573,15 @@ analyze and rank your website.
 But for now, let\'s just focus on how meta tags influence website
 ranking.
 
-![](images/image018.png){width="6.0in" height="1.5410258092738407in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags and metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image018.png"
+  width="60%"
+  alt="META tags and metadata - data about the web page." />
+</p>
+<!-- ![](images/image018.png){width="6.0in" height="1.5410258092738407in"} -->
 
 Meta tags define metadata about a web page.
 
@@ -555,12 +591,27 @@ case is data about the web page.
 Meta tags are added inside the head element of your html document and as
 you know, nothing inside the head element is displayed in the web
 browser.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. meta tags (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image019.png"
+  width="32%"
+  alt="S.E.O. Search Engine Optimization." />
+</p>
+<!-- ![](images/image019.png){width="3.2in" height="2.4929385389326333in"} -->
 
-![](images/image019.png){width="3.2in" height="2.4929385389326333in"}In
-other words, meta tags are unseen elements within the browser. Note that
+In other words, meta tags are unseen elements within the browser. Note that
 there is no closing tag for the meta tag.
-
-![](images/image020.png){width="6.0in" height="1.275in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 20. meta element attributes: name and content (14) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image020.png"
+  width="60%"
+  alt="S.E.O. Search Engine Optimization." />
+</p>
+<!-- ![](images/image020.png){width="6.0in" height="1.275in"} -->
 
 The meta element has two attributes, name and content.
 
@@ -568,15 +619,29 @@ The name attribute specifies the name of the metadata and the content
 attribute specifies the value of the metadata.
 
 Let\'s examine some examples of metadata.
-
-![](images/image021.png){width="6.0in" height="2.388461286089239in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. author metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image021.png"
+  width="60%"
+  alt="Author metadata." />
+</p>
+<!-- ![](images/image021.png){width="6.0in" height="2.388461286089239in"} -->
 
 The author metadata specifies the author of the web page.
 
 The name attribute is author and the content attribute is the person and
 company who are the author of the web page.
-
-![](images/image022.png){width="6.0in" height="2.388461286089239in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. description metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image022.png"
+  width="60%"
+  alt="Description metadata." />
+</p>
+<!-- ![](images/image022.png){width="6.0in" height="2.388461286089239in"} -->
 
 The description metadata describes the content of the web page.
 
@@ -585,8 +650,15 @@ results.
 
 The name attribute is set to description and the content attribute is
 the descriptive text.
-
-![](images/image023.png){width="6.0in" height="2.388461286089239in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. keyword metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image023.png"
+  width="60%"
+  alt="S.E.O. Search Engine Optimization." />
+</p>
+<!-- ![](images/image023.png){width="6.0in" height="2.388461286089239in"} -->
 
 The keywords metadata was previously used to provide search keywords for
 search engines.
@@ -598,15 +670,30 @@ One of the major search engines now ignores this metadata and another
 uses keywords metadata as a spam indicator because of this, it\'s
 recommended not to include this metadata in modern web pages.
 
-![](images/image024.png){width="6.0in" height="2.388461286089239in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. robot's metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image024.png"
+  width="60%"
+  alt="Robot's metadata." />
+</p>
+<!-- ![](images/image024.png){width="6.0in" height="2.388461286089239in"} -->
 
 Another type of metadata is the robot\'s metadata and it tells search
 engines if and how they should analyze your web page.
 
 The name 'robots' comes from the automated software often referred to as
 bots, that search engines used to analyze websites.
-
-![](images/image025.png){width="2.6041666666666665in" height="4.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 25. robot content: index, follow, no index, nofollow (16) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image025.png"
+  width="26%"
+  alt="Robot contents: index, follow, no index and no follow." />
+</p>
+<!-- ![](images/image025.png){width="2.6041666666666665in" height="4.90625in"} -->
 
 The content attribute for Robots has four possible values. Index tells
 the bot to analyze the page. Follow tells the bot to also visit all
@@ -615,12 +702,19 @@ Some bots will ignore this so it\'s best not to rely on this to stop
 bots from analyzing your page and no follow tells the bot not to visit
 links on the web page. Again, some bots will ignore this value so it\'s
 best not to rely on it.
-
-![](images/image026.png){width="6.0in" height="2.1801279527559054in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image026.png"
+  width="60%"
+  alt="View ports metadata." />
+</p>
+<!-- ![](images/image026.png){width="6.0in" height="2.1801279527559054in"} -->
 
 Finally, there\'s the view ports metadata. The view port metadata is
-important when designing responsive web pages. Why you might ask because
-when a web pages viewed on a phone or tablet, the device will by default
+important when designing responsive web pages. Why you might ask. Because
+when a web pages is viewed on a phone or tablet, the device will by default
 attempt to render the web page as if it is being viewed on a desktop.
 This results in a poor browsing experience for the user. The solution is
 to define view ports metadata. There are many values available for view
@@ -643,7 +737,15 @@ on social media.
 
 But that\'s for later modules.
 
-![](images/image027.png){width="1.1618055555555555in" height="3.0in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 27. metadata in bare bones layout (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image027.png"
+  width="12%"
+  alt="Semantic HTML document structure." />
+</p>
+<!-- ![](images/image027.png){width="1.1618055555555555in" height="3.0in"} -->
 
 For now, it\'s important to know that author, description, keywords,
 robots and viewports metadata all play a role in the search engine
@@ -657,17 +759,24 @@ of knowledge and code templates you build up over time. In this module,
 I\'m going to introduce you to one of these templates, which will help
 you get set up quickly for building webpages. Let\'s open Visual Studio
 Code to go through the templates step-by-step. In the folder, we have
-***index.html*** along with the JS folder and a CSS folder. Inside the
-JS folder, there\'s a file named ***script.js***. There is no content in
+<b><i>index.html</i></b> along with the JS folder and a CSS folder. Inside the
+JS folder, there\'s a file named <b><i>script.js</i></b>. There is no content in
 this file. It is added to this folder so that you can easily add
 JavaScript code to the webpage. I recommend that you add any other
 JavaScript files to this folder too. Next, I\'ll open the CSS folder. In
-the folder there\'s a file named ***styles.css***. Again, there is no
+the folder there\'s a file named <b><i>styles.css</i></b>. Again, there is no
 content in this file, but it is here so that you can easily add CSS
 rules to the webpage. Again, it\'s best if you add any other CSS files
 also to this folder.
-
-![](images/image028.png){width="6.0in" height="3.4929483814523183in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 28. semantic html document structure (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image028.png"
+  width="60%"
+  alt="Semantic HTML document structure." />
+</p>
+<!-- ![](images/image028.png){width="6.0in" height="3.4929483814523183in"} -->
 
 I go back to my template folder and open it in Visual Studio Code. I
 open the index.html file. The file has a semantic HTML document
@@ -685,7 +794,15 @@ For now, the main thing to know is that if you plan on sharing the
 webpage on social media, you should remember to uncomment this HTML
 section and update the content attributes.
 
-![](images/image029.png){width="6.0in" height="3.4929483814523183in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 29. open graph protocol meta tags (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image029.png"
+  width="60%"
+  alt="Open Graph Protocol meta tags." />
+</p>
+<!-- ![](images/image029.png){width="6.0in" height="3.4929483814523183in"} -->
 
 The next block of commented out code is for icons. If you want to show
 an icon in the web browser tab for your website, you can update the href
@@ -699,7 +816,15 @@ the styles.css file in the CSS folder.
 
 By now you can probably see how useful this template is.
 
-![](images/image030.png){width="6.0in" height="3.4929483814523183in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 30. body element - with header, nav, main, & footer (21) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image030.png"
+  width="60%"
+  alt="Body element comprised of header, nav, main and footer." />
+</p>
+<!-- ![](images/image030.png){width="6.0in" height="3.4929483814523183in"} -->
 
 Let\'s continue to the body element. The body element already contains a
 basic semantic structure. This includes the header element for your
@@ -707,7 +832,15 @@ website title or logo, the nav element for your website navigation, the
 main element for your main content, and the footer element for any
 copyright notices or links to secondary webpages.
 
-![](images/image031.png){width="6.0in" height="0.7339741907261592in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 31. javascript file calls script elements (21) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image031.png"
+  width="60%"
+  alt="JavaScript script elements." />
+</p>
+<!-- ![](images/image031.png){width="6.0in" height="0.7339741907261592in"} -->
 
 Below the footer element, you add script elements for JavaScript files.
 To make your life easy, a script element is already set up to reference
@@ -738,8 +871,15 @@ website, such as product pages, careers pages or contact pages. This
 provides the visitor to the website with a consistent navigation
 experience.
 
-![Example of a top navbar layout on a web
-page.](images/image032.png){width="6.0in" height="2.6327504374453192in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. example: top navbar layout (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image032.png"
+  width="60%"
+  alt="Example: Top navbar layout." />
+</p>
+<!-- ![Example of a top navbar layout on a web page.](images/image032.png){width="6.0in" height="2.6327504374453192in"} -->
 
 Carousel layout
 
@@ -748,8 +888,16 @@ highlight their featured products, discounts and offers. The carousel
 contains content items that will rotate through the carousel area at a
 fixed interval.
 
-![Example of a Carousel Layout on a web
-page](images/image033.png){width="6.0in" height="3.431632764654418in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. example: carousel layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image029.png"
+  width="60%"
+  alt="Example of a Carousel layout." />
+</p>
+<!-- ![Example of a Carousel Layout on a web page]
+  (images/image033.png){width="6.0in" height="3.431632764654418in"} -->
 
 Blog layout
 
@@ -759,14 +907,29 @@ importance.
 It is often seen on news websites where new articles will appear on the
 page each day based on current events.
 
-![Example of a large style Blog Layout on a web
-page](images/image034.png){width="6.0in" height="3.919861111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 34. example: large style blog layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image034.png"
+  width="60%"
+  alt="Example of a large style Blog Layout." />
+</p>
+<!-- ![Example of a large style Blog Layout on a web
+page](images/image034.png){width="6.0in" height="3.919861111111111in"} -->
 
 The layout typically features different-sized feature areas followed by
 a series of article summary areas that link to full articles.
-
-![Example of a regular style Blog Layout ron a web
-page](images/image035.png){width="6.0in" height="3.579003718285214in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 35. example: regular style blog layout (24) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image035.png"
+  width="60%"
+  alt="Example of a regular style Blog Layout." />
+</p>
+<!-- ![Example of a regular style Blog Layout ron a web
+page](images/image035.png){width="6.0in" height="3.579003718285214in"} -->
 
 Dashboard layout
 
@@ -775,9 +938,16 @@ various web applications. They typically feature a sidebar for
 navigation with the main content area containing forms for configuration
 or reporting data such as graphs and tables. This trendy layout provides
 a good user experience for business users.
-
-![Example of a Dashboard Layout on a web
-page](images/image036.png){width="6.0in" height="3.0491305774278215in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. example: dashboard layout (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image036.png"
+  width="60%"
+  alt="Example of a Dashboard Layout." />
+</p>
+<!-- ![Example of a Dashboard Layout on a web
+page](images/image036.png){width="6.0in" height="3.0491305774278215in"} -->
 
 More layouts
 
@@ -820,8 +990,17 @@ information about a website before a user clicks on the link.
 To address this challenge, Facebook established the Open Graph Protocol
 in 2010.
 
-![](images/image037.png){width="3.3in" height="1.4413790463692038in"}The
-Open Graph Protocol is a set of Metadata rules that allow web pages to
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. open graph protocol (ogp) (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image037.png"
+  width="33%"
+  alt="Open Graph Protocol (OGP)." />
+</p>
+<!-- ![](images/image037.png){width="3.3in" height="1.4413790463692038in"} -->
+
+The Open Graph Protocol is a set of Metadata rules that allow web pages to
 describe themselves to social networks.\
 There are many Metadata options available within the protocol, but
 before you learn about them, let\'s first discuss how the Open Graph
@@ -4871,46 +5050,46 @@ specifications
 
 ## Grid properties for items (child)
 
-**grid-column: column position /\* E.g. 1/2 \*/**
+<b>grid-column: column position /\* E.g. 1/2 \*/**
 
 Allows for specifying where on the grid the column is to start.
 
-**grid-column-start: column start position**
+<b>grid-column-start: column start position**
 
 This property determines the starting column position an item is placed
 on a grid.
 
-**grid-column-end: column end position**
+<b>grid-column-end: column end position**
 
 This property determines the end column position an item is placed on a
 grid.
 
-**grid-row: row position /\* E.g. 1/2 \*/**
+<b>grid-row: row position /\* E.g. 1/2 \*/**
 
 Allows for specifying where on the grid the row is to start.
 
-**grid-row-start: row start position**
+<b>grid-row-start: row start position**
 
 This property determines the starting row position an item is placed on
 a grid.
 
-**grid-row-end: row end position**
+<b>grid-row-end: row end position**
 
 This property determines the end row position an item is placed on a
 grid.
 
 ## Justification and alignment
 
-**justify-self: start \| center \| end \| stretch**
+<b>justify-self: start \| center \| end \| stretch**
 
 Determines how an item is positioned inside its aligned container in
 relation to the appropriate axis.
 
-**align-self: start \| center \| end \| stretch**
+<b>align-self: start \| center \| end \| stretch**
 
 Aligns an item within a grid area.
 
-**place-self: start \| stretch /\* shorthand for two properties above
+<b>place-self: start \| stretch /\* shorthand for two properties above
 \*/**
 
 This setting lets one align and justify an item within a block.
@@ -4940,12 +5119,12 @@ Here the selector can refer to any of the following flex attributes
 
 The display relates to how you want the selector to be shown. Setting
 display to flex makes the given selector a flex box. Setting display to
-**inline-flex** makes the selector a flex box container while will be
+<b>inline-flex** makes the selector a flex box container while will be
 inline.
 
 ## Properties for flexbox container
 
-**flex-direction: row \| row-reverse \| column \| column-reverse**
+<b>flex-direction: row \| row-reverse \| column \| column-reverse**
 
 It is possible to specify the direction your elements will follow.
 Traditionally text goes from left to right which is flex's default
@@ -4960,7 +5139,7 @@ The four flex-direction are:
 
 -   column-reverse: organized from bottom to top.
 
-**flex-wrap: wrap \| nowrap**
+<b>flex-wrap: wrap \| nowrap**
 
 The standard layout is to plot the elements from left to right in a
 straight line. The wrap feature allows you customize this to match the
@@ -4972,7 +5151,7 @@ size of the window displaying the page.
 -   Nowrap: Default setting, items remain rigid and don't respond to
     adjustments made to the window size.
 
-**align-items: flex-start \| flex-end \| center \|Stretch**
+<b>align-items: flex-start \| flex-end \| center \|Stretch**
 
 This determines how the flex items are to be positioned on the page.
 Items can be aligned in a variety of ways
@@ -4986,7 +5165,7 @@ Items can be aligned in a variety of ways
 
 -   Stretch: item expands to fill the container.
 
-**justify-content: flex-start \| flex-end \| center \| space-between \|
+<b>justify-content: flex-start \| flex-end \| center \| space-between \|
 space-evenly**
 
 Justify-content determines the alignment of the flex items.
@@ -5005,26 +5184,26 @@ Justify-content determines the alignment of the flex items.
 
 ## Properties for flexbox items (child)
 
-**flex-grow: factor of flex's main size**
+<b>flex-grow: factor of flex's main size**
 
 This attribute enables the flex container to grow proportionally to the
 other containers present.
 
-**flex-shrink: factor of flex's main size**
+<b>flex-shrink: factor of flex's main size**
 
 This allows elements to shrink in relation to items around it.
 
-**flex-basis: auto \| factor of main's size \| measurement unit**
+<b>flex-basis: auto \| factor of main's size \| measurement unit**
 
 The sets the initial main size of an item. It can be overridden if other
 stylized elements are configured.
 
-**order:position in flex /\* Set ascending by default \*/**
+<b>order:position in flex /\* Set ascending by default \*/**
 
 The standard positioning of items is by source order, however this
 feature will enable you to configure where the items appear on the page.
 
-**align-self: start \| center \| end \| stretch**
+<b>align-self: start \| center \| end \| stretch**
 
 This determines where on the page the child items will be positioned.
 Similar to the main flex attributes, start is to the left and end is to
@@ -6242,14 +6421,14 @@ an element. For example, you can decide to apply styling to only the
 first word or line in a given element. First, let's examine the syntax
 of a pseudo-element.
 
-## Syntax
+<h3>Syntax</h3>
 
 ```
-> **selector::pseudo-element {**
->
-> ** property: value;**
->
-> **}**
+<b>selector::pseudo-element {**
+
+<b> property: value;**
+
+<b>}**
 ```
 
 It is important to note that pseudo-elements use two colon characters
@@ -6257,66 +6436,30 @@ instead of one.
 
 Now, let's explore some examples of popular pseudo-elements.
 
-## ::first-letter
+<h3>::first-letter</h3>
 
 You can use first-letter to change the color of just the first letter of
 each of the three points in the example text.
 
-## HTML code:
+<h4>HTML code:</h4>
 
 ```
-> <!DOCTYPE html> 
->
->  
->
-> <html> 
->
->  
->
->     <head> 
->
->  
->
->         <link rel="stylesheet" href="[pseudo4.css]{.underline}"> 
->
->  
->
->     </head> 
->
->  
->
-> <body> 
->
->  
->
->     <ul> 
->
->  
->
->         <li>Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. </li> 
->
->  
->
->     <li>The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12--15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.</li> 
->
->  
->
->     <li>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.</li> 
->
->  
->
->   </ul> 
->
->  
->
-> </body> 
->
->  
->
-> </html> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="[pseudo4.css]{.underline}">
+  </head>
+<body>
+  <ul>
+    <li>Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</li>
+    <li>The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12--15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.</li>
+    <li>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.</li>
+  </ul>
+</body>
+</html>
 ```
 
-## CSS code:
+<h4>CSS code:</h4>
 
 ```
 > li::first-letter { 
@@ -6473,7 +6616,7 @@ specified in the code.
 
 ## ::before and ::after
 
-One more pair of pseudo-elements are the **::before** and **::after**
+One more pair of pseudo-elements are the <b>::before** and <b>::after**
 pseudo-elements. They allow you to add content before and after an
 element on which they are allowed. In other words, new content can be
 added to a page without adding HTML code for it. You can also add
@@ -6543,9 +6686,9 @@ height="1.3951760717410324in"}
 
 The "content" property is where the text for the guidelines goes. The
 word "tip" has been added before each guideline thanks to the rules
-added for **tips::before**. And, each of the three guidelines now has
+added for <b>tips::before**. And, each of the three guidelines now has
 two exclamation marks after them thanks to the rules added for
-**tips::after**. Note how the second \<p\> element inside the HTML code
+<b>tips::after**. Note how the second \<p\> element inside the HTML code
 remains unaffected. You don't have to use after and before together like
 this, but sometimes it is useful to combine them.
 
@@ -6704,211 +6847,211 @@ CSS Pseudo cheat sheet
 ## Simple selectors
 
 +---------------------+-------------------+----------------------------+
-| **Selector**        | **Syntax**        | **Example**                |
+| <b>Selector**        | <b>Syntax**        | <b>Example**                |
 +=====================+===================+============================+
-| Element             | element           | **div {**                  |
+| Element             | element           | <b>div {**                  |
 |                     |                   |                            |
-|                     |                   | **}**                      |
+|                     |                   | <b>}**                      |
 +---------------------+-------------------+----------------------------+
-| Class               | .class            | **.alpha { }**             |
+| Class               | .class            | <b>.alpha { }**             |
 +---------------------+-------------------+----------------------------+
-| ID                  | #id               | **#alpha { }**             |
+| ID                  | #id               | <b>#alpha { }**             |
 +---------------------+-------------------+----------------------------+
-| Universal           | \*                | **\* { }**                 |
+| Universal           | \*                | <b>\* { }**                 |
 +---------------------+-------------------+----------------------------+
 
 ## Variations of simple selectors
 
   -----------------------------------------------------------------------------------
-  **Elements**   **Syntax**                  **Example**      **Description**
+  <b>Elements**   <b>Syntax**                  <b>Example**      <b>Description**
   -------------- --------------------------- ---------------- -----------------------
-  Two classes    .first-class.second-class   **.alpha.beta {  All elements with
+  Two classes    .first-class.second-class   <b>.alpha.beta {  All elements with
                                              }**              classes alpha and beta
 
-  Element and    element.class               **p.alpha { }**  All alpha class
+  Element and    element.class               <b>p.alpha { }**  All alpha class
   class                                                       elements inside \<p\>
 
-  Two elements   element, element            **p, div { }**   All \<p\> and \<div\>
+  Two elements   element, element            <b>p, div { }**   All \<p\> and \<div\>
                                                               elements
 
-  Two elements   element element             **p div { }**    All \<div\> elements
+  Two elements   element element             <b>p div { }**    All \<div\> elements
                                                               inside \<p\>
   -----------------------------------------------------------------------------------
 
 ## Descendant selectors/combinators
 
   --------------------------------------------------------------------------
-  **Selector**   **Syntax**         **Example**   **Description**
+  <b>Selector**   <b>Syntax**         <b>Example**   <b>Description**
   -------------- ------------------ ------------- --------------------------
-  Descendant     element element    **div p { }** All \<p\> descendants of
+  Descendant     element element    <b>div p { }** All \<p\> descendants of
                                                   \<div\>
 
-  Child          element\>element   **div \> p {  All \<p\> direct
+  Child          element\>element   <b>div \> p {  All \<p\> direct
                                     }**           descendants of \<div\>
 
-  Adjacent       element+element    **div + p {   \<p\> element directly
+  Adjacent       element+element    <b>div + p {   \<p\> element directly
   Sibling                           }**           after \<div\>
 
-  General        element\~element   **div \~ p {  All \<p\> element
+  General        element\~element   <b>div \~ p {  All \<p\> element
   Sibling                           }**           iterations after \<div\>
   --------------------------------------------------------------------------
 
 ## Attribute selectors
 
 +---------------+---------------------+-------------------------------+
-| **Selector**  | **Syntax**          | **Example**                   |
+| <b>Selector**  | <b>Syntax**          | <b>Example**                   |
 +===============+=====================+===============================+
-| **P           | **Example**         | **Description of selection**  |
-| seudo-class** |                     |                               |
+| <b>P           | <b>Example**         | <b>Description of selection**  |
+| seudo-class</b> |                     |                               |
 +---------------+---------------------+-------------------------------+
-| \[attribute\] | **\[href\] {**      | Selects all elements with a   |
+| \[attribute\] | <b>\[href\] {**      | Selects all elements with a   |
 |               |                     | href attribute                |
-|               | **}**               |                               |
+|               | <b>}**               |                               |
 +---------------+---------------------+-------------------------------+
-| \[attr        | **\[lang=\"fr\"\]   | Selects all elements with     |
+| \[attr        | <b>\[lang=\"fr\"\]   | Selects all elements with     |
 | ibute=value\] | {**                 | lang attribute that has a     |
 |               |                     | value of \"fr\"               |
-|               | **}**               |                               |
+|               | <b>}**               |                               |
 +---------------+---------------------+-------------------------------+
-| \[attrib      | **\[input\~=hello\] | Elements with input attribute |
+| \[attrib      | <b>\[input\~=hello\] | Elements with input attribute |
 | ute\~=value\] | {**                 | containing the whitespace     |
 |               |                     | separated substring \"hello\" |
-|               | **}**               |                               |
+|               | <b>}**               |                               |
 +---------------+---------------------+-------------------------------+
-| \[attrib      | **\[lang\|=en\] {** | Elements with lang attribute  |
+| \[attrib      | <b>\[lang\|=en\] {** | Elements with lang attribute  |
 | ute\|=value\] |                     | value equal to \"en\" or      |
-|               | **}**               | \"en-\"(en hyphen)            |
+|               | <b>}**               | \"en-\"(en hyphen)            |
 +---------------+---------------------+-------------------------------+
-| \[attrib      | **a\                | Every \<a\> element with href |
+| \[attrib      | <b>a\                | Every \<a\> element with href |
 | ute\^=value\] | [href\^=\"https\"\] | attribute value begins with   |
 |               | {**                 | \"https\"                     |
 |               |                     |                               |
-|               | **}**               |                               |
+|               | <b>}**               |                               |
 +---------------+---------------------+-------------------------------+
-| \[attrib      | **a\                | Every \<a\> element with href |
+| \[attrib      | <b>a\                | Every \<a\> element with href |
 | ute\$=value\] | [href\$=\".docx\"\] | attribute value ends with     |
 |               | {**                 | \".docx\"                     |
 |               |                     |                               |
-|               | **}**               |                               |
+|               | <b>}**               |                               |
 +---------------+---------------------+-------------------------------+
-| \[attrib      | **a                 | Every \<a\> element with href |
+| \[attrib      | <b>a                 | Every \<a\> element with href |
 | ute\*=value\] | \[href\*=\"meta\"\] | attribute value has substring |
 |               | {**                 | \"meta\"                      |
 |               |                     |                               |
-|               | **}**               |                               |
+|               | <b>}**               |                               |
 +---------------+---------------------+-------------------------------+
-| :active       | **a:active { }**    | All active links              |
+| :active       | <b>a:active { }**    | All active links              |
 +---------------+---------------------+-------------------------------+
-| :checked      | **input:checked {   | All the checked \<input\>     |
+| :checked      | <b>input:checked {   | All the checked \<input\>     |
 |               | }**                 | elements                      |
 +---------------+---------------------+-------------------------------+
-| :default      | **input:default {   | All default \<input\>         |
+| :default      | <b>input:default {   | All default \<input\>         |
 |               | }**                 | elements                      |
 +---------------+---------------------+-------------------------------+
-| :disabled     | **input:disabled {  | All disabled \<input\>        |
+| :disabled     | <b>input:disabled {  | All disabled \<input\>        |
 |               | }**                 | elements                      |
 +---------------+---------------------+-------------------------------+
-| :empty        | **div:empty { }**   | All the \<div\> elements with |
+| :empty        | <b>div:empty { }**   | All the \<div\> elements with |
 |               |                     | no children                   |
 +---------------+---------------------+-------------------------------+
-| :enabled      | **input:enabled {   | All the enabled \<input\>     |
+| :enabled      | <b>input:enabled {   | All the enabled \<input\>     |
 |               | }**                 | elements                      |
 +---------------+---------------------+-------------------------------+
-| :first-child  | **p:first-child {   | All the \<p\> elements who    |
+| :first-child  | <b>p:first-child {   | All the \<p\> elements who    |
 |               | }**                 | are the first child of a      |
 |               |                     | parent element                |
 +---------------+---------------------+-------------------------------+
-| :             | **p:first-of-type { | All the \<p\> element who are |
+| :             | <b>p:first-of-type { | All the \<p\> element who are |
 | first-of-type | }**                 | the first \<p\> element of a  |
 |               |                     | parent element                |
 +---------------+---------------------+-------------------------------+
-| :focus        | **input:focus { }** | Input element under focus     |
+| :focus        | <b>input:focus { }** | Input element under focus     |
 +---------------+---------------------+-------------------------------+
-| :fullscreen   | **:fullscreen { }** | The element in full-screen    |
+| :fullscreen   | <b>:fullscreen { }** | The element in full-screen    |
 |               |                     | mode                          |
 +---------------+---------------------+-------------------------------+
-| :hover        | **p:hover { }**     | Action effect on mouse hover  |
+| :hover        | <b>p:hover { }**     | Action effect on mouse hover  |
 +---------------+---------------------+-------------------------------+
-| :invalid      | **input:invalid {   | Input elements with an        |
+| :invalid      | <b>input:invalid {   | Input elements with an        |
 |               | }**                 | invalid value                 |
 +---------------+---------------------+-------------------------------+
-| :last-child   | **p:last-child {    | All the \<p\> elements who    |
+| :last-child   | <b>p:last-child {    | All the \<p\> elements who    |
 |               | }**                 | are the last child of a       |
 |               |                     | parent element                |
 +---------------+---------------------+-------------------------------+
-| :last-of-type | **p:last-of-type {  | All the \<p\> elements who    |
-|               | }**                 | are the last \<p\> element of |
+| :last-of-type | <b>p:last-of-type {  | All the \<p\> elements who    |
+|               | }</b>                 | are the last \<p\> element of |
 |               |                     | a parent element              |
 +---------------+---------------------+-------------------------------+
-| :link         | **a:link { }**      | All unvisited links           |
+| :link         | <b>a:link { }**      | All unvisited links           |
 +---------------+---------------------+-------------------------------+
-| :no           | **:not(div) { }**   | All the elements that are not |
+| :no           | <b>:not(div) { }**   | All the elements that are not |
 | t(*selector*) |                     | a \<div\> element             |
 +---------------+---------------------+-------------------------------+
-| :n            | **div:nth-child(3)  | All the \<p\> elements that   |
+| :n            | <b>div:nth-child(3)  | All the \<p\> elements that   |
 | th-child(*n*) | { }**               | are the third child of a      |
 |               |                     | parent element                |
 +---------------+---------------------+-------------------------------+
-| :nth-la       | **di                | All the \<div\> elements      |
+| :nth-la       | <b>di                | All the \<div\> elements      |
 | st-child(*n*) | v:nth-last-child(3) | which are the third child of  |
 |               | { }**               | a parent element, counting    |
 |               |                     | from last child element       |
 +---------------+---------------------+-------------------------------+
-| :nth-last     | **p:                | The second sibling from the   |
+| :nth-last     | <b>p:                | The second sibling from the   |
 | -of-type(*n*) | nth-last-of-type(2) | last child of a parent        |
 |               | { }**               | element.                      |
 +---------------+---------------------+-------------------------------+
-| :nth          | **p:nth-of-type(2)  | The second sibling of a       |
+| :nth          | <b>p:nth-of-type(2)  | The second sibling of a       |
 | -of-type(*n*) | { }**               | parent element.               |
 +---------------+---------------------+-------------------------------+
-| :only-of-type | **p:only-of-type {  | All the \<p\> elements which  |
+| :only-of-type | <b>p:only-of-type {  | All the \<p\> elements which  |
 |               | }**                 | are only \<p\> elements       |
 |               |                     | inside its parent             |
 +---------------+---------------------+-------------------------------+
-| :only-child   | **p:only-child {    | All the \<p\> elements which  |
+| :only-child   | <b>p:only-child {    | All the \<p\> elements which  |
 |               | }**                 | are only child of a parent    |
 |               |                     | element                       |
 +---------------+---------------------+-------------------------------+
-| :optional     | **input:optional {  | The input elements with no    |
+| :optional     | <b>input:optional {  | The input elements with no    |
 |               | }**                 | \"required\" attribute        |
 +---------------+---------------------+-------------------------------+
-| :required     | **input:required {  | Selects input elements with   |
+| :required     | <b>input:required {  | Selects input elements with   |
 |               | }**                 | the \"required\" attribute    |
 |               |                     | specified                     |
 +---------------+---------------------+-------------------------------+
-| :root         | **:root { }**       | The Root element of document  |
+| :root         | <b>:root { }**       | The Root element of document  |
 +---------------+---------------------+-------------------------------+
-| ::selection   | **::selection { }** | The portion of an element     |
+| ::selection   | <b>::selection { }** | The portion of an element     |
 |               |                     | that is selected by a user    |
 +---------------+---------------------+-------------------------------+
-| :valid        | **input:valid { }** | All the input elements with a |
+| :valid        | <b>input:valid { }** | All the input elements with a |
 |               |                     | valid value                   |
 +---------------+---------------------+-------------------------------+
-| :visited      | **a:visited { }**   | Selects all visited links     |
+| :visited      | <b>a:visited { }**   | Selects all visited links     |
 +---------------+---------------------+-------------------------------+
 
 ## Pseudo-element selectors
 
   ---------------------------------------------------------------------------
-  **Syntax**       **Example**             **Description**
+  <b>Syntax**       <b>Example**             <b>Description**
   ---------------- ----------------------- ----------------------------------
-  ::after          **p::after { }**        Inserts content after content of
+  ::after          <b>p::after { }**        Inserts content after content of
                                            \<p\> element
 
-  ::before         **p::before { }**       Inserts content before content of
+  ::before         <b>p::before { }**       Inserts content before content of
                                            \<p\> element
 
-  ::first-letter   **p::first-letter { }** Selects first letter of every
+  ::first-letter   <b>p::first-letter { }** Selects first letter of every
                                            \<p\> element
 
-  ::first-line     **p::first-line { }**   Selects first line of every \<p\>
+  ::first-line     <b>p::first-line { }**   Selects first line of every \<p\>
                                            element
 
-  ::placeholder    **input::placeholder {  Selects input elements with
+  ::placeholder    <b>input::placeholder {  Selects input elements with
                    }**                     \"placeholder\" attribute
                                            specified
 
-  ::marker         **::marker { }**        Selects markers in a list
+  ::marker         <b>::marker { }**        Selects markers in a list
   ---------------------------------------------------------------------------
 
 Additional resources
@@ -7188,7 +7331,7 @@ The visual representation of text content can be changed by four main
 properties: text-transform, font-style, font-weight and text-decoration.
 
   ----------------------------------------------------------------------------
-  **Property **     **Values**             **Description**
+  <b>Property **     <b>Values**             <b>Description**
   ----------------- ---------------------- -----------------------------------
   Text-transform    None, uppercase,       Modify text properties
                     lowercase, capitalize, 
@@ -7210,7 +7353,7 @@ properties: text-transform, font-style, font-weight and text-decoration.
 The additional properties that help configure styling effects are below.
 
   ------------------------------------------------------------------------------
-  **Text-align**              **For horizontal alignment of text**
+  <b>Text-align**              <b>For horizontal alignment of text**
   --------------------------- --------------------------------------------------
   Text-align-last             Alignment for the last line when text set to
                               justify
@@ -7249,7 +7392,7 @@ Other than these, there are some more properties that help modify the
 alignment and define the scope of text with their containers. 
 
   --------------------------------------------------------------------------
-  **Property **   **Values**              **Description**
+  <b>Property **   <b>Values**              <b>Description**
   --------------- ----------------------- ----------------------------------
   Text-overflow   Clip, ellipsis          Determines overflow behavior of
                                           text with the container
@@ -7807,7 +7950,7 @@ animation property. 
 > } 
 ```
 
-## And this is the output: 
+<h3>And this is the output:</h3>
 
 ![](images/image225.png){width="3.0in"
 height="1.44in"}![](images/image226.png){width="3.0in" height="1.44in"}
@@ -7822,46 +7965,37 @@ If you modify this code and change the animation rules to percentages,
 it will have the same output.
 
 ```
-> @keyframes myanimation{
->
-> 0%{width: 50px;
->
-> }
->
->  
->
-> 100%{width: 100px;
->
-> }
->
->  
->
-> Now, let's add an intermediary step at 50%.
->
-> @keyframes myanimation{
->
-> 0%{width: 50px;
->
-> }
->
->  
->
-> 50%{background-color: aquamarine;
->
->     height: 20px;
->
-> }
->
->  
->
-> 100%{width: 100px;
->
-> }
+@keyframes myanimation{
+0%{width: 50px;
+}
+100%{width: 100px;
+}
 ```
- 
 
-## Output: 
+Now, let's add an intermediary step at 50%.
 
+```
+@keyframes myanimation{
+0%{width: 50px;
+}
+50%{background-color: aquamarine;
+    height: 20px;
+}
+100%{width: 100px;
+}
+```
+
+<h3>Output:</h3>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image227.png"
+  width="30%"
+  alt="Updating keyframes demo." />
+</p>
 ![](images/image227.png){width="3.0in"
 height="1.759047462817148in"}![](images/image228.png){width="3.0in"
 height="1.759047462817148in"}
@@ -7956,9 +8090,17 @@ Great, the ball is rendering correctly.
 
 Now to connect the animation to the element, I open styles.css again.
 
-![](images/image232.png){width="3.5in" height="3.548386920384952in"}In
-the CSS rule for the ball element, I add the animation property and set
-its value to bounce 2s.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. transform in styles.css (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image232.png"
+  width="35%"
+  alt="Styles.css for bouncing ball-transform command." />
+</p>
+<!-- ![](images/image232.png){width="3.5in" height="3.548386920384952in"} -->
+
+In the CSS rule for the ball element, I add the animation property and set its value to bounce 2s.
 
 This will play the bounce animation over a two second duration.
 
@@ -8018,51 +8160,43 @@ transform: transform function-values
 ### Example
 
 ```
-> .sample-class {
->
->     transform: rotate(60deg);
->
-> }
+.sample-class {
+    transform: rotate(60deg);
+}
 ```
 
-#### **Keyword-value type: none**
+<h4>**Keyword-value type: none**</h4>
 
 ```
-> .sample-class {
->
->     transform: none;
->
-> }
+.sample-class {
+    transform: none;
+}
 ```
 
-#### **Function-value type: matrix() **
+<h4><b>Function-value type: matrix()</b></h4>
 
-#### Variations: matrix(), matrix3d()
+<h4>Variations: matrix(), matrix3d()</h4>
 
 ```
-> .sample-class {
->
->      transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
->
-> }
+.sample-class {
+     transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+}
 ```
 
-#### **Function-value type: rotate(deg)**
+#### <b>Function-value type: rotate(deg)</b>
 
 #### Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()
 
 ```
-> .sample-class {
->
->     transform: rotate3d(3,2,1, 100deg);
->
-> }
+.sample-class {
+    transform: rotate3d(3,2,1, 100deg);
+}
 ```
 
 Note: In rotate3d(), the respective values represent x, y, z co-ordinate
 and degree of rotations
 
-#### **Function-value type: translate(x,y)**
+#### <b>Function-value type: translate(x,y)**
 
 #### Variations: translate(), translate3d(), translateX(), translateY(), translateZ()
 
@@ -8077,7 +8211,7 @@ and degree of rotations
 Note: In translate3d(), the respective values represent translation
 along the x, y, z co-ordinates
 
-#### **Function-value type: scale(factor)**
+#### <b>Function-value type: scale(factor)**
 
 #### Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()
 
@@ -8092,7 +8226,7 @@ along the x, y, z co-ordinates
 Note: In scale3d(), the respective values represent scaling times along
 the x, y, z co-ordinates
 
-#### **Function-value type: skew(deg, deg)**
+#### <b>Function-value type: skew(deg, deg)**
 
 #### Variations: skew(), skewX(), skewY()
 
@@ -8104,7 +8238,7 @@ the x, y, z co-ordinates
 > }
 ```
 
-#### **Global value types:**
+#### <b>Global value types:**
 
 ```
 > .sample-class {
@@ -9824,7 +9958,7 @@ They are:
 
 -   Read on to find out more about them.
 
-## **Retail: Lucky Shrub**
+## <b>Retail: Lucky Shrub**
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. lucky shrub (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
@@ -9849,11 +9983,11 @@ nursery.
 
 ## Download their logos here:
 
-**[Lucky-Shrub-Logos]{.underline}**
+<b>[Lucky-Shrub-Logos]{.underline}**
 
 [ZIP File]{.underline}
 
-## **Professional services: Hair Day** 
+## <b>Professional services: Hair Day** 
 
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. hair day logo (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9883,14 +10017,14 @@ manicurist and one make-up artist.
 
 ## Download their logos here:
 
-**[Hair Day logos]{.underline}**
+<b>[Hair Day logos]{.underline}**
 
 [ZIP File]{.underline}
 
-## **Restaurant: Little Lemon** 
-<!------------------------------------------------------------------------------------------------>
+## <b>Restaurant: Little Lemon** 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 241. little lemon fictional client logo (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image241.png"
   width="40%"
@@ -9915,11 +10049,11 @@ to incorporate additional cuisines from the Mediterranean region.
 
 ## Download their logos here:
 
-**[Little-Lemon-logos]{.underline}**
+<b>[Little-Lemon-logos]{.underline}**
 
 ZIP File
 
-## **Luxury Jewelry: Mangata and Gallo**
+## <b>Luxury Jewelry: Mangata and Gallo**
 
 Mangata and Gallo is a jewelry store that specializes in special
 occasions like engagements, weddings and anniversaries. The jewelry
@@ -9939,16 +10073,16 @@ accounts.
 
 Download their logos here:
 
-**[Mangata and Gallo logos]**
+<b>[Mangata and Gallo logos]**
 
 <!-- not quite done... near though -->
 <h6)3-10-2023 at 11:19pm</h6>
 <h5>wip - Work in Progress</h5>
 
 [ZIP File]
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- template documentation
 <p align="center" width="100%">
 <img src="/images/image0xx.png"
