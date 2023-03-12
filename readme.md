@@ -7910,16 +7910,20 @@ to{width: 100px; 
 <h3>And this is the output:</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. 50 pixel image, left (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 226. 100 pixel image, right (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
-<p align="center" width="100%">
-<img src="/images/image227.png"
-  width="30%"
-  alt="Updating keyframes demo." />
+<p float="left">
+<img src="/images/image225.png"
+  width="100"
+  alt="Width change from 50 to 100 pixels, left image." />
+<img src="/images/image226.png"
+  width="100"
+  alt="100 pixels, right image." />
 </p>
-![](images/image225.png){width="3.0in"
-height="1.44in"}![](images/image226.png){width="3.0in" height="1.44in"}
+<!--
+![](images/image225.png){width="3.0in" height="1.44in"}
+![](images/image226.png){width="3.0in" height="1.44in"} -->
 
 In the example, the width of the object changes from 50 pixels to 100
 pixels over a span of 3 seconds and loops infinitely afterward.
@@ -7954,23 +7958,19 @@ Now, let's add an intermediary step at 50%.
 <h3>Output:</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. keyframes, left image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes, right image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="left" width="40%">
+<p float="left">
 <img src="/images/image227.png"
-  width="100%"
+  width="100"
   alt="Updating keyframes demo - left." />
-</p>
-<!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"}
-![](images/image228.png){width="3.0in" height="1.759047462817148in"} -->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="right" width="40%">
 <img src="/images/image228.png"
   width="100%"
   alt="Updating keyframes demo - right." />
 </p>
+<!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"}
+![](images/image228.png){width="3.0in" height="1.759047462817148in"} -->
 
 The output is drastically different now after adding just two lines of
 code. Just like this, you can keep adding steps inside your \@keyframes
@@ -8002,16 +8002,14 @@ file named index.html.
 In the head element, I added a link element to reference a CSS file
 named styles.css.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 229. define bouncing ball in html (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
 <p align="center" width="100%">
-<img src="/images/image0xx.png"
-  width="50%"
-  alt="." />
+<img src="/images/image229.png"
+  width="40%"
+  alt="Define bouncing ball div id=ball in html." />
 </p>
--->
-![](images/image229.png){width="4.0in" height="2.4507655293088364in"}
+<!-- ![](images/image229.png){width="4.0in" height="2.4507655293088364in"} -->
 
 First, I\'ll add the HTML element that will be animated.
 
@@ -8021,17 +8019,17 @@ I add a div element to the body element and set its ID attribute to
 ball.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. adding keyframe definition (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
 <p align="center" width="100%">
-<img src="/images/image0xx.png"
-  width="50%"
-  alt="." />
+<img src="/images/image230.png"
+  width="40%"
+  alt="Adding keyframe definition to CSS." />
 </p>
 -->
-![](images/image230.png){width="4.0in" height="3.6355555555555554in"}Now
-I open styles.css.
+<!-- ![](images/image230.png){width="4.0in" height="3.6355555555555554in"} -->
+
+Now I open styles.css.
 
 First, I add the keyframes definition.
 
@@ -8075,7 +8073,7 @@ Finally, I set the background color property to #62687F to fill in the
 color of the circle.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- template documentation
 <p align="center" width="100%">
