@@ -326,8 +326,6 @@ that is independently distributable.
 
 That\'s quite a mouthful.
 
-It may help to think of a page in a newspaper.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -363,7 +361,7 @@ web page.
   width="40%"
   alt="Article element." />
 </p>
-< !-- ![](images/image012.png){width="4.0in" height="2.4813560804899386in"} -->
+<!-- ![](images/image012.png){width="4.0in" height="2.4813560804899386in"} -->
 
 You should place the article element within the main element.
 
@@ -413,16 +411,16 @@ It is important to note that sections should contain heading elements to
 semantically describe the section.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx. descriptive section elements (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 14. descriptive section elements - describes web page (09) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
 <p align="center" width="100%">
-<img src="/images/image0xx.png"
-  width="50%"
-  alt="." />
+<img src="/images/image014.png"
+  width="40%"
+  alt="Descriptive section elements - describes web page." />
 </p>
-![](images/image014.png){width="4.0in" height="1.9722222222222223in"}It is
-also possible to use section elements to describe different sections of
+<!-- ![](images/image014.png){width="4.0in" height="1.9722222222222223in"} -->
+
+It is also possible to use section elements to describe different sections of
 your webpage, the section element doesn't require the article element.\
 It all depends on how you want to semantically describe your page.
 
@@ -7888,70 +7886,38 @@ animation property. 
 > </html> 
 ```
 
-## CSS code:
+<h4>CSS code:</h4>
 
 ```
-> body{ 
->
->  
->
-> padding: 30px;} 
->
->  
->
->  
->
->  
->
-> .box{ 
->
->  
->
-> background-color: lightcoral; 
->
->  
->
-> width: 50px; 
->
->  
->
-> height: 50px; 
->
->  
->
-> animation: myanimation 3s infinite ease-in; 
->
->  
->
-> } 
-```
- 
-```
-> @keyframes myanimation{ 
->
->  
->
-> from{width: 50px; 
->
->  
->
-> } 
->
->  
->
->  
->
->  
->
-> to{width: 100px; 
->
->  
->
-> } 
+body{ 
+padding: 30px;} 
+
+.box{ 
+background-color: lightcoral; 
+width: 50px; 
+height: 50px; 
+animation: myanimation 3s infinite ease-in; 
+}
+
+@keyframes myanimation{ 
+
+from{width: 50px; 
+} 
+to{width: 100px; 
+} 
 ```
 
 <h3>And this is the output:</h3>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image227.png"
+  width="30%"
+  alt="Updating keyframes demo." />
+</p>
 ![](images/image225.png){width="3.0in"
 height="1.44in"}![](images/image226.png){width="3.0in" height="1.44in"}
 
@@ -7990,15 +7956,21 @@ Now, let's add an intermediary step at 50%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
-<p align="center" width="100%">
+<p align="left" width="40%">
 <img src="/images/image227.png"
-  width="30%"
-  alt="Updating keyframes demo." />
+  width="100%"
+  alt="Updating keyframes demo - left." />
 </p>
-![](images/image227.png){width="3.0in"
-height="1.759047462817148in"}![](images/image228.png){width="3.0in"
-height="1.759047462817148in"}
+<!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"}
+![](images/image228.png){width="3.0in" height="1.759047462817148in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="right" width="40%">
+<img src="/images/image228.png"
+  width="100%"
+  alt="Updating keyframes demo - right." />
+</p>
 
 The output is drastically different now after adding just two lines of
 code. Just like this, you can keep adding steps inside your \@keyframes
@@ -8029,7 +8001,16 @@ file named index.html.
 
 In the head element, I added a link element to reference a CSS file
 named styles.css.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image0xx.png"
+  width="50%"
+  alt="." />
+</p>
+-->
 ![](images/image229.png){width="4.0in" height="2.4507655293088364in"}
 
 First, I\'ll add the HTML element that will be animated.
@@ -8039,6 +8020,16 @@ In this case, the element will represent the bouncing ball.
 I add a div element to the body element and set its ID attribute to
 ball.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image0xx.png"
+  width="50%"
+  alt="." />
+</p>
+-->
 ![](images/image230.png){width="4.0in" height="3.6355555555555554in"}Now
 I open styles.css.
 
@@ -8083,6 +8074,16 @@ like a circle.
 Finally, I set the background color property to #62687F to fill in the
 color of the circle.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template documentation
+<p align="center" width="100%">
+<img src="/images/image0xx.png"
+  width="15%"
+  alt="." />
+</p>
+-->
 ![](images/image231.png){width="1.5in" height="1.3216458880139983in"}I
 save the file and open index.html in live preview.
 
