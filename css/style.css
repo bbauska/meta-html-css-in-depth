@@ -81,6 +81,8 @@ background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 15px;
+  margin-left: 5px;
+  text-align: left;
 }
 
 #myBtn {
