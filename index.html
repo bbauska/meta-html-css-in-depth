@@ -38,7 +38,32 @@
   border-width: 1px;
   border-color: #778899;
   border-style: solid; }
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ responsive side-by-side imaging ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
 </style>
 </head>
 
@@ -48,27 +73,29 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
-  src="/images/coursera-logo.png?raw=true"
-  style="width:15%;"
-  alt="Coursera logo." />
-
-<h7 style="text-align: center;">meta-html-css-in-depth - meta/Coursera's HTML &amp; CSS in Depth</h7>
+<div class="row">
+  <div class="column">
+<img src="/images/coursera-logo.png?raw=true"
+  style="width:100%;"
+  alt="Coursera logo.">
+  </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera text (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
-  src="./images/image001.png?raw=true"
-  style="width:15%;"
-  alt="Coursera text." />
-<br>
+<div class="column">
+  <img src="./images/image001.png?raw=true"
+  style="width:100%;"
+  alt="Coursera text.">
+  </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
-  src="/images/image002.png?raw=true"
-  style="width:15%;"
-  alt="meta logo." />
+<div class="column">
+  <img src="/images/image002.png?raw=true"
+  style="width:100%;"
+  alt="meta logo.">
+  </div>
+</div>
 
 <!--
 <a href="#table-of-contents">Table of Contents</a>
