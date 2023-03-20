@@ -2478,11 +2478,16 @@ files.
 But it is also possible to send data as part of a request.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 70. how forms send data to the web server (61) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image070.png){width="3.5in" height="1.9747331583552057in"}
+<p align="center" width="100%">
+<img src="/images/image070.png"
+  width="35%"
+  alt="How forms send data to the web server." />
+</p>
+<!-- ![](images/image070.png){width="3.5in" height="1.9747331583552057in"} -->
 
-This is how form send data to the web server.
+This is how forms send data to the web server.
 
 In fact, there are two ways a form can send data to the web server using
 the HTTP GET method or the HTTP POST method.
@@ -2498,27 +2503,41 @@ This login form, excepts a username and password.
 It also has a login button that submits the form to the web server.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. get and post request (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image071.png){width="5.0in" height="2.821046587926509in"}
+<p align="center" width="100%">
+<img src="/images/image071.png"
+  width="50%"
+  alt="Get and Post." />
+</p>
+<!-- ![](images/image071.png){width="5.0in" height="2.821046587926509in"} -->
 
 How would it work if the method attribute is set to GET?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. method attribute set to get (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image072.png){width="5.0in" height="1.626068460192476in"}
+<p align="center" width="100%">
+<img src="/images/image072.png"
+  width="50%"
+  alt="Method Attribute set to Get." />
+</p>
+<!-- ![](images/image072.png){width="5.0in" height="1.626068460192476in"} -->
 
 When the Login button is clicked, the form data is sent as part of the
 request URL.
 
 This means that the user data is appended to the end of the URL in the
 web browser navigation bar.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. form data http get request (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image073.png){width="5.0in" height="2.173611111111111in"}
+<p align="center" width="100%">
+<img src="/images/image073.png"
+  width="50%"
+  alt="Input type of text and email with css." />
+</p>
+<!-- ![](images/image073.png){width="5.0in" height="2.173611111111111in"} -->
 
 The web server receives the HTTP GET request, and extracts the form data
 from the URL.
@@ -2552,11 +2571,15 @@ card numbers, this is a major privacy and security risk.
 
 Now, let\'s focus on how the form would work if we set the method
 attribute to post.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. form data method attribute post (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image074.png){width="5.0in" height="2.173611111111111in"}
+<p align="center" width="100%">
+<img src="/images/image074.png"
+  width="50%"
+  alt="Form Data Method Attribute Post." />
+</p>
+<!-- ![](images/image074.png){width="5.0in" height="2.173611111111111in"} -->
 
 When the form is submitted using the post method, the form data is
 inserted into the content of the HTTP request.
@@ -2599,9 +2622,11 @@ username and password to a web server to log you into your account.
 
 As you know by now, you add a form to your web page using the form tag.
 
+```
 > <form> 
 >
 > </form> 
+```
 
 But how the form is submitted is determined by two essential attributes:
 action and method.
@@ -2610,9 +2635,11 @@ The action attribute specifies to which web address the form must be
 sent. This is address is location of server-side code that will process
 the request.
 
+```
 > <form action="/login"> 
 >
 > </form> 
+```
 
 It is important to note that action can be a full URL address such as
 <b>https://meta.com</b>, an absolute path such as <b>/login</b>, or a relative
@@ -2693,11 +2720,15 @@ In this module, you will explore how form elements displayed differently
 on various web browsers and how to solve this problem.
 
 First, let\'s focus on the most common form element, the input elements.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 75.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 75. input type text value "username" (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image075.png){width="5.0in" height="2.58707239720035in"}
+<p align="center" width="100%">
+<img src="/images/image075.png"
+  width="50%"
+  alt="Input type of text value 'Username'" />
+</p>
+<!-- ![](images/image075.png){width="5.0in" height="2.58707239720035in"} -->
 
 The same input type HTML code displays differently in web browsers such
 as Firefox, Microsoft Edge, Chrome, and Safari.
@@ -2710,9 +2741,14 @@ and Safari compared to other browsers like Microsoft Edge and Chrome.
 Safari on Mac OS differs a lot from the other browsers using a thinner
 border on regular corners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 76. input type checkbox (checked) (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image076.png){width="5.0in" height="2.58707239720035in"}
+<p align="center" width="100%">
+<img src="/images/image076.png"
+  width="50%"
+  alt="Input type of checkbox (checked)." />
+</p>
+<!-- ![](images/image076.png){width="5.0in" height="2.58707239720035in"} -->
 
 Next, let\'s explore the checkbox input type.
 
@@ -2732,11 +2768,15 @@ Safari\'s checkbox is also smaller than the other.
 Now that you\'ve explored how HTML form elements can appear
 inconsistently across different web browsers, let\'s focus on how to
 solve this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 77. input type text and email with css (68) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image077.png){width="5.0in" height="2.58707239720035in"}
+<p align="center" width="100%">
+<img src="/images/image077.png"
+  width="50%"
+  alt="Input type of text and email with css." />
+</p>
+<!-- ![](images/image077.png){width="5.0in" height="2.58707239720035in"} -->
 
 As you know, CSS allows you to define the visual styling of HTML
 elements.
