@@ -1432,13 +1432,13 @@ They are used to let a user select one or more options of a limited
 number of choices.
 
 ```
-<input type="checkbox" id="dog" name="dog" value="Dog">
+  <input type="checkbox" id="dog" name="dog" value="Dog">
 
-<label for="dog">I like dogs</label>
+  <label for="dog">I like dogs</label>
 
-<input type="checkbox" id="cat" name="cat" value="Cat">
+  <input type="checkbox" id="cat" name="cat" value="Cat">
 
-<label for="cat">I like cats</label>
+  <label for="cat">I like cats</label>
 ```
 
 <h4>Radio</h4>
@@ -1449,13 +1449,13 @@ is a collection of radio buttons describing a set of related options
 that share the same \"name\" attribute.
 
 ```
-<input type="radio" id="light" name="theme" value="Light"> 
+  <input type="radio" id="light" name="theme" value="Light">
 
-<label for="light">Light</label> 
+  <label for="light">Light</label>
 
-<input type="radio" id="dark" name="theme" value="Dark"> 
+  <input type="radio" id="dark" name="theme" value="Dark">
 
-<label for="dark">Dark</label> 
+  <label for="dark">Dark</label>
 ```
 
 <h4>Submit</h4>
@@ -1465,13 +1465,13 @@ a form-handler, typically a server. The form-handler is specified in the
 form's \"action\" attribute:
 
 ```
-<form action="myserver.com" method="POST">
+  <form action="myserver.com" method="POST">
 
   ...
 
-<input type="submit" value="Submit" />
+  <input type="submit" value="Submit" />
 
-</form>
+  </form>
 ```
 
 <h4>Text</h4>
@@ -1479,9 +1479,9 @@ form's \"action\" attribute:
 Defines a basic single-line text field that a user can enter text into. 
 
 ```
-<label for="fname">First name:</label> 
+  <label for="fname">First name:</label> 
 
-<input type="text" id="fname" name="fname"> 
+  <input type="text" id="fname" name="fname"> 
 ```
 
 <h4>Password</h4>
@@ -1490,9 +1490,9 @@ Defines a single-line text field whose value is obscured, suited for
 sensitive information like passwords.
 
 ```
-<label for="pwd">Password:</label> 
+  <label for="pwd">Password:</label> 
 
-<input type="password" id="pwd" name="pwd"> 
+  <input type="password" id="pwd" name="pwd"> 
 ```
 
 <h4>Date</h4>
@@ -1501,9 +1501,9 @@ Displays a control for entering a date with no time (year, month and
 day).
 
 ```
-> <label for="dob">Date of birth:</label>
->
-> <input type="date" id="dob" name="date of birth">
+  <label for="dob">Date of birth:</label>
+  
+  <input type="date" id="dob" name="date of birth">
 ```
 
 <h4>Datetime-local</h4>
@@ -1512,9 +1512,9 @@ Defines a control for entering a date and time, including the year,
 month and day, as well as the time in hours and minutes.
 
 ```
-<label for="birthdaytime">Birthday (date and time):</label>
+  <label for="birthdaytime">Birthday (date and time):</label>
 
-<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
 ```
 
 <h4>Email</h4>
@@ -1524,9 +1524,9 @@ input, with the addition that it validates automatically when submitted
 to the server.
 
 ```
-<label for="email">Enter your email:</label>
+  <label for="email">Enter your email:</label>
 
-<input type="email" id="email" name="email">
+  <input type="email" id="email" name="email">
 ```
 
 <h4><b>File</b></h4>
@@ -1537,9 +1537,9 @@ their computer. To define the types of files permissible you can use the
 the \"multiple\" attribute.
 
 ```
-<label for="myfile">Select a file:</label>
+  <label for="myfile">Select a file:</label>
 
-<input type="file" id="myfile" name="myfile">
+  <input type="file" id="myfile" name="myfile">
 ```
 
 <h4><b>Hidden</b></h4>
@@ -1548,7 +1548,7 @@ Defines a control that is not displayed but whose value is still
 submitted to the server.
 
 ```
-<input type="hidden" id="custId" name="custId" value="3487">
+  <input type="hidden" id="custId" name="custId" value="3487">
 ```
 
 <h4><b>Image</b></h4>
@@ -1557,7 +1557,7 @@ Defines an image as a graphical submit button. You should use the "src"
 attribute to point to the location of your image file.
 
 ```
-<input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
+  <input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
 ```
 
 <h4><b>Number</b></h4>
@@ -1567,7 +1567,7 @@ specify restrictions, such as min and max values allowed, number
 intervals or a default value.
 
 ```
-<input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
 ```
 
 <h4><b>Range</b></h4>
@@ -1578,9 +1578,9 @@ represented using a slider or dial control. To define the range of
 acceptable values, use the "min" and "max" properties.
 
 ```
-<label for="volume">Volume:</label>
+  <label for="volume">Volume:</label>
 
-<input type="range" id="volume" name="volume" min="0" max="10">
+  <input type="range" id="volume" name="volume" min="0" max="10">
 ```
 
 <h4><b>Reset</b></h4>
@@ -1589,7 +1589,7 @@ Displays a button that resets the contents of the form to their default
 values.
 
 ```
-<input type="reset">
+  <input type="reset">
 ```
 
 <h4><b>Search</b></h4>
@@ -1599,9 +1599,9 @@ identical to text inputs, but may be styled differently depending on the
 browser.
 
 ```
-<label for="gsearch">Search in Google:</label>
+  <label for="gsearch">Search in Google:</label>
 
-<input type="search" id="gsearch" name="gsearch">
+  <input type="search" id="gsearch" name="gsearch">
 ```
 
 <h4>Time</h4>
@@ -1610,9 +1610,9 @@ Displays a control for entering a time value in hours and minutes, with
 no time zone.
 
 ```
-<label for="appt">Select a time:</label>
+  <label for="appt">Select a time:</label>
 
-<input type="time" id="appt" name="appt">
+  <input type="time" id="appt" name="appt">
 ```
 
 <h4><b>Tel</b></h4>
@@ -1622,9 +1622,9 @@ support "tel" fall back to standard text input. You can optionally use
 the \"pattern\" field to perform validation.
 
 ```
-<label for="phone">Enter your phone number:</label>
+  <label for="phone">Enter your phone number:</label>
 
-<input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
+  <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
 ```
 
 <h4><b>Url</b></h4>
@@ -1634,9 +1634,9 @@ input, but performs automatic validation before being submitted to the
 server.
 
 ```
-<label for="homepage">Add your homepage:</label>
+  <label for="homepage">Add your homepage:</label>
 
-<input type="url" id="homepage" name="homepage">
+  <input type="url" id="homepage" name="homepage">
 ```
 
 <h4><b>Week</b></h4>
@@ -1646,9 +1646,9 @@ and a year, with no time zone. Keep in mind that this is a newer type
 that is not supported by all the browsers.
 
 ```
-<label for="week">Select a week:</label>
-
-<input type="week" id="week" name="week">
+  <label for="week">Select a week:</label>
+  
+  <input type="week" id="week" name="week">
 ```
 
 <h4><b>Month</b></h4>
@@ -1658,9 +1658,9 @@ Keep in mind that this is a newer type that is not supported by all the
 browsers.
 
 ```
-<label for="bdaymonth">Birthday (month and year):</label>
+  <label for="bdaymonth">Birthday (month and year):</label>
 
-<input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+  <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
 ```
 
 Creating a form
@@ -2909,11 +2909,8 @@ longer textual data. The common attributes for this element include:
     200 characters:
 
 ```
-> <textarea name="response" rows="10" cols="30" maxlength="200"> 
->
->  
->
-> </textarea> 
+  <textarea name="response" rows="10" cols="30" maxlength="200">
+  </textarea>
 ```
 
 <h4>\<button\></h4>
@@ -2923,9 +2920,8 @@ behavior when the button is clicked by the user. For example, in the
 code below, an alert message is shown to the user.
 
 ```
-> <button type="button" onclick="alert('You just clicked!')">Click Me! 
->
-> </button> 
+  <button type="button" onclick="alert('You just clicked!')">Click Me!
+  </button>
 ```
 
 <h4>\<fieldset\></h4>
@@ -2939,35 +2935,20 @@ can be grouped separately in two field sets.
 Defines a caption for the <b>\<fieldset\></b> element. For example:
 
 ```
-> <fieldset> 
->
->   <legend>Personal Info</legend> 
->
->   <label for="fname">First name:</label><br> 
->
->   <input type="text" id="fname" name="fname" value="John"><br> 
->
->   <label for="lname">Last name:</label><br> 
->
->   <input type="text" id="lname" name="lname" value="Doe"><br> 
->
-> </fieldset> 
->
->  
->
-> <fieldset> 
->
->   <legend>Qualificaiton</legend> 
->
->   <label for="pdegree">Primary degree:</label><br> 
->
->   <input type="text" id="pdegree" name="degree" value="Masters"><br> 
->
->   <label for="fos">Last name:</label><br> 
->
->   <input type="text" id="fos" name="field" value="Psychology"><br> 
->
-> </fieldset> 
+  <fieldset>
+    <legend>Personal Info</legend> 
+    <label for="fname">First name:</label><br> 
+    <input type="text" id="fname" name="fname" value="John"><br> 
+    <label for="lname">Last name:</label><br> 
+    <input type="text" id="lname" name="lname" value="Doe"><br> 
+  </fieldset> 
+  <fieldset> 
+    <legend>Qualificaiton</legend> 
+    <label for="pdegree">Primary degree:</label><br> 
+    <input type="text" id="pdegree" name="degree" value="Masters"><br> 
+    <label for="fos">Last name:</label><br> 
+    <input type="text" id="fos" name="field" value="Psychology"><br> 
+  </fieldset> 
 ```
 
 <h4>\<datalist\></h4>
@@ -2978,27 +2959,16 @@ input other than the listed options.
 
 ```
 <form action="/my_action_page"> 
-
   <label for="flowers">Favourite flower:</label><br> 
-
   <input list="flowers" name="flowers"> 
-
   <datalist id="flowers"> 
-
     <option value="Rose"> 
-
     <option value="Lily"> 
-
     <option value="Tulip"> 
-
     <option value="Daffodil"> 
-
     <option value="Orchid"> 
-
   </datalist> 
-
   ... 
-
 </form>
 ```
 
@@ -3021,17 +2991,11 @@ below the code block.
 
 ```
 <label for="course">Choose a course:</label><br> 
-
 <select id="course" name="courselist"> 
-
   <option value="html">HTML Introduction</option> 
-
   <option value="css">Styling with CSS</option> 
-
   <option value="js">JavaScript</option> 
-
   <option value="react">React Basics</option> 
-
 </select> 
 ```
 
@@ -3497,9 +3461,10 @@ are applied. To apply more than one permission, use a space-separated
 list. For example, the following would allow form submission and scripts
 while keeping other restrictions active:
 
-> <iframe src="[my_iframe_sandbox.html]{.underline}" sandbox="allow-forms allow-scripts"> 
->
-> </iframe> 
+```
+  <iframe src="[my_iframe_sandbox.html]{.underline}" sandbox="allow-forms allow-scripts"> 
+  </iframe> 
+```
 
 ## src 
 
@@ -3514,9 +3479,8 @@ instance, the following code will display \"My inline html\" in the
 frame, instead of loading <b>my_iframe_src.html</b>.
 
 ```
-> <iframe src="[my_iframe_src.html]{.underline}" srcdoc="<p>My inline html</p>" > 
->
-> </iframe> 
+  <iframe src="[my_iframe_src.html]{.underline}" srcdoc="<p>My inline html</p>" >
+  </iframe>
 ```
 
 ## loading
@@ -3528,9 +3492,8 @@ iframe content if it is further down your web page and outside of the
 display area when the page is initially loaded.
 
 ```
-> <iframe src="[my_iframe_src.html]{.underline}" loading="lazy" > 
->
-> </iframe> 
+  <iframe src="[my_iframe_src.html]{.underline}" loading="lazy" >
+  </iframe>
 ```
 
 ## title
@@ -3540,9 +3503,8 @@ accessibility purposes. The value of this attribute should accurately
 describe the iframe\'s content.
 
 ```
-> <iframe src="[history.html]{.underline}" title="An embedded document about the history of my family" > 
->
-> </iframe> 
+  <iframe src="[history.html]{.underline}" title="An embedded document about the history of my family" > 
+  </iframe>
 ```
 
 iFrame as a picture
@@ -3672,13 +3634,13 @@ game content for the web browser.
 
 But all of these are underpinned by one of four technologies;
 
-GIF,
+  1. GIF,
 
-WebP,
+  2. WebP,
 
-2D canvas, and
+  3. 2D canvas, and
 
-WebGL.
+  4. WebGL.
 
 The graphics interchange format or GIF along with the Web P image format
 are used for animated images.
@@ -4026,21 +3988,13 @@ to configure a flexbox.
 ```
 <body>
   <div class="flex-container">
-
     <div class="box box1">  One..</div>
-
     <div class="box box2">  Two..</div>
-
     <div class="box box3">  Three..</div>
-
     <div class="box box4">  Four..</div>
-
     <div class="box box5">  Five..</div>
-
     <div class="box box6">  Six..</div>
-
     <div class="box box7">  Seven..</div>
-
   </div>
 </body>
 ```
@@ -4312,9 +4266,9 @@ empty in shorthand notation are given their default values.
 ## For example:
 
 ```
-.flex-container{
-flex: 0 1 auto;
-}
+  .flex-container{
+  flex: 0 1 auto;
+  }
 ```
 
 Here for the flex-container class, there is a set rule for the flex
@@ -4344,11 +4298,11 @@ inside the flex item box3 class.
 ## CSS Code:
 
 ```
-.box3{
+  .box3{
     background-color: blanchedalmond;
     align-self: center;
     flex: 1 1 auto;
-}
+  }
 ```
 
 ## Output:
@@ -5084,11 +5038,9 @@ Note: '\|' stands for alternatives or OR.
 The syntax for creating a grid:
 
 ```
-selector{
-
+  selector{
     display: grid; /* or inline-grid */
-
-}
+  }
 ```
 
 ![](images/image138.wmf)
@@ -5290,9 +5242,9 @@ Flexbox
 The syntax for creating a flexbox:
 
 ```
-selector{
+  selector{
     display: flex | inline-flex
-}
+  }
 ```
  
 
@@ -5597,121 +5549,37 @@ conventionally. Let\'s examine an example.
 ## HTML Code:
 
 ```
-> <head> 
->
->  
->
->     <link rel="stylesheet" href="[gridta.css]{.underline}"> 
->
->  
->
-> </head> 
->
->  
->
->  
->
->  
->
-> <body> 
->
->  
->
->     <header> Header </header> 
->
->  
->
->     <nav class="nav-bar"> Navigation </nav> 
->
->  
->
->     <main> Main area </main> 
->
->  
->
->     <footer> Footer </footer> 
->
->  
->
-> </body> 
+<head> 
+  <link rel="stylesheet" href="[gridta.css]{.underline}"> 
+</head>
+<body> 
+  <header> Header </header> 
+  <nav class="nav-bar"> Navigation </nav> 
+  <main> Main area </main> 
+  <footer> Footer </footer>
+</body> 
 ```
 
 ## CSS Code:
 
 ```
-> body { 
->
->  
->
->     display: grid; 
->
->  
->
->     height: 200px; 
->
->  
->
->     grid-template-areas: "head head" 
->
->  
->
->                          "nav  main" 
->
->  
->
->                          "footer  footer"; 
->
->  
->
->     grid-template-rows: 30px 1fr 30px; 
->
->  
->
->     grid-template-columns: 150px 1fr; 
->
->  
->
->   } 
->
->  
->
->    
->
->  
->
->   header { 
->
->  
->
->     grid-area: head; 
->
->  
->
->     background-color: lightsalmon; 
->
->  
->
->   } 
->
->  
->
->    
->
->  
->
->   .nav-bar { 
->
->  
->
->     grid-area: nav; 
->
->  
->
->     background-color: lightblue; 
->
->  
->
->   } 
+  body { 
+    display: grid; 
+    height: 200px; 
+    grid-template-areas: "head head" 
+                         "nav  main" 
+                         "footer  footer"; 
+    grid-template-rows: 30px 1fr 30px; 
+    grid-template-columns: 150px 1fr; 
+    } 
+    header { 
+    grid-area: head; 
+    background-color: lightsalmon; 
+    } 
+  .nav-bar { 
+    grid-area: nav; 
+    background-color: lightblue; 
+   }
 ```
 
 ## Output:  
@@ -5728,11 +5596,9 @@ distributed is according to how you have defined the names inside the
 grid-template-areas property. In the example above the relevant code is:
 
 ```
->  grid-template-areas: "head head"
->
->                       "nav  main"
->
->                       "footer  footer";
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "footer  footer";
 ```
 
 The 'head' is written twice to imply two columns and the rest of the
@@ -5753,11 +5619,9 @@ Let's return to the example. If you keep all other properties the same
 but you change the grid-template-areas as follows:
 
 ```
-> grid-template-areas: "head head head"
->
->                      "nav  main main"
->
->                      "footer footer footer";
+  grid-template-areas: "head head head"
+                       "nav  main main"
+                       "footer footer footer";
 ```
 
 The output will remain the same as you have fixed the value of the third
@@ -6098,9 +5962,8 @@ For example, take these two rules that create a conflict in color
 styling for a p tag:
 
 ```
->  <p style="color: white;"> 
->
-> p{color: blue} 
+  <p style="color: white;"> 
+  p{color: blue} 
 ```
 
 The p tag will be colored white because it is declared inside the inline
@@ -6112,7 +5975,7 @@ Next in the hierarchy are IDs and by now you know that they are
 represented by '#'.  For example:
 
 ```
-> #div
+  #div
 ```
 
 ## Classes, attributes, and pseudo-classes
@@ -6123,11 +5986,9 @@ called the pseudo-classes that you will soon learn more about. 
 ## For example:
 
 ```
-> .my-class 
->
-> p["attribute"]
->
-> div:hover
+  .my-class 
+  p["attribute"]
+  div:hover
 ```
 
 ## Elements and pseudo-elements
@@ -6150,11 +6011,9 @@ Let's explore a practical example of how to determine the score of a few
 selectors. 
 
 ```
-> #hello {} will be 0100
->
-> div {} will be 0001 and
->
-> div p.foo {} will be 0012
+  #hello {} will be 0100
+  div {} will be 0001 and
+  div p.foo {} will be 0012
 ```
 
 In the order stated above, the four categories will be assigned values
@@ -6171,18 +6030,12 @@ focus on the selectors only. 
 ## Example 1
 
 ```
-> p {} 
->
-> div p {}
->
-> div p.foo {}
->
-> p  => 1 element =>  0 0 0 1 => Score: 1
->
-> div p => 2 elements => 0 0 0 2 => Score: 2
->
-> div p.foo {} => 2 elements and 1 class selector => 0 0 1 2 =>
-> Score: 12
+  p {} 
+  div p {}
+  div p.foo {}
+  p  => 1 element =>  0 0 0 1 => Score: 1
+  div p => 2 elements => 0 0 0 2 => Score: 2
+  div p.foo {} => 2 elements and 1 class selector => 0 0 1 2 => Score: 12
 ```
 
 The third case has a total of 12 for the p tag and so has the highest
@@ -6192,11 +6045,9 @@ the rules inside the third case are applied. 
 ## Example 2
 
 ```
-> p#bar => 1 element & 1 ID =>  0 1 0 1 => Score: 101
->
-> p.foo => 1 element & 1 class => 0 0 1 1 => Score: 11
->
-> p.p.foo => 1 element & 2 class =>  0 0 2 1 => Score: 21
+  p#bar => 1 element & 1 ID =>  0 1 0 1 => Score: 101
+  p.foo => 1 element & 1 class => 0 0 1 1 => Score: 11
+  p.p.foo => 1 element & 2 class =>  0 0 2 1 => Score: 21
 ```
 
 By now it should be clear that the case containing ID has a much higher
@@ -6651,15 +6502,12 @@ each of the three points in the example text.
 <h4>CSS code:</h4>
 
 ```
-> li::first-letter { 
-> color:coral; 
-> font-size: 1.3em; 
-> font-weight: bold; 
-> line-height: 1; 
-```
- 
-```
-> } 
+li::first-letter { 
+color:coral; 
+font-size: 1.3em; 
+font-weight: bold; 
+line-height: 1; 
+} 
 ```
 
 Output
@@ -6678,14 +6526,14 @@ points to light sea green.
 ## CSS code:
 
 ```
-> ul{
->     list-style-type: none;
-> }
-> li::first-line {
->     color: lightseagreen;
->     text-decoration: underline;
->     line-height: 1;
-> }
+ul{
+    list-style-type: none;
+}
+li::first-line {
+    color: lightseagreen;
+    text-decoration: underline;
+    line-height: 1;
+}
 ```
 
 Output:
@@ -6716,14 +6564,14 @@ of text.
 ## CSS code:
 
 ```
-> ul{
->     list-style-type: none;
-> }
-> li::selection {
->     color:brown;
->     background-color: antiquewhite;
->     line-height: 1;
-> }
+ul{
+    list-style-type: none;
+}
+li::selection {
+    color:brown;
+    background-color: antiquewhite;
+    line-height: 1;
+}
 ```
 
 Here is an example of a selection of text.
@@ -6751,12 +6599,12 @@ instance, to color bullet points. For example, you can enhance the user
 experience when you use a marker in the following way.
 
 ```
-> CSS code:
-> li::marker {
->     color: cornflowerblue;
->     content: '<> ';
->     font-size: 1.1em;
-> }
+CSS code:
+li::marker {
+    color: cornflowerblue;
+    content: '<> ';
+    font-size: 1.1em;
+}
 ```
 
 Output
@@ -6779,31 +6627,31 @@ important tips.
 ## HTML code:
 
 ```
-> <body>
->     <p id="tips"> Don't rinse your pasta after it is drained. </p>
->     <p> Slice the tomatoes. Take the extra efforts to seed them. </p>
->     <p id="tips"> Peel and seed large tomatoes. </p>
-> </body>
+<body>
+    <p id="tips"> Don't rinse your pasta after it is drained. </p>
+    <p> Slice the tomatoes. Take the extra efforts to seed them. </p>
+    <p id="tips"> Peel and seed large tomatoes. </p>
+</body>
 ```
 
 ## CSS code:
 
 ```
-> #tips::before{
->     background: darkkhaki;
->     color:darkslategray;
->     content: "Tip:";
->     padding-left: 3px;
->     padding-right: 5px;
->     border-radius: 10%;
-> }
-> #tips::after{
->     background:darkkhaki;
->     color:darkslategray;
->     content: "!!";
->     padding-right: 5px;
->     border-radius: 20%;
-> }
+#tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+#tips::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    padding-right: 5px;
+    border-radius: 20%;
+}
 ```
 
  
@@ -8428,11 +8276,9 @@ and the actions will give a combined effect. 
 <h4>Example</h4>
 
 ```
-.sample-class {
-
+  .sample-class {
     transform: rotate(45deg) scale(1.5) translate(45px);
-
-}
+  }
 ```
 
 Additional property under transform:transform-origin
@@ -8442,17 +8288,12 @@ Determines the anchor point for the centering of transform.
 <h4>Example</h4>
 
 ```
-.sample-class {
-
+  .sample-class {
     transform-origin: 10px 10px;
-
-}
-
-.sample-class {
-
+  }
+  .sample-class {
     transform-origin: right bottom;
-
-}
+  }
 ```
 
 ## Transition property
@@ -8492,31 +8333,22 @@ transition: property duration timing-function delay;
 <h4>Example</h4>
 
 ```
-.sample-class {
-
+  .sample-class {
   animation: none 2 ease 0.5 4 normal none running;
-
-}
+  }
 ```
 
 The animation property is a shorthand for the sub-properties below:
 
 ```
-animation-name
-
-animation-duration
-
-animation-timing-function
-
-animation-delay
-
-animation-iteration-count
-
-animation-direction
-
-animation-fill-mode
-
-animation-play-state
+  animation-name
+  animation-duration
+  animation-timing-function
+  animation-delay
+  animation-iteration-count
+  animation-direction
+  animation-fill-mode
+  animation-play-state
 ```
 
 The values not mentioned are given default values.
@@ -8528,25 +8360,19 @@ Animation-name property is used to tie-in the \@keyframes rule.
 ## Syntax
 
 ```
-@keyframes mymove {
-
-  from {property: value}
-
-  to { property: value }
-
-}
+  @keyframes mymove {
+      from {property: value}
+      to { property: value }
+  }
 ```
 
 ## Example
 
 ```
-@keyframes animation-name {
-
+  @keyframes animation-name {
     from {bottom: 0px;}
-
     to {bottom: 100px;}
-
-}
+  }
 ```
 
 Percentage denotes the timing of the animation. 
@@ -8554,24 +8380,22 @@ Percentage denotes the timing of the animation. 
 <h4>Alternative syntax</h4>
 
 ```
-@keyframes animation-name {
-
-/* declare actions here */
-
-}
+  @keyframes animation-name {
+  /* declare actions here */
+  }
 ```
 
 <h4>Example</h4>
 
 ```
-@keyframes animation-name {
+  @keyframes animation-name {
     0%,100%{
         background-color: blue;
     }
     50% {
         background-color: green;
     }
-}
+  }
 ```
 
 ## Multiple animations
@@ -8579,13 +8403,10 @@ Percentage denotes the timing of the animation. 
 Works the same as regular animation, multiple rules can be set. 
 
 ```
-#some-class{
-
-  animation: animation-a 2s linear infinite alternate, 
-
-  animation-b 3s ease infinite alternate;
-
-}  
+  #some-class{
+    animation: animation-a 2s linear infinite alternate, 
+    animation-b 3s ease infinite alternate;
+  }  
 ```
 
 # Preprocessors: sass, scss, Stylus
