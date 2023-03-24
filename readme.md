@@ -6616,9 +6616,7 @@ of a pseudo-element.
 
 ```
 <b>selector::pseudo-element {</b>
-
 <b> property: value;</b>
-
 <b>}</b>
 ```
 
@@ -6654,21 +6652,9 @@ each of the three points in the example text.
 
 ```
 > li::first-letter { 
->
->  
->
 > color:coral; 
->
->  
->
 > font-size: 1.3em; 
->
->  
->
 > font-weight: bold; 
->
->  
->
 > line-height: 1; 
 ```
  
@@ -6693,21 +6679,12 @@ points to light sea green.
 
 ```
 > ul{
->
 >     list-style-type: none;
->
 > }
->
->  
->
 > li::first-line {
->
 >     color: lightseagreen;
->
 >     text-decoration: underline;
->
 >     line-height: 1;
->
 > }
 ```
 
@@ -6740,21 +6717,12 @@ of text.
 
 ```
 > ul{
->
 >     list-style-type: none;
->
 > }
->
->  
->
 > li::selection {
->
 >     color:brown;
->
 >     background-color: antiquewhite;
->
 >     line-height: 1;
->
 > }
 ```
 
@@ -6784,18 +6752,11 @@ experience when you use a marker in the following way.
 
 ```
 > CSS code:
->
 > li::marker {
->
 >     color: cornflowerblue;
->
 >     content: '<> ';
->
 >     font-size: 1.1em;
->
 > }
->
->  
 ```
 
 Output
@@ -6819,51 +6780,29 @@ important tips.
 
 ```
 > <body>
->
 >     <p id="tips"> Don't rinse your pasta after it is drained. </p>
->
 >     <p> Slice the tomatoes. Take the extra efforts to seed them. </p>
->
 >     <p id="tips"> Peel and seed large tomatoes. </p>
->
 > </body>
->
->  
 ```
 
 ## CSS code:
 
 ```
 > #tips::before{
->
 >     background: darkkhaki;
->
 >     color:darkslategray;
->
 >     content: "Tip:";
->
 >     padding-left: 3px;
->
 >     padding-right: 5px;
->
 >     border-radius: 10%;
->
 > }
->
->  
->
 > #tips::after{
->
 >     background:darkkhaki;
->
 >     color:darkslategray;
->
 >     content: "!!";
->
 >     padding-right: 5px;
->
 >     border-radius: 20%;
->
 > }
 ```
 
@@ -7719,8 +7658,17 @@ First, I will write the rules for the box, then I will add rules using a
 hover pseudo class and grouping selectors to perform transformations on
 the box.
 
-![](images/image217.png){width="5.0in" height="2.6142858705161856in"}The
-initial output will be a green box.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. green box/square (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image217.png"
+  width="30%"
+  alt="Green box or square." />
+
+<!-- ![](images/image217.png){width="5.0in" height="2.6142858705161856in"} -->
+
+The initial output will be a green box.
 
 Let\'s go to the CSS file and write the rules for the box.
 
@@ -7752,8 +7700,15 @@ I add a class selector for the box and then add the hover pseudo class.
 This is so that the transform effect that I will add.
 
 Next will only happen when I hover over the box.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218. transformed property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image218.png"
+  width="30%"
+  alt="Transformed Property." />
 
-![](images/image218.png){width="5.0in" height="2.6142858705161856in"}
+<!-- ![](images/image218.png){width="5.0in" height="2.6142858705161856in"} -->
 
 Let\'s add the transformed property.
 
@@ -7812,25 +7767,48 @@ animation property.
 
 But to control the execution of the steps of the animation, they use the
 \@keyframe rule.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. syntax of keyframe rule (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image219.png"
+  width="30%"
+  alt="Synax of the Keyframe rule." />
 
-![](images/image219.png){width="4.0in"
-height="1.2076192038495188in"}Next, let\'s explore the syntax of the
-\@keyframe rule, and the animation property.
+<!-- ![](images/image219.png){width="4.0in" height="1.2076192038495188in"} -->
+
+Next, let\'s explore the syntax of the \@keyframe rule, and the animation property.
 
 The \@keyframe rule specifies the name of the animation, and the
 individual keyframes for the animation.
 
 You define each keyframe with a keyframe selector and CSS styles for
 that keyframe.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220. keyframe rule (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image220.png"
+  width="30%"
+  alt="Keyframe rule." />
 
-![](images/image220.png){width="4.0in" height="1.856084864391951in"}The
-\@keyframe rule can also use the optional keywords, from and to, to show
-transitions.
+<!-- width="4.0in" height="1.856084864391951in"} -->
+
+The \@keyframe rule can also use the optional keywords, from and to, to show transitions.
 
 The animation name links the animation to a specific keyframe rule.
 
-![](images/image221.png){width="4.0in" height="1.7866666666666666in"}The
-animation property has a number of sub properties like animation name,
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. animation property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image221.png"
+  width="30%"
+  alt="Animation property." />
+ 
+<!-- ![](images/image221.png){width="4.0in" height="1.7866666666666666in"} -->
+
+The animation property has a number of sub properties like animation name,
 animation delay, and so on.
 
 You can use a shorthand CSS syntax to set all the sub properties of the
@@ -7841,7 +7819,7 @@ simply leave them out.
 
 However, each of the sub properties can be listed individually as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 222. clock example with hour and minute hands (200) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 222. clock example with hour and minute hands (xxx) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image222.png"
@@ -7865,7 +7843,7 @@ But since the focus of this lesson is to understand the animation part
 of the CSS, the basic styling properties of the clock are not covered
 now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 223. two classes, clock and hand (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 223. two classes, clock and hand (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image223.png"
@@ -7972,37 +7950,12 @@ easier way. 
 
 ```
 > @keyframes animation-name { 
->
->  
->
 > from { 
->
->  
->
 > property-a: value-a; 
->
->  
->
 > } 
->
->  
->
->  
->
->  
->
 > to { 
->
->  
->
 > property-a: value-b; 
->
->  
->
 > } 
->
->  
->
 > } 
 ```
 
@@ -8017,24 +7970,10 @@ completion of the animation. 
 ```
 > @keyframes identifier { 
 >
->  
->
 > 0% {transform: rotate(100deg);} 
->
->  
->
 > 30% {opacity: 1;} 
->
->  
->
 > 50% {opacity: 0.50;} 
->
->  
->
 > 70% {opacity: 1;} 
->
->  
->
 > 100% {transform: rotate(50deg);} 
 ```
 
@@ -8176,8 +8115,9 @@ Now, let's add an intermediary step at 50%.
   width="300"
   alt="Updating keyframes demo - right." />
 </p>
-<!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"}
-![](images/image228.png){width="3.0in" height="1.759047462817148in"} -->
+
+<!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"} -->
+<!-- ![](images/image228.png){width="3.0in" height="1.759047462817148in"} -->
 
 The output is drastically different now after adding just two lines of
 code. Just like this, you can keep adding steps inside your \@keyframes
