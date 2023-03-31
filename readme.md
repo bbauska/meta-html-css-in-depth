@@ -793,7 +793,6 @@ To speed things up for you, there is a link already set up to reference
 the styles.css file in the CSS folder.
 
 By now you can probably see how useful this template is.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 30. body element - with header, nav, main, & footer (21) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -809,7 +808,6 @@ basic semantic structure. This includes the header element for your
 website title or logo, the nav element for your website navigation, the
 main element for your main content, and the footer element for any
 copyright notices or links to secondary webpages.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 31. javascript file calls script elements (21) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -848,7 +846,6 @@ anchor links to the user. These typically link to the main areas of the
 website, such as product pages, careers pages or contact pages. This
 provides the visitor to the website with a consistent navigation
 experience.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. example: top navbar layout (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -865,7 +862,6 @@ Product-focused websites often use a large carousel on their homepage to
 highlight their featured products, discounts and offers. The carousel
 contains content items that will rotate through the carousel area at a
 fixed interval.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. example: carousel layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -883,7 +879,6 @@ importance.
 
 It is often seen on news websites where new articles will appear on the
 page each day based on current events.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 34. example: large style blog layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -995,7 +990,6 @@ convention to identify it as an Open Graph Protocol related tag.
 
 The Open Graph Protocol requires that you must always include four
 properties on a webpage.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 38. four properties required with open graph protocol (ogp) (2x) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1359,11 +1353,15 @@ submission and to ensure data integrity.
 Let\'s examine how HTML allows you to do simple client-side validation.
 
 HTML has several input types that are validated by the web browser.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 42.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image042.png){width="2.0in" height="2.766961942257218in"}
+<p align="center" width="100%">
+<img src="/images/image042.png"
+  width="20%"
+  alt="Three more meta head elements." />
+</p>
+<!-- ![](images/image042.png){width="2.0in" height="2.766961942257218in"} -->
 
 As demonstrated in the example, email is used for email addresses.
 
@@ -1376,11 +1374,15 @@ Say for instance, a user makes mistakes on a user account form when
 entering a telephone number and URL, the browser will validate the
 entered data against the requirements of the input type and provide user
 feedback.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 43.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image043.png){width="3.0in" height="1.2400995188101487in"}
+<p align="center" width="100%">
+<img src="/images/image043.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image043.png){width="3.0in" height="1.2400995188101487in"} -->
 
 Another example is the required attribute, which indicates that the user
 must supply a value to an input field.
@@ -1392,7 +1394,7 @@ That\'s the basics of client and server-side validation of forms.
 You\'ll learn more about HTML validation capabilities in the next
 reading.
 
-Input types
+<h4>Input types</h4>
 
 You already learned about the input HTML tag and how the type property
 determines the data your users can type in. This cheat sheet should be a
@@ -1414,7 +1416,7 @@ images inside the tag.
 <button onclick="alert('Are you sure you want to continue?')"> 
 
   <img src="[https://yourserver.com/button_img.jpg]{.underline}" 
-     alt="Submit the form" height="64" width="64">
+    alt="Submit the form" height="64" width="64">
 
 </button> 
 ```
@@ -1521,7 +1523,7 @@ to the server.
   <input type="email" id="email" name="email">
 ```
 
-<h4><b>File</b></h4>
+<h4>File</h4>
 
 Displays a control that lets the user select and upload a file from
 their computer. To define the types of files permissible you can use the
@@ -1534,7 +1536,7 @@ the \"multiple\" attribute.
   <input type="file" id="myfile" name="myfile">
 ```
 
-<h4><b>Hidden</b></h4>
+<h4>Hidden</h4>
 
 Defines a control that is not displayed but whose value is still
 submitted to the server.
@@ -1543,7 +1545,7 @@ submitted to the server.
   <input type="hidden" id="custId" name="custId" value="3487">
 ```
 
-<h4><b>Image</b></h4>
+<h4>Image</h4>
 
 Defines an image as a graphical submit button. You should use the "src"
 attribute to point to the location of your image file.
@@ -1552,7 +1554,7 @@ attribute to point to the location of your image file.
   <input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
 ```
 
-<h4><b>Number</b></h4>
+<h4>Number</h4>
 
 Defines a control for entering a number. You can use attributes to
 specify restrictions, such as min and max values allowed, number
@@ -1562,7 +1564,7 @@ intervals or a default value.
   <input type="number" id="quantity" name="quantity" min="1" max="5">
 ```
 
-<h4><b>Range</b></h4>
+<h4>Range</h4>
 
 Displays a range widget for specifying a number between two values. The
 precise value, however, is not considered important. This is typically
@@ -1575,7 +1577,7 @@ acceptable values, use the "min" and "max" properties.
   <input type="range" id="volume" name="volume" min="0" max="10">
 ```
 
-<h4><b>Reset</b></h4>
+<h4>Reset</h4>
 
 Displays a button that resets the contents of the form to their default
 values.
@@ -1584,7 +1586,7 @@ values.
   <input type="reset">
 ```
 
-<h4><b>Search</b></h4>
+<h4>Search</h4>
 
 Defines a text field for entering a search query. These are functionally
 identical to text inputs, but may be styled differently depending on the
@@ -1607,7 +1609,7 @@ no time zone.
   <input type="time" id="appt" name="appt">
 ```
 
-<h4><b>Tel</b></h4>
+<h4>Tel</h4>
 
 Defines a control for entering a telephone number. Browsers that do not
 support "tel" fall back to standard text input. You can optionally use
@@ -1619,7 +1621,7 @@ the \"pattern\" field to perform validation.
   <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
 ```
 
-<h4><b>Url</b></h4>
+<h4>Url</h4>
 
 Displays a field for entering a text URL. It works similar to a text
 input, but performs automatic validation before being submitted to the
@@ -1631,7 +1633,7 @@ server.
   <input type="url" id="homepage" name="homepage">
 ```
 
-<h4><b>Week</b></h4>
+<h4>Week</h4>
 
 Defines a control for entering a date consisting of a week-year number
 and a year, with no time zone. Keep in mind that this is a newer type
@@ -1643,7 +1645,7 @@ that is not supported by all the browsers.
   <input type="week" id="week" name="week">
 ```
 
-<h4><b>Month</b></h4>
+<h4>Month</h4>
 
 Displays a control for entering a month and year, with no time zone.
 Keep in mind that this is a newer type that is not supported by all the
@@ -1655,7 +1657,7 @@ browsers.
   <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
 ```
 
-Creating a form
+<h4>Creating a form</h4>
 
 The Little Lemon restaurant wants to expand its service by taking online
 orders to deliver food to customers at home.
@@ -1668,7 +1670,12 @@ user accounts on the Little Lemon website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 44.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image044.png){width="5.0in" height="3.0in"}
+<p align="center" width="100%">
+<img src="/images/image044.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image044.png){width="5.0in" height="3.0in"} -->
 
 I\'ve set up my basic HTML document structure in a file named,
 signup.html.
@@ -1760,9 +1767,14 @@ Everything displays correctly.
 However, I\'d like to improve the user experience by informing the user
 what each field represents.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 45.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 45. add label element before each input (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image045.png){width="5.0in" height="3.115918635170604in"}
+<p align="center" width="100%">
+<img src="/images/image045.png"
+  width="50%"
+  alt="Label element precedes every input." />
+</p>
+<!-- ![](images/image045.png){width="5.0in" height="3.115918635170604in"} -->
 
 To do this, I\'ll add a label element before each input element.
 
@@ -1790,9 +1802,14 @@ Finally, I\'ll add a line break tag after the label element so that the
 input field displays below the label. I then repeat the same process for
 each input element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ x46.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 46. sign up form sample (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image046.png){width="2.0in" height="2.996363735783027in"}
+<p align="center" width="100%">
+<img src="/images/image046.png"
+  width="20%"
+  alt="." />
+</p>
+<!-- ![](images/image046.png){width="2.0in" height="2.996363735783027in"} -->
 
 I save the file again and open the Live Preview.
 
@@ -1800,9 +1817,14 @@ Oh, yes, that\'s much better.
 
 The form labels now display above the input fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 47.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 47. submit button (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image047.png){width="4.0in" height="1.3523129921259842in"}
+<p align="center" width="100%">
+<img src="/images/image047.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image047.png){width="4.0in" height="1.3523129921259842in"} -->
 
 To finalize the form, I need to add one more thing, the submit button.
 Inside the last div element, I add a button element.
@@ -1847,9 +1869,14 @@ validate the format of data, but there are additional attributes that
 you can apply to elements for further validation.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 48.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 48. login form sample (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image048.png){width="6.5in" height="2.2104166666666667in"}
+<p align="center" width="100%">
+<img src="/images/image048.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image048.png){width="6.5in" height="2.2104166666666667in"} -->
 
 First, let\'s explore how you can ensure that the user provides a value
 to a form field. This example of a log-in form contains two fields, one
@@ -1869,7 +1896,12 @@ user enters values to both fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 49.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image049.png){width="6.5in" height="2.2104166666666667in"}
+<p align="center" width="100%">
+<img src="/images/image049.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image049.png){width="6.5in" height="2.2104166666666667in"} -->
 
 Now with the required attribute in the code, if one of the fields is
 empty and the user clicks the submit button, the request will not be
@@ -1877,7 +1909,12 @@ submitted to the web server.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image050.png){width="2.7395833333333335in" height="4.697916666666667in"}
+<p align="center" width="100%">
+<img src="/images/image050.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image050.png){width="2.7395833333333335in" height="4.697916666666667in"} -->
 
 The web browser will focus on the first empty input element and inform the user that a field is empty.
 
@@ -1898,7 +1935,12 @@ correct length of data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image051.png){width="6.5in" height="2.49375in"}
+<p align="center" width="100%">
+<img src="/images/image051.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image051.png){width="6.5in" height="2.49375in"} -->
 
 You can add the min length and max length attributes to the fields to
 specify the required length. In this case, since the minimum value for
@@ -1923,7 +1965,12 @@ element selector.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 52.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image052.png){width="6.5in" height="2.8131944444444446in"}
+<p align="center" width="100%">
+<img src="/images/image052.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image052.png){width="6.5in" height="2.8131944444444446in"} -->
 
 You then apply the pseudo-class selector called invalid.
 
@@ -1935,7 +1982,12 @@ invalid.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 53.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image053.png){width="6.5in" height="2.8131944444444446in"}
+<p align="center" width="100%">
+<img src="/images/image053.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image053.png){width="6.5in" height="2.8131944444444446in"} -->
 
 Then you add a CSS property to set the border of the element to read.
 
@@ -1950,7 +2002,12 @@ data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 54.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image054.png){width="6.5in" height="3.154166666666667in"}
+<p align="center" width="100%">
+<img src="/images/image054.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image054.png){width="6.5in" height="3.154166666666667in"} -->
 
 To do this, you need to apply another pseudo-class called focus, which
 checks if the user is currently entering data into this field.
@@ -1979,6 +2036,11 @@ course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 55.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image055.png"
+  width="30%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0](images/image055.png){width="3.4375in" height="0.4270833333333333in"}
 
 <h4>How to get started working on Labs</h4>
@@ -1987,6 +2049,11 @@ The Labs contain instructions explaining the coding task.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 56.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image056.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](images/image056.png){width="5.0in"
 height="3.3633628608923885in"}
 
@@ -1996,6 +2063,11 @@ code!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 57.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image057.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](images/image057.png){width="5.0in"
 height="2.674922353455818in"}
 
@@ -2004,6 +2076,11 @@ sidebar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image058.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](images/image058.png){width="5.0in"
 height="2.674922353455818in"}
 
@@ -2011,6 +2088,11 @@ And the large editor area where you write your code for the lab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image059.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](images/image059.png){width="5.0in"
 height="2.674922353455818in"}
 
@@ -2041,6 +2123,11 @@ toolbar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image060.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](images/image060.png){width="5.0in"
 height="3.3579494750656167in"}
 
@@ -2057,6 +2144,11 @@ device</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image061.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](images/image061.png){width="5.0in"
 height="3.4154932195975505in"}
 
@@ -2068,6 +2160,11 @@ device into the Visual Studio Code file tree.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image062.png"
+  width="50%"
+  alt="." />
+</p>
 ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](images/image062.png){width="5.0in"
 height="3.491418416447944in"}
 
@@ -2094,7 +2191,12 @@ For example for index.html, this could be renamed to *\`index
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image063.png){width="5.0in" height="3.5083333333333333in"}
+<p align="center" width="100%">
+<img src="/images/image063.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image063.png){width="5.0in" height="3.5083333333333333in"} -->
 
 1.  You should now see a fresh copy of the original instructor-provided
     files in your lab, in addition to your own (renamed) files.
@@ -2150,8 +2252,14 @@ table booking system to their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image064.png){width="3.0in" height="1.6472222222222221in"}By
-now, you should know that a HTML form will be an ideal solution for
+<p align="center" width="100%">
+<img src="/images/image064.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image064.png){width="3.0in" height="1.6472222222222221in"} -->
+
+By now, you should know that a HTML form will be an ideal solution for
 that.
 
 Like most restaurants, Little Lemon has different table sizes and
@@ -2173,8 +2281,14 @@ Now, let\'s explore how to set up a HTML form with radio buttons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image065.png){width="5.0in" height="3.546474190726159in"}I\'ve
-opened Visual Studio Code and added a new file called booking.html.
+<p align="center" width="100%">
+<img src="/images/image065.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image065.png){width="5.0in" height="3.546474190726159in"} -->
+
+I\'ve opened Visual Studio Code and added a new file called booking.html.
 
 I\'ve set up the basic HTML structure and added a form element.
 
@@ -2250,7 +2364,12 @@ Again, I set the name attribute to location.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image066.png){width="5.0in" height="2.6196576990376204in"}
+<p align="center" width="100%">
+<img src="/images/image066.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image066.png){width="5.0in" height="2.6196576990376204in"} -->
 
 I save the file and open it in Live Preview. Success.
 
@@ -2259,7 +2378,12 @@ The form is set up correctly. Let\'s test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image067.png){width="5.0in" height="2.6196576990376204in"}
+<p align="center" width="100%">
+<img src="/images/image067.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image067.png){width="5.0in" height="2.6196576990376204in"} -->
 
 If I choose an option for the table size and then choose a different
 option, my previous choice is deselected.
@@ -2275,7 +2399,12 @@ the user to accurately select the small button elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image068.png){width="6.0in" height="3.223718285214348in"}
+<p align="center" width="100%">
+<img src="/images/image068.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image068.png){width="6.0in" height="3.223718285214348in"} -->
 
 Luckily, there is a way to improve this by setting the text and button
 as the input area.
@@ -2453,7 +2582,12 @@ the web browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image069.png){width="3.0in" height="1.6926279527559056in"}
+<p align="center" width="100%">
+<img src="/images/image069.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image069.png){width="3.0in" height="1.6926279527559056in"} -->
 
 By now, you know that the web browser communicates with a web server using
 a HTTP request response cycle.
@@ -2783,9 +2917,14 @@ To select the input HTML element, use the input element selector, and
 then specify the individual styling by adding a pair of square brackets,
 and then type equals in this case text or email.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 78. type text and email with css, cont'd (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image078.png){width="5.0in" height="2.58707239720035in"}
+<p align="center" width="100%">
+<img src="/images/image078.png"
+  width="50%"
+  alt="Input type of text and email with css." />
+</p>
+<!-- ![](images/image078.png){width="5.0in" height="2.58707239720035in"} -->
 
 Then apply CSS properties to set the font, width, height, and border.
 
@@ -2835,10 +2974,14 @@ appearance of the element. For example, this code:
 Results in the following output:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 79.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 79. login form (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Two input types, text and password, as it displays in the
-browser.](images/image079.png){width="2.0in" height="1.397195975503062in"}
+<p align="center" width="100%">
+<img src="/images/image079.png"
+  width="20%"
+  alt="Two input types, text and password, as it displays in the browser." />
+</p>
+<!-- !(images/image079.png){width="2.0in" height="1.397195975503062in"} -->
 
 Note how the type <b>password</b> hides the user input.
 
@@ -2849,7 +2992,7 @@ of which should be equal to the id attribute of the element it is
 associated with. Note how in the example above, the <b>\<label\></b> is
 associated with the <b>\<input\></b> using its id value.
 
-<h4>\<select\></h4>
+<h4>&lt;select&gt;</h4>
 
 Defines a drop-down list of options presented to the user. It has a
 couple of attributes:
@@ -2898,7 +3041,7 @@ longer textual data. The common attributes for this element include:
   </textarea>
 ```
 
-<h4>\<button\></h4>
+<h4>&lt;button&gt;</h4>
 
 Defines a clickable button. The <b>onclick</b> attribute defines the
 behavior when the button is clicked by the user. For example, in the
@@ -2909,13 +3052,13 @@ code below, an alert message is shown to the user.
   </button>
 ```
 
-<h4>\<fieldset\></h4>
+<h4>&lt;fieldset&gt;</h4>
 
 Used to group related input elements in a form. For instance, elements
 related to the user's personal information and educational qualification
 can be grouped separately in two field sets.
 
-<h4>\<legend\></h4>
+<h4>&lt;legend&gt;</h4>
 
 Defines a caption for the <b>\<fieldset\></b> element. For example:
 
@@ -2936,7 +3079,7 @@ Defines a caption for the <b>\<fieldset\></b> element. For example:
   </fieldset> 
 ```
 
-<h4>\<datalist\></h4>
+<h4>&lt;datalist&gt;</h4>
 
 Specifies a list of pre-defined options for an input element. It differs
 from <b>\<select\></b> since the user can still provide textual or numeric
@@ -2960,8 +3103,12 @@ input other than the listed options.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Datalist input type with its drop-down list containing the options
-visible](images/image080.png){width="2.0in" height="2.150837707786527in"}
+<p align="center" width="100%">
+<img src="/images/image080.png"
+  width="20%"
+  alt="Datalist input type with its drop-down list containing the options visible." />
+</p>
+<!-- !(images/image080.png){width="2.0in" height="2.150837707786527in"} -->
 
 <h4>\<output\></h4>
 
@@ -2987,18 +3134,22 @@ below the code block.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Option input type as with its drop-down list
-visible](images/image081.png){width="2.0in" height="1.5905511811023623in"}
+<p align="center" width="100%">
+<img src="/images/image081.png"
+  width="20%"
+  alt="Option input type as with its drop-down list (visible)." />
+</p>
+<!-- !(images/image081.png){width="2.0in" height="1.5905511811023623in"} -->
 
 By default, the first item in the drop-down list is selected. To define
 a pre-selected option, add the selected attribute to the option.
 
-## \<optgroup\> 
+<h4>&lt;optgroup&gt;</h4>
 
 Defines a group of related options in a drop-down list. Its attribute
 label names the group.
 
-## Additional resources
+<h4>Additional resources</h4>
 
 The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
@@ -4981,11 +5132,11 @@ out some of the techniques shown in this section.
 Don\'t forget the repeat and min-max functions, they\'ll save you time
 and effort.
 
-# Grids and flexbox cheat sheet
+## Grids and flexbox cheat sheet
 
 Note: '\|' stands for alternatives or OR.
 
-# Grid 
+## Grid 
 
 The syntax for creating a grid:
 
