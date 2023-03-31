@@ -20,7 +20,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
   width="10%"
-  alt="meta logo" />
+  alt="meta logo." />
 </p>
 <!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
 
@@ -409,19 +409,19 @@ of the article.
 
 It is important to note that sections should contain heading elements to
 semantically describe the section.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 14. descriptive section elements - describes web page (09) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image014.png"
-  width="40%"
+  width="50%"
   alt="Descriptive section elements - describes web page." />
 </p>
 <!-- ![](images/image014.png){width="4.0in" height="1.9722222222222223in"} -->
 
 It is also possible to use section elements to describe different sections of
-your webpage, the section element doesn't require the article element.\
+your webpage, the section element doesn't require the article element.
+
 It all depends on how you want to semantically describe your page.
 
 And now you know how to semantically describe the contents of a web
@@ -431,26 +431,23 @@ described to add meaning.
 Now, search engines and accessibility software can easily understand the
 contents of your well-formed web page.
 
-Semantic tags in action
+<h4>Semantic tags in action</h4>
 
 The Little Lemon Restaurant has asked me to add a new blog page to their
 website. They\'ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. basic html document structure (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image015.png"
-  width="40%"
+  width="50%"
   alt="Basic HTML document structure ." />
 </p>
 <!-- ![](images/image015.png){width="4.0in" height="2.4551279527559053in"} -->
 
-I\'ve set up my basic html document structure in a file named blog.html.
-I\'ll start off by adding my basic semantic structure.
-
+I\'ve set up my basic html document structure in a file named blog.html.  I\'ll start off by adding my basic semantic structure.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -521,17 +518,11 @@ I\'m sure that the Little Lemon Restaurant will get lots of business
 through their blog, and their customers with disabilities will be able
 to access the blog with no problems
 
-Metadata
+<h4>Metadata</h4>
 
-When was the last time you used a search engine? Probably in the last
-few hours or minutes. Perhaps you just wanted to quickly look something
-up or maybe you needed more in-depth information on a topic. Either way,
-the search engine you used will have returned a list of results that
-were most relevant to what you searched for. But how does a search
-engine determine which web pages are most relevant in this video? You
-will learn how search engines analyze web pages and how meta tags help
-provide information for search engines.
+When was the last time you used a search engine? Probably in the last few hours or minutes. Perhaps you just wanted to quickly look something up or maybe you needed more in-depth information on a topic. Either way, the search engine you used will have returned a list of results that were most relevant to what you searched for. 
 
+But how does a search engine determine which web pages are most relevant in this video? You will learn how search engines analyze web pages and how meta tags help provide information for search engines.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo - search engine optimization (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -543,9 +534,10 @@ provide information for search engines.
 <!-- ![](images/image017.png){width="3.1041666666666665in" height="1.8125in"} -->
 
 A major part of launching a website is a process called search engine
-optimization or SEO. This process involves making improvements to a
+optimization or SEO.  This process involves making improvements to a
 website's content semantics & delivery to improve its ranking in search
-results.\
+results.
+
 You might be wondering what exactly does a search engine do when it
 analyzes a web page?
 
@@ -559,18 +551,13 @@ the entire website.
 Based on the results of the analysis and the content on your website,
 the search engine will rank the website for various search terms.
 
-So, while your website might be the number one result for one search
-term, it could rank very low for another.
+While your website might be the number one result for one search term, it could rank very low for another.
 
 Every search engine has its own algorithm for ranking websites.
 
-And while it\'s not disclosed how the ranks are determined, there are
-many best practices you can follow to influence how search engines
-analyze and rank your website.
+And while it\'s not disclosed how the ranks are determined, there are many best practices you can follow to influence how search engines analyze and rank your website.
 
-But for now, let\'s just focus on how meta tags influence website
-ranking.
-
+But for now, let\'s just focus on how meta tags influence website ranking.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags and metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -693,11 +680,11 @@ bots, that search engines used to analyze websites.
 </p>
 <!-- ![](images/image025.png){width="2.6041666666666665in" height="4.90625in"} -->
 
-The content attribute for Robots has four possible values. Index tells
-the bot to analyze the page. Follow tells the bot to also visit all
-links on the web page. No index tells the bot not to analyze the page.
+The content attribute for Robots has four possible values. <i>Index</i> tells
+the bot to analyze the page. <i>Follow</i> tells the bot to also visit all
+links on the web page. <i>No index</i> tells the bot not to analyze the page.
 Some bots will ignore this so it\'s best not to rely on this to stop
-bots from analyzing your page and no follow tells the bot not to visit
+bots from analyzing your page and <i>no follow</i> tells the bot not to visit
 links on the web page. Again, some bots will ignore this value so it\'s
 best not to rely on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -710,28 +697,21 @@ best not to rely on it.
 </p>
 <!-- ![](images/image026.png){width="6.0in" height="2.1801279527559054in"} -->
 
-Finally, there\'s the view ports metadata. The view port metadata is
+Finally, there\'s the <i>view ports</i> metadata. The <i>view port</i> metadata is
 important when designing responsive web pages. Why you might ask. Because
 when a web pages is viewed on a phone or tablet, the device will by default
 attempt to render the web page as if it is being viewed on a desktop.
-This results in a poor browsing experience for the user. The solution is
-to define view ports metadata. There are many values available for view
-ports metadata. The most used value for the mobile experiences is to set
-the width to device dash with and the initial scale to 1.0, you can
-learn more about view ports in the additional reading. It\'s important
-to note that view port metadata does not solve all the issues with
-browsing websites on mobile devices.
+This results in a poor browsing experience for the user. 
+
+The solution is to define <i>view ports</i> metadata. 
+
+There are many values available for <i>view ports</i> metadata. The most used value for the mobile experiences is to set the width to device dash with and the initial scale to 1.0, you can learn more about view ports in the additional reading. It\'s important to note that view port metadata does not solve all the issues with browsing websites on mobile devices.
 
 The other part of the solution is responsive web design.
 
-But we were talking about search engine optimization, right? View port
-metadata is important for the user experience and it\'s also important
-for search engine optimization.
+But we were talking about search engine optimization, right? View port metadata is important for the user experience and it\'s also important for search engine optimization.
 
-This is because many search engines now include websites mobile
-experience as a part of their ranking algorithms, there is more metadata
-that you can define on you web page to specifically improve its presence
-on social media.
+This is because many search engines now include websites mobile experience as a part of their ranking algorithms, there is more metadata that you can define on you web page to specifically improve its presence on social media.
 
 But that\'s for later modules.
 
@@ -749,7 +729,7 @@ For now, it\'s important to know that author, description, keywords,
 robots and viewports metadata all play a role in the search engine
 optimization of web pages.
 
-Bare bones layout
+<h4>Bare bones layout</h4>
 
 An important part of being a developer is not just the tools you use,
 such as your integrated development environment, but also the repository
@@ -850,7 +830,7 @@ projects.
 In this module, you\'ve been introduced to a semantic HTML template that
 you can use for building webpages. Good luck.
 
-Layout design
+<h4>Layout design</h4>
 
 As you build web pages throughout your career, you'll notice that many
 pages follow similar layouts and structures. This is the outcome of many
@@ -861,7 +841,7 @@ best practices.
 Many examples of these layouts can be seen in the popular bootstrap
 framework. However, many other frameworks provide similar designs.
 
-Top navbar layout
+<h4>Top navbar layout</h4>
 
 Websites often have a top navbar layout to provide a set of essential
 anchor links to the user. These typically link to the main areas of the
@@ -877,9 +857,9 @@ experience.
   width="60%"
   alt="Example: Top navbar layout." />
 </p>
-<!-- ![Example of a top navbar layout on a web page.](images/image032.png){width="6.0in" height="2.6327504374453192in"} -->
+<!-- (images/image032.png){width="6.0in" height="2.6327504374453192in"} -->
 
-Carousel layout
+<h4>Carousel layout</h4>
 
 Product-focused websites often use a large carousel on their homepage to
 highlight their featured products, discounts and offers. The carousel
@@ -896,7 +876,7 @@ fixed interval.
 </p>
 <!-- (images/image033.png){width="6.0in" height="3.431632764654418in"} -->
 
-Blog layout
+<h4>Blog layout</h4>
 
 The blog layout is used to feature multiple content items of differing
 importance.
@@ -926,7 +906,7 @@ a series of article summary areas that link to full articles.
 </p>
 <!-- (images/image035.png){width="6.0in" height="3.579003718285214in"} -->
 
-Dashboard layout
+<h4>Dashboard layout</h4>
 
 Dashboard layouts are often used in enterprise software for managing
 various web applications. They typically feature a sidebar for
@@ -943,7 +923,7 @@ a good user experience for business users.
 </p>
 <!-- (images/image036.png){width="6.0in" height="3.0491305774278215in"} -->
 
-More layouts
+<h4>More layouts</h4>
 
 You can explore more of these layouts on the bootstrap examples page in
 the additional resources.
@@ -951,7 +931,7 @@ the additional resources.
 Consider these layouts when building websites and web applications so
 that you provide your audience with the best user experience possible.
 
-UX with meta tags
+<h4>UX with meta tags</h4>
 
 Social networks are a great tool to share content with friends and
 family, and even with coworkers and business partners.
@@ -994,7 +974,8 @@ in 2010.
 <!-- ![](images/image037.png){width="3.3in" height="1.4413790463692038in"} -->
 
 The Open Graph Protocol is a set of Metadata rules that allow web pages to
-describe themselves to social networks.\
+describe themselves to social networks.
+
 There are many Metadata options available within the protocol, but
 before you learn about them, let\'s first discuss how the Open Graph
 Protocol Metadata is defined.
@@ -1057,9 +1038,14 @@ about later. But let\'s briefly explore three of these.
 
 The description property provides a description of the webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 39.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 39. description property (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image039.png){width="4.0in" height="1.2213681102362204in"}
+<p align="center" width="100%">
+<img src="/images/image039.png"
+  width="40%"
+  alt="The description property." />
+</p>
+<!-- ![](images/image039.png){width="4.0in" height="1.2213681102362204in"} -->
 
 The og:locale property describes the language and territory of the
 webpage\'s content.
@@ -1078,18 +1064,17 @@ Next time you share a website on a social network, you can use what
 you\'ve learned about Open Graph Protocol properties to generate more
 clicks.
 
-Social media cards
+<h4>Social media cards</h4>
 
 Before Facebook introduced the Open Graph Protocol (OGP), search engine
 web crawlers, including social media websites, used the internal
 heuristics of a website to make the best possible guess in terms of the
 title, description, and preview images to be used for the content. This
 often led to social networks not completely successfully interpreting
-the post or information shared in the URL provided. Even today sometimes
-when you open a link for a website, the preview generated will be an
-out-of-scale image or a random image that is possibly embedded somewhere
-within the web page. This is where meta tags come in to help the
-end-user take better control of their content.
+the post or information shared in the URL provided. 
+
+Even today sometimes when you open a link for a website, the preview generated will be an
+out-of-scale image or a random image that is possibly embedded somewhere within the web page. This is where meta tags come in to help the end-user take better control of their content.
 
 Over the years, the successful implementation of OGP has led to other
 social media giants, including sister companies owned by Meta, to adopt
@@ -1097,7 +1082,7 @@ the protocol to improve the user experience. These platforms have their
 own meta tags that prefix and replace 'og' that you have encountered
 earlier in the course.
 
-Need for social media cards
+<h4>Need for social media cards</h4>
 
 With the number of users and the use of internet marketing on the rise,
 user attention is the currency. It is said that a picture is worth a
@@ -1119,10 +1104,11 @@ of social media cards becomes very important.
 The extra time spent by a developer to add social media tags is worth
 the effort!
 
-Social media cards and SEO
+<h4>Social media cards and SEO</h4>
 
 The internet today is an interconnected graph that is internally a web
 of URL links, web crawlers, and search engine optimization tools.
+
 Together, a web page's image and title are the store front to invite the
 user. But the social media cards also play an important role in boosting
 the rankings for the web crawlers used by search engines. They provide
@@ -1139,7 +1125,7 @@ displayed on social media websites like Meta.
 Meta also has a dedicated page to assist developers that you can find in
 the additional resources for this section.
 
-Setting up a social media card
+<h4>Setting up a social media card</h4>
 
 Little Lemon restaurant has hired a marketing firm to help them
 advertise their business.
@@ -1154,11 +1140,15 @@ Now let\'s examine how to prepare a web page so it can be linked on
 social media platforms.
 
 I\'ve opened index.html in visual studio code.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 40.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 40.  (xx) meta template for index.html (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image040.png){width="5.0in" height="2.775107174103237in"}
+<p align="center" width="100%">
+<img src="/images/image040.png"
+  width="50%"
+  alt="Four pieces of metadata required by the OG protocol." />
+</p>
+<!-- ![](images/image040.png){width="5.0in" height="2.775107174103237in"} -->
 
 At a minimum, I need to add four pieces of metadata required by the
 protocol.
@@ -1209,14 +1199,18 @@ information to the platforms.
 Since the platforms vary in what they display to their users, it\'s best
 to provide as much information as possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 41.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 41. more meta tags for head element in index.html (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image041.png){width="5.0in" height="2.775107174103237in"}
+<p align="center" width="100%">
+<img src="/images/image041.png"
+  width="50%"
+  alt="Three more meta head elements." />
+</p>
+<!-- ![](images/image041.png){width="5.0in" height="2.775107174103237in"} -->
 
-I\'ll add three more or meta tags to the head element.
+I\'ll add three more meta tags to the head element.
 
-On the first tag, I had the property attribute and set its value to
-og:description.
+On the first tag, I had the property attribute and set its value to og:description.
 
 I then add the content attribute and set its value to Little Lemon is a
 family-owned Mediterranean restaurant, focused on traditional recipes
@@ -1235,14 +1229,14 @@ This will inform the social media platforms that the locale of the
 website is US English.
 
 On the last tag, I add the property attribute and set its value to
-og:site_name.
+<i>og:site_name</i>.
 
 I then add the content attribute and set its value to Little Lemon.
 
 Some social media platforms will also display the website name beside
 the page title.
 
-So, this will ensure that the website title is correct.
+This will ensure that the website title is correct.
 
 The Little Lemon website is now ready for its big social media campaign.
 
@@ -1257,7 +1251,7 @@ image, and URL.
 You also learned how to add additional meta tags that provide extra
 information like the website description and locale. Well done.
 
-Additional resources
+<h4>Additional resources</h4>
 
 The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
@@ -1297,7 +1291,7 @@ in this section. 
 -   [Bootstrap Layout
     Examples](https://getbootstrap.com/docs/5.2/examples/)
 
-Forms and validation
+<h4>Forms and validation</h4>
 
 You\'ve most likely encountered forms when registering an account on a
 website, or when filling out your address for something you\'ve bought
@@ -1466,9 +1460,7 @@ form's \"action\" attribute:
 
 ```
   <form action="myserver.com" method="POST">
-
   ...
-
   <input type="submit" value="Submit" />
 
   </form>
@@ -2115,7 +2107,6 @@ This code is placed inside the \<main\> element of index.html.
 
 ```
 <form>
-
   <div>
     <label for="username">Username</label>
     <input type="text" id="username" required minlength="2">
@@ -2127,7 +2118,6 @@ This code is placed inside the \<main\> element of index.html.
   </div>
 
   <button type="submit">Log In</button>
-
 </form>
 ```
 
@@ -2623,9 +2613,9 @@ username and password to a web server to log you into your account.
 As you know by now, you add a form to your web page using the form tag.
 
 ```
-> <form> 
->
-> </form> 
+  <form>
+
+  </form>
 ```
 
 But how the form is submitted is determined by two essential attributes:
@@ -2636,9 +2626,9 @@ sent. This is address is location of server-side code that will process
 the request.
 
 ```
-> <form action="/login"> 
->
-> </form> 
+  <form action="/login">
+
+  </form>
 ```
 
 It is important to note that action can be a full URL address such as
@@ -2663,13 +2653,11 @@ The method attribute specifies which HTTP method is used to submit the
 form; GET or POST.
 
 ```
-> <form method="get"> 
->
-> </form> 
->
-> <form method="post"
->
-> </form> 
+  <form method="get"> 
+  </form> 
+
+  <form method="post">
+  </form> 
 ```
 
 The form will default to the HTTP GET method when the method attribute
@@ -2832,19 +2820,16 @@ password, submit, text,</b> and <b>url</b>. These values dictate the
 appearance of the element. For example, this code:
 
 ```
-<form action="my_action_page"> 
+  <form action="my_action_page"> 
+    <label for="uname">Username:</label><br>
+    <input type="text" id="uname" name="username"><br> 
 
-  <label for="uname">Username:</label> 
-  <br> 
-  <input type="text" id="uname" name="username"> 
-  <br> 
-  <label for="pwd">Password:</label> 
-  <br> 
-  <input type="password" id="pwd" name="pwd"> 
-  <br><br> 
-  <input type="submit" value="Login"> 
+    <label for="pwd">Password:</label><br> 
+    <input type="password" id="pwd" name="pwd"><br>
 
-</form> 
+    <br> 
+    <input type="submit" value="Login"> 
+  </form> 
 ```
 
 Results in the following output:
@@ -2958,18 +2943,18 @@ from <b>\<select\></b> since the user can still provide textual or numeric
 input other than the listed options.
 
 ```
-<form action="/my_action_page"> 
-  <label for="flowers">Favourite flower:</label><br> 
-  <input list="flowers" name="flowers"> 
-  <datalist id="flowers"> 
-    <option value="Rose"> 
-    <option value="Lily"> 
-    <option value="Tulip"> 
-    <option value="Daffodil"> 
-    <option value="Orchid"> 
-  </datalist> 
-  ... 
-</form>
+  <form action="/my_action_page"> 
+    <label for="flowers">Favourite flower:</label><br> 
+    <input list="flowers" name="flowers"> 
+    <datalist id="flowers"> 
+      <option value="Rose"> 
+      <option value="Lily"> 
+      <option value="Tulip"> 
+      <option value="Daffodil"> 
+      <option value="Orchid"> 
+    </datalist> 
+    ... 
+  </form>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2990,13 +2975,13 @@ demonstrates how a simple list can be defined, with the rendered view
 below the code block.
 
 ```
-<label for="course">Choose a course:</label><br> 
-<select id="course" name="courselist"> 
-  <option value="html">HTML Introduction</option> 
-  <option value="css">Styling with CSS</option> 
-  <option value="js">JavaScript</option> 
-  <option value="react">React Basics</option> 
-</select> 
+  <label for="course">Choose a course:</label><br>
+  <select id="course" name="courselist">
+    <option value="html">HTML Introduction</option>
+    <option value="css">Styling with CSS</option>
+    <option value="js">JavaScript</option>
+    <option value="react">React Basics</option>
+  </select>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3271,13 +3256,10 @@ of the image. The <b>\<img\></b> tag is added inside the <b>\<figure\></b> tag
 and the <b>\<figcaption\></b> is specified after it.
 
 ```
-<figure> 
-
-   <img src="[photo.png]{.underline}" width="320" alt="My Profile Photo"> 
-
-   <figcaption>A photo of myself on a beach in 2015</figcaption> 
-
-</figure>
+  <figure> 
+    <img src="[photo.png]{.underline}" width="320" alt="My Profile Photo"> 
+    <figcaption>A photo of myself on a beach in 2015</figcaption>
+  </figure>
 ```
 
 One last thing to note is that like videos and audio, the web browser
@@ -3503,7 +3485,7 @@ accessibility purposes. The value of this attribute should accurately
 describe the iframe\'s content.
 
 ```
-  <iframe src="[history.html]{.underline}" title="An embedded document about the history of my family" > 
+  <iframe src="[history.html]{.underline}" title="An embedded document about the history of my family" >
   </iframe>
 ```
 
@@ -4002,12 +3984,12 @@ to configure a flexbox.
 <h4>Original CSS file:</h4>
 
 ```
-.box{
+  .box{
     background-color: aquamarine;
     border-radius: 5px;
     margin: 2px;
     padding: 10px;
-}
+  }
 ```
 
 <h4>Output:</h4>
@@ -4031,11 +4013,9 @@ flex.
 ## display: flex;
 
 ```
-.flex-container{
-
+  .flex-container{
     display: flex;
-
-}
+  }
 ```
 
 The output is now seven flex containers that run from left to right
@@ -4072,13 +4052,10 @@ Let's first examine the use of justify-content which has a value of
 ## CSS:
 
 ```
-.flex-container{
-
+  .flex-container{
     display: flex;
-
     justify-content: center
-
-}
+  }
 ```
  
 
@@ -4095,15 +4072,11 @@ The default for this property is 'nowrap' which means the items will
 span the entire width of the axis.
 
 ```
-.flex-container{
-
+  .flex-container{
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
-}
+  }
 ```
  
 
@@ -4126,15 +4099,10 @@ rows to vertical columns.
 
 ```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
 }
 ```
 
@@ -4159,17 +4127,11 @@ Let's change the value for it to 'flex-end'.
 
 ```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
 }
 ```
 
@@ -4189,25 +4151,15 @@ This property can be used on individual items inside the flex.
 
 ```
 .flex-container{
-
     display: flex;
-
     justify-content: center;
-
     flex-direction: column;
-
     flex-wrap: wrap;
-
     align-items:flex-end;
-
 }
-
 .box3{
-
     background-color: blanchedalmond;
-
     align-self: center;
-
 }
 ```
 
@@ -6466,9 +6418,9 @@ of a pseudo-element.
 <h3>Syntax</h3>
 
 ```
-<b>selector::pseudo-element {</b>
-<b> property: value;</b>
-<b>}</b>
+selector::pseudo-element {
+  property: value;
+}
 ```
 
 It is important to note that pseudo-elements use two colon characters
@@ -6598,8 +6550,10 @@ Markers are typically used to add style elements to a list, for
 instance, to color bullet points. For example, you can enhance the user
 experience when you use a marker in the following way.
 
+
+<h4>CSS code:</h4>
+
 ```
-CSS code:
 li::marker {
     color: cornflowerblue;
     content: '<> ';
@@ -6607,7 +6561,7 @@ li::marker {
 }
 ```
 
-Output
+<h4>Output</h4>
 
 ![](images/image186.png){width="4.0in" height="2.205076552930884in"}
 
@@ -6627,11 +6581,11 @@ important tips.
 ## HTML code:
 
 ```
-<body>
+  <body>
     <p id="tips"> Don't rinse your pasta after it is drained. </p>
     <p> Slice the tomatoes. Take the extra efforts to seed them. </p>
     <p id="tips"> Peel and seed large tomatoes. </p>
-</body>
+  </body>
 ```
 
 ## CSS code:
@@ -7797,14 +7751,14 @@ easier way. 
 ## from{} and to{} keywords and using percentages(%) syntax
 
 ```
-> @keyframes animation-name { 
-> from { 
-> property-a: value-a; 
-> } 
-> to { 
-> property-a: value-b; 
-> } 
-> } 
+@keyframes animation-name { 
+from { 
+property-a: value-a; 
+} 
+to { 
+property-a: value-b; 
+} 
+} 
 ```
 
 The \'from\' and \'to\' keywords are used inside the \@keyframes rule to
@@ -7816,13 +7770,13 @@ more steps to your animation by using a percentage that represents the
 completion of the animation. 
 
 ```
-> @keyframes identifier { 
->
-> 0% {transform: rotate(100deg);} 
-> 30% {opacity: 1;} 
-> 50% {opacity: 0.50;} 
-> 70% {opacity: 1;} 
-> 100% {transform: rotate(50deg);} 
+@keyframes identifier { 
+
+0% {transform: rotate(100deg);} 
+30% {opacity: 1;} 
+50% {opacity: 0.50;} 
+70% {opacity: 1;} 
+100% {transform: rotate(50deg);} 
 ```
 
 The different percentages used in the example demonstrate the
@@ -7950,7 +7904,6 @@ Now, let's add an intermediary step at 50%.
 ```
 
 <h3>Output:</h3>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. keyframes, left image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes, right image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8194,11 +8147,9 @@ and degree of rotations
 <h4>Variations: translate(), translate3d(), translateX(), translateY(), translateZ()</h4>
 
 ```
-> .sample-class {
->
->     transform: translate3d(10px, 20px, 30px);
->
-> }
+.sample-class {
+    transform: translate3d(10px, 20px, 30px);
+}
 ```
 
 Note: In translate3d(), the respective values represent translation
@@ -8209,11 +8160,9 @@ along the x, y, z co-ordinates
 <h4>Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()</h4>
 
 ```
-> .sample-class {
->
->     transform: scale3d(2, 1, 0.3);
->
-> }
+.sample-class {
+    transform: scale3d(2, 1, 0.3);
+}
 ```
 
 Note: In scale3d(), the respective values represent scaling times along
@@ -8224,45 +8173,29 @@ the x, y, z co-ordinates
 <h4>Variations: skew(), skewX(), skewY()</h4>
 
 ```
-> .sample-class {
->
->     transform: skew(100deg);
->
-> }
+.sample-class {
+    transform: skew(100deg);
+}
 ```
 
 <h4><b>Global value types:</b></h4>
 
 ```
-> .sample-class {
->
->     transform: inherit;
->
-> }
->
-> .sample-class {
->
->     transform: initial;
->
-> }
->
-> .sample-class {
->
->     transform: revert;
->
-> }
->
-> .sample-class {
->
->     transform: revert-layer;
->
-> }
->
-> .sample-class {
->
->     transform: unset;
->
-> }
+.sample-class {
+    transform: inherit;
+}
+.sample-class {
+    transform: initial;
+}
+.sample-class {
+    transform: revert;
+}
+.sample-class {
+    transform: revert-layer;
+}
+.sample-class {
+    transform: unset;
+}
 ```
 
 ## Multiple transform over the same element
@@ -9950,9 +9883,9 @@ manicurist and one make-up artist.
 
 ## Download their logos here:
 
-<b>[Hair Day logos]{.underline}</b>
+#### Hair Day logos
 
-[ZIP File]{.underline}
+[ZIP File]
 
 ## <b>Restaurant: Little Lemon</b> 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9963,8 +9896,7 @@ manicurist and one make-up artist.
   width="40%"
   alt="Logo of the fictional client Little Lemon." />
 </p>
-
-<!-- ![Logo of the fictional client Little Lemon](images/image241.png){width="4.0in" height="1.0925109361329834in"} -->
+<!-- (images/image241.png){width="4.0in" height="1.0925109361329834in"} -->
 
 Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean
 restaurant, focused on traditional recipes served with a modern twist.
