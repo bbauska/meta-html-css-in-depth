@@ -3773,11 +3773,16 @@ implement the same code on their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image089.png){width="5.0in" height="2.0747867454068243in"}
+<p align="center" width="100%">
+<img src="/images/image089.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image089.png){width="5.0in" height="2.0747867454068243in"} -->
 
 Hopefully this will lead to a lot more business for both restaurants.
 
-The canvas element
+<h4>The canvas element</h4>
 
 You\'ve most likely played a video game or watched an animation in your
 web browser before.
@@ -3792,13 +3797,12 @@ game content for the web browser.
 
 But all of these are underpinned by one of four technologies;
 
-  1. GIF,
-
-  2. WebP,
-
-  3. 2D canvas, and
-
-  4. WebGL.
+<ol type="1">
+  <li>GIF,<br/></li>
+  <li>WebP,<br/></li>
+  <li>2D canvas, and<br/></li>
+  <li>WebGL.</li>
+</ol>
 
 The graphics interchange format or GIF along with the Web P image format
 are used for animated images.
@@ -3836,7 +3840,12 @@ Let\'s examine how to animate some simple graphics.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image090.png){width="5.0in" height="2.2067311898512685in"}
+<p align="center" width="100%">
+<img src="/images/image090.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image090.png){width="5.0in" height="2.2067311898512685in"} -->
 
 Using the 2D canvas.
 
@@ -3850,7 +3859,12 @@ I have set its with attribute to 640 its height attribute to 480.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image091.png){width="5.0in" height="2.7243591426071743in"}
+<p align="center" width="100%">
+<img src="/images/image091.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image091.png){width="5.0in" height="2.7243591426071743in"} -->
 
 I have also set its ID attribute to my underscore canvas so that I can
 access the element in my javascript code after the canvas element I have
@@ -3863,7 +3877,12 @@ The result is stored in a variable named canvas.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image092.png){width="5.0in" height="2.2441240157480316in"}
+<p align="center" width="100%">
+<img src="/images/image092.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- [](images/image092.png){width="5.0in" height="2.2441240157480316in"} -->
 
 Next, I look up the two D canvas context using canvas dot get context
 and pass in the parameter to D.
@@ -3884,7 +3903,12 @@ path, context dot arc and context dot fill functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image093.png){width="5.0in" height="1.0293799212598425in"}
+<p align="center" width="100%">
+<img src="/images/image093.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image093.png){width="5.0in" height="1.0293799212598425in"} -->
 
 Finally, I define an animate function which calls the move ball and draw
 ball functions after doing this, it then calls window dot request
@@ -4126,12 +4150,15 @@ In such a case, the items will start from top left and move down along
 the vertical main axis. The properties you choose will help better
 control alignment, spacing, direction and eventually styling of the
 container and items present inside it. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 94. diagram of a flexbox and all its properties (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Diagram of a flexbox and all its properties.]
-(images/image094.png){width="5.0in" height="2.00704615048119in"}
+<p align="center" width="100%">
+<img src="/images/image094.png"
+  width="50%"
+  alt="Diagram of a flexbox and all its properties." />
+</p>
+<!-- !(images/image094.png){width="5.0in" height="2.00704615048119in"} -->
 
 Image source:
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology>
@@ -4172,9 +4199,12 @@ to configure a flexbox.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 95. css code with listed number boxes (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Output for CSS Code with listed number boxes]
-(images/image095.png){width="3.2604166666666665in"
-height="3.6145833333333335in"}
+<p align="center" width="100%">
+<img src="/images/image095.png"
+  width="32%"
+  alt="Output for CSS code with listed number boxes." />
+</p>
+<!-- !(images/image095.png){width="3.2604166666666665in" height="3.6145833333333335in"} -->
 
 There are seven div containers inside the HTML file.
 
@@ -4196,12 +4226,15 @@ flex.
 
 The output is now seven flex containers that run from left to right
 starting in the top left corner.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 96. css aligned number boxes (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Output for CSS Code with aligned number boxes]
-(images/image096.png){width="5.395833333333333in" height="1.8125in"}
+<p align="center" width="100%">
+<img src="/images/image096.png"
+  width="54%"
+  alt="Output for CSS code with aligned number boxes." />
+</p>
+<!-- !(images/image096.png){width="5.395833333333333in" height="1.8125in"} -->
 
 <h4>Alignment properties</h4>
 
@@ -4233,14 +4266,17 @@ Let's first examine the use of justify-content which has a value of
     justify-content: center
   }
 ```
- 
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 97. css code output centered (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![The output for CSS Code with justification in the
-center](images/image097.png){width="6.208333333333333in" height="0.875in"}
+<p align="center" width="100%">
+<img src="/images/image097.png"
+  width="62%"
+  alt="Output for CSS code with justification in the center." />
+</p>
+<!-- !(images/image097.png){width="6.208333333333333in" height="0.875in"} -->
 
 <h4>flex-wrap:</h4>
 
@@ -4260,8 +4296,12 @@ span the entire width of the axis.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 98. css code with wrapped number boxes centered (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Output for CSS code with wrapped number boxes justified in the center](images/image098.png)
-{width="2.9166666666666665in" height="2.03125in"}
+<p align="center" width="100%">
+<img src="/images/image098.png"
+  width="29%"
+  alt="Output for CSS code with wrapped number boxes, justified in the center." />
+</p>
+<!-- !(images/image098.png) {width="2.9166666666666665in" height="2.03125in"} -->
 
 The items will now be wrapped to the size of the available viewport.
 
@@ -4286,7 +4326,12 @@ rows to vertical columns.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 99. display of listed number boxes as a flex (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Display of listed number boxes as a flex](images/image099.png){width="3.4479166666666665in" height="3.6770833333333335in"}
+<p align="center" width="100%">
+<img src="/images/image099.png"
+  width="34%"
+  alt="Display of listed number boxes as a flex." />
+</p>
+<!-- !(images/image099.png){width="3.4479166666666665in" height="3.6770833333333335in"} -->
 
 The output looks like the original output; however, it is now actually a
 flex.
@@ -5062,8 +5107,17 @@ In this example, when I create horizontal objects, I first add four
 containers for male and female and then I set the flex spaces for each
 of them.
 
-![](images/image123.png){width="3.0in" height="3.6488549868766404in"}If
-you look at my CSS code, I follow the same order.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image123.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image123.png){width="3.0in" height="3.6488549868766404in"} -->
+
+If you look at my CSS code, I follow the same order.
 
 First, I address the columns which is the outermost container, then the
 class container.
@@ -5078,12 +5132,28 @@ horizontal bar charts.
 When I display the output of this code, the male and female classes are
 stacked on top of each other.
 
-![](images/image124.png){width="4.09375in" height="3.0208333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 124.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image124.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image124.png){width="4.09375in" height="3.0208333333333335in"} -->
 
 What alignment to use may or may not come intuitively, but if you look
 at a few more examples, it will start making sense.
 
-![](images/image125.png){width="6.5in" height="3.7527777777777778in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image125.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image125.png){width="6.5in" height="3.7527777777777778in"} -->
 
 Like in this case the container contains male and female classes that
 need to be stacked on top of each other, which is why I have used flex
@@ -5113,7 +5183,15 @@ Let\'s learn more about layouts.
 When someone says the word grid, you probably think of lines that cross
 each other to form squares or rectangles.
 
-![](images/image126.png){width="5.0in" height="2.8867530621172355in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image126.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image126.png){width="5.0in" height="2.8867530621172355in"} -->
 
 CSS Grids are two-dimensional design layouts that are responsive and
 compatible with browser variations.
@@ -5124,12 +5202,28 @@ especially when you are working with larger scale layouts.
 Columns are the vertical tracks and rows are the horizontal tracks in
 your viewport.
 
-![](images/image127.png){width="6.5in" height="3.6326388888888888in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image127.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image127.png){width="6.5in" height="3.6326388888888888in"} -->
 
 Grids divide the page into rows and columns, and the space between these
 tracks are called gutters or gaps.
 
-![](images/image128.png){width="6.5in" height="3.540277777777778in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image128.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image128.png){width="6.5in" height="3.540277777777778in"} -->
 
 A cell is the space in a grid container where a row and column
 intersect.
@@ -5140,9 +5234,17 @@ modify grids.
 Let\'s examine an example that uses a HTML document to demonstrate how
 to iteratively make changes to a grid.
 
-![](images/image129.png){width="3.0in"
-height="3.720317147856518in"}First, let\'s create a HTML document called
-index.html.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 129.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image129.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image129.png){width="3.0in" height="3.720317147856518in"} -->
+
+First, let\'s create a HTML document called index.html.
 
 Right now, the contents displayed in the viewport are just a vertical
 series of letters from A to E without any styling.
@@ -5161,9 +5263,17 @@ necessary for its size.
 
 What\'s displayed in the viewport may appear to be a grid, but it\'s not
 actually one.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image130.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image130.png){width="3.0in" height="3.118733595800525in"} -->
 
-![](images/image130.png){width="3.0in" height="3.118733595800525in"}It\'s
-just the default settings of CSS for a layout.
+It\'s just the default settings of CSS for a layout.
 
 Once you convert this into the grid layout, you\'ll be able to recognize
 the flexibility it can add.
@@ -5178,12 +5288,28 @@ such as flex, block, inline, and so on.
 
 It\'s usually a part of container elements inside our code.
 
-![](images/image131.png){width="6.5in" height="3.886111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image131.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image131.png){width="6.5in" height="3.886111111111111in"} -->
 
 The updated container now has the display property value set to grid and
 the property values configured for three columns and two rows.
 
-![](images/image132.png){width="6.5in" height="2.8604166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 132.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image132.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image132.png){width="6.5in" height="2.8604166666666666in"} -->
 
 That\'s two changes from the previous configuration.
 
@@ -5192,7 +5318,15 @@ Let\'s examine them.
 The grid template columns property has been added into the CSS code to
 set the size of each of the three columns using pixel values.
 
-![](images/image133.png){width="6.5in" height="2.736111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 133.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image133.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image133.png){width="6.5in" height="2.736111111111111in"} -->
 
 The use of fr, which is an abbreviation for fraction, has been
 introduced.
@@ -5214,7 +5348,15 @@ actual pixel sizes.
 It must be noted though, that fraction and pixel sizes can be used
 interchangeably with both rows and columns.
 
-![](images/image134.png){width="6.5in" height="2.7805555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 134.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image134.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image134.png){width="6.5in" height="2.7805555555555554in"} -->
 
 Now to add a couple of properties such as grid gap or gutter and
 background color to define the grid, the updated view displays a red box
@@ -10796,7 +10938,7 @@ Download their logos here:
 <b>[Mangata and Gallo logos]</b>
 
 <!-- not quite done... near though -->
-<h6>3-11-2023 at 7:02pm</h6>
+<h6)3-11-2023 at 7:02pm</h6>
 <h5>wip - Work in Progress</h5>
 
 [ZIP File]
