@@ -2034,7 +2034,8 @@ course.
   width="30%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0](images/image055.png){width="3.4375in" height="0.4270833333333333in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0](images/image055.png){width="3.4375in" height="0.4270833333333333in"} 
+-->
 
 <h4>How to get started working on Labs</h4>
 
@@ -2047,8 +2048,8 @@ The Labs contain instructions explaining the coding task.
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](images/image056.png){width="5.0in"
-height="3.3633628608923885in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](images/image056.png){width="5.0in" height="3.3633628608923885in"} 
+-->
 
 When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing
@@ -2061,8 +2062,8 @@ code!
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](images/image057.png){width="5.0in"
-height="2.674922353455818in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](images/image057.png){width="5.0in" height="2.674922353455818in"} 
+-->
 
 You\'ll see all the files for the lab in the Project folder in the left
 sidebar.
@@ -2074,8 +2075,8 @@ sidebar.
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](images/image058.png){width="5.0in"
-height="2.674922353455818in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](images/image058.png){width="5.0in" height="2.674922353455818in"} 
+-->
 
 And the large editor area where you write your code for the lab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2086,8 +2087,9 @@ And the large editor area where you write your code for the lab.
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](images/image059.png){width="5.0in"
-height="2.674922353455818in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](images/image059.png){width="5.0in"
+height="2.674922353455818in"} 
+-->
 
 All <b>Lab</b> exercises will include two important files. A <b>README.md</b>
 file which contains instructions for using Visual Studio Code and most
@@ -2121,8 +2123,9 @@ toolbar.
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](images/image060.png){width="5.0in"
-height="3.3579494750656167in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](images/image060.png){width="5.0in"
+height="3.3579494750656167in"} 
+-->
 
 <b>How to download files from your Visual Studio Code Lab to your local
 device</b>
@@ -2142,8 +2145,9 @@ device</b>
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](images/image061.png){width="5.0in"
-height="3.4154932195975505in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](images/image061.png){width="5.0in"
+height="3.4154932195975505in"} 
+-->
 
 How to upload local files to your Visual Studio Code Lab
 
@@ -2158,8 +2162,9 @@ device into the Visual Studio Code file tree.
   width="50%"
   alt="." />
 </p>
-![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](images/image062.png){width="5.0in"
-height="3.491418416447944in"}
+<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](images/image062.png){width="5.0in"
+height="3.491418416447944in"} 
+-->
 
 How to get a fresh copy of course-provided starter files
 
@@ -5370,7 +5375,15 @@ more space between the grid cells.
 You can also opt to use the auto properties such as grid, auto rows and
 grid auto columns collectively called the implicit grid.
 
-![](images/image135.png){width="6.5in" height="2.7805555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image135.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image135.png){width="6.5in" height="2.7805555555555554in"} -->
 
 Let\'s replace the grid template rows property in the code with grid
 auto rows. All the rows are now auto-resized to 100 pixels.
@@ -5378,7 +5391,15 @@ auto rows. All the rows are now auto-resized to 100 pixels.
 Now let\'s examine some of the functions that can make configuring the
 layout easier.
 
-![](images/image136.png){width="6.5in" height="2.7805555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image136.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image136.png){width="6.5in" height="2.7805555555555554in"} -->
 
 First, the repeat function passes the number of repeats required for a
 given number of rows and columns.
@@ -7106,7 +7127,7 @@ you can also use them to target HTML class attributes.
   width="20%"
   alt="." />
 </p>
-<!- ![](images/image179.png){width="2.0in" height="2.3480828958880138in"} -->
+<!-- ![](images/image179.png){width="2.0in" height="2.3480828958880138in"} -->
 
 Next, let\'s focus on Form states.
 
@@ -8580,7 +8601,6 @@ But to control the execution of the steps of the animation, they use the
 <img src="/images/image219.png"
   width="30%"
   alt="Synax of the Keyframe rule." />
-
 <!-- ![](images/image219.png){width="4.0in" height="1.2076192038495188in"} -->
 
 Next, let\'s explore the syntax of the \@keyframe rule, and the animation property.
@@ -8597,7 +8617,6 @@ that keyframe.
 <img src="/images/image220.png"
   width="30%"
   alt="Keyframe rule." />
-
 <!-- width="4.0in" height="1.856084864391951in"} -->
 
 The \@keyframe rule can also use the optional keywords, from and to, to show transitions.
@@ -8610,8 +8629,7 @@ The animation name links the animation to a specific keyframe rule.
 <img src="/images/image221.png"
   width="30%"
   alt="Animation property." />
- 
-<!-- ![](images/image221.png){width="4.0in" height="1.7866666666666666in"} -->
+ <!-- ![](images/image221.png){width="4.0in" height="1.7866666666666666in"} -->
 
 The animation property has a number of sub properties like animation name,
 animation delay, and so on.
@@ -9980,7 +9998,6 @@ You can select a specific element much more easily with the help of the
 of specific elements on your web page. You can also access this option
 by hovering over a specific element on your page that will display its
 properties to you.
-
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. hovering icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
@@ -9989,8 +10006,7 @@ properties to you.
   width="10%"
   alt="Hovering Icon." />
 </p>
-<!-- ![Hovering Icon](images/image233.png){width="1.0in" height="0.8010444006999126in"} -->
-
+<!-- !(images/image233.png){width="1.0in" height="0.8010444006999126in"} -->
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. targetting icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
@@ -9999,7 +10015,7 @@ properties to you.
   width="4%"
   alt="Targetting Icon." />
 </p>
-<!-- ![Targetting Icon](images/image234.png){width="0.4in" height="0.32257983377077865in"} -->
+<!-- !(images/image234.png){width="0.4in" height="0.32257983377077865in"} -->
 
 On selecting the desired element, one way to use the Elements tab for
 debugging is by right-clicking on that element, scrolling to 'Copy' and
@@ -10008,13 +10024,12 @@ then selecting an option from the drop-down list that appears.
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~ 235. display of submenu from copy option (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
-<!-- template documentation
 <p align="center" width="100%">
 <img src="/images/image235.png"
   width="50%"
   alt="Display of submenu from copy option." />
 </p>
-<!-- ![Display of submenu from copy option](images/image235.png){width="5.0in" height="2.9711570428696414in"} -->
+<!-- !(images/image235.png){width="5.0in" height="2.9711570428696414in"} -->
 
 This way, you can explore the isolated code to find the problem.
 
@@ -10043,7 +10058,7 @@ bar:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image237.png"
-  width="50%"
+  width="60%"
   alt="Horizontal bar and element families." />
 </p>
 <!-- ![Horizontal bar and element families](images/image237.png){width="6.0in" height="0.39473206474190725in"} -->
@@ -10938,7 +10953,7 @@ Download their logos here:
 <b>[Mangata and Gallo logos]</b>
 
 <!-- not quite done... near though -->
-<h6)3-11-2023 at 7:02pm</h6>
+<h6>3-31-2023 at 2:39pm</h6>
 <h5>wip - Work in Progress</h5>
 
 [ZIP File]
