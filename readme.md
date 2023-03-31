@@ -9397,7 +9397,7 @@ is the syntax for SASS and can be seen as an advanced version of both
 SASS and CSS. The difference between SASS and SCSS is best explained by
 the SASS documentation, which states:
 
-\"There are two syntaxes available for Sass. The first, known as SCSS
+There are two syntaxes available for Sass. The first, known as SCSS
 (Sassy CSS) and used throughout this reference, is an extension of the
 syntax of CSS. This means that every valid CSS stylesheet is a valid
 SCSS file with the same meaning. This syntax is enhanced with the Sass
@@ -9408,7 +9408,7 @@ The second and older syntax, known as the indented syntax (or sometimes
 just "Sass"), provides a more concise way of writing CSS. It uses
 indentation rather than brackets to indicate the nesting of selectors
 and newlines rather than semicolons to separate properties. Files using
-this syntax have the .sass extension.\"
+this syntax have the .sass extension.
 
 This example highlights these differences.
 
@@ -9469,7 +9469,7 @@ explore a couple of directives called \@mixin and \@include. 
 
 <h4>Syntax</h4>
 
-<h4>\@mixin *name *{ *property*: *value*; *property*: *value*; \... }</h4>
+<h4>@mixin name { property: value; property: value; ... }</h4>
 
 ```
 @mixin some-rules { 
@@ -9937,9 +9937,7 @@ most cases, it helps to be familiar with the unit of measurement in
 relation to the container type to avoid misconfigurations.
 
 <h4>Relocating items</h4>
-
-🛸🙀
-
+🛸
 Similar to the isolation of elements, you can move a certain element to
 observe its behavior. Doing a comparison can often help you to
 understand the source of the problem.
@@ -10462,7 +10460,7 @@ to ensure customer satisfaction and what\'s more.
 You also learned about the web developer tools you can use to perform
 cross-device testing.
 
-# Case study: How Meta performs front-end testing
+<h4>Case study: How Meta performs front-end testing</h4>
 
 An untested application is a wildcard. You have no idea whether it works
 or it doesn\'t work.
@@ -10895,7 +10893,7 @@ manicurist and one make-up artist.
 
 <h4>Download their logos here:</h4>
 
-<h5>Hair Day logos</h5>
+<h5>[Hair Day logos]</h5>
 
 [ZIP File]
 
@@ -10926,7 +10924,7 @@ to incorporate additional cuisines from the Mediterranean region.
 
 <h4>Download their logos here:</h4>
 
-<b>[Little-Lemon-logos]{.underline}</b>
+<h5>[Little-Lemon-logos]</h5>
 
 ZIP File
 
@@ -10948,9 +10946,9 @@ However, she recently hired several artisans to help craft her designs
 and a young employee to help manage the company website and social media
 accounts.
 
-Download their logos here:
+<h4Download their logos here:</h4>
 
-<b>[Mangata and Gallo logos]</b>
+<h4>[Mangata and Gallo logos]</h4>
 
 <!-- not quite done... near though -->
 <h6>3-31-2023 at 2:39pm</h6>
