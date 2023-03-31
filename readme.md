@@ -26,12 +26,12 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 
 <h1>Course syllabus</h1>
 
-## Prerequisites
+<h4>Prerequisites</h4>
 
 To take this course, you don\'t need any developer experience, but you
 must be eager to get started with coding.
 
-## Module 1
+<h2>Module 1</h2>
 
 In the first module, you will start with an introduction to the course
 and gain insight into what your career path as an HTML and CSS developer
@@ -45,23 +45,20 @@ input and forms and you will create and test a form by yourself. In the
 final part of the module, you will learn about media elements and
 you\'ll learn how to embed video and audio on a web page. 
 
-After completing this module, you should be able to:
+After completing this module (1), you should be able to:
 
--   Use common semantic and meta tags to improve the accessibility,
-    readability and SEO of a web page.
+<ul>
+  <li>Use common semantic and meta tags to improve the accessibility,
+      readability and SEO of a web page.<br></li>
+  <li>Create commonly-used web page layouts and components.<br></li>
+  <li>Create and test a form with client-side validation.<br></li>
+  <li>Recognize server-side connections and the languages used to carry
+      out requests and responses.<br></li>
+  <li>Post form data to a server.<br></li>
+  <li>Create a video and audio player that can rate the media played.</li>
+</ul>
 
--   Create commonly-used web page layouts and components. 
-
--   Create and test a form with client-side validation. 
-
--   Recognize server-side connections and the languages used to carry
-    out requests and responses. 
-
--   Post form data to a server.
-
--   Create a video and audio player that can rate the media played.
-
-## Module 2
+<h3>Module 2</h3>
 
 In module 2, you will focus on CSS layouts, grids and flexboxes. You
 will learn about fundamental layouts that you can use to design a good
@@ -74,34 +71,30 @@ animations and effects in CSS. The final part of this module is about
 how to use browser developer tools to assist with debugging and
 resolving HTML and CSS issues.
 
-After completing this module, you should be able to:
+After completing this module (2), you should be able to:
 
--   Use Flexbox and CSS grids to create responsive layouts and charts.
+<ul>
+  <li>Use Flexbox and CSS grids to create responsive layouts and charts.<br></li>
+  <li>Use advanced CSS selectors such as pseudo-classes for targeted styling.<br></li>
+  <li>Use CSS effects to introduce text effects, animations and transformations into your stylesheet.<br></li>
+  <li>Create simple keyframe animations.<br></li>
+  <li>Perform basic front-end testing, debugging and error handling.<br></li>
+  <li>Adapt your CSS to perform as expected in different browsers.</li>
+</ul>
 
--   Use advanced CSS selectors such as pseudo-classes for targeted
-    styling.
+<h3>Module 3</h3>
 
--   Use CSS effects to introduce text effects, animations and
-    transformations into your stylesheet.
-
--   Create simple keyframe animations.
-
--   Perform basic front-end testing, debugging and error handling.
-
--   Adapt your CSS to perform as expected in different browsers.
-
-## Module 3
-
-In the last module, you will have an opportunity to recap what you
+In this last module (3), you will have an opportunity to recap what you
 learned in the course and put it into practice by creating a home page
 for a client persona.
 
-After completing this module, you should be able to:
+After completing this module (3), you should be able to:
+<ul>
+  <li>Apply the skills you learned in this course to introduce more
+    advanced styling into your portfolio.</li>
+</ul>
 
--   Apply the skills you learned in this course to introduce more
-    advanced styling into your portfolio.
-
-# Course Introduction
+<h2>Course Introduction</h2>
 
 Perhaps you know a little about HTML and CSS from another course you
 did, or perhaps you don\'t know much at all.
@@ -203,7 +196,7 @@ That was your HTML and CSS refresher.
 
 Now get ready to dive deeper into learning more about these two topics.
 
-## Semantic tags and why we need them
+<h4>Semantic tags and why we need them</h4>
 
 By now you know that HTML describes the content of a web page.
 
@@ -2568,7 +2561,7 @@ drop-down list or by typing their option.
 With the continued success of Little Lemon, I\'m sure I\'ll be updating
 this form again in the near future.
 
-## Form submission
+<h4>Form submission</h4>
 
 When ordering products online, you fill out your address and your credit
 card number, then you click on an Order button that confirms your order.
@@ -2578,7 +2571,6 @@ wondering what exactly happens when you click on that order button.
 
 In this module, you will learn what happens when forms are submitted in
 the web browser.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2737,7 +2729,7 @@ You have recently learned about how forms are sent to web servers and
 the difference between Get and Post. In this reading, you will build on
 this knowledge by learning about Submit.
 
-## Action and method 
+<h4>Action and method</h4>
 
 Form submissions are an essential part of the world wide web. Nearly
 every website uses forms, from buying items online to ordering food for
@@ -2816,7 +2808,7 @@ Notation, or JSON. But that is a topic for another course. For now,
 practice building HTML forms and submitting data to the web server using
 the different attributes available.
 
-## Browser differences
+<h4>Browser differences</h4>
 
 An important part of being a front-end developer is to provide a good
 user experience on the websites and web applications that you develop.
@@ -2942,14 +2934,14 @@ You should now know why it is important to pay attention to the
 appearance of different HTML elements across web browsers, and how you
 can ensure consistency with CSS rules.
 
-## Glossary: HTML form elements
+<h4>Glossary: HTML form elements</h4>
 
 The <b>\<form\></b> element in HTML is an important and useful element. The
 following sheet provides an overview of the <b>\<form\></b> constituent
 elements and their common attributes with simple examples for quick
 reference.
 
-<h4>\<input\></h4>
+<h4>&lt;input&gt;</h4>
 
 It is used to create interactive controls, for example, buttons and
 various types of text fields and so on, to accept input or data from the
@@ -2985,7 +2977,7 @@ Results in the following output:
 
 Note how the type <b>password</b> hides the user input.
 
-<h4>\<label\></h4>
+<h4>&lt;label&gt;</h4>
 
 Defines a label for an element. It has an attribute \"for\", the value
 of which should be equal to the id attribute of the element it is
@@ -3013,7 +3005,7 @@ couple of attributes:
     element inside <b>\<select\></b>. Note the example in the
     <b>\<option\></b> description below.
 
-<h4>\<textarea\></h4>
+<h4>&lt;textarea&gt;</h4>
 
 Defines a multi-line input field, typically to allow the user to input
 longer textual data. The common attributes for this element include:
@@ -3099,7 +3091,6 @@ input other than the listed options.
     ... 
   </form>
 ```
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3110,12 +3101,12 @@ input other than the listed options.
 </p>
 <!-- !(images/image080.png){width="2.0in" height="2.150837707786527in"} -->
 
-<h4>\<output\></h4>
+<h4>&lt;output&gt;</h4>
 
 Represents the result of a calculation (typically the output of a
 script) or the outcome of the user action.
 
-<h4>&lt;option\&gt;</h4>
+<h4>&lt;option&gt;</h4>
 
 Defines an option for the drop-down list. The following code example
 demonstrates how a simple list can be defined, with the rendered view
@@ -3130,7 +3121,6 @@ below the code block.
     <option value="react">React Basics</option>
   </select>
 ```
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3269,9 +3259,14 @@ The Little Lemon Restaurant wants to add an about page to their website.
 They\'ve asked me to set up the page and include some audio and video in
 embedded players.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 82.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 82. about.html (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image082.png){width="6.0in" height="3.187179571303587in"}
+<p align="center" width="100%">
+<img src="/images/image082.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image082.png){width="6.0in" height="3.187179571303587in"} -->
 
 I\'ve set up my basic html document structure in a file named
 about.html.
@@ -3299,9 +3294,14 @@ audio.
 To do this, I add the controls attribute to the audio element. I saved
 the file and opened the web page in my browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 83.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 83. audio in about.html (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image083.png){width="6.0in" height="3.1173075240594925in"}
+<p align="center" width="100%">
+<img src="/images/image083.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image083.png){width="6.0in" height="3.1173075240594925in"} -->
 
 I can see that the audio is loading and is displayed in the browser
 using the browsers built in audio player.
@@ -3315,7 +3315,12 @@ Now I\'ll add the video.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 84.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image084.png){width="6.0in" height="3.1173075240594925in"}
+<p align="center" width="100%">
+<img src="/images/image084.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image084.png){width="6.0in" height="3.1173075240594925in"} -->
 
 I add a video element before the paragraph element.
 
@@ -3334,9 +3339,14 @@ To provide a good user experience, I\'ll also enable the video controls.
 
 To do this, I add the controls attribute to the video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 85.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 85. video element in about.html (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image085.png){width="6.0in" height="3.3833333333333333in"}
+<p align="center" width="100%">
+<img src="/images/image085.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image085.png){width="6.0in" height="3.3833333333333333in"} -->
 
 I saved the file again and open the page in my browser.
 
@@ -3347,11 +3357,15 @@ disabled by default.
 
 To do this, I go back to my html and add the muted attribute to the
 video element.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 86. audio/video on about.html (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image086.png){width="6.0in" height="3.3833333333333333in"}
+<p align="center" width="100%">
+<img src="/images/image086.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image086.png){width="6.0in" height="3.3833333333333333in"} -->
 
 I saved the file again and opened the page.
 
@@ -3373,7 +3387,7 @@ want to do.
 These audio and video players are sure to grab customer\'s attention
 when they browse the about page.
 
-Images
+<h4>Images</h4
 
 This lesson will help refresh your knowledge of the <b>\<img\></b> tag and
 how you can use it to embed images in webpages. The <b>\<img\></b> tag is
@@ -3514,17 +3528,18 @@ page can exploit.
 Therefore, it\'s always best to be cautious when using iframes and
 ensure that you trust the website that you are embedding.
 
-iFrame sandbox cheat sheet
+<h4>iFrame sandbox cheat sheet</h4>
 
 The <b>\<iframe\></b> is the inline frame element that embeds an HTML page
 into another page. Apart from the global attributes, which can be a part
 of the <b>iframe</b>, major element-specific attributes are listed below.
 
-## allow 
+<h4>allow</h4>
 
 It specifies what features or permissions are available to the frame,
 for instance, access to the microphone, camera, other APIs and so on.
-For example:
+
+<h4>For example:</h4>
 
 -   <b>allow=\"fullscreen"</b> the fullscreen mode can be activated
 
@@ -3537,22 +3552,22 @@ For example:
 -   <b>\<iframe src=\"https://example.com/...\" allow=\"camera;
     microphone\"\> \</iframe\></b>
 
-## name 
+<h4>name</h4>
 
 The name for the <b>\<iframe\></b>. For example: <b>\<iframe name = \"My
 Frame\" width=\"400\" height=\"300\"\>\</iframe\></b>
 
-## height 
+<h4>height</h4>
 
 It specifies the height of the frame. The default value is 150, in terms
 of CSS pixels. width
 
-## width
+<h4>width</h4>
 
 Specifies the width of the frame, in terms of CSS pixels. The default
 value is 300 pixels.
 
-## referrerpolicy 
+<h4>referrerpolicy</h4>
 
 A referrer is the HTTP header that lets the page know who is loading it.
 This attribute indicates which referrer information to send when loading
@@ -3566,7 +3581,7 @@ the frame resource. The common values are:
 -   <b>strict-origin</b> The origin of the document is sent as the referrer
     only when using the same protocol security level (HTTPS to HTTPS)
 
-## sandbox 
+<h4>sandbox</h4>
 
 To enforce greater security, a sandbox applies extra restrictions to the
 content in the <b>\<iframe\></b>. To lift particular restrictions, an
@@ -3599,12 +3614,12 @@ while keeping other restrictions active:
   </iframe> 
 ```
 
-## src 
+<h4>src</h4>
 
 The URL of the page to embed in the <b>\<iframe\></b>. Using the value
 <b>about:blank</b> would embed an empty page.
 
-## srcdoc
+<h4>srcdoc</h4>
 
 Let\'s you specify the inline HTML to embed in the <b>\<iframe\></b>. When
 defined, this attribute would override the <b>src</b> attribute. For
@@ -3616,7 +3631,7 @@ frame, instead of loading <b>my_iframe_src.html</b>.
   </iframe>
 ```
 
-## loading
+<h4>loading</h4>
 
 This attribute let\'s you specify if the iframe should be loaded
 immediately when the web page loads (<b>eager</b>) or loaded when iframe is
@@ -3629,7 +3644,7 @@ display area when the page is initially loaded.
   </iframe>
 ```
 
-## title
+<h4>title</h4>
 
 This attribute let\'s you add a description to the iframe for
 accessibility purposes. The value of this attribute should accurately
@@ -3661,7 +3676,12 @@ I\'ve opened the index.html in Visual Studio Code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image087.png){width="6.0in" height="3.364102143482065in"}
+<p align="center" width="100%">
+<img src="/images/image087.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image087.png){width="6.0in" height="3.364102143482065in"} -->
 
 First, I add the iFrame element.
 
@@ -3697,7 +3717,12 @@ embedding content from another website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image088.png){width="6.5in" height="0.6861111111111111in"}
+<p align="center" width="100%">
+<img src="/images/image088.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image088.png){width="6.5in" height="0.6861111111111111in"} -->
 
 To address these concerns, I\'ve decided to sandbox and limit the
 capabilities of the iFrame element.
@@ -3949,7 +3974,7 @@ use inputs and forums or embed videos and audio. Well done.
 
 You\'re making good progress on your learning journey.
 
-## Additional resources
+<h4>Additional resources</h4>
 
 The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
@@ -3967,7 +3992,7 @@ in this module. 
 
 <https://html.spec.whatwg.org/multipage/media.html>
 
-## CSS web layout
+<h4>CSS web layout</h4>
 
 CSS or cascading style sheets is a set of rules that enhance the
 appearance of web pages.
@@ -4072,7 +4097,7 @@ optimization.
 When designing a web page, you will learn more about how to use these
 layouts during the course.
 
-## Understanding flexbox
+<h4>Understanding flexbox</h4>
 
 Much like the div and box container that you can create using HTML,
 flexbox is a type of container. Flexbox can overcome the limitations
@@ -4114,7 +4139,7 @@ Image source:
 Let's now examine some of the important properties that will allow you
 to configure a flexbox.
 
-## Flexbox properties
+<h4>Flexbox properties</h4>
 
 <h4>Original HTML code:</h4>
 
@@ -4161,7 +4186,7 @@ it. The style is applied to all the containers.
 Now let's add properties to the flex container by converting it into
 flex.
 
-## display: flex;
+<h4>display: flex;</h4>
 
 ```
   .flex-container{
@@ -4178,7 +4203,7 @@ starting in the top left corner.
 ![Output for CSS Code with aligned number boxes]
 (images/image096.png){width="5.395833333333333in" height="1.8125in"}
 
-## Alignment properties
+<h4>Alignment properties</h4>
 
 Let's examine a few alignment properties inside the flex. There are four
 main properties used to align a flex container and items present inside
@@ -4198,9 +4223,9 @@ it:
 Let's first examine the use of justify-content which has a value of
 'left' by default.
 
-## justify-content
+<h4>justify-content</h4>
 
-## CSS:
+<h4>CSS:</h4>
 
 ```
   .flex-container{
@@ -4210,14 +4235,14 @@ Let's first examine the use of justify-content which has a value of
 ```
  
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 97. css code output centered (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ![The output for CSS Code with justification in the
 center](images/image097.png){width="6.208333333333333in" height="0.875in"}
 
-## flex-wrap:
+<h4>flex-wrap:</h4>
 
 The default for this property is 'nowrap' which means the items will
 span the entire width of the axis.
@@ -4231,7 +4256,7 @@ span the entire width of the axis.
 ```
  
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 98. css code with wrapped number boxes centered (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4240,13 +4265,13 @@ span the entire width of the axis.
 
 The items will now be wrapped to the size of the available viewport.
 
-## flex-direction: 
+<h4>flex-direction:</h4>
 
 This property is used to set the main axis, which is a 'row' by default.
 It basically means you are changing your 'main' axis from horizontal
 rows to vertical columns.
 
-## CSS Code:
+<h4>CSS Code:</h4>
 
 ```
 .flex-container{
@@ -4257,7 +4282,7 @@ rows to vertical columns.
 }
 ```
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 99. display of listed number boxes as a flex (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4269,12 +4294,12 @@ flex.
 Now let's align the items again and examine a couple of the other
 properties mentioned earlier.
 
-## align-items:
+<h4>align-items:</h4>
 
 The alignment on the cross-axis is done with the help of this property.
 Let's change the value for it to 'flex-end'.
 
-## CSS Code:
+<h4>CSS Code:</h4>
 
 ```
 .flex-container{
@@ -4286,17 +4311,21 @@ Let's change the value for it to 'flex-end'.
 }
 ```
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 100. right-centered number boxes with flex end align method (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Right-centered number boxes with the flex end aligning method.]
-(images/image100.png){width="2.5729166666666665in" height="3.71875in"}
+<p align="center" width="100%">
+<img src="/images/image100.png"
+  width="25%"
+  alt="Right-centered number boxes with the flex and aligning method." />
+</p>
+<!-- (images/image100.png){width="2.5729166666666665in" height="3.71875in"} -->
 
 The term 'end' refers to the right side of the page as the left side is
 seen as the beginning.
 
-## align-self:
+<h4>align-self:</h4>
 
 This property can be used on individual items inside the flex.
 
@@ -4314,23 +4343,27 @@ This property can be used on individual items inside the flex.
 }
 ```
 
-## Output:       
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 101. display change color and alignment (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 101. display change in color and alignment (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Output to display of a change in the color and alignment of individual items]
-(images/image101.png){width="2.9166666666666665in" height="3.7604166666666665in"}
+<p align="center" width="100%">
+<img src="/images/image101.png"
+  width="25%"
+  alt="Output to display a change in color and alignment of individual items." />
+</p>
+<!-- (images/image101.png){width="2.9166666666666665in" height="3.7604166666666665in"} -->
 
 Here the color and alignment of the third box have been changed and it
 overrides the properties set using align-items.  
 
-## gap:
+<h4>gap:</h4>
 
 gap property can be used to create space between the items along the
 main axis. You can also individually configure the gaps in rows and
 columns using row-gap and column-gap properties.
 
-## CSS Code:
+<h4>CSS Code:</h4>
 
 ```
 .flex-container{
@@ -4348,11 +4381,16 @@ columns using row-gap and column-gap properties.
 ```
  
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 102. display of items with different spacing (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Display of items with different spacing](images/image102.png){width="2.8645833333333335in" height="3.34375in"}
+<p align="center" width="100%">
+<img src="/images/image102.png"
+  width="28%"
+  alt="Display of items with different spacing." />
+</p>
+<!-- (images/image102.png){width="2.8645833333333335in" height="3.34375in"} -->
 
 There is a clear change in spacing between the items.
 
@@ -4366,7 +4404,7 @@ called the shorthand notation in CSS. Shorthand notation helps you make
 your code compact and also easy to write and follow. The values left
 empty in shorthand notation are given their default values.
 
-## For example:
+<h4>For example:</h4>
 
 ```
   .flex-container{
@@ -4386,19 +4424,22 @@ by removing the flex-direction value set to 'column'. This will change
 it to default 'row' and the output will again be centrally aligned and
 horizontal best-distributed between two rows.
 
-## Output:
-
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 103.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![List of items as default raw modified by removing the flex direction](images/image103.png){width="4.625in"
-height="1.5416666666666667in"}
+<p align="center" width="100%">
+<img src="/images/image103.png"
+  width="25%"
+  alt="List of items as default raw modified by removing the flex direction." />
+</p>
+<!-- !(images/image103.png){width="4.625in" height="1.5416666666666667in"} -->
 
 The rest of the remaining code is unchanged. However, the output will
 change if the code is modified with the addition of the flex property
 inside the flex item box3 class.
 
-## CSS Code:
+<h4>CSS Code:</h4>
 
 ```
   .box3{
@@ -4408,12 +4449,15 @@ inside the flex item box3 class.
   }
 ```
 
-## Output:
-
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 104.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![Different spacing of items in row display]
+<p align="center" width="100%">
+<img src="/images/image104.png"
+  width="47%"
+  alt="Different spacing of items in row display." />
+</p>
 <!-- (images/image104.png){width="4.697916666666667in" height="1.84375in"} -->
 
 The third box now takes up the entire free space available because
@@ -4428,7 +4472,7 @@ more practice you'll be more comfortable with the use of these
 properties, and it will become easier to use flexboxes and understand
 the flow and alignment of items inside the flexbox.
 
-CSS units of measurement
+<h4>CSS units of measurement</h4>
 
 A web page, as you know it, is two-dimensional. In other words, it has
 width and height. There are a number of other ways you can express this
@@ -4443,7 +4487,7 @@ dimensionality of a web page. 
 Let's examine the most widely used units of measurement. They can
 broadly be categorized as Absolute and Relative units. 
 
-## Absolute units
+<h4>Absolute units</h4>
 
 Absolute units are constant across different devices and have a fixed
 size. They are useful for activities like printing a page. They are not
@@ -4474,7 +4518,7 @@ The table for absolute units can be seen below:
 Of these, the pixels and centimeters are most frequently used for
 defining properties. 
 
-## Relative values
+<h4>Relative values</h4>
 
 When you create a web page, you will almost never have only a single
 element present inside it. Even in case of containers such as flexboxes
@@ -4530,7 +4574,7 @@ explored on an individual basis and practicing with the code will help
 you to decide which of these units of measurement are the most suitable
 choice. 
 
-Basic flexbox
+<h4>Basic flexbox</h4>
 
 At this stage, you should be familiar with different layouts and grid
 structures, and you should be ready to start using flexbox.
@@ -4552,7 +4596,12 @@ Let\'s explore the three most common uses of flexbox is in CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 105.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image105.png){width="3.0in" height="0.5715277777777777in"}
+<p align="center" width="100%">
+<img src="/images/image105.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image105.png){width="3.0in" height="0.5715277777777777in"} -->
 
 The first application of flexbox that you will cover that is commonly used
 is a search bar.
@@ -4564,7 +4613,12 @@ button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 106.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image106.png){width="6.5in" height="0.7138888888888889in"}
+<p align="center" width="100%">
+<img src="/images/image106.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image106.png){width="6.5in" height="0.7138888888888889in"} -->
 
 Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
@@ -4572,9 +4626,14 @@ responsive on different devices.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 107.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image107.png){width="2.0in"
-height="1.6397517497812772in"}Finally, another type of flexbox that is
-commonly used is an image gallery.
+<p align="center" width="100%">
+<img src="/images/image107.png"
+  width="20%"
+  alt="." />
+</p>
+<!-- ![](images/image107.png){width="2.0in" height="1.6397517497812772in"} -->
+
+Finally, another type of flexbox that is commonly used is an image gallery.
 
 Flexes helpful here is it can realign itself as you change the size of
 the window. In the next few minutes, you will discover how to create
@@ -4583,7 +4642,12 @@ these flexboxes to ensure a simple layout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 108.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image108.png){width="6.5in" height="3.2194444444444446in"}
+<p align="center" width="100%">
+<img src="/images/image108.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image108.png){width="6.5in" height="3.2194444444444446in"} -->
 
 In the first example of a flexbox file, I will create a search bar, I
 add a reference to the CSS file in the head section of the HTML page.
@@ -4596,8 +4660,14 @@ box where I typed my search, and finally the Submit button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 109.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](images/image109.png){width="3.1875in" height="4.958333333333333in"}In
-the CSS code, I first write rules for the container, then for the search
+<p align="center" width="100%">
+<img src="/images/image109.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image109.png){width="3.1875in" height="4.958333333333333in"} -->
+
+In the CSS code, I first write rules for the container, then for the search
 icon, the search box, and finally for the button.
 
 Most of the properties defined here are settings for the alignment of
@@ -4684,8 +4754,15 @@ horizontal navigation menu.
 
 One final flexbox example that I will demonstrate is a responsive image
 gallery.
-
-![](images/image112.png){width="6.5in" height="3.2416666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image112.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image112.png){width="6.5in" height="3.2416666666666667in"} -->
 
 All the elements for the gallery are in the body of the HTML file.
 
@@ -4703,9 +4780,17 @@ border to zero.
 
 Next, let\'s focus on the container.
 
-![](images/image113.png){width="3.375in"
-height="4.052083333333333in"}First, I set the value of display to flex,
-then I add the flex-wrap property which determines whether the flex
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image113.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image113.png){width="3.375in" height="4.052083333333333in"} -->
+
+First, I set the value of display to flex, then I add the flex-wrap property which determines whether the flex
 items should be forced in one line or should wrap over multiple lines.
 
 Next, I justify the content property, which aligns the flexible
@@ -4761,16 +4846,30 @@ These bar charts are called flex charts.
 
 The most important property when using flex is the flex property that in
 turn has the following three sub properties.
-
-![](images/image114.png){width="3.0in" height="0.25416666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image114.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image114.png){width="3.0in" height="0.25416666666666665in"} -->
 
 Flex grow, which specifies how much the item will grow compared to other
 flexible items, flex shrink, which specifies how much the item will
 shrink compared to other flexible items.
 
 And flex basis, which specifies the initial length of the flexible item.
-
-![](images/image115.png){width="5.0in" height="0.9262828083989502in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image115.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image115.png){width="5.0in" height="0.9262828083989502in"} -->
 
 Flex property can be declared with something called a shorthand notation
 such as flex 01 auto, where 01 and auto are the default values for the
@@ -4784,8 +4883,15 @@ The management of little Lemon decided to publish the results on their
 website to draw attention to their most popular dishes.
 
 I\'ve been asked to write code to make this possible.
-
-![](images/image116.png){width="5.125in" height="4.916666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image116.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image116.png){width="5.125in" height="4.916666666666667in"} -->
 
 I\'ve set up my basic html document structure in a file named flex
 charts dot html.
@@ -4804,14 +4910,28 @@ add the name of the label preferred dishes.
 
 Next, I create another class called container by typing dot container
 and then I press enter.
-
-![](images/image117.png){width="6.5in" height="4.179861111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image117.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image117.png){width="6.5in" height="4.179861111111111in"} -->
 
 Inside the container I create a class called dish by typing dot dish and
 pressing enter as there are three dishes in the popular list, I copy and
 paste this item twice.
-
-![](images/image118.png){width="6.5in" height="4.179861111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image118.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image118.png){width="6.5in" height="4.179861111111111in"} -->
 
 To distinguish between the dishes, I add a class name for each of the
 items after the word dish I name item one pasta, item two, pizza and
@@ -4831,8 +4951,15 @@ Finally, I add the respective labels for each dish.
 
 To do this, I add the percentage between the angle brackets at the end
 of each item.
-
-![](images/image119.png){width="6.5in" height="3.7784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image119.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image119.png){width="6.5in" height="3.7784722222222222in"} -->
 
 Now that my code is created, I move to CSS by clicking on the flex
 charts dot CSS file at the top of my screen and checking that it\'s
@@ -4884,14 +5011,29 @@ screen.
 The output preferred dishes and the percentage is 35, 50 and 15 appear
 on my screen, to improve the visuals of my chart and make it easier to
 interpret.
-
-![](images/image120.png){width="6.5in" height="3.7784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image120.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image120.png){width="6.5in" height="3.7784722222222222in"} -->
 
 I\'m going to add individual colors to the chart items at the bottom of
 my CSS file I press enter twice and type dot pasta.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image121.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image121.png){width="4.0in" height="1.0751706036745408in"} -->
 
-![](images/image121.png){width="4.0in" height="1.0751706036745408in"}I
-press enter and within this div class I add background color, followed
+I press enter and within this div class I add background color, followed
 by the hex code of the color I want to use in the next line.
 
 I specify the background color of pizza.
@@ -5132,11 +5274,11 @@ out some of the techniques shown in this section.
 Don\'t forget the repeat and min-max functions, they\'ll save you time
 and effort.
 
-## Grids and flexbox cheat sheet
+<h4>Grids and flexbox cheat sheet</h4>
 
 Note: '\|' stands for alternatives or OR.
 
-## Grid 
+<h4>Grid</h4>
 
 The syntax for creating a grid:
 
@@ -5193,7 +5335,7 @@ This sets the gap between the columns
 
 This sets the gap between the rows
 
-## Grid properties for container
+<h4>Grid properties for container</h4>
 
 <b>grid-template-columns: measurement units \| % units \|repeat()</b>
 
@@ -5294,7 +5436,7 @@ specifications
 This relates to the size for rows created without specific size
 specifications
 
-## Grid properties for items (child)
+<h4>Grid properties for items (child)</h4>
 
 <b>grid-column: column position /\* E.g. 1/2 \*/</b>
 
@@ -5324,7 +5466,7 @@ a grid.
 This property determines the end row position an item is placed on a
 grid.
 
-## Justification and alignment
+<h4>Justification and alignment</h4>
 
 <b>justify-self: start \| center \| end \| stretch</b>
 
@@ -5368,7 +5510,7 @@ display to flex makes the given selector a flex box. Setting display to
 <b>inline-flex</b> makes the selector a flex box container while will be
 inline.
 
-## Properties for flexbox container
+<h4>Properties for flexbox container</h4>
 
 <b>flex-direction: row \| row-reverse \| column \| column-reverse</b>
 
@@ -5397,7 +5539,7 @@ size of the window displaying the page.
 -   Nowrap: Default setting, items remain rigid and don't respond to
     adjustments made to the window size.
 
-<b>align-items: flex-start \| flex-end \| center \|Stretch</b>
+<h4><b>align-items: flex-start \| flex-end \| center \|Stretch</b></h4>
 
 This determines how the flex items are to be positioned on the page.
 Items can be aligned in a variety of ways
@@ -5411,8 +5553,8 @@ Items can be aligned in a variety of ways
 
 -   Stretch: item expands to fill the container.
 
-<b>justify-content: flex-start \| flex-end \| center \| space-between \|
-space-evenly</b>
+<h4><b>justify-content: flex-start \| flex-end \| center \| space-between \|
+space-evenly</b></h4>
 
 Justify-content determines the alignment of the flex items.
 
@@ -5428,7 +5570,7 @@ Justify-content determines the alignment of the flex items.
 -   Space-evenly: each item is equidistant from each other and the
     boundary wall
 
-## Properties for flexbox items (child)
+<h4>Properties for flexbox items (child)</h4>
 
 <b>flex-grow: factor of flex's main size</b>
 
@@ -5441,7 +5583,7 @@ This allows elements to shrink in relation to items around it.
 
 <b>flex-basis: auto \| factor of main's size \| measurement unit</b>
 
-The sets the initial main size of an item. It can be overridden if other
+This sets the initial main size of an item. It can be overridden if other
 stylized elements are configured.
 
 <b>order:position in flex /\* Set ascending by default \*/</b>
@@ -5455,7 +5597,7 @@ This determines where on the page the child items will be positioned.
 Similar to the main flex attributes, start is to the left and end is to
 the right.
 
-Grid showcase
+<h4>Grid showcase</h4>
 
 In this section (grid showcase), you will learn about how differently
 commonly used grid layouts are created and where you can use them.
@@ -5612,7 +5754,7 @@ models.
 
 Now, you know about the basic grid layout in the 12-column grid.
 
-Grid template area
+<h4>Grid template area</h4>
 
 Grid areas are a way to group one or more grid cells. The grid template
 area is an extension of this concept where you can give names to these
@@ -5624,21 +5766,17 @@ or any container where the grid needs to be placed, the same way that
 you would define the rules for the grid. The main difference is, in case
 of grid-template-areas the values present will be the different names. 
 
-## Process
+<h4>Process</h4>
 
 The process isn't prescriptive but these are the steps in general:
 
--   Define the grid using display property 
-
--   Set the height and width of the grid 
-
--   Set the grid-template-areas with the appropriate name identifiers
-
--   Add the appropriate sizes for the rows inside the grid using
-    grid-template-rows property 
-
--   Add the appropriate sizes for the columns inside the grid using
-    grid-template-columns property 
+<ul>
+  <li>Define the grid using display property<br></li>
+  <li>Set the height and width of the grid<br></li>
+  <li>Set the grid-template-areas with the appropriate name identifiers<br></li>
+  <li>Add the appropriate sizes for the rows inside the grid using grid-template-rows property<br></li>
+  <li>Add the appropriate sizes for the columns inside the grid using grid-template-columns property</li>
+</ul>
 
 But how exactly do you use these names and where do they come from? The
 names that you use inside the grid template areas are the HTML tags that
@@ -5647,9 +5785,9 @@ class name to these tags. Once the names are assigned, you define the
 properties for each class the same way that you define them
 conventionally. Let\'s examine an example.
 
-## Example
+<h4>Example</h4>
 
-## HTML Code:
+<h4>HTML Code:</h4>
 
 ```
 <head> 
@@ -5663,7 +5801,7 @@ conventionally. Let\'s examine an example.
 </body> 
 ```
 
-## CSS Code:
+<h4>CSS Code:</h4>
 
 ```
   body { 
@@ -5685,7 +5823,7 @@ conventionally. Let\'s examine an example.
    }
 ```
 
-## Output:  
+<h4>Output:</h4>
 
 ![Grid-based output presenting \"header, navigation, main area, and
 footer.\"](images/image148.png){width="5.0in"
@@ -6125,21 +6263,19 @@ specificity is selected by CSS. But before you read on, it is important
 to note that these rules only apply in cases where conflicts arise for
 the properties. 
 
-## Specificity hierarchy
+<h4>Specificity hierarchy</h4>
 
 CSS has a set of rules that it uses to 'score' or assign a certain
 weight to selectors and this creates a specificity hierarchy. Based on
 the weights, there are four categories in this hierarchy: 
+<ul>
+  <li>Inline styles<br></li>
+  <li>IDs<br></li>
+  <li>Classes, attributes, and pseudo-classes<br></li>
+  <li>Elements and pseudo-elements.</li>
+</ul>
 
--   Inline styles 
-
--   IDs 
-
--   Classes, attributes, and pseudo-classes 
-
--   Elements and pseudo-elements 
-
-## Inline styles
+<h4>Inline styles</h4>
 
 Inline styles are attached to the elements within your HTML code like
 with the 'style' attribute. inline styles have the highest specificity.
@@ -6157,7 +6293,7 @@ styling for a p tag:
 The p tag will be colored white because it is declared inside the inline
 tag. 
 
-## IDs
+<h4>IDs</h4>
 
 Next in the hierarchy are IDs and by now you know that they are
 represented by '#'.  For example:
@@ -6166,12 +6302,12 @@ represented by '#'.  For example:
   #div
 ```
 
-## Classes, attributes, and pseudo-classes
+<h4>Classes, attributes, and pseudo-classes</h4>
 
 Classes, and the attributes inside the selectors, come next with what is
 called the pseudo-classes that you will soon learn more about. 
 
-## For example:
+<h4>For example:</h4>
 
 ```
   .my-class 
@@ -6179,13 +6315,13 @@ called the pseudo-classes that you will soon learn more about. 
   div:hover
 ```
 
-## Elements and pseudo-elements
+<h4>Elements and pseudo-elements</h4>
 
 Finally, elements and something you call pseudo-elements have the lowest
 position in the specificity hierarchy. You will learn more about
 pseudo-elements later in this lesson.
 
-## Calculating scores
+<h4>Calculating scores</h4>
 
 But by now you might wonder how is specificity calculated? 
 
@@ -6215,7 +6351,7 @@ Let's explore a couple of examples for clarity. Take note that the
 properties and values are not included in these examples to keep the
 focus on the selectors only. 
 
-## Example 1
+<h4>Example 1</h4>
 
 ```
   p {} 
@@ -6230,7 +6366,7 @@ The third case has a total of 12 for the p tag and so has the highest
 specificity. The rules for the other two cases are then overridden and
 the rules inside the third case are applied. 
 
-## Example 2
+<h4>Example 2</h4>
 
 ```
   p#bar => 1 element & 1 ID =>  0 1 0 1 => Score: 101
@@ -6835,7 +6971,7 @@ line-height: 1; 
 } 
 ```
 
-Output
+<h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6850,12 +6986,12 @@ Although the code only changed the first letter of each bullet point, it
 makes a big difference in terms of presentation. Now let's change the
 font in a different way.
 
-## ::first-line
+<h4>::first-line</h4>
 
 First-line will change the complete first line of each of the bullet
 points to light sea green.
 
-## CSS code:
+<h4>CSS code:</h4>
 
 ```
 ul{
@@ -6868,7 +7004,7 @@ li::first-line {
 }
 ```
 
-Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6887,7 +7023,7 @@ Note that the contents of the line to which this pseudo-element is
 applied will change as you increase or decrease the size of your
 viewport.
 
-Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6898,7 +7034,7 @@ Output:
 </p>
 <!-- ![](images/image183.png){width="4.0in" height="3.24050634295713in"} -->
 
-## ::selection
+<h4>::selection</h4>
 
 Selection is another useful pseudo-element. For example, you may use it
 when you are taking notes on your device because it allows you to
@@ -6907,24 +7043,24 @@ user selects content. On web pages today, you will typically see
 inverted colors from white-black to black-white when selecting a portion
 of text.
 
-## CSS code:
+<h4>CSS code:</h4>
 
 ```
-ul{
+  ul{
     list-style-type: none;
-}
-li::selection {
+  }
+  li::selection {
     color:brown;
     background-color: antiquewhite;
     line-height: 1;
-}
+  }
 ```
 
 Here is an example of a selection of text.
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. selection example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image184.png"
@@ -6936,7 +7072,7 @@ Here is an example of a selection of text.
 And another example of the same text but with a different section
 selected and highlighted.
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6945,17 +7081,16 @@ selected and highlighted.
   width="40%"
   alt="." />
 </p>
-![](images/image185.png){width="4.0in" height="2.4914523184601927in"}
+<!-- ![](images/image185.png){width="4.0in" height="2.4914523184601927in"} -->
 
 Different segments of the text are highlighted depending on the text
 that is selected at any given point.
 
-## ::marker 
+<h4>::marker</h4>
 
 Markers are typically used to add style elements to a list, for
 instance, to color bullet points. For example, you can enhance the user
-experience when you use a marker in the following way.
-
+experience when you use a marker in the following way;
 
 <h4>CSS code:</h4>
 
@@ -6969,7 +7104,7 @@ li::marker {
 
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. example marker (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image186.png"
@@ -6980,7 +7115,7 @@ li::marker {
 
 Now the bullet points are cornflower blue and they have the shape specified in the code.
 
-## ::before and ::after
+<h4>::before and ::after</h4>
 
 One more pair of pseudo-elements are the <b>::before</b> and <b>::after</b>
 pseudo-elements. They allow you to add content before and after an
@@ -6990,7 +7125,7 @@ styling options for this content. Let's do an example where text is
 added both before and after some cooking guidelines to identify them as
 important tips.
 
-## HTML code:
+<h4>HTML code:</h4>
 
 ```
   <body>
@@ -7000,7 +7135,7 @@ important tips.
   </body>
 ```
 
-## CSS code:
+<h4>CSS code:</h4>
 
 ```
 #tips::before{
@@ -7020,7 +7155,7 @@ important tips.
 }
 ```
 
-## Output:
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7264,7 +7399,7 @@ effect.
 
 CSS Pseudo cheat sheet
 
-## Simple selectors
+<h4>Simple selectors</h4>
 
 +---------------------+-------------------+----------------------------+
 | <b>Selector</b>        | <b>Syntax</b>        | <b>Example</b>                |
@@ -7280,7 +7415,7 @@ CSS Pseudo cheat sheet
 | Universal           | \*                | <b>\* { }</b>                 |
 +---------------------+-------------------+----------------------------+
 
-## Variations of simple selectors
+<h4>Variations of simple selectors</h4>
 
   -----------------------------------------------------------------------------------
   <b>Elements</b>   <b>Syntax</b>                  <b>Example</b>      <b>Description</b>
@@ -7298,7 +7433,7 @@ CSS Pseudo cheat sheet
                                                               inside \<p\>
   -----------------------------------------------------------------------------------
 
-## Descendant selectors/combinators
+<h4>Descendant selectors/combinators</h4>
 
   --------------------------------------------------------------------------
   <b>Selector</b>   <b>Syntax</b>         <b>Example</b>   <b>Description</b>
@@ -7316,7 +7451,7 @@ CSS Pseudo cheat sheet
   Sibling                           }</b>           iterations after \<div\>
   --------------------------------------------------------------------------
 
-## Attribute selectors
+<h4>Attribute selectors</h4>
 
 +---------------+---------------------+-------------------------------+
 | <b>Selector</b>  | <b>Syntax</b>          | <b>Example</b>                   |
@@ -7450,7 +7585,7 @@ CSS Pseudo cheat sheet
 | :visited      | <b>a:visited { }</b>   | Selects all visited links     |
 +---------------+---------------------+-------------------------------+
 
-## Pseudo-element selectors
+<h4>Pseudo-element selectors</h4>
 
   ---------------------------------------------------------------------------
   <b>Syntax</b>       <b>Example</b>             <b>Description</b>
@@ -7824,7 +7959,7 @@ I\'m happy with it.
 That\'s all my examples. In this section, you learned how to add effects
 to your text using a few simple rules in CSS.
 
-## Text effects cheat sheet
+<h4>Text effects cheat sheet</h4>
 
 The effects developers use on text items on a web page are chosen mainly
 because of their styling and layout style. Interesting effects can be
@@ -7914,7 +8049,7 @@ alignment and define the scope of text with their containers. 
 The properties mentioned are ones that can be used for giving effects to
 text. 
 
-# CSS Transforms and transitions
+<h3>CSS Transforms and transitions</h3>
 
 So far, you have learned how animation can be used to add interactivity
 and responsiveness to a web page.
@@ -8183,7 +8318,7 @@ A number of different effects like these can be performed with the help
 of the two properties, transform and transition and combining them with
 pseudo classes such as hover active and others.
 
-## CSS animation
+<h4>CSS animation</h4>
 
 By now you should know the basics of CSS animation.
 
@@ -8351,13 +8486,13 @@ ways.
 For instance, you can combine them with other elements like images to
 achieve amazing animations using purely CSS.
 
-## CSS keyframes
+<h4>CSS keyframes</h4>
 
 In this reading, you will become acquainted with the \@keyframes rule
 and you'll learn how to use it with the animation property in CSS.
 
 The rules covered so far are for alignment and styling of web pages
-using CSS. Keyframes are a type of at-rule which are represented by the
+using CSS. Keyframes are a type of <i>at-rule</i> which are represented by the
 \'@\' suffix.
 
 At-rules are statements inside CSS that describe how to behave or
@@ -8366,25 +8501,25 @@ perform certain actions.
 In line with that, keyframes are defined as \'@keyframes\' in the CSS
 code.
 
-\@keyframes are part of the animation sequence and help in defining the
+<b>\@keyframes</b> are part of the animation sequence and help in defining the
 steps inside it.
 
 Imagine an object on your web page moving from point A to point B.
 
-You can use the transition and transform properties to do that, but
+You can use the <i>transition</i> and <i>transform</i> properties to do that, but
 animation sequences are used to accomplish more complex behaviors in an
 easier way. 
 
-## from{} and to{} keywords and using percentages(%) syntax
+<h4>from{} and to{} keywords and using percentages(%) syntax</h4>
 
 ```
 @keyframes animation-name { 
-from { 
-property-a: value-a; 
-} 
-to { 
-property-a: value-b; 
-} 
+  from { 
+    property-a: value-a; 
+  } 
+  to { 
+    property-a: value-b; 
+  } 
 } 
 ```
 
@@ -8420,28 +8555,22 @@ consists of other sub-properties. Of these, animation-name and
 animation-duration must be defined while others such as timing-function,
 delay, direction, fill-more, iteration-count and so on can be added. 
 
-## Animation property shorthand:
+<h4>Animation property shorthand:</h4>
 
 The shorthand for the animation property consists of the following
 properties with their default values:
 
--   animation-name: none 
-
--   animation-duration: 0s 
-
--   animation-timing-function: ease 
-
--   animation-delay: 0s 
-
--   animation-iteration-count: 1 
-
--   animation-direction: normal 
-
--   animation-fill-mode: none 
-
--   animation-play-state: running 
-
--   animation-timeline: auto 
+<ul>
+  <li>animation-name: none<br/></li>
+  <li>animation-duration: 0s<br/></li>
+  <li>animation-timing-function: ease<br/></li>
+  <li>animation-delay: 0s<br/></li>
+  <li>animation-iteration-count: 1<br/></li>
+  <li>animation-direction: normal<br/></li>
+  <li>animation-fill-mode: none<br/></li>
+  <li>animation-play-state: running<br/></li>
+  <li>animation-timeline: auto</li>
+</ul>
 
 If the values of any of these are not defined, you should assume that
 they are the default. Of these, the first property of the animation-name
@@ -8552,7 +8681,7 @@ rule to make it even more dynamic and add the desired animation effects.
 Animation property and \@keyframes rule can be used in very creative
 ways to enhance a web page.
 
-# Animation examples
+<h3>Animation examples</h3>
 
 By now you should know that CSS offers many possibilities for creating
 interesting animations.
@@ -8718,13 +8847,15 @@ But CSS animations and keyframes are quite powerful.
 
 Try challenging yourself and see what animations you can build.
 
-# Animation and effects cheat sheet
+<h3>Animation and effects cheat sheet</h3>
 
-Transform property
+<h4>Transform property</h4>
 
-## Syntax
+<h4>Syntax</h4>
 
+```
 transform: transform function-values
+```
 
 <h4>Example</h4>
 
@@ -8734,7 +8865,7 @@ transform: transform function-values
 }
 ```
 
-<h4><b>Keyword-value type: none</b></h4>
+<h4>Keyword-value type: none</h4>
 
 ```
 .sample-class {
@@ -8742,7 +8873,7 @@ transform: transform function-values
 }
 ```
 
-<h4><b>Function-value type: matrix()</b></h4>
+<h4>Function-value type: matrix()</h4>
 
 <h4>Variations: matrix(), matrix3d()</h4>
 
@@ -8752,7 +8883,7 @@ transform: transform function-values
 }
 ```
 
-<h4><b>Function-value type: rotate(deg)</b></h4>
+<h4>Function-value type: rotate(deg)</h4>
 
 <h4>Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()</h4>
 
@@ -8765,7 +8896,7 @@ transform: transform function-values
 Note: In rotate3d(), the respective values represent x, y, z co-ordinate
 and degree of rotations
 
-<h4><b>Function-value type: translate(x,y)</b></h4>
+<h4>Function-value type: translate(x,y)</h4>
 
 <h4>Variations: translate(), translate3d(), translateX(), translateY(), translateZ()</h4>
 
@@ -8778,7 +8909,7 @@ and degree of rotations
 Note: In translate3d(), the respective values represent translation
 along the x, y, z co-ordinates
 
-<h4><b>Function-value type: scale(factor)</b></h4>
+<h4>Function-value type: scale(factor)</h4>
 
 <h4>Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()</h4>
 
@@ -8791,7 +8922,7 @@ along the x, y, z co-ordinates
 Note: In scale3d(), the respective values represent scaling times along
 the x, y, z co-ordinates
 
-<h4><b>Function-value type: skew(deg, deg)</b></h4>
+<h4>Function-value type: skew(deg, deg)</h4>
 
 <h4>Variations: skew(), skewX(), skewY()</h4>
 
@@ -8801,7 +8932,7 @@ the x, y, z co-ordinates
 }
 ```
 
-<h4><b>Global value types:</b></h4>
+<h4>Global value types:</h4>
 
 ```
 .sample-class {
@@ -8821,7 +8952,7 @@ the x, y, z co-ordinates
 }
 ```
 
-## Multiple transform over the same element
+<h4>Multiple transform over the same element</h4>
 
 <h4>Syntax</h4>
 
@@ -8852,39 +8983,44 @@ Determines the anchor point for the centering of transform.
   }
 ```
 
-## Transition property
+<h4>Transition property</h4>
 
-## Transition shorthand
+<h4>Transition shorthand</h4>
 
-Transition shorthand has four following sub-properties, each of which
-can also be individually defined. 
+Transition shorthand has the following four sub-properties, each of which
+can also be individually defined;
 
--   transition-property
-
--   transition-duration
-
--   transition-timing-function
-
--   transition-delay
+<ul>
+  <li>transition-property<br></li>
+  <li>transition-duration<br></li>
+  <li>transition-timing-function<br></li>
+  <li>transition-delay</li>
+</ul>
 
 You have to list the values without naming them individually. Values
 skipped will be assigned their default values. 
 
 <h4>Syntax</h4>
 
+```
 transition: property duration timing-function delay;
+```
 
 <h4>Example</h4>
 
-<h4>transition: margin-left 2s ease-in-out 0.5s;</h4>
+```
+transition: margin-left 2s ease-in-out 0.5s;
+```
 
-## Animations and \@keyframes
+<h4>Animations and \@keyframes</h4>
 
 <h4>animation property:</h4>
 
 <h4>Syntax</h4>
 
-<h4>animation: *name duration timing-function delay iteration-count direction fill-mode play-state*;</h4>
+```
+animation: *name duration timing-function delay iteration-count direction fill-mode play-state*;
+```
 
 <h4>Example</h4>
 
@@ -8911,9 +9047,9 @@ The values not mentioned are given default values.
 
 Animation-name property is used to tie-in the \@keyframes rule.
 
-## \@keyframes
+<h4>\@keyframes</h4>
 
-## Syntax
+<h4>Syntax
 
 ```
   @keyframes mymove {
@@ -8922,7 +9058,7 @@ Animation-name property is used to tie-in the \@keyframes rule.
   }
 ```
 
-## Example
+<h4>Example</h4>
 
 ```
   @keyframes animation-name {
@@ -8954,7 +9090,7 @@ Percentage denotes the timing of the animation. 
   }
 ```
 
-## Multiple animations
+<h4>Multiple animations</h4>
 
 Works the same as regular animation, multiple rules can be set. 
 
@@ -8965,9 +9101,9 @@ Works the same as regular animation, multiple rules can be set. 
   }  
 ```
 
-# Preprocessors: sass, scss, Stylus
+<h3>Preprocessors: sass, scss, Stylus</h3>
 
-## Preprocessors: sass, scss
+<h4>Preprocessors: sass, scss</h4>
 
 Now that you have learned about different animation effects, let\'s
 explore the topic of preprocessors which can make the process of
@@ -8994,7 +9130,7 @@ Preprocessors have their own scripting language that adds logical
 structures, automation properties, reusability and bloating of the code.
 You'll now explore some of the different preprocessors available.
 
-## SASS and SCSS
+<h4>SASS and SCSS</h4>
 
 Syntactically Awesome Style Sheets (SASS) is a scripting language that
 CSS compiles and interprets into CSS. SCSS, which stands for Sassy CSS
@@ -9017,7 +9153,7 @@ this syntax have the .sass extension.\"
 
 This example highlights these differences.
 
-## Regular CSS:
+<h4>Regular CSS:</h4>
 
 ```
 body { 
@@ -9026,7 +9162,7 @@ body { 
 } 
 ```
 
-## This is the SCSS: 
+<h4>This is the SCSS:</h4>
 
 ```
 $font-stack: Arial; 
@@ -9039,7 +9175,7 @@ body { 
 } 
 ```
 
-## SASS for the same block:  
+<h4>SASS for the same block:</h4>
 
 ```
 $font-stack: Arial 
@@ -9074,7 +9210,7 @@ explore a couple of directives called \@mixin and \@include. 
 
 <h4>Syntax</h4>
 
-## \@mixin *name *{ *property*: *value*; *property*: *value*;   \... }
+<h4>\@mixin *name *{ *property*: *value*; *property*: *value*; \... }</h4>
 
 ```
 @mixin some-rules { 
@@ -9100,7 +9236,7 @@ used. \@import allows the import of rules from another file, and
 \@extend allows all the rules from a specific selector to be added
 inside another selector. 
 
-## Stylus CSS
+<h4>Stylus CSS</h4>
 
 Now that you know how preprocessors behave let us explore one more of
 their type, called Stylus. If you continue to use the example above, the
@@ -9183,7 +9319,7 @@ CSS that may be helpful as you continue your learning journey.
 -   [Collection of examples using
     HTML/CSS](https://freefrontend.com/css-animation-examples/)
 
-# Common errors
+<h3>Common errors</h3>
 
 Have you ever made a mistake while programming?
 
@@ -9486,14 +9622,11 @@ tools that allow you to modify your CSS code.
 
 And verify the changes directly in the browser.
 
-## Installing a third-party Linter in VS Code
+<h4>Installing a third-party Linter in VS Code</h4>
 
-Bla bla bla
+Not worth it.
 
-Can't use it. Computer is not powerful enough. And MS Visual Studio is a
-total piece of shit. Much like Windows and Office. A fucking joke.
-
-# Debugging the front-end
+<h3>Debugging the front-end</h3>
 
 In this reading, you will learn about some of the fundamental tasks used
 to debug CSS. The scope of what's covered will match the topics already
@@ -9559,13 +9692,13 @@ inside the .alpha class to some other position inside your code, it is
 easier to debug the source of the problem. This should be done on a
 case-specific basis.
 
-## Getting familiar with the box model 
+<h4>Getting familiar with the box model</h4>
 
 The box model is a very powerful source of information and can solve
 many issues with alignment. Using margin, padding and border is useful,
 but can be tricky and must be well understood.
 
-## Browser issues 
+<h4>Browser issues</h4>
 
 Many times, the styling you have renders correctly in the IDE but
 misbehaves in a browser. That is because browsers have their own default
@@ -9576,7 +9709,7 @@ cases written at the top of the code, and will include properties such
 as 'margin: 0px;' to reset the margin values set by the browser by
 default.
 
-## Dev tools 
+<h3>Dev tools</h3>
 
 There are lots of user-friendly tools available today that can help
 debug CSS. However, the best tool you can use is the one provided by the
@@ -9704,7 +9837,7 @@ debugging and CSS in general.
 In this reading, you learned about some of the fundamental tasks used to
 debug CSS.
 
-# Debugging tools
+<h3>Debugging tools</h3>
 
 Have you ever had a broken power outlet in your home, or maybe a light
 switch stopped working?
@@ -9799,7 +9932,7 @@ easier.
 
 The next reading, we\'ll explore developer tools in more detail.
 
-# Browser-specific CSS
+<h3>Browser-specific CSS</h3>
 
 One of the frustrations you\'re likely to run into will be compatibility
 issues that occur when rendering your CSS files on different browsers.
@@ -9967,7 +10100,7 @@ fellow learners.
 
 -   Share your thoughts with your classmates!
 
-# UI testing
+<h3>UI testing</h3>
 
 As you may have experienced when using different apps in your everyday
 life, first impressions matter, whether you are using an app to make a
@@ -10447,7 +10580,7 @@ They are:
 
 -   Read on to find out more about them.
 
-## <b>Retail: Lucky Shrub</b>
+<h4>Retail: Lucky Shrub</h4>
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. lucky shrub (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
@@ -10470,13 +10603,13 @@ creates and oversees all designs while managing his team of landscapers.
 Maria manages all the marketing for the company and oversees the
 nursery.
 
-## Download their logos here:
+<h4>Download their logos here:</h4>
 
-<b>[Lucky-Shrub-Logos]{.underline}</b>
+<h5>[Lucky-Shrub-Logos]</h5>
 
-[ZIP File]{.underline}
+[ZIP File]
 
-## <b>Professional services: Hair Day</b> 
+<h4>Professional services: Hair Day</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. hair day logo (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10504,13 +10637,13 @@ Pria opened the salon with her good friend and talented hairdresser,
 Garry. They have a staff of seven: two stylists, three colorists, one
 manicurist and one make-up artist.
 
-## Download their logos here:
+<h4>Download their logos here:</h4>
 
-#### Hair Day logos
+<h5>Hair Day logos</h5>
 
 [ZIP File]
 
-## <b>Restaurant: Little Lemon</b> 
+<h4>Restaurant: Little Lemon</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 241. little lemon fictional client logo (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10535,13 +10668,13 @@ experience as a chef in Italy. Adrian does all the marketing for the
 restaurant and led the effort to expand the menu beyond classic Italian
 to incorporate additional cuisines from the Mediterranean region.
 
-## Download their logos here:
+<h4>Download their logos here:</h4>
 
 <b>[Little-Lemon-logos]{.underline}</b>
 
 ZIP File
 
-## <b>Luxury Jewelry: Mangata and Gallo</b>
+<h4>Luxury Jewelry: Mangata and Gallo</h4>
 
 Mangata and Gallo is a jewelry store that specializes in special
 occasions like engagements, weddings and anniversaries. The jewelry
