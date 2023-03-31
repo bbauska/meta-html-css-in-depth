@@ -5045,9 +5045,15 @@ background colors as indicated.
 
 What\'s important to note here is that as you change the size of the web
 page, the flex adjusts itself while the label remains unchanged.
-
-![](images/image122.png){width="6.333333333333333in"
-height="5.041666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 122.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image122.png"
+  width="63%"
+  alt="." />
+</p>
+<!-- ![](images/image122.png){width="6.333333333333333in" height="5.041666666666667in"} -->
 
 The next example is very similar to the one I created for the earlier
 bar charts.
@@ -5241,8 +5247,15 @@ reduced the amount of code you need to write.
 
 Therefore, the repeat function helps reduce redundancy and provides ease
 of code modification.
-
-![](images/image137.png){width="6.5in" height="2.7805555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image137.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image137.png){width="6.5in" height="2.7805555555555554in"} -->
 
 Next, the min-max function sets the minimum and maximum values expected
 for the sizes of rows and columns.
@@ -5287,18 +5300,28 @@ The syntax for creating a grid:
     display: grid; /* or inline-grid */
   }
 ```
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138/139. proprietary pos windows garbage (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image138.wmf"
+  width="30%"
+  alt="." />
+<img src="/images/image139.wmf"
+  width="30%"
+  alt="." />
+</p>
 
-![](images/image138.wmf)
-
-![](images/image139.wmf)
+<!-- ![](images/image138.wmf) -->
+<!-- ![](images/image139.wmf) -->
 
 Grid shorthand consists of the following properties with default values:
 
-<b>grid</b>
+<h4>grid</h4>
 
 A grid will allow you organize the various elements on your page.
 
-<b>grid-template-rows: none</b>
+<h4>grid-template-rows: none</h4>
 
 This feature allows you configure your elements so that they are
 organized similarly to rows on a table.
@@ -5608,9 +5631,17 @@ I\'ve opened extra.HTML in Visual Studio Code.
 
 Now I can start adding the different elements.
 
-![](images/image140.png){width="3.0in"
-height="2.3651159230096237in"}First is the restaurant\'s name, little
-lemon, which I put into the header.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image140.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image140.png){width="3.0in" height="2.3651159230096237in"}  -->
+
+First is the restaurant\'s name, little lemon, which I put into the header.
 
 In the main element, I type menu and for the footer, I type About Us.
 
@@ -5621,9 +5652,17 @@ and then the footer.
 
 First for the body, I need to use the display property to code the grid.
 
-![](images/image141.png){width="3.0in" height="2.3651159230096237in"}I
-define as high as 150 VH. One VH is equal to 1 percent of the viewport
-height.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image141.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image141.png){width="3.0in" height="2.3651159230096237in"} -->
+
+I define as high as 150 VH. One VH is equal to 1 percent of the viewport height.
 
 Now, I add the grid template rows property that will track the sizing
 functions for the grid rows.
@@ -5642,8 +5681,17 @@ Let\'s examine the output.
 
 It looks good.
 
-![](images/image142.png){width="3.0in" height="2.9506944444444443in"}I\'m
-going to do the same for the main and the footer elements.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image142.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image142.png){width="3.0in" height="2.9506944444444443in"} -->
+
+I\'m going to do the same for the main and the footer elements.
 
 I\'ve changed the colors, but everything else is the same.
 
@@ -5661,10 +5709,17 @@ equal size.
 
 One can add different elements to the grid by determining their starting
 point and the number of columns each element spans.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image143.png"
+  width="37%"
+  alt="." />
+</p>
+<!-- ![](images/image143.png){width="3.75in" height="3.426025809273841in"} -->
 
-![](images/image143.png){width="3.75in"
-height="3.426025809273841in"}Don\'t worry, this will all become a lot
-clearer when I go through the following example.
+Don\'t worry, this will all become a lot clearer when I go through the following example.
 
 I\'m opening gridtwelve.html in Visual Studio code.
 
@@ -5686,7 +5741,15 @@ For the parent class, I write display grid and then add the grid
 template columns property, which I\'m going to repeat 12 times with one
 fraction each.
 
-![](images/image144.png){width="6.5in" height="3.0347222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image144.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image144.png){width="6.5in" height="3.0347222222222223in"} -->
 
 Next, I define the properties of the segment.
 
@@ -5702,7 +5765,15 @@ Now, let\'s set the properties for the different segments.
 The first one spends 12 columns, I start by adding a light green
 background.
 
-![](images/image145.png){width="4.46875in" height="4.40625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image145.png"
+  width="45%"
+  alt="." />
+</p>
+<!-- ![](images/image145.png){width="4.46875in" height="4.40625in"} -->
 
 The next part is important.
 
@@ -5722,7 +5793,15 @@ Again, I copy the same code, but instead of starting from the first
 column this time, I\'ll start from say, the fifth column, and it will
 span across eight columns.
 
-![](images/image146.png){width="4.46875in" height="4.40625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image146.png"
+  width="45%"
+  alt="." />
+</p>
+<!-- ![](images/image146.png){width="4.46875in" height="4.40625in"} -->
 
 Let\'s change the color here to bisque.
 
@@ -5730,8 +5809,15 @@ The color now makes it obvious that the elements starts from the fifth
 column and spans eight columns.
 
 Let\'s add the other segments and then we\'ll examine the code again.
-
-![](images/image147.png){width="6.5in" height="4.1194444444444445in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image147.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image147.png){width="6.5in" height="4.1194444444444445in"} -->
 
 Let\'s examine the output again.
 
@@ -5824,10 +5910,15 @@ conventionally. Let\'s examine an example.
 ```
 
 <h4>Output:</h4>
-
-![Grid-based output presenting \"header, navigation, main area, and
-footer.\"](images/image148.png){width="5.0in"
-height="2.7146172353455817in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image148.png"
+  width="50%"
+  alt="Grid-based output presenting header, navigation, main area, and footer." />
+</p>
+<!-- (images/image148.png){width="5.0in" height="2.7146172353455817in"} -->
 
 Though there are five sets of rules, logically the CSS code is divided
 into two sections. The first is where you define the rules for the grid
@@ -5879,7 +5970,7 @@ these labels when you are defining the rules. Creating a block diagram
 using pen and paper before starting to work on a grid is always a good
 idea.
 
-Case study: How Meta creates responsive builds
+<h4>Case study: How Meta creates responsive builds</h4>
 
 Websites have to work on a lot of things.
 
@@ -5967,7 +6058,7 @@ Instead of focusing on making that device work properly, try to make
 your interface forward and walk across a range of dimensions versus just
 ticking the boxes.
 
-Additional resources
+<h4>Additional resources</h4>
 
 Here is a list of resources about layouts, flexboxes, grids and
 viewports in HTML and CSS that may be helpful as you continue your
@@ -5990,7 +6081,7 @@ applications](https://1stwebdesigner.com/fascinating-css-grid-layout-examples-an
 
 [Overview of different layouts](https://csslayout.io/)
 
-Widely used selectors
+<h4>Widely used selectors</h4>
 
 Earlier you learned about the different types of CSS selectors.
 
@@ -6002,9 +6093,17 @@ commonly used CSS selectors.
 
 But before you explore them, let\'s briefly revise the ones you\'ve
 already covered.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image149.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image149.png){width="3.0in" height="2.7163867016622922in"} -->
 
-![](images/image149.png){width="3.0in" height="2.7163867016622922in"}You
-learned about element or type selectors.
+You learned about element or type selectors.
 
 The element selector allows developers to select html elements based on
 their element type.
@@ -10697,7 +10796,7 @@ Download their logos here:
 <b>[Mangata and Gallo logos]</b>
 
 <!-- not quite done... near though -->
-<h6)3-11-2023 at 7:02pm</h6>
+<h6>3-11-2023 at 7:02pm</h6>
 <h5>wip - Work in Progress</h5>
 
 [ZIP File]
