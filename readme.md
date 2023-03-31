@@ -6380,8 +6380,15 @@ Form state pseudo-classes include disabled and enabled, generally used
 for buttons, checked and indeterminate, that are used for checkboxes,
 and valid and invalid used in case of fields like emails and phone
 numbers.
-
-![](images/image180.png){width="2.0in" height="2.3480828958880138in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image180.png"
+  width="20%"
+  alt="." />
+</p>
+<!-- ![](images/image180.png){width="2.0in" height="2.3480828958880138in"} -->
 
 Another pseudo-class type that you should know about is specific
 position-based states.
@@ -6464,7 +6471,15 @@ line-height: 1; 
 
 Output
 
-![](images/image181.png){width="4.0in" height="2.9822779965004376in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image181.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image181.png){width="4.0in" height="2.9822779965004376in"} -->
 
 Although the code only changed the first letter of each bullet point, it
 makes a big difference in terms of presentation. Now let's change the
@@ -6489,8 +6504,15 @@ li::first-line {
 ```
 
 Output:
-
-![](images/image182.png){width="4.0in" height="1.812587489063867in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image182.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image182.png){width="4.0in" height="1.812587489063867in"} -->
 
 Because it's only the first line of each bullet point, it almost
 functions like dividers between the three different points instead of
@@ -6502,7 +6524,15 @@ viewport.
 
 Output:
 
-![](images/image183.png){width="4.0in" height="3.24050634295713in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image183.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image183.png){width="4.0in" height="3.24050634295713in"} -->
 
 ## ::selection
 
@@ -6530,15 +6560,29 @@ Here is an example of a selection of text.
 
 ## Output:
 
-![Output for selection of text
-display](images/image184.png){width="6.238194444444445in"
-height="3.838888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image184.png"
+  width="60%"
+  alt="Output for selection of text display." />
+</p>
+<!-- !(images/image184.png){width="6.238194444444445in" height="3.838888888888889in"} -->
 
 And another example of the same text but with a different section
 selected and highlighted.
 
 ## Output:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image185.png"
+  width="40%"
+  alt="." />
+</p>
 ![](images/image185.png){width="4.0in" height="2.4914523184601927in"}
 
 Different segments of the text are highlighted depending on the text
@@ -6562,11 +6606,17 @@ li::marker {
 ```
 
 <h4>Output</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image186.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image186.png){width="4.0in" height="2.205076552930884in"} -->
 
-![](images/image186.png){width="4.0in" height="2.205076552930884in"}
-
-Now the bullet points are cornflower blue and they have the shape
-specified in the code.
+Now the bullet points are cornflower blue and they have the shape specified in the code.
 
 ## ::before and ::after
 
@@ -6608,13 +6658,16 @@ important tips.
 }
 ```
 
- 
-
 ## Output:
-
-![Selection of texts preceding and following a
-statement](images/image187.png){width="4.0in"
-height="1.3951760717410324in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image187.png"
+  width="40%"
+  alt="Selection of texts preceding and following a statement." />
+</p>
+<!-- ![(images/image187.png){width="4.0in" height="1.3951760717410324in"} -->
 
 The "content" property is where the text for the guidelines goes. The
 word "tip" has been added before each guideline thanks to the rules
@@ -6642,12 +6695,28 @@ Although, you can use web-link states for many functionalities,
 developers often use them to style the color of links that a user
 already opened.
 
-![](images/image188.png){width="4.0in" height="1.481058617672791in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image188.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image188.png){width="4.0in" height="1.481058617672791in"} -->
 
 For instance, a HTML file can have two a tags, each with its own href
 that links to a different page of a website.
 
-![](images/image189.png){width="4.0in" height="1.2613757655293087in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image189.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image189.png){width="4.0in" height="1.2613757655293087in"} -->
 
 To give the links their initial color, you can use the link pseudo-class
 selector, and to let the links change color, once a user has visited
@@ -6663,9 +6732,17 @@ So be careful not to accidentally overwrite a style you want to set.
 
 Developers use the acronym LVHA to remind them of the order that they
 need to follow when writing pseudo-class rules.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image190.png"
+  width="18%"
+  alt="." />
+</p>
+<!-- ![](images/image190.png){width="1.75in" height="2.192946194225722in"} -->
 
-![](images/image190.png){width="1.75in" height="2.192946194225722in"}LVHA
-stands for link, visited, hover, active.
+LVHA stands for link, visited, hover, active.
 
 So always apply pseudo-class styles in the correct order.
 
@@ -6676,8 +6753,15 @@ the link, visited, hover, and active pseudo-classes.
 
 Additionally, you will learn two more effects that you can create with
 the hover pseudo-class.
-
-![](images/image191.png){width="6.0in" height="3.066666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image191.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image191.png){width="6.0in" height="3.066666666666667in"} -->
 
 In the pseudo_links.html file, I added three tags: a heading tag,
 followed by a paragraph tag, and another paragraph tag.
@@ -6685,8 +6769,17 @@ followed by a paragraph tag, and another paragraph tag.
 In the heading tag, I added the name of the restaurant, Little Lemon,
 and the first paragraph tag has a link to their Instagram page.
 
-![](images/image192.png){width="3.0in" height="3.5801531058617675in"}Now
-I go to my CSS code by clicking on the pseudo_links.css file at the top
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image192.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image192.png){width="3.0in" height="3.5801531058617675in"} -->
+
+Now I go to my CSS code by clicking on the pseudo_links.css file at the top
 of my screen.
 
 In this file, I already added properties related to the pseudo-classes
@@ -6698,8 +6791,15 @@ click the \"View\" icon at the top right of my screen.
 By default, the link to the Little Lemon Instagram page displays in a
 blue color because I set it to blue with the link pseudo-class in the
 CSS code.
-
-![](images/image193.png){width="3.0in" height="3.09911854768154in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image193.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image193.png){width="3.0in" height="3.09911854768154in"} -->
 
 As expected, when I move the mouse over the link, the color changes to
 green because I added green as the value of the color attribute in the
@@ -6721,17 +6821,32 @@ because I defined it to do that with the visited pseudo-class.
 I\'m now going to demonstrate how you can use the pseudo-class hover.
 
 To do this, I use the pseudoshadow.html file I created previously.
-
-![](images/image194.png){width="6.0in" height="3.548570647419073in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image194.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image194.png){width="6.0in" height="3.548570647419073in"} -->
 
 In this file, I added four paragraph tags, each belonging to a class
 called textual.
 
 I also added random text, commonly used in publishing and graphic design
 as placeholder text.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image195.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image195.png){width="3.0in" height="1.9930074365704287in"} -->
 
-![](images/image195.png){width="3.0in" height="1.9930074365704287in"}The
-CSS code that I added is fairly simple.
+The CSS code that I added is fairly simple.
 
 The first property defines the properties of the textual class.
 
@@ -6747,8 +6862,15 @@ element.
 The horizontal offset is set to five pixels, the vertical offset is set
 to zero pixels, the blur radius is set to 25 pixels, and the color of
 the shadow is set to black.
-
-![](images/image196.png){width="6.0in" height="3.038096019247594in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image196.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image196.png){width="6.0in" height="3.038096019247594in"} -->
 
 I moved back to my HTML file to output this code and click on the
 \"View\" icon.
@@ -6757,7 +6879,15 @@ The Little Lemon page with blocks of texts displays.
 
 The text looks like regular blocks of texts.
 
-![](images/image197.png){width="6.0in" height="3.038096019247594in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image197.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image197.png){width="6.0in" height="3.038096019247594in"} -->
 
 But when I hover over a block of code with my mouse, it gets highlighted
 with a box-shadow around the edges.
@@ -7032,8 +7162,15 @@ time.
 
 The idea of animation had been around for many years before technology
 was good enough to integrate it into online experiences.
-
-![](images/image198.png){width="5.0in" height="0.9904757217847769in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image198.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image198.png){width="5.0in" height="0.9904757217847769in"} -->
 
 The graphics interchange form or 'gifs' can arguably be labeled as the
 first attempt to bring effects to web pages.
@@ -7111,7 +7248,15 @@ users are scrolling.
 Now that you are familiar with some popular effects, let\'s briefly
 visit the pros and cons of adding effects on web pages.
 
-![](images/image199.png){width="5.0in" height="1.5174606299212599in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image199.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image199.png){width="5.0in" height="1.5174606299212599in"} -->
 
 The primary driving factor of web pages these days is to attract the
 attention of user web pages that use animation and effects optimally
@@ -7130,9 +7275,17 @@ cause your web page to load slowly in areas with low bandwidth.
 
 Nonetheless, effects improve online experiences in general and are
 especially used to create intuitive navigation.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image200.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image200.png){width="3.0in" height="3.1425339020122482in"} -->
 
-![](images/image200.png){width="3.0in" height="3.1425339020122482in"}You
-should now understand what effects and animations are.
+You should now understand what effects and animations are.
 
 You also got a quick overview of the history of effects and the most
 popular effects used on the Web.
@@ -7155,8 +7308,15 @@ also make you look dull and cause users to lose attention.
 
 With the help of CSS, you can make the most of texts by adding
 interesting effects.
-
-![](images/image201.png){width="5.0in" height="3.6455030621172355in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image201.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image201.png){width="5.0in" height="3.6455030621172355in"} -->
 
 First, I will explain how to use the text-overflow property that
 determines how overflowing content is displayed on your website.
@@ -7180,12 +7340,28 @@ scroll to add a scroll bar.
 
 It is important to note that the text-overflow property here is set to
 ellipsis.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image202.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image202.png){width="4.0in" height="0.7689818460192476in"} -->
 
-![](images/image202.png){width="4.0in" height="0.7689818460192476in"}An
-ellipsis is three dots that represent the texts that is clipped.
+An ellipsis is three dots that represent the texts that is clipped.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image203.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image203.png){width="4.0in" height="0.7689818460192476in"} -->
 
-![](images/image203.png){width="4.0in" height="0.7689818460192476in"}If I
-hover over the overflowing text which is present inside, the hidden text
+If I hover over the overflowing text which is present inside, the hidden text
 is displayed.
 
 As soon as I move the cursor away from the block, the text is again
@@ -7198,9 +7374,17 @@ In this example, the additional content is truncated to fit within the
 limits of the box. (no ellipsis).
 
 If I hover over with the cursor, the clipped text is displayed.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image204.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image204.png){width="4.0in" height="4.245989720034996in"} -->
 
-![](images/image204.png){width="4.0in" height="4.245989720034996in"}In
-the third example, I demonstrate how to create vertical text.
+In the third example, I demonstrate how to create vertical text.
 
 In the output, the words 12-15 items are placed vertically within the
 otherwise horizontal texts.
@@ -7210,8 +7394,17 @@ named vert.
 
 Then in the CSS code, I set the writing mode property to be vertical-rl.
 
-![](images/image205.png){width="4.0in" height="4.162047244094488in"}The
-next example demonstrates the word wrap property.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image205.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image205.png){width="4.0in" height="4.162047244094488in"} -->
+
+The next example demonstrates the word wrap property.
 
 Word wrap determines how the words in a paragraph break up and wrap onto
 the next slide.
@@ -7226,9 +7419,17 @@ across multiple lines.
 
 In the next two examples, I will add text effects using simple CSS code.
 
-![](images/image206.png){width="2.40625in"
-height="0.8229166666666666in"}In this example, I use a property called
-text shadow, which has a shorthand with four values.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image206.png"
+  width="20%"
+  alt="." />
+</p>
+<!-- ![](images/image206.png){width="2.40625in" height="0.8229166666666666in"} -->
+
+In this example, I use a property called text shadow, which has a shorthand with four values.
 
 The first value is the x-coordinate, which represents the horizontal
 shadow.
@@ -7236,8 +7437,15 @@ shadow.
 The second is the y-coordinate, which represents the vertical shadow.
 
 The third is the blur radius, and the fourth is the shadow color.
-
-![](images/image207.png){width="5.0in" height="2.854640201224847in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image207.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image207.png){width="5.0in" height="2.854640201224847in"} -->
 
 This next example explores an extension of the same idea.
 
@@ -7245,9 +7453,17 @@ My HTML code has two heading tags, each with the class name glow.
 
 In the corresponding CSS code, I\'ve added the text shadow effects for
 that class.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image208.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image208.png){width="3.0in" height="1.78125in"} -->
 
-![](images/image208.png){width="3.0in" height="1.78125in"}I can use the
-output to determine whether I need to adjust the color effects until
+I can use the output to determine whether I need to adjust the color effects until
 I\'m happy with it.
 
 That\'s all my examples. In this section, you learned how to add effects
@@ -7355,8 +7571,15 @@ which you can create basic animations.
 
 In this module, you will learn how to use the transform and transition
 properties.
-
-![](images/image209.png){width="4.0in" height="1.5043383639545056in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image209.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image209.png){width="4.0in" height="1.5043383639545056in"} -->
 
 The Syntax of the transform and transition properties are similar.
 
@@ -7376,8 +7599,15 @@ To do this, developers use the transition property in conjunction with
 the transformed property.
 
 Let\'s explore how these two properties work together.
-
-![](images/image210.png){width="3.0in" height="2.5833333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image210.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image210.png){width="3.0in" height="2.5833333333333335in"} -->
 
 For example, you can set up your H one elements to rotate zero degrees
 by default, but by using the hover pseudo class and the transform
@@ -7385,16 +7615,30 @@ property, you can let the element rotate to 20 degrees when the mouse
 hovers over it.
 
 Without a transition, the rotation will be instant.
-
-![](images/image211.png){width="3.0in" height="2.308860454943132in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image211.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image211.png){width="3.0in" height="2.308860454943132in"} -->
 
 But by adding the transition property with the value transform to s the
 rotation will animate over two seconds.
 
 Now that you know the basics about the transform and transition
 properties, let\'s explore a practical example.
-
-![](images/image212.png){width="4.0in" height="3.401709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image212.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image212.png){width="4.0in" height="3.401709317585302in"} -->
 
 I already set up an html file that contains a div tag with the class
 container and in it to other div tags.
@@ -7402,8 +7646,15 @@ container and in it to other div tags.
 The first div tag contains the letter A with a class called A.
 
 The second contains the letter B with a class called B.
-
-![](images/image213.png){width="3.0in" height="2.2823917322834646in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image213.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image213.png){width="3.0in" height="2.2823917322834646in"} -->
 
 Let\'s view the CSS file.
 
@@ -7415,9 +7666,17 @@ This is just to add a space in between the developments.
 First, I add the transform property to the A class.
 
 There are a number of key word and function values inside this property.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image214.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image214.png){width="3.0in" height="2.4924475065616796in"} -->
 
-![](images/image214.png){width="3.0in" height="2.4924475065616796in"}I
-choose skew X from the suggestion list that appears this will tilt the
+I choose skew X from the suggestion list that appears this will tilt the
 letter on its X access.
 
 You can also choose to skew it on its Y axis or even on both axes. I add
@@ -7429,7 +7688,15 @@ Class as well.
 
 But this time I use the keyword, rotate and add the value of 20 degrees.
 
-![](images/image215.png){width="2.5in" height="2.0770395888013997in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image215.png"
+  width="25%"
+  alt="." />
+</p>
+<!-- ![](images/image215.png){width="2.5in" height="2.0770395888013997in"} -->
 
 This will cause a different effect.
 
@@ -7441,8 +7708,15 @@ Since these transform effects are instantaneous, you do not notice them
 as they are applied to change this.
 
 You need to add the transition property.
-
-![](images/image216.png){width="2.5in" height="2.2356496062992126in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image216.png"
+  width="25%"
+  alt="Transition property." />
+</p>
+<!-- ![](images/image216.png){width="2.5in" height="2.2356496062992126in"} -->
 
 I add the transition property to both classes with the value of five
 seconds.
@@ -7459,7 +7733,6 @@ Inside a div tag element.
 First, I will write the rules for the box, then I will add rules using a
 hover pseudo class and grouping selectors to perform transformations on
 the box.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. green box/square (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
