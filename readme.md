@@ -5719,8 +5719,15 @@ learned about element or type selectors.
 
 The element selector allows developers to select html elements based on
 their element type.
-
-![](images/image150.png){width="3.0in" height="2.7163867016622922in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image150.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image150.png){width="3.0in" height="2.7163867016622922in"} -->
 
 You also get ID selectors,
 
@@ -5728,9 +5735,17 @@ ID Selectors use the ID attribute of html element.
 
 Since the ID is unique within a web page, it allows the developer to
 select a specific element for styling.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image151.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image151.png){width="3.0in" height="2.7163867016622922in"} -->
 
-![](images/image151.png){width="3.0in" height="2.7163867016622922in"}You
-were introduced to class selectors. Class selectors allow you to select
+You were introduced to class selectors. Class selectors allow you to select
 elements based on the class attribute applied to them.
 
 With class selectors, you can apply rules to all elements with the
@@ -5752,15 +5767,29 @@ The attribute selector has a few syntax variations.
 Attribute selectors match the attribute of value for a given element.
 
 Can you recall what attributes and value mean?
-
-![](images/image152.png){width="5.0in" height="2.6837609361329835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image152.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image152.png){width="5.0in" height="2.6837609361329835in"} -->
 
 A quick recap, let\'s say you have a html image tag, img is the name of
 the tag, while src and alt are the names of its attributes.
 
 The actual name of the image file, first.jpeg is the value.
-
-![](images/image153.png){width="5.0in" height="2.662671697287839in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image153.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image153.png){width="5.0in" height="2.662671697287839in"} -->
 
 Now let\'s explore an example of how attribute selectors can be used.
 
@@ -5772,15 +5801,29 @@ home, and the third class called about.
 
 With different variations of the attribute selectors you can target
 different attributes of the html.
-
-![](images/image154.png){width="4.0in" height="3.123287401574803in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image154.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image154.png){width="4.0in" height="3.123287401574803in"} -->
 
 For instance, you can style all elements that have a defined class by
 adding class inside the square brackets.
 
 In this case, it will turn the second and third link green.
-
-![](images/image155.png){width="4.0in" height="3.123287401574803in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image155.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image155.png){width="4.0in" height="3.123287401574803in"} -->
 
 Alternatively, you can target all three elements by inserting the href
 attribute, a star and a common value that is part of all the links that
@@ -5790,8 +5833,15 @@ In this case, it can be the text meta.
 
 Now all three links will be green because each link contains the word
 meta.
-
-![](images/image156.png){width="4.0in" height="3.123287401574803in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image156.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image156.png){width="4.0in" height="3.123287401574803in"} -->
 
 Or you can target only the first element by adding the specific link as
 the value of the href attribute, that you want to target inside the
@@ -5802,16 +5852,30 @@ of an attribute selector to modify it.
 
 This makes attribute selectors a very flexible styling tool, but let\'s
 move on to two other widely used selectors that you need to know about.
-
-![](images/image157.png){width="5.0in" height="1.9545942694663168in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image157.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image157.png){width="5.0in" height="1.9545942694663168in"} -->
 
 Nth-of-type and nth-child selectors, the syntax of these two selectors
 is very similar.
 
 As their name suggests, these selectors target the nth-child or nth-type
 of a specified parent element, but what does parent mean exactly?
-
-![](images/image158.png){width="6.5in" height="4.215972222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image158.png"
+  width="65%"
+  alt="." />
+</p>
+<!-- ![](images/image158.png){width="6.5in" height="4.215972222222222in"} -->
 
 Well, say you have a few list elements in an unordered list element.
 
@@ -5824,8 +5888,15 @@ nth-child selectors to do that.
 
 Both will produce the same output, where the second list element will be
 colored aqua in this case.
-
-![](images/image159.png){width="2.5in" height="2.4502843394575677in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image159.png"
+  width="25%"
+  alt="." />
+</p>
+<!-- ![](images/image159.png){width="2.5in" height="2.4502843394575677in"} -->
 
 Another commonly used selector is the star selector, just like in many
 other programming languages, star selectors are used for selecting all
@@ -5835,12 +5906,26 @@ It will affect all the elements in the html file.
 
 It is especially helpful when you want to reset the default settings and
 styles that browsers use before they apply your styling to the web page.
-
-![](images/image160.png){width="5.0in" height="2.368589238845144in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image160.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image160.png){width="5.0in" height="2.368589238845144in"} -->
 
 Finally, did you know that you can group selectors?
-
-![](images/image161.png){width="4.0in" height="2.388888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image161.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image161.png){width="4.0in" height="2.388888888888889in"} -->
 
 If you want to apply the same styling to more than one type of element,
 like the heading one and paragraph elements you can use group selectors.
@@ -6045,9 +6130,17 @@ different groups of elements.
 
 CSS makes it possible to combine more than one selector so that you can
 apply rules to elements based on their relationship with one another.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image162.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image162.png){width="3.0in" height="3.145278871391076in"} -->
 
-![](images/image162.png){width="3.0in" height="3.145278871391076in"}4
-main types of combination selectors. Descendant selectors, child
+4 main types of combination selectors. Descendant selectors, child
 selectors, general sibling selectors, and adjacent sibling selectors.
 
 In this section you will learn about combination selectors and how you
@@ -6064,22 +6157,44 @@ family.
 You pick a person in the family and then select all descendants, such as
 children, grandchildren and great grandchildren, who have, say, brown
 hair.
-
-![](images/image163.png){width="3.0in" height="3.138888888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image163.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image163.png){width="3.0in" height="3.138888888888889in"} -->
 
 For example, you can have an HTML file with a div tag, and its ID
 attributes set to blog, inside the div tag are a few heading tags.
 
 In this example, all h1 elements are descendants of the element with the
 ID blog.
-
-![](images/image164.png){width="6.0in" height="2.9967946194225723in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image164.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image164.png){width="6.0in" height="2.9967946194225723in"} -->
 
 So, to make all the h1 descendants blue, you can add the ID selector
 hash #blog followed by the h1 selector with a space in between and then
 the properties in curly brackets.
 
-![](images/image165.png){width="6.0in" height="2.9967946194225723in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image165.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image165.png){width="6.0in" height="2.9967946194225723in"} -->
 
 Child selectors on the other hand are more specific than descendant
 selectors.
@@ -6094,8 +6209,15 @@ The effect is that now only the first h1 element turns blue.
 
 This is because it is the only h1 element that is a child of the element
 with the blog id attribute.
-
-![](images/image166.png){width="6.0in" height="2.9967946194225723in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image166.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image166.png){width="6.0in" height="2.9967946194225723in"} -->
 
 Next, let\'s focus on general sibling selectors, which apply rules to
 all the selectors of the same type that follow the first type.
@@ -6119,8 +6241,15 @@ another element.
 
 Once again, if you think about a family, this selector selects a person
 and then selects the next younger brothers.
-
-![](images/image167.png){width="6.0in" height="2.9967946194225723in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image167.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image167.png){width="6.0in" height="2.9967946194225723in"} -->
 
 Finally, let\'s replace the tilde with a plus sign to update this
 selector to an adjacent sibling selector.
@@ -6155,8 +6284,15 @@ So, there is another paragraph tag, a div tag, and then an ordered list
 with two list items.
 
 Now, let\'s inspect the CSS rules.
-
-![](images/image168.png){width="6.0in" height="2.9967946194225723in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image168.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image168.png){width="6.0in" height="2.9967946194225723in"} -->
 
 First, I set basic rules for the html body.
 
@@ -6184,8 +6320,15 @@ Thereafter, you need to specify the color of the shadow, which in this
 case is set to gray.
 
 So what elements will be styled?
-
-![](images/image169.png){width="6.0in" height="2.9967946194225723in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image169.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image169.png){width="6.0in" height="2.9967946194225723in"} -->
 
 Remember, sibling selectors apply rules to all the selectors of the same
 type that follow the first type.
@@ -6198,8 +6341,15 @@ So, the rules will target the un ordered list that follows it.
 
 And again, the second div tag will also serve as a reference and the
 rules will affect the un ordered list that follows it.
-
-![](images/image170.png){width="6.0in" height="3.1955129046369204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image170.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image170.png){width="6.0in" height="3.1955129046369204in"} -->
 
 Let\'s inspect the output.
 
@@ -6213,16 +6363,30 @@ The sibling selector only targets the items that follow the div tags.
 
 By now you should realize that you can use the sibling selector to
 efficiently apply the same styling to several elements with one rule.
-
-![](images/image171.png){width="6.0in" height="3.1955129046369204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image171.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image171.png){width="6.0in" height="3.1955129046369204in"} -->
 
 If there is another instance where an un ordered list follows a div tag
 on this page, it will also have a box shadow.
 
 But say the page has other un ordered lists that do not follow a div
 tag, the styling will not be applied to those elements.
-
-![](images/image172.png){width="6.0in" height="3.1955129046369204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image172.png"
+  width="60%"
+  alt="." />
+</p>
+<!-- ![](images/image172.png){width="6.0in" height="3.1955129046369204in"} -->
 
 Next, I will demonstrate how to use the adjacent selector.
 
@@ -6248,8 +6412,15 @@ element following the reference element.
 
 Whereas the sibling selector targets all the elements of the same type
 after the reference element.
-
-![](images/image173.png){width="5.0in" height="2.66292760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image173.png"
+  width="50%"
+  alt="." />
+</p>
+<!-- ![](images/image173.png){width="5.0in" height="2.66292760279965in"} -->
 
 Let\'s inspect the output and CSS code.
 
@@ -6304,8 +6475,15 @@ it is active or in-focus, or when a link has already been visited.
 Pseudo-classes are also very effective to target specific elements such
 as, let\'s say, the fifth item in a list, bold items, empty elements,
 and so on.
-
-![](images/image174.png){width="3.0in" height="2.3188779527559054in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image174.png"
+  width="30%"
+  alt="." />
+</p>
+<!-- ![](images/image174.png){width="3.0in" height="2.3188779527559054in"} -->
 
 Let\'s review the general syntax that you use for various
 pseudo-classes.
@@ -6317,8 +6495,15 @@ Well, there isn\'t a broadly accepted classification for pseudo-classes,
 you can group them in terms of general similarities and their purpose.
 
 Let\'s explore a few of these general classifications.
-
-![](images/image175.png){width="1.5in" height="2.45675634295713in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image175.png"
+  width="15%"
+  alt="." />
+</p>
+<!-- ![](images/image175.png){width="1.5in" height="2.45675634295713in"} -->
 
 The first group you need to know about is user action states, which
 include the hover pseudo-class, which changes the style of an element
@@ -6336,22 +6521,44 @@ be used.
 
 Say you have a HTML file with an a tag inside a paragraph and a button
 element inside a div element.
-
-![](images/image176.png){width="4.0in" height="1.9089741907261593in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image176.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image176.png){width="4.0in" height="1.9089741907261593in"} -->
 
 The paragraph element has a class defined as \"mypage\" and the button
 class is defined as \"mybutton.\"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image177.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image177.png){width="4.0in" height="1.9089741907261593in"} -->
 
-![](images/image177.png){width="4.0in" height="1.9089741907261593in"}Now,
-let\'s explore the CSS.
+Now, let\'s explore the CSS.
 
 First it contains basically styling for the mypage and mybutton class
 elements.
 
 Then to make the link change its appearance when a user hovers over it,
 you use the hover pseudo-class to target a tag.
-
-![](images/image178.png){width="4.0in" height="1.9089741907261593in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image178.png"
+  width="40%"
+  alt="." />
+</p>
+<!-- ![](images/image178.png){width="4.0in" height="1.9089741907261593in"} -->
 
 To change the mybutton class, you use the active pseudo-class.
 
@@ -6363,9 +6570,17 @@ presses and holds the mouse button.
 
 In this example, the pseudo-class selectors target HTML elements, but
 you can also use them to target HTML class attributes.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="/images/image179.png"
+  width="20%"
+  alt="." />
+</p>
+<!- ![](images/image179.png){width="2.0in" height="2.3480828958880138in"} -->
 
-![](images/image179.png){width="2.0in"
-height="2.3480828958880138in"}Next, let\'s focus on Form states.
+Next, let\'s focus on Form states.
 
 Previously, when discussing form validation, you were introduced to the
 invalid pseudo-class selector.
@@ -6415,7 +6630,7 @@ popular than others.
 You\'re encouraged to follow your own style and explore the creative
 possibilities that pseudo-classes offer.
 
-Pseudo-elements
+<h4>Pseudo-elements</h4>
 
 By now you know that pseudo-elements help you style a specific part of
 an element. For example, you can decide to apply styling to only the
@@ -6470,7 +6685,6 @@ line-height: 1; 
 ```
 
 Output
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6523,7 +6737,6 @@ applied will change as you increase or decrease the size of your
 viewport.
 
 Output:
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6559,7 +6772,6 @@ li::selection {
 Here is an example of a selection of text.
 
 ## Output:
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6574,7 +6786,6 @@ And another example of the same text but with a different section
 selected and highlighted.
 
 ## Output:
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6694,7 +6905,6 @@ style links on web pages, namely web-link states.
 Although, you can use web-link states for many functionalities,
 developers often use them to style the color of links that a user
 already opened.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6707,7 +6917,6 @@ already opened.
 
 For instance, a HTML file can have two a tags, each with its own href
 that links to a different page of a website.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6768,7 +6977,6 @@ followed by a paragraph tag, and another paragraph tag.
 
 In the heading tag, I added the name of the restaurant, Little Lemon,
 and the first paragraph tag has a link to their Instagram page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6878,7 +7086,6 @@ I moved back to my HTML file to output this code and click on the
 The Little Lemon page with blocks of texts displays.
 
 The text looks like regular blocks of texts.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7247,7 +7454,6 @@ users are scrolling.
 
 Now that you are familiar with some popular effects, let\'s briefly
 visit the pros and cons of adding effects on web pages.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7393,7 +7599,6 @@ I do this by putting those words inside a separate p tag with class
 named vert.
 
 Then in the CSS code, I set the writing mode property to be vertical-rl.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7418,7 +7623,6 @@ As a result, the words illustration and property are both broken up
 across multiple lines.
 
 In the next two examples, I will add text effects using simple CSS code.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7872,7 +8076,6 @@ that keyframe.
 The \@keyframe rule can also use the optional keywords, from and to, to show transitions.
 
 The animation name links the animation to a specific keyframe rule.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. animation property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8129,7 +8332,6 @@ to{width: 100px; 
 ```
 
 <h3>And this is the output:</h3>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. 50 pixel image, left (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 226. 100 pixel image, right (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8238,7 +8440,6 @@ In this case, the element will represent the bouncing ball.
 
 I add a div element to the body element and set its ID attribute to
 ball.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. adding keyframe definition (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8292,7 +8493,6 @@ like a circle.
 
 Finally, I set the background color property to #62687F to fill in the
 color of the circle.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 231. change ball color with background color property (208) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8308,7 +8508,6 @@ I save the file and open index.html in live preview.
 Great, the ball is rendering correctly.
 
 Now to connect the animation to the element, I open styles.css again.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. transform in styles.css (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
