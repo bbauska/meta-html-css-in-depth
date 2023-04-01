@@ -2,6 +2,9 @@
 meta-html-css-in-depth: "HTML & CSS in Depth"
 ---
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth - meta.bauska.site ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 align="center">meta HTML &amp; CSS in Depth</h2>
 <h6 align="center">(Coursera/meta)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1242,41 +1245,22 @@ information like the website description and locale. Well done.
 
 The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
-in this section. 
+in this section.
 
--   [HTML meta tags](https://www.dofactory.com/html/metatags)
-
--   [Semantic
-    elements](https://www.freecodecamp.org/news/semantic-html5-elements/)
-
--   [Simple bare bones HTML
-    webpage](https://www.instructables.com/Bare-Bones-Web-Page/)
-
--   [HTML5/CSS bare-bones newsletter
-    template](https://www.vandelaydesign.com/newsletter-tutorial/)
-
--   [Add open graph social metadata-
-    Twitter](https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html)
-
--   [Essential meta tags for social
-    media](https://css-tricks.com/essential-meta-tags-social-images/)
-
--   [The meta
-    element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
-
--   [Open graph protocol](https://ogp.me/)
-
--   [Using open graph protocol on
-    website](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)
-
--   [Meta OGP guide for
-    webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
-
--   [Bootstrap with
-    HTML](https://www.bootstrapdash.com/blog/use-bootstrap-with-html)
-
--   [Bootstrap Layout
-    Examples](https://getbootstrap.com/docs/5.2/examples/)
+<ul>
+  <li><a href="https://www.dofactory.com/html/metatags">HTML meta tags</a><br></li>
+  <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/">Semantic elements</a><br></li>
+  <li><a href="https://www.instructables.com/Bare-Bones-Web-Page/">Simple bare bones HTML webpage</a><br></li>
+  <li><a href="https://www.vandelaydesign.com/newsletter-tutorial/">HTML5/CSS bare-bones newsletter template</a><br></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html">Add open graph social metadata-Twitter</a><br></li>
+  <li><a href="https://css-tricks.com/essential-meta-tags-social-images/">Essential meta tags for social media</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta">The meta element</a><br></li>
+  <li><a href="https://ogp.me/">Open graph protocol</a><br></li>
+  <li><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">Using open graph protocol on websites</a><br></li>
+  Kli><a href="https://developers.facebook.com/docs/sharing/webmasters/">Meta OGP guide for webmasters</a><br></li>
+  <li><a href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html">Bootstrap with HTML</a><br></li>
+  <li><a href="https://getbootstrap.com/docs/5.2/examples/">Bootstrap Layout Examples</a></li>
+</ul>
 
 <h4>Forms and validation</h4>
 
@@ -2968,7 +2952,7 @@ appearance of the element. For example, this code:
   </form> 
 ```
 
-Results in the following output:
+<h4>Results in the following output:</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 79. login form (xx) ~~~~~~~~~~~~-->
@@ -4295,7 +4279,6 @@ span the entire width of the axis.
     flex-wrap: wrap;
   }
 ```
- 
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7746,25 +7729,17 @@ effect.
 
 Here is a list of resources about selectors, pseudo-classes and
 pseudo-elements in HTML and CSS that may be helpful as you continue your
-learning journey.
+learning journey;
 
 <ul>
-  <li><a href="https://www.geeksforgeeks.org/10-css-selectors-every-developer-should-know/">Commonly used selectors</a></li>
+  <li><a href="https://www.geeksforgeeks.org/10-css-selectors-every-developer-should-know/">Commonly used selectors</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators">Combinator selectors</a><br></li>
+  <li><a href="https://www.w3schools.com/cssref/css_selectors.asp">Comprehensive list of selectors</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Comprehensive list of pseudo-classes</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Comprehensive list of pseudo-elements</a></li>
 </ul>
 
-[Combinator
-selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
-
-[Comprehensive list of
-selectors](https://www.w3schools.com/cssref/css_selectors.asp)
-
-[Comprehensive list of
-pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-
-[Comprehensive list of
-pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
-
-What is an effect
+What is an effect?
 
 Most popular websites have numerous animation effects.
 
@@ -8742,7 +8717,7 @@ to{width: 100px; 
 } 
 ```
 
-<h3>And this is the output:</h3>
+<h4>And this is the output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. 50 pixel image, left (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 226. 100 pixel image, right (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8789,7 +8764,7 @@ Now, let's add an intermediary step at 50%.
 }
 ```
 
-<h3>Output:</h3>
+<h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227. keyframes, left image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes, right image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10736,7 +10711,6 @@ nursery.
 [ZIP File]
 
 <h4>Professional services: Hair Day</h4>
-
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. hair day logo (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
@@ -10818,7 +10792,7 @@ However, she recently hired several artisans to help craft her designs
 and a young employee to help manage the company website and social media
 accounts.
 
-<h4Download their logos here:</h4>
+<h4>Download their logos here:</h4>
 
 <h4>[Mangata and Gallo logos]</h4>
 
