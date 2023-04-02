@@ -2,27 +2,30 @@
 <html lang="en">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
+<title>HTML &amp; CSS in DepthCAD101en</title>
+<meta name="description" content="HTML & CSS in depth." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of meta-html-css-in-depth ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- For all browsers -->
-<!-- <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"> -->
-<!-- <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"> -->
-<!-- For Google and Android -->
-<!--  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png"> -->
-<!--  <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png"> -->
-<!-- For iPad -->
-<!-- <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/images/favicon-167x167.png"> -->
-<!-- For iPhone -->
-<!--  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicon-180x180.png"> -->
-
-  <meta charset="utf-8">
-  <meta name="date" content=''>
-  <title>HTML &amp; CSS in Depth</title>
-  <link rel="shortcut icon" type="image/jpg" href="./images/rick and morty - happy.ico">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="date" content=''>
+<title>HTML &amp; CSS in Depth</title>
+<link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="meta-in-depth" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://meta-html-css-in-depth.bauska.org/" />
+
+<!-- Facebook image must be at least 600x315px -->
+<meta property="og:image" content="https://www.cad101en.bauska.org/images/image.jpg" />
+<meta property="og:description" content="Coursera/meta HTML &amp; CSS in Depth." />
+<meta property="og:site_name" content="meta-html-css-in-depth" />
+<meta property="fb:admins" content="https://www.facebook.com/help/211813265517027/?helpref=uf_share" /><link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
   img {
@@ -79,15 +82,35 @@
     width: 100%;
   }
 }
+
+body {
+  font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
+}
+p {
+  margin: 15px;
+}
 </style>
 </head>
 
 <body>
 <p>(Coursera/meta)</p>
-<p><img src="./images/image001.png"
-style="width:1.54926in;height:0.5in" /></p>
-<p><img src="./images/image002.png"
-style="width:1.01754in;height:0.5in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image001.png?raw=true"
+  alt="Coursera logo."
+  style="width:200px;" />
+<!-- style="width:1.54926in;height:0.5in" -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image002.png?raw=true"
+  alt="meta logo."
+  style="width:150px;" />
+<!-- style="width:1.01754in;height:0.5in" -->
+
 <h1 id="course-syllabus">Course syllabus</h1>
 <h2 id="prerequisites">Prerequisites</h2>
 <p>To take this course, you don't need any developer experience, but you
@@ -157,12 +180,24 @@ did, or perhaps you don't know much at all.</p>
 <p>Let's explore some basic HTML and CSS principles and practices.</p>
 <p>HTML stands for Hypertext Markup Language.</p>
 <p>But what does that mean?</p>
-<p><img src="./images/image003.png"
-style="width:5in;height:1.60684in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image003.png?raw=true"
+  alt="Hypertext and Markup."
+  style="width:5in;height:1.60684in" />
+
 <p>Hypertext is text which contains links to other text.</p>
 <p>Markup refers to tags and elements used within a document.</p>
-<p><img src="./images/image004.png"
-style="width:5in;height:1.60684in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image004.png?raw=true"
+  alt="Basic HTML page structure."
+  style="width:5in;height:1.60684in" />
+
 <p>HTML elements with their opening and closing tags in angle brackets
 make up an HTML document.</p>
 <p>These elements form the structure of a webpage and describe what to
@@ -194,8 +229,14 @@ Cascading Style Sheets.</p>
 <p>If HTML is the frame and structure of a building, then CSS is the
 paint, wallpaper, fixtures, and overall style.</p>
 <p>CSS tells the web browser how to display HTML elements on screen.</p>
-<p><img src="./images/image005.png"
-style="width:5in;height:1.60684in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image005.png?raw=true"
+  alt="."
+  style="width:5in;height:1.60684in" />
+
 <p>You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
 elements using normal document flow.</p>
@@ -224,33 +265,62 @@ content is a heading.</p>
 as a developer.</p>
 <p>In this report I will share a structured approach you can take to
 make sure that you create a well-formed web page.</p>
-<p><img src="./images/image006.png"
-style="width:5in;height:1.60684in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image006.png?raw=true"
+  alt="."
+  style="width:5in;height:1.60684in" />
+
 <p>Let's revisit the basic structure of an HTML page which includes the
 head and body.</p>
 <p>Inside the body tag you can lay out the website with very semantic
 tags to describe each of the sections.</p>
-<p><img src="./images/image007.png"
-style="width:5in;height:2.17575in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image007.png?raw=true"
+  alt="."
+  style="width:5in;height:2.17575in" />
+
 <p>For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.</p>
-<p><img src="./images/image008.png"
-style="width:5in;height:2.37073in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image008.png?raw=true"
+  alt="."
+  style="width:5in;height:2.37073in" />
+
 <p>For example, suppose you lay out your page with a header section that
 contains some company logo and navigation links.</p>
 <p>Then a main section contains sections and articles.</p>
 <p>Finally, a footer section contains contact information and social
 media links.</p>
-<p><img src="./images/image009.png"
-style="width:5in;height:2.37073in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image009.png?raw=true"
+  alt="."
+  style="width:5in;height:2.37073in" />
+
 <p>The main navigation section of your web page can also be described
 semantically using the Nav tag.</p>
 <p>Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.</p>
-<p><img src="./images/image010.png"
-style="width:5in;height:2.37073in" /></p>
-<p>The main links of your website are then added inside the Nav
-element.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image010.png?raw=true"
+  alt="."
+  style="width:5in;height:2.37073in" />
+
+<p>The main links of your website are then added inside the Nav element.</p>
 <p>It is common practice for developers to specify their links as an
 unordered list inside the Nav element.</p>
 <p>Next is the main content of a web page.</p>
@@ -264,9 +334,15 @@ represents a complete.</p>
 that is independently distributable.</p>
 <p>That's quite a mouthful.</p>
 <p>It may help to think of a page in a newspaper.</p>
-<p><img src="./images/image011.png"
-style="width:1.5in;height:1.94524in" />It may help to think of a page in
-a newspaper.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image011.png?raw=true"
+  alt="."
+  style="width:1.5in;height:1.94524in" />
+
+<p>It may help to think of a page in a newspaper.</p>
 <p>There are many articles on the page and you can cut out the
 individual articles with scissors if needed.</p>
 <p>The articles you can remove are the article element.</p>
@@ -278,18 +354,30 @@ a blog about your summer holiday.</p>
 <p>It's good practice to contain the blog post content inside of the
 article element because it's a complete self-contained composition on a
 web page.</p>
-<p><img src="./images/image012.png"
-style="width:4in;height:2.48136in" />You should place the article
-element within the main element.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image012.png?raw=true"
+  alt="."
+  style="width:4in;height:2.48136in" />
+
+<p>You should place the article element within the main element.</p>
 <p>Then add your regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags
 within the article element.<br />
 The reason for doing it this way is because the main element
 semantically represents the main content of the page.</p>
 <p>And inside of it there can be multiple article elements for something
 like a blog post list.</p>
-<p><img src="./images/image013.png"
-style="width:4in;height:2.42424in" />At the end of your document is the
-footer element.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image013.png?raw=true"
+  alt="."
+  style="width:4in;height:2.42424in" />
+
+<p>At the end of your document is the footer element.</p>
 <p>This might contain additional navigational links or content.</p>
 <p>It is important to note that semantic elements are not limited to
 this structure.</p>
@@ -306,9 +394,15 @@ element describing the date and author of the blog post.</p>
 sections of the article.</p>
 <p>It is important to note that sections should contain heading elements
 to semantically describe the section.</p>
-<p><img src="./images/image014.png"
-style="width:4in;height:1.97222in" />It is also possible to use section
-elements to describe different sections of your webpage, the section
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image014.png?raw=true"
+  alt="."
+  style="width:4in;height:1.97222in" />
+
+<p>It is also possible to use section elements to describe different sections of your webpage, the section
 element doesn’t require the article element.<br />
 It all depends on how you want to semantically describe your page.</p>
 <p>And now you know how to semantically describe the contents of a web
@@ -321,12 +415,24 @@ the contents of your well-formed web page.</p>
 their website. They've told me that the page will contain several blog
 posts, and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.</p>
-<p><img src="./images/image015.png"
-style="width:5in;height:3.06891in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image015.png?raw=true"
+  alt="."
+  style="width:5in;height:3.06891in" />
+
 <p>I've set up my basic html document structure in a file named
 blog.html. I'll start off by adding my basic semantic structure.</p>
-<p><img src="./images/image016.png"
-style="width:6in;height:3.59872in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image016.png?raw=true"
+  alt="."
+  style="width:6in;height:3.59872in" />
+
 <p>First, I add the header element. Followed by the nav element,
 Followed by the main element. Followed by the footer element.</p>
 <p>Remember this structure describes the semantics of this html
@@ -378,8 +484,14 @@ were most relevant to what you searched for. But how does a search
 engine determine which web pages are most relevant in this video? You
 will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.</p>
-<p><img src="./images/image017.png"
-style="width:3.10417in;height:1.8125in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image017.png?raw=true"
+  alt="."
+  style="width:3.10417in;height:1.8125in" />
+
 <p>A major part of launching a website is a process called search engine
 optimization or SEO. This process involves making improvements to a
 website’s content semantics &amp; delivery to improve its ranking in
@@ -401,38 +513,74 @@ many best practices you can follow to influence how search engines
 analyze and rank your website.</p>
 <p>But for now, let's just focus on how meta tags influence website
 ranking.</p>
-<p><img src="./images/image018.png"
-style="width:6in;height:1.54103in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image018.png?raw=true"
+  alt="."
+  style="width:6in;height:1.54103in" />
+
 <p>Meta tags define metadata about a web page.</p>
 <p>What is metadata? You ask? It's data about other data which in this
 case is data about the web page.</p>
 <p>Meta tags are added inside the head element of your html document and
 as you know, nothing inside the head element is displayed in the web
 browser.</p>
-<p><img src="./images/image019.png"
-style="width:3.2in;height:2.49294in" />In other words, meta tags are
-unseen elements within the browser. Note that there is no closing tag
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image019.png?raw=true"
+  alt="."
+  style="width:3.2in;height:2.49294in" />
+
+<p>In other words, meta tags are unseen elements within the browser. Note that there is no closing tag
 for the meta tag.</p>
-<p><img src="./images/image020.png"
-style="width:6in;height:1.275in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image020.png?raw=true"
+  alt="."
+  style="width:6in;height:1.275in" />
+
 <p>The meta element has two attributes, name and content.</p>
 <p>The name attribute specifies the name of the metadata and the content
 attribute specifies the value of the metadata.</p>
 <p>Let's examine some examples of metadata.</p>
-<p><img src="./images/image021.png"
-style="width:6in;height:2.38846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image021.png?raw=true"
+  alt="."
+  style="width:6in;height:2.38846in" />
+
 <p>The author metadata specifies the author of the web page.</p>
 <p>The name attribute is author and the content attribute is the person
 and company who are the author of the web page.</p>
-<p><img src="./images/image022.png"
-style="width:6in;height:2.38846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image022.png?raw=true"
+  alt="."
+  style="width:6in;height:2.38846in" />
+
 <p>The description metadata describes the content of the web page.</p>
 <p>This is often used by search engines as descriptive text in search
 results.</p>
 <p>The name attribute is set to description and the content attribute is
 the descriptive text.</p>
-<p><img src="./images/image023.png"
-style="width:6in;height:2.38846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image023.png?raw=true"
+  alt="."
+  style="width:6in;height:2.38846in" />
+
 <p>The keywords metadata was previously used to provide search keywords
 for search engines.</p>
 <p>However, this led to a lot of websites using the keywords metadata to
@@ -440,12 +588,25 @@ manipulate search rankings.</p>
 <p>One of the major search engines now ignores this metadata and another
 uses keywords metadata as a spam indicator because of this, it's
 recommended not to include this metadata in modern web pages.</p>
-<p><img src="./images/image024.png"
-style="width:6in;height:2.38846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image024.png?raw=true"
+  alt="."
+  style="width:6in;height:2.38846in" />
+
 <p>Another type of metadata is the robot's metadata and it tells search
 engines if and how they should analyze your web page.</p>
 <p>The name ‘robots’ comes from the automated software often referred to
 as bots, that search engines used to analyze websites.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image013.png?raw=true"
+  alt="."
+  style="width:4in;height:2.42424in" />
 <p><img src="./images/image025.png"
 style="width:2in;height:3.768in" />The content attribute for Robots has
 four possible values.</p>
@@ -7874,8 +8035,14 @@ new skills during the course, you are able to demonstrate some of this
 learning and your practical HTML and CSS development skill set by
 creating a video and audio player that can rate media on a homepage for
 a client persona.</p>
-<p><img src="./images/image266.png"
-style="width:5in;height:4.25056in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 266.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image266.png?raw=true"
+  alt="."
+  style="width:5in;height:4.25056in" />
+
 <p>In addition to these, following your completion of this course in
 HTML and CSS development, you should now be able to use common semantic
 and Meta tags, as well as web page layouts and components using
@@ -8105,3 +8272,15 @@ content="true"/&gt;</strong> specifies that the page can be properly
 visualized on mobile devices <strong>&lt;meta name="viewport"
 content="width=device-width, initial-scale=1.0"/&gt;</strong> specifies
 the area of the window in which web content can be seen</p>
+
+<h7>the end...?</h7>
+<!--
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<img class="displayed"
+  src="/images/image0##.png?raw=true"
+  alt="."
+  style="width:5in;height:1.60684in" />
+-->
