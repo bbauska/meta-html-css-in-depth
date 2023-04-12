@@ -6810,11 +6810,11 @@ also allow the usage of math and other functions that can be utilized
 for adding rules conditionally. </p>
 <p>Another important functionality in SASS is the use of directives. Let
 us explore a couple of directives called @mixin and @include. </p>
-<h3 id="syntax-6">Syntax</h3>
-<h2
-id="mixin-name-property-value-property-value-...">@mixin <em>name </em>{
-<em>property</em>: <em>value</em>; <em>property</em>: <em>value</em>;  
-... }</h2>
+
+<h3>Syntax</h3>
+
+<h2>@mixin <em>name </em>{<em>property</em>: <em>value</em>; <em>property</em>: <em>value</em>;  ... }</h2>
+
 <blockquote>
 <p>@mixin some-rules { </p>
 <p>    color: lightblue; </p>
@@ -6826,25 +6826,28 @@ id="mixin-name-property-value-property-value-...">@mixin <em>name </em>{
 <p>    @include some-rules; </p>
 <p>} </p>
 </blockquote>
-<p>There are two directives @mixin and @include, that are used
-here. </p>
-<p>In the first step, you will add properties that you want to reuse
-inside @mixin. </p>
+
+<p>There are two directives @mixin and @include, that are used here. </p>
+<p>In the first step, you will add properties that you want to reuse inside @mixin. </p>
 <p>In the second step, you use the second directive @include and add the
 mixin identifier that you have created using the @mixin directive. </p>
 <p>Similar to these, there are a couple of other directives that are
 also used. @import allows the import of rules from another file, and
 @extend allows all the rules from a specific selector to be added inside
 another selector. </p>
-<h2 id="stylus-css">Stylus CSS</h2>
+
+<h2>Stylus CSS</h2>
+
 <p>Now that you know how preprocessors behave let us explore one more of
 their type, called Stylus. If you continue to use the example above, the
 code for Stylus will look like this:</p>
+
 <blockquote>
 <p>body </p>
 <p>  font 100% Arial </p>
 <p>  color lightblue </p>
 </blockquote>
+
 <p>It is not hard to miss the simplicity of the code without the colons,
 brackets or semicolons. But you should note that it is still allowed to
 use all of them in Stylus without any error. Similarly, you can also use
@@ -6854,6 +6857,7 @@ do so. </p>
 self-contained code that consists of steps designed to accomplish and
 obtain the desired output. The preprocessors, as mentioned, allow the
 use of functions. Here is an example of this using Stylus.</p>
+
 <blockquote>
 <p>add(a, b) </p>
 <p>  a + b </p>
@@ -6861,6 +6865,7 @@ use of functions. Here is an example of this using Stylus.</p>
 <p>div </p>
 <p>  margin add(10px, 20px) </p>
 </blockquote>
+
 <p>What is evident in the code above is that first, you have defined a
 function called ‘add’ and passed the variables ‘a’ and ‘b’ inside it.
 You added some functionality inside the function. In this case, you add
@@ -6877,36 +6882,26 @@ competitive, and by no means are these the only options available. </p>
 preprocessors should be explored. The use of preprocessors today is
 almost inescapable given the number of advanced features they provide
 which are not available in conventional CSS. </p>
-<h3 id="additional-resources-2">Additional resources</h3>
+
+<h3>Additional resources</h3>
+
 <p>Here is a list of resources about animation and keyframes in HTML and
 CSS that may be helpful as you continue your learning journey.</p>
+
 <ul>
-<li><p><a
-href="https://www.lambdatest.com/blog/css-transforms-and-transitions-property/">Transform
-and transition property</a></p></li>
-<li><p><a
-href="https://www.w3schools.com/css/css3_animations.asp">Detailed
-information about animation</a></p></li>
-<li><p><a
-href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes">Detailed
-information about @keyframes</a></p></li>
-<li><p><a href="https://uicookies.com/css-text-effects/">More advanced
-examples for adding text effects (1)</a></p></li>
-<li><p><a href="https://freefrontend.com/css-typing-text/">More advanced
-examples for adding text effects (2)</a></p></li>
-<li><p><a
-href="https://dev.to/kiranrajvjd/simple-text-effects-using-css-3dgp">More
-advanced examples for adding text effects (3)</a></p></li>
-<li><p><a
-href="https://www.opendesignsin.com/blog/10-web-design-effects-to-enhance-your-website/">Types
-of effects added to websites (1)</a></p></li>
-<li><p><a href="https://goingclear.com/website-effects/">Types of
-effects added to websites (2)</a></p></li>
-<li><p><a
-href="https://freefrontend.com/css-animation-examples/">Collection of
-examples using HTML/CSS</a></p></li>
+  <li><p><a href="https://www.lambdatest.com/blog/css-transforms-and-transitions-property/">Transform and transition property</a></p></li>
+  <li><p><a href="https://www.w3schools.com/css/css3_animations.asp">Detailed information about animation</a></p></li>
+  <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes">Detailed information about @keyframes</a></p></li>
+  <li><p><a href="https://uicookies.com/css-text-effects/">More advanced examples for adding text effects (1)</a></p></li>
+  <li><p><a href="https://freefrontend.com/css-typing-text/">More advanced examples for adding text effects (2)</a></p></li>
+  <li><p><a href="https://dev.to/kiranrajvjd/simple-text-effects-using-css-3dgp">More advanced examples for adding text effects (3)</a></p></li>
+  <li><p><a href="https://www.opendesignsin.com/blog/10-web-design-effects-to-enhance-your-website/">Types of effects added to websites (1)</a></p></li>
+  <li><p><a href="https://goingclear.com/website-effects/">Types of effects added to websites (2)</a></p></li>
+  <li><p><a href="https://freefrontend.com/css-animation-examples/">Collection of examples using HTML/CSS</a></p></li>
 </ul>
-<h1 id="common-errors">Common errors</h1>
+
+<h2>Common errors</h2>
+
 <p>Have you ever made a mistake while programming?</p>
 <p>Well, you're not alone.</p>
 <p>After all, mistakes are a part of programming.</p>
@@ -7110,13 +7105,16 @@ studio code that you can use to find lint errors.</p>
 <p>Many browsers also have testing tools such as the inspector compute
 tools that allow you to modify your CSS code.</p>
 <p>And verify the changes directly in the browser.</p>
-<h2 id="installing-a-third-party-linter-in-vs-code">Installing a
-third-party Linter in VS Code</h2>
+
+<h3>Installing a third-party Linter in VS Code</h3>
+
 <p>Bla bla bla</p>
 <p>Can’t use it. Computer is not powerful enough. And MS Visual Studio
 is a total piece of shit. Much like Windows and Office. A fucking
 joke.</p>
-<h1 id="debugging-the-front-end">Debugging the front-end</h1>
+
+<h2>Debugging the front-end</h2>
+
 <p>In this reading, you will learn about some of the fundamental tasks
 used to debug CSS. The scope of what’s covered will match the topics
 already covered in this course.</p>
@@ -7149,7 +7147,9 @@ down to the least amount of code possible, and only then are suitable
 changes made to get the results you want. Alternatively, you can enable
 rules one at a time to observe their impact on the displayed
 elements.</p>
-<h3 id="items-inside-containers">Items inside containers </h3>
+
+<h3>Items inside containers</h3>
+
 <p>Often, isolation will not work, as the problem is the result of the
 relative mapping of elements. For example, with the misconfigured width
 of an item inside a flex layout. It’s important to check the use of
@@ -7159,7 +7159,9 @@ padding can all be used to give spacing to an element. Additionally, you
 can also set different units that will all have their own behavior. In
 most cases, it helps to be familiar with the unit of measurement in
 relation to the container type to avoid misconfigurations.</p>
-<h3 id="relocating-items">Relocating items </h3>
+
+<h3>Relocating items </h3>
+
 <p>🛸🙀</p>
 <p>Similar to the isolation of elements, you can move a certain element
 to observe its behavior. Doing a comparison can often help you to
@@ -7170,12 +7172,15 @@ first will be p before moving ‘outside’. When you change the position of
 the p from inside the .alpha class to some other position inside your
 code, it is easier to debug the source of the problem. This should be
 done on a case-specific basis.</p>
-<h2 id="getting-familiar-with-the-box-model">Getting familiar with the
-box model </h2>
+
+<h2>Getting familiar with the box model </h2>
+
 <p>The box model is a very powerful source of information and can solve
 many issues with alignment. Using margin, padding and border is useful,
 but can be tricky and must be well understood.</p>
-<h2 id="browser-issues">Browser issues </h2>
+
+<h2>Browser issues</h2>
+
 <p>Many times, the styling you have renders correctly in the IDE but
 misbehaves in a browser. That is because browsers have their own default
 CSS stylesheets called user-agent styles. While modern-day browsers are
@@ -7184,7 +7189,9 @@ the browser's settings can be done with universal selectors, in such
 cases written at the top of the code, and will include properties such
 as ‘margin: 0px;’ to reset the margin values set by the browser by
 default.</p>
-<h2 id="dev-tools">Dev tools </h2>
+
+<h3>Dev tools</h3>
+
 <p>There are lots of user-friendly tools available today that can help
 debug CSS. However, the best tool you can use is the one provided by the
 browsers, called the developer tools, or dev tools. You can find these
@@ -7194,46 +7201,76 @@ configuration options, but fundamentally they are similar. Browsers
 today are very powerful pieces of software. If you spend time exploring
 the options, you may not need any other additional tools or software for
 debugging CSS and other front-end languages.</p>
-<p>A couple of the important options you can find inside your browser
-include:</p>
+
+<h4>A couple of the important options you can find inside your browser include:</h4>
+
 <ul>
-<li><p>Sources: Lists the filenames such as HTML, and CSS files used by
-the webpage that can be explored</p></li>
-<li><p>Elements: Scrolls through the code to select a specific element
-for exploration</p></li>
-<li><p>Inside the Elements tab, on the right-hand side, you will find
-several options such as Computed layouts that will show the box model,
-Layouts that contain page and grid overlay options, and Font.</p></li>
+  <li><p>Sources: Lists the filenames such as HTML, and CSS files used by the webpage that can be explored</p></li>
+  <li><p>Elements: Scrolls through the code to select a specific element for exploration</p></li>
+  <li><p>Inside the Elements tab, on the right-hand side, you will find several options such as Computed layouts that will show the box model, Layouts that contain page and grid overlay options, and Font.</p></li>
 </ul>
+
 <p>You can select a specific element much more easily with the help of
 the ‘Element selection’ icon inside the dev tools. It enables the
 selection of specific elements on your web page. You can also access
 this option by hovering over a specific element on your page that will
 display its properties to you.</p>
-<p><img src="./images/image235.png"
-style="width:1in;height:0.80104in" alt="Hovering Icon" /></p>
-<p><img src="./images/image236.png"
-style="width:0.4in;height:0.32258in" alt="Targetting Icon" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. hovering icon (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image235.png?raw=true"
+  alt="Hovering icon."
+  style="width:10%;" />
+<!-- style="width:1in;height:0.80104in" -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. targetting icon (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image236.png?raw=true"
+  alt="Targetting icon."
+  style="width:4%;" />
+<!-- style="width:0.4in;height:0.32258in" -->
+
 <p>On selecting the desired element, one way to use the Elements tab for
 debugging is by right-clicking on that element, scrolling to ‘Copy’ and
 then selecting an option from the drop-down list that appears.</p>
-<p><img src="./images/image237.png"
-style="width:5in;height:2.97116in"
-alt="Display of submenu from copy option" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 237. display of submenu from copy option (227) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image237.png?raw=true"
+  alt="Display of submenu from copy option."
+	style="width:50%;" />
+<!-- style="width:5in;height:2.97116in" -->
+
 <p>This way, you can explore the isolated code to find the problem.</p>
 <p>Additionally, you can add the Breakpoint option that is more useful
 for interactive pages by selecting the ‘Break on’ option and selecting
 an option from the dropdown list that appears.</p>
-<p><img src="./images/image238.png"
-style="width:5in;height:2.73341in" alt="Break on Submenu options" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 238. breakpoint and cumulative layout shift (228) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image238.png?raw=true"
+  alt="Break on submenu options."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.73341in" -->
+
 <p>Nowadays, some browsers are providing options such as Cumulative
 Layout Shift (CLS) that helps determine the overall efficiency of a web
 page.</p>
 <p>You can also bring up the element families by clicking on the
 horizontal bar:</p>
-<p><img src="./images/image239.png"
-style="width:6in;height:0.39473in"
-alt="Horizontal bar and element families" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 239. horizontal bar and element families (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image239.png?raw=true"
+  alt="Horizontal bar and element families."
+  style="width:60%;" />
+<!-- style="width:6in;height:0.39473in" -->
+
 <p>One very useful feature is the ability to make changes in your code
 directly inside the browser. First, use the ‘element selector’ mentioned
 above to select some elements and then look for the ‘+’ icon inside the
@@ -7259,7 +7296,9 @@ pages and exploring the dev tools is the best way to get better at
 debugging and CSS in general.</p>
 <p>In this reading, you learned about some of the fundamental tasks used
 to debug CSS.</p>
-<h1 id="debugging-tools">Debugging tools</h1>
+
+<h2>Debugging tools</h2>
+
 <p>Have you ever had a broken power outlet in your home, or maybe a
 light switch stopped working?</p>
 <p>When that happens, you usually call an electrician to come fix the
@@ -7326,7 +7365,9 @@ disposal to inspect and diagnose problems, and developer tools
 definitely make creating and maintaining webpages and web applications
 easier.</p>
 <p>The next reading, we'll explore developer tools in more detail.</p>
-<h1 id="browser-specific-css">Browser-specific CSS</h1>
+
+<h2>Browser-specific CSS</h2>
+
 <p>One of the frustrations you're likely to run into will be
 compatibility issues that occur when rendering your CSS files on
 different browsers.</p>
@@ -7438,17 +7479,21 @@ on multiple browsers.</p>
 <p>Finally, you explored browser-specific settings that you can add to
 your CSS code to ensure it's compatible and works properly with
 particular browsers. Well done.</p>
-<h3 id="what-are-some-css-bugs-you-have-struggled-with">What are some
-CSS bugs you have struggled with?</h3>
+
+<h3>What are some CSS bugs you have struggled with?</h3>
+
 <p>Now it's time to discuss some of the challenges that you had with
 your fellow learners.</p>
+
 <ul>
-<li><p>Which CSS bug did you struggle with the most?</p></li>
-<li><p>Why do you think it was such a challenge for you?</p></li>
-<li><p>What steps did you take to resolve the issue?</p></li>
-<li><p>Share your thoughts with your classmates!</p></li>
+  <li><p>Which CSS bug did you struggle with the most?</p></li>
+  <li><p>Why do you think it was such a challenge for you?</p></li>
+  <li><p>What steps did you take to resolve the issue?</p></li>
+  <li><p>Share your thoughts with your classmates!</p></li>
 </ul>
-<h1 id="ui-testing">UI testing</h1>
+
+<h2>UI testing</h2>
+
 <p>As you may have experienced when using different apps in your
 everyday life, first impressions matter, whether you are using an app to
 make a photo collage or to order food online.</p>
@@ -7522,8 +7567,9 @@ the additional reading material.</p>
 used to ensure customer satisfaction and what's more.</p>
 <p>You also learned about the web developer tools you can use to perform
 cross-device testing.</p>
-<h1 id="case-study-how-meta-performs-front-end-testing">Case study: How
-Meta performs front-end testing</h1>
+
+<h2>Case study: How Meta performs front-end testing</h2>
+
 <p>An untested application is a wildcard. You have no idea whether it
 works or it doesn't work.</p>
 <p>A tested application gives you confidence that what was originally
@@ -7632,36 +7678,27 @@ issues.</p>
 applying CSS effects.</p>
 <p>You've done a great job so far, keep up the good work and continue
 progressing in your learning journey.</p>
-<h3 id="additional-resources-3">Additional resources</h3>
+
+<h3>Additional resources</h3>
+
 <p>The following resources will be helpful as additional references in
 dealing with the different concepts related to the topics you have
 covered in this lesson. </p>
+
 <ul>
-<li><p><a href="https://caniuse.com/">Website to check for
-browser-compatibility</a></p></li>
-<li><p><a href="https://stylelint.io/">Official website for
-Stylelint</a></p></li>
-<li><p><a href="http://csslint.net/">Widely used linter website to check
-CSS code</a></p></li>
-<li><p><a href="https://jigsaw.w3.org/css-validator/">CSS Validator to
-check accuracy of CSS code</a></p></li>
-<li><p><a
-href="https://www.freecodecamp.org/news/how-to-tackle-css-specificity-issues-and-when-to-use-the-important-keyword-b54123995e1a/">Dealing
-with specificity issues</a></p></li>
-<li><p><a
-href="https://www.sitepoint.com/study-errors-beginners-make-learning-html-css/">Beginner
-errors made in CSS</a></p></li>
-<li><p><a
-href="https://www.webfx.com/blog/web-design/12-common-css-mistakes-web-developers-make/">Knowledge-based
-mistakes to avoid in CSS</a></p></li>
-<li><p><a
-href="https://www.simplilearn.com/tutorials/css-tutorial/webkit-css">How
-to use Webkit in your CSS code</a></p></li>
-<li><p><a
-href="https://www.lambdatest.com/blog/top-5-browser-compatibility-issues-in-css-for-developers-in-2021/">Commonly-occurring
-browser issues in CSS</a></p></li>
+  <li><p><a href="https://caniuse.com/">Website to check for browser-compatibility</a></p></li>
+  <li><p><a href="https://stylelint.io/">Official website for Stylelint</a></p></li>
+  <li><p><a href="http://csslint.net/">Widely used linter website to check CSS code</a></p></li>
+  <li><p><a href="https://jigsaw.w3.org/css-validator/">CSS Validator to check accuracy of CSS code</a></p></li>
+  <li><p><a href="https://www.freecodecamp.org/news/how-to-tackle-css-specificity-issues-and-when-to-use-the-important-keyword-b54123995e1a/">Dealing with specificity issues</a></p></li>
+  <li><p><a href="https://www.sitepoint.com/study-errors-beginners-make-learning-html-css/">Beginner errors made in CSS</a></p></li>
+  <li><p><a href="https://www.webfx.com/blog/web-design/12-common-css-mistakes-web-developers-make/">Knowledge-based mistakes to avoid in CSS</a></p></li>
+  <li><p><a href="https://www.simplilearn.com/tutorials/css-tutorial/webkit-css">How to use Webkit in your CSS code</a></p></li>
+  <li><p><a href="https://www.lambdatest.com/blog/top-5-browser-compatibility-issues-in-css-for-developers-in-2021/">Commonly-occurring browser issues in CSS</a></p></li>
 </ul>
-<h3 id="course-recap">Course recap</h3>
+
+<h3>Course recap</h3>
+
 <p>Wow, you've made it to the end of the course.</p>
 <p>Why don't you take a moment to congratulate yourself?</p>
 <p>After all, you've learned a lot in this course.</p>
@@ -7724,12 +7761,21 @@ you've already learned and accomplished.</p>
 <p>It's been a pleasure to embark on this journey of discovery with
 you.</p>
 <p>Best of luck in the future.</p>
-<h3 id="about-the-portfolio-project">About the portfolio project</h3>
+
+<h3>About the portfolio project</h3>
+
 <p>By completing the lessons in this course, you have acquired the
 necessary HTML and CSS skills and knowledge to develop a home page with
 a header, main content and footer.</p>
-<p><img src="./images/image240.png"
-style="width:4in;height:2.46645in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 240. home page with header, main content and footer (242) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image240.png?raw=true"
+  alt="Home page with header, main content and footer."
+  style="width:40%;" />
+<!--  style="width:4in;height:2.46645in" -->
+
 <p>You will have to decide whether you are going to use a grid or
 flexbox layout for your home page. Your header should contain the client
 logo and the main content should be a large promotional banner with
@@ -7743,21 +7789,25 @@ features of your project. This includes: selecting your fictional
 client, working out your layout, positioning the elements, planning the
 user experience, creating themes and setting up your local development
 environment.</p>
-<h3 id="what-is-the-purpose-of-the-portfolio-project">What is the
-purpose of the portfolio project?</h3>
+
+<h3>What is the purpose of the portfolio project?</h3>
+
 <p>The graded assessment will help you to establish which topics you
 have mastered, and which topics require further focus before you can
 complete the course. Ultimately, the graded assessment is designed to
 help you make sure that you are ready for the next course in this
 program. And even more, you get the opportunity to create another
 project for your portfolio.</p>
-<h3 id="how-do-i-prepare-for-the-graded-portfolio-project">How do I
-prepare for the graded portfolio project?</h3>
+
+<h3>How do I prepare for the graded portfolio project?</h3>
+
 <p>You have encountered exercises, knowledge checks, in-video questions
 and other assessments as you have progressed through the course. Nothing
 in the graded assessment will be outside what you have covered already,
 so you should be well placed to succeed.</p>
-<h3 id="what-will-i-be-doing">What will I be doing?</h3>
+
+<h3>What will I be doing?</h3>
+
 <p>The purpose of this graded assessment is to check your knowledge and
 understanding of the key learning objectives of this course. And what
 better way to do that than by applying your newly-learned skills in a
@@ -7768,14 +7818,17 @@ selection</a> reading. The client you choose will determine what links,
 pictures and colors you will use. You are free to use your creativity
 but the home page needs to meet certain criteria regarding the
 following:</p>
+
 <ul>
-<li><p>Visual layout</p></li>
-<li><p>Semantic structure</p></li>
-<li><p>CSS layout</p></li>
-<li><p>CSS styling</p></li>
-<li><p>CSS effects</p></li>
+  <li><p>Visual layout</p></li>
+  <li><p>Semantic structure</p></li>
+  <li><p>CSS layout</p></li>
+  <li><p>CSS styling</p></li>
+  <li><p>CSS effects</p></li>
 </ul>
-<h1 id="subject-selection">Subject selection</h1>
+
+<h2>Subject selection</h2>
+
 <p>For the graded assessment, you need to develop a home page for one of
 four fictional clients.</p>
 <p>As you read through the client personas included in this reading,
@@ -7792,17 +7845,25 @@ to not only style your page but also create interactivity?</p>
 how you can apply what you learned about CSS animations.</p>
 <p>The four client personas offer a great variety for you to choose
 from. They are:</p>
+
 <ul>
-<li><p>Retail: Lucky Shrub</p></li>
-<li><p>Professional services: Hair Day</p></li>
-<li><p>Restaurant: Little Lemon</p></li>
-<li><p>Luxury jewelry: Mangata and Gallo</p></li>
-<li><p>Read on to find out more about them.</p></li>
+  <li><p>Retail: Lucky Shrub</p></li>
+  <li><p>Professional services: Hair Day</p></li>
+  <li><p>Restaurant: Little Lemon</p></li>
+  <li><p>Luxury jewelry: Mangata and Gallo</p></li>
+  <li><p>Read on to find out more about them.</p></li>
 </ul>
-<h2 id="retail-lucky-shrub"><strong>Retail: Lucky Shrub</strong></h2>
-<p><img src="./images/image241.png"
-style="width:0.5in;height:1.00578in"
-alt="Logo of the fictional client Lucky Shrub" /></p>
+
+<h2><strong>Retail: Lucky Shrub</strong></h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 241. logo of the fictional client lucky shrub (244) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image241.png?raw=true"
+  alt="Logo of the fictional client Lucky Shrub."
+  style="width:5%;" />
+<!-- style="width:0.5in;height:1.00578in" -->
+
 <p>Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design
 firm that specializes in garden design and creation, maintenance and
 landscaping. The company also runs a small plant nursery that sells
@@ -7813,14 +7874,22 @@ who share a long-time love for plants. Jason is the garden architect. He
 creates and oversees all designs while managing his team of landscapers.
 Maria manages all the marketing for the company and oversees the
 nursery.</p>
-<h2 id="download-their-logos-here">Download their logos here:</h2>
-<p><strong><u>Lucky-Shrub-Logos</u></strong></p>
-<p><u>ZIP File</u></p>
-<h2 id="professional-services-hair-day"><strong>Professional services:
-Hair Day</strong> </h2>
-<p><img src="./images/image242.png"
-style="width:2in;height:1.32777in"
-alt="Logo of the fictional client Hair day" /></p>
+
+<h2>Download their logos here:</h2>
+
+<p><strong>Lucky-Shrub-Logos</strong></p>
+<p>ZIP File</p>
+
+<h2><strong>Professional services: Hair Day</strong></h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 242. logo of the fictional client hair day (244) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image242.png?raw=true"
+  alt="Logo of the fictional client Hair day"
+  style="width:20%;" />
+<!-- style="width:2in;height:1.32777in" -->
+
 <p>Based in Madison, Wisconsin, Hair Day is a boutique hair salon that
 specializes in cut, color and styling. Hair Day also offers makeup and
 nail services, prides itself on its warm and relaxing atmosphere and is
@@ -7843,11 +7912,15 @@ manicurist and one make-up artist.</p>
 <p><u>ZIP File</u></p>
 
 <h3><strong>Restaurant: Little Lemon</strong></h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 243. logo of the fictional client little lemon (245) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image243.png?raw=true"
+  alt="Logo of the fictional client Little Lemon."
+  style="width:40%;" />
+<!-- style="width:4in;height:1.09251in" -->
 
-
-<p><img src="./images/image243.png"
-style="width:4in;height:1.09251in"
-alt="Logo of the fictional client Little Lemon" /></p>
 <p>Based in Chicago, Illinois, Little Lemon is a family-owned
 Mediterranean restaurant, focused on traditional recipes served with a
 modern twist. The chefs draw inspiration from Italian, Greek, and
@@ -7885,16 +7958,23 @@ to e-commerce. However, she recently hired several artisans to help
 craft her designs and a young employee to help manage the company
 website and social media accounts.</p>
 <p>Download their logos here:</p>
+
 <p><strong><u>Mangata and Gallo logos</u></strong></p>
 <p><u>ZIP File</u></p>
-<h1 id="selecting-the-subject-and-working-out-the-layout">Selecting the
-subject and working out the layout</h1>
-<p>You might recall learning about client personas earlier in the
-course.</p>
-<p>For the project, you have to choose one client persona to develop a
-home page for.</p>
-<p><img src="./images/image244.png"
-style="width:5in;height:3.11111in" /></p>
+
+<h2>Selecting the subject and working out the layout</h2>
+
+<p>You might recall learning about client personas earlier in the course.</p>
+<p>For the project, you have to choose one client persona to develop a home page for.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. web page layout example (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image244.png?raw=true"
+  alt="Web page layout example."
+  style="width:50%;" />
+<!-- style="width:5in;height:3.11111in" -->
+
 <p>But if you want to practice, you can build multiple web pages using
 the different html and CSS skills that you've learned in this video.</p>
 <p>You will learn how to approach and plan a web page layout so you can
@@ -7902,8 +7982,15 @@ practice for your own project first.</p>
 <p>Let's start with the visual layout.</p>
 <p>The web page should have the company logo at the top of the page with
 a navigation menu underneath.</p>
-<p><img src="./images/image245.png"
-style="width:6.5625in;height:4.08333in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. another web page example (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image245.png?raw=true"
+  alt="Another Web page layout example."
+  style="width:65%;" />
+<!-- style="width:6.5625in;height:4.08333in" -->
+
 <p>The main content of the page should be below the navigation menu.</p>
 <p>At the bottom of the page is the footer.</p>
 <p>The navigation menu requires four links to be laid out
@@ -7955,8 +8042,9 @@ for the layout followed by the semantic structure and then the grid
 layout.</p>
 <p>In the next video, you'll learn how to start writing the html and CSS
 for the project.</p>
-<h1 id="positioning-the-elements-creating-placeholders">Positioning the
-elements, creating placeholders</h1>
+
+<h2>Positioning the elements, creating placeholders</h2>
+
 <p>When building a webpage, it's considered good practice to do the
 layout and positioning of your HTML elements before working on their
 visual styling.</p>
@@ -7971,21 +8059,32 @@ persona.</p>
 <p>I've opened Visual Studio Code and I've created my index.html file
 with the semantic HTML document structure based on the bare-bones layout
 from Week 1.</p>
-<p><img src="./images/image246.png"
-style="width:5in;height:3.68995in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246. web page example (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image246.png?raw=true"
+  alt="Web page example."
+  style="width:50%;" />
+<!-- style="width:5in;height:3.68995in" -->
+
 <p>In my semantic structure, I use the header element for the logo, the
 nav element for the navigation bar, the main element for the main page
 content and the footer element for the footer.</p>
-<p>The navigation bar uses an unordered list for the navigation
-links.</p>
-<p>In the main element, I set up two section elements, one for each row
-of the content.</p>
+<p>The navigation bar uses an unordered list for the navigation links.</p>
+<p>In the main element, I set up two section elements, one for each row of the content.</p>
 <p>Each row is its own element.</p>
-<p>I can use the flexbox layout to split the content into the required
-number of columns.</p>
+<p>I can use the flexbox layout to split the content into the required number of columns.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. sample code using article (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image247.png?raw=true"
+  alt="Sample code using article and div."
+  style="width:50%;" />
 
-<p><img src="./images/image247.png"
-style="width:5in;height:3.64974in" /></p>
+<!-- style="width:5in;height:3.64974in" -->
+
 <p>I use the article element to represent each column.</p>
 <p>This is because the content of each column will be self-contained and
 not related to the other columns.</p>
@@ -7999,18 +8098,30 @@ as a whole.</p>
 accessibility software.</p>
 <p>Since I want to split the footer visually into two columns, I use the
 div element to allow for the flexbox layout.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 248. sample little lemon web page (252) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image248.png?raw=true"
+  alt="Sample little lemon web page."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.83227in" -->
 
-<p><img src="./images/image248.png"
-style="width:5in;height:2.83227in" /></p>
 <p>I save the file and open the webpage in the web browser.</p>
 <p>The content is displaying on the webpage, but I need to layout and
 position the elements using CSS.</p>
 <p>I go back to Visual Studio Code and open styles.css in the CSS folder
 on the left.</p>
 <p>I already set up some rules for the body and heading elements.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249. style.css with rem (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image249.png?raw=true"
+  alt="Styles.css using rem as unit of measure."
+  style="width:30%;" />
+<!-- style="width:3in;height:3.36984in" -->
 
-<p><img src="./images/image249.png"
-style="width:3in;height:3.36984in" /></p>
 <p>I decided to use REM as a unit of measurement for this project.</p>
 <p>The font sizes, margins, and padding properties of my CSS rules will
 all be REM values. The only exception to this rule is the body element
@@ -8018,7 +8129,7 @@ where the left and right margins are set to five percent of the window
 size.</p>
 <p>Let's start by adding a rule to center the logo.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. css: header > image (252) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. css: header > image (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image250.png?raw=true"
@@ -8035,7 +8146,7 @@ changes from an inline element to a block level element.</p>
 <p>These three properties together will center the logo inside of the
 header element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 251. css: nav ul ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 251. css: nav ul (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image251.png?raw=true"
@@ -8051,7 +8162,7 @@ element that is a descendant of the nav element.</p>
 point as the beginning of each element.</p>
 <p>Then I set the text align property to center the inline elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252. css: nav li (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252. css: nav li (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image252.png?raw=true"
@@ -8066,7 +8177,7 @@ descendant of the nav element.</p>
 inline-block.</p>
 <p>I save the file and open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 253. logo and navigation bar centered (253) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 253. logo and navigation bar centered (255) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image253.png?raw=true"
@@ -8078,7 +8189,7 @@ inline-block.</p>
 centered.</p>
 <p>Next, I need to set up the flexbox layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. css: section display: flex (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. css: section display: flex (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image254.png?raw=true"
@@ -8090,7 +8201,7 @@ centered.</p>
 section element.</p>
 <p>I then add the display property and set its value to flex.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 255. css: article flex property to 1 (253) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 255. css: article flex property to 1 (255) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image255.png?raw=true"
@@ -8103,7 +8214,7 @@ article element.</p>
 <p>I then set the flex property to 1.</p>
 <p>I saved the file and open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 256. main content w/one column in 1st row, 3 in 2nd row (254) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 256. main content w/one column in 1st row, 3 in 2nd row (256) ~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image256.png?raw=true"
@@ -8115,10 +8226,10 @@ article element.</p>
 first row and three columns in the second row.</p>
 <p>Finally, also the layout for the footer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257. css: footer (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257. css: footer (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image0##.png?raw=true"
+  src="/images/image257.png?raw=true"
   alt="CSS: footer elements."
   style="width:35%;" />
 <!-- style="width:4.08333in;height:2.22917in" -->
@@ -8131,7 +8242,7 @@ descendant of the footer element.</p>
 <p>I then set the flex property to 1.</p>
 <p>I save the file again and open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 258. webpage elements laid out and positioned correctly (255) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 258. webpage elements laid out and positioned correctly (257) ~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image258.png?raw=true"
@@ -8139,10 +8250,9 @@ descendant of the footer element.</p>
   style="width:65%;" />
 <!-- style="width:5in;height:2.64339in" -->
 
-<p>Success, the webpage elements are now laid out and positioned
-correctly.</p>
+<p>Success, the webpage elements are now laid out and positioned correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 259. now you know how to position web page elements correctly (255) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 259. now you know how to position web page elements correctly (257) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image259.png?raw=true"
@@ -8158,10 +8268,12 @@ foundational layout to work from and to which you can add the paint and
 decor, the visual styling of your webpage.</p>
 <p>It takes some time to practice building your HTML structure and
 setting up the positioning of your elements.</p>
-<h1 id="setting-up-your-local-development-environment">Setting up your
-local development environment</h1>
+
+<h2>Setting up your local development environment</h2>
+
 <p>You have to use Visual Studio Code to complete your graded
 assessment. You have two options to do this.</p>
+
 <h2><strong>Option 1: Use Visual Studio Code in-browser with Coursera Labs</strong></h2>
 
 <p>You can access the Visual Studio Code environment through the “
@@ -8192,9 +8304,8 @@ href="https://code.visualstudio.com/download">https://code.visualstudio.com/down
 <p><strong>Step 1:</strong> Download the Windows installer.</p>
 <p><strong>Step 2:</strong> Open the file to install it once the
 download is complete.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 260. review and accept license agreement (257) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 260. review and accept license agreement (259) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image260.png?raw=true"
@@ -8206,7 +8317,7 @@ download is complete.</p>
 then click Next.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 261. destination location (enter or accept default) (258) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 261. destination location (enter or accept default) (260) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image261.png?raw=true"
@@ -8217,7 +8328,7 @@ then click Next.</p>
 <p><strong>Step 4:</strong> Keep the default value when prompted for the
 destination location and click next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 262. make sure add to path is selected (259) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 262. make sure add to path is selected (261) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image262.png?raw=true"
@@ -8229,7 +8340,7 @@ destination location and click next.</p>
 <strong>Add to PATH</strong> is selected. </p>
 <p><strong>Step 6:</strong> Click next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263. click install when ready (259) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263. click install when ready (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image263.png?raw=true"
@@ -8253,9 +8364,8 @@ download is complete.</p>
 contents.</p>
 <p><strong>Step 4:</strong> Drag and drop the .app file to the
 application link in Finder below.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 264. mac and linux menu screen color wheel (260) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 264. mac and linux menu screen color wheel (261) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image264.png?raw=true"
@@ -8266,9 +8376,7 @@ application link in Finder below.</p>
 
 <h2><strong>Linux</strong></h2>
 
-<p>Please refer to the <a
-href="https://code.visualstudio.com/docs/setup/linux">official Linux
-installation guide</a> for Visual Studio Code.</p>
+<p>Please refer to the <a href="https://code.visualstudio.com/docs/setup/linux">official Linux installation guide</a> for Visual Studio Code.</p>
 
 <h2>Selecting a working directory</h2>
 
@@ -8345,7 +8453,7 @@ because it sets the tone for the viewer.</p>
 <p>For the optimal use of colors, web developers make use of color
 theory and color schemes.  </p>
 
-<h3>Color schemes </h3>
+<h3>Color schemes</h3>
 
 <p>Fundamentally all colors are a combination of the three colors: red,
 yellow, and blue.</p>
@@ -8384,7 +8492,7 @@ can be used for maximum appeal. These are: </p>
 <p>Image source: <a
 href="https://www.moving.com/tips/how-to-choose-a-color-scheme-for-your-home/">How to choose a color scheme for your home</a></p>
 
-<h3>Using the color schemes </h3>
+<h3>Using the color schemes</h3>
 
 <p>Each of the different color schemes are used with the purpose of
 enhancing a website.</p>
@@ -8402,7 +8510,7 @@ typically have a white background.</p>
 only black and white color can be appealing if styling and design is
 well presented.</p>
 
-<h3>Factors to consider for themes and colors </h3>
+<h3>Factors to consider for themes and colors</h3>
 
 <p>While color schemes serve as a guide for picking website colors,
 there are some factors that must be considered in the process. The user
@@ -8449,7 +8557,8 @@ a client persona.</p>
 <img class="displayed"
   src="/images/image266.png?raw=true"
   alt="How to use common semantic and meta tags, use forms, create layouts and test."
-  style="width:5in;height:4.25056in" />
+  style="width:50%;" />
+<!--  style="width:5in;height:4.25056in" -->
 
 <p>In addition to these, following your completion of this course in
 HTML and CSS development, you should now be able to use common semantic
@@ -8484,7 +8593,11 @@ continue your educational progress.</p>
 been a voyage of discovery.</p>
 <p>Best of luck, and do continue to pursue your own learning objectives
 to their final goal.</p>
-<p>The end…</p>
+
+<h6>The end…</h6>
+
+<h7>4/12/2023 1:28am</h7>
+
 <p>Coursera -</p>
 <p>Week 1 – HTML Deep Dive</p>
 <p>HTML in depth</p>
@@ -8495,62 +8608,49 @@ webpages to look good and work well.</p>
 <h5><strong>23 videos, 20 readings</strong></h5>
 
 <ol type="1">
-
-<li><p><a
-href="https://www.coursera.org/lecture/html-and-css-in-depth/introduction-to-the-program-6j2oH"><strong>Video: </strong>Introduction
-to the Program</a></p></li>
-<li><p><strong>Video: </strong>Introduction to HTML and CSS in
-depth</p></li>
-<li><p><strong>Reading: </strong>Course syllabus</p></li>
-<li><p><strong>Video: </strong>How are HTML and CSS used in the real
-world?</p></li>
-<li><p><strong>Reading: </strong>How to be successful in this
-course</p></li>
-<li><p><strong>Video: </strong>Recap: What you know about HTML and
-CSS</p></li>
-<li><p><strong>Reading: </strong>Working with labs in this
-course</p></li>
-<li><p><strong>Video: </strong>Semantic tags and why we need
-them</p></li>
-<li><p><strong>Reading: </strong>Semantic HTML cheat sheet</p></li>
-<li><p><strong>Video: </strong>Semantic tags in action</p></li>
-<li><p><strong>Video: </strong>Metadata</p></li>
-<li><p><strong>Reading: </strong>Metadata cheat sheet</p></li>
-<li><p><strong>Video: </strong>Bare bones layout</p></li>
-<li><p><strong>Reading: </strong>Layout design</p></li>
-<li><p><strong>Video: </strong>UX with meta tags</p></li>
-<li><p><strong>Reading: </strong>Social media cards</p></li>
-<li><p><strong>Video: </strong>Setting up a social media card</p></li>
-<li><p><strong>Reading: </strong>Additional resources</p></li>
-<li><p><strong>Video: </strong>Forms and validation</p></li>
-<li><p><strong>Reading: </strong>Input types</p></li>
-<li><p><strong>Video: </strong>Creating a form</p></li>
-<li><p><strong>Video: </strong>Making the most of client-side
-validation</p></li>
-<li><p><strong>Reading: </strong>Visual Studio Code on Coursera</p></li>
-<li><p><strong>Reading: </strong>Create and test a form
-(solution)</p></li>
-<li><p><strong>Video: </strong>Radio buttons</p></li>
-<li><p><strong>Reading: </strong>Cheat sheet: Interactive form
-elements</p></li>
-<li><p><strong>Video: </strong>Using interactive form elements</p></li>
-<li><p><strong>Video: </strong>Form submission</p></li>
-<li><p><strong>Reading: </strong>Submit</p></li>
-<li><p><strong>Video: </strong>Browser differences</p></li>
-<li><p><strong>Reading: </strong>Glossary: HTML form elements</p></li>
-<li><p><strong>Reading: </strong>Create a complex form
-(solution)</p></li>
-<li><p><strong>Reading: </strong>Additional resources</p></li>
-<li><p><strong>Video: </strong>Video and audio</p></li>
-<li><p><strong>Video: </strong>Embedded players</p></li>
-<li><p><strong>Reading: </strong>Rate the media (solution)</p></li>
-<li><p><strong>Reading: </strong>Images</p></li>
-<li><p><strong>Video: </strong>iFrames</p></li>
-<li><p><strong>Reading: </strong>iFrame sandbox cheat sheet</p></li>
-<li><p><strong>Video: </strong>iFrame as a picture</p></li>
-<li><p><strong>Video: </strong>The canvas element</p></li>
-<li><p><strong>Video: </strong>Module summary: HTML deep dive</p></li>
-<li><p><strong>Reading: </strong>Additional resources</p></li>
+  <li><p><a href="https://www.coursera.org/lecture/html-and-css-in-depth/introduction-to-the-program-6j2oH"><strong>Video: </strong>Introduction to the Program</a></p></li>
+  <li><p><strong>Video: </strong>Introduction to HTML and CSS in depth</p></li>
+  <li><p><strong>Reading: </strong>Course syllabus</p></li>
+  <li><p><strong>Video: </strong>How are HTML and CSS used in the real world?</p></li>
+  <li><p><strong>Reading: </strong>How to be successful in this course</p></li>
+  <li><p><strong>Video: </strong>Recap: What you know about HTML and CSS</p></li>
+  <li><p><strong>Reading: </strong>Working with labs in this course</p></li>
+  <li><p><strong>Video: </strong>Semantic tags and why we need them</p></li>
+  <li><p><strong>Reading: </strong>Semantic HTML cheat sheet</p></li>
+  <li><p><strong>Video: </strong>Semantic tags in action</p></li>
+  <li><p><strong>Video: </strong>Metadata</p></li>
+  <li><p><strong>Reading: </strong>Metadata cheat sheet</p></li>
+  <li><p><strong>Video: </strong>Bare bones layout</p></li>
+  <li><p><strong>Reading: </strong>Layout design</p></li>
+  <li><p><strong>Video: </strong>UX with meta tags</p></li> 
+  <li><p><strong>Reading: </strong>Social media cards</p></li>
+  <li><p><strong>Video: </strong>Setting up a social media card</p></li>
+  <li><p><strong>Reading: </strong>Additional resources</p></li>
+  <li><p><strong>Video: </strong>Forms and validation</p></li>
+  <li><p><strong>Reading: </strong>Input types</p></li>
+  <li><p><strong>Video: </strong>Creating a form</p></li>
+  <li><p><strong>Video: </strong>Making the most of client-side validation</p></li>
+  <li><p><strong>Reading: </strong>Visual Studio Code on Coursera</p></li>
+  <li><p><strong>Reading: </strong>Create and test a form (solution)</p></li>
+  <li><p><strong>Video: </strong>Radio buttons</p></li>
+  <li><p><strong>Reading: </strong>Cheat sheet: Interactive form elements</p></li>
+  <li><p><strong>Video: </strong>Using interactive form elements</p></li>
+  <li><p><strong>Video: </strong>Form submission</p></li>
+  <li><p><strong>Reading: </strong>Submit</p></li>
+  <li><p><strong>Video: </strong>Browser differences</p></li>
+  <li><p><strong>Reading: </strong>Glossary: HTML form elements</p></li>
+  <li><p><strong>Reading: </strong>Create a complex form (solution)</p></li>
+  <li><p><strong>Reading: </strong>Additional resources</p></li>
+  <li><p><strong>Video: </strong>Video and audio</p></li>
+  <li><p><strong>Video: </strong>Embedded players</p></li>
+  <li><p><strong>Reading: </strong>Rate the media (solution)</p></li>
+  <li><p><strong>Reading: </strong>Images</p></li>
+  <li><p><strong>Video: </strong>iFrames</p></li>
+  <li><p><strong>Reading: </strong>iFrame sandbox cheat sheet</p></li>
+  <li><p><strong>Video: </strong>iFrame as a picture</p></li>
+  <li><p><strong>Video: </strong>The canvas element</p></li>
+  <li><p><strong>Video: </strong>Module summary: HTML deep dive</p></li>
+  <li><p><strong>Reading: </strong>Additional resources</p></li>
 </ol>
 
 <h3>Week 2 - Interactive CSS</h3>
@@ -8617,19 +8717,15 @@ increasingly specific styling to various elements.</p>
 <ol type="1">
   <li><p><a href="https://www.coursera.org/lecture/html-and-css-in-depth/course-recap-qJl7p"><strong>Video: </strong>Courserecap</a></p></li>
   <li><p><strong>Reading: </strong>About the portfolio project</p></li>
-<li><p><strong>Reading: </strong>Subject selection</p></li>
-<li><p><strong>Video: </strong>Selecting the subject and working out the
-layout</p></li>
-<li><p><strong>Video: </strong>Positioning the elements, creating
-placeholders</p></li>
-<li><p><strong>Reading: </strong>Setting up your local development
-environment</p></li>
-<li><p><strong>Video: </strong>Planning the user experience</p></li>
-<li><p><strong>Reading: </strong>Creating themes</p></li>
-<li><p><strong>Video: </strong>Exemplar: So far so good</p></li>
-<li><p><strong>Video: </strong>Congratulations, you have completed HTMLS
-and CSS in depth!</p></li>
-<li><p><strong>Reading: </strong>Next steps</p></li>
+  <li><p><strong>Reading: </strong>Subject selection</p></li>
+  <li><p><strong>Video: </strong>Selecting the subject and working out the layout</p></li>
+  <li><p><strong>Video: </strong>Positioning the elements, creating placeholders</p></li>
+  <li><p><strong>Reading: </strong>Setting up your local development environment</p></li>
+  <li><p><strong>Video: </strong>Planning the user experience</p></li>
+  <li><p><strong>Reading: </strong>Creating themes</p></li>
+  <li><p><strong>Video: </strong>Exemplar: So far so good</p></li>
+  <li><p><strong>Video: </strong>Congratulations, you have completed HTMLS and CSS in depth!</p></li>
+  <li><p><strong>Reading: </strong>Next steps</p></li>
 </ol>
 
 <h2>Basic meta tags (meta tags For SEO)</h2>
@@ -8672,18 +8768,9 @@ specifies the language of the page</p>
 content="no-cache"&gt;</strong> instructs the browser how to cache your
 page</p>
 
-<h2>Responsive design/mobile meta tags </h2>
+<h2>Responsive design/mobile meta tags</h2>
 
-<p><strong>&lt;meta name="format-detection"
-content="telephone=yes"/&gt;</strong> indicates that telephone numbers
-should appear as hypertext links that can be clicked to make a phone
-call <strong>&lt;meta name="HandheldFriendly"
-content="true"/&gt;</strong> specifies that the page can be properly
-visualized on mobile devices <strong>&lt;meta name="viewport"
-content="width=device-width, initial-scale=1.0"/&gt;</strong> specifies
-the area of the window in which web content can be seen</p>
-
-<h7>the end...</h7>
+<p><strong>&lt;meta name="format-detection" content="telephone=yes"/&gt;</strong> indicates that telephone numbers should appear as hypertext links that can be clicked to make a phone call <strong>&lt;meta name="HandheldFriendly" content="true"/&gt;</strong> specifies that the page can be properly visualized on mobile devices <strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</strong> specifies the area of the window in which web content can be seen</p>
 <!--
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
