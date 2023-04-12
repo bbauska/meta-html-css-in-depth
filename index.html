@@ -1062,8 +1062,16 @@ Little Lemon website.</p>
 additional information to the platforms.</p>
 <p>Since the platforms vary in what they display to their users, it's
 best to provide as much information as possible.</p>
-<p><img src="./images/image041.png"
-style="width:5in;height:2.77511in" /></p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image041.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.77511in" -->
+
 <p>I'll add three more or meta tags to the head element.</p>
 <p>On the first tag, I had the property attribute and set its value to
 og:description.</p>
@@ -1134,7 +1142,9 @@ with HTML</strong></a></p></li>
 href="https://getbootstrap.com/docs/5.2/examples/"><strong>Bootstrap
 Layout Examples</strong></a></p></li>
 </ul>
-<p>Forms and validation</p>
+
+<h3>Forms and validation</h3>
+
 <p>You've most likely encountered forms when registering an account on a
 website, or when filling out your address for something you've bought
 online.</p>
@@ -1185,10 +1195,16 @@ malicious data submission and to ensure data integrity.</p>
 validation.</p>
 <p>HTML has several input types that are validated by the web
 browser.</p>
-<p><img src="./images/image042.png"
-style="width:2in;height:2.76696in" /></p>
-<p>As demonstrated in the example, email is used for email
-addresses.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image042.png?raw=true"
+  alt="."
+  style="width:20%;" />
+<!-- style="width:2in;height:2.76696in" -->
+
+<p>As demonstrated in the example, email is used for email addresses.</p>
 <p>Others include "tel" for telephone numbers, "url" for URLs such as
 www.data.com, "date" for date values, "time" for time values, "number"
 for numeric values, "range" for numeric values which have a minimum and
@@ -1197,8 +1213,15 @@ maximum value, and "color" for color selection.</p>
 entering a telephone number and URL, the browser will validate the
 entered data against the requirements of the input type and provide user
 feedback.</p>
-<p><img src="./images/image043.png"
-style="width:3in;height:1.2401in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image043.png?raw=true"
+  alt="."
+  style="width:30%;" />
+<!-- style="width:3in;height:1.2401in" -->
+
 <p>Another example is the required attribute, which indicates that the
 user must supply a value to an input field.</p>
 <p>The web browser will alert a user if a required value is
@@ -1212,7 +1235,9 @@ property determines the data your users can type in. This cheat sheet
 should be a reference to decide what type best suits your use case. Most
 of the inputs go hand in hand with the label tag for best accessibility
 practices.</p>
-<h3 id="button">Button</h3>
+
+<h3>Button</h3>
+
 <p>This displays a clickable button and it’s mostly used in HTML forms
 to activate a script when clicked.
 <strong>&lt;input type="button" value="Click me" onclick="msg()"
@@ -1226,7 +1251,9 @@ able to place content like text or images inside the tag.</p>
 <p>        alt="Submit the form" height="64" width="64"&gt;</p>
 <p>&lt;/button&gt; </p>
 </blockquote>
-<h3 id="checkbox">Checkbox</h3>
+
+<h3>Checkbox</h3>
+
 <p>Defines a check box allowing single values to be selected or
 deselected. They are used to let a user select one or more options of a
 limited number of choices.</p>
@@ -1236,7 +1263,9 @@ limited number of choices.</p>
 <p>&lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;</p>
 <p>&lt;label for="cat"&gt;I like cats&lt;/label&gt;</p>
 </blockquote>
-<h3 id="radio">Radio</h3>
+
+<h3>Radio</h3>
+
 <p>Displays a radio button, allowing only a single value to be selected
 out of multiple choices. They are normally presented in radio groups,
 which is a collection of radio buttons describing a set of related
@@ -1247,7 +1276,9 @@ options that share the same "name" attribute.</p>
 <p>&lt;input type="radio" id="dark" name="theme" value="Dark"&gt; </p>
 <p>&lt;label for="dark"&gt;Dark&lt;/label&gt; </p>
 </blockquote>
-<h3 id="submit">Submit</h3>
+
+<h3>Submit</h3>
+
 <p>Displays a submit button for submitting all values from an HTML form
 to a form-handler, typically a server. The form-handler is specified in
 the form’s "action" attribute:</p>
@@ -1257,21 +1288,27 @@ the form’s "action" attribute:</p>
 <p>&lt;input type="submit" value="Submit" /&gt;</p>
 <p>&lt;/form&gt;</p>
 </blockquote>
-<h3 id="text">Text</h3>
+
+<h3>Text</h3>
+
 <p>Defines a basic single-line text field that a user can enter text
 into. </p>
 <blockquote>
 <p>&lt;label for="fname"&gt;First name:&lt;/label&gt; </p>
 <p>&lt;input type="text" id="fname" name="fname"&gt; </p>
 </blockquote>
-<h3 id="password">Password</h3>
+
+<h3>Password</h3>
+
 <p>Defines a single-line text field whose value is obscured, suited for
 sensitive information like passwords.</p>
 <blockquote>
 <p>&lt;label for="pwd"&gt;Password:&lt;/label&gt; </p>
 <p>&lt;input type="password" id="pwd" name="pwd"&gt; </p>
 </blockquote>
-<h3 id="date">Date</h3>
+
+<h3>Date</h3>
+
 <p>Displays a control for entering a date with no time (year, month and
 day).</p>
 <blockquote>
@@ -1285,7 +1322,9 @@ month and day, as well as the time in hours and minutes.</p>
 <p>&lt;label for="birthdaytime"&gt;Birthday (date and time):&lt;/label&gt;</p>
 <p>&lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;</p>
 </blockquote>
-<h3 id="email">Email</h3>
+
+<h3>Email</h3>
+
 <p>Defines a field for an email address. It’s similar to a plain text
 input, with the addition that it validates automatically when submitted
 to the server.</p>
@@ -1293,7 +1332,9 @@ to the server.</p>
 <p>&lt;label for="email"&gt;Enter your email:&lt;/label&gt;</p>
 <p>&lt;input type="email" id="email" name="email"&gt;</p>
 </blockquote>
-<h3 id="file"><strong>File</strong></h3>
+
+<h3><strong>File</strong></h3>
+
 <p>Displays a control that lets the user select and upload a file from
 their computer. To define the types of files permissible you can use the
 "accept" attribute. Also, to enable multiple files to be selected, add
@@ -1308,20 +1349,26 @@ submitted to the server.</p>
 <blockquote>
 <p>&lt;input type="hidden" id="custId" name="custId" value="3487"&gt;</p>
 </blockquote>
-<h3 id="image"><strong>Image</strong></h3>
+
+<h3><strong>Image</strong></h3>
+
 <p>Defines an image as a graphical submit button. You should use the
 “src” attribute to point to the location of your image file.</p>
 <blockquote>
 <p>&lt;input type="image"src="submit_img.png" alt="Submit" width="48" height="48"&gt;</p>
 </blockquote>
-<h3 id="number"><strong>Number</strong></h3>
+
+<h3><strong>Number</strong></h3>
+
 <p>Defines a control for entering a number. You can use attributes to
 specify restrictions, such as min and max values allowed, number
 intervals or a default value.</p>
 <blockquote>
 <p>&lt;input type="number" id="quantity" name="quantity" min="1" max="5"&gt;</p>
 </blockquote>
-<h3 id="range"><strong>Range</strong></h3>
+
+<h3><strong>Range</strong></h3>
+
 <p>Displays a range widget for specifying a number between two values.
 The precise value, however, is not considered important. This is
 typically represented using a slider or dial control. To define the
@@ -1330,28 +1377,37 @@ range of acceptable values, use the “min” and “max” properties.</p>
 <p>&lt;label for="volume"&gt;Volume:&lt;/label&gt;</p>
 <p>&lt;input type="range" id="volume" name="volume" min="0" max="10"&gt;</p>
 </blockquote>
-<h3 id="reset"><strong>Reset</strong></h3>
+
+<h3><strong>Reset</strong></h3>
+
 <p>Displays a button that resets the contents of the form to their
 default values.</p>
 <blockquote>
 <p>&lt;input type="reset"&gt;</p>
 </blockquote>
-<h3 id="search"><strong>Search</strong></h3>
+
+<h3"><strong>Search</strong></h3>
+
 <p>Defines a text field for entering a search query. These are
 functionally identical to text inputs, but may be styled differently
 depending on the browser.</p>
+
 <blockquote>
 <p>&lt;label for="gsearch"&gt;Search in Google:&lt;/label&gt;</p>
 <p>&lt;input type="search" id="gsearch" name="gsearch"&gt;</p>
 </blockquote>
-<h3 id="time">Time</h3>
+
+<h3>Time</h3>
+
 <p>Displays a control for entering a time value in hours and minutes,
 with no time zone.</p>
 <blockquote>
 <p>&lt;label for="appt"&gt;Select a time:&lt;/label&gt;</p>
 <p>&lt;input type="time" id="appt" name="appt"&gt;</p>
 </blockquote>
+
 <h3 id="tel"><strong>Tel</strong></h3>
+
 <p>Defines a control for entering a telephone number. Browsers that do
 not support “tel” fall back to standard text input. You can optionally
 use the "pattern" field to perform validation.</p>
@@ -1359,7 +1415,9 @@ use the "pattern" field to perform validation.</p>
 <p>&lt;label for="phone"&gt;Enter your phone number:&lt;/label&gt;</p>
 <p>&lt;input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"&gt;</p>
 </blockquote>
-<h3 id="url"><strong>Url</strong></h3>
+
+<h3><strong>Url</strong></h3>
+
 <p>Displays a field for entering a text URL. It works similar to a text
 input, but performs automatic validation before being submitted to the
 server.</p>
@@ -1367,7 +1425,9 @@ server.</p>
 <p>&lt;label for="homepage"&gt;Add your homepage:&lt;/label&gt;</p>
 <p>&lt;input type="url" id="homepage" name="homepage"&gt;</p>
 </blockquote>
-<h3 id="week"><strong>Week</strong></h3>
+
+<h3><strong>Week</strong></h3>
+
 <p>Defines a control for entering a date consisting of a week-year
 number and a year, with no time zone. Keep in mind that this is a newer
 type that is not supported by all the browsers.</p>
@@ -1375,7 +1435,9 @@ type that is not supported by all the browsers.</p>
 <p>&lt;label for="week"&gt;Select a week:&lt;/label&gt;</p>
 <p>&lt;input type="week" id="week" name="week"&gt;</p>
 </blockquote>
-<h3 id="month"><strong>Month</strong></h3>
+
+<h3><strong>Month</strong></h3>
+
 <p>Displays a control for entering a month and year, with no time zone.
 Keep in mind that this is a newer type that is not supported by all the
 browsers.</p>
@@ -1390,8 +1452,15 @@ online orders to deliver food to customers at home.</p>
 website.</p>
 <p>In this module, you will learn how to create a simple signup form for
 user accounts on the Little Lemon website.</p>
-<p><img src="./images/image044.png"
-style="width:5in;height:3in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image044.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:3in" -->
+
 <p>I've set up my basic HTML document structure in a file named,
 signup.html.</p>
 <p>I start off by adding the form element.</p>
@@ -1449,8 +1518,15 @@ field on screen.</p>
 <p>Everything displays correctly.</p>
 <p>However, I'd like to improve the user experience by informing the
 user what each field represents.</p>
-<p><img src="./images/image045.png"
-style="width:5in;height:3.11592in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image045.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:3.11592in" -->
+
 <p>To do this, I'll add a label element before each input element.</p>
 <p>Now I want to explain why I set the ID attribute for each input field
 earlier in the module.</p>
@@ -1468,13 +1544,27 @@ the input element.</p>
 <p>Finally, I'll add a line break tag after the label element so that
 the input field displays below the label. I then repeat the same process
 for each input element.</p>
-<p><img src="./images/image046.png"
-style="width:2in;height:2.99636in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image046.png?raw=true"
+  alt="."
+  style="width:20%;" />
+<!-- style="width:2in;height:2.99636in" -->
+
 <p>I save the file again and open the Live Preview.</p>
 <p>Oh, yes, that's much better.</p>
 <p>The form labels now display above the input fields.</p>
-<p><img src="./images/image047.png"
-style="width:4in;height:1.35231in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image047.png?raw=true"
+  alt="."
+  style="width:40%;" />
+<!-- style="width:4in;height:1.35231in" -->
+
 <p>To finalize the form, I need to add one more thing, the submit
 button. Inside the last div element, I add a button element.</p>
 <p>I set the button type attribute to submit.</p>
@@ -1503,8 +1593,15 @@ users when data is incorrect.</p>
 <p>By now you've learned about the different HTML input types and how
 they validate the format of data, but there are additional attributes
 that you can apply to elements for further validation.</p>
-<p><img src="./images/image048.png"
-style="width:5in;height:1.70032in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 48. metadata required for protocol (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image048.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:1.70032in" -->
+
 <p>First, let's explore how you can ensure that the user provides a
 value to a form field. This example of a log-in form contains two
 fields, one for the username and one for the password.</p>
@@ -1516,14 +1613,28 @@ server-side validation will pick up the missing information and prevent
 the processing of the request, a HTTP request was still submitted.</p>
 <p>Let's improve this form by using client-side validation to ensure the
 user enters values to both fields.</p>
-<p><img src="./images/image049.png"
-style="width:5in;height:1.70032in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image049.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:1.70032in" -->
+
 <p>Now with the required attribute in the code, if one of the fields is
 empty and the user clicks the submit button, the request will not be
 submitted to the web server.</p>
-<p><img src="./images/image050.png"
-style="width:2.73958in;height:4.69792in" />The web browser will focus on
-the first empty input element and inform the user that a field is
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image050.png?raw=true"
+  alt="."
+  style="width:27%;" />
+<!-- style="width:2.73958in;height:4.69792in" -->
+
+<p>The web browser will focus on the first empty input element and inform the user that a field is
 empty.</p>
 <p>Now the form creates a much better user experience and prevents
 unnecessary usage of web server resources, but user input that is too
@@ -1536,8 +1647,15 @@ and a maximum of 12 characters, or maybe you want to ensure more secure
 passwords by requiring a minimum password length of five characters.</p>
 <p>Fortunately, there are two more attributes you can use to ensure the
 correct length of data.</p>
-<p><img src="./images/image051.png"
-style="width:5in;height:1.91827in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image051.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:1.91827in" -->
+
 <p>You can add the min length and max length attributes to the fields to
 specify the required length. In this case, since the minimum value for
 the username is set to three, a two-character entry would be
