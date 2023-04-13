@@ -3795,29 +3795,57 @@ by organizing relevant content to make it easier to comprehend.</p>
 <p>Let's learn more about layouts.</p>
 <p>When someone says the word grid, you probably think of lines that
 cross each other to form squares or rectangles.</p>
-<p><img src="./images/image128.png"
-style="width:5in;height:2.88675in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 128. grid container, rows and columns (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image128.png?raw=true"
+  alt="Grid Container, Rows and Columns."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.88675in" -->
+
 <p>CSS Grids are two-dimensional design layouts that are responsive and
 compatible with browser variations.</p>
 <p>They are an alternative to other options such as Flexboxes and
 tables, especially when you are working with larger scale layouts.</p>
 <p>Columns are the vertical tracks and rows are the horizontal tracks in
 your viewport.</p>
-<p><img src="./images/image129.png"
-style="width:6.5in;height:3.63264in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. grid container, gutter (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image129.png?raw=true"
+  alt="Grid Container, Gutter."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:3.63264in" -->
+
 <p>Grids divide the page into rows and columns, and the space between
 these tracks are called gutters or gaps.</p>
-<p><img src="./images/image130.png"
-style="width:6.5in;height:3.54028in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. grid container, grid cell (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image130.png?raw=true"
+  alt="Grid Container, Grid Cell."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:3.54028in" -->
+
 <p>A cell is the space in a grid container where a row and column
 intersect.</p>
 <p>There are several different configurations you can add to define and
 modify grids.</p>
 <p>Let's examine an example that uses a HTML document to demonstrate how
 to iteratively make changes to a grid.</p>
-<p><img src="./images/image131.png"
-style="width:3in;height:3.72032in" />First, let's create a HTML document
-called index.html.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. index.html (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image131.png?raw=true"
+  alt="Sample Index.html."
+  style="width:30%;" />
+<!-- style="width:3in;height:3.72032in" -->
+
+<p>First, let's create a HTML document called index.html.</p>
 <p>Right now, the contents displayed in the viewport are just a vertical
 series of letters from A to E without any styling.</p>
 <p>Let's start adding content to the CSS file.</p>
@@ -3830,31 +3858,55 @@ screen is unchanged.</p>
 necessary for its size.</p>
 <p>What's displayed in the viewport may appear to be a grid, but it's
 not actually one.</p>
-<p><img src="./images/image132.png"
-style="width:3in;height:3.11873in" />It's just the default settings of
-CSS for a layout.</p>
-<p>Once you convert this into the grid layout, you'll be able to
-recognize the flexibility it can add.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. set values (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image132.png?raw=true"
+  alt="Set Values."
+  style="width:30%;" />
+<!-- style="width:3in;height:3.11873in" -->
+
+<p>It's just the default settings of CSS for a layout.</p>
+<p>Once you convert this into the grid layout, you'll be able to recognize the flexibility it can add.</p>
 <p>Let's convert it into a grid layout.</p>
-<p>Set the properties of the container class by first assigning a grid
-value to the display property.</p>
-<p>The display property is also used to set display types for other
-designs such as flex, block, inline, and so on.</p>
+<p>Set the properties of the container class by first assigning a grid value to the display property.</p>
+<p>The display property is also used to set display types for other designs such as flex, block, inline, and so on.</p>
 <p>It's usually a part of container elements inside our code.</p>
-<p><img src="./images/image133.png"
-style="width:6.5in;height:3.88611in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 133. assign grid value to display property (122) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image133.png?raw=true"
+  alt="Assign Grid Value to Display Property."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:3.88611in" -->
+
 <p>The updated container now has the display property value set to grid
 and the property values configured for three columns and two rows.</p>
-<p><img src="./images/image134.png"
-style="width:6.5in;height:2.86042in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. updated container (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image134.png?raw=true"
+  alt="Updated Container."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:2.86042in" -->
+
 <p>That's two changes from the previous configuration.</p>
 <p>Let's examine them.</p>
 <p>The grid template columns property has been added into the CSS code
 to set the size of each of the three columns using pixel values.</p>
-<p><img src="./images/image135.png"
-style="width:6.5in;height:2.73611in" /></p>
-<p>The use of fr, which is an abbreviation for fraction, has been
-introduced.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 135. updated container with fraction (124) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image135.png?raw=true"
+  alt="Updated Container with Fraction."
+  style="width:65%;" />
+<!== style="width:6.5in;height:2.73611in" -->
+
+<p>The use of fr, which is an abbreviation for fraction, has been introduced.</p>
 <p>Fraction effectively divides the grid.</p>
 <p>The page now displays five separate grid cells around the letters
 which are arranged in three columns and two rows.</p>
@@ -3866,8 +3918,15 @@ two to one.</p>
 actual pixel sizes.</p>
 <p>It must be noted though, that fraction and pixel sizes can be used
 interchangeably with both rows and columns.</p>
-<p><img src="./images/image136.png"
-style="width:6.5in;height:2.78056in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 136. grid gap and background color (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image136.png?raw=true"
+  alt="Grid Gap and Background Color."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:2.78056in" -->
+
 <p>Now to add a couple of properties such as grid gap or gutter and
 background color to define the grid, the updated view displays a red box
 representing the grid because that's what the background colors RGB
@@ -3877,12 +3936,27 @@ size of the grid track or gutter has been adjusted to 10 pixels, which
 leaves more space between the grid cells.</p>
 <p>You can also opt to use the auto properties such as grid, auto rows
 and grid auto columns collectively called the implicit grid.</p>
-<p><img src="./images/image137.png"
-style="width:6.5in;height:2.78056in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. auto properties (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image137.png?raw=true"
+  alt="Auto Properties."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:2.78056in" -->
+
 <p>Let's replace the grid template rows property in the code with grid
 auto rows. All the rows are now auto-resized to 100 pixels.</p>
 <p>Now let's examine some of the functions that can make configuring the
 layout easier.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<img class="displayed"
+  src="/images/image0##.png?raw=true"
+  alt="."
+  style="width:5in;height:1.60684in" />
 <p><img src="./images/image138.png"
 style="width:6.5in;height:2.78056in" /></p>
 <p>First, the repeat function passes the number of repeats required for
@@ -3892,6 +3966,15 @@ last instance because the repeat function didn't change anything, it
 just reduced the amount of code you need to write.</p>
 <p>Therefore, the repeat function helps reduce redundancy and provides
 ease of code modification.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<img class="displayed"
+  src="/images/image139.png?raw=true"
+  alt="."
+  style="width:5in;height:1.60684in" />
+
 <p><img src="./images/image139.png"
 style="width:6.5in;height:2.78056in" /></p>
 <p>Next, the min-max function sets the minimum and maximum values
@@ -3998,7 +4081,9 @@ axis</p>
 above */</strong></p>
 <p>This feature allows you align items with the block and inline
 directions.</p>
-<h3 id="justification">Justification</h3>
+
+<h3>Justification</h3>
+
 <p><strong>justify-content: start | center | end | stretch |
 space-between | space-evenly | space-around</strong></p>
 <p>Defines browser allocation of space to content items in relation to
