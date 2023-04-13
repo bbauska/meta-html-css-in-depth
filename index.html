@@ -836,7 +836,6 @@ the page each day based on current events.</p>
 
 <p>The layout typically features different-sized feature areas followed
 by a series of article summary areas that link to full articles.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. sample blog post (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1674,26 +1673,47 @@ users, like a form field that turns red when the data is invalid.</p>
 <p>This can be readily implemented using CSS.</p>
 <p>To highlight a field in red when the data is invalid, you use the
 input element selector.</p>
-<p><img src="./images/image052.png"
-style="width:5in;height:2.164in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 52. error check with input element selector (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image052.png?raw=true"
+  alt="Error check with input element selector."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.164in" -->
+
 <p>You then apply the pseudo-class selector called invalid.</p>
 <p>You will learn more about pseudo-class selectors later in this
 course.</p>
 <p>For now, the key thing to know is that they are used to select
 elements based on their state, such as whether the input data is valid
 or invalid.</p>
-<p><img src="./images/image053.png"
-style="width:5in;height:2.164in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 53. error check with border 2px solid red (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image053.png?raw=true"
+  alt="Error check with border 2px solid red."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.164in" -->
+
 <p>Then you add a CSS property to set the border of the element to
-read.</p>
+red.</p>
 <p>But since all the form fields are empty when the form loads
 initially, their state is still practically invalid.</p>
-<p>This will cause all form fields to display read from the start like
+<p>This will cause all form fields to display red from the start like
 demonstrated in this Real-world example of a login screen.</p>
 <p>Ideally, you only want fields to appear red as the user enters
 invalid data.</p>
-<p><img src="./images/image054.png"
-style="width:5in;height:2.42628in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. pseudo-class focus (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image054.png?raw=true"
+  alt="Pseudo-class focus."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.42628in" -->
+
 <p>To do this, you need to apply another pseudo-class called focus,
 which checks if the user is currently entering data into this field.</p>
 <p>Now the form will appear normal when the page first loads, and when
@@ -1716,27 +1736,38 @@ leaving the course.</p>
 id="httpsd3c33hcgiwev3.cloudfront.netimageassetproxy.v1vgownp9vq-iqmdt_vqpogg_8b07efd976544e35a6f193cac219c4f1_screen-shot-2022-06-24-at-3.39.41-pm.pngexpiry1676419200000hmacdmkfoepa4gu8p-8gmc0vfe9emsbngmkykswt_itqub0"><img
 src="./images/image055.png" style="width:3.4375in;height:0.42708in"
 alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&amp;hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0" /></h3>
-<h3 id="how-to-get-started-working-on-labs">How to get started working
-on Labs</h3>
+
+<h3>How to get started working on Labs</h3>
+
 <p>The Labs contain instructions explaining the coding task.</p>
+
 <p><img src="./images/image056.png"
 style="width:5in;height:3.36336in"
 alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&amp;hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g" /></p>
 <p>When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing
 code!</p>
+
 <p><img src="./images/image057.png"
 style="width:5in;height:2.67492in"
 alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&amp;hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o" /></p>
 <p>You'll see all the files for the lab in the Project folder in the
 left sidebar.</p>
+
 <p><img src="./images/image058.png"
 style="width:5in;height:2.67492in"
 alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&amp;hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c" /></p>
+
 <p>And the large editor area where you write your code for the lab.</p>
-<p><img src="./images/image059.png"
-style="width:5in;height:2.67492in"
-alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&amp;hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. editor area (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image059.png?raw=true"
+  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&amp;hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI"
+  style="width:50%;" />
+<!-- style="width:5in;height:2.67492in" -->
+
 <p>All <strong>Lab</strong> exercises will include two important files.
 A <strong>README.md</strong> file which contains instructions for using
 Visual Studio Code and most importantly, how to run and view the output
@@ -4025,7 +4056,7 @@ to set the size of each of the three columns using pixel values.</p>
   src="/images/image135.png?raw=true"
   alt="Updated Container with Fraction."
   style="width:65%;" />
-<!== style="width:6.5in;height:2.73611in" -->
+<!-- style="width:6.5in;height:2.73611in" -->
 
 <p>The use of fr, which is an abbreviation for fraction, has been introduced.</p>
 <p>Fraction effectively divides the grid.</p>
@@ -4073,13 +4104,12 @@ layout easier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--
 <img class="displayed"
-  src="/images/image0##.png?raw=true"
+  src="/images/image138.png?raw=true"
   alt="."
-  style="width:5in;height:1.60684in" />
-<p><img src="./images/image138.png"
-style="width:6.5in;height:2.78056in" /></p>
+  style="width:65%;" />
+<!-- style="width:6.5in;height:2.78056in" -->
+
 <p>First, the repeat function passes the number of repeats required for
 a given number of rows and columns.</p>
 <p>The result of the code adjustment is an unchanged webpage from the
@@ -4088,15 +4118,14 @@ just reduced the amount of code you need to write.</p>
 <p>Therefore, the repeat function helps reduce redundancy and provides
 ease of code modification.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image139.png?raw=true"
   alt="."
-  style="width:5in;height:1.60684in" />
+  style="width:65%;" />
+<!-- style="width:6.5in;height:2.78056in" -->
 
-<p><img src="./images/image139.png"
-style="width:6.5in;height:2.78056in" /></p>
 <p>Next, the min-max function sets the minimum and maximum values
 expected for the sizes of rows and columns.</p>
 <p>Let's set the value for the grid auto rows to 150 pixels.</p>
@@ -4122,7 +4151,9 @@ and effort.</p>
 <h1 id="grids-and-flexbox-cheat-sheet">Grids and flexbox cheat
 sheet</h1>
 <p>Note: ‘|’ stands for alternatives or OR.</p>
-<h1 id="grid">Grid </h1>
+
+<h3>Grid </h3>
+
 <p>The syntax for creating a grid:</p>
 <p>1</p>
 <p>2</p>
@@ -4157,8 +4188,9 @@ configured.</p>
 <p>This sets the gap between the columns</p>
 <p><strong>row-gap: normal</strong></p>
 <p>This sets the gap between the rows</p>
-<h3 id="grid-properties-for-container">Grid properties for
-container</h3>
+
+<h3>Grid properties for container</h3>
+
 <p><strong>grid-template-columns: measurement units | % units
 |repeat()</strong></p>
 <p>Defines the line names, and maintains a constant size of column
@@ -4184,14 +4216,18 @@ configured.</p>
 <p>This defines two cells named footer and footer, that have a sizing of
 20 root em (rem). This defines the size in relation to the html font
 size.</p>
-<h3 id="gap-1">Gap</h3>
+
+<h3>Gap</h3>
+
 <p><strong>grid-gap: measurement units</strong></p>
 <p>Determines the gap between rows and columns</p>
 <p><strong>grid-column-gap: measurement units</strong></p>
 <p>Determines the gap between columns</p>
 <p><strong>grid-row-gap: m-unit-1 m-unit-2</strong></p>
 <p>Determines the gap between columns</p>
-<h3 id="alignment">Alignment</h3>
+
+<h3>Alignment</h3>
+
 <p><strong>justify-items: start | center | end | stretch</strong></p>
 <p>Defines the default space that is allot to each item on the grid</p>
 <p><strong>align-items: start | center | end | stretch</strong></p>
@@ -4215,7 +4251,9 @@ cross axis and block axis</p>
 <p><strong>place-content: center | start</strong></p>
 <p>This feature allows you align items with the block and inline
 directions.</p>
-<h3 id="positioning">Positioning</h3>
+
+<h3>Positioning</h3>
+
 <p><strong>grid-auto-flow: row | column | dense</strong></p>
 <p>This relates to how the items are placed automatically within the
 grid</p>
@@ -4225,8 +4263,9 @@ specifications</p>
 <p><strong>grid-auto-rows: measurement units</strong></p>
 <p>This relates to the size for rows created without specific size
 specifications</p>
-<h3 id="grid-properties-for-items-child">Grid properties for items
-(child)</h3>
+
+<h3>Grid properties for items (child)</h3>
+
 <p><strong>grid-column: column position /* E.g. 1/2 */</strong></p>
 <p>Allows for specifying where on the grid the column is to start.</p>
 <p><strong>grid-column-start: column start position</strong></p>
