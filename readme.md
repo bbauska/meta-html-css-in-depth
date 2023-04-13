@@ -7878,7 +7878,7 @@ especially used to create intuitive navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image200.png"
-  width="30%"
+  width="50%"
   alt="." />
 </p>
 <!-- ![](images/image200.png){width="3.0in" height="3.1425339020122482in"} -->
@@ -7895,7 +7895,7 @@ Without effects are not only dull, but users also have a hard time
 finding their way around such sites, mastering CSS effects will enable
 you to create Web pages that users love to use.
 
-Text effects
+<h3>Text effects</h3>
 
 Have you ever opened a website with a lot of texts and thought, Wow!
 
@@ -7907,7 +7907,7 @@ also make you look dull and cause users to lose attention.
 With the help of CSS, you can make the most of texts by adding
 interesting effects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. text effects: pros and cons (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image201.png"
@@ -10791,12 +10791,9 @@ accounts.
 <h4>Download their logos here:</h4>
 
 <h4>[Mangata and Gallo logos]</h4>
-
+<!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h6>3-31-2023 at 2:39pm</h6>
-<h5>wip - Work in Progress</h5>
-
-[ZIP File]
+<h6>4-13-2023 at 1:39pm</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
