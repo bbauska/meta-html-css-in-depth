@@ -3195,7 +3195,9 @@ mean you are limited when it comes to creativity, aesthetics or
 optimization.</p>
 <p>When designing a web page, you will learn more about how to use these
 layouts during the course.</p>
-<h3 id="understanding-flexbox">Understanding flexbox</h3>
+
+<h3>Understanding flexbox</h3>
+
 <p>Much like the div and box container that you can create using HTML,
 flexbox is a type of container. Flexbox can overcome the limitations
 caused by containers such as block and inline because it does a better
@@ -3251,11 +3253,13 @@ you to configure a flexbox.</p>
 <p> </p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. seven div on seven rows (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="./images/image097.png"
-style="width:3.26042in;height:3.61458in"
-alt="Output for CSS Code with listed number boxes" /></p>
+<img class="displayed"
+  src="/images/image097.png?raw=true"
+  alt="Seven div containers on seven rows."
+  style="width:32%;" />
+<!-- style="width:3.26042in;height:3.61458in" -->
 
 <p>There are seven div containers inside the HTML file.</p>
 <p>The corresponding CSS file contains rules for all seven div tags that
@@ -3276,11 +3280,13 @@ flex.</p>
 <p>The output is now seven flex containers that run from left to right
 starting in the top left corner.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 98. output for css with aligned number boxes (xxx) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="./images/image098.png"
-style="width:5.39583in;height:1.8125in"
-alt="Output for CSS Code with aligned number boxes" /></p>
+<img class="displayed"
+  src="./images/image098.png"
+  alt="Output for CSS Code with aligned number boxes."
+  style="width:53%;" />
+<!-- style="width:5.39583in;height:1.8125in" -->
 
 <h3>Alignment properties</h3>
 
@@ -3302,30 +3308,38 @@ inside it:</p>
 
 <h4>CSS:</h4>
 
+<pre>
 <p>.flex-container{</p>
 <p>    display: flex;</p>
 <p>    justify-content: center</p>
 <p>}</p>
-<p> </p>
+</pre>
+
 <h3 id="output-2">Output:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="./images/image099.png"
-style="width:6.20833in;height:0.875in"
-alt="The output for CSS Code with justification in the center" /></p>
-<h3 id="flex-wrap">flex-wrap:</h3>
+<img class="displayed"
+  src="./images/image099.png"
+  alt="The output for CSS Code with justification in the center"
+  style="width:62%;" />
+<!-- style="width:6.20833in;height:0.875in" -->
+
+<h3>flex-wrap:</h3>
+
 <p>The default for this property is ‘nowrap’ which means the items will
 span the entire width of the axis.</p>
+<pre>
 <p>.flex-container{</p>
 <p>    display: flex;</p>
 <p>    justify-content: center;</p>
 <p>    flex-wrap: wrap;</p>
 <p>}</p>
-<p> </p>
-<h3 id="output-3">Output:</h3>
+</pre>
+
+<h3>Output:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 100. seven number boxes centered on three rows (xxx) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image100.png?raw=true"
@@ -3333,9 +3347,10 @@ span the entire width of the axis.</p>
   style="width:29%;" />
 <!-- style="width:2.91667in;height:2.03125in" -->
 
-<p>The items will now be wrapped to the size of the available
-viewport.</p>
-<h3 id="flex-direction">flex-direction: </h3>
+<p>The items will now be wrapped to the size of the available viewport.</p>
+
+<h3>flex-direction:</h3>
+
 <p>This property is used to set the main axis, which is a ‘row’ by
 default. It basically means you are changing your ‘main’ axis from
 horizontal rows to vertical columns.</p>
@@ -3352,10 +3367,14 @@ horizontal rows to vertical columns.</p>
 </pre>
 
 <h4>Output:</h4>
-
-<p><img src="./images/image101.png"
-style="width:3.44792in;height:3.67708in"
-alt="Display of listed number boxes as a flex" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 101. display seven listed number boxes as a flex (xxx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image101.png?raw=true"
+  alt="Display seven listed number boxes as a flex."
+  style="width:34%;" />
+<!-- style="width:3.44792in;height:3.67708in" -->
 
 <p>The output looks like the original output; however, it is now
 actually a flex.</p>
@@ -3380,14 +3399,18 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 </code></pre>
 
 <h4>Output:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 102. right-centered number boxes with flex end aligning method (xxx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image102.png?raw=true"
+  alt="Right-centered number boxes with flex end aligning method."
+  style="width:26%;" />
+<!-- style="width:2.57292in;height:3.71875in" -->
 
-<p><img src="./images/image102.png"
-style="width:2.57292in;height:3.71875in"
-alt="Right-centered number boxes with the flex end aligning method." /></p>
-<p>The term ‘end’ refers to the right side of the page as the left side
-is seen as the beginning.</p>
+<p>The term ‘end’ refers to the right side of the page as the left side is seen as the beginning.</p>
 
-<h4>align-self:</h4>
+<h3>align-self:</h3>
 
 <p>This property can be used on individual items inside the flex.</p>
 
@@ -3405,13 +3428,18 @@ is seen as the beginning.</p>
   }
 </code></pre>
 
-<h3 id="output-6">Output:</h3>
+<h3>Output:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 103. output display seven box align and color change (xxx) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image103.png?raw=true"
+  alt="Display 7 box change in color and alignment."
+  style="width:29%;" />
+<!-- style="width:2.91667in;height:3.76042in" -->
 
-<p><img src="./images/image103.png"
-style="width:2.91667in;height:3.76042in"
-alt="Output to display of a change in the color and alignment of individual items" /></p>
-<p>Here the color and alignment of the third box have been changed and
-it overrides the properties set using align-items.  </p>
+<p>Here the color and alignment of the third box have been changed and it overrides the properties 
+set using align-items.</p>
 
 <h3>gap:</h3>
 
@@ -3422,25 +3450,30 @@ columns using row-gap and column-gap properties.</p>
 <h3>CSS Code:</h3>
 
 <pre><code>
-<p>.flex-container{</p>
-<p>    display: flex;</p>
-<p>    justify-content: center;</p>
-<p>    flex-direction: column;</p>
-<p>    flex-wrap: wrap;</p>
-<p>    align-items:flex-end;</p>
-<p>    gap:10px;</p>
-<p>}</p>
-<p>.box3{</p>
-<p>    background-color: blanchedalmond;</p>
-<p>    align-self: center;</p>
-<p>}</p>
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    gap:10px;
+}
+.box3{
+    background-color: blanchedalmond;
+    align-self: center;
+}
 </code></pre>
 
-<h3 id="output-7">Output:</h3>
+<h3>Output:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 104. display of items with different spacing (xxx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image104.png?raw=true"
+  alt="Display of items with different spacing."
+  style="width:28%;" />
+<!-- style="width:2.86458in;height:3.34375in" -->
 
-<p><img src="./images/image104.png"
-style="width:2.86458in;height:3.34375in"
-alt="Display of items with different spacing" /></p>
 <p>There is a clear change in spacing between the items.</p>
 <p>The final set of properties are flex-grow, flex-shrink and
 flex-basis. Together these determine how the flex takes up space, grows
@@ -3450,11 +3483,15 @@ three properties can also be given values with the help of something
 called the shorthand notation in CSS. Shorthand notation helps you make
 your code compact and also easy to write and follow. The values left
 empty in shorthand notation are given their default values.</p>
-<h3 id="for-example">For example:</h3>
-<p>.flex-container{</p>
-<p>flex: 0 1 auto;</p>
-<p>}</p>
-<p> </p>
+
+<h3>For example:</h3>
+
+<pre>
+  .flex-container{
+    flex: 0 1 auto;
+  }
+</pre>
+
 <p>Here for the flex-container class, there is a set rule for the flex
 property. The values correspond to the three properties, namely the
 flex-grow set to 0, flex-shrink to 1 and flex-basis to auto. The
@@ -3466,9 +3503,15 @@ slightly by removing the flex-direction value set to ‘column’. This will
 change it to default ‘row’ and the output will again be centrally
 aligned and horizontal best-distributed between two rows.</p>
 <h3 id="output-8">Output:</h3>
-<p><img src="./images/image105.png"
-style="width:4.625in;height:1.54167in"
-alt="List of items as default raw modified by removing the flex direction" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. seven box example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image105.png?raw=true"
+  alt="List of items as default raw modified by removing the flex direction."
+  style="width:29%;" />
+<!-- style="width:4.625in;height:1.54167in" -->
+
 <p>The rest of the remaining code is unchanged. However, the output will
 change if the code is modified with the addition of the flex property
 inside the flex item box3 class.</p>
@@ -3480,9 +3523,15 @@ inside the flex item box3 class.</p>
 <p>}</p>
 <p> </p>
 <h3 id="output-9">Output:</h3>
-<p><img src="./images/image106.png"
-style="width:4.69792in;height:1.84375in"
-alt="Different spacing of items in row display" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 106. different spacing of items in row display (xxx) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image106.png?raw=true"
+  alt="Different spacing of items in row display."
+  style="width:47%;" />
+<!-- style="width:4.69792in;height:1.84375in" -->
+
 <p>The third box now takes up the entire free space available because
 flex-growth’s value has been set to 1. So if we
 have <strong>flex-grow</strong> set to 1, the children will all set to
@@ -3504,8 +3553,10 @@ property can be declared using different units of measurement. Most of
 these units of measurement are used to account for the dynamism and
 dimensionality of a web page. </p>
 <p>Let’s examine the most widely used units of measurement. They can
-broadly be categorized as Absolute and Relative units. </p>
-<h3 id="absolute-units">Absolute units</h3>
+broadly be categorized as Absolute and Relative units.</p>
+
+<h3>Absolute units</h3>
+
 <p>Absolute units are constant across different devices and have a fixed
 size. They are useful for activities like printing a page. They are not
 so suitable when it comes to the wide variety of devices in use today
@@ -3513,6 +3564,7 @@ that have different viewport sizes. Because of this, absolute units are
 used when the size of the web page is known and will remain
 constant. </p>
 <p>The table for absolute units can be seen below:</p>
+
 <table>
 <colgroup>
 <col style="width: 14%" />
@@ -3663,25 +3715,53 @@ elements that you see on a page.</p>
 <p>You will discover simple ways in which you can utilize flexboxes for
 binding elements together or creating an easy layout.</p>
 <p>Let's explore the three most common uses of flexbox is in CSS.</p>
-<p><img src="./images/image107.png"
-style="width:3in;height:0.57153in" />The first application of flexbox
-that you will cover that is commonly used is a search bar.</p>
-<p>You can use flex in search bars because it ties up all the elements,
-such as the small Search icon, the search input area, and the Submit
-button.</p>
-<p><img src="./images/image108.png"
-style="width:6.5in;height:0.71389in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. search bar and flex (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image107.png?raw=true"
+  alt="Search bar and flexbox."
+  style="width:30%;" />
+<!-- style="width:3in;height:0.57153in" -->
+
+<p>The first application of flexbox that you will cover that is commonly used is a search bar.</p>
+<p>You can use flex in search bars because it ties up all the elements, such as the small Search icon, 
+the search input area, and the Submit button.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. nav bar example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image108.png?raw=true"
+  alt="Nav bar example."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:0.71389in" -->
+
 <p>Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
 responsive on different devices.</p>
-<p><img src="./images/image109.png"
-style="width:2in;height:1.63975in" />Finally, another type of flexbox
-that is commonly used is an image gallery.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. four images, realign (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image109.png?raw=true"
+  alt="4 images, noodles for realignment."
+  style="width:20%;" />
+<!-- style="width:2in;height:1.63975in" -->
+
+<p>Finally, another type of flexbox that is commonly used is an image gallery.</p>
+
 <p>Flexes helpful here is it can realign itself as you change the size
 of the window. In the next few minutes, you will discover how to create
 these flexboxes to ensure a simple layout.</p>
-<p><img src="./images/image110.png"
-style="width:6.5in;height:3.21944in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. css search function (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image110.png?raw=true"
+  alt="."
+  style="width:65%;" />
+<!-- style="width:6.5in;height:3.21944in" -->
+
 <p>In the first example of a flexbox file, I will create a search bar, I
 add a reference to the CSS file in the head section of the HTML
 page.</p>
@@ -3691,12 +3771,18 @@ code.</p>
 container, I have three different elements, which are the search icon,
 the search box where I typed my search, and finally the Submit
 button.</p>
-<p><img src="./images/image111.png"
-style="width:3.1875in;height:4.95833in" />In the CSS code, I first write
-rules for the container, then for the search icon, the search box, and
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 111. css container property and settings (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image111.png?raw=true"
+  alt="CSS Container property and settings."
+  style="width:31%;" />
+<!-- style="width:3.1875in;height:4.95833in" -->
+
+<p>In the CSS code, I first write rules for the container, then for the search icon, the search box, and
 finally for the button.</p>
-<p>Most of the properties defined here are settings for the alignment of
-the selectors.</p>
+<p>Most of the properties defined here are settings for the alignment of the selectors.</p>
 <p>There are just a few important things to take note of.</p>
 <p>The display property I use is inline flex instead of flex, which
 makes the flex container behave like an inline element.</p>
