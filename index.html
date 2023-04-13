@@ -46,22 +46,21 @@
   border-width: 1px;
   border-color: #778899;
   border-style: solid; }
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-      .container {
-        display: flex;
-        align-items: center;
-        justify-content: center
-      }
-      img {
-        max-width: 100%
-      }
-      .image {
-        flex-basis: 40%
-      }
-      .text {
-        font-size: 20px;
-        padding-left: 20px;
-      }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    img {
+      max-width: 100%
+    }
+    .image {
+      flex-basis: 40%
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+    }
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ responsive side-by-side imaging ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -246,7 +245,8 @@ paint, wallpaper, fixtures, and overall style.</p>
 <img class="displayed"
   src="/images/image005.png?raw=true"
   alt="Use CSS to Style elements, use Box Model, and arrange page elements."
-  style="width:5in;height:1.60684in" />
+  style="wdith:50%;" />
+<!-- style="width:5in;height:1.60684in" -->
 
 <p>You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
@@ -255,7 +255,7 @@ elements using normal document flow.</p>
 <p>Now get ready to dive deeper into learning more about these two
 topics.</p>
 
-<h2>Semantic tags and why we need them</h2>
+<h3>Semantic tags and why we need them</h3>
 
 <p>By now you know that HTML describes the content of a web page.</p>
 <p>But how do you describe the meaning of a web page?</p>
@@ -1123,41 +1123,20 @@ information like the website description and locale. Well done.</p>
 <p>The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
 in this section. </p>
+
 <ul>
-<li><p><a href="https://www.dofactory.com/html/metatags"><strong>HTML
-meta tags</strong></a></p></li>
-<li><p><a
-href="https://www.freecodecamp.org/news/semantic-html5-elements/"><strong>Semantic
-elements</strong></a></p></li>
-<li><p><a
-href="https://www.instructables.com/Bare-Bones-Web-Page/"><strong>Simple
-bare bones HTML webpage</strong></a></p></li>
-<li><p><a
-href="https://www.vandelaydesign.com/newsletter-tutorial/"><strong>HTML5/CSS
-bare-bones newsletter template</strong></a></p></li>
-<li><p><a
-href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html"><strong>Add
-open graph social metadata- Twitter</strong></a></p></li>
-<li><p><a
-href="https://css-tricks.com/essential-meta-tags-social-media/"><strong>Essential
-meta tags for social media</strong></a></p></li>
-<li><p><a
-href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta"><strong>The
-meta element</strong></a></p></li>
-<li><p><a href="https://ogp.me/"><strong>Open graph
-protocol</strong></a></p></li>
-<li><p><a
-href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/"><strong>Using
-open graph protocol on website</strong></a></p></li>
-<li><p><a
-href="https://developers.facebook.com/docs/sharing/webmasters/"><strong>Meta
-OGP guide for webmasters</strong></a></p></li>
-<li><p><a
-href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html"><strong>Bootstrap
-with HTML</strong></a></p></li>
-<li><p><a
-href="https://getbootstrap.com/docs/5.2/examples/"><strong>Bootstrap
-Layout Examples</strong></a></p></li>
+  <li><p><a href="https://www.dofactory.com/html/metatags"><strong>HTML meta tags</strong></a></p></li>
+  <li><p><a href="https://www.freecodecamp.org/news/semantic-html5-elements/"><strong>Semantic elements</strong></a></p></li>
+  <li><p><a href="https://www.instructables.com/Bare-Bones-Web-Page/"><strong>Simple bare bones HTML webpage</strong></a></p></li>
+  <li><p><a href="https://www.vandelaydesign.com/newsletter-tutorial/"><strong>HTML5/CSS bare-bones newsletter template</strong></a></p></li>
+  <li><p><a href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html"><strong>Add open graph social metadata- Twitter</strong></a></p></li>
+  <li><p><a href="https://css-tricks.com/essential-meta-tags-social-media/"><strong>Essential meta tags for social media</strong></a></p></li>
+  <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta"><strong>The meta element</strong></a></p></li>
+  <li><p><a href="https://ogp.me/"><strong>Open graph protocol</strong></a></p></li>
+  <li><p><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/"><strong>Using open graph protocol on website</strong></a></p></li>
+  <li><p><a href="https://developers.facebook.com/docs/sharing/webmasters/"><strong>Meta OGP guide for webmasters</strong></a></p></li>
+  <li><p><a href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html"><strong>Bootstrap with HTML</strong></a></p></li>
+  <li><p><a href="https://getbootstrap.com/docs/5.2/examples/"><strong>Bootstrap Layout Examples</strong></a></p></li>
 </ul>
 
 <h3>Forms and validation</h3>
@@ -1259,28 +1238,33 @@ practices.</p>
 
 <p>This displays a clickable button and it’s mostly used in HTML forms
 to activate a script when clicked.
-<strong>&lt;input type="button" value="Click me" onclick="msg()"
-/&gt;</strong></p>
+
+<pre>
+  &lt;input type="button" value="Click me" onclick="msg()"/&gt;
+</pre>
+
 <p>Keep in mind you can also define buttons with the
 <strong>&lt;button&gt;</strong> tag, with the added benefit of being
 able to place content like text or images inside the tag.</p>
-<blockquote>
-<p>&lt;button onclick="alert('Are you sure you want to continue?')"&gt; </p>
-<p>    &lt;img src="<u>https://yourserver.com/button_img.jpg</u>" </p>
-<p>        alt="Submit the form" height="64" width="64"&gt;</p>
-<p>&lt;/button&gt; </p>
-</blockquote>
+
+<pre>
+  &lt;button onclick="alert('Are you sure you want to continue?')"&gt;
+    &lt;img src="https://yourserver.com/button_img.jpg"
+      alt="Submit the form" height="64" width="64"&gt;
+  &lt;/button&gt;
+</pre>
 
 <h3>Checkbox</h3>
 
 <p>Defines a check box allowing single values to be selected or
 deselected. They are used to let a user select one or more options of a
 limited number of choices.</p>
+
 <blockquote>
-<p>&lt;input type="checkbox" id="dog" name="dog" value="Dog"&gt;</p>
-<p>&lt;label for="dog"&gt;I like dogs&lt;/label&gt;</p>
-<p>&lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;</p>
-<p>&lt;label for="cat"&gt;I like cats&lt;/label&gt;</p>
+  &lt;input type="checkbox" id="dog" name="dog" value="Dog"&gt;
+  &lt;label for="dog"&gt;I like dogs&lt;/label&gt;
+  &lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;
+  &lt;label for="cat"&gt;I like cats&lt;/label&gt;
 </blockquote>
 
 <h3>Radio</h3>
@@ -1926,10 +1910,20 @@ attribute to this input element so that it is selected by default.</p>
 <p>On the second input element, I set the type attribute to radio and
 the value attribute to outdoors.</p>
 <p>Again, I set the name attribute to location.</p>
-<p><img src="./images/image066.png"
-style="width:5in;height:2.61966in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image066.png?raw=true"
+  alt="."
+  style="width:50%;" />
+<!-- style="width:5in;height:2.61966in" -->
+
 <p>I save the file and open it in Live Preview. Success.</p>
 <p>The form is set up correctly. Let's test it.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image067.png"
 style="width:5in;height:2.61966in" /></p>
 <p>If I choose an option for the table size and then choose a different
@@ -1939,6 +1933,9 @@ or outdoors.</p>
 <p>However, I'm testing this form on a laptop with a large screen.</p>
 <p>On a mobile device with a way smaller screen, it may be difficult for
 the user to accurately select the small button elements.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image068.png"
 style="width:5in;height:2.68643in" /></p>
 <p>Luckily, there is a way to improve this by setting the text and
@@ -2036,6 +2033,9 @@ Uptown.</p>
 <p>Again, to provide a good user experience, I add a label before the
 input element and set its content to location.</p>
 <p>I then set the for attribute to booking_location.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image069.png"
 style="width:3in;height:3.56885in" />I save the file, and open it in
 live preview.</p>
@@ -2052,7 +2052,11 @@ values, and add a datalist that allows users to either select an option
 from the drop-down list or by typing their option.</p>
 <p>With the continued success of Little Lemon, I'm sure I'll be updating
 this form again in the near future.</p>
-<h2 id="form-submission">Form submission</h2>
+
+<h2>Form submission</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image070.png"
 style="width:3.5in;height:1.94185in" />When ordering products online,
 you fill out your address and your credit card number, then you click on
@@ -2062,6 +2066,9 @@ be wondering what exactly happens when you click on that order
 button.</p>
 <p>In this module, you will learn what happens when forms are submitted
 in the web browser.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image071.png"
 style="width:3.5in;height:1.97473in" />By now, you know that the web
 browser communicates with a web server using a HTTP request response
@@ -2072,6 +2079,9 @@ the web server sends back a response.</p>
 for resources such as HTML documents, images, CSS files, and JavaScript
 files.</p>
 <p>But it is also possible to send data as part of a request.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image072.png"
 style="width:3.5in;height:1.97473in" />This is how forms send data to
 the web server.</p>
@@ -2084,15 +2094,24 @@ the two different methods.</p>
 <p>This login form, accepts a username and password.</p>
 <p>It also has a login button that submits the form to the web
 server.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image073.png"
 style="width:5in;height:2.82105in" /></p>
 <p>How would it work if the method attribute is set to GET?</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image074.png"
 style="width:5in;height:1.62607in" /></p>
 <p>When the Login button is clicked, the form data is sent as part of
 the request URL.</p>
 <p>This means that the user data is appended to the end of the URL in
 the web browser navigation bar.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image075.png"
 style="width:4in;height:1.73889in" /></p>
 <p>The web server receives the HTTP GET request, and extracts the form
@@ -2118,6 +2137,9 @@ logs on the web server.</p>
 credit card numbers, this is a major privacy and security risk.</p>
 <p>Now, let's focus on how the form would work if we set the method
 attribute to post.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image076.png"
 style="width:5in;height:2.17361in" /></p>
 <p>When the form is submitted using the post method, the form data is
@@ -2137,30 +2159,38 @@ browser to a new webpage.</p>
 webpage as explained in a previous module.</p>
 <p>You should now be familiar with how forms are sent to web servers,
 and the difference between GET and POST.</p>
-<h3 id="submit-1">Submit</h3>
+
+<h3>Submit</h3>
+
 <p>You have recently learned about how forms are sent to web servers and
 the difference between Get and Post. In this reading, you will build on
 this knowledge by learning about Submit.</p>
-<h2 id="action-and-method">Action and method </h2>
+
+<h2>Action and method</h2>
+
 <p>Form submissions are an essential part of the world wide web. Nearly
 every website uses forms, from buying items online to ordering food for
 delivery. When you click the login button on a website, it sends your
 username and password to a web server to log you into your account.</p>
 <p>As you know by now, you add a form to your web page using the form
 tag.</p>
-<blockquote>
-<p>&lt;form&gt; </p>
-<p>&lt;/form&gt; </p>
-</blockquote>
+
+<pre>
+  &lt;form&gt;
+  &lt;/form&gt;
+</pre>
+
 <p>But how the form is submitted is determined by two essential
 attributes: action and method.</p>
 <p>The action attribute specifies to which web address the form must be
 sent. This is address is location of server-side code that will process
 the request.</p>
-<blockquote>
-<p>&lt;form action="/login"&gt; </p>
-<p>&lt;/form&gt; </p>
-</blockquote>
+
+<pre>
+  &lt;form action="/login"&gt;
+  &lt;/form&gt;
+</pre>
+
 <p>It is important to note that action can be a full URL address such as
 <strong>https://meta.com</strong>, an absolute path such as
 <strong>/login</strong>, or a relative path such as
@@ -2225,6 +2255,9 @@ challenging.</p>
 differently on various web browsers and how to solve this problem.</p>
 <p>First, let's focus on the most common form element, the input
 elements.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image077.png"
 style="width:5in;height:2.58707in" /></p>
 <p>The same input type HTML code displays differently in web browsers
@@ -2235,6 +2268,9 @@ of the input box.</p>
 and Safari compared to other browsers like Microsoft Edge and Chrome.
 Safari on Mac OS differs a lot from the other browsers using a thinner
 border on regular corners.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image078.png"
 style="width:5in;height:2.58707in" /></p>
 <p>Next, let's explore the checkbox input type.</p>
@@ -2250,6 +2286,9 @@ browser.</p>
 <p>Now that you've explored how HTML form elements can appear
 inconsistently across different web browsers, let's focus on how to
 solve this.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image079.png"
 style="width:5in;height:2.58707in" /></p>
 <p>As you know, CSS allows you to define the visual styling of HTML
@@ -2264,6 +2303,9 @@ rules.</p>
 <p>To select the input HTML element, use the input element selector, and
 then specify the individual styling by adding a pair of square brackets,
 and then type equals in this case text or email.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image080.png"
 style="width:5in;height:2.58707in" /></p>
 <p>Then apply CSS properties to set the font, width, height, and
@@ -2278,12 +2320,16 @@ across different devices and browsers.</p>
 <p>You should now know why it is important to pay attention to the
 appearance of different HTML elements across web browsers, and how you
 can ensure consistency with CSS rules.</p>
-<h2 id="glossary-html-form-elements">Glossary: HTML form elements</h2>
+
+<h2>Glossary: HTML form elements</h2>
+
 <p>The <strong>&lt;form&gt;</strong> element in HTML is an important and
 useful element. The following sheet provides an overview of the
 <strong>&lt;form&gt;</strong> constituent elements and their common
 attributes with simple examples for quick reference.</p>
-<h3 id="input">&lt;input&gt; </h3>
+
+<h3>&lt;input&gt;</h3>
+
 <p>It is used to create interactive controls, for example, buttons and
 various types of text fields and so on, to accept input or data from the
 user. The key attribute of this element is <strong>type</strong>. Some
@@ -2291,21 +2337,25 @@ common values for the <strong>type</strong> include: <strong>button,
 checkbox, date, email, number, password, submit, text,</strong> and
 <strong>url</strong>. These values dictate the appearance of the
 element. For example, this code:</p>
-<blockquote>
-<p>&lt;form action="my_action_page"&gt; </p>
-<p> </p>
-<p>  &lt;label for="uname"&gt;Username:&lt;/label&gt; </p>
-<p>  &lt;br&gt; </p>
-<p>  &lt;input type="text" id="uname" name="username"&gt; </p>
-<p>  &lt;br&gt; </p>
-<p>  &lt;label for="pwd"&gt;Password:&lt;/label&gt; </p>
-<p>  &lt;br&gt; </p>
-<p>  &lt;input type="password" id="pwd" name="pwd"&gt; </p>
-<p>  &lt;br&gt;&lt;br&gt; </p>
-<p>  &lt;input type="submit" value="Login"&gt; </p>
-<p>&lt;/form&gt; </p>
-</blockquote>
+
+<pre><code>
+&lt;form action="my_action_page"&gt;
+  &lt;label for="uname"&gt;Username:&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type="text" id="uname" name="username"&gt;
+  &lt;br&gt;
+  &lt;label for="pwd"&gt;Password:&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type="password" id="pwd" name="pwd"&gt;
+  &lt;br&gt;&lt;br&gt;
+  &lt;input type="submit" value="Login"&gt;
+&lt;/form&gt;
+</code></pre>
+
 <p>Results in the following output:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image081.png"
 style="width:2in;height:1.3972in"
 alt="Two input types, text and password, as it displays in the browser." /></p>
@@ -2316,86 +2366,89 @@ of which should be equal to the id attribute of the element it is
 associated with. Note how in the example above, the
 <strong>&lt;label&gt;</strong> is associated with the
 <strong>&lt;input&gt;</strong> using its id value.</p>
-<h3 id="select">&lt;select&gt;</h3>
+
+<h3>&lt;select&gt;</h3>
+
 <p>Defines a drop-down list of options presented to the user. It has a
 couple of attributes:</p>
+
 <ul>
-<li><p>Form, the id of the form in which the drop-down appears</p></li>
-<li><p>Name specifies the name of the control</p></li>
-<li><p>Multiple Boolean attribute, when specified, indicates if a user
-can select multiple options out of the list</p></li>
-<li><p>Required indicates if the user is required to select an option
-before submitting a form</p></li>
-<li><p>Size mentions the number of visible options in a drop-down
-list</p></li>
-<li><p>The options in a drop-down list are defined using the
-<strong>&lt;option&gt;</strong> element inside
-<strong>&lt;select&gt;</strong>. Note the example in the
-<strong>&lt;option&gt;</strong> description below.</p></li>
+  <li><p>Form, the id of the form in which the drop-down appears</p></li>
+  <li><p>Name specifies the name of the control</p></li>
+  <li><p>Multiple Boolean attribute, when specified, indicates if a user can select multiple options out of the list</p></li>
+  <li><p>Required indicates if the user is required to select an option before submitting a form</p></li>
+  <li><p>Size mentions the number of visible options in a drop-down list</p></li>
+  <li><p>The options in a drop-down list are defined using the <strong>&lt;option&gt;</strong> element inside <strong>&lt;select&gt;</strong>. Note the example in the <strong>&lt;option&gt;</strong> description below.</p></li>
 </ul>
-<h3 id="textarea">&lt;textarea&gt;</h3>
+
+<h3>&lt;textarea&gt;</h3>
+
 <p>Defines a multi-line input field, typically to allow the user to
 input longer textual data. The common attributes for this element
 include:</p>
+
 <ul>
-<li><p><strong>cols</strong> defines the width of the text area, the
-default value is 20</p></li>
-<li><p><strong>form</strong> the form element the text area is
-associated with</p></li>
-<li><p><strong>maxlength</strong> when specified, limits the maximum
-number of characters that can be entered in the text area</p></li>
-<li><p><strong>minlength</strong> the minimum number of characters that
-the user should enter</p></li>
-<li><p><strong>readonly</strong> once set, the user cannot modify the
-contents</p></li>
-<li><p><strong>rows</strong> defines the number of visible text lines
-for the text area</p></li>
-<li><p>The following line of code defines a text area of 10 visible
-lines and nearly 30 characters wide where the user can input a maximum
-of 200 characters:</p></li>
+  <li><p><strong>cols</strong> defines the width of the text area, the default value is 20</p></li>
+  <li><p><strong>form</strong> the form element the text area is associated with</p></li>
+  <li><p><strong>maxlength</strong> when specified, limits the maximum number of characters that can be entered in the text area </p></li>
+  <li><p><strong>minlength</strong> the minimum number of characters that the user should enter</p></li>
+  <li><p><strong>readonly</strong> once set, the user cannot modify the contents</p></li>
+  <li><p><strong>rows</strong> defines the number of visible text lines for the text area</p></li>
+  <li><p>The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:</p></li>
 </ul>
+
 <blockquote>
-<p>&lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt; </p>
-<p> </p>
-<p>&lt;/textarea&gt; </p>
+  &lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
+  &lt;/textarea&gt;
 </blockquote>
-<h3 id="button-1">&lt;button&gt;</h3>
+
+<h3>&lt;button&gt;</h3>
+
 <p>Defines a clickable button. The <strong>onclick</strong> attribute
 defines the behavior when the button is clicked by the user. For
 example, in the code below, an alert message is shown to the user.</p>
+
 <blockquote>
 <p>&lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me! </p>
 <p>&lt;/button&gt; </p>
 </blockquote>
-<h3 id="fieldset">&lt;fieldset&gt; </h3>
+
+<h3>&lt;fieldset&gt; </h3>
+
 <p>Used to group related input elements in a form. For instance,
 elements related to the user’s personal information and educational
 qualification can be grouped separately in two field sets.</p>
-<h3 id="legend">&lt;legend&gt; </h3>
+
+<h3>&lt;legend&gt;</h3>
+
 <p>Defines a caption for the <strong>&lt;fieldset&gt;</strong> element.
 For example:</p>
-<blockquote>
-<p>&lt;fieldset&gt; </p>
-<p>  &lt;legend&gt;Personal Info&lt;/legend&gt; </p>
-<p>  &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt; </p>
-<p>  &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt; </p>
-<p>  &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt; </p>
-<p>  &lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt; </p>
-<p>&lt;/fieldset&gt; </p>
-<p> </p>
-<p>&lt;fieldset&gt; </p>
-<p>  &lt;legend&gt;Qualificaiton&lt;/legend&gt; </p>
-<p>  &lt;label for="pdegree"&gt;Primary degree:&lt;/label&gt;&lt;br&gt; </p>
-<p>  &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt; </p>
-<p>  &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt; </p>
-<p>  &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt; </p>
-<p>&lt;/fieldset&gt; </p>
-</blockquote>
-<h3 id="datalist">&lt;datalist&gt;</h3>
+
+<pre><code>
+&lt;fieldset&gt;
+  &lt;legend&gt;Personal Info&lt;/legend&gt;
+  &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
+  &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;
+&lt;/fieldset&gt;
+
+&lt;fieldset&gt;
+  &lt;legend&gt;Qualificaiton&lt;/legend&gt;
+  &lt;label for="pdegree"&gt;Primary degree:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt;
+  &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt;
+&lt;/fieldset&gt;
+</code></pre>
+
+<h3>&lt;datalist&gt;</h3>
+
 <p>Specifies a list of pre-defined options for an input element. It
 differs from <strong>&lt;select&gt;</strong> since the user can still
 provide textual or numeric input other than the listed options.</p>
-<blockquote>
+
+<pre><code>
 <p>&lt;form action="/my_action_page"&gt; </p>
 <p>  &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt; </p>
 <p>  &lt;input list="flowers" name="flowers"&gt; </p>
@@ -2408,17 +2461,27 @@ provide textual or numeric input other than the listed options.</p>
 <p>  &lt;/datalist&gt; </p>
 <p>  ... </p>
 <p>&lt;/form&gt;</p>
-</blockquote>
+</code></pre>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image082.png"
 style="width:2in;height:2.15084in"
 alt="Datalist input type with its drop-down list containing the options visible" /></p>
-<h3 id="output">&lt;output&gt; </h3>
+
+<h3>&lt;output&gt; </h3>
+
 <p>Represents the result of a calculation (typically the output of a
 script) or the outcome of the user action.</p>
-<h3 id="option">&lt;option&gt; </h3>
+
+<h3>&lt;option&gt;</h3>
+
 <p>Defines an option for the drop-down list. The following code example
 demonstrates how a simple list can be defined, with the rendered view
 below the code block.</p>
+
+<pre><code>
 <p>&lt;label for="course"&gt;Choose a course:&lt;/label&gt;&lt;br&gt; </p>
 <p>&lt;select id="course" name="courselist"&gt; </p>
 <p>  &lt;option value="html"&gt;HTML Introduction&lt;/option&gt; </p>
@@ -2426,6 +2489,10 @@ below the code block.</p>
 <p>  &lt;option value="js"&gt;JavaScript&lt;/option&gt; </p>
 <p>  &lt;option value="react"&gt;React Basics&lt;/option&gt; </p>
 <p>&lt;/select&gt; </p>
+</code></pre>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image083.png"
 style="width:2in;height:1.59055in"
 alt="Option input type as with its drop-down list visible" /></p>
@@ -3204,50 +3271,71 @@ span the entire width of the axis.</p>
 <p>}</p>
 <p> </p>
 <h2 id="output-3">Output:</h2>
-<p><img src="./images/image100.png"
-style="width:2.91667in;height:2.03125in"
-alt="Output for CSS code with wrapped number boxes justified in the center" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image100.png?raw=true"
+  alt="Output for CSS code with wrapped number boxes justified in the center"
+  style="width:29%;" />
+<!-- style="width:2.91667in;height:2.03125in" -->
+
 <p>The items will now be wrapped to the size of the available
 viewport.</p>
 <h2 id="flex-direction">flex-direction: </h2>
 <p>This property is used to set the main axis, which is a ‘row’ by
 default. It basically means you are changing your ‘main’ axis from
 horizontal rows to vertical columns.</p>
-<h2 id="css-code">CSS Code:</h2>
-<p>.flex-container{</p>
-<p>    display: flex;</p>
-<p>    justify-content: center;</p>
-<p>    flex-direction: column;</p>
-<p>    flex-wrap: wrap;</p>
-<p>}</p>
-<p> </p>
-<h2 id="output-4">Output:</h2>
+
+<h5>CSS Code:</h5>
+
+<pre>
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+</pre>
+
+<h4>Output:</h4>
+
 <p><img src="./images/image101.png"
 style="width:3.44792in;height:3.67708in"
 alt="Display of listed number boxes as a flex" /></p>
+
 <p>The output looks like the original output; however, it is now
 actually a flex.</p>
 <p>Now let’s align the items again and examine a couple of the other
 properties mentioned earlier.</p>
-<h2 id="align-items">align-items:</h2>
+
+<h4>align-items:</h4>
+
 <p>The alignment on the cross-axis is done with the help of this
 property. Let’s change the value for it to ‘flex-end’.</p>
-<h2 id="css-code-1">CSS Code:</h2>
-<p>.flex-container{</p>
-<p>    display: flex;</p>
-<p>    justify-content: center;</p>
-<p>    flex-direction: column;</p>
-<p>    flex-wrap: wrap;</p>
-<p>    align-items:flex-end;</p>
-<p>}</p>
-<p> </p>
-<h2 id="output-5">Output:</h2>
+
+<h5>CSS Code:</h5>
+
+<pre><code
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+</code></pre>
+
+<h4>Output:</h4>
+
 <p><img src="./images/image102.png"
 style="width:2.57292in;height:3.71875in"
 alt="Right-centered number boxes with the flex end aligning method." /></p>
 <p>The term ‘end’ refers to the right side of the page as the left side
 is seen as the beginning.</p>
-<h2 id="align-self">align-self:</h2>
+
+<h4>align-self:</h4>
+
 <p>This property can be used on individual items inside the flex.</p>
 <p>.flex-container{</p>
 <p>    display: flex;</p>
