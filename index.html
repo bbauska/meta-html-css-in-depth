@@ -2053,7 +2053,7 @@ from the drop-down list or by typing their option.</p>
 <p>With the continued success of Little Lemon, I'm sure I'll be updating
 this form again in the near future.</p>
 
-<h2>Form submission</h2>
+<h3>Form submission</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2166,7 +2166,7 @@ and the difference between GET and POST.</p>
 the difference between Get and Post. In this reading, you will build on
 this knowledge by learning about Submit.</p>
 
-<h2>Action and method</h2>
+<h3>Action and method</h3>
 
 <p>Form submissions are an essential part of the world wide web. Nearly
 every website uses forms, from buying items online to ordering food for
@@ -2235,7 +2235,9 @@ part of the HTTP request body in a text format called JavaScript Object
 Notation, or JSON. But that is a topic for another course. For now,
 practice building HTML forms and submitting data to the web server using
 the different attributes available.</p>
-<h2 id="browser-differences">Browser differences</h2>
+
+<h3>Browser differences</h3>
+
 <p>An important part of being a front-end developer is to provide a good
 user experience on the websites and web applications that you
 develop.</p>
@@ -2499,10 +2501,12 @@ alt="Option input type as with its drop-down list visible" /></p>
 <p>By default, the first item in the drop-down list is selected. To
 define a pre-selected option, add the selected attribute to the
 option.</p>
-<h2 id="optgroup">&lt;optgroup&gt; </h2>
+
+<h3>&lt;optgroup&gt;</h3>
+
 <p>Defines a group of related options in a drop-down list. Its attribute
 label names the group.</p>
-<h2 id="additional-resources">Additional resources</h2>
+<h3 id="additional-resources">Additional resources</h3>
 <p>The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
 in this section. </p>
@@ -2768,7 +2772,7 @@ ensure that you trust the website that you are embedding.</p>
 embeds an HTML page into another page. Apart from the global attributes,
 which can be a part of the <strong>iframe</strong>, major
 element-specific attributes are listed below.</p>
-<h2 id="allow">allow </h2>
+<h3 id="allow">allow </h3>
 <p>It specifies what features or permissions are available to the frame,
 for instance, access to the microphone, camera, other APIs and so on.
 For example:</p>
@@ -2783,17 +2787,17 @@ camera and the microphone:</p></li>
 <li><p><strong>&lt;iframe src="https://example.com/…" allow="camera;
 microphone"&gt; &lt;/iframe&gt;</strong></p></li>
 </ul>
-<h2 id="name">name </h2>
+<h3 id="name">name </h3>
 <p>The name for the <strong>&lt;iframe&gt;</strong>. For example:
 <strong>&lt;iframe name = "My Frame" width="400"
 height="300"&gt;&lt;/iframe&gt;</strong></p>
-<h2 id="height">height </h2>
+<h3 id="height">height </h3>
 <p>It specifies the height of the frame. The default value is 150, in
 terms of CSS pixels. width</p>
-<h2 id="width">width</h2>
+<h3 id="width">width</h3>
 <p>Specifies the width of the frame, in terms of CSS pixels. The default
 value is 300 pixels.</p>
-<h2 id="referrerpolicy">referrerpolicy </h2>
+<h3 id="referrerpolicy">referrerpolicy </h3>
 <p>A referrer is the HTTP header that lets the page know who is loading
 it. This attribute indicates which referrer information to send when
 loading the frame resource. The common values are:</p>
@@ -2806,7 +2810,7 @@ origin of the referring page</p></li>
 as the referrer only when using the same protocol security level (HTTPS
 to HTTPS)</p></li>
 </ul>
-<h2 id="sandbox">sandbox </h2>
+<h3 id="sandbox">sandbox </h3>
 <p>To enforce greater security, a sandbox applies extra restrictions to
 the content in the <strong>&lt;iframe&gt;</strong>. To lift particular
 restrictions, an attribute value (permission token) is used. The common
@@ -2834,11 +2838,11 @@ while keeping other restrictions active:</p>
 <p>&lt;iframe src="<u>my_iframe_sandbox.html</u>" sandbox="allow-forms allow-scripts"&gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
-<h2 id="src">src </h2>
+<h3 id="src">src </h3>
 <p>The URL of the page to embed in the <strong>&lt;iframe&gt;</strong>.
 Using the value <strong>about:blank</strong> would embed an empty
 page.</p>
-<h2 id="srcdoc">srcdoc</h2>
+<h3 id="srcdoc">srcdoc</h3>
 <p>Let's you specify the inline HTML to embed in the
 <strong>&lt;iframe&gt;</strong>. When defined, this attribute would
 override the <strong>src</strong> attribute. For instance, the following
@@ -2848,7 +2852,7 @@ code will display "My inline html" in the frame, instead of loading
 <p>&lt;iframe src="<u>my_iframe_src.html</u>" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
-<h2 id="loading">loading</h2>
+<h3 id="loading">loading</h3>
 <p>This attribute let's you specify if the iframe should be loaded
 immediately when the web page loads (<strong>eager</strong>) or loaded
 when iframe is displayed in the browser (<strong>lazy</strong>). This
@@ -2859,7 +2863,7 @@ loaded.</p>
 <p>&lt;iframe src="<u>my_iframe_src.html</u>" loading="lazy" &gt; </p>
 <p>&lt;/iframe&gt; </p>
 </blockquote>
-<h2 id="title">title</h2>
+<h3 id="title">title</h3>
 <p>This attribute let's you add a description to the iframe for
 accessibility purposes. The value of this attribute should accurately
 describe the iframe's content.</p>
@@ -3070,7 +3074,7 @@ things you'll be doing when working as one.</p>
 <p>Like using semantic tags to construct a well-formed webpage, or how
 to use inputs and forums or embed videos and audio. Well done.</p>
 <p>You're making good progress on your learning journey.</p>
-<h2 id="additional-resources-1">Additional resources</h2>
+<h3 id="additional-resources-1">Additional resources</h3>
 <p>The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
 in this module. </p>
@@ -3085,7 +3089,7 @@ href="https://www.educba.com/iframes-in-html/">https://www.educba.com/iframes-in
 href="https://www.tutorialrepublic.com/html-tutorial/html5-canvas.php">https://www.tutorialrepublic.com/html-tutorial/html5-canvas.php</a></p>
 <p><a
 href="https://html.spec.whatwg.org/multipage/media.html">https://html.spec.whatwg.org/multipage/media.html</a></p>
-<h2 id="css-web-layout">CSS web layout</h2>
+<h3 id="css-web-layout">CSS web layout</h3>
 <p>CSS or cascading style sheets is a set of rules that enhance the
 appearance of web pages.</p>
 <p>In the early years of the internet browsers adopted CSS because it
@@ -3160,7 +3164,7 @@ mean you are limited when it comes to creativity, aesthetics or
 optimization.</p>
 <p>When designing a web page, you will learn more about how to use these
 layouts during the course.</p>
-<h2 id="understanding-flexbox">Understanding flexbox</h2>
+<h3 id="understanding-flexbox">Understanding flexbox</h3>
 <p>Much like the div and box container that you can create using HTML,
 flexbox is a type of container. Flexbox can overcome the limitations
 caused by containers such as block and inline because it does a better
@@ -3193,7 +3197,7 @@ alt="Diagram of a flexbox and all its properties." /></p>
 href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology">https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology</a></p>
 <p>Let’s now examine some of the important properties that will allow
 you to configure a flexbox.</p>
-<h2 id="flexbox-properties">Flexbox properties</h2>
+<h3 id="flexbox-properties">Flexbox properties</h3>
 <h3 id="original-html-code">Original HTML code:</h3>
 <p>&lt;body&gt;</p>
 <p>  &lt;div class="flex-container"&gt;</p>
@@ -3214,10 +3218,14 @@ you to configure a flexbox.</p>
 <p>    padding: 10px;</p>
 <p>}</p>
 <p> </p>
-<h3 id="output-1">Output:</h3>
+<h4>Output:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image097.png"
 style="width:3.26042in;height:3.61458in"
 alt="Output for CSS Code with listed number boxes" /></p>
+
 <p>There are seven div containers inside the HTML file.</p>
 <p>The corresponding CSS file contains rules for all seven div tags that
 have the box class. Note how two class names are given for each of the
@@ -3225,43 +3233,57 @@ tags, one that is common among all classes and another independent of
 it. The style is applied to all the containers.</p>
 <p>Now let’s add properties to the flex container by converting it into
 flex.</p>
-<h2 id="display-flex">display: flex;</h2>
-<p>.flex-container{</p>
-<p>    display: flex;</p>
-<p>}</p>
-<p> </p>
+
+<h3>display: flex;</h3>
+
+<pre>
+.flex-container{
+    display: flex;
+}
+</pre>
+
 <p>The output is now seven flex containers that run from left to right
 starting in the top left corner.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image098.png"
 style="width:5.39583in;height:1.8125in"
 alt="Output for CSS Code with aligned number boxes" /></p>
-<h2 id="alignment-properties">Alignment properties</h2>
+
+<h3>Alignment properties</h3>
+
 <p>Let’s examine a few alignment properties inside the flex. There are
 four main properties used to align a flex container and items present
 inside it:</p>
+
 <ul>
-<li><p>justify-content. For item alignment on main axis.</p></li>
-<li><p>align-items. For item alignment on cross axis.</p></li>
-<li><p>align-self. For unique flex items on cross axis.</p></li>
-<li><p>align-content. Used for packing flex lines and control over
-space.</p></li>
-<li><p>Of these, justify-content and align-items are frequently used for
-the respective two axes.</p></li>
+  <li><p>justify-content. For item alignment on main axis.</p></li>
+  <li><p>align-items. For item alignment on cross axis.</p></li>
+  <li><p>align-self. For unique flex items on cross axis.</p></li>
+  <li><p>align-content. Used for packing flex lines and control over space.</p></li>
+  <li><p>Of these, justify-content and align-items are frequently used for the respective two axes.</p></li>
 </ul>
-<p>Let’s first examine the use of justify-content which has a value of
-‘left’ by default.</p>
-<h2 id="justify-content">justify-content</h2>
-<h2 id="css">CSS:</h2>
+
+<p>Let’s first examine the use of justify-content which has a value of ‘left’ by default.</p>
+
+<h3>justify-content</h3>
+
+<h4>CSS:</h4>
+
 <p>.flex-container{</p>
 <p>    display: flex;</p>
 <p>    justify-content: center</p>
 <p>}</p>
 <p> </p>
-<h2 id="output-2">Output:</h2>
+<h3 id="output-2">Output:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><img src="./images/image099.png"
 style="width:6.20833in;height:0.875in"
 alt="The output for CSS Code with justification in the center" /></p>
-<h2 id="flex-wrap">flex-wrap:</h2>
+<h3 id="flex-wrap">flex-wrap:</h3>
 <p>The default for this property is ‘nowrap’ which means the items will
 span the entire width of the axis.</p>
 <p>.flex-container{</p>
@@ -3270,19 +3292,19 @@ span the entire width of the axis.</p>
 <p>    flex-wrap: wrap;</p>
 <p>}</p>
 <p> </p>
-<h2 id="output-3">Output:</h2>
+<h3 id="output-3">Output:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image100.png?raw=true"
-  alt="Output for CSS code with wrapped number boxes justified in the center"
+  alt="Output for CSS code with wrapped number boxes justified in the center."
   style="width:29%;" />
 <!-- style="width:2.91667in;height:2.03125in" -->
 
 <p>The items will now be wrapped to the size of the available
 viewport.</p>
-<h2 id="flex-direction">flex-direction: </h2>
+<h3 id="flex-direction">flex-direction: </h3>
 <p>This property is used to set the main axis, which is a ‘row’ by
 default. It basically means you are changing your ‘main’ axis from
 horizontal rows to vertical columns.</p>
@@ -3337,29 +3359,38 @@ is seen as the beginning.</p>
 <h4>align-self:</h4>
 
 <p>This property can be used on individual items inside the flex.</p>
-<p>.flex-container{</p>
-<p>    display: flex;</p>
-<p>    justify-content: center;</p>
-<p>    flex-direction: column;</p>
-<p>    flex-wrap: wrap;</p>
-<p>    align-items:flex-end;</p>
-<p>}</p>
-<p>.box3{</p>
-<p>    background-color: blanchedalmond;</p>
-<p>    align-self: center;</p>
-<p>}</p>
-<p> </p>
-<h2 id="output-6">Output:       </h2>
+
+<pre><code>
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+  }
+  .box3{
+    background-color: blanchedalmond;
+    align-self: center;
+  }
+</code></pre>
+
+<h3 id="output-6">Output:</h3>
+
 <p><img src="./images/image103.png"
 style="width:2.91667in;height:3.76042in"
 alt="Output to display of a change in the color and alignment of individual items" /></p>
 <p>Here the color and alignment of the third box have been changed and
 it overrides the properties set using align-items.  </p>
-<h2 id="gap">gap:</h2>
+
+<h3>gap:</h3>
+
 <p>gap property can be used to create space between the items along the
 main axis. You can also individually configure the gaps in rows and
 columns using row-gap and column-gap properties.</p>
-<h2 id="css-code-2">CSS Code:</h2>
+
+<h3>CSS Code:</h3>
+
+<pre><code>
 <p>.flex-container{</p>
 <p>    display: flex;</p>
 <p>    justify-content: center;</p>
@@ -3372,8 +3403,10 @@ columns using row-gap and column-gap properties.</p>
 <p>    background-color: blanchedalmond;</p>
 <p>    align-self: center;</p>
 <p>}</p>
-<p> </p>
-<h2 id="output-7">Output:</h2>
+</code></pre>
+
+<h3 id="output-7">Output:</h3>
+
 <p><img src="./images/image104.png"
 style="width:2.86458in;height:3.34375in"
 alt="Display of items with different spacing" /></p>
@@ -3386,7 +3419,7 @@ three properties can also be given values with the help of something
 called the shorthand notation in CSS. Shorthand notation helps you make
 your code compact and also easy to write and follow. The values left
 empty in shorthand notation are given their default values.</p>
-<h2 id="for-example">For example:</h2>
+<h3 id="for-example">For example:</h3>
 <p>.flex-container{</p>
 <p>flex: 0 1 auto;</p>
 <p>}</p>
@@ -3401,21 +3434,21 @@ flexbox.</p>
 slightly by removing the flex-direction value set to ‘column’. This will
 change it to default ‘row’ and the output will again be centrally
 aligned and horizontal best-distributed between two rows.</p>
-<h2 id="output-8">Output:</h2>
+<h3 id="output-8">Output:</h3>
 <p><img src="./images/image105.png"
 style="width:4.625in;height:1.54167in"
 alt="List of items as default raw modified by removing the flex direction" /></p>
 <p>The rest of the remaining code is unchanged. However, the output will
 change if the code is modified with the addition of the flex property
 inside the flex item box3 class.</p>
-<h2 id="css-code-3">CSS Code:</h2>
+<h3 id="css-code-3">CSS Code:</h3>
 <p>.box3{</p>
 <p>    background-color: blanchedalmond;</p>
 <p>    align-self: center;</p>
 <p>    flex: 1 1 auto;</p>
 <p>}</p>
 <p> </p>
-<h2 id="output-9">Output:</h2>
+<h3 id="output-9">Output:</h3>
 <p><img src="./images/image106.png"
 style="width:4.69792in;height:1.84375in"
 alt="Different spacing of items in row display" /></p>
@@ -3441,7 +3474,7 @@ these units of measurement are used to account for the dynamism and
 dimensionality of a web page. </p>
 <p>Let’s examine the most widely used units of measurement. They can
 broadly be categorized as Absolute and Relative units. </p>
-<h2 id="absolute-units">Absolute units</h2>
+<h3 id="absolute-units">Absolute units</h3>
 <p>Absolute units are constant across different devices and have a fixed
 size. They are useful for activities like printing a page. They are not
 so suitable when it comes to the wide variety of devices in use today
@@ -3502,7 +3535,7 @@ constant. </p>
 </table>
 <p>Of these, the pixels and centimeters are most frequently used for
 defining properties. </p>
-<h2 id="relative-values">Relative values</h2>
+<h3 id="relative-values">Relative values</h3>
 <p>When you create a web page, you will almost never have only a single
 element present inside it. Even in case of containers such as flexboxes
 and grids, there’s usually more than one element present that rules are
@@ -4057,7 +4090,6 @@ ease of code modification.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--
 <img class="displayed"
   src="/images/image139.png?raw=true"
   alt="."
@@ -4125,8 +4157,8 @@ configured.</p>
 <p>This sets the gap between the columns</p>
 <p><strong>row-gap: normal</strong></p>
 <p>This sets the gap between the rows</p>
-<h2 id="grid-properties-for-container">Grid properties for
-container</h2>
+<h3 id="grid-properties-for-container">Grid properties for
+container</h3>
 <p><strong>grid-template-columns: measurement units | % units
 |repeat()</strong></p>
 <p>Defines the line names, and maintains a constant size of column
@@ -4193,8 +4225,8 @@ specifications</p>
 <p><strong>grid-auto-rows: measurement units</strong></p>
 <p>This relates to the size for rows created without specific size
 specifications</p>
-<h2 id="grid-properties-for-items-child">Grid properties for items
-(child)</h2>
+<h3 id="grid-properties-for-items-child">Grid properties for items
+(child)</h3>
 <p><strong>grid-column: column position /* E.g. 1/2 */</strong></p>
 <p>Allows for specifying where on the grid the column is to start.</p>
 <p><strong>grid-column-start: column start position</strong></p>
@@ -4211,7 +4243,7 @@ on a grid.</p>
 <p><strong>grid-row-end: row end position</strong></p>
 <p>This property determines the end row position an item is placed on a
 grid.</p>
-<h2 id="justification-and-alignment">Justification and alignment</h2>
+<h3 id="justification-and-alignment">Justification and alignment</h3>
 <p><strong>justify-self: start | center | end | stretch</strong></p>
 <p>Determines how an item is positioned inside its aligned container in
 relation to the appropriate axis.</p>
@@ -4239,8 +4271,8 @@ attributes</p>
 display to flex makes the given selector a flex box. Setting display to
 <strong>inline-flex</strong> makes the selector a flex box container
 while will be inline.</p>
-<h2 id="properties-for-flexbox-container">Properties for flexbox
-container</h2>
+<h3 id="properties-for-flexbox-container">Properties for flexbox
+container</h3>
 <p><strong>flex-direction: row | row-reverse | column |
 column-reverse</strong></p>
 <p>It is possible to specify the direction your elements will follow.
@@ -4288,8 +4320,8 @@ right wall respectively, every other item is evenly spaced.</p></li>
 <li><p>Space-evenly: each item is equidistant from each other and the
 boundary wall</p></li>
 </ul>
-<h2 id="properties-for-flexbox-items-child">Properties for flexbox items
-(child)</h2>
+<h3 id="properties-for-flexbox-items-child">Properties for flexbox items
+(child)</h3>
 <p><strong>flex-grow: factor of flex’s main size</strong></p>
 <p>This attribute enables the flex container to grow proportionally to
 the other containers present.</p>
@@ -4425,7 +4457,7 @@ tag or any container where the grid needs to be placed, the same way
 that you would define the rules for the grid. The main difference is, in
 case of grid-template-areas the values present will be the different
 names. </p>
-<h2 id="process">Process</h2>
+<h3 id="process">Process</h3>
 <p>The process isn’t prescriptive but these are the steps in
 general:</p>
 <ul>
@@ -4444,8 +4476,8 @@ that you have used. Or, where you need to get more specific, you
 designate a class name to these tags. Once the names are assigned, you
 define the properties for each class the same way that you define them
 conventionally. Let's examine an example.</p>
-<h2 id="example">Example</h2>
-<h2 id="html-code">HTML Code:</h2>
+<h3 id="example">Example</h3>
+<h3 id="html-code">HTML Code:</h3>
 <blockquote>
 <p>&lt;head&gt; </p>
 <p> </p>
@@ -4467,7 +4499,7 @@ conventionally. Let's examine an example.</p>
 <p> </p>
 <p>&lt;/body&gt; </p>
 </blockquote>
-<h2 id="css-code-4">CSS Code:</h2>
+<h3 id="css-code-4">CSS Code:</h3>
 <blockquote>
 <p>body { </p>
 <p> </p>
@@ -4510,7 +4542,7 @@ conventionally. Let's examine an example.</p>
 <p> </p>
 <p>   </p>
 <p> </p>
-<h2 id="output-10">Output:  </h2>
+<h3 id="output-10">Output:  </h3>
 <p><img src="./images/image150.png"
 style="width:5in;height:2.71462in"
 alt="Grid-based output presenting &quot;header, navigation, main area, and footer.&quot;" /></p>
@@ -4777,7 +4809,7 @@ element. </p>
 specificity is selected by CSS. But before you read on, it is important
 to note that these rules only apply in cases where conflicts arise for
 the properties. </p>
-<h2 id="specificity-hierarchy">Specificity hierarchy</h2>
+<h3 id="specificity-hierarchy">Specificity hierarchy</h3>
 <p>CSS has a set of rules that it uses to ‘score’ or assign a certain
 weight to selectors and this creates a specificity hierarchy. Based on
 the weights, there are four categories in this hierarchy: </p>
@@ -4787,7 +4819,7 @@ the weights, there are four categories in this hierarchy: </p>
 <li><p>Classes, attributes, and pseudo-classes </p></li>
 <li><p>Elements and pseudo-elements </p></li>
 </ul>
-<h2 id="inline-styles">Inline styles</h2>
+<h3 id="inline-styles">Inline styles</h3>
 <p>Inline styles are attached to the elements within your HTML code like
 with the ‘style’ attribute. inline styles have the highest specificity.
 That means that rules that are defined as inline styles will be applied
@@ -4800,27 +4832,27 @@ styling for a p tag:</p>
 </blockquote>
 <p>The p tag will be colored white because it is declared inside the
 inline tag. </p>
-<h2 id="ids">IDs</h2>
+<h3 id="ids">IDs</h3>
 <p>Next in the hierarchy are IDs and by now you know that they are
 represented by ‘#’.  For example:</p>
 <blockquote>
 <p>#div</p>
 </blockquote>
-<h2 id="classes-attributes-and-pseudo-classes">Classes, attributes, and
-pseudo-classes</h2>
+<h3 id="classes-attributes-and-pseudo-classes">Classes, attributes, and
+pseudo-classes</h3>
 <p>Classes, and the attributes inside the selectors, come next with what
 is called the pseudo-classes that you will soon learn more about. </p>
-<h2 id="for-example-1">For example:</h2>
+<h3 id="for-example-1">For example:</h3>
 <blockquote>
 <p>.my-class </p>
 <p>p[“attribute”]</p>
 <p>div:hover</p>
 </blockquote>
-<h2 id="elements-and-pseudo-elements">Elements and pseudo-elements</h2>
+<h3 id="elements-and-pseudo-elements">Elements and pseudo-elements</h3>
 <p>Finally, elements and something you call pseudo-elements have the
 lowest position in the specificity hierarchy. You will learn more about
 pseudo-elements later in this lesson.</p>
-<h2 id="calculating-scores">Calculating scores</h2>
+<h3 id="calculating-scores">Calculating scores</h3>
 <p>But by now you might wonder how is specificity calculated? </p>
 <p>CSS uses the hierarchical model internally to calculate the
 specificity of the selectors used on a web page. But often as the size
@@ -4844,7 +4876,7 @@ specificity.</p>
 <p>Let’s explore a couple of examples for clarity. Take note that the
 properties and values are not included in these examples to keep the
 focus on the selectors only. </p>
-<h2 id="example-1">Example 1</h2>
+<h3 id="example-1">Example 1</h3>
 <blockquote>
 <p>p {} </p>
 <p>div p {}</p>
@@ -4857,7 +4889,7 @@ focus on the selectors only. </p>
 <p>The third case has a total of 12 for the p tag and so has the highest
 specificity. The rules for the other two cases are then overridden and
 the rules inside the third case are applied. </p>
-<h2 id="example-2">Example 2</h2>
+<h3 id="example-2">Example 2</h3>
 <blockquote>
 <p>p#bar =&gt; 1 element &amp; 1 ID =&gt;  0 1 0 1 =&gt; Score: 101</p>
 <p>p.foo =&gt; 1 element &amp; 1 class =&gt; 0 0 1 1 =&gt; Score: 11</p>
@@ -5166,7 +5198,7 @@ possibilities that pseudo-classes offer.</p>
 of an element. For example, you can decide to apply styling to only the
 first word or line in a given element. First, let’s examine the syntax
 of a pseudo-element.</p>
-<h2 id="syntax">Syntax</h2>
+<h3 id="syntax">Syntax</h3>
 <blockquote>
 <p><strong>selector::pseudo-element {</strong></p>
 <p><strong> property: value;</strong></p>
@@ -5175,10 +5207,10 @@ of a pseudo-element.</p>
 <p>It is important to note that pseudo-elements use two colon characters
 instead of one.</p>
 <p>Now, let’s explore some examples of popular pseudo-elements.</p>
-<h2 id="first-letter">::first-letter</h2>
+<h3 id="first-letter">::first-letter</h3>
 <p>You can use first-letter to change the color of just the first letter
 of each of the three points in the example text.</p>
-<h2 id="html-code-1">HTML code:</h2>
+<h3 id="html-code-1">HTML code:</h3>
 <blockquote>
 <p>&lt;!DOCTYPE html&gt; </p>
 <p> </p>
@@ -5206,7 +5238,7 @@ of each of the three points in the example text.</p>
 <p> </p>
 <p>&lt;/html&gt; </p>
 </blockquote>
-<h2 id="css-code-5">CSS code:</h2>
+<h3 id="css-code-5">CSS code:</h3>
 <blockquote>
 <p>li::first-letter { </p>
 <p> </p>
@@ -5228,10 +5260,10 @@ style="width:4in;height:2.98228in" /></p>
 <p>Although the code only changed the first letter of each bullet point,
 it makes a big difference in terms of presentation. Now let’s change the
 font in a different way.</p>
-<h2 id="first-line">::first-line</h2>
+<h3 id="first-line">::first-line</h3>
 <p>First-line will change the complete first line of each of the bullet
 points to light sea green.</p>
-<h2 id="css-code-6">CSS code:</h2>
+<h3 id="css-code-6">CSS code:</h3>
 <blockquote>
 <p>ul{</p>
 <p>    list-style-type: none;</p>
@@ -5256,14 +5288,14 @@ viewport.</p>
 <p>Output:</p>
 <p><img src="./images/image185.png"
 style="width:4in;height:3.24051in" /></p>
-<h2 id="selection">::selection</h2>
+<h3 id="selection">::selection</h3>
 <p>Selection is another useful pseudo-element. For example, you may use
 it when you are taking notes on your device because it allows you to
 highlight specific text. The effect of it becomes obvious only after the
 user selects content. On web pages today, you will typically see
 inverted colors from white-black to black-white when selecting a portion
 of text.</p>
-<h2 id="css-code-7">CSS code:</h2>
+<h3 id="css-code-7">CSS code:</h3>
 <blockquote>
 <p>ul{</p>
 <p>    list-style-type: none;</p>
@@ -5277,18 +5309,18 @@ of text.</p>
 </blockquote>
 <p> </p>
 <p>Here is an example of a selection of text.</p>
-<h2 id="output-11">Output:</h2>
+<h3 id="output-11">Output:</h3>
 <p><img src="./images/image186.png"
 style="width:6.23819in;height:3.83889in"
 alt="Output for selection of text display" /></p>
 <p>And another example of the same text but with a different section
 selected and highlighted.</p>
-<h2 id="output-12">Output:</h2>
+<h3 id="output-12">Output:</h3>
 <p><img src="./images/image187.png"
 style="width:4in;height:2.49145in" /></p>
 <p>Different segments of the text are highlighted depending on the text
 that is selected at any given point.</p>
-<h2 id="marker">::marker </h2>
+<h3 id="marker">::marker </h3>
 <p>Markers are typically used to add style elements to a list, for
 instance, to color bullet points. For example, you can enhance the user
 experience when you use a marker in the following way.</p>
@@ -5306,7 +5338,7 @@ experience when you use a marker in the following way.</p>
 style="width:4in;height:2.20508in" /></p>
 <p>Now the bullet points are cornflower blue and they have the shape
 specified in the code.</p>
-<h2 id="before-and-after">::before and ::after</h2>
+<h3 id="before-and-after">::before and ::after</h3>
 <p>One more pair of pseudo-elements are the <strong>::before</strong>
 and <strong>::after</strong> pseudo-elements. They allow you to add
 content before and after an element on which they are allowed. In other
@@ -5314,7 +5346,7 @@ words, new content can be added to a page without adding HTML code for
 it. You can also add styling options for this content. Let’s do an
 example where text is added both before and after some cooking
 guidelines to identify them as important tips.</p>
-<h2 id="html-code-2">HTML code:</h2>
+<h3 id="html-code-2">HTML code:</h3>
 <blockquote>
 <p>&lt;body&gt;</p>
 <p>    &lt;p id="tips"&gt; Don't rinse your pasta after it is drained. &lt;/p&gt;</p>
@@ -5323,7 +5355,7 @@ guidelines to identify them as important tips.</p>
 <p>&lt;/body&gt;</p>
 <p> </p>
 </blockquote>
-<h2 id="css-code-8">CSS code:</h2>
+<h3 id="css-code-8">CSS code:</h3>
 <blockquote>
 <p>#tips::before{</p>
 <p>    background: darkkhaki;</p>
@@ -5343,7 +5375,7 @@ guidelines to identify them as important tips.</p>
 <p>}</p>
 </blockquote>
 <p> </p>
-<h2 id="output-13">Output:</h2>
+<h3 id="output-13">Output:</h3>
 <p><img src="./images/image189.png"
 style="width:4in;height:1.39518in"
 alt="Selection of texts preceding and following a statement" /></p>
@@ -5468,7 +5500,7 @@ states to improve the interactivity of web pages.</p>
 <p>You also explored additional effects that you can create with the
 hover effect.</p>
 <p>CSS Pseudo cheat sheet</p>
-<h2 id="simple-selectors">Simple selectors</h2>
+<h3 id="simple-selectors">Simple selectors</h3>
 <table>
 <colgroup>
 <col style="width: 31%" />
@@ -5506,8 +5538,8 @@ hover effect.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="variations-of-simple-selectors">Variations of simple
-selectors</h2>
+<h3 id="variations-of-simple-selectors">Variations of simple
+selectors</h3>
 <table>
 <colgroup>
 <col style="width: 19%" />
@@ -5550,8 +5582,8 @@ selectors</h2>
 </tr>
 </tbody>
 </table>
-<h2 id="descendant-selectorscombinators">Descendant
-selectors/combinators</h2>
+<h3 id="descendant-selectorscombinators">Descendant
+selectors/combinators</h3>
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -5594,7 +5626,7 @@ selectors/combinators</h2>
 </tr>
 </tbody>
 </table>
-<h2 id="attribute-selectors">Attribute selectors</h2>
+<h3 id="attribute-selectors">Attribute selectors</h3>
 <table>
 <colgroup>
 <col style="width: 24%" />
@@ -5812,7 +5844,7 @@ element</td>
 </tr>
 </tbody>
 </table>
-<h2 id="pseudo-element-selectors">Pseudo-element selectors</h2>
+<h3 id="pseudo-element-selectors">Pseudo-element selectors</h3>
 <table>
 <colgroup>
 <col style="width: 19%" />
@@ -6054,7 +6086,7 @@ style="width:3in;height:1.78125in" />I can use the output to determine
 whether I need to adjust the color effects until I'm happy with it.</p>
 <p>That's all my examples. In this section, you learned how to add
 effects to your text using a few simple rules in CSS.</p>
-<h2 id="text-effects-cheat-sheet">Text effects cheat sheet</h2>
+<h3 id="text-effects-cheat-sheet">Text effects cheat sheet</h3>
 <p>The effects developers use on text items on a web page are chosen
 mainly because of their styling and layout style. Interesting effects
 can be created by combining these with other CSS properties. </p>
@@ -6343,7 +6375,7 @@ transform and transition properties in conjunction.</p>
 <p>A number of different effects like these can be performed with the
 help of the two properties, transform and transition and combining them
 with pseudo classes such as hover active and others.</p>
-<h2 id="css-animation">CSS animation</h2>
+<h3 id="css-animation">CSS animation</h3>
 <p>By now you should know the basics of CSS animation.</p>
 <p>It's time to explore some more advanced properties and rules.</p>
 <p>In this video, you will learn how to use the animation property in
@@ -6431,7 +6463,7 @@ the @keyframe rule together to get a specific effect.</p>
 ways.</p>
 <p>For instance, you can combine them with other elements like images to
 achieve amazing animations using purely CSS.</p>
-<h2 id="css-keyframes">CSS keyframes</h2>
+<h3 id="css-keyframes">CSS keyframes</h3>
 <p>In this reading, you will become acquainted with the @keyframes rule
 and you’ll learn how to use it with the animation property in CSS.</p>
 <p>The rules covered so far are for alignment and styling of web pages
@@ -6448,8 +6480,8 @@ B.</p>
 <p>You can use the transition and transform properties to do that, but
 animation sequences are used to accomplish more complex behaviors in an
 easier way. </p>
-<h2 id="from-and-to-keywords-and-using-percentages-syntax">from{} and
-to{} keywords and using percentages(%) syntax</h2>
+<h3 id="from-and-to-keywords-and-using-percentages-syntax">from{} and
+to{} keywords and using percentages(%) syntax</h3>
 <blockquote>
 <p>@keyframes animation-name { </p>
 <p> </p>
@@ -6502,7 +6534,7 @@ consists of other sub-properties. Of these, animation-name and
 animation-duration must be defined while others such as timing-function,
 delay, direction, fill-more, iteration-count and so on can be
 added. </p>
-<h2 id="animation-property-shorthand">Animation property shorthand:</h2>
+<h3 id="animation-property-shorthand">Animation property shorthand:</h3>
 <p>The shorthand for the animation property consists of the following
 properties with their default values:</p>
 <ul>
@@ -6521,8 +6553,11 @@ they are the default. Of these, the first property of the animation-name
 is what's used to tie it to the @keyframes rule.</p>
 <p>Let’s now examine an example of how you can use @keyframes and the
 animation property. </p>
-<h2 id="animation-example">Animation example</h2>
-<h2 id="html-code-3">HTML code:</h2>
+
+<h3>Animation example</h3>
+
+<h3>HTML code:</h3>
+
 <blockquote>
 <p>&lt;body&gt; </p>
 <p> </p>
@@ -6532,7 +6567,7 @@ animation property. </p>
 <p> </p>
 <p>&lt;/html&gt; </p>
 </blockquote>
-<h2 id="css-code-9">CSS code:</h2>
+<h3 id="css-code-9">CSS code:</h3>
 <blockquote>
 <p>body{ </p>
 <p> </p>
@@ -6568,10 +6603,22 @@ animation property. </p>
 <p> </p>
 <p>} </p>
 </blockquote>
-<h2 id="and-this-is-the-output">And this is the output: </h2>
-<p><img src="./images/image227.png"
-style="width:3in;height:1.44in" /><img src="./images/image228.png"
-style="width:3in;height:1.44in" /></p>
+
+<h3>And this is the output:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227/228. red rectangles (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image227.png?raw=true"
+  alt="."
+  style="width:30%;" />
+<img class="displayed"
+  src="/images/image228.png?raw=true"
+  alt="."
+  style="width:30%;" />
+<!-- style="width:3in;height:1.44in" -->
+<!-- style="width:3in;height:1.44in" -->
+
 <p>In the example, the width of the object changes from 50 pixels to 100
 pixels over a span of 3 seconds and loops infinitely afterward.</p>
 <p>This is a very simple example of how you can use the animation
@@ -6579,32 +6626,46 @@ property with the help of @keyframes rule to create your desired
 animation.</p>
 <p>If you modify this code and change the animation rules to
 percentages, it will have the same output.</p>
-<blockquote>
-<p>@keyframes myanimation{</p>
-<p>0%{width: 50px;</p>
-<p>}</p>
-<p> </p>
-<p>100%{width: 100px;</p>
-<p>}</p>
-<p> </p>
+
+<pre><code>
+@keyframes myanimation{
+0%{width: 50px;
+}
+100%{width: 100px;
+}
+</code></pre>
+
 <p>Now, let’s add an intermediary step at 50%.</p>
-<p>@keyframes myanimation{</p>
-<p>0%{width: 50px;</p>
-<p>}</p>
-<p> </p>
-<p>50%{background-color: aquamarine;</p>
-<p>    height: 20px;</p>
-<p>}</p>
-<p> </p>
-<p>100%{width: 100px;</p>
-<p>}</p>
-</blockquote>
-<p> </p>
-<h2 id="output-14">Output: </h2>
-<p><img src="./images/image229.png"
-style="width:3in;height:1.75905in" /><img
-src="./images/image230.png"
-style="width:3in;height:1.75905in" /></p>
+
+<pre><code>
+@keyframes myanimation{
+0%{width: 50px;
+}
+50%{background-color: aquamarine;
+    height: 20px;
+}
+100%{width: 100px;
+}
+</code></pre>
+
+<h3>Output:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. brown rectangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image229.png?raw=true"
+  alt="."
+  style="width:30%;" />
+<!-- style="width:3in;height:1.75905in" -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. green rectangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image230.png?raw=true"
+  alt="."
+  style="width:30%;" />
+<!-- style="width:3in;height:1.75905in" -->
+
 <p>The output is drastically different now after adding just two lines
 of code. Just like this, you can keep adding steps inside your
 @keyframes rule to make it even more dynamic and add the desired
@@ -6626,14 +6687,30 @@ CSS.</p>
 file named index.html.</p>
 <p>In the head element, I added a link element to reference a CSS file
 named styles.css.</p>
-<p><img src="./images/image231.png"
-style="width:4in;height:2.45077in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<img class="displayed"
+  src="/images/image231.png?raw=true"
+  alt="."
+  style="width:40%;" />
+<!-- style="width:4in;height:2.45077in" -->
+
 <p>First, I'll add the HTML element that will be animated.</p>
 <p>In this case, the element will represent the bouncing ball.</p>
 <p>I add a div element to the body element and set its ID attribute to
 ball.</p>
-<p><img src="./images/image232.png"
-style="width:4in;height:3.63556in" />Now I open styles.css.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. css keyframes and animation (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image232.png?raw=true"
+  alt="CSS keyframes and animation."
+  style="width:40%;" />
+<!-- style="width:4in;height:3.63556in" -->
+
+<p>Now I open styles.css.</p>
 <p>First, I add the keyframes definition.</p>
 <p>I'll name this animation bounce.</p>
 <p>Next, I add the from keyword with open and closed curly brackets to
@@ -6661,15 +6738,29 @@ as a ball.</p>
 appear like a circle.</p>
 <p>Finally, I set the background color property to #62687F to fill in
 the color of the circle.</p>
-<p><img src="./images/image233.png"
-style="width:1.5in;height:1.32165in" />I save the file and open
-index.html in live preview.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233. ball in the top left corner (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image233.png?raw=true"
+  alt="Ball/Circle in CSS."
+  style="width:15%;" />
+<!-- style="width:1.5in;height:1.32165in" -->
+
+<p>I save the file and open index.html in live preview.</p>
 <p>Great, the ball is rendering correctly.</p>
 <p>Now to connect the animation to the element, I open styles.css
 again.</p>
-<p><img src="./images/image234.png"
-style="width:3.5in;height:3.54839in" />In the CSS rule for the ball
-element, I add the animation property and set its value to bounce
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 234. styles.css - animating ball (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="/images/image234.png?raw=true"
+  alt="."
+  style="width:35%;" />
+<!-- style="width:3.5in;height:3.54839in" -->
+
+<p>In the CSS rule for the ball element, I add the animation property and set its value to bounce
 2s.</p>
 <p>This will play the bounce animation over a two second duration.</p>
 <p>I then add the animation direction property and set its value to
@@ -6703,7 +6794,7 @@ with CSS.</p>
 <h1 id="animation-and-effects-cheat-sheet">Animation and effects cheat
 sheet</h1>
 <p>Transform property</p>
-<h2 id="syntax-1">Syntax</h2>
+<h3 id="syntax-1">Syntax</h3>
 <p>transform: transform function-values</p>
 <h3 id="example-3">Example</h3>
 <blockquote>
@@ -6789,8 +6880,8 @@ skewY()</h4>
 <p>    transform: unset;</p>
 <p>}</p>
 </blockquote>
-<h2 id="multiple-transform-over-the-same-element">Multiple transform
-over the same element</h2>
+<h3 id="multiple-transform-over-the-same-element">Multiple transform
+over the same element</h3>
 <h3 id="syntax-2">Syntax</h3>
 <p>Transform can be applied for rotate(), scale() and translate() that
 can be listed together. Each of these properties can have their own
@@ -6812,9 +6903,9 @@ values and the actions will give a combined effect. </p>
 <p>    transform-origin: right bottom;</p>
 <p>}</p>
 </blockquote>
-<h2 id="transition-property">Transition property</h2>
-<h2 id="transition-shorthand">Transition
-shorthand<strong> </strong></h2>
+<h3 id="transition-property">Transition property</h3>
+<h3 id="transition-shorthand">Transition
+shorthand<strong> </strong></h3>
 <p>Transition shorthand has four following sub-properties, each of which
 can also be individually defined. </p>
 <ul>
@@ -6830,7 +6921,7 @@ skipped will be assigned their default values. </p>
 <h3 id="example-6">Example </h3>
 <h3 id="transition-margin-left-2s-ease-in-out-0.5s">transition:
 margin-left 2s ease-in-out 0.5s;</h3>
-<h2 id="animations-and-keyframes">Animations and @keyframes</h2>
+<h3 id="animations-and-keyframes">Animations and @keyframes</h3>
 <h3 id="animation-property">animation property:</h3>
 <h3 id="syntax-4">Syntax</h3>
 <h3
@@ -6857,15 +6948,15 @@ below:</p>
 </blockquote>
 <p>The values not mentioned are given default values.</p>
 <p>Animation-name property is used to tie-in the @keyframes rule.</p>
-<h2 id="keyframes">@keyframes</h2>
-<h2 id="syntax-5">Syntax</h2>
+<h3 id="keyframes">@keyframes</h3>
+<h3 id="syntax-5">Syntax</h3>
 <blockquote>
 <p>@keyframes mymove {</p>
 <p>  from {property: value}</p>
 <p>  to { property: value }</p>
 <p>}</p>
 </blockquote>
-<h2 id="example-8">Example</h2>
+<h3 id="example-8">Example</h3>
 <blockquote>
 <p>@keyframes animation-name {</p>
 <p>    from {bottom: 0px;}</p>
@@ -6890,7 +6981,7 @@ below:</p>
 <p>    }</p>
 <p>}</p>
 </blockquote>
-<h2 id="multiple-animations">Multiple animations</h2>
+<h3 id="multiple-animations">Multiple animations</h3>
 <p>Works the same as regular animation, multiple rules can be set. </p>
 <blockquote>
 <p>#some-class{</p>
@@ -6900,7 +6991,7 @@ below:</p>
 </blockquote>
 <h1 id="preprocessors-sass-scss-stylus">Preprocessors: sass, scss,
 Stylus</h1>
-<h2 id="preprocessors-sass-scss">Preprocessors: sass, scss</h2>
+<h3 id="preprocessors-sass-scss">Preprocessors: sass, scss</h3>
 <p>Now that you have learned about different animation effects, let's
 explore the topic of preprocessors which can make the process of
 creating them easier. CSS preprocesses are special compilers used to
@@ -6923,7 +7014,7 @@ very long, messy and complex. It also made it difficult to troubleshoot.
 Preprocessors have their own scripting language that adds logical
 structures, automation properties, reusability and bloating of the code.
 You’ll now explore some of the different preprocessors available.</p>
-<h2 id="sass-and-scss">SASS and SCSS</h2>
+<h3 id="sass-and-scss">SASS and SCSS</h3>
 <p>Syntactically Awesome Style Sheets (SASS) is a scripting language
 that CSS compiles and interprets into CSS. SCSS, which stands for Sassy
 CSS is the syntax for SASS and can be seen as an advanced version of
@@ -6941,14 +7032,18 @@ uses indentation rather than brackets to indicate the nesting of
 selectors and newlines rather than semicolons to separate properties.
 Files using this syntax have the .sass extension."</p>
 <p>This example highlights these differences.</p>
-<h2 id="regular-css">Regular CSS:</h2>
+
+<h4>Regular CSS:</h4>
+
 <blockquote>
 <p>body { </p>
 <p>    font: 100% Arial; </p>
 <p>    color: lightblue; </p>
 <p>} </p>
 </blockquote>
-<h2 id="this-is-the-scss">This is the SCSS: </h2>
+
+<h4>This is the SCSS: </h4>
+
 <blockquote>
 <p>$font-stack: Arial; </p>
 <p>$primary-color: lightblue; </p>
@@ -6958,7 +7053,9 @@ Files using this syntax have the .sass extension."</p>
 <p>  color: $primary-color; </p>
 <p>} </p>
 </blockquote>
-<h2 id="sass-for-the-same-block">SASS for the same block:  </h2>
+
+<h4>SASS for the same block:</h4>
+
 <blockquote>
 <p>$font-stack: Arial </p>
 <p>$primary-color: lightblue </p>
@@ -6967,6 +7064,7 @@ Files using this syntax have the .sass extension."</p>
 <p>  font: 100% $font-stack </p>
 <p>  color: $primary-color</p>
 </blockquote>
+
 <p>The variables have been defined at the top with labels such as
 ‘$font-stack’ and ‘$primary-color’. This is done with the ‘$’ suffix.
 The result for both will be the same, and it is not hard to imagine how
@@ -6985,8 +7083,6 @@ for adding rules conditionally. </p>
 us explore a couple of directives called @mixin and @include. </p>
 
 <h3>Syntax</h3>
-
-<h2>@mixin <em>name </em>{<em>property</em>: <em>value</em>; <em>property</em>: <em>value</em>;  ... }</h2>
 
 <blockquote>
 <p>@mixin some-rules { </p>
@@ -7009,7 +7105,7 @@ also used. @import allows the import of rules from another file, and
 @extend allows all the rules from a specific selector to be added inside
 another selector. </p>
 
-<h2>Stylus CSS</h2>
+<h3>Stylus CSS</h3>
 
 <p>Now that you know how preprocessors behave let us explore one more of
 their type, called Stylus. If you continue to use the example above, the
@@ -7073,7 +7169,7 @@ CSS that may be helpful as you continue your learning journey.</p>
   <li><p><a href="https://freefrontend.com/css-animation-examples/">Collection of examples using HTML/CSS</a></p></li>
 </ul>
 
-<h2>Common errors</h2>
+<h3>Common errors</h3>
 
 <p>Have you ever made a mistake while programming?</p>
 <p>Well, you're not alone.</p>
@@ -7286,7 +7382,7 @@ tools that allow you to modify your CSS code.</p>
 is a total piece of shit. Much like Windows and Office. A fucking
 joke.</p>
 
-<h2>Debugging the front-end</h2>
+<h3>Debugging the front-end</h3>
 
 <p>In this reading, you will learn about some of the fundamental tasks
 used to debug CSS. The scope of what’s covered will match the topics
@@ -7346,13 +7442,13 @@ the p from inside the .alpha class to some other position inside your
 code, it is easier to debug the source of the problem. This should be
 done on a case-specific basis.</p>
 
-<h2>Getting familiar with the box model </h2>
+<h3>Getting familiar with the box model </h3>
 
 <p>The box model is a very powerful source of information and can solve
 many issues with alignment. Using margin, padding and border is useful,
 but can be tricky and must be well understood.</p>
 
-<h2>Browser issues</h2>
+<h3>Browser issues</h3>
 
 <p>Many times, the styling you have renders correctly in the IDE but
 misbehaves in a browser. That is because browsers have their own default
@@ -7470,7 +7566,7 @@ debugging and CSS in general.</p>
 <p>In this reading, you learned about some of the fundamental tasks used
 to debug CSS.</p>
 
-<h2>Debugging tools</h2>
+<h3>Debugging tools</h3>
 
 <p>Have you ever had a broken power outlet in your home, or maybe a
 light switch stopped working?</p>
@@ -7539,7 +7635,7 @@ definitely make creating and maintaining webpages and web applications
 easier.</p>
 <p>The next reading, we'll explore developer tools in more detail.</p>
 
-<h2>Browser-specific CSS</h2>
+<h3>Browser-specific CSS</h3>
 
 <p>One of the frustrations you're likely to run into will be
 compatibility issues that occur when rendering your CSS files on
@@ -7665,7 +7761,7 @@ your fellow learners.</p>
   <li><p>Share your thoughts with your classmates!</p></li>
 </ul>
 
-<h2>UI testing</h2>
+<h3>UI testing</h3>
 
 <p>As you may have experienced when using different apps in your
 everyday life, first impressions matter, whether you are using an app to
@@ -7741,7 +7837,7 @@ used to ensure customer satisfaction and what's more.</p>
 <p>You also learned about the web developer tools you can use to perform
 cross-device testing.</p>
 
-<h2>Case study: How Meta performs front-end testing</h2>
+<h3>Case study: How Meta performs front-end testing</h3>
 
 <p>An untested application is a wildcard. You have no idea whether it
 works or it doesn't work.</p>
@@ -8000,7 +8096,7 @@ following:</p>
   <li><p>CSS effects</p></li>
 </ul>
 
-<h2>Subject selection</h2>
+<h3>Subject selection</h3>
 
 <p>For the graded assessment, you need to develop a home page for one of
 four fictional clients.</p>
@@ -8027,7 +8123,7 @@ from. They are:</p>
   <li><p>Read on to find out more about them.</p></li>
 </ul>
 
-<h2><strong>Retail: Lucky Shrub</strong></h2>
+<h3><strong>Retail: Lucky Shrub</strong></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 241. logo of the fictional client lucky shrub (244) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8048,12 +8144,12 @@ creates and oversees all designs while managing his team of landscapers.
 Maria manages all the marketing for the company and oversees the
 nursery.</p>
 
-<h2>Download their logos here:</h2>
+<h3>Download their logos here:</h3>
 
 <p><strong>Lucky-Shrub-Logos</strong></p>
 <p>ZIP File</p>
 
-<h2><strong>Professional services: Hair Day</strong></h2>
+<h3><strong>Professional services: Hair Day</strong></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 242. logo of the fictional client hair day (244) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8108,13 +8204,13 @@ experience as a chef in Italy. Adrian does all the marketing for the
 restaurant and led the effort to expand the menu beyond classic Italian
 to incorporate additional cuisines from the Mediterranean region.</p>
 
-<h2>Download their logos here:</h2>
+<h3>Download their logos here:</h3>
 
 <p><strong><u>Little-Lemon-logos</u></strong></p>
 
 <p>ZIP File</p>
 
-<h2><strong>Luxury Jewelry: Mangata and Gallo</strong></h2>
+<h3><strong>Luxury Jewelry: Mangata and Gallo</strong></h3>
 
 <p>Mangata and Gallo is a jewelry store that specializes in special
 occasions like engagements, weddings and anniversaries. The jewelry
@@ -8135,7 +8231,7 @@ website and social media accounts.</p>
 <p><strong><u>Mangata and Gallo logos</u></strong></p>
 <p><u>ZIP File</u></p>
 
-<h2>Selecting the subject and working out the layout</h2>
+<h3>Selecting the subject and working out the layout</h3>
 
 <p>You might recall learning about client personas earlier in the course.</p>
 <p>For the project, you have to choose one client persona to develop a home page for.</p>
@@ -8216,7 +8312,7 @@ layout.</p>
 <p>In the next video, you'll learn how to start writing the html and CSS
 for the project.</p>
 
-<h2>Positioning the elements, creating placeholders</h2>
+<h3>Positioning the elements, creating placeholders</h3>
 
 <p>When building a webpage, it's considered good practice to do the
 layout and positioning of your HTML elements before working on their
@@ -8442,12 +8538,12 @@ decor, the visual styling of your webpage.</p>
 <p>It takes some time to practice building your HTML structure and
 setting up the positioning of your elements.</p>
 
-<h2>Setting up your local development environment</h2>
+<h3>Setting up your local development environment</h3>
 
 <p>You have to use Visual Studio Code to complete your graded
 assessment. You have two options to do this.</p>
 
-<h2><strong>Option 1: Use Visual Studio Code in-browser with Coursera Labs</strong></h2>
+<h3><strong>Option 1: Use Visual Studio Code in-browser with Coursera Labs</strong></h3>
 
 <p>You can access the Visual Studio Code environment through the “
 Ungraded Lab Project sandbox” included in this lesson. Take note that
@@ -8462,7 +8558,7 @@ to your local machine and save them inside a project folder. Zip the
 project folder and upload it in the "My submission" area in the Peer
 review assessment later in this lesson.</p>
 
-<h2><strong>Option 2: Work on your local device</strong></h2>
+<h3><strong>Option 2: Work on your local device</strong></h3>
 
 <p>You can also choose to complete your graded assessment on your local
 machine if you prefer. This will require a few steps of set up in
@@ -8472,7 +8568,7 @@ advance. </p>
 href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>.</p>
 <p>Select the download based on your operating system.</p>
 
-<h2><strong>Windows</strong></h2>
+<h3><strong>Windows</strong></h3>
 
 <p><strong>Step 1:</strong> Download the Windows installer.</p>
 <p><strong>Step 2:</strong> Open the file to install it once the
@@ -8526,7 +8622,7 @@ appears.</p>
 <p><strong>Step 8:</strong> Click finish once completed, and the
 application will launch.</p>
 
-<h2>Mac</h2>
+<h3>Mac</h3>
 
 <p>Step 1: Download the application based on the chipset you have. M1
 macs use Apple Silicon, and older Macs use Intel. If you are not sure,
@@ -8547,11 +8643,11 @@ application link in Finder below.</p>
 
 <p><strong>Step 5:</strong> Open the app.</p>
 
-<h2><strong>Linux</strong></h2>
+<h3><strong>Linux</strong></h3>
 
 <p>Please refer to the <a href="https://code.visualstudio.com/docs/setup/linux">official Linux installation guide</a> for Visual Studio Code.</p>
 
-<h2>Selecting a working directory</h2>
+<h3>Selecting a working directory</h3>
 
 <p>Now that you have Visual Studio Code set up create a folder on your
 device that you'll use to do course exercises.</p>
@@ -8617,7 +8713,7 @@ facilitates.</p>
 UX design strategy?</p>
 <p>Answers to those questions will help you plan your process.</p>
 
-<h2>Creating themes</h2>
+<h3>Creating themes</h3>
 
 <p>The combination of colors used in the design of a website is called
 the color scheme.</p>
@@ -8715,7 +8811,7 @@ that has held a personal appeal. Color theory is an important aspect of
 the user experience domain and plays an important role in website design
 so don’t be afraid to experiment with different color schemes.</p>
 
-<h2>Congratulations, you have completed HTMLS and CSS in depth!</h2>
+<h3>Congratulations, you have completed HTMLS and CSS in depth!</h3>
 
 <p>Congratulations on reaching the end of this HTML and CSS in-depth
 course in the front-end developer program.</p>
@@ -8901,7 +8997,7 @@ increasingly specific styling to various elements.</p>
   <li><p><strong>Reading: </strong>Next steps</p></li>
 </ol>
 
-<h2>Basic meta tags (meta tags For SEO)</h2>
+<h3>Basic meta tags (meta tags For SEO)</h3>
 
 <p><strong>&lt;meta name=”description”/&gt;</strong> provides a brief
 description of the web page</p>
@@ -8926,7 +9022,7 @@ specifies the expected audience for your page</p>
 <p><strong>&lt;meta name="copyright" content="Copyright
 2022"&gt;</strong> specifies a Copyright</p>
 
-<h2>&lt;meta http-equiv="..."/&gt; tags</h2>
+<h3>&lt;meta http-equiv="..."/&gt; tags</h3>
 
 <p><strong>&lt;meta http-equiv="content-type"
 content="text/html"&gt;</strong> specifies the format of the document
@@ -8941,7 +9037,7 @@ specifies the language of the page</p>
 content="no-cache"&gt;</strong> instructs the browser how to cache your
 page</p>
 
-<h2>Responsive design/mobile meta tags</h2>
+<h3>Responsive design/mobile meta tags</h3>
 
 <p><strong>&lt;meta name="format-detection" content="telephone=yes"/&gt;</strong> indicates that telephone numbers should appear as hypertext links that can be clicked to make a phone call <strong>&lt;meta name="HandheldFriendly" content="true"/&gt;</strong> specifies that the page can be properly visualized on mobile devices <strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</strong> specifies the area of the window in which web content can be seen</p>
 <!--
