@@ -5,7 +5,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth - meta.bauska.site ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 align="center">meta HTML &amp; CSS in Depth</h2>
+<h1 align="center">HTML &amp; CSS in Depth</h1>
 <h6 align="center">(Coursera/meta)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -23,7 +23,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
   width="10%"
-  alt="meta logo." />
+  alt="Meta logo." />
 </p>
 <!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
 
@@ -3344,12 +3344,12 @@ disabled by default.
 To do this, I go back to my html and add the muted attribute to the
 video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 86. audio/video on about.html (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. audio/video on about.html (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image086.png"
   width="60%"
-  alt="." />
+  alt="Add muted attribute to the video element." />
 </p>
 <!-- ![](images/image086.png){width="6.0in" height="3.3833333333333333in"} -->
 
