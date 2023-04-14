@@ -27,6 +27,7 @@ h2 {
   color: darkgreen;
   font-size: 21px;
   text-align: left; 
+  margin-right: 20px;
   margin-left: 5px; }
   
 h3 {
@@ -34,6 +35,7 @@ h3 {
   color: black;
   font-size: 19px;
   text-align: left; 
+  margin-right: 20px;
   margin-left: 5px; }
   
 h4 {
@@ -41,6 +43,7 @@ h4 {
   color: black;
   font-size: 17px;
   text-align: left; 
+  margin-right: 20px;
   margin-left: 5px; }
 
 h5 {
@@ -48,6 +51,7 @@ h5 {
   color: black;
   font-size: 14px;
   text-align: left;
+  margin-right: 20px;
   margin-left: 5px; }
 
 h6 {
@@ -55,6 +59,7 @@ h6 {
   color: black;
   font-size: 11px;
   text-align: left; 
+  margin-right: 20px;
   margin-left: 5px; }
 
 h7 {
@@ -62,12 +67,14 @@ h7 {
   color: black;
   font-size: 10px;
   text-align: left; 
+  margin-right: 20px;
   margin-left: 5px; }
     
 p {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 14.5px;
   text-align: left; 
+  margin-right: 20px;
   margin-left: 5px; }
 
 <!-- background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%) -->
@@ -82,6 +89,7 @@ body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 15px;
   margin-left: 5px;
+  margin-right: 20px;
   text-align: left;
 }
 
