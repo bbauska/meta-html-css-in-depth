@@ -1,15 +1,61 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%); -->
-
-img {
+  img {
   display: block;
-  margin-left: auto;
-  margin-right: auto; }
-  
-img.displayed {
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
+  margin: 0 auto }
+
+  img.displayed {
+  display: block;
+  margin: 0 auto; }
+
+  img.border {
+  border-width: 1px;
+  border-color: #778899;
+  border-style: solid; }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    img {
+      max-width: 100%
+    }
+    .image {
+      flex-basis: 40%
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+    }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+body {
+  font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
+}
+p {
+  margin: 15px;
+}
 
 .border {
   border-width: 1px;
@@ -20,14 +66,14 @@ h1  {
   font-family: Bahnschrift, Helvetic, Arial, sans-serif;
   color: initial;
   text-align: center;
-  font-size: 25px; }
+  font-size: 23px; }
   
 h2 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: darkgreen;
   font-size: 21px;
   text-align: left; 
-  margin-right: 20px;
+  margin-right: 23px;
   margin-left: 5px; }
   
 h3 {
@@ -49,7 +95,7 @@ h4 {
 h5 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
   margin-right: 20px;
   margin-left: 5px; }
@@ -57,7 +103,7 @@ h5 {
 h6 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
-  font-size: 11px;
+  font-size: 13px;
   text-align: left; 
   margin-right: 20px;
   margin-left: 5px; }
@@ -65,14 +111,14 @@ h6 {
 h7 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
-  font-size: 10px;
+  font-size: 11px;
   text-align: left; 
   margin-right: 20px;
   margin-left: 5px; }
     
 p {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 14.5px;
+  font-size: 15px;
   text-align: left; 
   margin-right: 20px;
   margin-left: 5px; }
