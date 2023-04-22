@@ -2409,7 +2409,7 @@ across different devices and browsers.</p>
 appearance of different HTML elements across web browsers, and how you
 can ensure consistency with CSS rules.</p>
 
-<h2>Glossary: HTML form elements</h2>
+<h3>Glossary: HTML form elements</h3>
 
 <p>The <strong>&lt;form&gt;</strong> element in HTML is an important and
 useful element. The following sheet provides an overview of the
@@ -4541,21 +4541,24 @@ understand. Who knows?</p>
 out some of the techniques shown in this section.</p>
 <p>Don't forget the repeat and min-max functions, they'll save you time
 and effort.</p>
-<h1 id="grids-and-flexbox-cheat-sheet">Grids and flexbox cheat
-sheet</h1>
+
+<h4>Grids and flexbox cheat sheet</h4>
+
 <p>Note: ‘|’ stands for alternatives or OR.</p>
 
 <h4>Grid </h4>
 
 <p>The syntax for creating a grid:</p>
-<p>1</p>
-<p>2</p>
-<p>3</p>
-<p>selector{</p>
-<p>    display: grid; /* or inline-grid */</p>
-<p>}</p>
-<p><img src="./images/image140.wmf" /></p>
-<p><img src="./images/image141.wmf" /></p>
+
+<pre>
+  selector{
+    display: grid; /* or inline-grid */
+  }
+</pre>
+
+&lt;img src="./images/image140.wmf" /&gt;
+&lt;img src="./images/image141.wmf" /&gt;
+
 <p>Grid shorthand consists of the following properties with default
 values:</p>
 <p><strong>grid</strong></p>
@@ -4675,7 +4678,9 @@ on a grid.</p>
 <p><strong>grid-row-end: row end position</strong></p>
 <p>This property determines the end row position an item is placed on a
 grid.</p>
-<h4 id="justification-and-alignment">Justification and alignment</h4>
+
+<h4>Justification and alignment</h4>
+
 <p><strong>justify-self: start | center | end | stretch</strong></p>
 <p>Determines how an item is positioned inside its aligned container in
 relation to the appropriate axis.</p>
@@ -4684,27 +4689,34 @@ relation to the appropriate axis.</p>
 <p><strong>place-self: start | stretch /* shorthand for two properties
 above */</strong></p>
 <p>This setting lets one align and justify an item within a block.</p>
-<p>Flexbox</p>
+
+<h4>Flexbox</h4>
 <p>The syntax for creating a flexbox:</p>
-<p>selector{</p>
-<p>    display: flex | inline-flex</p>
-<p>}</p>
-<p> </p>
+
+<pre>
+  selector{
+    display: flex | inline-flex
+  }
+</pre>
+
 <p>Here the selector can refer to any of the following flex
 attributes</p>
+
 <ul>
-<li>Attribute selector</li>
-<li>Class Selector</li>
-<li>ID Selector</li>
-<li>Type Selectors</li>
-<li>Universal Selectors</li>
+  <li>Attribute selector</li>
+  <li>Class Selector</li>
+  <li>ID Selector</li>
+  <li>Type Selectors</li>
+  <li>Universal Selectors</li>
 </ul>
+
 <p>The display relates to how you want the selector to be shown. Setting
 display to flex makes the given selector a flex box. Setting display to
 <strong>inline-flex</strong> makes the selector a flex box container
 while will be inline.</p>
-<h4 id="properties-for-flexbox-container">Properties for flexbox
-container</h4>
+
+<h4>Properties for flexbox container</h4>
+
 <p><strong>flex-direction: row | row-reverse | column |
 column-reverse</strong></p>
 <p>It is possible to specify the direction your elements will follow.
@@ -6808,8 +6820,9 @@ alignment and define the scope of text with their containers. </p>
 </table>
 <p>The properties mentioned are ones that can be used for giving effects
 to text. </p>
-<h1 id="css-transforms-and-transitions">CSS Transforms and
-transitions</h1>
+
+<h4>CSS Transforms and transitions</h4>
+
 <p>So far, you have learned how animation can be used to add
 interactivity and responsiveness to a web page.</p>
 <p>Eventually, you'll be able to create amazing animations with CSS.</p>
@@ -7378,7 +7391,7 @@ with CSS.</p>
 <p>But CSS animations and keyframes are quite powerful.</p>
 <p>Try challenging yourself and see what animations you can build.</p>
 
-<h1>Animation and effects cheat sheet</h1>
+<h4>Animation and effects cheat sheet</h4>
 
 <p>Transform property</p>
 
@@ -7622,7 +7635,7 @@ skipped will be assigned their default values.</p>
   }
 </pre>
 
-<h2>Preprocessors: sass, scss, Stylus</h2>
+<h3>Preprocessors: sass, scss, Stylus</h3>
 
 <h4>Preprocessors: sass, scss</h4>
 
@@ -9289,7 +9302,9 @@ device that you'll use to do course exercises.</p>
 select Open Folder. Using the file browser, select the
 folder you just created.</p>
 <p>Congratulations, you're set up now to begin writing some code.</p>
-<h1 id="planning-the-user-experience">Planning the user experience</h1>
+
+<h4>Planning the user experience</h4>
+
 <p>A key part of building a website, is to ensure both a good user
 interface and a good user experience.</p>
 <p>But what's the difference between those two and what makes them good
