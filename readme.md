@@ -31,7 +31,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 
 <h4>Prerequisites</h4>
 
-To take this course, you don\'t need any developer experience, but you
+To take this course, you don&apos;t need any developer experience, but you
 must be eager to get started with coding.
 
 <h2>Module 1</h2>
@@ -39,14 +39,14 @@ must be eager to get started with coding.
 In the first module, you will start with an introduction to the course
 and gain insight into what your career path as an HTML and CSS developer
 might look like. You will also receive tips on how to take this course
-successfully. Then, you\'ll move on to semantic tags and the importance
+successfully. Then, you&apos;ll move on to semantic tags and the importance
 of taking a structured approach to creating a well-formed web page.
 After which you will learn about metadata and tags and how you can use
-them to influence your web page\'s ranking through Search Engine
+them to influence your web page&apos;s ranking through Search Engine
 Optimization (SEO). Following this section, you will learn about user
 input and forms and you will create and test a form by yourself. In the
 final part of the module, you will learn about media elements and
-you\'ll learn how to embed video and audio on a web page. 
+you&apos;ll learn how to embed video and audio on a web page. 
 
 After completing this module (1), you should be able to:
 
@@ -100,11 +100,11 @@ After completing this module (3), you should be able to:
 <h2>Course Introduction</h2>
 
 Perhaps you know a little about HTML and CSS from another course you
-did, or perhaps you don\'t know much at all.
+did, or perhaps you don&apos;t know much at all.
 
 Either way, a quick summary will be useful.
 
-Let\'s explore some basic HTML and CSS principles and practices.
+Let&apos;s explore some basic HTML and CSS principles and practices.
 
 HTML stands for Hypertext Markup Language.
 
@@ -138,7 +138,7 @@ up an HTML document.
 These elements form the structure of a webpage and describe what to
 display to the web browser.
 
-When it comes to HTML, it\'s important to know about the purpose of HTML
+When it comes to HTML, it&apos;s important to know about the purpose of HTML
 in the web browser.
 
 The use of HTML tags and correct syntax, and how HTML elements are used
@@ -158,7 +158,7 @@ HTML can assist in ensuring web accessibility by supporting the
 technology people with disabilities use to interact with and understand
 websites.
 
-Another important concept to know about when you\'re talking about HTML
+Another important concept to know about when you&apos;re talking about HTML
 is the Document Object Model or DOM.
 
 Users need to be able to interact with elements on a web page.
@@ -166,14 +166,14 @@ Users need to be able to interact with elements on a web page.
 This means that HTML document must be represented in a way that
 JavaScript code can query and update it.
 
-That\'s the function of the DOM.
+That&apos;s the function of the DOM.
 
-It\'s a model of the objects in your HTML file.
+It&apos;s a model of the objects in your HTML file.
 
 Web developers interact with the DOM through JavaScript to update
 content, set up events and animate HTML elements.
 
-Now that you\'ve covered the basics of HTML, let\'s move on to CSS or
+Now that you&apos;ve covered the basics of HTML, let&apos;s move on to CSS or
 Cascading Style Sheets.
 
 If HTML is the frame and structure of a building, then CSS is the paint,
@@ -207,13 +207,13 @@ But how do you describe the meaning of a web page?
 To understand this in a real-world context, think of buttons in an
 elevator.
 
-The vertical arrangement of buttons isn\'t enough for someone to
+The vertical arrangement of buttons isn&apos;t enough for someone to
 understand their meaning.
 
 To convey the meaning or semantics of the button, numbers are added so
 that people know which button will take them to which floor.
 
-When you write HTML it\'s good practice to semantically describe the
+When you write HTML it&apos;s good practice to semantically describe the
 content.
 
 This allows search engines and accessibility software such as screen
@@ -240,7 +240,7 @@ sure that you create a well-formed web page.
 </p>
 <!-- ![](images/image006.png){width="5.0in" height="1.6068372703412073in"} -->
 
-Let\'s revisit the basic structure of an HTML page which includes the
+Let&apos;s revisit the basic structure of an HTML page which includes the
 head and body.
 
 Inside the body tag you can lay out the website with very semantic tags
@@ -310,16 +310,16 @@ Next is the main content of a web page.
 The two key semantic elements for your main content are the article and
 section elements.
 
-First let\'s examine the article element.
+First let&apos;s examine the article element.
 
 The HTML specification states that according to the World Wide Web
-Consortium\'s website, the article element indicates content which
+Consortium&apos;s website, the article element indicates content which
 represents a complete.
 
 Or self-contained composition in a document page application or site
 that is independently distributable.
 
-That\'s quite a mouthful.
+That&apos;s quite a mouthful.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -341,11 +341,11 @@ Examples; forum post, magazine or newspaper article, a blog entry, user
 submitted comment, interactive widget or gadget, or any independent item
 of content.
 
-Let\'s examine how the article element is used say you are developing a
+Let&apos;s examine how the article element is used say you are developing a
 blog about your summer holiday.
 
-It\'s good practice to contain the blog post content inside of the
-article element because it\'s a complete self-contained composition on a
+It&apos;s good practice to contain the blog post content inside of the
+article element because it&apos;s a complete self-contained composition on a
 web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -359,8 +359,8 @@ web page.
 
 You should place the article element within the main element.
 
-Then add your regular heading \<h2\> and paragraph \<p\> tags within the
-article element.\
+Then add your regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags within the
+article element.
 The reason for doing it this way is because the main element
 semantically represents the main content of the page.
 
@@ -386,7 +386,7 @@ structure.
 Since their purpose is to describe the semantics of the content, the
 elements can be nested inside of each other.
 
-If it accurately describes the content, let\'s update the previous
+If it accurately describes the content, let&apos;s update the previous
 example to use a nested semantic structure.
 
 You add a header element to the article element, inside the header
@@ -395,7 +395,7 @@ element describing the date and author of the blog post.
 
 Inside the main element at the content of the blog post.
 
-That\'s it, let\'s examine the section element.
+That&apos;s it, let&apos;s examine the section element.
 
 You can add a section element to semantically define individual sections
 of the article.
@@ -427,7 +427,7 @@ contents of your well-formed web page.
 <h4>Semantic tags in action</h4>
 
 The Little Lemon Restaurant has asked me to add a new blog page to their
-website. They\'ve told me that the page will contain several blog posts,
+website. They&apos;ve told me that the page will contain several blog posts,
 and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -440,7 +440,7 @@ accessibility software can understand the semantics of the page.
 </p>
 <!-- ![](images/image015.png){width="4.0in" height="2.4551279527559053in"} -->
 
-I\'ve set up my basic html document structure in a file named blog.html.  I\'ll start off by adding my basic semantic structure.
+I&apos;ve set up my basic html document structure in a file named blog.html.  I&apos;ll start off by adding my basic semantic structure.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -507,7 +507,7 @@ the file.
 The blog page looks good and all thanks to proper semantic design that
 ensures accessibility and search engine optimization.
 
-I\'m sure that the Little Lemon Restaurant will get lots of business
+I&apos;m sure that the Little Lemon Restaurant will get lots of business
 through their blog, and their customers with disabilities will be able
 to access the blog with no problems
 
@@ -548,9 +548,9 @@ While your website might be the number one result for one search term, it could 
 
 Every search engine has its own algorithm for ranking websites.
 
-And while it\'s not disclosed how the ranks are determined, there are many best practices you can follow to influence how search engines analyze and rank your website.
+And while it&apos;s not disclosed how the ranks are determined, there are many best practices you can follow to influence how search engines analyze and rank your website.
 
-But for now, let\'s just focus on how meta tags influence website ranking.
+But for now, let&apos;s just focus on how meta tags influence website ranking.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags and metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -563,7 +563,7 @@ But for now, let\'s just focus on how meta tags influence website ranking.
 
 Meta tags define metadata about a web page.
 
-What is metadata? You ask? It\'s data about other data which in this
+What is metadata? You ask? It&apos;s data about other data which in this
 case is data about the web page.
 
 Meta tags are added inside the head element of your html document and as
@@ -596,7 +596,7 @@ The meta element has two attributes, name and content.
 The name attribute specifies the name of the metadata and the content
 attribute specifies the value of the metadata.
 
-Let\'s examine some examples of metadata.
+Let&apos;s examine some examples of metadata.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. author metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -645,7 +645,7 @@ However, this led to a lot of websites using the keywords metadata to
 manipulate search rankings.
 
 One of the major search engines now ignores this metadata and another
-uses keywords metadata as a spam indicator because of this, it\'s
+uses keywords metadata as a spam indicator because of this, it&apos;s
 recommended not to include this metadata in modern web pages.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -658,7 +658,7 @@ recommended not to include this metadata in modern web pages.
 </p>
 <!-- ![](images/image024.png){width="6.0in" height="2.388461286089239in"} -->
 
-Another type of metadata is the robot\'s metadata and it tells search
+Another type of metadata is the robot&apos;s metadata and it tells search
 engines if and how they should analyze your web page.
 
 The name 'robots' comes from the automated software often referred to as
@@ -676,9 +676,9 @@ bots, that search engines used to analyze websites.
 The content attribute for Robots has four possible values. <i>Index</i> tells
 the bot to analyze the page. <i>Follow</i> tells the bot to also visit all
 links on the web page. <i>No index</i> tells the bot not to analyze the page.
-Some bots will ignore this so it\'s best not to rely on this to stop
+Some bots will ignore this so it&apos;s best not to rely on this to stop
 bots from analyzing your page and <i>no follow</i> tells the bot not to visit
-links on the web page. Again, some bots will ignore this value so it\'s
+links on the web page. Again, some bots will ignore this value so it&apos;s
 best not to rely on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -690,7 +690,7 @@ best not to rely on it.
 </p>
 <!-- ![](images/image026.png){width="6.0in" height="2.1801279527559054in"} -->
 
-Finally, there\'s the <i>view ports</i> metadata. The <i>view port</i> metadata is
+Finally, there&apos;s the <i>view ports</i> metadata. The <i>view port</i> metadata is
 important when designing responsive web pages. Why you might ask. Because
 when a web pages is viewed on a phone or tablet, the device will by default
 attempt to render the web page as if it is being viewed on a desktop.
@@ -698,15 +698,15 @@ This results in a poor browsing experience for the user.
 
 The solution is to define <i>view ports</i> metadata. 
 
-There are many values available for <i>view ports</i> metadata. The most used value for the mobile experiences is to set the width to device dash with and the initial scale to 1.0, you can learn more about view ports in the additional reading. It\'s important to note that view port metadata does not solve all the issues with browsing websites on mobile devices.
+There are many values available for <i>view ports</i> metadata. The most used value for the mobile experiences is to set the width to device dash with and the initial scale to 1.0, you can learn more about view ports in the additional reading. It&apos;s important to note that view port metadata does not solve all the issues with browsing websites on mobile devices.
 
 The other part of the solution is responsive web design.
 
-But we were talking about search engine optimization, right? View port metadata is important for the user experience and it\'s also important for search engine optimization.
+But we were talking about search engine optimization, right? View port metadata is important for the user experience and it&apos;s also important for search engine optimization.
 
 This is because many search engines now include websites mobile experience as a part of their ranking algorithms, there is more metadata that you can define on you web page to specifically improve its presence on social media.
 
-But that\'s for later modules.
+But that&apos;s for later modules.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 27. metadata in bare bones layout (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -718,7 +718,7 @@ But that\'s for later modules.
 </p>
 <!-- ![](images/image027.png){width="1.1618055555555555in" height="3.0in"} -->
 
-For now, it\'s important to know that author, description, keywords,
+For now, it&apos;s important to know that author, description, keywords,
 robots and viewports metadata all play a role in the search engine
 optimization of web pages.
 
@@ -727,17 +727,17 @@ optimization of web pages.
 An important part of being a developer is not just the tools you use,
 such as your integrated development environment, but also the repository
 of knowledge and code templates you build up over time. In this module,
-I\'m going to introduce you to one of these templates, which will help
-you get set up quickly for building webpages. Let\'s open Visual Studio
+I&apos;m going to introduce you to one of these templates, which will help
+you get set up quickly for building webpages. Let&apos;s open Visual Studio
 Code to go through the templates step-by-step. In the folder, we have
 <b><i>index.html</i></b> along with the JS folder and a CSS folder. Inside the
-JS folder, there\'s a file named <b><i>script.js</i></b>. There is no content in
+JS folder, there&apos;s a file named <b><i>script.js</i></b>. There is no content in
 this file. It is added to this folder so that you can easily add
 JavaScript code to the webpage. I recommend that you add any other
-JavaScript files to this folder too. Next, I\'ll open the CSS folder. In
-the folder there\'s a file named <b><i>styles.css</i></b>. Again, there is no
+JavaScript files to this folder too. Next, I&apos;ll open the CSS folder. In
+the folder there&apos;s a file named <b><i>styles.css</i></b>. Again, there is no
 content in this file, but it is here so that you can easily add CSS
-rules to the webpage. Again, it\'s best if you add any other CSS files
+rules to the webpage. Again, it&apos;s best if you add any other CSS files
 also to this folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 28. semantic html document structure (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -758,7 +758,7 @@ element. Inside the root element, there are the head and body elements
 in the head element. The title and meta tags are already optimized for
 search engines. I recommend that you update the title along with the
 description and author meta tags. Below, are the Meta tags for the Open
-Graph Protocol. Don\'t worry about the details of these tags just yet as
+Graph Protocol. Don&apos;t worry about the details of these tags just yet as
 you learn about them in a later module.
 
 For now, the main thing to know is that if you plan on sharing the
@@ -796,7 +796,7 @@ By now you can probably see how useful this template is.
 </p>
 <!-- ![](images/image030.png){width="6.0in" height="3.4929483814523183in"} -->
 
-Let\'s continue to the body element. The body element already contains a
+Let&apos;s continue to the body element. The body element already contains a
 basic semantic structure. This includes the header element for your
 website title or logo, the nav element for your website navigation, the
 main element for your main content, and the footer element for any
@@ -813,12 +813,12 @@ copyright notices or links to secondary webpages.
 
 Below the footer element, you add script elements for JavaScript files.
 To make your life easy, a script element is already set up to reference
-the script.js file in the JS folder. With this template, you\'ll be able
-to quickly start building out webpages. It\'s worth keeping a copy of
+the script.js file in the JS folder. With this template, you&apos;ll be able
+to quickly start building out webpages. It&apos;s worth keeping a copy of
 this template on your local machine to use and reference in future
 projects.
 
-In this module, you\'ve been introduced to a semantic HTML template that
+In this module, you&apos;ve been introduced to a semantic HTML template that
 you can use for building webpages. Good luck.
 
 <h4>Layout design</h4>
@@ -927,7 +927,7 @@ family, and even with coworkers and business partners.
 When you share a link, most social networks generate a preview of the
 link to let users know what the linked webpage is about.
 
-Now that you\'re learning more about front end web development, you\'re
+Now that you&apos;re learning more about front end web development, you&apos;re
 probably wondering how social networks generate these previews.
 
 In this module, you will learn how Meta tags help webpages create
@@ -943,7 +943,7 @@ lesson.
 Traditional SEO Meta tags are oriented towards search results, not
 direct links.
 
-Facebook\'s rapid growth led to millions of people sharing thousands of
+Facebook&apos;s rapid growth led to millions of people sharing thousands of
 links every day.
 
 To improve the user experience, they had to find a way to display
@@ -965,7 +965,7 @@ The Open Graph Protocol is a set of Metadata rules that allow web pages to
 describe themselves to social networks.
 
 There are many Metadata options available within the protocol, but
-before you learn about them, let\'s first discuss how the Open Graph
+before you learn about them, let&apos;s first discuss how the Open Graph
 Protocol Metadata is defined.
 
 Earlier in this lesson, you learned that Meta tags are defined inside of
@@ -1021,7 +1021,7 @@ The title of the post is the og:title, the blog post URL is the og:url,
 and the image that displays is the og:image.
 
 There are several other optional properties that you will learn more
-about later. But let\'s briefly explore three of these.
+about later. But let&apos;s briefly explore three of these.
 
 The description property provides a description of the webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1035,7 +1035,7 @@ The description property provides a description of the webpage.
 <!-- ![](images/image039.png){width="4.0in" height="1.2213681102362204in"} -->
 
 The og:locale property describes the language and territory of the
-webpage\'s content.
+webpage&apos;s content.
 
 For example, en_US specifies that the page is in English and the locale
 is the United States.
@@ -1043,12 +1043,12 @@ is the United States.
 The og:site_name property describes the name of the overall website that
 the webpage belongs to.
 
-You\'ve now learned how to use Metadata to describe web pages so that
+You&apos;ve now learned how to use Metadata to describe web pages so that
 social networks can improve user experience by previewing shared
 content.
 
 Next time you share a website on a social network, you can use what
-you\'ve learned about Open Graph Protocol properties to generate more
+you&apos;ve learned about Open Graph Protocol properties to generate more
 clicks.
 
 <h4>Social media cards</h4>
@@ -1123,10 +1123,10 @@ campaign.
 So, the owners of the restaurant asked me to make sure that the website
 is ready to be shared on different social media platforms.
 
-Now let\'s examine how to prepare a web page so it can be linked on
+Now let&apos;s examine how to prepare a web page so it can be linked on
 social media platforms.
 
-I\'ve opened index.html in visual studio code.
+I&apos;ve opened index.html in visual studio code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. meta template for index.html (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1150,7 +1150,7 @@ I then add the content attribute and set its value to our menu.
 This metadata is the title that will be displayed in the preview on the
 social media platform.
 
-It\'s important to note that this value should reflect the content of
+It&apos;s important to note that this value should reflect the content of
 the individual web page and not the website as a whole.
 
 On the second meta tag, I add the property attributes and set its value
@@ -1183,7 +1183,7 @@ The web page is now ready to be shared on social media platforms.
 However, there is some optional metadata I can add to provide additional
 information to the platforms.
 
-Since the platforms vary in what they display to their users, it\'s best
+Since the platforms vary in what they display to their users, it&apos;s best
 to provide as much information as possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 41. more meta tags for head element in index.html (xx) ~~~~~~~~~~~~-->
@@ -1195,7 +1195,7 @@ to provide as much information as possible.
 </p>
 <!-- ![](images/image041.png){width="5.0in" height="2.775107174103237in"} -->
 
-I\'ll add three more meta tags to the head element.
+I&apos;ll add three more meta tags to the head element.
 
 On the first tag, I had the property attribute and set its value to og:description.
 
@@ -1229,7 +1229,7 @@ The Little Lemon website is now ready for its big social media campaign.
 
 Hopefully, this will lead to lots of new customers.
 
-In this module, you\'ve explored a practical example of how to add open
+In this module, you&apos;ve explored a practical example of how to add open
 graph protocol metadata.
 
 You should now know how to add the four required meta tags title, type,
@@ -1261,16 +1261,16 @@ in this section.
 
 <h4>Forms and validation</h4>
 
-You\'ve most likely encountered forms when registering an account on a
-website, or when filling out your address for something you\'ve bought
+You&apos;ve most likely encountered forms when registering an account on a
+website, or when filling out your address for something you&apos;ve bought
 online.
 
-As a developer, you\'ll use HTML forms to capture user input.
+As a developer, you&apos;ll use HTML forms to capture user input.
 
 Capturing input is one thing, but the form also needs to ensure the data
 is usable. How can you ensure the user input is valid?
 
-For example, let\'s say you are building an online food delivery
+For example, let&apos;s say you are building an online food delivery
 website.
 
 Say a user accidentally makes an error when entering the delivery
@@ -1310,7 +1310,7 @@ On the other hand, server-side validation checks for errors after the
 data has been submitted to the web server.
 
 Server-side validation is more secure because it prevents malicious
-users from tampering with your website\'s code and submitting invalid
+users from tampering with your website&apos;s code and submitting invalid
 data to your server.
 
 When the form data is received by the web server, the backend will
@@ -1324,7 +1324,7 @@ Most websites use both client-side and server-side validation to provide
 immediate feedback to users, but also to protect against malicious data
 submission and to ensure data integrity.
 
-Let\'s examine how HTML allows you to do simple client-side validation.
+Let&apos;s examine how HTML allows you to do simple client-side validation.
 
 HTML has several input types that are validated by the web browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1339,10 +1339,10 @@ HTML has several input types that are validated by the web browser.
 
 As demonstrated in the example, email is used for email addresses.
 
-Others include \"tel\" for telephone numbers, \"url\" for URLs such as
-www.data.com, \"date\" for date values, \"time\" for time values,
-\"number\" for numeric values, \"range\" for numeric values which have a
-minimum and maximum value, and \"color\" for color selection.
+Others include &quot;tel&quot; for telephone numbers, &quot;url&quot; for URLs such as
+www.data.com, &quot;date&quot; for date values, &quot;time&quot; for time values,
+&quot;number&quot; for numeric values, &quot;range&quot; for numeric values which have a
+minimum and maximum value, and &quot;color&quot; for color selection.
 
 Say for instance, a user makes mistakes on a user account form when
 entering a telephone number and URL, the browser will validate the
@@ -1363,9 +1363,9 @@ must supply a value to an input field.
 
 The web browser will alert a user if a required value is outstanding.
 
-That\'s the basics of client and server-side validation of forms.
+That&apos;s the basics of client and server-side validation of forms.
 
-You\'ll learn more about HTML validation capabilities in the next
+You&apos;ll learn more about HTML validation capabilities in the next
 reading.
 
 <h4>Input types</h4>
@@ -1379,10 +1379,10 @@ practices.
 <h4>Button</h4>
 
 This displays a clickable button and it's mostly used in HTML forms to
-activate a script when clicked. </b>\<input type=\"button\" value=\"Click
-me\" onclick=\"msg()\" /\></b>
+activate a script when clicked. </b>&lt;input type=&quot;button&quot; value=&quot;Click
+me&quot; onclick=&quot;msg()&quot; /&gt;</b>
 
-Keep in mind you can also define buttons with the <b>\<button\></b> tag,
+Keep in mind you can also define buttons with the <b>&lt;button&gt;</b> tag,
 with the added benefit of being able to place content like text or
 images inside the tag.
 
@@ -1416,7 +1416,7 @@ number of choices.
 Displays a radio button, allowing only a single value to be selected out
 of multiple choices. They are normally presented in radio groups, which
 is a collection of radio buttons describing a set of related options
-that share the same \"name\" attribute.
+that share the same &quot;name&quot; attribute.
 
 ```
   <input type="radio" id="light" name="theme" value="Light">
@@ -1432,7 +1432,7 @@ that share the same \"name\" attribute.
 
 Displays a submit button for submitting all values from an HTML form to
 a form-handler, typically a server. The form-handler is specified in the
-form's \"action\" attribute:
+form's &quot;action&quot; attribute:
 
 ```
   <form action="myserver.com" method="POST">
@@ -1501,8 +1501,8 @@ to the server.
 
 Displays a control that lets the user select and upload a file from
 their computer. To define the types of files permissible you can use the
-\"accept\" attribute. Also, to enable multiple files to be selected, add
-the \"multiple\" attribute.
+&quot;accept&quot; attribute. Also, to enable multiple files to be selected, add
+the &quot;multiple&quot; attribute.
 
 ```
   <label for="myfile">Select a file:</label>
@@ -1587,7 +1587,7 @@ no time zone.
 
 Defines a control for entering a telephone number. Browsers that do not
 support "tel" fall back to standard text input. You can optionally use
-the \"pattern\" field to perform validation.
+the &quot;pattern&quot; field to perform validation.
 
 ```
   <label for="phone">Enter your phone number:</label>
@@ -1651,7 +1651,7 @@ user accounts on the Little Lemon website.
 </p>
 <!-- ![](images/image044.png){width="5.0in" height="3.0in"} -->
 
-I\'ve set up my basic HTML document structure in a file named,
+I&apos;ve set up my basic HTML document structure in a file named,
 signup.html.
 
 I start off by adding the form element.
@@ -1666,7 +1666,7 @@ You will learn more about different methods of form submission later.
 For now, you just need to know that if you send a form via an HTTP post
 request, it improves the data security of the form.
 
-The restaurant wants to collect the customer\'s first name, last name,
+The restaurant wants to collect the customer&apos;s first name, last name,
 and email address.
 
 Of course, the form also needs a field for the password, and another to
@@ -1674,15 +1674,15 @@ confirm the password.
 
 I need to create a form with five fields in total.
 
-I\'ll start by adding the input elements, also known as the form fields.
+I&apos;ll start by adding the input elements, also known as the form fields.
 
-First, I\'ll set up six div elements, one for each input element, and
+First, I&apos;ll set up six div elements, one for each input element, and
 one for the sign up button.
 
 The div elements will cause each field of the form to display in its own
 CSS block.
 
-Now, I\'ll start adding the input elements.
+Now, I&apos;ll start adding the input elements.
 
 I add an input element for the first name to the first div element.
 
@@ -1694,7 +1694,7 @@ I also set the name and id attributes to user_first_name.
 Remember that the name attribute sets the key for the value submitted to
 the web server.
 
-Later in this module, I\'ll explain why I set the ID attribute.
+Later in this module, I&apos;ll explain why I set the ID attribute.
 
 Next, I add an input element for the last name.
 
@@ -1706,7 +1706,7 @@ I then add an input element for the email address.
 To make sure users enter a valid email address in this field, I set the
 type attribute to email.
 
-Earlier you learned that doing so establishes HTML\'s client-side
+Earlier you learned that doing so establishes HTML&apos;s client-side
 validation.
 
 I also set the name and ID attributes to user_email.
@@ -1738,7 +1738,7 @@ I save the file and open the Live Preview to check the webpage.
 
 Everything displays correctly.
 
-However, I\'d like to improve the user experience by informing the user
+However, I&apos;d like to improve the user experience by informing the user
 what each field represents.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 45. add label element before each input (xx) ~~~~~~~~~~~~-->
@@ -1750,7 +1750,7 @@ what each field represents.
 </p>
 <!-- ![](images/image045.png){width="5.0in" height="3.115918635170604in"} -->
 
-To do this, I\'ll add a label element before each input element.
+To do this, I&apos;ll add a label element before each input element.
 
 Now I want to explain why I set the ID attribute for each input field
 earlier in the module.
@@ -1772,7 +1772,7 @@ Then, to associate the label with the input field, I add the four
 attribute and set its value to match the value of the ID attribute of
 the input element.
 
-Finally, I\'ll add a line break tag after the label element so that the
+Finally, I&apos;ll add a line break tag after the label element so that the
 input field displays below the label. I then repeat the same process for
 each input element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1787,7 +1787,7 @@ each input element.
 
 I save the file again and open the Live Preview.
 
-Oh, yes, that\'s much better.
+Oh, yes, that&apos;s much better.
 
 The form labels now display above the input fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1824,7 +1824,7 @@ Good luck with creating your own signup forms.
 
 Making the most of client-side validation
 
-Have you ever completed a form online and then after you\'ve clicked on
+Have you ever completed a form online and then after you&apos;ve clicked on
 the submit button, one of the fields turned red?
 
 There are many reasons for error messages when you complete online
@@ -1838,7 +1838,7 @@ In this section, you will learn more about the capabilities of
 client-side validation in HTML and how to use CSS to effectively alert
 users when data is incorrect.
 
-By now you\'ve learned about the different HTML input types and how they
+By now you&apos;ve learned about the different HTML input types and how they
 validate the format of data, but there are additional attributes that
 you can apply to elements for further validation.
 
@@ -1852,20 +1852,20 @@ you can apply to elements for further validation.
 </p>
 <!-- ![](images/image048.png){width="6.5in" height="2.2104166666666667in"} -->
 
-First, let\'s explore how you can ensure that the user provides a value
+First, let&apos;s explore how you can ensure that the user provides a value
 to a form field. This example of a log-in form contains two fields, one
 for the username and one for the password.
 
 It also contains a submit button to submit the form.
 
-If a user hasn\'t added a username or password and clicks the \"Submit\"
+If a user hasn&apos;t added a username or password and clicks the &quot;Submit&quot;
 button, the browser will allow the form to submit to the web server.
 
 But this is a waste of server resources because although the server-side
 validation will pick up the missing information and prevent the
 processing of the request, a HTTP request was still submitted.
 
-Let\'s improve this form by using client-side validation to ensure the
+Let&apos;s improve this form by using client-side validation to ensure the
 user enters values to both fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 49.  (xx) ~~~~~~~~~~~~-->
@@ -1900,7 +1900,7 @@ web server.
 Another way to validate user input is to specify the required length for
 data.
 
-Let\'s say you want the usernames to be at least three characters long
+Let&apos;s say you want the usernames to be at least three characters long
 and a maximum of 12 characters, or maybe you want to ensure more secure
 passwords by requiring a minimum password length of five characters.
 
@@ -1929,7 +1929,7 @@ on screen.
 Again, a much better user experience and management of web server
 resources.
 
-Now let\'s focus on the way the browser communicates errors to the
+Now let&apos;s focus on the way the browser communicates errors to the
 users, like a form field that turns red when the data is invalid.
 
 This can be readily implemented using CSS.
@@ -2000,11 +2000,11 @@ use even more advanced techniques to improve form validation.
 Visual Studio Code on Coursera
 
 In addition to having Visual Studio Code installed on your own computer,
-in this course and throughout this program, you\'ll have the opportunity
+in this course and throughout this program, you&apos;ll have the opportunity
 to work in Visual Studio Code right here on Coursera!
 
-As you progress through the course, you\'ll be able to write code in
-hands-on activities called <b>Labs</b>. In these labs you\'ll be able to
+As you progress through the course, you&apos;ll be able to write code in
+hands-on activities called <b>Labs</b>. In these labs you&apos;ll be able to
 open Visual Studio Code and start writing code without ever leaving the
 course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2046,7 +2046,7 @@ code!
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](images/image057.png){width="5.0in" height="2.674922353455818in"} 
 -->
 
-You\'ll see all the files for the lab in the Project folder in the left
+You&apos;ll see all the files for the lab in the Project folder in the left
 sidebar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~-->
@@ -2079,16 +2079,16 @@ file is the same for every Lab. There will also be an
 <b>instructions.md</b> file which provides specific instructions for each
 Lab.
 
-These files may look a little confusing at first. They\'re written using
+These files may look a little confusing at first. They&apos;re written using
 a language called Markdown. Markdown is just used to add formatting to
-text elements. Don\'t worry, you don\'t have to know anything about
-Markdown. If you open these files in <b>Preview</b> you\'ll just see the
-formatted output and they\'ll look totally normal.
+text elements. Don&apos;t worry, you don&apos;t have to know anything about
+Markdown. If you open these files in <b>Preview</b> you&apos;ll just see the
+formatted output and they&apos;ll look totally normal.
 
-You\'ll also likely see quite a few files and folders when you open in
-the Lab. Many of the files and folders you\'ll be able to ignore. To get
+You&apos;ll also likely see quite a few files and folders when you open in
+the Lab. Many of the files and folders you&apos;ll be able to ignore. To get
 started, look at the <b>instructions.md</b> file and it will explain which
-file or files you\'ll be working in.
+file or files you&apos;ll be working in.
 
 <b>Working in the Terminal</b>
 
@@ -2113,10 +2113,10 @@ device</b>
 
 1.  Select the <b>Lab Files</b> button in your Lab Toolbar.
 
-2.  You\'ll be able to download your full workspace, specific folders,
+2.  You&apos;ll be able to download your full workspace, specific folders,
     or individual files through the checkbox selection tool.
 
-3.  After you\'ve selected these files, use the <b>Download</b> link to
+3.  After you&apos;ve selected these files, use the <b>Download</b> link to
     download your files to your local device.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~-->
@@ -2132,7 +2132,7 @@ height="3.4154932195975505in"}
 
 How to upload local files to your Visual Studio Code Lab
 
-If you\'d like to upload your course files from your local device to
+If you&apos;d like to upload your course files from your local device to
 your Visual Studio Code lab, <b>drag and drop</b> your file from your local
 device into the Visual Studio Code file tree.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2150,9 +2150,9 @@ height="3.491418416447944in"}
 How to get a fresh copy of course-provided starter files
 
 Your work will be saved and persist within your Visual Studio Code lab
-while you are enrolled in the course. If you\'d like to get a fresh copy
+while you are enrolled in the course. If you&apos;d like to get a fresh copy
 of the original instructor-provided files at any time, you can do this
-through the <b>Lab Help</b> option in your Lab Toolbar. Don\'t worry - your
+through the <b>Lab Help</b> option in your Lab Toolbar. Don&apos;t worry - your
 original work and files will still remain in your lab until you
 personally remove or delete them, even when refreshing your files
 through the steps below.
@@ -2184,7 +2184,7 @@ Create and test a form (solution)
 
 The following code is an example solution for the previous exercise.
 
-This code is placed inside the \<main\> element of index.html.
+This code is placed inside the &lt;main&gt; element of index.html.
 
 ```
 <form>
@@ -2220,13 +2220,13 @@ While reviewing the code, note the following items:
 
 Radio buttons
 
-You\'ve surely booked something online before.
+You&apos;ve surely booked something online before.
 
 Perhaps it was tickets to a show or accommodation for a holiday.
 
 The ability to book things online is super convenient.
 
-That\'s one of the reasons why the Little Lemon restaurant is adding a
+That&apos;s one of the reasons why the Little Lemon restaurant is adding a
 table booking system to their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~-->
@@ -2255,7 +2255,7 @@ Radio buttons are ideal for this forum because they allow me to set up
 groups of options of which only one option and the group can be
 selected.
 
-Now, let\'s explore how to set up a HTML form with radio buttons.
+Now, let&apos;s explore how to set up a HTML form with radio buttons.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~-->
@@ -2267,11 +2267,11 @@ Now, let\'s explore how to set up a HTML form with radio buttons.
 </p>
 <!-- ![](images/image065.png){width="5.0in" height="3.546474190726159in"} -->
 
-I\'ve opened Visual Studio Code and added a new file called booking.html.
+I&apos;ve opened Visual Studio Code and added a new file called booking.html.
 
-I\'ve set up the basic HTML structure and added a form element.
+I&apos;ve set up the basic HTML structure and added a form element.
 
-First, I\'ll add to fieldset elements, one for the table size and one
+First, I&apos;ll add to fieldset elements, one for the table size and one
 for location.
 
 The fieldset element defines a group for the radio buttons.
@@ -2332,7 +2332,7 @@ value attribute to indoors.
 I then set the name attribute to location, matching the id of the second
 fieldset element.
 
-Since the indoor booking is the most common, I\'ll add the checked
+Since the indoor booking is the most common, I&apos;ll add the checked
 attribute to this input element so that it is selected by default.
 
 On the second input element, I set the type attribute to radio and the
@@ -2352,7 +2352,7 @@ Again, I set the name attribute to location.
 
 I save the file and open it in Live Preview. Success.
 
-The form is set up correctly. Let\'s test it.
+The form is set up correctly. Let&apos;s test it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~-->
@@ -2370,7 +2370,7 @@ option, my previous choice is deselected.
 The table location field behaves the same. I can only choose indoors or
 outdoors.
 
-However, I\'m testing this form on a laptop with a large screen.
+However, I&apos;m testing this form on a laptop with a large screen.
 
 On a mobile device with a way smaller screen, it may be difficult for
 the user to accurately select the small button elements.
@@ -2401,7 +2401,7 @@ A user will be able to select the button specifically.
 
 This form has a much better user experience now.
 
-In this module, you\'ve covered how to use radio buttons to create a
+In this module, you&apos;ve covered how to use radio buttons to create a
 simple online booking form.
 
 Hopefully, Little Lemon will get a lot more table bookings now.
@@ -2409,7 +2409,7 @@ Hopefully, Little Lemon will get a lot more table bookings now.
 Using interactive form elements
 
 Little Lemon restaurant is becoming very popular in their local area, so
-much so that they\'ve opened a second Little Lemon in another area
+much so that they&apos;ve opened a second Little Lemon in another area
 nearby.
 
 Because of this, they want to update the form of their table booking
@@ -2418,33 +2418,33 @@ system.
 In this module, you will learn how to add advanced HTML features to a
 form.
 
-They\'ve also added some new tables to the restaurant.
+They&apos;ve also added some new tables to the restaurant.
 
-They\'ve also asked to replace the table size field with a field for the
+They&apos;ve also asked to replace the table size field with a field for the
 number of people and to remove the table location field.
 
 Finally, they want customers to be able to choose which restaurant they
 want to book at.
 
-The owners have told me that they\'re hoping for continued success and
+The owners have told me that they&apos;re hoping for continued success and
 growth of the business, and so I should plan for more restaurant
 locations to be added.
 
 I opened booking.html in Visual Studio Code.
 
-I\'ll start by deleting the previous table and location fields.
+I&apos;ll start by deleting the previous table and location fields.
 
-I then add three div elements for the new fields. Next, I\'ll add the
+I then add three div elements for the new fields. Next, I&apos;ll add the
 field for the booking date.
 
-Luckily, HTML provides a built-in field type called date that\'ll
+Luckily, HTML provides a built-in field type called date that&apos;ll
 present a calendar to the customer when the field is clicked.
 
 To add this, I add an input element to the first div element and set its
 type attribute to date. I also set the ID and name attributes to
 booking_date.
 
-To provide a good user experience, I\'ll add a label element before the
+To provide a good user experience, I&apos;ll add a label element before the
 input element.
 
 Inside the label element, I add the text description, booking date.
@@ -2453,10 +2453,10 @@ I also add the for attribute and set its value to booking_table so that
 accessibility software can describe the purpose of the input field to
 its users.
 
-Next, I\'ll add the field for the number of people.
+Next, I&apos;ll add the field for the number of people.
 
 The restaurant has told me that the maximum booking is 10 people, so
-I\'ll use the range input type.
+I&apos;ll use the range input type.
 
 The range type allows me to specify the minimum and maximum values of
 the field.
@@ -2477,12 +2477,12 @@ element and set its content to number of people.
 
 I then set the for attribute to booking_people.
 
-Now, I\'ll add the new location field.
+Now, I&apos;ll add the new location field.
 
 The restaurant currently has two locations, but they said they might add
 more later.
 
-To allow for expansion later, I\'ll use a data list, input type.
+To allow for expansion later, I&apos;ll use a data list, input type.
 
 The data list input type allows me to specify a list of available
 options that will appear in a drop-down list.
@@ -2544,7 +2544,7 @@ You should now be able to add a calendar, create a slider with values,
 and add a datalist that allows users to either select an option from the
 drop-down list or by typing their option.
 
-With the continued success of Little Lemon, I\'m sure I\'ll be updating
+With the continued success of Little Lemon, I&apos;m sure I&apos;ll be updating
 this form again in the near future.
 
 <h4>Form submission</h4>
@@ -2573,7 +2573,7 @@ a HTTP request response cycle.
 This means that the web browser sends requests to the web server, and
 the web server sends back a response.
 
-Up to now, the main type of requests you\'ve been introduced to were for
+Up to now, the main type of requests you&apos;ve been introduced to were for
 resources such as HTML documents, images, CSS files, and JavaScript
 files.
 
@@ -2597,7 +2597,7 @@ the HTTP GET method or the HTTP POST method.
 You can specify which method the form should use with the method
 attribute of the form element.
 
-Let\'s examine an example form and see how the data can be sent using
+Let&apos;s examine an example form and see how the data can be sent using
 the two different methods.
 
 This login form, excepts a username and password.
@@ -2647,7 +2647,7 @@ from the URL.
 While this is an easy way to submit data, it has three key problems.
 
 First, the length of a URL is limited to around 2,000 characters
-depending on the web browser you\'re using.
+depending on the web browser you&apos;re using.
 
 Some web browsers allow more, but there are inconsistencies between
 browsers.
@@ -2668,10 +2668,10 @@ Since the data is included as part of the URL, it means that your data
 is stored in your web browser history and possibly in the request logs
 on the web server.
 
-If you\'re transmitting personal information such as addresses or credit
+If you&apos;re transmitting personal information such as addresses or credit
 card numbers, this is a major privacy and security risk.
 
-Now, let\'s focus on how the form would work if we set the method
+Now, let&apos;s focus on how the form would work if we set the method
 attribute to post.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. form data method attribute post (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2776,7 +2776,7 @@ The form will default to the HTTP GET method when the method attribute
 is not provided.
 
 As you may already know, when the form is submitted using the HTTP GET
-method, the data in the form\'s fields are encoded in the URL. And when
+method, the data in the form&apos;s fields are encoded in the URL. And when
 the form is submitted using the HTTP POST method, the data is sent as
 part of the HTTP request body.
 
@@ -2819,7 +2819,7 @@ This makes the creation of a consistent user experience challenging.
 In this module, you will explore how form elements displayed differently
 on various web browsers and how to solve this problem.
 
-First, let\'s focus on the most common form element, the input elements.
+First, let&apos;s focus on the most common form element, the input elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 75. input type text value "username" (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2850,7 +2850,7 @@ border on regular corners.
 </p>
 <!-- ![](images/image076.png){width="5.0in" height="2.58707239720035in"} -->
 
-Next, let\'s explore the checkbox input type.
+Next, let&apos;s explore the checkbox input type.
 
 Again, the exact same input type HTML code, will let the checkbox
 displayed differently in a checked and unchecked state in different
@@ -2863,10 +2863,10 @@ different shade of blue.
 Also notice how the border of the checkbox varies between each web
 browser.
 
-Safari\'s checkbox is also smaller than the other.
+Safari&apos;s checkbox is also smaller than the other.
 
-Now that you\'ve explored how HTML form elements can appear
-inconsistently across different web browsers, let\'s focus on how to
+Now that you&apos;ve explored how HTML form elements can appear
+inconsistently across different web browsers, let&apos;s focus on how to
 solve this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 77. input type text and email with css (68) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2887,7 +2887,7 @@ your element is styled consistently across web browsers.
 For example, you can use elements selectors to select a different
 element types and apply CSS properties to them.
 
-It\'s also possible to study the individual input types using CSS rules.
+It&apos;s also possible to study the individual input types using CSS rules.
 
 You can add a CSS rule using the element selector.
 
@@ -2922,8 +2922,8 @@ can ensure consistency with CSS rules.
 
 <h4>Glossary: HTML form elements</h4>
 
-The <b>\<form\></b> element in HTML is an important and useful element. The
-following sheet provides an overview of the <b>\<form\></b> constituent
+The <b>&lt;form&gt;</b> element in HTML is an important and useful element. The
+following sheet provides an overview of the <b>&lt;form&gt;</b> constituent
 elements and their common attributes with simple examples for quick
 reference.
 
@@ -2965,10 +2965,10 @@ Note how the type <b>password</b> hides the user input.
 
 <h4>&lt;label&gt;</h4>
 
-Defines a label for an element. It has an attribute \"for\", the value
+Defines a label for an element. It has an attribute &quot;for&quot;, the value
 of which should be equal to the id attribute of the element it is
-associated with. Note how in the example above, the <b>\<label\></b> is
-associated with the <b>\<input\></b> using its id value.
+associated with. Note how in the example above, the <b>&lt;label&gt;</b> is
+associated with the <b>&lt;input&gt;</b> using its id value.
 
 <h4>&lt;select&gt;</h4>
 
@@ -2987,9 +2987,9 @@ couple of attributes:
 
 -   Size mentions the number of visible options in a drop-down list
 
--   The options in a drop-down list are defined using the <b>\<option\></b>
-    element inside <b>\<select\></b>. Note the example in the
-    <b>\<option\></b> description below.
+-   The options in a drop-down list are defined using the <b>&lt;option&gt;</b>
+    element inside <b>&lt;select&gt;</b>. Note the example in the
+    <b>&lt;option&gt;</b> description below.
 
 <h4>&lt;textarea&gt;</h4>
 
@@ -3015,8 +3015,8 @@ longer textual data. The common attributes for this element include:
     200 characters:
 
 ```
-  <textarea name="response" rows="10" cols="30" maxlength="200">
-  </textarea>
+  &lt;textarea name="response" rows="10" cols="30" maxlength="200"&gt;
+  &lt;/textarea&gt;
 ```
 
 <h4>&lt;button&gt;</h4>
@@ -3026,8 +3026,8 @@ behavior when the button is clicked by the user. For example, in the
 code below, an alert message is shown to the user.
 
 ```
-  <button type="button" onclick="alert('You just clicked!')">Click Me!
-  </button>
+  &lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
+  &lt;/button&gt;
 ```
 
 <h4>&lt;fieldset&gt;</h4>
@@ -3038,9 +3038,9 @@ can be grouped separately in two field sets.
 
 <h4>&lt;legend&gt;</h4>
 
-Defines a caption for the <b>\<fieldset\></b> element. For example:
+Defines a caption for the <b>&lt;fieldset&gt;</b> element. For example:
 
-```
+<pre>
   <fieldset>
     <legend>Personal Info</legend> 
     <label for="fname">First name:</label><br> 
@@ -3055,12 +3055,12 @@ Defines a caption for the <b>\<fieldset\></b> element. For example:
     <label for="fos">Last name:</label><br> 
     <input type="text" id="fos" name="field" value="Psychology"><br> 
   </fieldset> 
-```
+</pre>
 
 <h4>&lt;datalist&gt;</h4>
 
 Specifies a list of pre-defined options for an input element. It differs
-from <b>\<select\></b> since the user can still provide textual or numeric
+from <b>&lt;select&gt;</b> since the user can still provide textual or numeric
 input other than the listed options.
 
 ```
@@ -3134,7 +3134,7 @@ in this section. 
 [Client-side validation of forms with
 HTML5](https://www.sitepoint.com/client-side-form-validation-html5/)
 
-[\<input\> tag in
+[&lt;input&gt; tag in
 HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 
 [Form validation
@@ -3151,13 +3151,13 @@ data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrievin
 
 Video and audio
 
-These days it\'s difficult to think of using the Internet without
-streaming music or videos, but this wasn\'t always possible on the World
+These days it&apos;s difficult to think of using the Internet without
+streaming music or videos, but this wasn&apos;t always possible on the World
 Wide Web.
 
 How do you, as a developer, add videos and audio to a webpage?
 
-Luckily, it\'s quite straightforward, thanks to HTML and modern web
+Luckily, it&apos;s quite straightforward, thanks to HTML and modern web
 browsers.
 
 HTML video and audio tags are used for embedding media on a webpage and
@@ -3170,7 +3170,7 @@ MP4, WebM, and OGG.
 For audio, the following file types are supported by most web browsers,
 MP3, WAV, and OGG.
 
-Let\'s examine how to use the video tag.
+Let&apos;s examine how to use the video tag.
 
 You start with a video tag itself.
 
@@ -3183,7 +3183,7 @@ source, and type.
 
 In the src attribute, you add the address of the video file.
 
-In this case, it\'s linked to a file named dance.mp4. In the type
+In this case, it&apos;s linked to a file named dance.mp4. In the type
 attribute, you add the value video forward/mp4 since the file is an MP4
 file.
 
@@ -3210,9 +3210,9 @@ you can add the controls attribute.
 
 There are other attributes available to customize the video player too.
 
-You\'ll learn more about these in a later module.
+You&apos;ll learn more about these in a later module.
 
-Now let\'s examine how the audio tag works.
+Now let&apos;s examine how the audio tag works.
 
 Similar to the video tag, you start with the opening and closing audio
 tags.
@@ -3220,10 +3220,10 @@ tags.
 Just like the video tag, you specify the source element with its src and
 type attributes.
 
-If the web browser doesn\'t support the file type, it can fall back on a
+If the web browser doesn&apos;t support the file type, it can fall back on a
 different type.
 
-It\'s important to note that if you\'re using an MP3 file, that the type
+It&apos;s important to note that if you&apos;re using an MP3 file, that the type
 is specified as audio forward/mpeg.
 
 This is because MP3 is short for MPEG-1 Audio Layer 3. Like the video
@@ -3235,14 +3235,14 @@ the pause and volume buttons.
 Now you know how to add and customize both the video player and an audio
 player.
 
-Well done. You\'ll learn about other video and audio attributes in the
+Well done. You&apos;ll learn about other video and audio attributes in the
 next video.
 
 Embedded players
 
 The Little Lemon Restaurant wants to add an about page to their website.
 
-They\'ve asked me to set up the page and include some audio and video in
+They&apos;ve asked me to set up the page and include some audio and video in
 embedded players.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 82. about.html (xx) ~~~~~~~~~~~~-->
@@ -3254,7 +3254,7 @@ embedded players.
 </p>
 <!-- ![](images/image082.png){width="6.0in" height="3.187179571303587in"} -->
 
-I\'ve set up my basic html document structure in a file named
+I&apos;ve set up my basic html document structure in a file named
 about.html.
 
 I start off by adding the heading tag containing the text about.
@@ -3297,7 +3297,7 @@ it.
 
 Everything is working as expected.
 
-Now I\'ll add the video.
+Now I&apos;ll add the video.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 84.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3321,7 +3321,7 @@ the video.
 So, I go back to the video element and set the width attribute to 320,
 and the high attribute 240.
 
-To provide a good user experience, I\'ll also enable the video controls.
+To provide a good user experience, I&apos;ll also enable the video controls.
 
 To do this, I add the controls attribute to the video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3357,7 +3357,7 @@ I saved the file again and opened the page.
 
 And everything is working as expected.
 
-That\'s great.
+That&apos;s great.
 
 The about page is a great addition to the little Lemon website for
 customers wanting to learn more about the business.
@@ -3367,44 +3367,44 @@ interactive.
 
 And luckily these players can support either audio or video.
 
-What\'s more, you can add controls to allow the user to decide what they
+What&apos;s more, you can add controls to allow the user to decide what they
 want to do.
 
-These audio and video players are sure to grab customer\'s attention
+These audio and video players are sure to grab customer&apos;s attention
 when they browse the about page.
 
 <h4>Images</h4
 
-This lesson will help refresh your knowledge of the <b>\<img\></b> tag and
-how you can use it to embed images in webpages. The <b>\<img\></b> tag is
+This lesson will help refresh your knowledge of the <b>&lt;img&gt;</b> tag and
+how you can use it to embed images in webpages. The <b>&lt;img&gt;</b> tag is
 used to add an image to a web page. The image's address is specified
 using the src attribute. For example, if you wanted to embed an image
-file named photo.png, you can do that with the following HTML. <b>\<img
-src=\"photo.png\"\></b> You can also specify the width and height of the
+file named photo.png, you can do that with the following HTML. <b>&lt;img
+src=&quot;photo.png&quot;&gt;</b> You can also specify the width and height of the
 image using the width and height attributes. For example, if the width
 of the photo is 640 pixels and the height of the photo is 480 pixels,
-you can use the following HTML. <b>\<img src=\"photo.png\" width=\"640\"
-height=\"480\"\></b> It is important to note that you can set the image to
+you can use the following HTML. <b>&lt;img src=&quot;photo.png&quot; width=&quot;640&quot;
+height=&quot;480&quot;&gt;</b> It is important to note that you can set the image to
 a larger or smaller size and the web browser will automatically scale
 the image. For example, you can update the previous HTML to half the
-width and height and the image would shrink by 50%. <b>\<img
-src=\"photo.png\" width=\"320\" height=\"240\"\></b> One useful feature of
+width and height and the image would shrink by 50%. <b>&lt;img
+src=&quot;photo.png&quot; width=&quot;320&quot; height=&quot;240&quot;&gt;</b> One useful feature of
 rendering images in the web browser is that the web browser can
 automatically keep the correct ratio of width to height. So for example,
 if you want to scale the image by 50%, you can simply set the width
 attribute and the web browser will automatically calculate the height.
-<b>\<img src=\"photo.png\" width=\"320\"\></b> But what happens if the
+<b>&lt;img src=&quot;photo.png&quot; width=&quot;320&quot;&gt;</b> But what happens if the
 photo doesn't load? Perhaps the file was accidentally deleted, or you
 mistyped the file name. Luckily, the web browser has a way to display
 some text when the image fails to load. This is done using the alt
 attribute. For example, you can display the text My Profile Photo using
-the alt attribute in the previous HTML. <b>\<img src=\"photo.png\"
-width=\"320\" alt=\"My Profile Photo\"\></b> It is important to ensure
+the alt attribute in the previous HTML. <b>&lt;img src=&quot;photo.png&quot;
+width=&quot;320&quot; alt=&quot;My Profile Photo&quot;&gt;</b> It is important to ensure
 that screen reader accessibility software can interpret images displayed
-in the web browser. To support this, the \<img\> tag is combined with
-the <b>\<figure\></b> and <b>\<figcaption\></b> tags to provide a description
-of the image. The <b>\<img\></b> tag is added inside the <b>\<figure\></b> tag
-and the <b>\<figcaption\></b> is specified after it.
+in the web browser. To support this, the &lt;img&gt; tag is combined with
+the <b>&lt;figure&gt;</b> and <b>&lt;figcaption&gt;</b> tags to provide a description
+of the image. The <b>&lt;img&gt;</b> tag is added inside the <b>&lt;figure&gt;</b> tag
+and the <b>&lt;figcaption&gt;</b> is specified after it.
 
 ```
   <figure> 
@@ -3416,37 +3416,31 @@ and the <b>\<figcaption\></b> is specified after it.
 One last thing to note is that like videos and audio, the web browser
 only supports specific file types. These file types are:
 
--   .APNG -- Animated Portable Network Graphics
+<ul>
+  <li>.APNG -- Animated Portable Network Graphics<br><br></li>
+  <li>.AVIF -- AV1 Image Format<br><br></li>
+  <li>.GIF -- Graphics Interchange Format<br><br></li>
+  <li>.JPEG / .JPG -- Joint Photographic Expert Group image format<br><br></li>
+  <li>.PNG -- Portable Network Graphics<br><br></li>
+  <li>.SVG -- Scalable Vector Graphics<br><br></li>
+  <li>.WEBP -- Web Picture Format<br<<br></li>
+  <li>Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.</li>
+</ul>
 
--   .AVIF -- AV1 Image Format
-
--   .GIF -- Graphics Interchange Format
-
--   .JPEG / .JPG -- Joint Photographic Expert Group image format
-
--   .PNG -- Portable Network Graphics
-
--   .SVG -- Scalable Vector Graphics
-
--   .WEBP -- Web Picture Format
-
--   Images will be important as you build websites and ensuring they are
-    accessible will provide a better user experience for all visitors.
-
-iFrames
+<h4>iFrames</h4>
 
 Have you ever visited a website with a map video or social media posts
 contained in the webpage?
 
-Now that you\'re learning about HTML, you may have wondered how that\'s
+Now that you&apos;re learning about HTML, you may have wondered how that&apos;s
 done.
 
-Well, it\'s done using something called an iframe.
+Well, it&apos;s done using something called an iframe.
 
 An iframe is HTML element that allows you to place or embed content from
 another website into a webpage.
 
-It\'s defined using the iframe HTML tag.
+It&apos;s defined using the iframe HTML tag.
 
 How it works is that it embeds another browsing instance inside the
 page.
@@ -3454,25 +3448,25 @@ page.
 What this means is that it runs the embedded webpage, similar to how a
 webpage runs in another tab of your web browser.
 
-Therefore, it\'s running the HTML, CSS, and JavaScript of the embedded
+Therefore, it&apos;s running the HTML, CSS, and JavaScript of the embedded
 webpage.
 
 An iframe is often used to display adverts, but it can also be used to
 embed content from another website, such as a social media post.
 
-The content that\'s embedded is defined using the src attribute.
+The content that&apos;s embedded is defined using the src attribute.
 
 The value of the attribute is the URL of the content.
 
-It\'s also possible to set the width and height of an iframe using the
+It&apos;s also possible to set the width and height of an iframe using the
 width and height attributes.
 
 While iframe is very useful, its security has been a concern since its
-inception because it\'s vulnerable to malicious code and injection.
+inception because it&apos;s vulnerable to malicious code and injection.
 
 As previously mentioned, a webpage can run JavaScript code.
 
-It\'s important to ensure that you trust the website you\'re embedding
+It&apos;s important to ensure that you trust the website you&apos;re embedding
 into your own.
 
 Fortunately, there are some attributes that can be applied to limit the
@@ -3483,7 +3477,7 @@ features the iframe can access.
 
 There are many possible values that can be set on the allow attribute.
 
-For now, let\'s examine how to disable camera and microphone access in
+For now, let&apos;s examine how to disable camera and microphone access in
 an iframe.
 
 On your iframe element, you add the allow attribute and set its value to
@@ -3511,12 +3505,12 @@ While these restrictions help to keep your users secure, there may still
 be security vulnerabilities in your web browser that the embedded web
 page can exploit.
 
-Therefore, it\'s always best to be cautious when using iframes and
+Therefore, it&apos;s always best to be cautious when using iframes and
 ensure that you trust the website that you are embedding.
 
 <h4>iFrame sandbox cheat sheet</h4>
 
-The <b>\<iframe\></b> is the inline frame element that embeds an HTML page
+The <b>&lt;iframe&gt;</b> is the inline frame element that embeds an HTML page
 into another page. Apart from the global attributes, which can be a part
 of the <b>iframe</b>, major element-specific attributes are listed below.
 
@@ -3527,7 +3521,7 @@ for instance, access to the microphone, camera, other APIs and so on.
 
 <h4>For example:</h4>
 
--   <b>allow=\"fullscreen"</b> the fullscreen mode can be activated
+-   <b>allow=&quot;fullscreen"</b> the fullscreen mode can be activated
 
 -   <b>allow="geolocation"</b> lets you access the user's location
 
@@ -3535,13 +3529,13 @@ for instance, access to the microphone, camera, other APIs and so on.
     used between features. For example, the following would allow using
     the camera and the microphone:
 
--   <b>\<iframe src=\"https://example.com/...\" allow=\"camera;
-    microphone\"\> \</iframe\></b>
+-   <b>&lt;iframe src=&quot;https://example.com/...&quot; allow=&quot;camera;
+    microphone&quot;&gt; &lt;/iframe&gt;</b>
 
 <h4>name</h4>
 
-The name for the <b>\<iframe\></b>. For example: <b>\<iframe name = \"My
-Frame\" width=\"400\" height=\"300\"\>\</iframe\></b>
+The name for the <b>&lt;iframe&gt;</b>. For example: <b>&lt;iframe name = &quot;My
+Frame&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;</b>
 
 <h4>height</h4>
 
@@ -3570,7 +3564,7 @@ the frame resource. The common values are:
 <h4>sandbox</h4>
 
 To enforce greater security, a sandbox applies extra restrictions to the
-content in the <b>\<iframe\></b>. To lift particular restrictions, an
+content in the <b>&lt;iframe&gt;</b>. To lift particular restrictions, an
 attribute value (permission token) is used. The common permission tokens
 are listed below:
 
@@ -3602,14 +3596,14 @@ while keeping other restrictions active:
 
 <h4>src</h4>
 
-The URL of the page to embed in the <b>\<iframe\></b>. Using the value
+The URL of the page to embed in the <b>&lt;iframe&gt;</b>. Using the value
 <b>about:blank</b> would embed an empty page.
 
 <h4>srcdoc</h4>
 
-Let\'s you specify the inline HTML to embed in the <b>\<iframe\></b>. When
+Let&apos;s you specify the inline HTML to embed in the <b>&lt;iframe&gt;</b>. When
 defined, this attribute would override the <b>src</b> attribute. For
-instance, the following code will display \"My inline html\" in the
+instance, the following code will display &quot;My inline html&quot; in the
 frame, instead of loading <b>my_iframe_src.html</b>.
 
 ```
@@ -3619,7 +3613,7 @@ frame, instead of loading <b>my_iframe_src.html</b>.
 
 <h4>loading</h4>
 
-This attribute let\'s you specify if the iframe should be loaded
+This attribute let&apos;s you specify if the iframe should be loaded
 immediately when the web page loads (<b>eager</b>) or loaded when iframe is
 displayed in the browser (<b>lazy</b>). This allows you to defer loading
 iframe content if it is further down your web page and outside of the
@@ -3632,9 +3626,9 @@ display area when the page is initially loaded.
 
 <h4>title</h4>
 
-This attribute let\'s you add a description to the iframe for
+This attribute let&apos;s you add a description to the iframe for
 accessibility purposes. The value of this attribute should accurately
-describe the iframe\'s content.
+describe the iframe&apos;s content.
 
 ```
   <iframe src="[history.html]{.underline}" title="An embedded document about the history of my family" >
@@ -3649,16 +3643,16 @@ cross promotional purposes.
 The other restaurant wants to be able to change the images in the
 campaign throughout the coming year based on their current promotions.
 
-To support this, I\'ve been asked to setup an iFrame on the main page of
+To support this, I&apos;ve been asked to setup an iFrame on the main page of
 the website.
 
 The other restaurants specifically asked for an iFrame to be used
 because it means that they can update their promotional image on the
 Little Lemon website without needing to contact me first.
 
-In this section, I\'m going to demonstrate how to do that.
+In this section, I&apos;m going to demonstrate how to do that.
 
-I\'ve opened the index.html in Visual Studio Code.
+I&apos;ve opened the index.html in Visual Studio Code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3671,16 +3665,16 @@ I\'ve opened the index.html in Visual Studio Code.
 
 First, I add the iFrame element.
 
-The other restaurant didn\'t provide the URL for the promotional image.
+The other restaurant didn&apos;t provide the URL for the promotional image.
 
-For now, I\'ll embed a placeholder image that they did provide.
+For now, I&apos;ll embed a placeholder image that they did provide.
 
 To do this, I add an SRC attribute to the iFrame element and set its
 value to placeholder.png.
 
 The image will always be 320 pixels by 128 pixels in size.
 
-I\'ll need to set the iFrame to the same size.
+I&apos;ll need to set the iFrame to the same size.
 
 I add the width attribute to the iFrame element and set its value to
 320.
@@ -3710,7 +3704,7 @@ embedding content from another website.
 </p>
 <!-- ![](images/image088.png){width="6.5in" height="0.6861111111111111in"} -->
 
-To address these concerns, I\'ve decided to sandbox and limit the
+To address these concerns, I&apos;ve decided to sandbox and limit the
 capabilities of the iFrame element.
 
 I opened my index.html file again.
@@ -3721,7 +3715,7 @@ This will prevent any JavaScript files running within the iFrame and
 restrict many browser capabilities within the iFrame context, such as
 submitting forms and allowing pop-up windows.
 
-Next, I\'ll allow attribute.
+Next, I&apos;ll allow attribute.
 
 The allow attribute accepts multiple values and the values are separated
 by semi-colons.
@@ -3744,17 +3738,17 @@ Finally, I add the word microphone, and again add a space followed by
 the word none in single quotes.
 
 This will disable microphone access. I save the file and open it in the
-web browser. Great, the iFrame still works and it\'s now more secure.
+web browser. Great, the iFrame still works and it&apos;s now more secure.
 
 The iFrame I created is now secure things.
 
-The restrictions I\'ve placed on it.
+The restrictions I&apos;ve placed on it.
 
 First, I added the sandbox attribute to restrict certain browser
 capabilities and then I use the allow attribute to disable some
 potentially unsecured browser features.
 
-Now that they know it\'s secure, the other restaurant is going to
+Now that they know it&apos;s secure, the other restaurant is going to
 implement the same code on their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~-->
@@ -3770,12 +3764,12 @@ Hopefully this will lead to a lot more business for both restaurants.
 
 <h4>The canvas element</h4>
 
-You\'ve most likely played a video game or watched an animation in your
+You&apos;ve most likely played a video game or watched an animation in your
 web browser before.
 
-Perhaps you\'ve wondered how it works.
+Perhaps you&apos;ve wondered how it works.
 
-Well in this section you\'ll be introduced to the basics of graphics
+Well in this section you&apos;ll be introduced to the basics of graphics
 programming in the web browser.
 
 There are many authoring tools available to produce animated and video
@@ -3793,13 +3787,13 @@ But all of these are underpinned by one of four technologies;
 The graphics interchange format or GIF along with the Web P image format
 are used for animated images.
 
-An image using this format has no interactivity, but it\'s popular for
+An image using this format has no interactivity, but it&apos;s popular for
 embedding animated content and for building two D video games and
 animations.
 
 The two D canvas allows two D graphics to be drawn in the web browser.
 
-It\'s popular for building two D video games and animations.
+It&apos;s popular for building two D video games and animations.
 
 The logic and behavior of an animation or video game is defined using
 javascript.
@@ -3814,15 +3808,15 @@ rendered to the screen.
 This allows for complex calculations such as lighting simulation and
 rendering massive three D worlds.
 
-It is important to note that while WebGL will always use the GPU, it\'s
+It is important to note that while WebGL will always use the GPU, it&apos;s
 not guaranteed that the two D canvas will use the GPU.
 
 This will depend on the web browser implementation.
 
 WebGL is a complex technology and requires a lot of background
-information so for now let\'s focus on the canvas element.
+information so for now let&apos;s focus on the canvas element.
 
-Let\'s examine how to animate some simple graphics.
+Let&apos;s examine how to animate some simple graphics.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3835,7 +3829,7 @@ Let\'s examine how to animate some simple graphics.
 
 Using the 2D canvas.
 
-I\'m going to animate a bouncing ball. I\'ve opened visual studio code
+I&apos;m going to animate a bouncing ball. I&apos;ve opened visual studio code
 and have set up two files index dot html and animation dot Js inside
 index dot html.
 
@@ -3902,7 +3896,7 @@ animation frame to schedule the animate function to be called again at
 the end of the file I call window dot request animation frame to start
 the animate function being called.
 
-Using a small amount of javascript code, I\'ve animated a bouncing ball.
+Using a small amount of javascript code, I&apos;ve animated a bouncing ball.
 
 This is a straightforward example of the capabilities of the two D
 canvas.
@@ -3914,9 +3908,9 @@ These are linked in the additional resources Reading.
 
 Module summary: HTML deep dive
 
-You\'ve reached the end of this module on HTML.
+You&apos;ve reached the end of this module on HTML.
 
-It\'s now time to review what you\'ve learned in these lessons.
+It&apos;s now time to review what you&apos;ve learned in these lessons.
 
 You began this module by exploring the question, how is HTML and CSS
 used in the real-world?
@@ -3924,7 +3918,7 @@ used in the real-world?
 You learned about the role of HTML and CSS developer.
 
 What entry-level jobs and career paths are available to you, and what a
-day in the life of a developer looks like and who you\'d work with as a
+day in the life of a developer looks like and who you&apos;d work with as a
 HTML and CSS developer.
 
 You also learned what the relationship is between HTML and CSS.
@@ -3977,12 +3971,12 @@ of the canvas element.
 You should now be familiar with the basics of HTML.
 
 You now know more about the role of HTML and CSS developer and the
-things you\'ll be doing when working as one.
+things you&apos;ll be doing when working as one.
 
 Like using semantic tags to construct a well-formed webpage, or how to
 use inputs and forums or embed videos and audio. Well done.
 
-You\'re making good progress on your learning journey.
+You&apos;re making good progress on your learning journey.
 
 <h4>Additional resources</h4>
 
@@ -4021,7 +4015,7 @@ And you could argue that layout is one of the most important components
 of designing a good web page because layouts help divide a page into
 different sections, thus making the page more presentable.
 
-So, let\'s learn more about CSS web layouts.
+So, let&apos;s learn more about CSS web layouts.
 
 CSS can be used to enhance a web page by modifying fonts, colors,
 layout, size and other style formatting options that make the web page
@@ -4064,7 +4058,7 @@ while grid as the word implies is two dimensional.
 
 You will examine these in more detail over the course of the module.
 
-But for now, let\'s just do a brief overview.
+But for now, let&apos;s just do a brief overview.
 
 Flex box is short for flexible box model and it was introduced before
 the grid layout.
@@ -4097,10 +4091,10 @@ suitable when you want to create flexible elements in smaller spaces
 while grids are more suitable to large scale layouts.
 
 A separate explanation of each type of layout has been given in this
-module, but in practice, you\'ll likely encounter the use of more than
+module, but in practice, you&apos;ll likely encounter the use of more than
 one layout in rendering a single page.
 
-The rules for these layouts and CSS are standardized but that doesn\'t
+The rules for these layouts and CSS are standardized but that doesn&apos;t
 mean you are limited when it comes to creativity, aesthetics or
 optimization.
 
@@ -4574,7 +4568,7 @@ Below is a list of some of the important relative units. 
   <b>lh</b>     Value computed for line height of parent element. 
 
   <b>rlh</b>    Value computed for line height of root element which is
-             \<html\>. 
+             &lt;html&gt;. 
 
   <b>vw</b>     1% of the viewport width.
 
@@ -4590,7 +4584,7 @@ Below is a list of some of the important relative units. 
 
 Many of these units are used in terms of the relative size of fonts.
 Some units are more suitable depending on the relative context. Like
-when the dimensions of the viewport are important, it\'s more
+when the dimensions of the viewport are important, it&apos;s more
 appropriate to use <b>vw</b> and <b>vh</b>. In a broader context, the relative
 units you will see most frequently used are percentage, <b>em</b>, <b>vh</b>,
 <b>vw</b> and <b>rem</b>. 
@@ -4609,20 +4603,20 @@ choice. 
 At this stage, you should be familiar with different layouts and grid
 structures, and you should be ready to start using flexbox.
 
-Let\'s explore a few practical examples of how you can use it. In the
+Let&apos;s explore a few practical examples of how you can use it. In the
 next few minutes, you will explore what the three most common uses of
 flexbox are.
 
 As mentioned earlier, flexboxes are more suitable to use for simple
 layout or designing simple elements in a page.
 
-In line with that idea, let\'s explore a few commonly used design
+In line with that idea, let&apos;s explore a few commonly used design
 elements that you see on a page.
 
 You will discover simple ways in which you can utilize flexboxes for
 binding elements together or creating an easy layout.
 
-Let\'s explore the three most common uses of flexbox is in CSS.
+Let&apos;s explore the three most common uses of flexbox is in CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 105.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4717,7 +4711,7 @@ Then I add the properties for the icon and the search box.
 
 Finally, I add the properties for the Search button.
 
-Let\'s remove this CSS code momentarily to check how the output displays
+Let&apos;s remove this CSS code momentarily to check how the output displays
 with aided.
 
 Although all the elements are there the page is standard and playing,
@@ -4727,7 +4721,7 @@ I add the code back to the CSS file and check the output one more time.
 Now the search box displays the properties that I defined in my CSS
 file.
 
-Notice that when I change the size of the page, the search area doesn\'t
+Notice that when I change the size of the page, the search area doesn&apos;t
 change.
 
 Another place where flexbox is used quite frequently is in navigation
@@ -4763,7 +4757,7 @@ I use this to declare any formatting that is browser specific.
 
 Now I define the rules for the container.
 
-It\'s important to notice that I use the flex-flow, which is a shorthand
+It&apos;s important to notice that I use the flex-flow, which is a shorthand
 property specifying the direction of the flex container and its behavior
 for wrapping.
 
@@ -4776,7 +4770,7 @@ Since the individual elements are part of the container, I applied the
 rules both to the container, onto the elements which are the list items,
 anchor, tag, and so on.
 
-It\'s also important to notice that the page is responsive.
+It&apos;s also important to notice that the page is responsive.
 
 As the size of the browser window gets smaller, the items stacked on top
 of each other, and if I expand the window, it changes to a standard
@@ -4799,7 +4793,7 @@ All the elements for the gallery are in the body of the HTML file.
 There is a div element with a class container that consists of six
 images that are saved inside the project folder.
 
-Now, let\'s open the CSS file.
+Now, let&apos;s open the CSS file.
 
 First, I remove all browser-specific settings that may be there by using
 the star selector just like I did earlier. I set the value of both the
@@ -4808,7 +4802,7 @@ margin and the padding to zero.
 I then reset the basic alignment options for the images by setting the
 border to zero.
 
-Next, let\'s focus on the container.
+Next, let&apos;s focus on the container.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4829,7 +4823,7 @@ between.
 
 Finally, I add some padding.
 
-Let\'s inspect the output.
+Let&apos;s inspect the output.
 
 The output window is narrow at the moment, so the six images are stacked
 on top of each other.
@@ -4852,22 +4846,22 @@ layout on your webpage. Good job.
 
 Flex charts
 
-So far, you\'ve covered different ways in which a flex box can be used
+So far, you&apos;ve covered different ways in which a flex box can be used
 to add functionality to a web page.
 
-In this section (flex charts), you\'re going to explore the versatility
+In this section (flex charts), you&apos;re going to explore the versatility
 of flex boxes even further by using them to create bar charts.
 
 Bar charts are a common way of visualizing data used in statistics.
 
-It\'s easier to compare and understand data when viewing it in the form
+It&apos;s easier to compare and understand data when viewing it in the form
 of rectangular bars that have heights in proportion to the values they
 represent.
 
 The different bars stacked alongside represent the classifying criteria.
 
 There are sophisticated data visualization tools available today that
-support web pages but it\'s fairly straightforward to integrate data
+support web pages but it&apos;s fairly straightforward to integrate data
 using CSS. CSS provides a straightforward way to do this by using flex
 box, with flex boxes, you can generate both vertical and horizontal bar
 charts.
@@ -4912,7 +4906,7 @@ their preferred dish.
 The management of little Lemon decided to publish the results on their
 website to draw attention to their most popular dishes.
 
-I\'ve been asked to write code to make this possible.
+I&apos;ve been asked to write code to make this possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4923,7 +4917,7 @@ I\'ve been asked to write code to make this possible.
 </p>
 <!-- ![](images/image116.png){width="5.125in" height="4.916666666666667in"} -->
 
-I\'ve set up my basic html document structure in a file named flex
+I&apos;ve set up my basic html document structure in a file named flex
 charts dot html.
 
 I begin by creating a class called row by writing dot row and pressing
@@ -4941,7 +4935,7 @@ add the name of the label preferred dishes.
 Next, I create another class called container by typing dot container
 and then I press enter.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 117. class container: dish (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image117.png"
@@ -4992,7 +4986,7 @@ of each item.
 <!-- ![](images/image119.png){width="6.5in" height="3.7784722222222222in"} -->
 
 Now that my code is created, I move to CSS by clicking on the flex
-charts dot CSS file at the top of my screen and checking that it\'s
+charts dot CSS file at the top of my screen and checking that it&apos;s
 referencing the correct file.
 
 I have stacked the CSS file next to the html file for better
@@ -5034,7 +5028,7 @@ centered.
 This will become clear once you see the results, I have one more set of
 selectors to define.
 
-But first let me display the output. \>\> To do this, I switch to my
+But first let me display the output. &gt;&gt; To do this, I switch to my
 HTML file and click on the display icon in the top right corner of my
 screen.
 
@@ -5051,7 +5045,7 @@ interpret.
 </p>
 <!-- ![](images/image120.png){width="6.5in" height="3.7784722222222222in"} -->
 
-I\'m going to add individual colors to the chart items at the bottom of
+I&apos;m going to add individual colors to the chart items at the bottom of
 my CSS file I press enter twice and type dot pasta.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5073,7 +5067,7 @@ Lastly, I specify the background color of burrito.
 Once again, I display the output. Now the percentages display the
 background colors as indicated.
 
-What\'s important to note here is that as you change the size of the web
+What&apos;s important to note here is that as you change the size of the web
 page, the flex adjusts itself while the label remains unchanged.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 122.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5152,7 +5146,7 @@ now.
 The graphical representation of information or data makes it accessible
 and allows you to see and understand trends and patterns.
 
-In this section you\'ve explored ways to create bar charts using flex
+In this section you&apos;ve explored ways to create bar charts using flex
 box.
 
 CSS grids
@@ -5163,7 +5157,7 @@ webpage.
 This is because layouts are a way to provide visual cues for a user by
 organizing relevant content to make it easier to comprehend.
 
-Let\'s learn more about layouts.
+Let&apos;s learn more about layouts.
 
 When someone says the word grid, you probably think of lines that cross
 each other to form squares or rectangles.
@@ -5216,7 +5210,7 @@ intersect.
 There are several different configurations you can add to define and
 modify grids.
 
-Let\'s examine an example that uses a HTML document to demonstrate how
+Let&apos;s examine an example that uses a HTML document to demonstrate how
 to iteratively make changes to a grid.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5229,12 +5223,12 @@ to iteratively make changes to a grid.
 </p>
 <!-- ![](images/image129.png){width="3.0in" height="3.720317147856518in"} -->
 
-First, let\'s create a HTML document called index.html.
+First, let&apos;s create a HTML document called index.html.
 
 Right now, the contents displayed in the viewport are just a vertical
 series of letters from A to E without any styling.
 
-Let\'s start adding content to the CSS file.
+Let&apos;s start adding content to the CSS file.
 
 The first thing to do is set the values for the properties of the
 different box classes inside the container object to make the layout
@@ -5246,7 +5240,7 @@ screen is unchanged.
 The result is that each letter occupies more screen space than is
 necessary for its size.
 
-What\'s displayed in the viewport may appear to be a grid, but it\'s not
+What&apos;s displayed in the viewport may appear to be a grid, but it&apos;s not
 actually one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5258,12 +5252,12 @@ actually one.
 </p>
 <!-- ![](images/image130.png){width="3.0in" height="3.118733595800525in"} -->
 
-It\'s just the default settings of CSS for a layout.
+It&apos;s just the default settings of CSS for a layout.
 
-Once you convert this into the grid layout, you\'ll be able to recognize
+Once you convert this into the grid layout, you&apos;ll be able to recognize
 the flexibility it can add.
 
-Let\'s convert it into a grid layout.
+Let&apos;s convert it into a grid layout.
 
 Set the properties of the container class by first assigning a grid
 value to the display property.
@@ -5271,7 +5265,7 @@ value to the display property.
 The display property is also used to set display types for other designs
 such as flex, block, inline, and so on.
 
-It\'s usually a part of container elements inside our code.
+It&apos;s usually a part of container elements inside our code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5296,9 +5290,9 @@ the property values configured for three columns and two rows.
 </p>
 <!-- ![](images/image132.png){width="6.5in" height="2.8604166666666666in"} -->
 
-That\'s two changes from the previous configuration.
+That&apos;s two changes from the previous configuration.
 
-Let\'s examine them.
+Let&apos;s examine them.
 
 The grid template columns property has been added into the CSS code to
 set the size of each of the three columns using pixel values.
@@ -5345,7 +5339,7 @@ interchangeably with both rows and columns.
 
 Now to add a couple of properties such as grid gap or gutter and
 background color to define the grid, the updated view displays a red box
-representing the grid because that\'s what the background colors RGB
+representing the grid because that&apos;s what the background colors RGB
 value was set to.
 
 The grid stretches by default the entire width of the page and the size
@@ -5365,10 +5359,10 @@ grid auto columns collectively called the implicit grid.
 </p>
 <!-- ![](images/image135.png){width="6.5in" height="2.7805555555555554in"} -->
 
-Let\'s replace the grid template rows property in the code with grid
+Let&apos;s replace the grid template rows property in the code with grid
 auto rows. All the rows are now auto-resized to 100 pixels.
 
-Now let\'s examine some of the functions that can make configuring the
+Now let&apos;s examine some of the functions that can make configuring the
 layout easier.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5385,7 +5379,7 @@ First, the repeat function passes the number of repeats required for a
 given number of rows and columns.
 
 The result of the code adjustment is an unchanged webpage from the last
-instance because the repeat function didn\'t change anything, it just
+instance because the repeat function didn&apos;t change anything, it just
 reduced the amount of code you need to write.
 
 Therefore, the repeat function helps reduce redundancy and provides ease
@@ -5403,7 +5397,7 @@ of code modification.
 Next, the min-max function sets the minimum and maximum values expected
 for the sizes of rows and columns.
 
-Let\'s set the value for the grid auto rows to 150 pixels.
+Let&apos;s set the value for the grid auto rows to 150 pixels.
 
 The output is modified so that the minimum size of each row is 150
 pixels.
@@ -5424,10 +5418,10 @@ This section has demonstrated that layer to provide visual cues for the
 user by organizing content in a way that makes it easier to understand.
 Who knows?
 
-Soon you\'ll be building your own web pages and you\'ll be able to test
+Soon you&apos;ll be building your own web pages and you&apos;ll be able to test
 out some of the techniques shown in this section.
 
-Don\'t forget the repeat and min-max functions, they\'ll save you time
+Don&apos;t forget the repeat and min-max functions, they&apos;ll save you time
 and effort.
 
 <h4>Grids and flexbox cheat sheet</h4>
@@ -5768,9 +5762,9 @@ the right.
 In this section (grid showcase), you will learn about how differently
 commonly used grid layouts are created and where you can use them.
 
-Let\'s start by examining the grid layout named the pancake stack.
+Let&apos;s start by examining the grid layout named the pancake stack.
 
-I\'ve opened extra.HTML in Visual Studio Code.
+I&apos;ve opened extra.HTML in Visual Studio Code.
 
 Now I can start adding the different elements.
 
@@ -5784,7 +5778,7 @@ Now I can start adding the different elements.
 </p>
 <!-- ![](images/image140.png){width="3.0in" height="2.3651159230096237in"}  -->
 
-First is the restaurant\'s name, little lemon, which I put into the header.
+First is the restaurant&apos;s name, little lemon, which I put into the header.
 
 In the main element, I type menu and for the footer, I type About Us.
 
@@ -5820,7 +5814,7 @@ alignment, which is centered and 2EM padding.
 2EM is a relative height which is twice the size of the current font
 height.
 
-Let\'s examine the output.
+Let&apos;s examine the output.
 
 It looks good.
 
@@ -5834,17 +5828,17 @@ It looks good.
 </p>
 <!-- ![](images/image142.png){width="3.0in" height="2.9506944444444443in"} -->
 
-I\'m going to do the same for the main and the footer elements.
+I&apos;m going to do the same for the main and the footer elements.
 
-I\'ve changed the colors, but everything else is the same.
+I&apos;ve changed the colors, but everything else is the same.
 
-Let\'s examine the output again. It looks exactly like I was expecting.
+Let&apos;s examine the output again. It looks exactly like I was expecting.
 
 The header main and footer are all formatted in different colors.
 
 If I modify the size of the page, the layout changes accordingly.
 
-Next, let\'s examine the 12th section or 12 column grid system layout,
+Next, let&apos;s examine the 12th section or 12 column grid system layout,
 also called a twelve-span grid.
 
 This type of grid, conceptually to divide the page into 12 columns of
@@ -5862,26 +5856,26 @@ point and the number of columns each element spans.
 </p>
 <!-- ![](images/image143.png){width="3.75in" height="3.426025809273841in"} -->
 
-Don\'t worry, this will all become a lot clearer when I go through the following example.
+Don&apos;t worry, this will all become a lot clearer when I go through the following example.
 
-I\'m opening gridtwelve.html in Visual Studio code.
+I&apos;m opening gridtwelve.html in Visual Studio code.
 
-First, I create a container with class parent and inside it I\'ll add
+First, I create a container with class parent and inside it I&apos;ll add
 six items that I call segments.
 
 I had a class name for each of the div tags matching the span or width
-I\'m going to give each of these segments, these widths are randomly
+I&apos;m going to give each of these segments, these widths are randomly
 assigned.
 
-Now, I\'m going to save and open up my gridtwelve.css file.
+Now, I&apos;m going to save and open up my gridtwelve.css file.
 
-I\'m going to add CSS selectors for each class.
+I&apos;m going to add CSS selectors for each class.
 
 I will first add CSS properties for the parent class, and then for the
 individual segments are defined.
 
 For the parent class, I write display grid and then add the grid
-template columns property, which I\'m going to repeat 12 times with one
+template columns property, which I&apos;m going to repeat 12 times with one
 fraction each.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5899,11 +5893,11 @@ Next, I define the properties of the segment.
 Again, I display grid following up with centering the items at the text.
 I set the grid template rows property.
 
-I want the segments to be a little wider, so I\'ll set it to 100 pixels.
+I want the segments to be a little wider, so I&apos;ll set it to 100 pixels.
 
-Let\'s examine the output. It\'s not much for now, but let\'s continue.
+Let&apos;s examine the output. It&apos;s not much for now, but let&apos;s continue.
 
-Now, let\'s set the properties for the different segments.
+Now, let&apos;s set the properties for the different segments.
 
 The first one spends 12 columns, I start by adding a light green
 background.
@@ -5925,15 +5919,15 @@ This is where I use the grid column property.
 This value tells the element to start from the first column and span all
 12 columns.
 
-Let\'s examine the output again.
+Let&apos;s examine the output again.
 
 These two segments are now in better shape, starting from the first
 column and spending all the way to the 12th.
 
-Let\'s add another selector for eight.
+Let&apos;s add another selector for eight.
 
 Again, I copy the same code, but instead of starting from the first
-column this time, I\'ll start from say, the fifth column, and it will
+column this time, I&apos;ll start from say, the fifth column, and it will
 span across eight columns.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5946,12 +5940,12 @@ span across eight columns.
 </p>
 <!-- ![](images/image146.png){width="4.46875in" height="4.40625in"} -->
 
-Let\'s change the color here to bisque.
+Let&apos;s change the color here to bisque.
 
 The color now makes it obvious that the elements starts from the fifth
 column and spans eight columns.
 
-Let\'s add the other segments and then we\'ll examine the code again.
+Let&apos;s add the other segments and then we&apos;ll examine the code again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5962,13 +5956,13 @@ Let\'s add the other segments and then we\'ll examine the code again.
 </p>
 <!-- ![](images/image147.png){width="6.5in" height="4.1194444444444445in"} -->
 
-Let\'s examine the output again.
+Let&apos;s examine the output again.
 
 Now, this is looking a lot more presentable.
 
-There\'s also another way to view these columns.
+There&apos;s also another way to view these columns.
 
-Click on \"More browser auctions\" and then on \"Open Devtools\" pane.
+Click on &quot;More browser auctions&quot; and then on &quot;Open Devtools&quot; pane.
 
 You can select the button in the corner to select an element on the page
 to inspect then scan over the grid.
@@ -6012,7 +6006,7 @@ names that you use inside the grid template areas are the HTML tags that
 you have used. Or, where you need to get more specific, you designate a
 class name to these tags. Once the names are assigned, you define the
 properties for each class the same way that you define them
-conventionally. Let\'s examine an example.
+conventionally. Let&apos;s examine an example.
 
 <h4>Example</h4>
 
@@ -6122,7 +6116,7 @@ Mobile phones, desktop apps, tablets.
 The idea behind responsive web design is building a product that works
 across a range of viewports.
 
-There\'s a lot of techniques to do this but the core problem is you have
+There&apos;s a lot of techniques to do this but the core problem is you have
 a product and it needs to work everywhere.
 
 How do you do that? Hi, my name is Benedict Hobart.
@@ -6132,47 +6126,47 @@ I am a front-end engineer at Meta.
 Open a website and then just change the width of the browser window and
 see what happens to our website.
 
-Good responsive website, you\'ll see maybe you\'ve got a top tab bar
+Good responsive website, you&apos;ll see maybe you&apos;ve got a top tab bar
 that then collapses into a drop-down menu.
 
-That\'s responsive design.
+That&apos;s responsive design.
 
 The problem to solve is to make your app work across a range of
 viewports.
 
-There are other considerations as well when you\'re building an app for
-different viewports, if you\'re building an app to work on a mobile
+There are other considerations as well when you&apos;re building an app for
+different viewports, if you&apos;re building an app to work on a mobile
 device, you might put the action buttons towards the bottom of the
 screen, so you can hit it with your thumb versus having to use your
 index finger to hit the drop-down at the top right.
 
-It\'s about being very considered about how you place your functionality
+It&apos;s about being very considered about how you place your functionality
 and what you think is important.
 
-It\'s about making things work as a first step.
+It&apos;s about making things work as a first step.
 
-Then it\'s like how do you make things good?
+Then it&apos;s like how do you make things good?
 
-How do you take into account the capabilities of the device you\'re
+How do you take into account the capabilities of the device you&apos;re
 building for and make it better than it would have been if you just made
 it work.
 
 People have changed the way that they make content from being 14 by nine
 whatever 10 viewport with people used to watch content on.
 
-They flipped it horizontally because that\'s personal.
+They flipped it horizontally because that&apos;s personal.
 
-When you take a photo of something like that, it feels like you\'re
-there, it feels like you\'re talking to them.
+When you take a photo of something like that, it feels like you&apos;re
+there, it feels like you&apos;re talking to them.
 
-That\'s how you face-time your friends.
+That&apos;s how you face-time your friends.
 
-It\'s good to be aware of how your products make people feel.
+It&apos;s good to be aware of how your products make people feel.
 
-That\'s the never-ending game of how people are using your products.
+That&apos;s the never-ending game of how people are using your products.
 
 You make something, and you have no idea how people are going to use it,
-but that\'s the fun part.
+but that&apos;s the fun part.
 
 Maintaining quality is hard.
 
@@ -6182,20 +6176,20 @@ functional for a certain width.
 People might write end-to-end tests to make sure that things keep
 functioning as they could be.
 
-It\'s hard to know what\'s going to change in the technology until it
+It&apos;s hard to know what&apos;s going to change in the technology until it
 happens.
 
-Then you\'re like, okay, I need to redesign my website because iPhone
+Then you&apos;re like, okay, I need to redesign my website because iPhone
 just came out with a new screen resolution.
 
 Be aware of when your website breaks.
 
-The goal isn\'t to make it work for a phone and a desktop and a TV.
+The goal isn&apos;t to make it work for a phone and a desktop and a TV.
 
 The goal is to just make it always work.
 
 If you make it work across a width from here all the way down to here,
-you\'re probably in a good spot.
+you&apos;re probably in a good spot.
 
 Instead of focusing on making that device work properly, try to make
 your interface forward and walk across a range of dimensions versus just
@@ -6234,7 +6228,7 @@ in an HTML document.
 In this section (widely used selectors), you will learn about additional
 commonly used CSS selectors.
 
-But before you explore them, let\'s briefly revise the ones you\'ve
+But before you explore them, let&apos;s briefly revise the ones you&apos;ve
 already covered.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6283,15 +6277,15 @@ With class selectors, you can apply rules to all elements with the
 specified class name. Those are the CSS selectors you have learned about
 previously.
 
-Hopefully, you\'ve experienced how useful and effective they can be, but
-that\'s not all.
+Hopefully, you&apos;ve experienced how useful and effective they can be, but
+that&apos;s not all.
 
 As the CSS code based evolved over time, more selectors were added to
 improve the design and styling effect of CSS.
 
-Let\'s explore a few of these widely used selectors.
+Let&apos;s explore a few of these widely used selectors.
 
-First, let\'s focus on attribute selectors.
+First, let&apos;s focus on attribute selectors.
 
 The attribute selector has a few syntax variations.
 
@@ -6308,7 +6302,7 @@ Can you recall what attributes and value mean?
 </p>
 <!-- ![](images/image152.png){width="5.0in" height="2.6837609361329835in"} -->
 
-A quick recap, let\'s say you have a html image tag, img is the name of
+A quick recap, let&apos;s say you have a html image tag, img is the name of
 the tag, while src and alt are the names of its attributes.
 
 The actual name of the image file, first.jpeg is the value.
@@ -6322,7 +6316,7 @@ The actual name of the image file, first.jpeg is the value.
 </p>
 <!-- ![](images/image153.png){width="5.0in" height="2.662671697287839in"} -->
 
-Now let\'s explore an example of how attribute selectors can be used.
+Now let&apos;s explore an example of how attribute selectors can be used.
 
 Say you have an html file with three a tags, each with a h ref attribute
 that points to a different page on the meta website.
@@ -6381,7 +6375,7 @@ square brackets.
 Wherever there is an attribute on a web page, you can use some variation
 of an attribute selector to modify it.
 
-This makes attribute selectors a very flexible styling tool, but let\'s
+This makes attribute selectors a very flexible styling tool, but let&apos;s
 move on to two other widely used selectors that you need to know about.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6413,7 +6407,7 @@ Well, say you have a few list elements in an unordered list element.
 The unordered list element is the parent tag in this case, and the three
 list elements are the children.
 
-Now let\'s specify that the second list element must have a certain
+Now let&apos;s specify that the second list element must have a certain
 styling. In this case, you can use both the nth-of-type and the
 nth-child selectors to do that.
 
@@ -6468,7 +6462,7 @@ properties.
 The CSS rule will then be applied to all heading one and paragraph
 elements.
 
-Group selectors can save you a lot of time, they\'re also called
+Group selectors can save you a lot of time, they&apos;re also called
 selector stacking. In this section, you reviewed the CSS selectors that
 you are familiar with.
 
@@ -6482,7 +6476,7 @@ selectors, star selectors, and group selectors.
 Learning how to use the CSS selectors is important because it allows you
 to be more specific when styling your web pages.
 
-In the rest of this lesson, you\'ll be introduced to several advanced
+In the rest of this lesson, you&apos;ll be introduced to several advanced
 selectors.
 
 At first, they might seem more complex than the ones covered in this
@@ -6642,7 +6636,7 @@ This reading only gave you an overview of specificity, but you should
 know that it is a much broader topic and also the underlying basis on
 which CSS engines work.
 
-That\'s what the \'Cascading\' in CSS means: the way in which CSS
+That&apos;s what the &apos;Cascading&apos; in CSS means: the way in which CSS
 engines evaluate and apply the specificity rules is called 'cascade'.
 
 Cascade is a type of small waterfall that falls in stages down the rocks
@@ -6675,7 +6669,7 @@ selectors, general sibling selectors, and adjacent sibling selectors.
 In this section you will learn about combination selectors and how you
 can use them to target more specific elements.
 
-Let\'s start with descendant selectors.
+Let&apos;s start with descendant selectors.
 
 Descendant selectors are useful if you need to select HTML elements that
 are contained within another selector.
@@ -6731,7 +6725,7 @@ selectors.
 To go back to the family example, with child selectors you select a
 person and then select only their immediate children who have red hair.
 
-Let\'s update the previous selector to a child selector by adding a
+Let&apos;s update the previous selector to a child selector by adding a
 close angle bracket in between the two selectors.
 
 The effect is that now only the first h1 element turns blue.
@@ -6748,7 +6742,7 @@ with the blog id attribute.
 </p>
 <!-- ![](images/image166.png){width="6.0in" height="2.9967946194225723in"} -->
 
-Next, let\'s focus on general sibling selectors, which apply rules to
+Next, let&apos;s focus on general sibling selectors, which apply rules to
 all the selectors of the same type that follow the first type.
 
 To use the family analogy again, general sibling selectors allow you to
@@ -6760,7 +6754,7 @@ make it a general sibling selector.
 The selector now targets all paragraph elements that are siblings of h1
 element, the result is the last two paragraph elements turn blue.
 
-Notice that the first paragraph element didn\'t turn blue, this is
+Notice that the first paragraph element didn&apos;t turn blue, this is
 because the general sibling selector only select subsequent elements
 that match the selector.
 
@@ -6780,7 +6774,7 @@ and then selects the next younger brothers.
 </p>
 <!-- ![](images/image167.png){width="6.0in" height="2.9967946194225723in"} -->
 
-Finally, let\'s replace the tilde with a plus sign to update this
+Finally, let&apos;s replace the tilde with a plus sign to update this
 selector to an adjacent sibling selector.
 
 The selector now selects all paragraph elements that are adjacent
@@ -6791,13 +6785,13 @@ The result is that only the middle paragraph element turns blue.
 This is because the adjacent sibling selector only selects the first
 subsequent element if it matches the selector.
 
-Now that you are more familiar with combination selectors, let\'s
+Now that you are more familiar with combination selectors, let&apos;s
 explore a few practical examples.
 
 I will now demonstrate two combination selectors, the general sibling
 selector and the adjacent sibling selector.
 
-Let\'s start with the general sibling selector.
+Let&apos;s start with the general sibling selector.
 
 Remember, the general sibling selectors select all the matching elements
 of the second type which follow the first type.
@@ -6812,7 +6806,7 @@ This structure repeats below.
 So, there is another paragraph tag, a div tag, and then an ordered list
 with two list items.
 
-Now, let\'s inspect the CSS rules.
+Now, let&apos;s inspect the CSS rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6862,7 +6856,7 @@ So what elements will be styled?
 Remember, sibling selectors apply rules to all the selectors of the same
 type that follow the first type.
 
-Let\'s go to the html again to identify what will be styled.
+Let&apos;s go to the html again to identify what will be styled.
 
 The first div tag is the reference.
 
@@ -6880,7 +6874,7 @@ rules will affect the un ordered list that follows it.
 </p>
 <!-- ![](images/image170.png){width="6.0in" height="3.1955129046369204in"} -->
 
-Let\'s inspect the output.
+Let&apos;s inspect the output.
 
 The background is orange and there are two box shadows, each with un
 ordered list inside it.
@@ -6951,7 +6945,7 @@ after the reference element.
 </p>
 <!-- ![](images/image173.png){width="5.0in" height="2.66292760279965in"} -->
 
-Let\'s inspect the output and CSS code.
+Let&apos;s inspect the output and CSS code.
 
 As explained, the first paragraph that follows the image is styled
 differently than the next two paragraphs.
@@ -7002,7 +6996,7 @@ Other than the hover state, examples include selecting an element when
 it is active or in-focus, or when a link has already been visited.
 
 Pseudo-classes are also very effective to target specific elements such
-as, let\'s say, the fifth item in a list, bold items, empty elements,
+as, let&apos;s say, the fifth item in a list, bold items, empty elements,
 and so on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7014,16 +7008,16 @@ and so on.
 </p>
 <!-- ![](images/image174.png){width="3.0in" height="2.3188779527559054in"} -->
 
-Let\'s review the general syntax that you use for various
+Let&apos;s review the general syntax that you use for various
 pseudo-classes.
 
 You add the selector, a colon, the pseudo-class, and then the
 properties.
 
-Well, there isn\'t a broadly accepted classification for pseudo-classes,
+Well, there isn&apos;t a broadly accepted classification for pseudo-classes,
 you can group them in terms of general similarities and their purpose.
 
-Let\'s explore a few of these general classifications.
+Let&apos;s explore a few of these general classifications.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7045,7 +7039,7 @@ which focuses styling on the element that you use it for.
 These pseudo-classes have an effect while a user is actively engaging
 with a HTML element.
 
-Let\'s explore an example of how the hover and active pseudo-classes can
+Let&apos;s explore an example of how the hover and active pseudo-classes can
 be used.
 
 Say you have a HTML file with an a tag inside a paragraph and a button
@@ -7060,8 +7054,8 @@ element inside a div element.
 </p>
 <!-- ![](images/image176.png){width="4.0in" height="1.9089741907261593in"} -->
 
-The paragraph element has a class defined as \"mypage\" and the button
-class is defined as \"mybutton.\"
+The paragraph element has a class defined as &quot;mypage&quot; and the button
+class is defined as &quot;mybutton.&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7072,7 +7066,7 @@ class is defined as \"mybutton.\"
 </p>
 <!-- ![](images/image177.png){width="4.0in" height="1.9089741907261593in"} -->
 
-Now, let\'s explore the CSS.
+Now, let&apos;s explore the CSS.
 
 First it contains basically styling for the mypage and mybutton class
 elements.
@@ -7109,7 +7103,7 @@ you can also use them to target HTML class attributes.
 </p>
 <!-- ![](images/image179.png){width="2.0in" height="2.3480828958880138in"} -->
 
-Next, let\'s focus on Form states.
+Next, let&apos;s focus on Form states.
 
 Previously, when discussing form validation, you were introduced to the
 invalid pseudo-class selector.
@@ -7143,7 +7137,7 @@ item among the list elements.
 Some examples of this type include, first-of-type, last-of-type,
 nth-of-type, and nth-last-of-type.
 
-Let\'s explore an example of first-of-type.
+Let&apos;s explore an example of first-of-type.
 
 Say you have two list items in an HTML page, Adrian and Mario.
 
@@ -7156,7 +7150,7 @@ pseudo-classes to improve the interactivity of your web pages.
 There are plenty of other pseudo-classes and some of them are more
 popular than others.
 
-You\'re encouraged to follow your own style and explore the creative
+You&apos;re encouraged to follow your own style and explore the creative
 possibilities that pseudo-classes offer.
 
 <h4>Pseudo-elements</h4>
@@ -7412,7 +7406,7 @@ The "content" property is where the text for the guidelines goes. The
 word "tip" has been added before each guideline thanks to the rules
 added for <b>tips::before</b>. And, each of the three guidelines now has
 two exclamation marks after them thanks to the rules added for
-<b>tips::after</b>. Note how the second \<p\> element inside the HTML code
+<b>tips::after</b>. Note how the second &lt;p&gt; element inside the HTML code
 remains unaffected. You don't have to use after and before together like
 this, but sometimes it is useful to combine them.
 
@@ -7459,7 +7453,7 @@ To give the links their initial color, you can use the link pseudo-class
 selector, and to let the links change color, once a user has visited
 these pages, you can use the visited pseudo-class selector.
 
-But if you\'re using multiple pseudo-classes for a specific element,
+But if you&apos;re using multiple pseudo-classes for a specific element,
 there is an important rule to keep in mind.
 
 The order in which you apply pseudo-classes in a document determines
@@ -7485,7 +7479,7 @@ So always apply pseudo-class styles in the correct order.
 
 First link, then visited, next hover, and lastly active.
 
-Now that you know more about web-link states, let\'s explore how to use
+Now that you know more about web-link states, let&apos;s explore how to use
 the link, visited, hover, and active pseudo-classes.
 
 Additionally, you will learn two more effects that you can create with
@@ -7522,7 +7516,7 @@ In this file, I already added properties related to the pseudo-classes
 we discussed previously, namely link, visited, hover, and active.
 
 To display the output of this code, I moved back to my HTML file and
-click the \"View\" icon at the top right of my screen.
+click the &quot;View&quot; icon at the top right of my screen.
 
 By default, the link to the Little Lemon Instagram page displays in a
 blue color because I set it to blue with the link pseudo-class in the
@@ -7541,7 +7535,7 @@ As expected, when I move the mouse over the link, the color changes to
 green because I added green as the value of the color attribute in the
 hover pseudo-class.
 
-Let\'s test what happens when I click and hold the link. It changes to
+Let&apos;s test what happens when I click and hold the link. It changes to
 white text on a black background, just like defined with the active
 pseudo-class property.
 
@@ -7549,12 +7543,12 @@ When I click on the link to visit the Little Lemon Instagram page, the
 system asked me to connect to an external source, since I am using
 Visual Studio Code.
 
-I click the \"Cancel\" option for now.
+I click the &quot;Cancel&quot; option for now.
 
 But after I visit the link, the color of the link will change to violet
 because I defined it to do that with the visited pseudo-class.
 
-I\'m now going to demonstrate how you can use the pseudo-class hover.
+I&apos;m now going to demonstrate how you can use the pseudo-class hover.
 
 To do this, I use the pseudoshadow.html file I created previously.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7592,7 +7586,7 @@ have on the textural class.
 For the hover pseudo-class, I use the shorthand for a box-shadow
 property.
 
-As you\'ve seen earlier, box-shadow adds one or more shadows to an
+As you&apos;ve seen earlier, box-shadow adds one or more shadows to an
 element.
 
 The horizontal offset is set to five pixels, the vertical offset is set
@@ -7609,7 +7603,7 @@ the shadow is set to black.
 <!-- ![](images/image196.png){width="6.0in" height="3.038096019247594in"} -->
 
 I moved back to my HTML file to output this code and click on the
-\"View\" icon.
+&quot;View&quot; icon.
 
 The Little Lemon page with blocks of texts displays.
 
@@ -7844,7 +7838,7 @@ As users scroll through web page, full screen snapping is a quick
 transition from one page to another that occurs automatically while
 users are scrolling.
 
-Now that you are familiar with some popular effects, let\'s briefly
+Now that you are familiar with some popular effects, let&apos;s briefly
 visit the pros and cons of adding effects on web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7922,7 +7916,7 @@ determines how overflowing content is displayed on your website.
 The first example sets the text-overflow property with the value
 ellipsis.
 
-Let\'s take note of two CSS properties for the texts class, white-space
+Let&apos;s take note of two CSS properties for the texts class, white-space
 and text-overflow.
 
 The white-space CSS property controls how white-space inside an element
@@ -8047,7 +8041,7 @@ This next example explores an extension of the same idea.
 
 My HTML code has two heading tags, each with the class name glow.
 
-In the corresponding CSS code, I\'ve added the text shadow effects for
+In the corresponding CSS code, I&apos;ve added the text shadow effects for
 that class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8060,9 +8054,9 @@ that class.
 <!-- ![](images/image208.png){width="3.0in" height="1.78125in"} -->
 
 I can use the output to determine whether I need to adjust the color effects until
-I\'m happy with it.
+I&apos;m happy with it.
 
-That\'s all my examples. In this section, you learned how to add effects
+That&apos;s all my examples. In this section, you learned how to add effects
 to your text using a few simple rules in CSS.
 
 <h4>Text effects cheat sheet</h4>
@@ -8121,7 +8115,7 @@ The additional properties that help configure styling effects are below.
   Text-indent                 The indentation of the first line 
 
   Text-justify                Specifies the justification method used when
-                              text-align is \"justify\"
+                              text-align is &quot;justify&quot;
 
   Text-orientation            Orientation of text in a line such as sideways,
                               upright and so on
@@ -8160,7 +8154,7 @@ text. 
 So far, you have learned how animation can be used to add interactivity
 and responsiveness to a web page.
 
-Eventually, you\'ll be able to create amazing animations with CSS.
+Eventually, you&apos;ll be able to create amazing animations with CSS.
 
 But to get started, this video will introduce you to two properties with
 which you can create basic animations.
@@ -8194,7 +8188,7 @@ You need to control the speed of this effect.
 To do this, developers use the transition property in conjunction with
 the transformed property.
 
-Let\'s explore how these two properties work together.
+Let&apos;s explore how these two properties work together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8225,7 +8219,7 @@ But by adding the transition property with the value transform to s the
 rotation will animate over two seconds.
 
 Now that you know the basics about the transform and transition
-properties, let\'s explore a practical example.
+properties, let&apos;s explore a practical example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8252,7 +8246,7 @@ The second contains the letter B with a class called B.
 </p>
 <!-- ![](images/image213.png){width="3.0in" height="2.2823917322834646in"} -->
 
-Let\'s view the CSS file.
+Let&apos;s view the CSS file.
 
 It has two class selectors dot A and dot B and each has a margin
 property.
@@ -8296,7 +8290,7 @@ But this time I use the keyword, rotate and add the value of 20 degrees.
 
 This will cause a different effect.
 
-Let\'s inspect the output A display skew almost like an italic letter
+Let&apos;s inspect the output A display skew almost like an italic letter
 but towards the other way be on the other hand looks normal but it is
 turned sideways by 20 degrees.
 
@@ -8320,7 +8314,7 @@ seconds.
 This time you can notice how the letters transform because it happens
 slower.
 
-Let\'s move on to a more complex example.
+Let&apos;s move on to a more complex example.
 
 I open another html file with a class called box.
 
@@ -8341,7 +8335,7 @@ the box.
 
 The initial output will be a green box.
 
-Let\'s go to the CSS file and write the rules for the box.
+Let&apos;s go to the CSS file and write the rules for the box.
 
 The first property I add for the box is display as grid.
 
@@ -8364,7 +8358,7 @@ border.
 
 So far, the output is a light green box with a darker green border.
 
-Now let\'s move back to the CSS to add some effects.
+Now let&apos;s move back to the CSS to add some effects.
 
 I add a class selector for the box and then add the hover pseudo class.
 
@@ -8381,7 +8375,7 @@ Next will only happen when I hover over the box.
 
 <!-- ![](images/image218.png){width="5.0in" height="2.6142858705161856in"} -->
 
-Let\'s add the transformed property.
+Let&apos;s add the transformed property.
 
 This time I add, rotate around the Z axis, the Z axis is perpendicular
 to the screen.
@@ -8390,17 +8384,17 @@ So, when I hover over the box it will rotate from my point of view.
 
 I add rotates at an angle of 60 degrees.
 
-Let\'s inspect the output.
+Let&apos;s inspect the output.
 
 When I hover over the box it rotates 60 degrees.
 
-Let\'s add a few more effects.
+Let&apos;s add a few more effects.
 
 I add a light coral background color to the hover pseudo class.
 
 When I hover over the box now it also changes the background color.
 
-Let\'s also change the opacity to 50%.
+Let&apos;s also change the opacity to 50%.
 
 Now when I hover over the box it changes the opacity of the box too. All
 these effects are fine but they happen too fast.
@@ -8447,7 +8441,7 @@ But to control the execution of the steps of the animation, they use the
   alt="Synax of the Keyframe rule." />
 <!-- ![](images/image219.png){width="4.0in" height="1.2076192038495188in"} -->
 
-Next, let\'s explore the syntax of the \@keyframe rule, and the animation property.
+Next, let&apos;s explore the syntax of the \@keyframe rule, and the animation property.
 
 The \@keyframe rule specifies the name of the animation, and the
 individual keyframes for the animation.
@@ -8495,7 +8489,7 @@ However, each of the sub properties can be listed individually as well.
 </p>
 <!-- ![](images/image222.png){width="3.0in" height="2.4266666666666667in"} -->
 
-To understand animation cues, let\'s explore a simple animation of a
+To understand animation cues, let&apos;s explore a simple animation of a
 clock with hour and minute hands.
 
 The HTML code for the clock will consist of only three basic elements,
@@ -8578,7 +8572,7 @@ both the hours and minute classes from the value of 0-360 degrees.
 The combination of properties and rules will give a seamless appearance
 of a clock in continuous motion.
 
-In this module, you\'ve learned how to use the animation property and
+In this module, you&apos;ve learned how to use the animation property and
 the \@keyframe rule together to get a specific effect.
 
 CSS offers endless creativity when it comes to animation.
@@ -8596,12 +8590,12 @@ and you'll learn how to use it with the animation property in CSS.
 
 The rules covered so far are for alignment and styling of web pages
 using CSS. Keyframes are a type of <i>at-rule</i> which are represented by the
-\'@\' suffix.
+&apos;@&apos; suffix.
 
 At-rules are statements inside CSS that describe how to behave or
 perform certain actions.
 
-In line with that, keyframes are defined as \'@keyframes\' in the CSS
+In line with that, keyframes are defined as &apos;@keyframes&apos; in the CSS
 code.
 
 <b>\@keyframes</b> are part of the animation sequence and help in defining the
@@ -8626,7 +8620,7 @@ easier way. 
 } 
 ```
 
-The \'from\' and \'to\' keywords are used inside the \@keyframes rule to
+The &apos;from&apos; and &apos;to&apos; keywords are used inside the \@keyframes rule to
 mark the transition of one or more properties and can be seen as the
 start and end points of that transition. As can be seen from the syntax,
 the values of 'property-a' changes from 'value-a' to 'value-b'. To
@@ -8646,7 +8640,7 @@ completion of the animation. 
 
 The different percentages used in the example demonstrate the
 progression of the animation. Note that it doesn't have to be the same
-property that you modify in these steps. That\'s not possible using the
+property that you modify in these steps. That&apos;s not possible using the
 transition property, but you can do it with \@keyframes. This
 flexibility is what makes \@keyframes so powerful. Another advantage is
 how these animations can also loop infinitely, run forwards, reverse and
@@ -8677,7 +8671,7 @@ properties with their default values:
 
 If the values of any of these are not defined, you should assume that
 they are the default. Of these, the first property of the animation-name
-is what\'s used to tie it to the \@keyframes rule.
+is what&apos;s used to tie it to the \@keyframes rule.
 
 Let's now examine an example of how you can use \@keyframes and the
 animation property. 
@@ -8792,7 +8786,7 @@ interesting animations.
 But to make your animations more complex and exciting, you need to have
 good control over the timing.
 
-That\'s why you need to know how to work with keyframes.
+That&apos;s why you need to know how to work with keyframes.
 
 In this video, you will learn how to do a basic keyframe animation in
 CSS.
@@ -8800,7 +8794,7 @@ CSS.
 Previously, you learned how to animate a bouncing ball using the HTML
 canvas element and JavaScript.
 
-This time, you\'ll learn how to create the same animation using CSS.
+This time, you&apos;ll learn how to create the same animation using CSS.
 
 I opened Visual Studio Code and created my basic HTML structure in a
 file named index.html.
@@ -8817,7 +8811,7 @@ named styles.css.
 </p>
 <!-- ![](images/image229.png){width="4.0in" height="2.4507655293088364in"} -->
 
-First, I\'ll add the HTML element that will be animated.
+First, I&apos;ll add the HTML element that will be animated.
 
 In this case, the element will represent the bouncing ball.
 
@@ -8838,7 +8832,7 @@ Now I open styles.css.
 
 First, I add the keyframes definition.
 
-I\'ll name this animation bounce.
+I&apos;ll name this animation bounce.
 
 Next, I add the from keyword with open and closed curly brackets to
 define the starting state of the animation.
@@ -9208,15 +9202,15 @@ Works the same as regular animation, multiple rules can be set. 
 
 <h4>Preprocessors: sass, scss</h4>
 
-Now that you have learned about different animation effects, let\'s
+Now that you have learned about different animation effects, let&apos;s
 explore the topic of preprocessors which can make the process of
 creating them easier. CSS preprocesses are special compilers used to
 create a CSS file that can be referenced by an HTML document. They are
 generally used to reduce the amount of CSS you need to write and allow
 you to re-use values across multiple rules. This will make re-using
 animations and effects much easier. And because preprocessors are an
-extension of CSS they\'ll help not just in animation but any CSS code.
-Let\'s learn a little more about them.
+extension of CSS they&apos;ll help not just in animation but any CSS code.
+Let&apos;s learn a little more about them.
 
 Preprocessors provide audit functionality on top of the CSS features
 already present. Some of the features of preprocessors include the
@@ -9426,11 +9420,11 @@ CSS that may be helpful as you continue your learning journey.
 
 Have you ever made a mistake while programming?
 
-Well, you\'re not alone.
+Well, you&apos;re not alone.
 
 After all, mistakes are a part of programming.
 
-If there are never any errors in your code, that means you\'re either
+If there are never any errors in your code, that means you&apos;re either
 extremely skilled or not writing enough code.
 
 While there will always be errors in your code, some can be avoided.
@@ -9453,7 +9447,7 @@ These typos can include omitting delimiters at the end of the syntax, or
 some quotation marks while defining values and forgetting to close
 brackets.
 
-For example, say there\'s some code where the programmer didn\'t enter
+For example, say there&apos;s some code where the programmer didn&apos;t enter
 the closing bracket.
 
 When the closing bracket is typed, the code becomes functional again.
@@ -9473,10 +9467,10 @@ ideas such as visual code, clean code is still the responsibility of the
 developer.
 
 For example, there are also some things such as using inline tags and
-writing tags in the upper case, which won\'t be flagged or stop the code
+writing tags in the upper case, which won&apos;t be flagged or stop the code
 execution but are still considered bad practice.
 
-Next, let\'s explore rule-based errors in more detail.
+Next, let&apos;s explore rule-based errors in more detail.
 
 These are code-based mistakes developers make when they do not follow
 the rules.
@@ -9491,7 +9485,7 @@ across.
 There are also so many properties that can be used for a given CSS
 selector that it can be confusing, this confusion can lead to errors.
 
-For example, here\'s a short list of just some of the different
+For example, here&apos;s a short list of just some of the different
 properties that can accept color values and be intermixed, color,
 background, color, font, color and border color.
 
@@ -9518,10 +9512,10 @@ For example, when you have to go back to code after not seeing it for a
 while and you have to figure out what you were doing when you initially
 wrote it.
 
-And that\'s why you should be aware of best practices in CSS when it
+And that&apos;s why you should be aware of best practices in CSS when it
 comes to error prevention and correction.
 
-Let\'s examine the best practices you can follow.
+Let&apos;s examine the best practices you can follow.
 
 One of the best practices you can apply to avoid common errors is using
 shorthand.
@@ -9539,7 +9533,7 @@ Another best practice is applying specificity.
 Understanding specificity while writing code can also help you to avoid
 errors just like you learned in an earlier reading.
 
-Let\'s take this example.
+Let&apos;s take this example.
 
 Both rules are targeting the same anchor tag of html, and the
 specificity will be calculated by the browser to determine which rule to
@@ -9572,7 +9566,7 @@ Instead, this should be replaced with a class or ID selector.
 
 Overspecificity leads to wasting time.
 
-You waste the browser\'s time in applying overspecifics in the present.
+You waste the browser&apos;s time in applying overspecifics in the present.
 
 But it can also lead to you wasting your time troubleshooting later.
 
@@ -9586,7 +9580,7 @@ Another good practice is performing a CSS reset using a universal
 selector before you begin writing your code.
 
 Every browser has different settings that may cause problems with the
-formatting that you\'ve defined.
+formatting that you&apos;ve defined.
 
 By removing browser specific configurations using the universal or star
 selector, you can avoid the chances of misconfigured layouts appearing
@@ -9601,7 +9595,7 @@ good practices to avoid them. Great work.
 
 <h4>Handling errors</h4>
 
-In this video, you\'re going to learn about how you can handle errors in
+In this video, you&apos;re going to learn about how you can handle errors in
 CSS.
 
 The first thing that you should know is that CSS does not handle errors
@@ -9620,9 +9614,9 @@ and transition properties in an earlier video.
 
 Let me open the output to remind you what the CSS styling does.
 
-Now I\'m going to tweak the CSS code to create a mistake.
+Now I&apos;m going to tweak the CSS code to create a mistake.
 
-Let\'s remove a semi colon after the background color properties of the
+Let&apos;s remove a semi colon after the background color properties of the
 boxes.
 
 Visual studio code provides some basic information about mistakes to get
@@ -9647,7 +9641,7 @@ properties in the line below are skipped.
 After that, the rest of the styling is still applied, such as the border
 properties as well as the hover pseudo class properties.
 
-Let\'s put back the semi colon and create another error when I removed
+Let&apos;s put back the semi colon and create another error when I removed
 the semi colon after the background.
 
 Color properties of the hover class.
@@ -9683,7 +9677,7 @@ code extension called style.
 And there are plenty of Starlink rules that you can use for this
 demonstration.
 
-I\'m using the alpha value notation rule and the color no hex rule.
+I&apos;m using the alpha value notation rule and the color no hex rule.
 
 The alpha value notation rule requires using a specific notation for
 alpha values.
@@ -9787,7 +9781,7 @@ observe its behavior. Doing a comparison can often help you to
 understand the source of the problem.
 
 The CSS compiler reads the elements from right to left. As an example,
-for a selector such as div .alpha \> p, the element read first will be p
+for a selector such as div .alpha &gt; p, the element read first will be p
 before moving 'outside'. When you change the position of the p from
 inside the .alpha class to some other position inside your code, it is
 easier to debug the source of the problem. This should be done on a
@@ -9805,7 +9799,7 @@ Many times, the styling you have renders correctly in the IDE but
 misbehaves in a browser. That is because browsers have their own default
 CSS stylesheets called user-agent styles. While modern-day browsers are
 mostly compatible, you may encounter minor inconsistencies. Overriding
-the browser\'s settings can be done with universal selectors, in such
+the browser&apos;s settings can be done with universal selectors, in such
 cases written at the top of the code, and will include properties such
 as 'margin: 0px;' to reset the margin values set by the browser by
 default.
@@ -9945,7 +9939,7 @@ problem.
 When they arrive, they have many tools with them to test the wiring in
 your home to figure out the cause of the problem.
 
-As a developer, if your webpage isn\'t displaying correctly, you also
+As a developer, if your webpage isn&apos;t displaying correctly, you also
 need tools to help inspect and diagnose the cause of the problem.
 
 This is why the developer tools in your web browser are so useful.
@@ -9962,7 +9956,7 @@ JavaScript code, inspecting CSS grid and flexbox layouts, inspecting
 HTML and CSS rendering, and live editing.
 
 Inspecting HTML and CSS rendering will probably help you the most while
-building your webpage, and for that reason, it\'ll be the main focus of
+building your webpage, and for that reason, it&apos;ll be the main focus of
 this video.
 
 Although, we will return to live editing closer to the end of the
@@ -9978,7 +9972,7 @@ This allows you to highlight a certain displayed element on the rendered
 page, like the logo, and note its corresponding HTML highlighted in the
 developer tools.
 
-Think of all the time it will save you when you\'re trying to locate the
+Think of all the time it will save you when you&apos;re trying to locate the
 code of a troublesome element.
 
 Also, when you have the element on the web page highlighted, you can
@@ -9988,7 +9982,7 @@ That makes finding problems easier because you can identify which CSS
 rules are being applied to an element and what the properties of those
 rules are.
 
-Next, let\'s move on to the box model, a CSS and HTML feature that you
+Next, let&apos;s move on to the box model, a CSS and HTML feature that you
 can inspect using developer tools.
 
 Depending on your web browser, it will display beside the CSS rules or
@@ -10002,7 +9996,7 @@ This will help pinpoint if a CSS rule is incorrectly applied or has an
 incorrect property value.
 
 No matter what kind of problem you have in your code, you have to
-systematically use the diagnostic developer tools to figure out what\'s
+systematically use the diagnostic developer tools to figure out what&apos;s
 going on.
 
 But what about combining different developer tools?
@@ -10019,7 +10013,7 @@ verify fixes before permanently adding them into your code and saves a
 lot of time because you spend less time editing and reloading your
 webpages.
 
-Isn\'t that great? In this video, you\'ve explored how using browser
+Isn&apos;t that great? In this video, you&apos;ve explored how using browser
 developer tools can assist with debugging HTML and CSS code.
 
 Just like the electrician, you as a developer have many tools at your
@@ -10027,11 +10021,11 @@ disposal to inspect and diagnose problems, and developer tools
 definitely make creating and maintaining webpages and web applications
 easier.
 
-The next reading, we\'ll explore developer tools in more detail.
+The next reading, we&apos;ll explore developer tools in more detail.
 
 <h3>Browser-specific CSS</h3>
 
-One of the frustrations you\'re likely to run into will be compatibility
+One of the frustrations you&apos;re likely to run into will be compatibility
 issues that occur when rendering your CSS files on different browsers.
 
 Well, you can use code and specialized websites to sort out these
@@ -10072,12 +10066,12 @@ correctly.
 The changes that occur are usually subtle.
 
 For example, colors and fonts may appear slightly different from the
-original styling, and this may affect the user\'s experience.
+original styling, and this may affect the user&apos;s experience.
 
 However, sometimes the difference can be more noticeable, like with
 layouts, specifically involving alignment.
 
-Let\'s explore one such example now involving the use of flex and grid
+Let&apos;s explore one such example now involving the use of flex and grid
 layouts.
 
 The most common layouts that render differently depending on the browser
@@ -10103,20 +10097,20 @@ In these virtual environments, you can insert your code in the browser
 or run a website that you built that is already live to see how it
 works.
 
-It\'s also important to check the compatibility and rendering of
+It&apos;s also important to check the compatibility and rendering of
 websites on mobile devices that typically have different configurations
 than a website on a desktop.
 
 You now know that browser compatibility issues can occur in CSS.
 
-Let\'s examine an example of browser-specific settings and how you can
+Let&apos;s examine an example of browser-specific settings and how you can
 ensure that your CSS code is compatible.
 
 There are browsers specific settings that you can add to ensure that
 your CSS code is compatible and works properly with that particular
 browser.
 
-Let\'s take the example of the Chrome browser and query it.
+Let&apos;s take the example of the Chrome browser and query it.
 
 First, I need to ensure that my CSS code is compatible with the browser.
 
@@ -10130,16 +10124,16 @@ These webkit rules are part of the media query rule used as a
 non-standard way of setting parameters for aspects such as screen
 resolution, viewport, height of the browser, and so on.
 
-I\'ve set the value to be zero for this example, typically the values
+I&apos;ve set the value to be zero for this example, typically the values
 are 0.75, 1, or 1.5.
 
 I can also set the properties for specific rules.
 
-In this example, I\'ve used the general query and I\'ve applied it to a
+In this example, I&apos;ve used the general query and I&apos;ve applied it to a
 paragraph.
 
 If I want to configure some of the settings only for specific browsers,
-I can do that as well. In this example, notice that I\'ve set the CSS
+I can do that as well. In this example, notice that I&apos;ve set the CSS
 rules to be compatible only with the Safari browser.
 
 Similar to defining rules inside the CSS file, Internet Explorer makes
@@ -10181,21 +10175,20 @@ specialized websites to check their CSS code is valid on multiple
 browsers.
 
 Finally, you explored browser-specific settings that you can add to your
-CSS code to ensure it\'s compatible and works properly with particular
+CSS code to ensure it&apos;s compatible and works properly with particular
 browsers. Well done.
 
 <h4>What are some CSS bugs you have struggled with?</h4>
 
-Now it\'s time to discuss some of the challenges that you had with your
+Now it&apos;s time to discuss some of the challenges that you had with your
 fellow learners.
 
--   Which CSS bug did you struggle with the most?
-
--   Why do you think it was such a challenge for you?
-
--   What steps did you take to resolve the issue?
-
--   Share your thoughts with your classmates!
+<ul>
+  <li>Which CSS bug did you struggle with the most?<br><br></li>
+  <li>Why do you think it was such a challenge for you?<br><br></li>
+  <li>What steps did you take to resolve the issue?<br><br></li>
+  <li>Share your thoughts with your classmates!</li>
+</ul>
 
 <h3>UI testing</h3>
 
@@ -10203,7 +10196,7 @@ As you may have experienced when using different apps in your everyday
 life, first impressions matter, whether you are using an app to make a
 photo collage or to order food online.
 
-If you are using a new app and it doesn\'t behave the way you expect it
+If you are using a new app and it doesn&apos;t behave the way you expect it
 to, it makes a bad first impression on you.
 
 It may very well leave you feeling frustrated and seeking alternatives
@@ -10232,7 +10225,7 @@ acceptance testing, cross-device testing, and visual regression testing.
 
 You can learn more about the other types of testing in future courses.
 
-For now, let\'s just focus on cross-device testing.
+For now, let&apos;s just focus on cross-device testing.
 
 Cross-device testing involves the manual or automated use of different
 devices to test the layout and behavior of an application.
@@ -10248,16 +10241,16 @@ devices could have a low return on investment versus the cost of
 maintaining and running the tests on those devices.
 
 If you have an old phone stashed in a drawer somewhere, chances are that
-modern apps won\'t work on the devices as well as they\'re supposed to.
+modern apps won&apos;t work on the devices as well as they&apos;re supposed to.
 
-Now that you\'ve learned about the different types of UI testing, you
+Now that you&apos;ve learned about the different types of UI testing, you
 are ready to learn how to use Web Developer Tools to manually perform
 cross-device testing.
 
-In my web browser, I\'ve opened one of my previously developed webpages
+In my web browser, I&apos;ve opened one of my previously developed webpages
 for the little lemon restaurant.
 
-I\'ve opened the browser developer tools by right-clicking the page and
+I&apos;ve opened the browser developer tools by right-clicking the page and
 selecting Inspect Element.
 
 An alternative way to open the tools is to press F12.
@@ -10268,7 +10261,7 @@ toolbar button.
 On the top of the browser, I can now change the browser view to simulate
 different devices.
 
-If I click on the \"Edit button\", I can select additional devices to
+If I click on the &quot;Edit button&quot;, I can select additional devices to
 add to the toolbar.
 
 However, it is important to note that this will only simulate the screen
@@ -10294,11 +10287,11 @@ software and also unreal mobile hardware.
 Many businesses have in-house labs with many mobile devices to perform
 more real-world environment testing.
 
-If you\'re interested in learning more, review the links included in the
+If you&apos;re interested in learning more, review the links included in the
 additional reading material.
 
 You should now be able to identify the main UI testing strategies used
-to ensure customer satisfaction and what\'s more.
+to ensure customer satisfaction and what&apos;s more.
 
 You also learned about the web developer tools you can use to perform
 cross-device testing.
@@ -10306,7 +10299,7 @@ cross-device testing.
 <h4>Case study: How Meta performs front-end testing</h4>
 
 An untested application is a wildcard. You have no idea whether it works
-or it doesn\'t work.
+or it doesn&apos;t work.
 
 A tested application gives you confidence that what was originally built
 is working as intended.
@@ -10314,23 +10307,23 @@ is working as intended.
 Hi, I am Benedict Hobart. I am a front-end engineer at Meta.
 
 Testing is really important to make sure your app is of high-quality and
-make sure it doesn\'t break and being able to test every feature in your
-app or every part of your product means that you\'ll be made aware of
+make sure it doesn&apos;t break and being able to test every feature in your
+app or every part of your product means that you&apos;ll be made aware of
 problems in your app.
 
-It\'s much easier to fix a problem when it happens than six months down
-the road when someone finds out it\'s broken and you need to work out
+It&apos;s much easier to fix a problem when it happens than six months down
+the road when someone finds out it&apos;s broken and you need to work out
 what happened.
 
 You write a lot of code over time and one small problem in one subsystem
 can end up leading to a multitude of errors in your app.
 
-Like when you\'re building a messaging app and messaging goes down for
-an hour, people can\'t contact their friends and family.
+Like when you&apos;re building a messaging app and messaging goes down for
+an hour, people can&apos;t contact their friends and family.
 
-They can\'t contact their loved ones, they\'re disconnected. It\'s
+They can&apos;t contact their loved ones, they&apos;re disconnected. It&apos;s
 really important for your users that you build something reliable and
-doesn\'t break and testing is the easiest way to do that.
+doesn&apos;t break and testing is the easiest way to do that.
 
 When I first learned front-end testing it was actually pretty satisfying
 to get the tooling working and then to have your own app that you just
@@ -10344,62 +10337,62 @@ about building high-quality applications.
 
 We approach testing in a number of ways.
 
-We\'ve got end-to-end testing, which we basically spin up a web browser
+We&apos;ve got end-to-end testing, which we basically spin up a web browser
 in the cloud and we run tests that interact with the browser
 automatically and make sure that the app is working.
 
-Then there\'s unit testing, which is usually a good case for unit
-testing, is in something like when you\'re doing end-to-end encrypted
-messaging, you want to make sure your cryptography works as you\'d
+Then there&apos;s unit testing, which is usually a good case for unit
+testing, is in something like when you&apos;re doing end-to-end encrypted
+messaging, you want to make sure your cryptography works as you&apos;d
 expect, that the inputs meant match the outputs and that certain things
 are guaranteed.
 
-The people involved in front-end testing, I guess there\'s two main
+The people involved in front-end testing, I guess there&apos;s two main
 groups.
 
-There\'s the product teams building products that our consumers clients
-use and they\'re the ones that should be writing tests to make sure that
+There&apos;s the product teams building products that our consumers clients
+use and they&apos;re the ones that should be writing tests to make sure that
 their product is stable.
 
-Then there\'s like the teams that build the test frameworks themselves.
+Then there&apos;s like the teams that build the test frameworks themselves.
 
-They\'re the ones that makes sure that those tests run with high
+They&apos;re the ones that makes sure that those tests run with high
 reliability, that those tests run before we ship code to users or to
-people so we aren\'t shipping broken experiences.
+people so we aren&apos;t shipping broken experiences.
 
 I see it as a responsibility of everyone to be writing tests at the
 company for their respective parts.
 
-There\'s not going to be one super team that comes in and tests your
-product for you because they don\'t know how your product works.
+There&apos;s not going to be one super team that comes in and tests your
+product for you because they don&apos;t know how your product works.
 
 Usually what we do is set a testing bar so for every new feature we make
-sure there\'s at least a few tests for it.
+sure there&apos;s at least a few tests for it.
 
-That way our product isn\'t actually ready to release until we\'ve
+That way our product isn&apos;t actually ready to release until we&apos;ve
 already tested it, and so that gives us a lot more confidence than we
 otherwise would have.
 
 Testing is valuable, it can feel like a waste of time at first, but it
 is not.
 
-Eight months down the line when your app explodes and you\'re trying to
+Eight months down the line when your app explodes and you&apos;re trying to
 work out why those testings could have saved you.
 
 The testing is also its own, like challenging activity writing good test
-is hard and take pride in writing tests in the same way, you\'d take
+is hard and take pride in writing tests in the same way, you&apos;d take
 pride in building any of the products you want to build.
 
-Good luck in your first experience in testing, it\'s going to be very
+Good luck in your first experience in testing, it&apos;s going to be very
 fundamental as you move forward in your career.
 
 <h4>Module summary: Interactive CSS</h4>
 
-Congratulations. You\'ve reached the end of this module on interactive
+Congratulations. You&apos;ve reached the end of this module on interactive
 CSS where you delve deeper into CSS by applying increasingly specific
 styling to various elements.
 
-It\'s now time to review what you\'ve learned.
+It&apos;s now time to review what you&apos;ve learned.
 
 You began this module with a lesson on creating layouts.
 
@@ -10451,7 +10444,7 @@ debugging tools available to diagnose and resolve CSS and html issues.
 You also know more about creating layouts using CSS selectors and
 applying CSS effects.
 
-You\'ve done a great job so far, keep up the good work and continue
+You&apos;ve done a great job so far, keep up the good work and continue
 progressing in your learning journey.
 
 <h4>Additional resources</h4>
@@ -10486,13 +10479,13 @@ covered in this lesson. 
 
 <h4>Course recap</h4>
 
-Wow, you\'ve made it to the end of the course.
+Wow, you&apos;ve made it to the end of the course.
 
-Why don\'t you take a moment to congratulate yourself?
+Why don&apos;t you take a moment to congratulate yourself?
 
-After all, you\'ve learned a lot in this course.
+After all, you&apos;ve learned a lot in this course.
 
-Let\'s recap. In the very first module, you learned how HTML and CSS are
+Let&apos;s recap. In the very first module, you learned how HTML and CSS are
 used in the real-world.
 
 You also learned about semantic tags and how important a structured
@@ -10519,7 +10512,7 @@ Layouts are fundamental to designing a good webpage because they divide
 a page into different sections thereby making the viewport more
 presentable.
 
-I\'m sure you learned a lot in this section about how to make sure that
+I&apos;m sure you learned a lot in this section about how to make sure that
 your user is always presented with a good viewport.
 
 The next section was about CSS selectors which correspond to specific
@@ -10528,7 +10521,7 @@ elements or element groups in a HTML document.
 You learned that you can combine more than one selector, so you can
 apply rules to elements based on their relationship with one another.
 
-That\'s neat. With pseudo-class selectors, you can improve the
+That&apos;s neat. With pseudo-class selectors, you can improve the
 interactivity of your webpages without having to add overly advanced
 styling.
 
@@ -10540,27 +10533,27 @@ In the second last part of this module, you learned about keyframes,
 animations, and effects in CSS, essential knowledge and skills for any
 front-end developer.
 
-Let\'s refresh your memory about what those effects include.
+Let&apos;s refresh your memory about what those effects include.
 
 Think of sliding galleries, cursor effects, and the hover effect, which
 is very frequently used on web pages.
 
-While it\'s tempting to add lots of animations and effects, you should
+While it&apos;s tempting to add lots of animations and effects, you should
 remember that it can be distracting for users and it may cause your web
 page to load slowly.
 
 The last part of the second module was all about how to use browser
 developer tools to assist with debugging HTML and CSS issues.
 
-Developers make mistakes all the time and they\'re a normal part of the
+Developers make mistakes all the time and they&apos;re a normal part of the
 process.
 
-Don\'t feel bad when you make a mistake.
+Don&apos;t feel bad when you make a mistake.
 
-That\'s what debugging is for, to figure out where something went wrong
+That&apos;s what debugging is for, to figure out where something went wrong
 and how you can fix it.
 
-Debugging can\'t happen without testing, and you also learned about UI
+Debugging can&apos;t happen without testing, and you also learned about UI
 Testing strategies such as cross device testing and a range of tools
 that can help eliminate problems encode.
 
@@ -10568,11 +10561,11 @@ Wow, you covered a lot in this course.
 
 This might only be the start of your journey towards becoming a HTML and
 CSS developer, but you can be very proud of yourself for how much
-you\'ve already learned and accomplished.
+you&apos;ve already learned and accomplished.
 
 Thank you.
 
-It\'s been a pleasure to embark on this journey of discovery with you.
+It&apos;s been a pleasure to embark on this journey of discovery with you.
 
 Best of luck in the future.
 
@@ -10596,8 +10589,8 @@ layout for your home page. Your header should contain the client logo
 and the main content should be a large promotional banner with three
 columns with text and images below it. Your footer will have two
 columns: the first column should have a small logo and the second one
-should have copywriting information. When it comes to styling, you\'ll
-have to create the appropriate look and feel for your client\'s target
+should have copywriting information. When it comes to styling, you&apos;ll
+have to create the appropriate look and feel for your client&apos;s target
 audience. Remember, you want to create intentional engagement!
 
 To enable you to do all of this, the module covers the most essential
@@ -10692,7 +10685,7 @@ Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design
 firm that specializes in garden design and creation, maintenance and
 landscaping. The company also runs a small plant nursery that sells
 indoor and outdoor plants, making them a one-stop shop for clients to
-\"transform any space into an oasis you can be proud of\".
+&quot;transform any space into an oasis you can be proud of&quot;.
 
 Lucky Shrub was started by a husband and wife team, Jason and Maria, who
 share a long-time love for plants. Jason is the garden architect. He
@@ -10728,7 +10721,7 @@ Day website.
 
 Pria, the owner of Hair Day, earned her certificate as a colorist and
 immediately started specializing in edgy, custom coloring techniques.
-She wanted to create a \"treat yourself\" environment for her clients.
+She wanted to create a &quot;treat yourself&quot; environment for her clients.
 Pria opened the salon with her good friend and talented hairdresser,
 Garry. They have a staff of seven: two stylists, three colorists, one
 manicurist and one make-up artist.
@@ -10775,7 +10768,7 @@ ZIP File
 Mangata and Gallo is a jewelry store that specializes in special
 occasions like engagements, weddings and anniversaries. The jewelry
 company primarily operates online and has a small storefront in Austin,
-Texas with an atelier attached for browsing. Mangata & Gallo\'s
+Texas with an atelier attached for browsing. Mangata & Gallo&apos;s
 selection of jewelry is known for its high-quality and classic look. The
 owner, an Austin local, is well known for her jewelry designs.
 
