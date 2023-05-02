@@ -1,21 +1,12 @@
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  img {
-  display: block;
-  margin: 0 auto }
-
   img.displayed {
-  display: block;
-  margin: 0 auto; }
+    display: block;
+    margin: 0 auto; }
 
-  img.border {
-  border-width: 1px;
-  border-color: #778899;
-  border-style: solid; }
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center
-    }
+  .border {
+    border-width: 1px;
+    border-color: #778899;  /* dark grayish blue */
+    border-style: solid; }
+
     img {
       max-width: 100%
     }
@@ -53,74 +44,67 @@
 body {
   font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
 }
+
 p {
   margin: 15px;
 }
 
+div {
+  float: left; }
+  
 .border {
   border-width: 1px;
   border-color: #778899;
   border-style: solid; }
 
 h1  {
-  font-family: Bahnschrift, Helvetic, Arial, sans-serif;
-  color: initial;
+  font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   text-align: center;
-  font-size: 23px; }
+  font-size: 21px; }
   
 h2 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   color: darkgreen;
-  font-size: 21px;
+  font-size: 18px;
   text-align: left; 
   margin-right: 23px;
   margin-left: 5px; }
   
 h3 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  color: black;
-  font-size: 19px;
-  text-align: left; 
-  margin-right: 20px;
-  margin-left: 5px; }
-  
-h4 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  color: black;
+  font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 17px;
-  text-align: left; 
-  margin-right: 20px;
-  margin-left: 5px; }
+  }
+
+h4 {
+  font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
+  font-size: 16px;
+  }
 
 h5 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 15px;
   text-align: left;
-  margin-right: 20px;
   margin-left: 5px; }
 
 h6 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 13px;
   text-align: left; 
-  margin-right: 20px;
   margin-left: 5px; }
 
 h7 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 11px;
   text-align: left; 
-  margin-right: 20px;
   margin-left: 5px; }
     
 p {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 15px;
   text-align: left; 
-  margin-right: 20px;
   margin-left: 5px; }
 
 <!-- background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%) -->
@@ -132,11 +116,12 @@ p {
 background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
 
 body {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 15px;
-  margin-left: 5px;
-  margin-right: 20px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  font-size: 1.2em;
   text-align: left;
+  padding: 10px
+  background-color: #eeeeee;  /* very light gray */
+  color: #000000;  /* black */
 }
 
 #myBtn {
@@ -148,22 +133,22 @@ body {
   font-size: 11px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  background-color: #8b0000;  /* dark red */
+  color: #fdfeff;  /* very pale (mostly white) blue */
   cursor: pointer;
   padding: 10px;
   border-radius: 1px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #555;  /* very dark gray */
 }
 
 .dropbtn {
-  background-color: #04006D;
+  background-color: #04006D;  /* very dark blue */
   color: white;
-  padding: 14px;
-  font-size: 12px;
+  padding: 11px;
+  font-size: 11px;
   border: none;
 }
 
@@ -193,3 +178,4 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #398e41;}
+
