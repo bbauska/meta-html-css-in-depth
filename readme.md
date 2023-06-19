@@ -984,12 +984,12 @@ convention to identify it as an Open Graph Protocol related tag.
 The Open Graph Protocol requires that you must always include four
 properties on a webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 38. four properties required with open graph protocol (ogp) (2x) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 38. four properties required with open graph protocol (ogp) (26) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image038.png"
   width="33%"
-  alt="Four properties required with Open Graph Protocol (OGP)." />
+  alt="Four properties required with Open Graph Protocol (OGP): title, type, URL and image." />
 </p>
 <!-- ![](images/image038.png){width="6.0in" height="1.8320516185476816in"} -->
 
@@ -1025,12 +1025,12 @@ about later. But let&apos;s briefly explore three of these.
 
 The description property provides a description of the webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. description property (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. og: local property (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image039.png"
   width="40%"
-  alt="The description property." />
+  alt="The og:local property describes the language and territory of the webpage." />
 </p>
 <!-- ![](images/image039.png){width="4.0in" height="1.2213681102362204in"} -->
 
@@ -1128,11 +1128,11 @@ social media platforms.
 
 I&apos;ve opened index.html in visual studio code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. meta template for index.html (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. meta template for index.html (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image040.png"
-  width="50%"
+  width="70%"
   alt="Four pieces of metadata required by the OG protocol." />
 </p>
 <!-- ![](images/image040.png){width="5.0in" height="2.775107174103237in"} -->
@@ -1142,56 +1142,39 @@ protocol.
 
 To do this, I add the four meta tags inside the head element.
 
-On the first meta tag, I add the property attribute and set its value to
-og:title.
-
-I then add the content attribute and set its value to our menu.
-
+On the first meta tag, add the property attribute and set its value to
+og:title.  Then add the content attribute and set its value to our menu.
 This metadata is the title that will be displayed in the preview on the
-social media platform.
+social media platform.  It&apos;s important to note that this value should 
+reflect the content of the individual web page and not the website as a whole.
 
-It&apos;s important to note that this value should reflect the content of
-the individual web page and not the website as a whole.
-
-On the second meta tag, I add the property attributes and set its value
-to og:type.
-
-I then add the content attribute and set its value to website.
-
+On the second meta tag, add the property attributes and set its value
+to og:type.  Then add the content attribute and set its value to website.
 This metadata informs the social platforms that this content being
 shared is a website.
 
-On the third meta tag, I add the property attribute and set its value to
-og:image.
-
-I then add the content attribute and set its value to logo.png.
-
+On the third meta tag, add the property attribute and set its value to
+og:image.  Then add the content attribute and set its value to logo.png.
 This metadata informs the social media platform what the preferred
-preview images.
-
-In this case, it will be good to display the Little Lemon restaurant
+preview images.  In this case, it will be good to display the Little Lemon restaurant
 logo.
 
-On the last meta tag, I add the property attributes and set its value to
-og:url.
-
-I then add the content attribute and set its value to the url of the
+On the last meta tag, add the property attributes and set its value to
+og:url.  Then add the content attribute and set its value to the url of the
 Little Lemon website.
 
-The web page is now ready to be shared on social media platforms.
-
-However, there is some optional metadata I can add to provide additional
-information to the platforms.
+The web page is now ready to be shared on social media platforms.  However, there is 
+some optional metadata I can add to provide additional information to the platforms.
 
 Since the platforms vary in what they display to their users, it&apos;s best
 to provide as much information as possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 41. more meta tags for head element in index.html (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 41. more meta tags for head element in index.html (31) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image041.png"
-  width="50%"
-  alt="Three more meta head elements." />
+  width="70%"
+  alt="Three more additional meta head elements." />
 </p>
 <!-- ![](images/image041.png){width="5.0in" height="2.775107174103237in"} -->
 
@@ -1245,18 +1228,18 @@ dealing with different concepts related to the topics you have covered
 in this section.
 
 <ul>
-  <li><a href="https://www.dofactory.com/html/metatags">HTML meta tags</a><br></li>
-  <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/">Semantic elements</a><br></li>
-  <li><a href="https://www.instructables.com/Bare-Bones-Web-Page/">Simple bare bones HTML webpage</a><br></li>
-  <li><a href="https://www.vandelaydesign.com/newsletter-tutorial/">HTML5/CSS bare-bones newsletter template</a><br></li>
-  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html">Add open graph social metadata-Twitter</a><br></li>
-  <li><a href="https://css-tricks.com/essential-meta-tags-social-images/">Essential meta tags for social media</a><br></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta">The meta element</a><br></li>
-  <li><a href="https://ogp.me/">Open graph protocol</a><br></li>
-  <li><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">Using open graph protocol on websites</a><br></li>
-  Kli><a href="https://developers.facebook.com/docs/sharing/webmasters/">Meta OGP guide for webmasters</a><br></li>
-  <li><a href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html">Bootstrap with HTML</a><br></li>
-  <li><a href="https://getbootstrap.com/docs/5.2/examples/">Bootstrap Layout Examples</a></li>
+  <li><a href="https://www.dofactory.com/html/metatags" target="_blank">HTML meta tags</a><br></li>
+  <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/" target="_blank">Semantic elements</a><br></li>
+  <li><a href="https://www.instructables.com/Bare-Bones-Web-Page/" target="_blank">Simple bare bones HTML webpage</a><br></li>
+  <li><a href="https://www.vandelaydesign.com/newsletter-tutorial/" target="_blank">HTML5/CSS bare-bones newsletter template</a><br></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html" target="_blank">Add open graph social metadata-Twitter</a><br></li>
+  <li><a href="https://css-tricks.com/essential-meta-tags-social-images/" target="_blank">Essential meta tags for social media</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">The meta element</a><br></li>
+  <li><a href="https://ogp.me/" target="_blank">Open graph protocol</a><br></li>
+  <li><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" target="_blank">Using open graph protocol on websites</a><br></li>
+  Kli><a href="https://developers.facebook.com/docs/sharing/webmasters/" target="_blank">Meta OGP guide for webmasters</a><br></li>
+  <li><a href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html" target="_blank">Bootstrap with HTML</a><br></li>
+  <li><a href="https://getbootstrap.com/docs/5.2/examples/" target="_blank">Bootstrap Layout Examples</a></li>
 </ul>
 
 <h4>Forms and validation</h4>
@@ -1328,7 +1311,7 @@ Let&apos;s examine how HTML allows you to do simple client-side validation.
 
 HTML has several input types that are validated by the web browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. input types (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. input types (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image042.png"
@@ -1349,7 +1332,7 @@ entering a telephone number and URL, the browser will validate the
 entered data against the requirements of the input type and provide user
 feedback.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. required attribute (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. required attribute (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image043.png"
@@ -1642,106 +1625,63 @@ website.
 In this module, you will learn how to create a simple signup form for
 user accounts on the Little Lemon website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 44. signup.html (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. simple signup form signup.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image044.png"
   width="50%"
-  alt="." />
+  alt="Simple signup form: signup.html." />
 </p>
 <!-- ![](images/image044.png){width="5.0in" height="3.0in"} -->
 
-I&apos;ve set up my basic HTML document structure in a file named,
-signup.html.
+Set up the HTML document structure in a file named, signup.html.
 
-I start off by adding the form element.
-
-The restaurant requires that the customer data is sent securely.
-
-I will set the method attribute to post so that is submitted using an
-HTTP post request.
-
-You will learn more about different methods of form submission later.
-
+Start off by adding the form element.  The restaurant requires that the customer 
+data is sent securely. Set the method attribute to post so that is submitted using an
+HTTP post request.  You will learn more about different methods of form submission later.
 For now, you just need to know that if you send a form via an HTTP post
-request, it improves the data security of the form.
+request, it improves the data security of the form.  The restaurant wants to collect the 
+customer&apos;s first name, last name, and email address.
 
-The restaurant wants to collect the customer&apos;s first name, last name,
-and email address.
+The form also needs a field for the password, and another to confirm the password.
 
-Of course, the form also needs a field for the password, and another to
-confirm the password.
+The form will have five fields in total.  Start by adding the input elements, also known 
+as the form fields.  Then set up six div elements, one for each input element, and
+one for the sign up button. The div elements will cause each field of the form to 
+display in its own CSS block.
 
-I need to create a form with five fields in total.
-
-I&apos;ll start by adding the input elements, also known as the form fields.
-
-First, I&apos;ll set up six div elements, one for each input element, and
-one for the sign up button.
-
-The div elements will cause each field of the form to display in its own
-CSS block.
-
-Now, I&apos;ll start adding the input elements.
-
-I add an input element for the first name to the first div element.
-
-Since the user will input plain texts for this form field, I set the
-type attribute to text.
-
-I also set the name and id attributes to user_first_name.
-
+Next, add an input element for the first name to the first div element.
+Since the user will input plain texts for this form field, set the type attribute 
+to text. Also, set the name and id attributes to user_first_name.
 Remember that the name attribute sets the key for the value submitted to
-the web server.
+the web server.  Later in this module, I&apos;ll explain why I set the ID 
+attribute. 
 
-Later in this module, I&apos;ll explain why I set the ID attribute.
+Next, add an input element for the last name.  Like the first name element, set the type 
+attribute to text, and the name and ID attributes to user_last_name.
 
-Next, I add an input element for the last name.
+Then add an input element for the email address. To make sure users enter a valid email 
+address in this field, set the type attribute to email.  Earlier you learned that doing 
+so establishes HTML&apos;s client-side validation.  Also set the name and ID attributes 
+to user_email.
 
-Like the first name element, I set the type attribute to text, and the
-name and ID attributes to user_last_name.
+Next, add the input element for the password.  You want the password to be hidden on 
+screen as the user types it, so set the type attribute to password.  When an input field 
+is set to password, each character that a user enters will display as a placeholder 
+character, such as the bullet point.  The content in the field will contain the password 
+that the user enters, but it will be hidden.
 
-I then add an input element for the email address.
+Then set the name and ID attributes to user_password.  Finally, add the input element 
+for confirming the password.  Again, I set the type to password to hide the content 
+of the input field on screen.  Then set the name and ID attributes to user_confirm_password.
 
-To make sure users enter a valid email address in this field, I set the
-type attribute to email.
-
-Earlier you learned that doing so establishes HTML&apos;s client-side
-validation.
-
-I also set the name and ID attributes to user_email.
-
-Next, I add the input element for the password.
-
-I want the password to be hidden on screen as the user types it, so I
-set the type attribute to password.
-
-When an input field is set to password, each character that a user
-enters will display as a placeholder character, such as the bullet
-point.
-
-The content in the field will contain the password that the user enters,
-but it will be hidden.
-
-I then set the name and ID attributes to user_password.
-
-Finally, I add the input element for confirming the password.
-
-Again, I set the type to password to hide the content of the input field
-on screen.
-
-I then set the name and ID attributes to user_confirm_password.
-
-Now that our input fields are set up,
-
-I save the file and open the Live Preview to check the webpage.
-
+Now that our input fields are set up, save the file and open the Live Preview to check the webpage.
 Everything displays correctly.
 
-However, I&apos;d like to improve the user experience by informing the user
+However, I&apos;d like to improve the user experience by informing the user 
 what each field represents.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 45. add label element before each input (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 45. add label element before each input (41) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image045.png"
@@ -1750,18 +1690,10 @@ what each field represents.
 </p>
 <!-- ![](images/image045.png){width="5.0in" height="3.115918635170604in"} -->
 
-To do this, I&apos;ll add a label element before each input element.
-
-Now I want to explain why I set the ID attribute for each input field
-earlier in the module.
-
-The reason for this, is that it allows me to associate a label with each
-input element.
-
-Labels improve the user experience and assist accessibility software and
-understanding the form.
-
-I now add a label element above the first input element.
+To do this, add a label element before each input element. Now you want to explain why I set the 
+ID attribute for each input field earlier in the module.  The reason for this, is that it allows me 
+to associate a label with each input element.  Labels improve the user experience and assist 
+accessibility software and understanding the form. Now add a label element above the first input element.
 
 Inside the label element, I add the descriptive text for the input
 field.
@@ -1776,27 +1708,25 @@ Finally, I&apos;ll add a line break tag after the label element so that the
 input field displays below the label. I then repeat the same process for
 each input element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 46. sign up form sample (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. sign up form sample (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image046.png"
   width="20%"
-  alt="." />
+  alt="Sample sign up form." />
 </p>
 <!-- ![](images/image046.png){width="2.0in" height="2.996363735783027in"} -->
 
-I save the file again and open the Live Preview.
-
-Oh, yes, that&apos;s much better.
+Save the file again and open the Live Preview. Oh, yes, that&apos;s much better.
 
 The form labels now display above the input fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 47. submit button (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. submit button (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image047.png"
   width="40%"
-  alt="." />
+  alt="The submit button." />
 </p>
 <!-- ![](images/image047.png){width="4.0in" height="1.3523129921259842in"} -->
 
@@ -1843,12 +1773,12 @@ validate the format of data, but there are additional attributes that
 you can apply to elements for further validation.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 48. login form sample (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. login form sample (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image048.png"
   width="65%"
-  alt="." />
+  alt="Sample login form." />
 </p>
 <!-- ![](images/image048.png){width="6.5in" height="2.2104166666666667in"} -->
 
@@ -1868,12 +1798,12 @@ processing of the request, a HTTP request was still submitted.
 Let&apos;s improve this form by using client-side validation to ensure the
 user enters values to both fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 49.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. required attribute (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image049.png"
   width="65%"
-  alt="." />
+  alt="Required attribute in forms." />
 </p>
 <!-- ![](images/image049.png){width="6.5in" height="2.2104166666666667in"} -->
 
@@ -1881,38 +1811,35 @@ Now with the required attribute in the code, if one of the fields is
 empty and the user clicks the submit button, the request will not be
 submitted to the web server.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. please fill out this field (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image050.png"
   width="30%"
-  alt="." />
+  alt="Please fill out this field.  Required." />
 </p>
 <!-- ![](images/image050.png){width="2.7395833333333335in" height="4.697916666666667in"} -->
 
 The web browser will focus on the first empty input element and inform the user that a field is empty.
-
 Now the form creates a much better user experience and prevents
 unnecessary usage of web server resources, but user input that is too
 short or too long would also result in unnecessary submissions to the
 web server.
 
 Another way to validate user input is to specify the required length for
-data.
-
-Let&apos;s say you want the usernames to be at least three characters long
+data. Let&apos;s say you want the usernames to be at least three characters long
 and a maximum of 12 characters, or maybe you want to ensure more secure
 passwords by requiring a minimum password length of five characters.
 
 Fortunately, there are two more attributes you can use to ensure the
 correct length of data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 51. required field with minlength and maxlength (45) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image051.png"
   width="65%"
-  alt="." />
+  alt="Adding minlength and maxlength to field attributes." />
 </p>
 <!-- ![](images/image051.png){width="6.5in" height="2.49375in"} -->
 
@@ -1921,23 +1848,18 @@ specify the required length. In this case, since the minimum value for
 the username is set to three, a two-character entry would be invalid.
 
 If you click the submit button now, the web browser will inform you of
-the length requirements.
-
-A built-in function of the browser will generate the message displayed
+the length requirements. A built-in function of the browser will generate the message displayed
 on screen.
 
 Again, a much better user experience and management of web server
 resources.
 
 Now let&apos;s focus on the way the browser communicates errors to the
-users, like a form field that turns red when the data is invalid.
-
-This can be readily implemented using CSS.
-
-To highlight a field in red when the data is invalid, you use the input
+users, like a form field that turns red when the data is invalid.  This can be readily 
+implemented using CSS. To highlight a field in red when the data is invalid, you use the input
 element selector.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 52.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 52. pseudo-class selector: valid/invalid (46) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image052.png"
@@ -1954,12 +1876,12 @@ For now, the key thing to know is that they are used to select elements
 based on their state, such as whether the input data is valid or
 invalid.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 53.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. if invalid, border red (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image053.png"
   width="65%"
-  alt="." />
+  alt="Border red if data blank or invalid." />
 </p>
 <!-- ![](images/image053.png){width="6.5in" height="2.8131944444444446in"} -->
 
@@ -1974,12 +1896,12 @@ demonstrated in this Real-world example of a login screen.
 Ideally, you only want fields to appear red as the user enters invalid
 data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 54.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 54. if invalid by user entry only, then make border red (47) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image054.png"
   width="65%"
-  alt="." />
+  alt="Only display red bordered if user entry is invalid." />
 </p>
 <!-- ![](images/image054.png){width="6.5in" height="3.154166666666667in"} -->
 
@@ -2008,7 +1930,7 @@ hands-on activities called <b>Labs</b>. In these labs you&apos;ll be able to
 open Visual Studio Code and start writing code without ever leaving the
 course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 55.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 55. lab: creating an html document (48) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image055.png"
@@ -2022,12 +1944,12 @@ course.
 
 The Labs contain instructions explaining the coding task.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 56.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 56. lab instructions: creating an html document (48) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image056.png"
   width="50%"
-  alt="." />
+  alt="Lab Instructions: Creating an HTML document." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](images/image056.png){width="5.0in" height="3.3633628608923885in"} 
 -->
@@ -2036,12 +1958,12 @@ When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing
 code!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 57.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. files for lab (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image057.png"
   width="50%"
-  alt="." />
+  alt="Files for lab on the left of screen.  Editor on the right." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](images/image057.png){width="5.0in" height="2.674922353455818in"} 
 -->
@@ -2049,24 +1971,24 @@ code!
 You&apos;ll see all the files for the lab in the Project folder in the left
 sidebar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. list of files for lab (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image058.png"
   width="50%"
-  alt="." />
+  alt="List of files for lab and editor." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](images/image058.png){width="5.0in" height="2.674922353455818in"} 
 -->
 
 And the large editor area where you write your code for the lab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. editor section of lab (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image059.png"
   width="50%"
-  alt="." />
+  alt="Editor screen for lab." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](images/image059.png){width="5.0in"
 height="2.674922353455818in"} 
@@ -2097,12 +2019,12 @@ from time to time to complete course activities. You can open this by
 selecting the <b>Terminal</b> option in the upper Visual Studio Code
 toolbar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. visual studio sample screen (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image060.png"
   width="50%"
-  alt="." />
+  alt="Example Visual Studio screen." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](images/image060.png){width="5.0in"
 height="3.3579494750656167in"} 
@@ -2119,12 +2041,12 @@ device</b>
 3.  After you&apos;ve selected these files, use the <b>Download</b> link to
     download your files to your local device.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 61. uploading files for visual studio code lab (51) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image061.png"
   width="50%"
-  alt="." />
+  alt="How to upload local files to your visual studio code lab." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](images/image061.png){width="5.0in"
 height="3.4154932195975505in"} 
@@ -2136,12 +2058,12 @@ If you&apos;d like to upload your course files from your local device to
 your Visual Studio Code lab, <b>drag and drop</b> your file from your local
 device into the Visual Studio Code file tree.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 62. another example visual studio screen (52) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image062.png"
   width="50%"
-  alt="." />
+  alt="Example Visual Studio screen." />
 </p>
 <!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](images/image062.png){width="5.0in"
 height="3.491418416447944in"} 
@@ -7674,6 +7596,8 @@ effect.
 | [attribute$=value] | a[href$=".docx"] {} | Every `<a>` element with `href` attribute value ends with `".docx"` |
 | [attribute*=value] | a[href*="meta"] {} | Every `<a>` element with `href` attribute value has substring `"meta"` |
 
+<h3>Pseudo Classes</h3>
+
 | Pseudo-class | Example | Description of selection |
 |--------------|---------|--------------------------|
 | :active | a:active {} | All active links |
@@ -7716,18 +7640,18 @@ effect.
 | ::placeholder | input::placeholder {} | Selects input elements with `"placeholder"` attribute specified |
 | ::marker | ::marker {} | Selects markers in a list |
 
-<h4>Additional resources</h4>
+<h3>Additional resources</h3>
 
 Here is a list of resources about selectors, pseudo-classes and
 pseudo-elements in HTML and CSS that may be helpful as you continue your
 learning journey;
 
 <ul>
-  <li><a href="https://www.geeksforgeeks.org/10-css-selectors-every-developer-should-know/">Commonly used selectors</a><br></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators">Combinator selectors</a><br></li>
-  <li><a href="https://www.w3schools.com/cssref/css_selectors.asp">Comprehensive list of selectors</a><br></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Comprehensive list of pseudo-classes</a><br></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Comprehensive list of pseudo-elements</a></li>
+  <li><a href="https://www.geeksforgeeks.org/10-css-selectors-every-developer-should-know/" target="_blank">Commonly used selectors</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators" target="_blank">Combinator selectors</a><br></li>
+  <li><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Comprehensive list of selectors</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Comprehensive list of pseudo-classes</a><br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Comprehensive list of pseudo-elements</a></li>
 </ul>
 
 What is an effect?
@@ -10786,7 +10710,7 @@ accounts.
 <h4>[Mangata and Gallo logos]</h4>
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h6>4-13-2023 at 1:39pm</h6>
+<h6>6-19-2023 at 11:49am</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
