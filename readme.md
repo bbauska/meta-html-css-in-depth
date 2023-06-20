@@ -61,7 +61,7 @@ After completing this module (1), you should be able to:
   <li>Create a video and audio player that can rate the media played.</li>
 </ul>
 
-<h3>Module 2</h3>
+<h2>Module 2</h2>
 
 In module 2, you will focus on CSS layouts, grids and flexboxes. You
 will learn about fundamental layouts that you can use to design a good
@@ -85,7 +85,7 @@ After completing this module (2), you should be able to:
   <li>Adapt your CSS to perform as expected in different browsers.</li>
 </ul>
 
-<h3>Module 3</h3>
+<h2>Module 3</h2>
 
 In this last module (3), you will have an opportunity to recap what you
 learned in the course and put it into practice by creating a home page
