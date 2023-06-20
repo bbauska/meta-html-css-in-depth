@@ -15,7 +15,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
   width="20%"
   alt="Coursera logo." />
 </p>
-<!-- ![coursera logo](images/image001.png){width="1.549261811023622in" height="0.5in"} -->
+<!-- width="1.549261811023622in" height="0.5in" -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -25,7 +25,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
   width="10%"
   alt="Meta logo." />
 </p>
-<!-- ![meta logo](images/image002.png){width="1.0175437445319335in" height="0.5in"} -->
+<!-- width="1.0175437445319335in" height="0.5in" -->
 
 <h1>Course syllabus</h1>
 
@@ -117,7 +117,7 @@ But what does that mean?
   width="50%"
   alt="Hypertext and Markup." />
 </p>
-<!-- ![](images/image003.png){width="5.0in" height="1.6068372703412073in"} -->
+<!-- width="5.0in" height="1.6068372703412073in" -->
 
 Hypertext is text which contains links to other text.
 
@@ -130,7 +130,7 @@ Markup refers to tags and elements used within a document.
   width="65%"
   alt="Basic HTML page structure." />
 </p>
-<!-- ![](images/image004.png){width="5.0in" height="1.6068350831146108in"} -->
+<!-- width="5.0in" height="1.6068350831146108in" -->
 
 HTML elements with their opening and closing tags in angle brackets make
 up an HTML document.
@@ -188,7 +188,7 @@ CSS tells the web browser how to display HTML elements on screen.
   width="60%"
   alt="Style, box model and document flow." />
 </p>
-<!-- ![](images/image005.png){width="5.0in" height="1.6068372703412073in"} -->
+<!-- width="5.0in" height="1.6068372703412073in" -->
 
 You use CSS to style elements within an HTML document, create an
 appealing layout for your webpage using the box model, and arrange page
@@ -238,7 +238,7 @@ sure that you create a well-formed web page.
   width="50%"
   alt="Basic HTML page structure, again." />
 </p>
-<!-- ![](images/image006.png){width="5.0in" height="1.6068372703412073in"} -->
+<!-- width="5.0in" height="1.6068372703412073in" -->
 
 Let&apos;s revisit the basic structure of an HTML page which includes the
 head and body.
@@ -253,7 +253,7 @@ to describe each of the sections.
   width="50%"
   alt="HTML tags." />
 </p>
-<!-- ![](images/image007.png){width="5.0in" height="2.175748031496063in"} -->
+<!-- width="5.0in" height="2.175748031496063in" -->
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
@@ -265,7 +265,7 @@ using the header, main and footer semantic HTML tags.
   width="50%"
   alt="Template example with header, main and footer." />
 </p>
-<!-- ![](images/image008.png){width="5.0in" height="2.370726159230096in"} -->
+<!-- width="5.0in" height="2.370726159230096in" -->
 
 For example, suppose you lay out your page with a header section that
 contains some company logo and navigation links.
@@ -283,7 +283,7 @@ links.
   width="50%"
   alt="Nav tag." />
 </p>
-<!-- ![](images/image009.png){width="5.0in" height="2.370726159230096in"} -->
+<!-- width="5.0in" height="2.370726159230096in" -->
 
 The main navigation section of your web page can also be described
 semantically using the Nav tag.
@@ -298,7 +298,7 @@ after the header element and the header element is used for logos.
   width="50%"
   alt="Unordered list tag." />
 </p>
-<!-- ![](images/image010.png){width="5.0in" height="2.3707272528433947in"} -->
+<!-- width="5.0in" height="2.3707272528433947in" -->
 
 The main links of your website are then added inside the Nav element.
 
@@ -328,7 +328,7 @@ That&apos;s quite a mouthful.
   width="15%"
   alt="Newspaper." />
 </p>
-<!-- ![](images/image011.png){width="1.5in" height="1.9452449693788276in"} -->
+<!-- width="1.5in" height="1.9452449693788276in" -->
 
 It may help to think of a page in a newspaper.
 
@@ -355,7 +355,7 @@ web page.
   width="40%"
   alt="Article element." />
 </p>
-<!-- ![](images/image012.png){width="4.0in" height="2.4813560804899386in"} -->
+<!-- width="4.0in" height="2.4813560804899386in" -->
 
 You should place the article element within the main element.
 
@@ -374,7 +374,7 @@ like a blog post list.
   width="40%"
   alt="At the end of your document is the footer element." />
 </p>
-<!-- ![](images/image013.png){width="4.0in" height="2.424242125984252in"} -->
+<!-- width="4.0in" height="2.424242125984252in" -->
 
 At the end of your document is the footer element.
 
@@ -410,7 +410,7 @@ semantically describe the section.
   width="50%"
   alt="Descriptive section elements - describes web page." />
 </p>
-<!-- ![](images/image014.png){width="4.0in" height="1.9722222222222223in"} -->
+<!-- width="4.0in" height="1.9722222222222223in" -->
 
 It is also possible to use section elements to describe different sections of
 your webpage, the section element doesn't require the article element.
@@ -438,7 +438,7 @@ accessibility software can understand the semantics of the page.
   width="50%"
   alt="Basic HTML document structure ." />
 </p>
-<!-- ![](images/image015.png){width="4.0in" height="2.4551279527559053in"} -->
+<!-- width="4.0in" height="2.4551279527559053in" -->
 
 I&apos;ve set up my basic html document structure in a file named blog.html.  I&apos;ll start off by adding my basic semantic structure.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -449,7 +449,7 @@ I&apos;ve set up my basic html document structure in a file named blog.html.  I&
   width="60%"
   alt="Header, nav, main and footer elements." />
 </p>
-<!-- ![](images/image016.png){width="6.0in" height="3.598718285214348in"} -->
+<!-- width="6.0in" height="3.598718285214348in" -->
 
 First, I add the header element. Followed by the nav element, Followed
 by the main element. Followed by the footer element.
@@ -524,7 +524,7 @@ But how does a search engine determine which web pages are most relevant in this
   width="31%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
-<!-- ![](images/image017.png){width="3.1041666666666665in" height="1.8125in"} -->
+<!-- width="3.1041666666666665in" height="1.8125in" -->
 
 A major part of launching a website is a process called search engine
 optimization or SEO.  This process involves making improvements to a
@@ -559,7 +559,7 @@ But for now, let&apos;s just focus on how meta tags influence website ranking.
   width="60%"
   alt="META tags and metadata - data about the web page." />
 </p>
-<!-- ![](images/image018.png){width="6.0in" height="1.5410258092738407in"} -->
+<!-- width="6.0in" height="1.5410258092738407in" -->
 
 Meta tags define metadata about a web page.
 
@@ -577,7 +577,7 @@ browser.
   width="32%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
-<!-- ![](images/image019.png){width="3.2in" height="2.4929385389326333in"} -->
+<!-- width="3.2in" height="2.4929385389326333in" -->
 
 In other words, meta tags are unseen elements within the browser. Note that
 there is no closing tag for the meta tag.
@@ -589,7 +589,7 @@ there is no closing tag for the meta tag.
   width="60%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
-<!-- ![](images/image020.png){width="6.0in" height="1.275in"} -->
+<!-- width="6.0in" height="1.275in" -->
 
 The meta element has two attributes, name and content.
 
@@ -605,7 +605,7 @@ Let&apos;s examine some examples of metadata.
   width="60%"
   alt="Author metadata." />
 </p>
-<!-- ![](images/image021.png){width="6.0in" height="2.388461286089239in"} -->
+<!-- width="6.0in" height="2.388461286089239in" -->
 
 The author metadata specifies the author of the web page.
 
@@ -619,7 +619,7 @@ company who are the author of the web page.
   width="60%"
   alt="Description metadata." />
 </p>
-<!-- ![](images/image022.png){width="6.0in" height="2.388461286089239in"} -->
+<!-- width="6.0in" height="2.388461286089239in" -->
 
 The description metadata describes the content of the web page.
 
@@ -636,7 +636,7 @@ the descriptive text.
   width="60%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
-<!-- ![](images/image023.png){width="6.0in" height="2.388461286089239in"} -->
+<!-- width="6.0in" height="2.388461286089239in" -->
 
 The keywords metadata was previously used to provide search keywords for
 search engines.
@@ -656,7 +656,7 @@ recommended not to include this metadata in modern web pages.
   width="60%"
   alt="Robot's metadata." />
 </p>
-<!-- ![](images/image024.png){width="6.0in" height="2.388461286089239in"} -->
+<!-- width="6.0in" height="2.388461286089239in" -->
 
 Another type of metadata is the robot&apos;s metadata and it tells search
 engines if and how they should analyze your web page.
@@ -671,7 +671,7 @@ bots, that search engines used to analyze websites.
   width="26%"
   alt="Robot contents: index, follow, no index and no follow." />
 </p>
-<!-- ![](images/image025.png){width="2.6041666666666665in" height="4.90625in"} -->
+<!-- width="2.6041666666666665in" height="4.90625in" -->
 
 The content attribute for Robots has four possible values. <i>Index</i> tells
 the bot to analyze the page. <i>Follow</i> tells the bot to also visit all
@@ -688,7 +688,7 @@ best not to rely on it.
   width="60%"
   alt="View ports metadata." />
 </p>
-<!-- ![](images/image026.png){width="6.0in" height="2.1801279527559054in"} -->
+<!-- width="6.0in" height="2.1801279527559054in" -->
 
 Finally, there&apos;s the <i>view ports</i> metadata. The <i>view port</i> metadata is
 important when designing responsive web pages. Why you might ask. Because
@@ -716,7 +716,7 @@ But that&apos;s for later modules.
   width="12%"
   alt="Semantic HTML document structure." />
 </p>
-<!-- ![](images/image027.png){width="1.1618055555555555in" height="3.0in"} -->
+<!-- width="1.1618055555555555in" height="3.0in" -->
 
 For now, it&apos;s important to know that author, description, keywords,
 robots and viewports metadata all play a role in the search engine
@@ -747,7 +747,7 @@ also to this folder.
   width="60%"
   alt="Semantic HTML document structure." />
 </p>
-<!-- ![](images/image028.png){width="6.0in" height="3.4929483814523183in"} -->
+<!-- width="6.0in" height="3.4929483814523183in" -->
 
 I go back to my template folder and open it in Visual Studio Code. I
 open the index.html file. The file has a semantic HTML document
@@ -773,7 +773,7 @@ section and update the content attributes.
   width="60%"
   alt="Open Graph Protocol meta tags." />
 </p>
-<!-- ![](images/image029.png){width="6.0in" height="3.4929483814523183in"} -->
+<!-- width="6.0in" height="3.4929483814523183in" -->
 
 The next block of commented out code is for icons. If you want to show
 an icon in the web browser tab for your website, you can update the href
@@ -794,7 +794,7 @@ By now you can probably see how useful this template is.
   width="60%"
   alt="Body element comprised of header, nav, main and footer." />
 </p>
-<!-- ![](images/image030.png){width="6.0in" height="3.4929483814523183in"} -->
+<!-- width="6.0in" height="3.4929483814523183in" -->
 
 Let&apos;s continue to the body element. The body element already contains a
 basic semantic structure. This includes the header element for your
@@ -809,7 +809,7 @@ copyright notices or links to secondary webpages.
   width="60%"
   alt="JavaScript script elements." />
 </p>
-<!-- ![](images/image031.png){width="6.0in" height="0.7339741907261592in"} -->
+<!-- width="6.0in" height="0.7339741907261592in" -->
 
 Below the footer element, you add script elements for JavaScript files.
 To make your life easy, a script element is already set up to reference
@@ -847,7 +847,7 @@ experience.
   width="60%"
   alt="Example: Top navbar layout." />
 </p>
-<!-- (images/image032.png){width="6.0in" height="2.6327504374453192in"} -->
+<!-- width="6.0in" height="2.6327504374453192in" -->
 
 <h4>Carousel layout</h4>
 
@@ -863,7 +863,7 @@ fixed interval.
   width="60%"
   alt="Example of a Carousel layout." />
 </p>
-<!-- (images/image033.png){width="6.0in" height="3.431632764654418in"} -->
+<!-- width="6.0in" height="3.431632764654418in" -->
 
 <h4>Blog layout</h4>
 
@@ -880,7 +880,7 @@ page each day based on current events.
   width="60%"
   alt="Example of a large style Blog Layout." />
 </p>
-<!-- (images/image034.png){width="6.0in" height="3.919861111111111in"} -->
+<!-- width="6.0in" height="3.919861111111111in" -->
 
 The layout typically features different-sized feature areas followed by
 a series of article summary areas that link to full articles.
@@ -892,7 +892,7 @@ a series of article summary areas that link to full articles.
   width="60%"
   alt="Example of a regular style Blog Layout." />
 </p>
-<!-- (images/image035.png){width="6.0in" height="3.579003718285214in"} -->
+<!-- width="6.0in" height="3.579003718285214in" -->
 
 <h4>Dashboard layout</h4>
 
@@ -909,7 +909,7 @@ a good user experience for business users.
   width="60%"
   alt="Example of a Dashboard Layout." />
 </p>
-<!-- (images/image036.png){width="6.0in" height="3.0491305774278215in"} -->
+<!-- width="6.0in" height="3.0491305774278215in" -->
 
 <h4>More layouts</h4>
 
@@ -959,7 +959,7 @@ in 2010.
   width="33%"
   alt="Open Graph Protocol (OGP)." />
 </p>
-<!-- ![](images/image037.png){width="3.3in" height="1.4413790463692038in"} -->
+<!-- width="3.3in" height="1.4413790463692038in" -->
 
 The Open Graph Protocol is a set of Metadata rules that allow web pages to
 describe themselves to social networks.
@@ -991,7 +991,7 @@ properties on a webpage.
   width="33%"
   alt="Four properties required with Open Graph Protocol (OGP): title, type, URL and image." />
 </p>
-<!-- ![](images/image038.png){width="6.0in" height="1.8320516185476816in"} -->
+<!-- width="6.0in" height="1.8320516185476816in" -->
 
 These are title, type, URL, and image.
 
@@ -1032,7 +1032,7 @@ The description property provides a description of the webpage.
   width="40%"
   alt="The og:local property describes the language and territory of the webpage." />
 </p>
-<!-- ![](images/image039.png){width="4.0in" height="1.2213681102362204in"} -->
+<!-- width="4.0in" height="1.2213681102362204in" -->
 
 The og:locale property describes the language and territory of the
 webpage&apos;s content.
@@ -1135,7 +1135,7 @@ I&apos;ve opened index.html in visual studio code.
   width="70%"
   alt="Four pieces of metadata required by the OG protocol." />
 </p>
-<!-- ![](images/image040.png){width="5.0in" height="2.775107174103237in"} -->
+<!-- width="5.0in" height="2.775107174103237in" -->
 
 At a minimum, I need to add four pieces of metadata required by the
 protocol.
@@ -1176,7 +1176,7 @@ to provide as much information as possible.
   width="70%"
   alt="Three more additional meta head elements." />
 </p>
-<!-- ![](images/image041.png){width="5.0in" height="2.775107174103237in"} -->
+<!-- width="5.0in" height="2.775107174103237in" -->
 
 I&apos;ll add three more meta tags to the head element.
 
@@ -1318,7 +1318,7 @@ HTML has several input types that are validated by the web browser.
   width="20%"
   alt="Input types: email, tel, url, date, time, number, range and color." />
 </p>
-<!-- ![](images/image042.png){width="2.0in" height="2.766961942257218in"} -->
+<!-- width="2.0in" height="2.766961942257218in" -->
 
 As demonstrated in the example, email is used for email addresses.
 
@@ -1339,7 +1339,7 @@ feedback.
   width="30%"
   alt="Required attribute." />
 </p>
-<!-- ![](images/image043.png){width="3.0in" height="1.2400995188101487in"} -->
+<!-- width="3.0in" height="1.2400995188101487in" -->
 
 Another example is the required attribute, which indicates that the user
 must supply a value to an input field.
@@ -1632,7 +1632,7 @@ user accounts on the Little Lemon website.
   width="50%"
   alt="Simple signup form: signup.html." />
 </p>
-<!-- ![](images/image044.png){width="5.0in" height="3.0in"} -->
+<!-- width="5.0in" height="3.0in" -->
 
 Set up the HTML document structure in a file named, signup.html.
 
@@ -1688,7 +1688,7 @@ what each field represents.
   width="50%"
   alt="Label element precedes every input." />
 </p>
-<!-- ![](images/image045.png){width="5.0in" height="3.115918635170604in"} -->
+<!-- width="5.0in" height="3.115918635170604in" -->
 
 To do this, add a label element before each input element. Now you want to explain why I set the 
 ID attribute for each input field earlier in the module.  The reason for this, is that it allows me 
@@ -1715,7 +1715,7 @@ each input element.
   width="20%"
   alt="Sample sign up form." />
 </p>
-<!-- ![](images/image046.png){width="2.0in" height="2.996363735783027in"} -->
+<!-- width="2.0in" height="2.996363735783027in" -->
 
 Save the file again and open the Live Preview. Oh, yes, that&apos;s much better.
 
@@ -1728,7 +1728,7 @@ The form labels now display above the input fields.
   width="40%"
   alt="The submit button." />
 </p>
-<!-- ![](images/image047.png){width="4.0in" height="1.3523129921259842in"} -->
+<!-- width="4.0in" height="1.3523129921259842in" -->
 
 To finalize the form, I need to add one more thing, the submit button.
 Inside the last div element, I add a button element.
@@ -1780,7 +1780,7 @@ you can apply to elements for further validation.
   width="65%"
   alt="Sample login form." />
 </p>
-<!-- ![](images/image048.png){width="6.5in" height="2.2104166666666667in"} -->
+<!-- width="6.5in" height="2.2104166666666667in" -->
 
 First, let&apos;s explore how you can ensure that the user provides a value
 to a form field. This example of a log-in form contains two fields, one
@@ -1805,7 +1805,7 @@ user enters values to both fields.
   width="65%"
   alt="Required attribute in forms." />
 </p>
-<!-- ![](images/image049.png){width="6.5in" height="2.2104166666666667in"} -->
+<!-- width="6.5in" height="2.2104166666666667in" -->
 
 Now with the required attribute in the code, if one of the fields is
 empty and the user clicks the submit button, the request will not be
@@ -1818,7 +1818,7 @@ submitted to the web server.
   width="30%"
   alt="Please fill out this field.  Required." />
 </p>
-<!-- ![](images/image050.png){width="2.7395833333333335in" height="4.697916666666667in"} -->
+<!-- width="2.7395833333333335in" height="4.697916666666667in" -->
 
 The web browser will focus on the first empty input element and inform the user that a field is empty.
 Now the form creates a much better user experience and prevents
@@ -1841,7 +1841,7 @@ correct length of data.
   width="65%"
   alt="Adding minlength and maxlength to field attributes." />
 </p>
-<!-- ![](images/image051.png){width="6.5in" height="2.49375in"} -->
+<!-- width="6.5in" height="2.49375in" -->
 
 You can add the min length and max length attributes to the fields to
 specify the required length. In this case, since the minimum value for
@@ -1866,7 +1866,7 @@ element selector.
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image052.png){width="6.5in" height="2.8131944444444446in"} -->
+<!-- width="6.5in" height="2.8131944444444446in" -->
 
 You then apply the pseudo-class selector called invalid.
 
@@ -1883,7 +1883,7 @@ invalid.
   width="65%"
   alt="Border red if data blank or invalid." />
 </p>
-<!-- ![](images/image053.png){width="6.5in" height="2.8131944444444446in"} -->
+<!-- width="6.5in" height="2.8131944444444446in" -->
 
 Then you add a CSS property to set the border of the element to read.
 
@@ -1903,7 +1903,7 @@ data.
   width="65%"
   alt="Only display red bordered if user entry is invalid." />
 </p>
-<!-- ![](images/image054.png){width="6.5in" height="3.154166666666667in"} -->
+<!-- width="6.5in" height="3.154166666666667in" -->
 
 To do this, you need to apply another pseudo-class called focus, which
 checks if the user is currently entering data into this field.
@@ -1937,8 +1937,7 @@ course.
   width="30%"
   alt="." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vGowNP9VQ-iqMDT_VQPoGg_8b07efd976544e35a6f193cac219c4f1_Screen-Shot-2022-06-24-at-3.39.41-PM.png?expiry=1676419200000&hmac=DmkfoEPa4Gu8p-8GmC0vFE9EmSbNGmkyksWT_ITquB0](images/image055.png){width="3.4375in" height="0.4270833333333333in"} 
--->
+<!-- width="3.4375in" height="0.4270833333333333in" -->
 
 <h4>How to get started working on Labs</h4>
 
@@ -1951,8 +1950,7 @@ The Labs contain instructions explaining the coding task.
   width="50%"
   alt="Lab Instructions: Creating an HTML document." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g](images/image056.png){width="5.0in" height="3.3633628608923885in"} 
--->
+<!-- width="5.0in" height="3.3633628608923885in" -->
 
 When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing
@@ -1965,8 +1963,7 @@ code!
   width="50%"
   alt="Files for lab on the left of screen.  Editor on the right." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o](images/image057.png){width="5.0in" height="2.674922353455818in"} 
--->
+<!-- width="5.0in" height="2.674922353455818in" -->
 
 You&apos;ll see all the files for the lab in the Project folder in the left
 sidebar.
@@ -1978,8 +1975,7 @@ sidebar.
   width="50%"
   alt="List of files for lab and editor." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files.png?expiry=1676419200000&hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c](images/image058.png){width="5.0in" height="2.674922353455818in"} 
--->
+<!-- width="5.0in" height="2.674922353455818in" -->
 
 And the large editor area where you write your code for the lab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1990,9 +1986,7 @@ And the large editor area where you write your code for the lab.
   width="50%"
   alt="Editor screen for lab." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI](images/image059.png){width="5.0in"
-height="2.674922353455818in"} 
--->
+<!-- width="5.0in" height="2.674922353455818in" -->
 
 All <b>Lab</b> exercises will include two important files. A <b>README.md</b>
 file which contains instructions for using Visual Studio Code and most
@@ -2026,9 +2020,7 @@ toolbar.
   width="50%"
   alt="Example Visual Studio screen." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GE5YoBvqT9-OWKAb6m_fKQ_f929f837d3d74250b00d1603fb3c09f1_VSCode-Terminal-Example.png?expiry=1676419200000&hmac=e6ejhhiuSjYZO9bYcVbjRZvjugV2SJ2D0WnGiea0H1c](images/image060.png){width="5.0in"
-height="3.3579494750656167in"} 
--->
+<!-- width="5.0in" height="3.3579494750656167in" -->
 
 <b>How to download files from your Visual Studio Code Lab to your local
 device</b>
@@ -2048,9 +2040,7 @@ device</b>
   width="50%"
   alt="How to upload local files to your visual studio code lab." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ghF76i7AT7GRe-ouwL-x7w_70c41b2336dc4f71bb3d2d43debb3bf1_Lab-VSCode-File-Download.png?expiry=1676419200000&hmac=2k06YlkY5Scb8eFueU3wyZifn4PeSJ-rzJ4TflHTsrg](images/image061.png){width="5.0in"
-height="3.4154932195975505in"} 
--->
+<!-- width="5.0in" height="3.4154932195975505in" -->
 
 How to upload local files to your Visual Studio Code Lab
 
@@ -2065,9 +2055,7 @@ device into the Visual Studio Code file tree.
   width="50%"
   alt="Example Visual Studio screen." />
 </p>
-<!-- ![https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/5cTZREu6TPeE2URLumz3Aw_534ba92baca54f6caf5ecd5868f9f7f1_VSCode-File-Upload.png?expiry=1676419200000&hmac=Nv2KL_1fw_Q\_XPlFqLKlu2FV8kq7lAIcJy5Yp_uAJWE](images/image062.png){width="5.0in"
-height="3.491418416447944in"} 
--->
+<!-- width="5.0in" height="3.491418416447944in" -->
 
 How to get a fresh copy of course-provided starter files
 
@@ -2817,7 +2805,7 @@ To select the input HTML element, use the input element selector, and
 then specify the individual styling by adding a pair of square brackets,
 and then type equals in this case text or email.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 78. type text and email with css, cont'd (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 78. type text and email with css, cont'd (69) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image078.png"
@@ -2874,12 +2862,12 @@ appearance of the element. For example, this code:
 <h4>Results in the following output:</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 79. login form (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 79. login form username and password (70) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image079.png"
   width="20%"
-  alt="Two input types, text and password, as it displays in the browser." />
+  alt="Two input fields, text and password, as it displays in the browser." />
 </p>
 <!-- !(images/image079.png){width="2.0in" height="1.397195975503062in"} -->
 
@@ -3000,7 +2988,7 @@ input other than the listed options.
   </form>
 ```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 80. list of pre-defined options for an input field (72) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image080.png"
@@ -3030,7 +3018,7 @@ below the code block.
   </select>
 ```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. drop-down list (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image081.png"
@@ -3071,7 +3059,7 @@ browsers?](https://www.webfx.com/web-design/learn/why-does-your-website-look-dif
 [HTML Form submission -- sending form
 data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
 
-Video and audio
+<h4>Video and audio</h4>
 
 These days it&apos;s difficult to think of using the Internet without
 streaming music or videos, but this wasn&apos;t always possible on the World
@@ -3080,76 +3068,50 @@ Wide Web.
 How do you, as a developer, add videos and audio to a webpage?
 
 Luckily, it&apos;s quite straightforward, thanks to HTML and modern web
-browsers.
+browsers.  HTML video and audio tags are used for embedding media on a 
+webpage and both tags support different file types that can be played 
+in the web browser.
 
-HTML video and audio tags are used for embedding media on a webpage and
-both tags support different file types that can be played in the web
-browser.
-
-For videos, the following file types are supported by most web browsers,
+For <b>videos</b>, the following file types are supported by most web browsers,
 MP4, WebM, and OGG.
 
-For audio, the following file types are supported by most web browsers,
+For <b>audio</b>, the following file types are supported by most web browsers,
 MP3, WAV, and OGG.
 
-Let&apos;s examine how to use the video tag.
-
-You start with a video tag itself.
-
-Then you add a source element.
-
-Note that the source element has no closing tag.
-
+Let&apos;s examine how to use the video tag.  You start with a video tag itself.  
+Then you add a source element.  Note that the source element has no closing tag.
 In the source element, you add two attributes, src, also known as
-source, and type.
-
-In the src attribute, you add the address of the video file.
+source, and type.  In the src attribute, you add the address of the video file.
 
 In this case, it&apos;s linked to a file named dance.mp4. In the type
 attribute, you add the value video forward/mp4 since the file is an MP4
-file.
-
-Remember I mentioned that the file types are supported by most web
+file.  Remember I mentioned that the file types are supported by most web
 browsers.
 
 In case the file type is not supported, the video tag allows for
-multiple sources to be specified.
-
-The web browser will check through the sources and use the first one
-that it supports.
+multiple sources to be specified.  The web browser will check through the 
+sources and use the first one that it supports.
 
 If you prefer the web browser to use one format over another, then make
-sure to specify them in the preferred order.
-
-There are also attributes available for the video tag itself, which
-allow you to customize the video player.
-
-For example, you can specify the width and height of the player using
-the width and height attributes.
+sure to specify them in the preferred order.  There are also attributes 
+available for the video tag itself, which allow you to customize the 
+video player.  For example, you can specify the width and height of the 
+player using the width and height attributes.
 
 If you want to enable player controls such as a pause and volume button,
-you can add the controls attribute.
+you can add the controls attribute.  There are other attributes available 
+to customize the video player too.
 
-There are other attributes available to customize the video player too.
+You&apos;ll learn more about these in a later module.  Now let&apos;s examine 
+how the audio tag works.  Similar to the video tag, you start with the 
+opening and closing audio tags.  Just like the video tag, you specify the 
+source element with its src and type attributes.
 
-You&apos;ll learn more about these in a later module.
-
-Now let&apos;s examine how the audio tag works.
-
-Similar to the video tag, you start with the opening and closing audio
-tags.
-
-Just like the video tag, you specify the source element with its src and
-type attributes.
-
-If the web browser doesn&apos;t support the file type, it can fall back on a
-different type.
-
-It&apos;s important to note that if you&apos;re using an MP3 file, that the type
-is specified as audio forward/mpeg.
-
-This is because MP3 is short for MPEG-1 Audio Layer 3. Like the video
-player, you can also customize the audio player.
+If the web browser doesn&apos;t support the file type, it can fall back on a 
+different type.  It&apos;s important to note that if you&apos;re using an MP3 
+file, that the type is specified as audio forward/mpeg.  This is because MP3 
+is short for MPEG-1 Audio Layer 3. Like the video player, you can also 
+customize the audio player.
 
 By using the controls attribute, you can enable player control such as
 the pause and volume buttons.
@@ -3160,103 +3122,81 @@ player.
 Well done. You&apos;ll learn about other video and audio attributes in the
 next video.
 
-Embedded players
+<h4>Embedded players</h4>
 
 The Little Lemon Restaurant wants to add an about page to their website.
-
 They&apos;ve asked me to set up the page and include some audio and video in
 embedded players.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 82. about.html (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. sample about.html (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image082.png"
   width="60%"
-  alt="." />
+  alt="about.html sample code." />
 </p>
 <!-- ![](images/image082.png){width="6.0in" height="3.187179571303587in"} -->
 
-I&apos;ve set up my basic html document structure in a file named
-about.html.
+Set up basic html document structure in a file named about.html.  Start off 
+by adding the heading tag containing the text about.  Then add a paragraph element 
+containing the about text provided to me by the restaurant.
 
-I start off by adding the heading tag containing the text about.
+Next, add the audio element after the paragraph element.  Add the source element 
+and set the src attribute to music.ogg.  Then I set the type attribute to 
+audio/ogg.
 
-I then add a paragraph element containing the about text provided to me
-by the restaurant.
+They also asked that the audio should loop so when the audio player reaches the end 
+of the audio, it should automatically go back and play it again from the start.
 
-Next, I add the audio element after the paragraph element. inside the
-audio element, I add the source element and set the src attribute to
-music.ogg.
+To do this, add the loop attribute to the audio element. You also need to add 
+controls so that the user can play and pause the audio.
 
-Then I set the type attribute to audio/ogg.
-
-They also asked that the audio should loop so when the audio player
-reaches the end of the audio, it should automatically go back and play
-it again from the start.
-
-To do this, I add the loop attribute to the audio element.
-
-I also need to add controls so that the user can play and pause the
-audio.
-
-To do this, I add the controls attribute to the audio element. I saved
-the file and opened the web page in my browser.
+To do that, add the controls attribute to the audio element. Then save the file and 
+opened the web page in your browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 83. audio in about.html (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. audio in about.html (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image083.png"
   width="60%"
-  alt="." />
+  alt="Add audio to about.html sample screen." />
 </p>
 <!-- ![](images/image083.png){width="6.0in" height="3.1173075240594925in"} -->
 
-I can see that the audio is loading and is displayed in the browser
-using the browsers built in audio player.
+You can see that the audio is loading and is displayed in the browser using the 
+browsers built in audio player.  Pressing the play button starts the audio, and 
+pressing pause will pause it.  Everything is working as expected.
 
-Pressing the play button starts the audio, and pressing pause will pause
-it.
-
-Everything is working as expected.
-
-Now I&apos;ll add the video.
+Now add the video:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 84.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 84. audio element added before paragraph element (76) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image084.png"
   width="60%"
-  alt="." />
+  alt="Add audio element before the paragraph element." />
 </p>
 <!-- ![](images/image084.png){width="6.0in" height="3.1173075240594925in"} -->
 
-I add a video element before the paragraph element.
-
-Inside the video element, I add the source element and set the src
-attribute to video.mp4.
-
-I then set the type attribute to video/mp4.
-
-I want to reserve the appropriate amount of space on the web page for
-the video.
-
-So, I go back to the video element and set the width attribute to 320,
+Next, add the video element before the paragraph element.  Inside the video element, add the 
+source element and set the src attribute to video.mp4.  Then set the type attribute to 
+video/mp4. You want to reserve the appropriate amount of space on the web page for
+the video.  So, go back to the video element and set the width attribute to 320,
 and the high attribute 240.
 
-To provide a good user experience, I&apos;ll also enable the video controls.
-
-To do this, I add the controls attribute to the video element.
+To provide a good user experience, enable the video controls.  To do this, I add the 
+controls attribute to the video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 85. video element in about.html (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 85. video element added to about.html (77) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image085.png"
   width="60%"
-  alt="." />
+  alt="Video element added to about.html." />
 </p>
 <!-- ![](images/image085.png){width="6.0in" height="3.3833333333333333in"} -->
 
-I saved the file again and open the page in my browser.
+Save the file again and open the page in your browser.
 
 The video appears and I can click on the play button to start the video.
 
@@ -3266,7 +3206,7 @@ disabled by default.
 To do this, I go back to my html and add the muted attribute to the
 video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. audio/video on about.html (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. audio/video on about.html (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image086.png"
@@ -3275,20 +3215,12 @@ video element.
 </p>
 <!-- ![](images/image086.png){width="6.0in" height="3.3833333333333333in"} -->
 
-I saved the file again and opened the page.
-
-And everything is working as expected.
-
+Save the file again and opened the page.  And everything is working as expected.
 That&apos;s great.
 
 The about page is a great addition to the little Lemon website for
-customers wanting to learn more about the business.
-
-Using embedded players is a good way to make your web page more
-interactive.
-
-And luckily these players can support either audio or video.
-
+customers wanting to learn more about the business.  Using embedded players is a good way to make 
+your web page more interactive.  And luckily these players can support either audio or video.
 What&apos;s more, you can add controls to allow the user to decide what they
 want to do.
 
@@ -3300,30 +3232,42 @@ when they browse the about page.
 This lesson will help refresh your knowledge of the <b>&lt;img&gt;</b> tag and
 how you can use it to embed images in webpages. The <b>&lt;img&gt;</b> tag is
 used to add an image to a web page. The image's address is specified
-using the src attribute. For example, if you wanted to embed an image
+using the src attribute. 
+
+For example, if you wanted to embed an image
 file named photo.png, you can do that with the following HTML. <b>&lt;img
 src=&quot;photo.png&quot;&gt;</b> You can also specify the width and height of the
-image using the width and height attributes. For example, if the width
-of the photo is 640 pixels and the height of the photo is 480 pixels,
+image using the width and height attributes. 
+
+For example, if the width of the photo is 640 pixels and the height of the photo is 480 pixels,
 you can use the following HTML. <b>&lt;img src=&quot;photo.png&quot; width=&quot;640&quot;
 height=&quot;480&quot;&gt;</b> It is important to note that you can set the image to
 a larger or smaller size and the web browser will automatically scale
-the image. For example, you can update the previous HTML to half the
+the image.
+
+For example, you can update the previous HTML to half the
 width and height and the image would shrink by 50%. <b>&lt;img
 src=&quot;photo.png&quot; width=&quot;320&quot; height=&quot;240&quot;&gt;</b> One useful feature of
 rendering images in the web browser is that the web browser can
-automatically keep the correct ratio of width to height. So for example,
+automatically keep the correct ratio of width to height. 
+
+So for example,
 if you want to scale the image by 50%, you can simply set the width
 attribute and the web browser will automatically calculate the height.
-<b>&lt;img src=&quot;photo.png&quot; width=&quot;320&quot;&gt;</b> But what happens if the
-photo doesn't load? Perhaps the file was accidentally deleted, or you
-mistyped the file name. Luckily, the web browser has a way to display
+<b>&lt;img src=&quot;photo.png&quot; width=&quot;320&quot;&gt;</b> 
+
+But what happens if the photo doesn't load? Perhaps the file was accidentally 
+deleted, or you mistyped the file name. Luckily, the web browser has a way to display
 some text when the image fails to load. This is done using the alt
-attribute. For example, you can display the text My Profile Photo using
+attribute. 
+
+For example, you can display the text My Profile Photo using
 the alt attribute in the previous HTML. <b>&lt;img src=&quot;photo.png&quot;
 width=&quot;320&quot; alt=&quot;My Profile Photo&quot;&gt;</b> It is important to ensure
 that screen reader accessibility software can interpret images displayed
-in the web browser. To support this, the &lt;img&gt; tag is combined with
+in the web browser. 
+
+To support this, the &lt;img&gt; tag is combined with
 the <b>&lt;figure&gt;</b> and <b>&lt;figcaption&gt;</b> tags to provide a description
 of the image. The <b>&lt;img&gt;</b> tag is added inside the <b>&lt;figure&gt;</b> tag
 and the <b>&lt;figcaption&gt;</b> is specified after it.
@@ -3335,8 +3279,8 @@ and the <b>&lt;figcaption&gt;</b> is specified after it.
   </figure>
 ```
 
-One last thing to note is that like videos and audio, the web browser
-only supports specific file types. These file types are:
+<p>One last thing to note is that like videos and audio, the web browser
+only supports specific file types. These file types are:</p>
 
 <ul>
   <li>.APNG -- Animated Portable Network Graphics<br><br></li>
@@ -3346,8 +3290,9 @@ only supports specific file types. These file types are:
   <li>.PNG -- Portable Network Graphics<br><br></li>
   <li>.SVG -- Scalable Vector Graphics<br><br></li>
   <li>.WEBP -- Web Picture Format<br<<br></li>
-  <li>Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.</li>
 </ul>
+
+<p>Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.</p>
 
 <h4>iFrames</h4>
 
