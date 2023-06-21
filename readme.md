@@ -3187,12 +3187,12 @@ and the high attribute 240.
 To provide a good user experience, enable the video controls.  To do this, I add the 
 controls attribute to the video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 85. video element added to about.html (77) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 85. video control attributes added to about.html (77) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image085.png"
   width="60%"
-  alt="Video element added to about.html." />
+  alt="Video control attributes added to about.html." />
 </p>
 <!-- ![](images/image085.png){width="6.0in" height="3.3833333333333333in"} -->
 
@@ -3206,17 +3206,16 @@ disabled by default.
 To do this, I go back to my html and add the muted attribute to the
 video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. audio/video on about.html (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 86. add muted attribute to video element (78) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image086.png"
   width="60%"
-  alt="Add muted attribute to the video element." />
+  alt="Add muted attribute to video element." />
 </p>
 <!-- ![](images/image086.png){width="6.0in" height="3.3833333333333333in"} -->
 
 Save the file again and opened the page.  And everything is working as expected.
-That&apos;s great.
 
 The about page is a great addition to the little Lemon website for
 customers wanting to learn more about the business.  Using embedded players is a good way to make 
@@ -3521,12 +3520,12 @@ In this section, I&apos;m going to demonstrate how to do that.
 
 I&apos;ve opened the index.html in Visual Studio Code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87. add iframe element (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image087.png"
   width="60%"
-  alt="." />
+  alt="Add iFrame element." />
 </p>
 <!-- ![](images/image087.png){width="6.0in" height="3.364102143482065in"} -->
 
@@ -3562,12 +3561,12 @@ and customers interacting with your website.
 Their concerns are valid as there are many security vulnerabilities with
 embedding content from another website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 88. sandbox and limit capabilities of iframe element (86) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image088.png"
   width="65%"
-  alt="." />
+  alt="Sandbox and limit capabilities of iFrame element." />
 </p>
 <!-- ![](images/image088.png){width="6.5in" height="0.6861111111111111in"} -->
 
@@ -3618,12 +3617,12 @@ potentially unsecured browser features.
 Now that they know it&apos;s secure, the other restaurant is going to
 implement the same code on their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. add security features (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image089.png"
   width="50%"
-  alt="." />
+  alt="Add security features." />
 </p>
 <!-- ![](images/image089.png){width="5.0in" height="2.0747867454068243in"} -->
 
@@ -3685,16 +3684,16 @@ information so for now let&apos;s focus on the canvas element.
 
 Let&apos;s examine how to animate some simple graphics.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. how to animate simple graphics (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image090.png"
   width="50%"
-  alt="." />
+  alt="How to animate some simple graphics." />
 </p>
 <!-- ![](images/image090.png){width="5.0in" height="2.2067311898512685in"} -->
 
-Using the 2D canvas.
+<h4>Using the 2D canvas</h4>
 
 I&apos;m going to animate a bouncing ball. I&apos;ve opened visual studio code
 and have set up two files index dot html and animation dot Js inside
@@ -3704,12 +3703,12 @@ I have added the canvas html element.
 
 I have set its with attribute to 640 its height attribute to 480.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 91. set id attribute to underscore canvas (89) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image091.png"
   width="50%"
-  alt="." />
+  alt="Set ID attribute to underscore canvas." />
 </p>
 <!-- ![](images/image091.png){width="5.0in" height="2.7243591426071743in"} -->
 
@@ -3722,12 +3721,12 @@ underscore canvas at the parameter.
 
 The result is stored in a variable named canvas.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 92. look up the two d canvas context, pass in parm d (89) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image092.png"
   width="50%"
-  alt="." />
+  alt="Look up the two D canvas context using canvas dot get context and pass in parm to D." />
 </p>
 <!-- [](images/image092.png){width="5.0in" height="2.2441240157480316in"} -->
 
@@ -3748,12 +3747,12 @@ The function clears the canvas area using context dot clear wreck it
 then draws the ball in its current position using the context dot begin
 path, context dot arc and context dot fill functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. define function draw ball  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image093.png"
   width="50%"
-  alt="." />
+  alt="Define animated functions: move and draw ball." />
 </p>
 <!-- ![](images/image093.png){width="5.0in" height="1.0293799212598425in"} -->
 
@@ -3773,7 +3772,7 @@ and there are also many libraries available to simplify development.
 
 These are linked in the additional resources Reading.
 
-Module summary: HTML deep dive
+<h4>Module summary: HTML deep dive</h4>
 
 You&apos;ve reached the end of this module on HTML.
 
@@ -3998,7 +3997,7 @@ the vertical main axis. The properties you choose will help better
 control alignment, spacing, direction and eventually styling of the
 container and items present inside it. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 94. diagram of a flexbox and all its properties (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 94. diagram of a flexbox and all its properties (95) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image094.png"
@@ -4044,7 +4043,7 @@ to configure a flexbox.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 95. css code with listed number boxes (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 95. css code with listed number boxes one..seven (96) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image095.png"
@@ -4074,7 +4073,7 @@ flex.
 The output is now seven flex containers that run from left to right
 starting in the top left corner.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 96. css aligned number boxes (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. css aligned number boxes (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image096.png"
@@ -4116,7 +4115,7 @@ Let's first examine the use of justify-content which has a value of
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 97. css code output centered (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. css code output centered (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image097.png"
@@ -4140,7 +4139,7 @@ span the entire width of the axis.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 98. css code with wrapped number boxes centered (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 98. css code with wrapped number boxes centered (98) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image098.png"
@@ -4170,7 +4169,7 @@ rows to vertical columns.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 99. display of listed number boxes as a flex (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 99. display of listed number boxes as a flex (99) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image099.png"
@@ -4204,7 +4203,7 @@ Let's change the value for it to 'flex-end'.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 100. right-centered number boxes with flex end align method (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 100. right-centered number boxes with flex end align method (100) ~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image100.png"
@@ -4236,12 +4235,12 @@ This property can be used on individual items inside the flex.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 101. display change in color and alignment (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 101. display change in color and alignment third box (101) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image101.png"
   width="25%"
-  alt="Output to display a change in color and alignment of individual items." />
+  alt="Output to display a change in color and alignment of individual items, third box in this case." />
 </p>
 <!-- (images/image101.png){width="2.9166666666666665in" height="3.7604166666666665in"} -->
 
@@ -4274,12 +4273,12 @@ columns using row-gap and column-gap properties.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 102. display of items with different spacing (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 102. display of items with different spacing, vertically (102) ~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image102.png"
   width="28%"
-  alt="Display of items with different spacing." />
+  alt="Display of items with different spacing vertically." />
 </p>
 <!-- (images/image102.png){width="2.8645833333333335in" height="3.34375in"} -->
 
@@ -4317,7 +4316,7 @@ horizontal best-distributed between two rows.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 103.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~ 103. list of items as default raw modified by removing flex directions (103) ~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image103.png"
@@ -4342,7 +4341,7 @@ inside the flex item box3 class.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 104.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~ 104. third box takes up entire free space after flex-growth set to 1 (103) ~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image104.png"
@@ -4388,23 +4387,16 @@ used when the size of the web page is known and will remain constant. 
 
 The table for absolute units can be seen below:
 
-  -----------------------------------------------------------------------
-  <b>Unit</b>   <b>Name</b>                    <b>Comparison</b>
-  ---------- --------------------------- --------------------------------
-  Q          Quarter-millimeters         1Q = 1/40th of 1cm
-
-  mm         Millimeters                 1mm = 1/10th of 1cm
-
-  cm         Centimeters                 1cm = 37.8px = 25.2/64in
-
-  in         Inches                      1in = 2.54cm = 96px
-
-  pc         Picas                       1pc = 1/6th of 1in
-
-  pt         Points                      1pt = 1/72nd of 1in
-
-  px         Pixels                      1px = 1/96th of 1in
-  -----------------------------------------------------------------------
+  | <b>Unit</b> | <b>Name<b>                           | <b>Comparison</b>          |
+  |:-----------:|:------------------------------------:|:--------------------------:|
+  |     Q       |   Quarter-millimeters                |  1Q = 1/40th of 1cm        |
+  |     mm      |   Millimeters                        |  1mm = 1/10th of 1cm       |
+  |     cm      |   Centimeters                        |  1cm = 37.8px = 25.2/64in  |
+  |     in      |   Inches                             |  1in = 2.54cm = 96px       |
+  |     pc      |   Picas                              |  1pc = 1/6th of 1ine       |
+  |     pt      |   Points                             |  1pt = 1/72nd of 1ine      |
+  |     px      |   Pixels                             |  1px = 1/96th of 1ine      |
+  |-------------|--------------------------------------|----------------------------|
 
 Of these, the pixels and centimeters are most frequently used for
 defining properties. 
@@ -4419,35 +4411,25 @@ elements present inside the parent element. Additionally, they are
 defined 'in relation' to the viewport or the size of the visible web
 page. Given the dynamic nature of web pages today and the variable size
 of devices in use, relative units are the go-to option in many cases.
-Below is a list of some of the important relative units. 
 
-  ------------------------------------------------------------------------
-  <b>Unit</b>   <b>Description and relativity</b>
-  ---------- -------------------------------------------------------------
-  <b>em</b>     Font size of the parent where present.
+Below is a list of some of the important relative units.
 
-  <b>ex</b>     x-co-ordinate or height of the font element.
-
-  <b>ch</b>     Width of the font character.
-
-  <b>rem</b>    Font size of the root element.
-
-  <b>lh</b>     Value computed for line height of parent element. 
-
-  <b>rlh</b>    Value computed for line height of root element which is
-             &lt;html&gt;. 
-
-  <b>vw</b>     1% of the viewport width.
-
-  <b>vh</b>     1% of the viewport height.
-
-  <b>vmin</b>   1% of the smaller dimension of viewport.
-
-  <b>vmax</b>   1% of the larger dimension of viewport.
-
-  <b>%</b>      Denotes a percentage value in relation to its parent
-             element. 
-  ------------------------------------------------------------------------
+  | <b>Unit</b> | <b>Description and relativity</b>                          |
+  |:-----------:|:----------------------------------------------------------:|
+  | <b>em</b>   | Font size of the parent where present.                     |
+  | <b>ex</b>   | x-co-ordinate or height of the font element.               |
+  | <b>ch</b>   | Width of the font character.                               |
+  | <b>rem</b>  | Font size of the root element.                             |
+  | <b>lh</b>   | Value computed for line height of parent element.          |
+  | <b>rlh</b>  | Value computed for line height of root element which is    |
+  |             | &lt;html&gt;.                                              |
+  | <b>vw</b>   | 1% of the viewport width.                                  |
+  | <b>vh</b>   | 1% of the viewport height.                                 |
+  | <b>vmin</b> | 1% of the smaller dimension of viewport.                   |
+  | <b>vmax</b> | 1% of the larger dimension of viewport.                    |
+  | <b>%</b>    | Denotes a percentage value in relation to its parent       |
+  |             | element.                                                   |
+  |-------------|------------------------------------------------------------|
 
 Many of these units are used in terms of the relative size of fonts.
 Some units are more suitable depending on the relative context. Like
@@ -10653,9 +10635,286 @@ accounts.
 <h4>Download their logos here:</h4>
 
 <h4>[Mangata and Gallo logos]</h4>
+
+Selecting the subject and working out the layout
+You might recall learning about client personas earlier in the course. 
+For the project, you have to choose one client persona to develop a home page for. 
+ 
+But if you want to practice, you can build multiple web pages using the different html and CSS skills that you've learned in this video. 
+You will learn how to approach and plan a web page layout so you can practice for your own project first. 
+Let's start with the visual layout. 
+The web page should have the company logo at the top of the page with a navigation menu underneath. 
+. 
+The main content of the page should be below the navigation menu. 
+At the bottom of the page is the footer. 
+The navigation menu requires four links to be laid out horizontally. 
+One link must be to the homepage you are developing depending on the client persona you've chosen. 
+The other links can be to product pages, contact forms or company information pages. 
+The main content should feature a large banner that links to the client's current promotional offer below the promotional banner. 
+There are three columns. Each column should contain an image followed by a heading and some text. 
+Again, depending on the client you choose. 
+These can contain offerings or information about the client. 
+The footer is split into two columns. 
+The left column will contain a small version of the client logo and the right column will contain copyright text. Now that you know what the visual requirements are. 
+Let's examine how you can structure the html and CSS for this layout. 
+Remember that it's important to semantically structure your html document. 
+Search engines and accessibility software can understand the semantics of the web page. 
+It's best to start by planning out the semantic structure. 
+You should use the header element for the logo, the nav element for the navigation, the main element for the main content and the footer element for the footer of the page. 
+Once you've set up your semantic html structure, the next step is to plan your grid layout for the main content and footer for these parts of the web page, you can use either a CSS grid or a flex box layout. 
+It's important to plan your CSS rules for the different sized columns that are required. 
+Remember, you'll need a full with column and 31 3rd columns for the main content. 
+To simplify the main content. 
+Consider splitting the content into two rows then to half with columns for the footer. 
+One last note, it's important to plan your units of measurement when defining your CSS rules and properties. 
+It will be easier to maintain and debug your CSS if your units are consistent throughout the code as you learned earlier in the course, choosing a unit such as M or rem for your C. S. S. 
+At the beginning of the project and sticking to it will help you as you progress further. 
+And that's the end of this video about planning a web page. 
+First you consider the visual layout, then the html and CSS structure for the layout followed by the semantic structure and then the grid layout. 
+In the next video, you'll learn how to start writing the html and CSS for the project.
+Positioning the elements, creating placeholders
+When building a webpage, it's considered good practice to do the layout and positioning of your HTML elements before working on their visual styling.
+Think of building a house. 
+After all, you don't paint it first. Instead, you start with a foundation and structure. 
+I'm going to take you through the process of building my HTML structure and positioning the elements so that you can follow along and note the placement of key elements for display. 
+For this project, I chose the little lemon restaurant as the client persona. 
+I've opened Visual Studio Code and I've created my index.html file with the semantic HTML document structure based on the bare-bones layout from Week 1. 
+In my semantic structure, I use the header element for the logo, the nav element for the navigation bar, the main element for the main page content and the footer element for the footer. 
+The navigation bar uses an unordered list for the navigation links. 
+In the main element, I set up two section elements, one for each row of the content. 
+Each row is its own element. 
+I can use the flexbox layout to split the content into the required number of columns. 
+ 
+I use the article element to represent each column. 
+This is because the content of each column will be self-contained and not related to the other columns. 
+I use a similar approach for splitting the footer into two columns. 
+Except instead of using the article element for columns, I use a div element. 
+This is because semantically the footer content should be considered as a whole. 
+Additionally, it isn't important content for search engines and accessibility software. 
+Since I want to split the footer visually into two columns, I use the div element to allow for the flexbox layout. 
+ 
+I save the file and open the webpage in the web browser.
+The content is displaying on the webpage, but I need to layout and position the elements using CSS. 
+I go back to Visual Studio Code and open styles.css in the CSS folder on the left. 
+I already set up some rules for the body and heading elements. 
+
+I decided to use REM as a unit of measurement for this project. 
+The font sizes, margins, and padding properties of my CSS rules will all be REM values. The only exception to this rule is the body element where the left and right margins are set to five percent of the window size.
+
+Let's start by adding a rule to center the logo. 
+I use an element selector to select the image element that is a descendant of the header element. 
+I then apply three CSS properties to the CSS rule.
+First, I set the display property to block so that the element changes from an inline element to a block level element. 
+Then I set the margin-left and margin-right properties to auto. 
+These three properties together will center the logo inside of the header element. 
+Next, I need to lay out the navigation menu horizontally. 
+To do this, I add an element selector to select the unordered list element that is a descendant of the nav element. 
+I then apply two CSS properties to the CSS rule. 
+First, I set the list-style property to none to remove the bullet point as the beginning of each element. 
+Then I set the text align property to center the inline elements. 
+Next, I add another CSS rule. 
+This time the selector will select the list item element that is a descendant of the nav element. 
+I then apply the display property and set its value to inline-block. 
+I save the file and open the webpage in the web browser. 
+ 
+So far so good. Both the logo and the navigation bar are centered. 
+Next, I need to set up the flexbox layout. 
+I add another CSS rule using the element selector to select the section element. 
+I then add the display property and set its value to flex. 
+Next, I add the CSS rule using the element selector to select the article element. 
+I then set the flex property to 1. 
+I saved the file and open the webpage in the web browser. 
+ 
+Now, the main content is laid out correctly with one column in the first row and three columns in the second row. 
+Finally, also the layout for the footer. 
+First, add a CSS rule using the element selector to select the footer element. I then add the display property and set its value to flex. 
+Then I add another CSS rule. 
+This time the selector will select the development that is a descendant of the footer element. 
+I then set the flex property to 1. 
+I save the file again and open the webpage in the web browser. 
+ 
+Success, the webpage elements are now laid out and positioned correctly.
+ 
+Laying out and positioning your HTML elements first will always save you time later on when you begin applying visual improvements in animations. 
+Doing it this way, it means that your webpage has a good strong foundational layout to work from and to which you can add the paint and decor, the visual styling of your webpage. 
+It takes some time to practice building your HTML structure and setting up the positioning of your elements.
+Setting up your local development environment
+You have to use Visual Studio Code to complete your graded assessment. You have two options to do this. 
+Option 1: Use Visual Studio Code in-browser with Coursera Labs
+You can access the Visual Studio Code environment through the “ Ungraded Lab Project sandbox” included in this lesson. Take note that the Project Sandbox only allows you to work for one hour at a time. Make sure you download your files before exiting the UGL. To work on your project again later, you can simply open the HTML and CSS files on your local machine and copy and paste the code again into the template files in the Project Sandbox. Remember to download the edited versions again at the end of the session.
+To submit your project, you need to download the HTML and CSS files to your local machine and save them inside a project folder. Zip the project folder and upload it in the "My submission" area in the Peer review assessment later in this lesson.
+Option 2: Work on your local device
+You can also choose to complete your graded assessment on your local machine if you prefer. This will require a few steps of set up in advance. 
+First, you need to download the free IDE from Microsoft's website - https://code.visualstudio.com/download.
+Select the download based on your operating system.
+Windows
+Step 1: Download the Windows installer.
+Step 2: Open the file to install it once the download is complete.
+ 
+Step 3: Review and accept the license agreement, then click Next.
+ 
+Step 4: Keep the default value when prompted for the destination location and click next.
+ 
+Step 5: On the additional tasks view, make sure that Add to PATH is selected. 
+Step 6: Click next.
+ 
+Step 7: Click install when the ready to install page appears.
+Step 8: Click finish once completed, and the application will launch.
+Mac
+Step 1: Download the application based on the chipset you have. M1 macs use Apple Silicon, and older Macs use Intel. If you are not sure, choose the Universal option.
+Step 2: Go to your Downloads folder once the download is complete. 
+Step 3: Double-click the zip file to extract the contents.
+Step 4: Drag and drop the .app file to the application link in Finder below.
+ 
+Step 5: Open the app.
+Linux
+Please refer to the official Linux installation guide for Visual Studio Code.
+
+<h4>Selecting a working directory</h4>
+
+Now that you have Visual Studio Code set up create a folder on your device that you'll use to do course exercises.
+Open Visual Studio Code, go to File and select Open Folder. Using the file browser, select the folder you just created.
+Congratulations, you're set up now to begin writing some code.
+Planning the user experience
+A key part of building a website, is to ensure both a good user interface and a good user experience. 
+But what's the difference between those two and what makes them good or bad?
+This video will explain the difference between user interface UI, and user experience UX, as well as the concept of intentional engagement, which will help you design a good user experience for your web page visitors. 
+User experience or UX, is how a user interacts with the web page or app as a whole. 
+That includes, presentation of information, the flow between different sections and the ease of use. 
+One way of thinking about it is to consider ketchup bottle design. 
+Most ketchup bottles have a lid at the top. 
+This lets you get ketchup out with relative ease when the bottle is full. 
+But it becomes increasingly difficult to get to the ketchup at the bottom of the bottle as it empties out. 
+A better user experience is a ketchup bottle with the lid at the bottom instead. 
+This design lets gravity do the work of getting the ketchup out of the bottle. 
+Now, that's a good user experience design. 
+User experience is driven by the needs and viewpoint of the user. 
+There are many different UX design processes that are used by businesses such as stakeholder interviews, user research, UX audit and scenario mapping, and client persona. 
+In fact, you're already using the last one, client persona for your homepage project. 
+Creating a client persona is a good process for planning a website through the point of view of a potential client and their customers. 
+But for this project, let's focus on another process you can use to improve the user experience, intentional engagement. 
+The goal of engagement is to keep the user interacting with your website and depending on the business, drive revenue through purchases, or interaction with advertisements. 
+Because the web page your building is targeted towards customers that fit the client persona, the user experience should be driven by how the customers will engage with the website. 
+It is a good exercise to list what customers will be looking for when they visit the website, and try to make it as easy as possible for your users to get that information.
+With this in mind, think about what should be displayed in the main section of the homepage and what links should be listed in the navigation bar.
+But such concerns shouldn't come at the cost of business goals. 
+The business may have revenue goals that it aims to achieve through promotions and discounts. So balancing business and user goals is a key part of designing the user experience. 
+Now that you have thought about user experience some more, review your homepage design, and consider the user experience it facilitates.
+How does client persona and intentional engagement, fit into your own UX design strategy? 
+Answers to those questions will help you plan your process.
+Creating themes
+The combination of colors used in the design of a website is called the color scheme. 
+Colors are one of the most important components of any website today because it sets the tone for the viewer. 
+For the optimal use of colors, web developers make use of color theory and color schemes.   
+Color schemes 
+Fundamentally all colors are a combination of the three colors: red, yellow, and blue. 
+These are called the primary colors. 
+Secondary colors like orange, purple and green are a combination of two primary colors. 
+Finally, there are six tertiary colors formed from a combination of the three primaries with secondary colors. 
+By adding more black or more white, you can create lighter or darker tints of each color. 
+All of these colors and tints make up a color wheel of 12 colors. 
+This color wheel is the foundation for any color scheme.
+
+Depending on the relative positions of colors on the wheel, there are seven commonly identified color schemes according to color theory that can be used for maximum appeal. These are:
+
+<ul>
+  <li><p>Monochromatic</p></li>
+  <li><p>Analogous</p></li>
+  <li><p>Complementary</p></li>
+  <li><p>Split complimentary</p></li>
+  <li><p>Triadic</p></li>
+  <li><p>Square and</p></li>
+  <li>Rectangle</li>
+</ul>
+
+The different combinations are represented in the image below. 
+ 
+Image source: https://www.moving.com/tips/how-to-choose-a-color-scheme-for-your-home/
+
+<h4>Using the color schemes</h4>
+
+Each of the different color schemes are used with the purpose of enhancing a website. 
+While you can pick any of the different schemes, a practiced UX designer will consider whether a specific type of color scheme is more suitable for certain websites than others. 
+For example, complementary colors are well-suited for websites that will have bars and charts. 
+It also depends on several other factors such as the number of colors that you are going to need for your webpage, the topic and domain of the webpage, user demographics of the readers and so on. 
+For example, an informational website for medical services will typically have a white background. 
+Other than the color schemes mentioned, even achromatic themes with only black and white color can be appealing if styling and design is well presented.
+Factors to consider for themes and colors 
+While color schemes serve as a guide for picking website colors, there are some factors that must be considered in the process. 
+The user experience must be of the utmost priority as a good webpage must be able to sustain the attention of the reader without overwhelming them. 
+A good webpage will have a good balance of information and design elements. 
+An unbalanced web design can lead to what we call as cognitive overload. 
+Cognitive overload is when too much information or activity is presented to the user which may be detrimental to the user experience.
+There is a field of research in psychology that focuses on the effects color has on the mood of a user. 
+Nature-inspired color tones are almost universally seen to be more pleasant and add aesthetic value. 
+As people are increasingly spending time on the internet, a good theme may make or break the appeal of a webpage. 
+Often, it is a good idea to keep a palette of more than one color combination on hand so you can experiment with your webpage. 
+A color theme on a website also plays a role in other aspects beyond the aesthetics and help in shaping the user experience of the website. 
+A simple theme with appropriate color combinations can help a user navigate the website by creating a visual hierarchy. 
+If for example, a user observes a specific color scheme for the subheadings, they will be able to understand where to look for certain information on the web page. 
+This means you can avoid excessive design elements such as line-breaks and grids where they are not adding to the appeal of the web page.
+While the experience of choosing the right colors for your website is a process of trial and error, inspiration can be drawn from a webpage that has held a personal appeal. 
+Color theory is an important aspect of the user experience domain and plays an important role in website design so don’t be afraid to experiment with different color schemes.
+Congratulations, you have completed HTMLS and CSS in depth!
+Congratulations on reaching the end of this HTML and CSS in-depth course in the front-end developer program. 
+You've worked hard to get here, learned a lot, and developed a lot of new skills during the course, you are able to demonstrate some of this learning and your practical HTML and CSS development skill set by creating a video and audio player that can rate media on a homepage for a client persona. 
+ 
+In addition to these, following your completion of this course in HTML and CSS development, you should now be able to use common semantic and Meta tags, as well as web page layouts and components using HTML. 
+Create forums with client-side validation using HTML, create layouts, charts, effects, and animations using CSS, and perform basic front-end testing, debugging, and error handling. 
+What are the next steps? 
+Well, this is the fourth course in the front-end developer program, and you've gained a valuable understanding of important concepts and practical skills. 
+You probably realize that there's still more for you to learn. 
+If you find this course helpful and want to discover more, then why not register for the next course on react basics. 
+Throughout each of the courses in the program, you'll continue to expand your skill set, and in the final assessment, you'll bring together all the skills you've learned to manage your own project. 
+Whether you're just starting out as a technical professional or a student, this project will enable you to prove your knowledge and ability. 
+Once you've completed all the courses in this front-end developer program, you'll receive Coursera certification. 
+Certifications provide globally recognized an industry-endorsed evidence of mastering technical skills. 
+Well done on taking steps towards a future career. 
+Your project experience so far shows employers that you are self-driven and innovative. 
+It also speaks volumes about you as an individual and your drive to continue your educational progress. 
+Congratulations once again on reaching the end of this course. It's been a voyage of discovery. 
+Best of luck, and do continue to pursue your own learning objectives to their final goal.
+
+<h4>Basic meta tags (meta tags for SEO)</h4>
+
+<ul>
+  <li><p>&lt;meta name=”description”/&gt; provides a brief description of the web page</p></li>
+  <li><p>&lt;meta name=”title”/&gt; specifies the title of the web page</p></li>
+  <li><p>&lt;meta name=”author” content="name"&gt; specifies the author of the web page</li>
+  <li><p>&lt;meta name=”language” content="english"&gt; specifies the language of the web page</p></li>
+  <li><p>&lt;meta name="robots" content="index,follow" /&gt; tells search engines how to crawl or index a certain page</p></li>
+  <li><p>&lt;meta name="google"/&gt; tells Google not to show the sitelinks search box for your page when showing search results
+  <li><p>&lt;meta name="googlebot" content=”notranslate” /&gt; tells Google you don’t want to provide an automatic translation 
+    for your page if the user uses a different language</p></li>
+  <li><p>&lt;meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm" /&gt; specifies the last modified date and time on which you have made certain changes</p></li>
+  <li><p>&lt;meta name="rating" content="safe for kids"&gt; specifies the expected audience for your page</p></li>
+  <li>&lt;meta name="copyright" content="Nocopyright 2023"&gt; specifies a Copyright</li>
+</ul>
+
+<h4>&lt;meta http-equiv="..."/&gt; tags</h4>
+
+<ul>
+  <li><p>&lt;meta http-equiv="content-type" content="text/html"&gt; specifies the format of the document returned by the server</p></li>
+  <li><p>&lt;meta http-equiv="default-style"/&gt; specifies the format of the styling document</p></li>
+  <li><p>&lt;meta http-equiv="refresh"/&gt; specifies the duration of the page before it’s considered stale</p></li>
+  <li><p>&lt;meta http-equiv=”Content-language”/&gt; specifies the language of the page</p></li>
+  <li>&lt;meta http-equiv="Cache-Control" content="no-cache"&gt; instructs the browser how to cache your page</li>
+</ul>
+
+<h4>Responsive design/mobile meta tags</h4>
+
+<ul>
+  <li><p>&lt;meta name="format-detection" content="telephone=yes"/&gt; indicates that telephone numbers should appear as hypertext links
+    that can be clicked to make a phone call,</p></li>
+  <li><p>&lt;meta name="HandheldFriendly" content="true"/&gt; specifies that the page can be properly visualized on mobile devices,</p></li>
+  <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt; specifies the area of the window in which web content can be seen.</li>
+</ul>
+
+the end…
+
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h6>6-19-2023 at 11:49am</h6>
+<h6>6-20-2023 at 5:25pm</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
