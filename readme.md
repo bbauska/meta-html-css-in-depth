@@ -1930,12 +1930,12 @@ hands-on activities called <b>Labs</b>. In these labs you&apos;ll be able to
 open Visual Studio Code and start writing code without ever leaving the
 course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 55. lab: creating an html document (48) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 55. lab: creating an html document (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image055.png"
   width="30%"
-  alt="." />
+  alt="Lab containing instructions explaining the coding tasks." />
 </p>
 <!-- width="3.4375in" height="0.4270833333333333in" -->
 
@@ -2078,16 +2078,16 @@ For example for index.html, this could be renamed to *\`index
 2.  Select <b>Lab Help</b> from your Lab Toolbar and then select <b>Get
     latest version.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. fresh lab fils (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image063.png"
   width="50%"
-  alt="." />
+  alt="Fresh copy of files for lab." />
 </p>
 <!-- ![](images/image063.png){width="5.0in" height="3.5083333333333333in"} -->
 
-1.  You should now see a fresh copy of the original instructor-provided
+3.  You should now see a fresh copy of the original instructor-provided
     files in your lab, in addition to your own (renamed) files.
 
 Create and test a form (solution)
@@ -2139,12 +2139,12 @@ The ability to book things online is super convenient.
 That&apos;s one of the reasons why the Little Lemon restaurant is adding a
 table booking system to their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. html form - book a table (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image064.png"
   width="30%"
-  alt="." />
+  alt="HTML form - book a table." />
 </p>
 <!-- ![](images/image064.png){width="3.0in" height="1.6472222222222221in"} -->
 
@@ -2168,12 +2168,12 @@ selected.
 Now, let&apos;s explore how to set up a HTML form with radio buttons.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 65. booking.html with form element (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image065.png"
   width="50%"
-  alt="." />
+  alt="booking.html with form element - book a table." />
 </p>
 <!-- ![](images/image065.png){width="5.0in" height="3.546474190726159in"} -->
 
@@ -2251,12 +2251,12 @@ value attribute to outdoors.
 Again, I set the name attribute to location.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. book a table form (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image066.png"
   width="50%"
-  alt="." />
+  alt="Book a table form." />
 </p>
 <!-- ![](images/image066.png){width="5.0in" height="2.6196576990376204in"} -->
 
@@ -2265,12 +2265,12 @@ I save the file and open it in Live Preview. Success.
 The form is set up correctly. Let&apos;s test it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. form snapshot and cocde (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image067.png"
   width="50%"
-  alt="." />
+  alt="Book a table form snapshot and code." />
 </p>
 <!-- ![](images/image067.png){width="5.0in" height="2.6196576990376204in"} -->
 
@@ -4413,21 +4413,19 @@ of devices in use, relative units are the go-to option in many cases.
 
 Below is a list of some of the important relative units.
 
-  | <b>Unit</b> | <b>Description and relativity</b>                          |
-  |:-----------:|:----------------------------------------------------------:|
-  | <b>em</b>   | Font size of the parent where present.                     |
-  | <b>ex</b>   | x-co-ordinate or height of the font element.               |
-  | <b>ch</b>   | Width of the font character.                               |
-  | <b>rem</b>  | Font size of the root element.                             |
-  | <b>lh</b>   | Value computed for line height of parent element.          |
-  | <b>rlh</b>  | Value computed for line height of root element which is    |
-  |             | &lt;html&gt;.                                              |
-  | <b>vw</b>   | 1% of the viewport width.                                  |
-  | <b>vh</b>   | 1% of the viewport height.                                 |
-  | <b>vmin</b> | 1% of the smaller dimension of viewport.                   |
-  | <b>vmax</b> | 1% of the larger dimension of viewport.                    |
-  | <b>%</b>    | Denotes a percentage value in relation to its parent       |
-  |             | element.                                                   |
+  | <b>Unit</b> | <b>Description and relativity</b>                                    |
+  |:-----------:|----------------------------------------------------------------------|
+  | <b>em</b>   | Font size of the parent where present.                               |
+  | <b>ex</b>   | x-co-ordinate or height of the font element.                         |
+  | <b>ch</b>   | Width of the font character.                                         |
+  | <b>rem</b>  | Font size of the root element.                                       |
+  | <b>lh</b>   | Value computed for line height of parent element.                    |
+  | <b>rlh</b>  | Value computed for line height of root element which is &lt;html&gt; |
+  | <b>vw</b>   | 1% of the viewport width.                                            |
+  | <b>vh</b>   | 1% of the viewport height.                                           |
+  | <b>vmin</b> | 1% of the smaller dimension of viewport.                             |
+  | <b>vmax</b> | 1% of the larger dimension of viewport.                              |
+  | <b>%</b>    | Denotes a percentage value in relation to its parent element.        |
 
 Many of these units are used in terms of the relative size of fonts.
 Some units are more suitable depending on the relative context. Like
@@ -7910,83 +7908,58 @@ created by combining these with other CSS properties. 
 The visual representation of text content can be changed by four main
 properties: text-transform, font-style, font-weight and text-decoration.
 
-  ----------------------------------------------------------------------------
-  Property      Values             Description
-  ----------------- ---------------------- -----------------------------------
-  Text-transform    None, uppercase,       Modify text properties
-                    lowercase, capitalize, 
-                    full-width             
-
-  Font-style        Normal, italic,        Font styling options such as
-                    oblique                italics 
-
-  Font-weight       Normal, weight,        Other font styling options like
-                    lighter, bolder,       change of emphasis such as making
-                    100-900                text bold
-
-  Text-decoration   None, underline,       Shorthand for auxiliary elements
-                    overline, line-through added to text using other
-                                           properties such as
-                                           text-decoration-line
-  ----------------------------------------------------------------------------
+  Property        | Values                   | Description
+  ----------------|:------------------------:|-----------------------------------
+  Text-transform  |   None, uppercase,       | Modify text properties
+                  |   lowercase, capitalize, | 
+                  |   full-width             | 
+  Font-style      |   Normal, italic,        | Font styling options such as
+                  |   oblique                | italics 
+  Font-weight     |   Normal, weight,        | Other font styling options like
+                  |   lighter, bolder,       | change of emphasis such as making
+                  |   100-900                | text bold
+  Text-decoration |  None, underline,        | Shorthand for auxiliary elements
+                  |  overline, line-through  | added to text using other
+                                             | properties such as
+                                             | text-decoration-line
 
 The additional properties that help configure styling effects are below.
 
-  ------------------------------------------------------------------------------
-  Text-align              For horizontal alignment of text
-  --------------------------- --------------------------------------------------
-  Text-align-last             Alignment for the last line when text set to
-                              justify
-
-  Text-combine-upright        Multiple characters into the space of a single
-                              character placed upright like in Mandarin
-
-  Text-decoration-color       Color configuration of the text-decoration
-
-  Text-decoration-line        Line type in text-decoration such as underline,
-                              overline and so on
-
-  Text-decoration-style       Styles added to lines under text such as wavy,
-                              dotted and so on
-
-  Text-decoration-thickness   Thickness of the decoration line
-
-  Text-emphasis               Shorthand for other properties such as color and
-                              style 
-
-  Text-indent                 The indentation of the first line 
-
-  Text-justify                Specifies the justification method used when
-                              text-align is &quot;justify&quot;
-
-  Text-orientation            Orientation of text in a line such as sideways,
-                              upright and so on
-
-  Text-shadow                 Adds shadow to text 
-
-  Text-underline-position     Declare position of underline set using the
-                              text-decoration property
-  ------------------------------------------------------------------------------
+  Text-align                 | For horizontal alignment of text
+  ---------------------------|-------------------------------------------------------
+  Text-align-last            | Alignment for the last line when text set to justify
+  Text-combine-upright       | Multiple characters into the space of a single
+                             | character placed upright like in Mandarin
+  Text-decoration-color      | Color configuration of the text-decoration
+  Text-decoration-line       | Line type in text-decoration such as underline,
+                             | overline and so on
+  Text-decoration-style      | Styles added to lines under text such as wavy,
+                             | dotted and so on
+  Text-decoration-thickness  | Thickness of the decoration line
+  Text-emphasis              | Shorthand for other properties such as color and style
+  Text-indent                | The indentation of the first line 
+  Text-justify               | Specifies the justification method used when
+                             | text-align is &quot;justify&quot;
+  Text-orientation           | Orientation of text in a line such as sideways,
+                             | upright and so on
+  Text-shadow                | Adds shadow to text
+  Text-underline-position    | Declare position of underline set using the
+                             | text-decoration property
 
 Other than these, there are some more properties that help modify the
 alignment and define the scope of text with their containers. 
 
-  --------------------------------------------------------------------------
-  Property    Values              Description
-  --------------- ----------------------- ----------------------------------
-  Text-overflow   Clip, ellipsis          Determines overflow behavior of
-                                          text with the container
-
-  Word-wrap       Normal, anywhere,       Applies to inline elements, alias
-                  break-word              for overflow-wrap
-
-  Word-break      Normal, break-all,      Used for long words to decide if
-                  keep-all, break-word    words should break or overflow
-
-  Writing-mode    Horizontal-tb,          Can set the text direction
-                  vertical-lr,            vertical or horizontal
-                  vertical-rl             
-  --------------------------------------------------------------------------
+  Property        Values                  Description
+  ---------------|-----------------------|----------------------------------
+  Text-overflow  | Clip, ellipsis        |  Determines overflow behavior of
+                 |                       |  text with the container
+  Word-wrap      | Normal, anywhere,     |  Applies to inline elements, alias
+                 | break-word            |  for overflow-wrap
+  Word-break     | Normal, break-all,    |  Used for long words to decide if
+                 | keep-all, break-word  |  words should break or overflow
+  Writing-mode   | Horizontal-tb,        |  Can set the text direction
+                 | vertical-lr,          |  vertical or horizontal
+                 | vertical-rl           |  
 
 The properties mentioned are ones that can be used for giving effects to
 text. 
