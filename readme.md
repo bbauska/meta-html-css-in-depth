@@ -4396,7 +4396,6 @@ The table for absolute units can be seen below:
   |     pc      |   Picas                              |  1pc = 1/6th of 1ine       |
   |     pt      |   Points                             |  1pt = 1/72nd of 1ine      |
   |     px      |   Pixels                             |  1px = 1/96th of 1ine      |
-  |-------------|--------------------------------------|----------------------------|
 
 Of these, the pixels and centimeters are most frequently used for
 defining properties. 
@@ -4429,7 +4428,6 @@ Below is a list of some of the important relative units.
   | <b>vmax</b> | 1% of the larger dimension of viewport.                    |
   | <b>%</b>    | Denotes a percentage value in relation to its parent       |
   |             | element.                                                   |
-  |-------------|------------------------------------------------------------|
 
 Many of these units are used in terms of the relative size of fonts.
 Some units are more suitable depending on the relative context. Like
@@ -4467,12 +4465,12 @@ binding elements together or creating an easy layout.
 
 Let&apos;s explore the three most common uses of flexbox is in CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 105.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 105. search bar application in flexbox (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image105.png"
   width="30%"
-  alt="." />
+  alt="Flex box search bar application." />
 </p>
 <!-- ![](images/image105.png){width="3.0in" height="0.5715277777777777in"} -->
 
@@ -4484,12 +4482,12 @@ such as the small Search icon, the search input area, and the Submit
 button.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 106.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 106. home, culinary blog, menu, contact us (106) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image106.png"
   width="65%"
-  alt="." />
+  alt="Navigation bar using flex with home, blog, menu and contact us." />
 </p>
 <!-- ![](images/image106.png){width="6.5in" height="0.7138888888888889in"} -->
 
@@ -4497,12 +4495,12 @@ Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
 responsive on different devices.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 107.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. flex box image gallery (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image107.png"
   width="20%"
-  alt="." />
+  alt="Flex box image gallery example." />
 </p>
 <!-- ![](images/image107.png){width="2.0in" height="1.6397517497812772in"} -->
 
@@ -4513,12 +4511,12 @@ the window. In the next few minutes, you will discover how to create
 these flexboxes to ensure a simple layout.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 108.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. first example flexbox file (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image108.png"
   width="65%"
-  alt="." />
+  alt="First example flexbox file.  Create search bar, add reference to css in head." />
 </p>
 <!-- ![](images/image108.png){width="6.5in" height="3.2194444444444446in"} -->
 
@@ -4531,7 +4529,7 @@ I first create a container class with a div tag. Inside this container,
 I have three different elements, which are the search icon, the search
 box where I typed my search, and finally the Submit button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 109.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. flexbox search style rules (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image109.png"
@@ -4576,7 +4574,7 @@ change.
 Another place where flexbox is used quite frequently is in navigation
 menus.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. unordered list with four items (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. unordered list with four items (109) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image110.png"
@@ -4587,7 +4585,7 @@ menus.
 
 In this case, I created an unordered list that consists of four items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 111. example start (*) universal selector (110) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 111. example start (*) universal selector (109) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image111.png"
@@ -4628,12 +4626,12 @@ horizontal navigation menu.
 One final flexbox example that I will demonstrate is a responsive image
 gallery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. gallery and six images (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image112.png"
   width="30%"
-  alt="." />
+  alt="Div element with class container with six images." />
 </p>
 <!-- ![](images/image112.png){width="6.5in" height="3.2416666666666667in"} -->
 
@@ -4654,12 +4652,12 @@ border to zero.
 Next, let&apos;s focus on the container.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. css container flex (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image113.png"
   width="30%"
-  alt="." />
+  alt="Container style." />
 </p>
 <!-- ![](images/image113.png){width="3.375in" height="4.052083333333333in"} -->
 
@@ -4675,25 +4673,18 @@ Finally, I add some padding.
 Let&apos;s inspect the output.
 
 The output window is narrow at the moment, so the six images are stacked
-on top of each other.
-
-But when I expand the window, they spread out.
-
+on top of each other.  But when I expand the window, they spread out.
 One can notice the effect better in a browser, so I copy the link and
-paste it into my browser.
-
-When I change the size of the browser window, it is clear that the
-alignment of these images is responsive.
-
-These are just some of the ways in which you use flexboxes to provide
-responsiveness to websites and bind different elements together on web
-pages.
+paste it into my browser.  When I change the size of the browser window, it is 
+clear that the alignment of these images is responsive.  These are just some of 
+the ways in which you use flexboxes to provide responsiveness to websites and 
+bind different elements together on web pages.
 
 You should now be more familiar with some simple ways in which you can
 use flexboxes to bind elements together to create an easy responsive
 layout on your webpage. Good job.
 
-Flex charts
+<h4>Flex charts</h4>
 
 So far, you&apos;ve covered different ways in which a flex box can be used
 to add functionality to a web page.
@@ -4720,12 +4711,12 @@ These bar charts are called flex charts.
 The most important property when using flex is the flex property that in
 turn has the following three sub properties.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. flex-grow, -shrink  and -basis (112) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image114.png"
   width="30%"
-  alt="." />
+  alt="flex-grow, flex-shrink and flex-basis." />
 </p>
 <!-- ![](images/image114.png){width="3.0in" height="0.25416666666666665in"} -->
 
@@ -4735,12 +4726,12 @@ shrink compared to other flexible items.
 
 And flex basis, which specifies the initial length of the flexible item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. flex property (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image115.png"
   width="50%"
-  alt="." />
+  alt="flex property." />
 </p>
 <!-- ![](images/image115.png){width="5.0in" height="0.9262828083989502in"} -->
 
@@ -4757,12 +4748,12 @@ website to draw attention to their most popular dishes.
 
 I&apos;ve been asked to write code to make this possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. flexcharts.html (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image116.png"
   width="50%"
-  alt="." />
+  alt="flexcharts.html." />
 </p>
 <!-- ![](images/image116.png){width="5.125in" height="4.916666666666667in"} -->
 
@@ -4784,12 +4775,12 @@ add the name of the label preferred dishes.
 Next, I create another class called container by typing dot container
 and then I press enter.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 117. class container: dish (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. class container: dish (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image117.png"
   width="65%"
-  alt="." />
+  alt="Class container: class dish." />
 </p>
 <!-- ![](images/image117.png){width="6.5in" height="4.179861111111111in"} -->
 
@@ -4797,12 +4788,12 @@ Inside the container I create a class called dish by typing dot dish and
 pressing enter as there are three dishes in the popular list, I copy and
 paste this item twice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. class name for each dish (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image118.png"
   width="65%"
-  alt="." />
+  alt="Class name for each dish item." />
 </p>
 <!-- ![](images/image118.png){width="6.5in" height="4.179861111111111in"} -->
 
