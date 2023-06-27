@@ -4207,7 +4207,7 @@ end of each item.</p>
 <img class="displayed"
   src="./images/image121.png"
   alt="."
-  style="width:65%;" /></p>
+  style="width:65%;" />
 <!-- style="width:6.5in;height:3.77847in" -->
 
 <p>Now that my code is created, I move to CSS by clicking on the flex
@@ -4930,45 +4930,51 @@ again.</p>
   alt="."
   style="width:6.5in;height:4.11944in" />
 
-<p>Let's examine the output again.</p>
-<p>Now, this is looking a lot more presentable.</p>
-<p>There's also another way to view these columns.</p>
-<p>Click on "More browser auctions" and then on "Open Devtools"
-pane.</p>
-<p>You can select the button in the corner to select an element on the
+<p>Let's examine the output again.
+Now, this is looking a lot more presentable.</p>
+
+<p>There's also another way to view these columns.
+Click on "More browser auctions" and then on "Open Devtools"
+pane.  You can select the button in the corner to select an element on the
 page to inspect then scan over the grid.</p>
-<p>The page is systematically divided into 12 different columns.</p>
-<p>You can configure your code according to your requirements.</p>
-<p>Grids like these are really useful when it comes to designing
+
+<p>The page is systematically divided into 12 different columns.
+You can configure your code according to your requirements.
+Grids like these are really useful when it comes to designing
 something like a magazine, newspaper or page layout, which can replicate
-these models.</p>
-<p>Now, you know about the basic grid layout in the 12-column grid.</p>
-<p>Grid template area</p>
+these models.
+Now, you know about the basic grid layout in the 12-column grid.</p>
+
+<h4>Grid template area</h4>
+
 <p>Grid areas are a way to group one or more grid cells. The grid
 template area is an extension of this concept where you can give names
 to these grid areas. Once you have the names defined, you can address
 these new grid area items by their names and configure them
-accordingly. </p>
+accordingly.</p>
+
 <p>The property grid-template-areas is usually placed inside the body
 tag or any container where the grid needs to be placed, the same way
 that you would define the rules for the grid. The main difference is, in
 case of grid-template-areas the values present will be the different
-names. </p>
+names.</p>
 
-<h3>Process</h4>
+<h4>Process</h4>
 
 <p>The process isn’t prescriptive but these are the steps in
 general:</p>
+
 <ul>
-<li>Define the grid using display property </li>
-<li>Set the height and width of the grid </li>
-<li>Set the grid-template-areas with the appropriate name
-identifiers</li>
-<li>Add the appropriate sizes for the rows inside the grid using
-grid-template-rows property </li>
-<li>Add the appropriate sizes for the columns inside the grid using
-grid-template-columns property </li>
+  <li>Define the grid using display property,</li>
+  <li>Set the height and width of the grid,</li>
+  <li>Set the grid-template-areas with the appropriate name
+    identifiers,</li>
+  <li>Add the appropriate sizes for the rows inside the grid using
+    grid-template-rows property,</li>
+  <li>Add the appropriate sizes for the columns inside the grid using
+    grid-template-columns property.</li>
 </ul>
+
 <p>But how exactly do you use these names and where do they come from?
 The names that you use inside the grid template areas are the HTML tags
 that you have used. Or, where you need to get more specific, you
@@ -4976,12 +4982,9 @@ designate a class name to these tags. Once the names are assigned, you
 define the properties for each class the same way that you define them
 conventionally. Let's examine an example.</p>
 
-<h4>Example</h4>
-
 <h4>HTML Code:</h4>
 
-<pre>
-  &lt;head&gt;
+<pre>  &lt;head&gt;
     &lt;link rel="stylesheet" href="gridta.css"&gt;
   &lt;/head&gt;
 
@@ -4990,13 +4993,11 @@ conventionally. Let's examine an example.</p>
     &lt;nav class="nav-bar"&gt; Navigation &lt;/nav&gt;
     &lt;main&gt; Main area &lt;/main&gt;
     &lt;footer&gt; Footer &lt;/footer&gt;
-  &lt;/body&gt;
-</pre>
+  &lt;/body&gt;</pre>
 
 <h4>CSS Code:</h4>
 
-<pre>
-  body {
+<pre>  body {
     display: grid;
     height: 200px;
     grid-template-areas: "head head"
@@ -5012,12 +5013,11 @@ conventionally. Let's examine an example.</p>
   .nav-bar {
     grid-area: nav;
     background-color: lightblue;
-  }
-</pre>
+  }</pre>
  
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. header, nav, main, footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image150.png?raw=true"
@@ -5033,34 +5033,33 @@ are distributed is according to how you have defined the names inside
 the grid-template-areas property. In the example above the relevant code
 is:</p>
 
-<pre>
-  grid-template-areas: "head head"
+<pre>  grid-template-areas: "head head"
                        "nav  main"
-                       "footer  footer";
-</pre>
+                       "footer  footer";</pre>
 
 <p>The ‘head’ is written twice to imply two columns and the rest of the
-content follows the usual convention.</p>
-<p>The number of rows will be the number of ‘pairs of quotes’ you have used 
-which in this case is three.</p>
-<p>Namely  “head head”, “nav main” and “footer footer”.</p>
-<p>Once you know the number of rows and columns, the values for those will be set by
+content follows the usual convention.
+The number of rows will be the number of ‘pairs of quotes’ you have used 
+which in this case is three.
+Namely  “head head”, “nav main” and “footer footer”.
+Once you know the number of rows and columns, the values for those will be set by
 grid-template-rows and grid-template-columns.</p>
-<p>Since these are three and two respectively here, you need to add that many values.</p>
-<p>The height simply gives the overall value of the height for the grid.</p>
-<p>Note that the number of times you wrote “header” did not have to be
+
+<p>Since these are three and two respectively here, you need to add that many values.
+The height simply gives the overall value of the height for the grid.
+Note that the number of times you wrote “header” did not have to be
 two.</p>
+
 <p>You could write more of those and if you align the rest of the
 grid-names correctly, the height and width of the grid-areas will be
 distributed proportionately.</p>
-<p>Let’s return to the example.</p>
-<p>If you keep all other properties the same but you change the grid-template-areas as follows:</p>
 
-<pre>
-  grid-template-areas: "head head head"
+<p>Let’s return to the example.
+If you keep all other properties the same but you change the grid-template-areas as follows:</p>
+
+<pre>  grid-template-areas: "head head head"
                        "nav  main main"
-                       "footer footer footer";
-</pre>
+                       "footer footer footer";</pre>
 
 <p>The output will remain the same as you have fixed the value of the
 third row to “30px”.</p>
@@ -7681,16 +7680,15 @@ named styles.css.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. animation example ( ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--
 <img class="displayed"
   src="/images/image231.png?raw=true"
   alt="."
   style="width:40%;" />
 <!-- style="width:4in;height:2.45077in" -->
 
-<p>First, I'll add the HTML element that will be animated.</p>
-<p>In this case, the element will represent the bouncing ball.</p>
-<p>I add a div element to the body element and set its ID attribute to
+<p>First, I'll add the HTML element that will be animated.
+In this case, the element will represent the bouncing ball.
+I add a div element to the body element and set its ID attribute to
 ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. css keyframes and animation (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7701,32 +7699,36 @@ ball.</p>
   style="width:40%;" />
 <!-- style="width:4in;height:3.63556in" -->
 
-<p>Now I open styles.css.</p>
-<p>First, I add the keyframes definition.</p>
-<p>I'll name this animation bounce.</p>
-<p>Next, I add the from keyword with open and closed curly brackets to
+<p>Now I open styles.css.
+First, I add the keyframes definition.
+I'll name this animation bounce.
+Next, I add the from keyword with open and closed curly brackets to
 define the starting state of the animation.</p>
+
 <p>The starting position should be the default position of the element,
 so I add the transform property and set its value to translate 3D with
-the coordinates 000.</p>
-<p>These two values are the coordinates along the x, y, and z axes in 3D
+the coordinates 000.
+These two values are the coordinates along the x, y, and z axes in 3D
 space.</p>
+
 <p>Next, I add the two keywords with open and closed curly brackets to
-define the ending state of the animation.</p>
-<p>The ending position should be 640 pixels right of the starting
-position.</p>
-<p>To do this, I add the transform property and set its value to
-transform 3D with the coordinates 640 pixels 00.</p>
-<p>This means that the element is translated by 640 pixels on the x-axis
+define the ending state of the animation.
+The ending position should be 640 pixels right of the starting
+position.
+To do this, I add the transform property and set its value to
+transform 3D with the coordinates 640 pixels 00.
+This means that the element is translated by 640 pixels on the x-axis
 and zero pixels on the y and z-axis.</p>
+
 <p>Finally, I add a CSS rule for the ball. I use the ID selector to
-select the ball element.</p>
-<p>First, I need to add a set of properties to make the element render
-as a ball.</p>
-<p>To do this, I set the width and height properties to 80 pixels.</p>
-<p>Then I set the border radius to 50 percent.</p>
-<p>This will round the corners of the elements so much that it will
+select the ball element.
+First, I need to add a set of properties to make the element render
+as a ball.
+To do this, I set the width and height properties to 80 pixels.
+Then I set the border radius to 50 percent.
+This will round the corners of the elements so much that it will
 appear like a circle.</p>
+
 <p>Finally, I set the background color property to #62687F to fill in
 the color of the circle.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7738,9 +7740,9 @@ the color of the circle.</p>
   style="width:15%;" />
 <!-- style="width:1.5in;height:1.32165in" -->
 
-<p>I save the file and open index.html in live preview.</p>
-<p>Great, the ball is rendering correctly.</p>
-<p>Now to connect the animation to the element, I open styles.css
+<p>I save the file and open index.html in live preview.
+Great, the ball is rendering correctly.
+Now to connect the animation to the element, I open styles.css
 again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 234. styles.css - animating ball (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7793,39 +7795,31 @@ with CSS.</p>
 
 <h4>Example</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: rotate(60deg);
-  }
-</pre>
+  }</pre>
 
 <h4><strong>Keyword-value type: none</strong></h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: none;
-  }
-</pre>
+  }</pre>
 
 <h4><strong>Function-value type: matrix() </strong></h4>
 
 <h4>Variations: matrix(), matrix3d()</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
      transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
-  }
-</pre>
+  }</pre>
 
 <h4><strong>Function-value type: rotate(deg)</strong></h4>
 
 <h4>Variations: rotate(), rotate3d(), rotateX(), rotate(), rotateZ()</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: rotate3d(3,2,1, 100deg);
-  }
-</pre>
+  }</pre>
 
 <p>Note: In rotate3d(), the respective values represent x, y, z
 co-ordinate and degree of rotations</p>
@@ -7834,11 +7828,9 @@ co-ordinate and degree of rotations</p>
 
 <h4>Variations: translate(), translate3d(), translateX(), translateY(), translateZ()</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: translate3d(10px, 20px, 30px);
-  }
-</pre>
+  }</pre>
 
 <p>Note: In translate3d(), the respective values represent translation
 along the x, y, z co-ordinates</p>
@@ -7847,11 +7839,9 @@ along the x, y, z co-ordinates</p>
 
 <h4>Variations: scale(), scale3d(), scaleX(), scaleY(), scaleZ()</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: scale3d(2, 1, 0.3);
-  }
-</pre>
+  }</pre>
 
 <p>Note: In scale3d(), the respective values represent scaling times
 along the x, y, z co-ordinates</p>
@@ -7860,16 +7850,13 @@ along the x, y, z co-ordinates</p>
 
 <h4>Variations: skew(), skewX(), skewY()</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: skew(100deg);
-  }
-</pre>
+  }</pre>
 
 <h4><strong>Global value types:</strong></h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: inherit;
   }
   .sample-class {
@@ -7883,8 +7870,7 @@ along the x, y, z co-ordinates</p>
   }
   .sample-class {
     transform: unset;
-  }
-</pre>
+  }</pre>
 
 <h4>Multiple transform over the same element</h4>
 
@@ -7896,25 +7882,21 @@ values and the actions will give a combined effect. </p>
 
 <h4>Example</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform: rotate(45deg) scale(1.5) translate(45px);
-  }
-</pre>
+  }</pre>
 
 <p>Additional property under transform:transform-origin</p>
 <p>Determines the anchor point for the centering of transform.</p>
 
 <h4>Example</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     transform-origin: 10px 10px;
   }
   .sample-class {
     transform-origin: right bottom;
-  }
-</pre>
+  }</pre>
 
 <h4>Transition property</h4>
 
@@ -7951,24 +7933,20 @@ skipped will be assigned their default values.</p>
 
 <h4>Example</h4>
 
-<pre>
-  .sample-class {
+<pre>  .sample-class {
     animation: none 2 ease 0.5 4 normal none running;
-  }
-</pre>
+  }</pre>
 
 <p>The animation property is a shorthand for the sub-properties below:</p>
 
-<pre>
-  animation-name
+<pre>  animation-name
   animation-duration
   animation-timing-function
   animation-delay
   animation-iteration-count
   animation-direction
   animation-fill-mode
-  animation-play-state
-</pre>
+  animation-play-state</pre>
 
 <p>The values not mentioned are given default values.</p>
 <p>Animation-name property is used to tie-in the @keyframes rule.</p>
@@ -7977,21 +7955,17 @@ skipped will be assigned their default values.</p>
 
 <h4>Syntax</h4>
 
-<pre>
-  @keyframes mymove {
+<pre>  @keyframes mymove {
     from {property: value}
     to { property: value }
-  }
-</pre>
+  }</pre>
 
 <h4>Example</h4>
 
-<pre>
-  @keyframes animation-name {
+<pre>  @keyframes animation-name {
     from {bottom: 0px;}
     to {bottom: 100px;}
-  }
-</pre>
+  }</pre>
 
 <p>Percentage denotes the timing of the animation. </p>
 
