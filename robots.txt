@@ -1,3 +1,4 @@
-Sitemap: http://meta.bauska.site/sitemap.xml
-User-agent: *
-Disallow: /
+User-Agent: *
+Disallow: 
+
+Sitemap: https://github.com/bbauska/meta-html-css-in-depth, https://meta.bauska.site
