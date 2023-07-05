@@ -139,47 +139,29 @@ These elements form the structure of a webpage and describe what to
 display to the web browser.
 
 When it comes to HTML, it&apos;s important to know about the purpose of HTML
-in the web browser.
-
-The use of HTML tags and correct syntax, and how HTML elements are used
+in the web browser.  The use of HTML tags and correct syntax, and how HTML elements are used
 in a web document.
 
-But what can you do with HTML?
-
-You can add images to a web page with HTML code.
-
+But what can you do with HTML?  You can add images to a web page with HTML code.
 You can use it to display data in tables, and you can build forms with a
-wide range of inputs.
-
-Also, using the correct HTML structure and appropriate elements as a
-foundation is an essential part of building accessible websites.
-
+wide range of inputs.  Also, using the correct HTML structure and appropriate 
+elements as a foundation is an essential part of building accessible websites.
 HTML can assist in ensuring web accessibility by supporting the
 technology people with disabilities use to interact with and understand
 websites.
 
 Another important concept to know about when you&apos;re talking about HTML
-is the Document Object Model or DOM.
-
-Users need to be able to interact with elements on a web page.
-
-This means that HTML document must be represented in a way that
-JavaScript code can query and update it.
-
-That&apos;s the function of the DOM.
-
-It&apos;s a model of the objects in your HTML file.
-
-Web developers interact with the DOM through JavaScript to update
-content, set up events and animate HTML elements.
+is the Document Object Model or DOM.  Users need to be able to interact with 
+elements on a web page.  This means that HTML document must be represented in 
+a way that JavaScript code can query and update it.  That&apos;s the function 
+of the DOM.  It&apos;s a model of the objects in your HTML file.  Web developers 
+interact with the DOM through JavaScript to update content, set up events and 
+animate HTML elements.
 
 Now that you&apos;ve covered the basics of HTML, let&apos;s move on to CSS or
-Cascading Style Sheets.
-
-If HTML is the frame and structure of a building, then CSS is the paint,
-wallpaper, fixtures, and overall style.
-
-CSS tells the web browser how to display HTML elements on screen.
+Cascading Style Sheets.  If HTML is the frame and structure of a building, then 
+CSS is the paint, wallpaper, fixtures, and overall style.  CSS tells the web browser 
+how to display HTML elements on screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 05. style, box model and document flow (04) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -190,41 +172,30 @@ CSS tells the web browser how to display HTML elements on screen.
 </p>
 <!-- width="5.0in" height="1.6068372703412073in" -->
 
-You use CSS to style elements within an HTML document, create an
-appealing layout for your webpage using the box model, and arrange page
-elements using normal document flow.
+You use CSS to;
+  - style elements within an HTML document,
+  - create an appealing layout for your webpage using the box model
+  - and arrange page elements using normal document flow.
 
-That was your HTML and CSS refresher.
-
-Now get ready to dive deeper into learning more about these two topics.
+That was your HTML and CSS refresher.  Now get ready to dive deeper into 
+learning more about these two topics.
 
 <h4>Semantic tags and why we need them</h4>
 
 By now you know that HTML describes the content of a web page.
-
 But how do you describe the meaning of a web page?
-
 To understand this in a real-world context, think of buttons in an
-elevator.
-
-The vertical arrangement of buttons isn&apos;t enough for someone to
-understand their meaning.
-
-To convey the meaning or semantics of the button, numbers are added so
-that people know which button will take them to which floor.
+elevator.  The vertical arrangement of buttons isn&apos;t enough for someone to
+understand their meaning.  To convey the meaning or semantics of the button, 
+numbers are added so that people know which button will take them to which floor.
 
 When you write HTML it&apos;s good practice to semantically describe the
-content.
-
-This allows search engines and accessibility software such as screen
+content.  This allows search engines and accessibility software such as screen
 readers to understand the contents of a page, fortunately you can do
 this by using some basic HTML tags.
 
 For example, using a heading tags such as H1 describes that the content
-is a heading.
-
-Similarly, the UL and OL tags describe lists.
-
+is a heading.  Similarly, the UL and OL tags describe lists.
 However, there are many more semantic HTML elements available to you as
 a developer.
 
@@ -267,12 +238,12 @@ using the header, main and footer semantic HTML tags.
 </p>
 <!-- width="5.0in" height="2.370726159230096in" -->
 
-For example, suppose you lay out your page with a header section that
+For example, suppose you lay out your page with a <b>header section</b> that
 contains some company logo and navigation links.
 
-Then a main section contains sections and articles.
+Then a <b>main section</b> contains sections and articles.
 
-Finally, a footer section contains contact information and social media
+Finally, a <b>footer section</b> contains contact information and social media
 links.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -285,8 +256,8 @@ links.
 </p>
 <!-- width="5.0in" height="2.370726159230096in" -->
 
-The main navigation section of your web page can also be described
-semantically using the Nav tag.
+The <b>main navigation section</b> of your web page can also be described
+semantically using the <b>Nav tag</b>.
 
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
@@ -301,14 +272,12 @@ after the header element and the header element is used for logos.
 <!-- width="5.0in" height="2.3707272528433947in" -->
 
 The main links of your website are then added inside the Nav element.
-
 It is common practice for developers to specify their links as an
 unordered list inside the Nav element.
 
 Next is the main content of a web page.
-
-The two key semantic elements for your main content are the article and
-section elements.
+The two key semantic elements for your main content are the <b>article and
+section elements</b>.
 
 First let&apos;s examine the article element.
 
