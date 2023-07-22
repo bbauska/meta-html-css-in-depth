@@ -1194,20 +1194,16 @@ practices.</p>
 <p>This displays a clickable button and it’s mostly used in HTML forms
 to activate a script when clicked.
 
-<pre>
-  &lt;input type="button" value="Click me" onclick="msg()"/&gt;
-</pre>
+<pre>  &lt;input type="button" value="Click me" onclick="msg()"/&gt;</pre>
 
 <p>Keep in mind you can also define buttons with the
 <b>&lt;button&gt;</b> tag, with the added benefit of being
 able to place content like text or images inside the tag.</p>
 
-<pre>
-  &lt;button onclick="alert('Are you sure you want to continue?')"&gt;
+<pre>  &lt;button onclick="alert('Are you sure you want to continue?')"&gt;
     &lt;img src="https://yourserver.com/button_img.jpg"
       alt="Submit the form" height="64" width="64"&gt;
-  &lt;/button&gt;
-</pre>
+  &lt;/button&gt;</pre>
 
 <h4>Checkbox</h4>
 
@@ -1215,12 +1211,10 @@ able to place content like text or images inside the tag.</p>
 deselected. They are used to let a user select one or more options of a
 limited number of choices.</p>
 
-<pre>
-  &lt;input type="checkbox" id="dog" name="dog" value="Dog"&gt;
-  &lt;label for="dog"&gt;I like dogs&lt;/label&gt;
-  &lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;
-  &lt;label for="cat"&gt;I like cats&lt;/label&gt;
-</pre>
+<pre>  &lt;input type="checkbox" id="dog" name="dog" value="Dog"&gt;
+  &lt;label for="dog"&gt;I like dogs&lt;/label&gt;
+  &lt;input type="checkbox" id="cat" name="cat" value="Cat"&gt;
+  &lt;label for="cat"&gt;I like cats&lt;/label&gt;</pre>
 
 <h4>Radio</h4>
 
@@ -1229,12 +1223,10 @@ out of multiple choices. They are normally presented in radio groups,
 which is a collection of radio buttons describing a set of related
 options that share the same "name" attribute.</p>
 
-<pre>
-  &lt;input type="radio" id="light" name="theme" value="Light"&gt;
-  &lt;label for="light"&gt;Light&lt;/label&gt;
-  &lt;input type="radio" id="dark" name="theme" value="Dark"&gt;
-  &lt;label for="dark"&gt;Dark&lt;/label&gt;
-</pre>
+<pre>  &lt;input type="radio" id="light" name="theme" value="Light"&gt;
+  &lt;label for="light"&gt;Light&lt;/label&gt;
+  &lt;input type="radio" id="dark" name="theme" value="Dark"&gt;
+  &lt;label for="dark"&gt;Dark&lt;/label&gt;</pre>
 
 <h4>Submit</h4>
 
@@ -1242,50 +1234,40 @@ options that share the same "name" attribute.</p>
 to a form-handler, typically a server. The form-handler is specified in
 the form’s "action" attribute:</p>
 
-<pre>
-  &lt;form action="myserver.com" method="POST"&gt;
+<pre>  &lt;form action="myserver.com" method="POST"&gt;
     …
-    &lt;input type="submit" value="Submit" /&gt;
-  &lt;/form&gt;
-</pre>
+    &lt;input type="submit" value="Submit" /&gt;
+  &lt;/form&gt;</pre>
 
 <h4>Text</h4>
 
 <p>Defines a basic single-line text field that a user can enter text into. </p>
 
-<pre>
-  &lt;label for="fname"&gt;First name:&lt;/label&gt; 
-  &lt;input type="text" id="fname" name="fname"&gt; 
-</pre>
+<pre>  &lt;label for="fname"&gt;First name:&lt;/label&gt; 
+  &lt;input type="text" id="fname" name="fname"&gt;</pre>
 
 <h4>Password</h4>
 
 <p>Defines a single-line text field whose value is obscured, suited for
 sensitive information like passwords.</p>
 
-<pre>
-  &lt;label for="pwd"&gt;Password:&lt;/label&gt; 
-  &lt;input type="password" id="pwd" name="pwd"&gt; 
-</pre>
+<pre>  &lt;label for="pwd"&gt;Password:&lt;/label&gt; 
+  &lt;input type="password" id="pwd" name="pwd"&gt;</pre>
 
 <h4>Date</h4>
 
 <p>Displays a control for entering a date with no time (year, month and day).</p>
 
-<pre>
-  &lt;label for="dob"&gt;Date of birth:&lt;/label&gt;
-  &lt;input type="date" id="dob" name="date of birth"&gt;
-</pre>
+<pre>  &lt;label for="dob"&gt;Date of birth:&lt;/label&gt;
+  &lt;input type="date" id="dob" name="date of birth"&gt;</pre>
 
 <h4>Datetime-local</h4>
 
 <p>Defines a control for entering a date and time, including the year,
 month and day, as well as the time in hours and minutes.</p>
 
-<pre>
-  &lt;label for="birthdaytime"&gt;Birthday (date and time):&lt;/label&gt;
-  &lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;
-</pre>
+<pre>  &lt;label for="birthdaytime"&gt;Birthday (date and time):&lt;/label&gt;
+  &lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;</pre>
 
 <h4>Email</h4>
 
@@ -1293,10 +1275,8 @@ month and day, as well as the time in hours and minutes.</p>
 input, with the addition that it validates automatically when submitted
 to the server.</p>
 
-<pre>
-  &lt;label for="email"&gt;Enter your email:&lt;/label&gt;
-  &lt;input type="email" id="email" name="email"&gt;
-</pre>
+<pre>  &lt;label for="email"&gt;Enter your email:&lt;/label&gt;
+  &lt;input type="email" id="email" name="email"&gt;</pre>
 
 <h4>File</h4>
 
@@ -1305,28 +1285,22 @@ their computer. To define the types of files permissible you can use the
 "accept" attribute. Also, to enable multiple files to be selected, add
 the "multiple" attribute.</p>
 
-<pre>
-  &lt;label for="myfile"&gt;Select a file:&lt;/label&gt;
-  &lt;input type="file" id="myfile" name="myfile"&gt;
-</pre>
+<pre>  &lt;label for="myfile"&gt;Select a file:&lt;/label&gt;
+  &lt;input type="file" id="myfile" name="myfile"&gt;</pre>
 
 <h4>Hidden</h4>
 
 <p>Defines a control that is not displayed but whose value is still
 submitted to the server.</p>
 
-<pre>
-  &lt;input type="hidden" id="custId" name="custId" value="3487"&gt;
-</pre>
+<pre>  &lt;input type="hidden" id="custId" name="custId" value="3487"&gt;</pre>
 
 <h4>Image</h4>
 
 <p>Defines an image as a graphical submit button. You should use the
 “src” attribute to point to the location of your image file.</p>
 
-<pre>
-  &lt;input type="image"src="submit_img.png" alt="Submit" width="48" height="48"&gt;
-</pre>
+<pre>  &lt;input type="image"src="submit_img.png" alt="Submit" width="48" height="48"&gt;</pre>
 
 <h4><b>Number</b></h4>
 
@@ -1334,9 +1308,7 @@ submitted to the server.</p>
 specify restrictions, such as min and max values allowed, number
 intervals or a default value.</p>
 
-<pre>
-  &lt;input type="number" id="quantity" name="quantity" min="1" max="5"&gt;
-</pre>
+<pre>  &lt;input type="number" id="quantity" name="quantity" min="1" max="5"&gt;</pre>
 
 <h4><b>Range</b></h4>
 
@@ -1345,19 +1317,15 @@ The precise value, however, is not considered important. This is
 typically represented using a slider or dial control. To define the
 range of acceptable values, use the “min” and “max” properties.</p>
 
-<pre>
-  &lt;label for="volume"&gt;Volume:&lt;/label&gt;
-  &lt;input type="range" id="volume" name="volume" min="0" max="10"&gt;
-</pre>
+<pre>  &lt;label for="volume"&gt;Volume:&lt;/label&gt;
+  &lt;input type="range" id="volume" name="volume" min="0" max="10"&gt;</pre>
 
 <h4>Reset</h4>
 
 <p>Displays a button that resets the contents of the form to their
 default values.</p>
 
-<pre>
-  &lt;input type="reset"&gt;
-</pre>
+<pre>  &lt;input type="reset"&gt;</pre>
 
 <h4>Search</h4>
 
@@ -1365,20 +1333,16 @@ default values.</p>
 functionally identical to text inputs, but may be styled differently
 depending on the browser.</p>
 
-<pre>
-  &lt;label for="gsearch"&gt;Search in Google:&lt;/label&gt;
-  &lt;input type="search" id="gsearch" name="gsearch"&gt;
-</pre>
+<pre>  &lt;label for="gsearch"&gt;Search in Google:&lt;/label&gt;
+  &lt;input type="search" id="gsearch" name="gsearch"&gt;</pre>
 
 <h4>Time</h4>
 
 <p>Displays a control for entering a time value in hours and minutes,
 with no time zone.</p>
 
-<pre>
-  &lt;label for="appt"&gt;Select a time:&lt;/label&gt;
-  &lt;input type="time" id="appt" name="appt"&gt;
-</pre>
+<pre>  &lt;label for="appt"&gt;Select a time:&lt;/label&gt;
+  &lt;input type="time" id="appt" name="appt"&gt;</pre>
 
 <h4 id="tel"><b>Tel</b></h4>
 
@@ -1386,10 +1350,8 @@ with no time zone.</p>
 not support “tel” fall back to standard text input. You can optionally
 use the "pattern" field to perform validation.</p>
 
-<pre>
-  &lt;label for="phone"&gt;Enter your phone number:&lt;/label&gt;
-  &lt;input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"&gt;
-</pre>
+<pre>  &lt;label for="phone"&gt;Enter your phone number:&lt;/label&gt;
+  &lt;input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}"&gt;</pre>
 
 <h4><b>Url</b></h4>
 
@@ -1397,10 +1359,8 @@ use the "pattern" field to perform validation.</p>
 input, but performs automatic validation before being submitted to the
 server.</p>
 
-<pre>
-  &lt;label for="homepage"&gt;Add your homepage:&lt;/label&gt;
-  &lt;input type="url" id="homepage" name="homepage"&gt;
-</pre>
+<pre>  &lt;label for="homepage"&gt;Add your homepage:&lt;/label&gt;
+  &lt;input type="url" id="homepage" name="homepage"&gt;</pre>
 
 <h4><b>Week</b></h4>
 
@@ -1408,10 +1368,8 @@ server.</p>
 number and a year, with no time zone. Keep in mind that this is a newer
 type that is not supported by all the browsers.</p>
 
-<pre>
-  &lt;label for="week"&gt;Select a week:&lt;/label&gt;
-  &lt;input type="week" id="week" name="week"&gt;
-</pre>
+<pre>  &lt;label for="week"&gt;Select a week:&lt;/label&gt;
+  &lt;input type="week" id="week" name="week"&gt;</pre>
 
 <h4><b>Month</b></h4>
 
@@ -1419,10 +1377,8 @@ type that is not supported by all the browsers.</p>
 Keep in mind that this is a newer type that is not supported by all the
 browsers.</p>
 
-<pre>
-  &lt;label for="bdaymonth"&gt;Birthday (month and year):&lt;/label&gt;
-  &lt;input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01"&gt;
-</pre>
+<pre>  &lt;label for="bdaymonth"&gt;Birthday (month and year):&lt;/label&gt;
+  &lt;input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01"&gt;</pre>
 
 <h4>Creating a form</h4>
 
@@ -1848,8 +1804,7 @@ files through the steps below.</p>
 <p>The following code is an example solution for the previous exercise.</p>
 <p>This code is placed inside the &lt;main&gt; element of index.html.</p>
 
-<pre>
-  &lt;form&gt;&lt;/p&gt;
+<pre>  &lt;form&gt;&lt;/p&gt;
     &lt;div&gt;&lt;/p&gt;
       &lt;label for="username"&gt;Username&lt;/label&gt;&lt;/p&gt;
       &lt;input type="text" id="username" required minlength="2"&gt;&lt;/p&gt;
@@ -1859,8 +1814,7 @@ files through the steps below.</p>
       &lt;input type="password" id="password" required minlength="2"&gt;&lt;/p&gt;
     &lt;/div&gt;&lt;/p&gt;
     &lt;button type="submit"&gt;Log In&lt;/button&gt;&lt;/p&gt;
-  &lt;/form&gt;&lt;/p&gt;
-</pre>
+  &lt;/form&gt;&lt;/p&gt;</pre>
 
 <p>While reviewing the code, note the following items:</p>
 
@@ -2254,10 +2208,8 @@ username and password to a web server to log you into your account.</p>
 <p>As you know by now, you add a form to your web page using the form
 tag.</p>
 
-<pre>
-  &lt;form&gt;
-  &lt;/form&gt;
-</pre>
+<pre>  &lt;form&gt;
+  &lt;/form&gt;</pre>
 
 <p>But how the form is submitted is determined by two essential
 attributes: action and method.</p>
@@ -2265,10 +2217,8 @@ attributes: action and method.</p>
 sent. This is address is location of server-side code that will process
 the request.</p>
 
-<pre>
-  &lt;form action="/login"&gt;
-  &lt;/form&gt;
-</pre>
+<pre>  &lt;form action="/login"&gt;
+  &lt;/form&gt;</pre>
 
 <p>It is important to note that action can be a full URL address such as
 <strong>https://meta.com</strong>, an absolute path such as
@@ -2291,12 +2241,10 @@ href="https://meta.com/company-info/login"><strong>https://meta.com/company-info
 <p>The method attribute specifies which HTTP method is used to submit
 the form; GET or POST.</p>
 
-<pre>
-  &lt;form method="get"&gt;
+<pre>  &lt;form method="get"&gt;
   &lt;/form&gt;
   &lt;form method="post"
-  &lt;/form&gt;
-</pre>
+  &lt;/form&gt;</pre>
 
 <p>The form will default to the HTTP GET method when the method
 attribute is not provided.</p>
@@ -2435,8 +2383,7 @@ checkbox, date, email, number, password, submit, text,</strong> and
 <strong>url</strong>. These values dictate the appearance of the
 element. For example, this code:</p>
 
-<pre>
-  &lt;form action="my_action_page"&gt;
+<pre>  &lt;form action="my_action_page"&gt;
     &lt;label for="uname"&gt;Username:&lt;/label&gt;
     &lt;br&gt;
     &lt;input type="text" id="uname" name="username"&gt;
@@ -2446,8 +2393,7 @@ element. For example, this code:</p>
     &lt;input type="password" id="pwd" name="pwd"&gt;
     &lt;br&gt;&lt;br&gt;
     &lt;input type="submit" value="Login"&gt;
-  &lt;/form&gt;
-</pre>
+  &lt;/form&gt;</pre>
 
 <p>Results in the following output:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2499,10 +2445,8 @@ include:</p>
   <li>The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:</li>
 </ul>
 
-<pre>
-  &lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
-  &lt;/textarea&gt;
-</pre>
+<pre>  &lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
+  &lt;/textarea&gt;</pre>
 
 <h4>&lt;button&gt;</h4>
 
@@ -2510,10 +2454,8 @@ include:</p>
 defines the behavior when the button is clicked by the user. For
 example, in the code below, an alert message is shown to the user.</p>
 
-<pre>
-  &lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
-  &lt;/button&gt;
-</pre>
+<pre>  &lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
+  &lt;/button&gt;</pre>
 
 <h3>&lt;fieldset&gt; </h3>
 
@@ -2526,8 +2468,7 @@ qualification can be grouped separately in two field sets.</p>
 <p>Defines a caption for the <strong>&lt;fieldset&gt;</strong> element.
 For example:</p>
 
-<pre>
-  &lt;fieldset&gt;
+<pre>  &lt;fieldset&gt;
     &lt;legend&gt;Personal Info&lt;/legend&gt;
     &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
     &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
@@ -2541,8 +2482,7 @@ For example:</p>
     &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt;
     &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt;
     &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt;
-  &lt;/fieldset&gt;
-</pre>
+  &lt;/fieldset&gt;</pre>
 
 <h3>&lt;datalist&gt;</h3>
 
@@ -2550,8 +2490,7 @@ For example:</p>
 differs from <strong>&lt;select&gt;</strong> since the user can still
 provide textual or numeric input other than the listed options.</p>
 
-<pre>
-  &lt;form action="/my_action_page"&gt;
+<pre>  &lt;form action="/my_action_page"&gt;
     &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt;
     &lt;input list="flowers" name="flowers"&gt;
     &lt;datalist id="flowers"&gt;
@@ -2562,8 +2501,7 @@ provide textual or numeric input other than the listed options.</p>
       &lt;option value="Orchid"&gt;
     &lt;/datalist&gt;
     ...
-  &lt;/form&gt;
-</pre>
+  &lt;/form&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 82. datalist input type with drop-down menu (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2584,15 +2522,13 @@ script) or the outcome of the user action.</p>
 demonstrates how a simple list can be defined, with the rendered view
 below the code block.</p>
 
-<pre>
-  &lt;label for="course"&gt;Choose a course:&lt;/label&gt;&lt;br&gt;
+<pre>  &lt;label for="course"&gt;Choose a course:&lt;/label&gt;&lt;br&gt;
   &lt;select id="course" name="courselist"&gt;
     &lt;option value="html"&gt;HTML Introduction&lt;/option&gt;
     &lt;option value="css"&gt;Styling with CSS&lt;/option&gt;
     &lt;option value="js"&gt;JavaScript&lt;/option&gt;
     &lt;option value="react"&gt;React Basics&lt;/option&gt;
-  &lt;/select&gt;
-</pre>
+  &lt;/select&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 83. option input type with drop-down list (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2831,12 +2767,10 @@ tags to provide a description of the image. The
 <strong>&lt;figure&gt;</strong> tag and the
 <strong>&lt;figcaption&gt;</strong> is specified after it.</p>
 
-<pre>
-  &lt;figure&gt;
+<pre>  &lt;figure&gt;
    &lt;img src="photo.png" width="320" alt="My Profile Photo"&gt;
    &lt;figcaption&gt;A photo of myself on a beach in 2015&lt;/figcaption&gt;
-  &lt;/figure&gt;
-</pre>
+  &lt;/figure&gt;</pre>
 
 <p>One last thing to note is that like videos and audio, the web browser
 only supports specific file types. These file types are:</p>
@@ -2983,10 +2917,8 @@ are applied. To apply more than one permission, use a space-separated
 list. For example, the following would allow form submission and scripts
 while keeping other restrictions active:</p>
 
-<pre>
-  &lt;iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts"&gt;
-  &lt;/iframe&gt;
-</pre>
+<pre>  &lt;iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts"&gt;
+  &lt;/iframe&gt;</pre>
 
 <h4>src</h4>
 
@@ -3002,10 +2934,8 @@ override the <strong>src</strong> attribute. For instance, the following
 code will display "My inline html" in the frame, instead of loading
 <strong>my_iframe_src.html</strong>.</p>
 
-<pre>
-  &lt;iframe src="my_iframe_src.html" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt;
-  &lt;/iframe&gt;
-</pre>
+<pre>  &lt;iframe src="my_iframe_src.html" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt;
+  &lt;/iframe&gt;</pre>
 
 <h4>loading</h4>
 
@@ -3016,10 +2946,8 @@ allows you to defer loading iframe content if it is further down your
 web page and outside of the display area when the page is initially
 loaded.</p>
 
-<pre>
-  &lt;iframe src="my_iframe_src.html" loading="lazy" &gt;
-  &lt;/iframe&gt;
-</pre>
+<pre>  &lt;iframe src="my_iframe_src.html" loading="lazy" &gt;
+  &lt;/iframe&gt;</pre>
 
 <h4>title</h4>
 
@@ -3027,10 +2955,8 @@ loaded.</p>
 accessibility purposes. The value of this attribute should accurately
 describe the iframe's content.</p>
 
-<pre>
-  &lt;iframe src="history.html" title="An embedded document about the history of my family" &gt;
-  &lt;/iframe&gt;
-</pre>
+<pre>  &lt;iframe src="history.html" title="An embedded document about the history of my family" &gt;
+  &lt;/iframe&gt;</pre>
 
 <h4>iFrame as a picture</h4>
 
@@ -3428,8 +3354,7 @@ href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-term
 
 <h4>Original HTML code:</h4>
 
-<pre>
-  &lt;body&gt;
+<pre>  &lt;body&gt;
     &lt;div class="flex-container"&gt;
       &lt;div class="box box1"&gt;  One..&lt;/div&gt;
       &lt;div class="box box2"&gt;  Two..&lt;/div&gt;
@@ -3439,19 +3364,16 @@ href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-term
       &lt;div class="box box6"&gt;  Six..&lt;/div&gt;
       &lt;div class="box box7"&gt;  Seven..&lt;/div&gt;
     &lt;/div&gt;
-  &lt;/body&gt;
-</pre>
+  &lt;/body&gt;</pre>
 
 <h4>Original CSS file: </h4>
 
-<pre>
-  .box{
+<pre>  .box{
     background-color: aquamarine;
     border-radius: 5px;
     margin: 2px;
     padding: 10px;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3473,11 +3395,9 @@ flex.</p>
 
 <h4>display: flex;</h4>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
-  }
-</pre>
+  }</pre>
 
 <p>The output is now seven flex containers that run from left to right
 starting in the top left corner.</p>
@@ -3510,12 +3430,10 @@ inside it:</p>
 
 <h4>CSS:</h4>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
     justify-content: center
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3532,13 +3450,11 @@ inside it:</p>
 <p>The default for this property is ‘nowrap’ which means the items will
 span the entire width of the axis.</p>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3560,14 +3476,12 @@ horizontal rows to vertical columns.</p>
 
 <h5>CSS Code:</h5>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3591,15 +3505,13 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-items:flex-end;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3617,8 +3529,7 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 
 <p>This property can be used on individual items inside the flex.</p>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -3628,8 +3539,7 @@ property. Let’s change the value for it to ‘flex-end’.</p>
   .box3{
     background-color: blanchedalmond;
     align-self: center;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3652,8 +3562,7 @@ columns using row-gap and column-gap properties.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -3664,8 +3573,7 @@ columns using row-gap and column-gap properties.</p>
   .box3{
     background-color: blanchedalmond;
     align-self: center;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3689,11 +3597,9 @@ empty in shorthand notation are given their default values.</p>
 
 <h4>For example:</h4>
 
-<pre>
-  .flex-container{
+<pre>  .flex-container{
     flex: 0 1 auto;
-  }
-</pre>
+  }</pre>
 
 <p>Here for the flex-container class, there is a set rule for the flex
 property. The values correspond to the three properties, namely the
@@ -3722,13 +3628,11 @@ inside the flex item box3 class.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>
-  .box3{
+<pre>  .box3{
     background-color: blanchedalmond;
     align-self: center;
     flex: 1 1 auto;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4563,11 +4467,9 @@ and effort.</p>
 
 <p>The syntax for creating a grid:</p>
 
-<pre>
-  selector{
+<pre>  selector{
     display: grid; /* or inline-grid */
-  }
-</pre>
+  }</pre>
 
 &lt;img src="./images/image140.wmf" /&gt;
 &lt;img src="./images/image141.wmf" /&gt;
@@ -4707,11 +4609,9 @@ above */</strong></p>
 
 <p>The syntax for creating a flexbox:</p>
 
-<pre>
-  selector{
+<pre>  selector{
     display: flex | inline-flex
-  }
-</pre>
+  }</pre>
 
 <p>Here the selector can refer to any of the following flex
 attributes</p>
@@ -5416,10 +5316,8 @@ irrespective of other rules. </p>
 <p>For example, take these two rules that create a conflict in color
 styling for a p tag:</p>
 
-<pre>
-  &lt;p style=“color: white;”&gt;
-    p{color: blue}
-</pre>
+<pre>  &lt;p style=“color: white;”&gt;
+    p{color: blue}</pre>
 
 <p>The p tag will be colored white because it is declared inside the
 inline tag. </p>
@@ -5430,9 +5328,7 @@ inline tag. </p>
 represented by ‘#’.</p>
 <p>For example:</p>
 
-<pre>
-  #div
-</pre>
+<pre>  #div</pre>
 
 <h3>Classes, attributes, and pseudo-classes</h3>
 
@@ -5441,11 +5337,9 @@ is called the pseudo-classes that you will soon learn more about. </p>
 
 <h4>For example:</h4>
 
-<pre>
-  .my-class
+<pre>  .my-class
     p[“attribute”]
-    div:hover
-</pre>
+    div:hover</pre>
 
 <h4>Elements and pseudo-elements</h4>
 
@@ -5465,11 +5359,9 @@ precedence of CSS rules and to control the outcome of their web pages.</p>
 <p>Let’s explore a practical example of how to determine the score of a
 few selectors. </p>
 
-<pre>
-  #hello {} will be 0100
+<pre>  #hello {} will be 0100
     div {} will be 0001 and
-    div p.foo {} will be 0012
-</pre>
+    div p.foo {} will be 0012</pre>
 
 <p>In the order stated above, the four categories will be assigned
 values 1000, 100, 10 and 1 with the element selectors having the lowest
@@ -5484,14 +5376,12 @@ to keep the focus on the selectors only.</p>
 
 <h4>Example 1</h4>
 
-<pre>
-  p {}
+<pre>  p {}
     div p {}
     div p.foo {}
   p  =&gt; 1 element =&gt;  0 0 0 1 =&gt; Score: 1
     div p =&gt; 2 elements =&gt; 0 0 0 2 =&gt; Score: 2
-    div p.foo {} =&gt; 2 elements and 1 class selector =&gt; 0 0 1 2 =&gt; Score: 12
-</pre>
+    div p.foo {} =&gt; 2 elements and 1 class selector =&gt; 0 0 1 2 =&gt; Score: 12</pre>
 
 <p>The third case has a total of 12 for the p tag and so has the highest
 specificity. The rules for the other two cases are then overridden and
@@ -5499,11 +5389,9 @@ the rules inside the third case are applied. </p>
 
 <h4>Example 2</h4>
 
-<pre>
-  p#bar =&gt; 1 element &amp; 1 ID =&gt;  0 1 0 1 =&gt; Score: 101
+<pre>  p#bar =&gt; 1 element &amp; 1 ID =&gt;  0 1 0 1 =&gt; Score: 101
   p.foo =&gt; 1 element &amp; 1 class =&gt; 0 0 1 1 =&gt; Score: 11
-  p.p.foo =&gt; 1 element &amp; 2 class =&gt;  0 0 2 1 =&gt; Score: 21
-</pre>
+  p.p.foo =&gt; 1 element &amp; 2 class =&gt;  0 0 2 1 =&gt; Score: 21</pre>
 
 <p>By now it should be clear that the case containing ID has a much
 higher score and the rules inside it will be applied. </p>
@@ -5929,11 +5817,9 @@ of a pseudo-element.</p>
 
 <h4>Syntax</h4>
 
-<pre>
-  selector::pseudo-element {
+<pre>  selector::pseudo-element {
     property: value;
-  }
-</pre>
+  }</pre>
 
 <p>It is important to note that pseudo-elements use two colon characters
 instead of one.</p>
@@ -5946,8 +5832,7 @@ of each of the three points in the example text.</p>
 
 <h4>HTML code:</h4>
 
-<pre>
-  &lt;!DOCTYPE html&gt;
+<pre>  &lt;!DOCTYPE html&gt;
     &lt;html&gt;
       &lt;head&gt;
         &lt;link rel="stylesheet" href="pseudo4.css"&gt;
@@ -5960,13 +5845,11 @@ of each of the three points in the example text.</p>
         Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.&lt;/li&gt; 
       &lt;/ul&gt;
     &lt;/body&gt; 
-  &lt;/html&gt; 
-</pre>
+  &lt;/html&gt;</pre>
 
 <h4>CSS code:</h4>
 
-<pre>
-  li::first-letter { 
+<pre>  li::first-letter { 
  
   color:coral; 
  
@@ -5975,16 +5858,15 @@ of each of the three points in the example text.</p>
   font-weight: bold; 
  
   line-height: 1; 
-  } 
-</pre>
+  }</pre>
 
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183. sample output  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image183.png?raw=true"
-  alt="."
+  alt="Sample output."
   style="width:4in;height:2.98228in" />
 
 <p>Although the code only changed the first letter of each bullet point,
@@ -5998,8 +5880,7 @@ points to light sea green.</p>
 
 <h4>CSS code:</h4>
 
-<pre>
-  ul{
+<pre>  ul{
     list-style-type: none;
   }
  
@@ -6007,16 +5888,15 @@ points to light sea green.</p>
     color: lightseagreen;
     text-decoration: underline;
     line-height: 1;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. sample output  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image184.png?raw=true"
-  alt="."
+  alt="Sample output."
   style="width:4in;height:1.81259in" />
 
 <p>Because it’s only the first line of each bullet point, it almost
@@ -6028,7 +5908,7 @@ viewport.</p>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. enlarged sample output (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image185.png?raw=true"
@@ -6046,8 +5926,7 @@ of text.</p>
 
 <h4>CSS code:</h4>
 
-<pre>
-  ul{
+<pre>  ul{
     list-style-type: none;
   }
  
@@ -6055,14 +5934,13 @@ of text.</p>
     color:brown;
     background-color: antiquewhite;
     line-height: 1;
-  }
-</pre>
+  }</pre>
 
 <p>Here is an example of a selection of text.</p>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 186. example of same text selected and highlighted (xxx) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image186.png?raw=true"
@@ -6074,11 +5952,11 @@ selected and highlighted.</p>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. different highlights (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image187.png?raw=true"
-  alt="."
+  alt="Highlight different segments."
   style="width:4in;height:2.49145in" />
 
 <p>Different segments of the text are highlighted depending on the text
@@ -6090,22 +5968,20 @@ that is selected at any given point.</p>
 instance, to color bullet points. For example, you can enhance the user
 experience when you use a marker in the following way.</p>
 
-<pre>
-  CSS code:
+<pre>  CSS code:
   li::marker {
     color: cornflowerblue;
     content: '&lt;&gt; ';
     font-size: 1.1em;
-  }
-</pre>
+  }</pre>
 
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. change bullet shapes (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image188.png?raw=true"
-  alt="."
+  alt="Change bullet shapes."
   style="width:4in;height:2.20508in" />
 
 <p>Now the bullet points are cornflower blue and they have the shape
@@ -6123,18 +5999,15 @@ guidelines to identify them as important tips.</p>
 
 <h4>HTML code:</h4>
 
-<pre>
-  &lt;body&gt;
+<pre>  &lt;body&gt;
     &lt;p id="tips"&gt; Don't rinse your pasta after it is drained. &lt;/p&gt;
     &lt;p&gt; Slice the tomatoes. Take the extra efforts to seed them. &lt;/p&gt;
     &lt;p id="tips"&gt; Peel and seed large tomatoes. &lt;/p&gt;
-  &lt;/body&gt;
-</pre>
+  &lt;/body&gt;</pre>
 
 <h4>CSS code:</h4>
 
-<pre>
-  #tips::before{
+<pre>  #tips::before{
     background: darkkhaki;
     color:darkslategray;
     content: "Tip:";
@@ -6149,12 +6022,11 @@ guidelines to identify them as important tips.</p>
     content: "!!";
     padding-right: 5px;
     border-radius: 20%;
-  }
-</pre>
+  }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 189. tips and exclamations highlighted (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image189.png?raw=true"
@@ -6185,21 +6057,21 @@ style links on web pages, namely web-link states.</p>
 developers often use them to style the color of links that a user
 already opened.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190. home and who we are (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image190.png?raw=true"
-  alt="."
+  alt="Home and Whoi We Are tags."
   style="width:4in;height:1.48106in" />
 
 <p>For instance, a HTML file can have two a tags, each with its own href that links to a different 
 page of a website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 191. css for home and who we are (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image191.png?raw=true"
-  alt="."
+  alt="CSS for Home and Who We Are."
   style="width:4in;height:1.26138in" />
   
 <p>To give the links their initial color, you can use the link pseudo-class selector, and 
@@ -6258,11 +6130,11 @@ click the "View" icon at the top right of my screen.</p>
 blue color because I set it to blue with the link pseudo-class in the
 CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. pseudo-links example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image195.png?raw=true"
-  alt="."
+  alt="Pseudo-class links example."
   style="width:3in;height:3.09912in" />
 
 <p>As expected, when I move the mouse over the link, the color changes
@@ -7507,16 +7379,14 @@ easier way.</p>
 
 <h4>from{} and to{} keywords and using percentages(%) syntax</h4>
 
-<pre>
-  @keyframes animation-name {
+<pre>  @keyframes animation-name {
     from {
       property-a: value-a;
     }
     to {
       property-a: value-b;
     }
-  }
-</pre>
+  }</pre>
 
 <p>The 'from' and 'to' keywords are used inside the @keyframes rule to
 mark the transition of one or more properties and can be seen as the
@@ -7526,14 +7396,12 @@ expand on the use of ‘from’ and ‘to’, the @keyframes allows you to add
 more steps to your animation by using a percentage that represents the
 completion of the animation. </p>
 
-<pre>
-  @keyframes identifier {
+<pre>  @keyframes identifier {
     0% {transform: rotate(100deg);}
     30% {opacity: 1;}
     50% {opacity: 0.50;}
     70% {opacity: 1;}
-    100% {transform: rotate(50deg);}
-</pre>
+    100% {transform: rotate(50deg);}</pre>
 
 <p>The different percentages used in the example demonstrate the
 progression of the animation. Note that it doesn’t have to be the same
@@ -7576,18 +7444,15 @@ animation property. </p>
 
 <h4>HTML code:</h4>
 
-<pre>
-  &lt;body&gt;
+<pre>  &lt;body&gt;
     &lt;div class="box"&gt;&lt;/div&gt;
   &lt;/body&gt;
 
-  &lt;/html&gt;
-</pre>
+  &lt;/html&gt;</pre>
 
 <h4>CSS code:</h4>
 
-<pre>
-  body{
+<pre>  body{
     padding: 30px;} 
     .box{ 
       background-color: lightcoral; 
@@ -7599,8 +7464,7 @@ animation property. </p>
     from{width: 50px; 
     } 
     to{width: 100px; 
-    }
-</pre>
+    }</pre>
 
 <h4>And this is the output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7625,26 +7489,22 @@ animation.</p>
 <p>If you modify this code and change the animation rules to
 percentages, it will have the same output.</p>
 
-<pre>
-  @keyframes myanimation{
+<pre>  @keyframes myanimation{
     0%{width: 50px;
     }
     100%{width: 100px;
-    }
-</pre>
+    }</pre>
 
 <p>Now, let’s add an intermediary step at 50%.</p>
 
-<pre>
-  @keyframes myanimation{
+<pre>  @keyframes myanimation{
     0%{width: 50px;
     }
     50%{background-color: aquamarine;
       height: 20px;
     }
     100%{width: 100px;
-    }
-</pre>
+    }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
