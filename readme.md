@@ -10811,27 +10811,27 @@ Best of luck, and do continue to pursue your own learning objectives to their fi
 <h4>Basic meta tags (meta tags for SEO)</h4>
 
 <ul>
-  <li><p>&lt;meta name=”description”/&gt; provides a brief description of the web page</p></li>
-  <li><p>&lt;meta name=”title”/&gt; specifies the title of the web page</p></li>
-  <li><p>&lt;meta name=”author” content="name"&gt; specifies the author of the web page</li>
-  <li><p>&lt;meta name=”language” content="english"&gt; specifies the language of the web page</p></li>
-  <li><p>&lt;meta name="robots" content="index,follow" /&gt; tells search engines how to crawl or index a certain page</p></li>
+  <li><p>&lt;meta name=”description”/&gt; provides a brief description of the web page,</p></li>
+  <li><p>&lt;meta name=”title”/&gt; specifies the title of the web page,</p></li>
+  <li><p>&lt;meta name=”author” content="name"&gt; specifies the author of the web page,</li>
+  <li><p>&lt;meta name=”language” content="english"&gt; specifies the language of the web page,</p></li>
+  <li><p>&lt;meta name="robots" content="index,follow" /&gt; tells search engines how to crawl or index a certain page,</p></li>
   <li><p>&lt;meta name="google"/&gt; tells Google not to show the sitelinks search box for your page when showing search results
   <li><p>&lt;meta name="googlebot" content=”notranslate” /&gt; tells Google you don’t want to provide an automatic translation 
-    for your page if the user uses a different language</p></li>
-  <li><p>&lt;meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm" /&gt; specifies the last modified date and time on which you have made certain changes</p></li>
-  <li><p>&lt;meta name="rating" content="safe for kids"&gt; specifies the expected audience for your page</p></li>
-  <li>&lt;meta name="copyright" content="Nocopyright 2023"&gt; specifies a Copyright</li>
+    for your page if the user uses a different language,</p></li>
+  <li><p>&lt;meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm" /&gt; specifies the last modified date and time on which you have made certain changes,</p></li>
+  <li><p>&lt;meta name="rating" content="safe for kids"&gt; specifies the expected audience for your page,</p></li>
+  <li>&lt;meta name="copyright" content="Nocopyright 2023"&gt; specifies a Copyright.</li>
 </ul>
 
 <h4>&lt;meta http-equiv="..."/&gt; tags</h4>
 
 <ul>
-  <li><p>&lt;meta http-equiv="content-type" content="text/html"&gt; specifies the format of the document returned by the server</p></li>
-  <li><p>&lt;meta http-equiv="default-style"/&gt; specifies the format of the styling document</p></li>
-  <li><p>&lt;meta http-equiv="refresh"/&gt; specifies the duration of the page before it’s considered stale</p></li>
-  <li><p>&lt;meta http-equiv=”Content-language”/&gt; specifies the language of the page</p></li>
-  <li>&lt;meta http-equiv="Cache-Control" content="no-cache"&gt; instructs the browser how to cache your page</li>
+  <li><p>&lt;meta http-equiv="content-type" content="text/html"&gt; specifies the format of the document returned by the server,</p></li>
+  <li><p>&lt;meta http-equiv="default-style"/&gt; specifies the format of the styling document,</p></li>
+  <li><p>&lt;meta http-equiv="refresh"/&gt; specifies the duration of the page before it’s considered stale,</p></li>
+  <li><p>&lt;meta http-equiv=”Content-language”/&gt; specifies the language of the page,</p></li>
+  <li>&lt;meta http-equiv="Cache-Control" content="no-cache"&gt; instructs the browser how to cache your page.</li>
 </ul>
 
 <h4>Responsive design/mobile meta tags</h4>
@@ -10847,14 +10847,4 @@ the end…
 
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h6>6-20-2023 at 5:25pm</h6>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template documentation
-<p align="center" width="100%">
-<img src="/images/image0xx.png"
-  width="50%"
-  alt="." />
-</p>
--->
+<h6>7-22-2023 at 3:47pm</h6>
