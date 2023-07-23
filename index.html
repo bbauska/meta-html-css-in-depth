@@ -5266,20 +5266,20 @@ all the elements of a web page.</p>
 and styles that browsers use before they apply your styling to the web
 page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. star selectors example (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. star selectors example (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image162.png?raw=true"
-  alt="."
+  alt="Star selectors example."
   style="width:5in;height:2.36859in" />
 
 <p>Finally, did you know that you can group selectors?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. group selectors syntax (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. group selectors syntax (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image163.png?raw=true"
-  alt="."
+  alt="Group selectors syntax."
   style="width:4in;height:2.38889in" />
 
 <p>If you want to apply the same styling to more than one type of
@@ -5330,12 +5330,14 @@ weight to selectors and this creates a specificity hierarchy.</p>
 <p>Based on the weights, there are four categories in this hierarchy: </p>
 
 <ul>
-<li>Inline styles </li>
-<li>IDs </li>
-<li>Classes, attributes, and pseudo-classes </li>
-<li>Elements and pseudo-elements </li>
+  <li>Inline styles </li>
+  <li>IDs </li>
+  <li>Classes, attributes, and pseudo-classes </li>
+  <li>Elements and pseudo-elements </li>
 </ul>
+
 <h4 id="inline-styles">Inline styles</h4>
+
 <p>Inline styles are attached to the elements within your HTML code like
 with the ‘style’ attribute. inline styles have the highest specificity.
 That means that rules that are defined as inline styles will be applied
@@ -5357,7 +5359,7 @@ represented by ‘#’.</p>
 
 <pre>  #div</pre>
 
-<h3>Classes, attributes, and pseudo-classes</h3>
+<h4>Classes, attributes, and pseudo-classes</h4>
 
 <p>Classes, and the attributes inside the selectors, come next with what
 is called the pseudo-classes that you will soon learn more about. </p>
@@ -5379,8 +5381,8 @@ lowest position in the specificity hierarchy.</p>
 <p>But by now you might wonder how is specificity calculated? </p>
 <p>CSS uses the hierarchical model internally to calculate the
 specificity of the selectors used on a web page.</p>
-<p>But often as the size
-of CSS code increases, developers unavoidably face rule conflicts.</p>
+<p>But often as the size of CSS code increases, developers unavoidably face rule 
+conflicts.</p>
 <p>In these cases, developers use the specificity hierarchy to calculate the
 precedence of CSS rules and to control the outcome of their web pages.</p>
 <p>Let’s explore a practical example of how to determine the score of a
@@ -5444,11 +5446,13 @@ which CSS engines work.</p>
 engines evaluate and apply the specificity rules is called
 ‘cascade’.</p>
 <p>Cascade is a type of small waterfall that falls in stages down the
-rocks and that is exactly how CSS behaves. </p>
+rocks and that is exactly how CSS behaves.</p>
 <p>Don’t be too worried about applying what you’ve learned now, there
 are CSS specificity calculators available that can help you with
-determining the styling outcomes of your pages. </p>
-<p>Combination selectors</p>
+determining the styling outcomes of your pages.</p>
+
+<h4>Combination selectors</h4>
+
 <p>Sometimes you want to apply the same styling to different elements or
 to different groups of elements.</p>
 <p>CSS makes it possible to combine more than one selector so that you
@@ -5695,7 +5699,9 @@ use them.</p>
 <p>As you become more advanced in styling your Web pages, these CSS
 selectors will surely be helpful in targeting specific items and save
 you a lot of time.</p>
-<p>Pseudo-classes</p>
+
+<h4>Pseudo-classes</h4>
+
 <p>Pseudo-class selectors give developers great control over what they
 select and style.</p>
 <p>By knowing how to use these selectors, you will not only improve the
