@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow: /README1st.md
+Disallow: /Week1/*, /Week2/*, /README1st.md, meta HTML and CSS in Depth..md
 
 Sitemap: https://github.com/bbauska/meta-html-css-in-depth, https://meta.bauska.site
