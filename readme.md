@@ -11,7 +11,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image001.png"
+<img src="/images/image001.webp"
   width="20%"
   alt="Coursera logo." />
 </p>
@@ -21,7 +21,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image002.png?raw=true"
+<img src="/images/image002.webp?raw=true"
   width="10%"
   alt="Meta logo." />
 </p>
@@ -113,7 +113,7 @@ But what does that mean?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image003.png"
+<img src="/images/image003.webp"
   width="50%"
   alt="Hypertext and Markup." />
 </p>
@@ -126,7 +126,7 @@ Markup refers to tags and elements used within a document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image004.png"
+<img src="/images/image004.webp"
   width="65%"
   alt="Basic HTML page structure." />
 </p>
@@ -166,7 +166,7 @@ how to display HTML elements on screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 05. style, box model and document flow (04) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image005.png"
+<img src="/images/image005.webp"
   width="60%"
   alt="Style, box model and document flow." />
 </p>
@@ -205,7 +205,7 @@ sure that you create a well-formed web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 06. basic html page structure, again (05) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image006.png"
+<img src="/images/image006.webp"
   width="50%"
   alt="Basic HTML page structure, again." />
 </p>
@@ -220,7 +220,7 @@ to describe each of the sections.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image007.png"
+<img src="/images/image007.webp"
   width="50%"
   alt="HTML tags." />
 </p>
@@ -232,7 +232,7 @@ using the header, main and footer semantic HTML tags.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 08. template w/header, main and footer (06) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image008.png"
+<img src="/images/image008.webp"
   width="50%"
   alt="Template example with header, main and footer." />
 </p>
@@ -250,7 +250,7 @@ links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image009.png"
+<img src="/images/image009.webp"
   width="50%"
   alt="Nav tag." />
 </p>
@@ -265,7 +265,7 @@ after the header element and the header element is used for logos.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image010.png"
+<img src="/images/image010.webp"
   width="50%"
   alt="Unordered list tag." />
 </p>
@@ -293,7 +293,7 @@ That&apos;s quite a mouthful.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image011.png"
+<img src="/images/image011.webp"
   width="15%"
   alt="Newspaper." />
 </p>
@@ -320,7 +320,7 @@ web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image012.png"
+<img src="/images/image012.webp"
   width="40%"
   alt="Article element." />
 </p>
@@ -339,7 +339,7 @@ like a blog post list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image013.png"
+<img src="/images/image013.webp"
   width="40%"
   alt="At the end of your document is the footer element." />
 </p>
@@ -375,7 +375,7 @@ semantically describe the section.
 <!--~~~~~~~~~~~~~~~ 14. descriptive section elements - describes web page (09) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image014.png"
+<img src="/images/image014.webp"
   width="50%"
   alt="Descriptive section elements - describes web page." />
 </p>
@@ -403,7 +403,7 @@ accessibility software can understand the semantics of the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. basic html document structure (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image015.png"
+<img src="/images/image015.webp"
   width="50%"
   alt="Basic HTML document structure ." />
 </p>
@@ -414,7 +414,7 @@ I&apos;ve set up my basic html document structure in a file named blog.html.  I&
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image016.png"
+<img src="/images/image016.webp"
   width="60%"
   alt="Header, nav, main and footer elements." />
 </p>
@@ -489,7 +489,7 @@ But how does a search engine determine which web pages are most relevant in this
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo - search engine optimization (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image017.png"
+<img src="/images/image017.webp"
   width="31%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
@@ -524,7 +524,7 @@ But for now, let&apos;s just focus on how meta tags influence website ranking.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags and metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image018.png"
+<img src="/images/image018.webp"
   width="60%"
   alt="META tags and metadata - data about the web page." />
 </p>
@@ -542,7 +542,7 @@ browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. meta tags (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image019.png"
+<img src="/images/image019.webp"
   width="32%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
@@ -554,7 +554,7 @@ there is no closing tag for the meta tag.
 <!--~~~~~~~~~~~~~~~~~~~ 20. meta element attributes: name and content (14) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image020.png"
+<img src="/images/image020.webp"
   width="60%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
@@ -570,7 +570,7 @@ Let&apos;s examine some examples of metadata.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. author metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image021.png"
+<img src="/images/image021.webp"
   width="60%"
   alt="Author metadata." />
 </p>
@@ -584,7 +584,7 @@ company who are the author of the web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. description metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image022.png"
+<img src="/images/image022.webp"
   width="60%"
   alt="Description metadata." />
 </p>
@@ -601,7 +601,7 @@ the descriptive text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. keyword metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image023.png"
+<img src="/images/image023.webp"
   width="60%"
   alt="S.E.O. Search Engine Optimization." />
 </p>
@@ -621,7 +621,7 @@ recommended not to include this metadata in modern web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. robot's metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image024.png"
+<img src="/images/image024.webp"
   width="60%"
   alt="Robot's metadata." />
 </p>
@@ -636,7 +636,7 @@ bots, that search engines used to analyze websites.
 <!--~~~~~~~~~~~~~~~ 25. robot content: index, follow, no index, nofollow (16) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image025.png"
+<img src="/images/image025.webp"
   width="26%"
   alt="Robot contents: index, follow, no index and no follow." />
 </p>
@@ -653,7 +653,7 @@ best not to rely on it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image026.png"
+<img src="/images/image026.webp"
   width="60%"
   alt="View ports metadata." />
 </p>
@@ -681,7 +681,7 @@ But that&apos;s for later modules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 27. metadata in bare bones layout (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image027.png"
+<img src="/images/image027.webp"
   width="12%"
   alt="Semantic HTML document structure." />
 </p>
@@ -712,7 +712,7 @@ also to this folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 28. semantic html document structure (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image028.png"
+<img src="/images/image028.webp"
   width="60%"
   alt="Semantic HTML document structure." />
 </p>
@@ -738,7 +738,7 @@ section and update the content attributes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 29. open graph protocol meta tags (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image029.png"
+<img src="/images/image029.webp"
   width="60%"
   alt="Open Graph Protocol meta tags." />
 </p>
@@ -759,7 +759,7 @@ By now you can probably see how useful this template is.
 <!--~~~~~~~~~~~~~~~~ 30. body element - with header, nav, main, & footer (21) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image030.png"
+<img src="/images/image030.webp"
   width="60%"
   alt="Body element comprised of header, nav, main and footer." />
 </p>
@@ -774,7 +774,7 @@ copyright notices or links to secondary webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~ 31. javascript file calls script elements (21) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image031.png"
+<img src="/images/image031.webp"
   width="60%"
   alt="JavaScript script elements." />
 </p>
@@ -812,7 +812,7 @@ experience.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. example: top navbar layout (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image032.png"
+<img src="/images/image032.webp"
   width="60%"
   alt="Example: Top navbar layout." />
 </p>
@@ -828,7 +828,7 @@ fixed interval.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. example: carousel layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image029.png"
+<img src="/images/image029.webp"
   width="60%"
   alt="Example of a Carousel layout." />
 </p>
@@ -845,7 +845,7 @@ page each day based on current events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 34. example: large style blog layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image034.png"
+<img src="/images/image034.webp"
   width="60%"
   alt="Example of a large style Blog Layout." />
 </p>
@@ -857,7 +857,7 @@ a series of article summary areas that link to full articles.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 35. example: regular style blog layout (24) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image035.png"
+<img src="/images/image035.webp"
   width="60%"
   alt="Example of a regular style Blog Layout." />
 </p>
@@ -874,7 +874,7 @@ a good user experience for business users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. example: dashboard layout (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image036.png"
+<img src="/images/image036.webp"
   width="60%"
   alt="Example of a Dashboard Layout." />
 </p>
@@ -924,7 +924,7 @@ in 2010.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. open graph protocol (ogp) (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image037.png"
+<img src="/images/image037.webp"
   width="33%"
   alt="Open Graph Protocol (OGP)." />
 </p>
@@ -956,7 +956,7 @@ properties on a webpage.
 <!--~~~~~~~~~~~~~~ 38. four properties required with open graph protocol (ogp) (26) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image038.png"
+<img src="/images/image038.webp"
   width="33%"
   alt="Four properties required with Open Graph Protocol (OGP): title, type, URL and image." />
 </p>
@@ -997,7 +997,7 @@ The description property provides a description of the webpage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. og: local property (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image039.png"
+<img src="/images/image039.webp"
   width="40%"
   alt="The og:local property describes the language and territory of the webpage." />
 </p>
@@ -1100,7 +1100,7 @@ I&apos;ve opened index.html in visual studio code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. meta template for index.html (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image040.png"
+<img src="/images/image040.webp"
   width="70%"
   alt="Four pieces of metadata required by the OG protocol." />
 </p>
@@ -1123,7 +1123,7 @@ This metadata informs the social platforms that this content being
 shared is a website.
 
 On the third meta tag, add the property attribute and set its value to
-og:image.  Then add the content attribute and set its value to logo.png.
+og:image.  Then add the content attribute and set its value to logo.
 This metadata informs the social media platform what the preferred
 preview images.  In this case, it will be good to display the Little Lemon restaurant
 logo.
@@ -1141,7 +1141,7 @@ to provide as much information as possible.
 <!--~~~~~~~~~~~~~~~~~ 41. more meta tags for head element in index.html (31) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image041.png"
+<img src="/images/image041.webp"
   width="70%"
   alt="Three more additional meta head elements." />
 </p>
@@ -1283,7 +1283,7 @@ HTML has several input types that are validated by the web browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. input types (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image042.png"
+<img src="/images/image042.webp"
   width="20%"
   alt="Input types: email, tel, url, date, time, number, range and color." />
 </p>
@@ -1304,7 +1304,7 @@ feedback.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. required attribute (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image043.png"
+<img src="/images/image043.webp"
   width="30%"
   alt="Required attribute." />
 </p>
@@ -1477,7 +1477,7 @@ Defines an image as a graphical submit button. You should use the "src"
 attribute to point to the location of your image file.
 
 ```
-  <input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
+  <input type="image"src="submit_img" alt="Submit" width="48" height="48">
 ```
 
 <h4>Number</h4>
@@ -1597,7 +1597,7 @@ user accounts on the Little Lemon website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. simple signup form signup.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image044.png"
+<img src="/images/image044.webp"
   width="50%"
   alt="Simple signup form: signup.html." />
 </p>
@@ -1653,7 +1653,7 @@ what each field represents.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 45. add label element before each input (41) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image045.png"
+<img src="/images/image045.webp"
   width="50%"
   alt="Label element precedes every input." />
 </p>
@@ -1680,7 +1680,7 @@ each input element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. sign up form sample (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image046.png"
+<img src="/images/image046.webp"
   width="20%"
   alt="Sample sign up form." />
 </p>
@@ -1693,7 +1693,7 @@ The form labels now display above the input fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. submit button (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image047.png"
+<img src="/images/image047.webp"
   width="40%"
   alt="The submit button." />
 </p>
@@ -1745,7 +1745,7 @@ you can apply to elements for further validation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. login form sample (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image048.png"
+<img src="/images/image048.webp"
   width="65%"
   alt="Sample login form." />
 </p>
@@ -1770,7 +1770,7 @@ user enters values to both fields.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. required attribute (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image049.png"
+<img src="/images/image049.webp"
   width="65%"
   alt="Required attribute in forms." />
 </p>
@@ -1783,7 +1783,7 @@ submitted to the web server.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. please fill out this field (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image050.png"
+<img src="/images/image050.webp"
   width="30%"
   alt="Please fill out this field.  Required." />
 </p>
@@ -1806,7 +1806,7 @@ correct length of data.
 <!--~~~~~~~~~~~~~~~~~~ 51. required field with minlength and maxlength (45) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image051.png"
+<img src="/images/image051.webp"
   width="65%"
   alt="Adding minlength and maxlength to field attributes." />
 </p>
@@ -1831,7 +1831,7 @@ element selector.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 52. pseudo-class selector: valid/invalid (46) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image052.png"
+<img src="/images/image052.webp"
   width="65%"
   alt="." />
 </p>
@@ -1848,7 +1848,7 @@ invalid.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. if invalid, border red (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image053.png"
+<img src="/images/image053.webp"
   width="65%"
   alt="Border red if data blank or invalid." />
 </p>
@@ -1868,7 +1868,7 @@ data.
 <!--~~~~~~~~~~~~~~ 54. if invalid by user entry only, then make border red (47) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image054.png"
+<img src="/images/image054.webp"
   width="65%"
   alt="Only display red bordered if user entry is invalid." />
 </p>
@@ -1902,7 +1902,7 @@ course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 55. lab: creating an html document (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image055.png"
+<img src="/images/image055.webp"
   width="30%"
   alt="Lab containing instructions explaining the coding tasks." />
 </p>
@@ -1915,7 +1915,7 @@ The Labs contain instructions explaining the coding task.
 <!--~~~~~~~~~~~~~~~~~~ 56. lab instructions: creating an html document (48) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image056.png"
+<img src="/images/image056.webp"
   width="50%"
   alt="Lab Instructions: Creating an HTML document." />
 </p>
@@ -1928,7 +1928,7 @@ code!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. files for lab (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image057.png"
+<img src="/images/image057.webp"
   width="50%"
   alt="Files for lab on the left of screen.  Editor on the right." />
 </p>
@@ -1940,7 +1940,7 @@ sidebar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. list of files for lab (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image058.png"
+<img src="/images/image058.webp"
   width="50%"
   alt="List of files for lab and editor." />
 </p>
@@ -1951,7 +1951,7 @@ And the large editor area where you write your code for the lab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. editor section of lab (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image059.png"
+<img src="/images/image059.webp"
   width="50%"
   alt="Editor screen for lab." />
 </p>
@@ -1985,7 +1985,7 @@ toolbar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. visual studio sample screen (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image060.png"
+<img src="/images/image060.webp"
   width="50%"
   alt="Example Visual Studio screen." />
 </p>
@@ -2005,7 +2005,7 @@ device</b>
 <!--~~~~~~~~~~~~~~~~~~~ 61. uploading files for visual studio code lab (51) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image061.png"
+<img src="/images/image061.webp"
   width="50%"
   alt="How to upload local files to your visual studio code lab." />
 </p>
@@ -2020,7 +2020,7 @@ device into the Visual Studio Code file tree.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 62. another example visual studio screen (52) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image062.png"
+<img src="/images/image062.webp"
   width="50%"
   alt="Example Visual Studio screen." />
 </p>
@@ -2050,11 +2050,11 @@ For example for index.html, this could be renamed to *\`index
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. fresh lab fils (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image063.png"
+<img src="/images/image063.webp"
   width="50%"
   alt="Fresh copy of files for lab." />
 </p>
-<!-- ![](images/image063.png){width="5.0in" height="3.5083333333333333in"} -->
+<!-- ![](images/image063.webp){width="5.0in" height="3.5083333333333333in"} -->
 
 3.  You should now see a fresh copy of the original instructor-provided
     files in your lab, in addition to your own (renamed) files.
@@ -2111,11 +2111,11 @@ table booking system to their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. html form - book a table (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image064.png"
+<img src="/images/image064.webp"
   width="30%"
   alt="HTML form - book a table." />
 </p>
-<!-- ![](images/image064.png){width="3.0in" height="1.6472222222222221in"} -->
+<!-- ![](images/image064.webp){width="3.0in" height="1.6472222222222221in"} -->
 
 By now, you should know that a HTML form will be an ideal solution for
 that.
@@ -2140,11 +2140,11 @@ Now, let&apos;s explore how to set up a HTML form with radio buttons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 65. booking.html with form element (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image065.png"
+<img src="/images/image065.webp"
   width="50%"
   alt="booking.html with form element - book a table." />
 </p>
-<!-- ![](images/image065.png){width="5.0in" height="3.546474190726159in"} -->
+<!-- ![](images/image065.webp){width="5.0in" height="3.546474190726159in"} -->
 
 I&apos;ve opened Visual Studio Code and added a new file called booking.html.
 
@@ -2223,11 +2223,11 @@ Again, I set the name attribute to location.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. book a table form (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image066.png"
+<img src="/images/image066.webp"
   width="50%"
   alt="Book a table form." />
 </p>
-<!-- ![](images/image066.png){width="5.0in" height="2.6196576990376204in"} -->
+<!-- ![](images/image066.webp){width="5.0in" height="2.6196576990376204in"} -->
 
 I save the file and open it in Live Preview. Success.
 
@@ -2237,11 +2237,11 @@ The form is set up correctly. Let&apos;s test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. form snapshot and cocde (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image067.png"
+<img src="/images/image067.webp"
   width="50%"
   alt="Book a table form snapshot and code." />
 </p>
-<!-- ![](images/image067.png){width="5.0in" height="2.6196576990376204in"} -->
+<!-- ![](images/image067.webp){width="5.0in" height="2.6196576990376204in"} -->
 
 If I choose an option for the table size and then choose a different
 option, my previous choice is deselected.
@@ -2258,11 +2258,11 @@ the user to accurately select the small button elements.
 <!--~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image068.png"
+<img src="/images/image068.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image068.png){width="6.0in" height="3.223718285214348in"} -->
+<!-- ![](images/image068.webp){width="6.0in" height="3.223718285214348in"} -->
 
 Luckily, there is a way to improve this by setting the text and button
 as the input area.
@@ -2440,11 +2440,11 @@ the web browser.
 <!--~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image069.png"
+<img src="/images/image069.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image069.png){width="3.0in" height="1.6926279527559056in"} -->
+<!-- ![](images/image069.webp){width="3.0in" height="1.6926279527559056in"} -->
 
 By now, you know that the web browser communicates with a web server using
 a HTTP request response cycle.
@@ -2462,11 +2462,11 @@ But it is also possible to send data as part of a request.
 <!--~~~~~~~~~~~~~~~~~~~~~ 70. how forms send data to the web server (61) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image070.png"
+<img src="/images/image070.webp"
   width="35%"
   alt="How forms send data to the web server." />
 </p>
-<!-- ![](images/image070.png){width="3.5in" height="1.9747331583552057in"} -->
+<!-- ![](images/image070.webp){width="3.5in" height="1.9747331583552057in"} -->
 
 This is how forms send data to the web server.
 
@@ -2487,11 +2487,11 @@ It also has a login button that submits the form to the web server.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. get and post request (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image071.png"
+<img src="/images/image071.webp"
   width="50%"
   alt="Get and Post." />
 </p>
-<!-- ![](images/image071.png){width="5.0in" height="2.821046587926509in"} -->
+<!-- ![](images/image071.webp){width="5.0in" height="2.821046587926509in"} -->
 
 How would it work if the method attribute is set to GET?
 
@@ -2499,11 +2499,11 @@ How would it work if the method attribute is set to GET?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. method attribute set to get (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image072.png"
+<img src="/images/image072.webp"
   width="50%"
   alt="Method Attribute set to Get." />
 </p>
-<!-- ![](images/image072.png){width="5.0in" height="1.626068460192476in"} -->
+<!-- ![](images/image072.webp){width="5.0in" height="1.626068460192476in"} -->
 
 When the Login button is clicked, the form data is sent as part of the
 request URL.
@@ -2514,11 +2514,11 @@ web browser navigation bar.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. form data http get request (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image073.png"
+<img src="/images/image073.webp"
   width="50%"
   alt="Input type of text and email with css." />
 </p>
-<!-- ![](images/image073.png){width="5.0in" height="2.173611111111111in"} -->
+<!-- ![](images/image073.webp){width="5.0in" height="2.173611111111111in"} -->
 
 The web server receives the HTTP GET request, and extracts the form data
 from the URL.
@@ -2556,11 +2556,11 @@ attribute to post.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. form data method attribute post (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image074.png"
+<img src="/images/image074.webp"
   width="50%"
   alt="Form Data Method Attribute Post." />
 </p>
-<!-- ![](images/image074.png){width="5.0in" height="2.173611111111111in"} -->
+<!-- ![](images/image074.webp){width="5.0in" height="2.173611111111111in"} -->
 
 When the form is submitted using the post method, the form data is
 inserted into the content of the HTTP request.
@@ -2703,11 +2703,11 @@ First, let&apos;s focus on the most common form element, the input elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 75. input type text value "username" (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image075.png"
+<img src="/images/image075.webp"
   width="50%"
   alt="Input type of text value 'Username'" />
 </p>
-<!-- ![](images/image075.png){width="5.0in" height="2.58707239720035in"} -->
+<!-- ![](images/image075.webp){width="5.0in" height="2.58707239720035in"} -->
 
 The same input type HTML code displays differently in web browsers such
 as Firefox, Microsoft Edge, Chrome, and Safari.
@@ -2723,11 +2723,11 @@ border on regular corners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 76. input type checkbox (checked) (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image076.png"
+<img src="/images/image076.webp"
   width="50%"
   alt="Input type of checkbox (checked)." />
 </p>
-<!-- ![](images/image076.png){width="5.0in" height="2.58707239720035in"} -->
+<!-- ![](images/image076.webp){width="5.0in" height="2.58707239720035in"} -->
 
 Next, let&apos;s explore the checkbox input type.
 
@@ -2751,11 +2751,11 @@ solve this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 77. input type text and email with css (68) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image077.png"
+<img src="/images/image077.webp"
   width="50%"
   alt="Input type of text and email with css." />
 </p>
-<!-- ![](images/image077.png){width="5.0in" height="2.58707239720035in"} -->
+<!-- ![](images/image077.webp){width="5.0in" height="2.58707239720035in"} -->
 
 As you know, CSS allows you to define the visual styling of HTML
 elements.
@@ -2777,11 +2777,11 @@ and then type equals in this case text or email.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 78. type text and email with css, cont'd (69) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image078.png"
+<img src="/images/image078.webp"
   width="50%"
   alt="Input type of text and email with css." />
 </p>
-<!-- ![](images/image078.png){width="5.0in" height="2.58707239720035in"} -->
+<!-- ![](images/image078.webp){width="5.0in" height="2.58707239720035in"} -->
 
 Then apply CSS properties to set the font, width, height, and border.
 
@@ -2834,11 +2834,11 @@ appearance of the element. For example, this code:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 79. login form username and password (70) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image079.png"
+<img src="/images/image079.webp"
   width="20%"
   alt="Two input fields, text and password, as it displays in the browser." />
 </p>
-<!-- !(images/image079.png){width="2.0in" height="1.397195975503062in"} -->
+<!-- !(images/image079.webp){width="2.0in" height="1.397195975503062in"} -->
 
 Note how the type <b>password</b> hides the user input.
 
@@ -2960,11 +2960,11 @@ input other than the listed options.
 <!--~~~~~~~~~~~~~~~~~ 80. list of pre-defined options for an input field (72) ~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image080.png"
+<img src="/images/image080.webp"
   width="20%"
   alt="Datalist input type with its drop-down list containing the options visible." />
 </p>
-<!-- !(images/image080.png){width="2.0in" height="2.150837707786527in"} -->
+<!-- !(images/image080.webp){width="2.0in" height="2.150837707786527in"} -->
 
 <h4>&lt;output&gt;</h4>
 
@@ -2990,11 +2990,11 @@ below the code block.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. drop-down list (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image081.png"
+<img src="/images/image081.webp"
   width="20%"
   alt="Option input type as with its drop-down list (visible)." />
 </p>
-<!-- !(images/image081.png){width="2.0in" height="1.5905511811023623in"} -->
+<!-- !(images/image081.webp){width="2.0in" height="1.5905511811023623in"} -->
 
 By default, the first item in the drop-down list is selected. To define
 a pre-selected option, add the selected attribute to the option.
@@ -3100,11 +3100,11 @@ embedded players.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. sample about.html (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image082.png"
+<img src="/images/image082.webp"
   width="60%"
   alt="about.html sample code." />
 </p>
-<!-- ![](images/image082.png){width="6.0in" height="3.187179571303587in"} -->
+<!-- ![](images/image082.webp){width="6.0in" height="3.187179571303587in"} -->
 
 Set up basic html document structure in a file named about.html.  Start off 
 by adding the heading tag containing the text about.  Then add a paragraph element 
@@ -3126,11 +3126,11 @@ opened the web page in your browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. audio in about.html (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image083.png"
+<img src="/images/image083.webp"
   width="60%"
   alt="Add audio to about.html sample screen." />
 </p>
-<!-- ![](images/image083.png){width="6.0in" height="3.1173075240594925in"} -->
+<!-- ![](images/image083.webp){width="6.0in" height="3.1173075240594925in"} -->
 
 You can see that the audio is loading and is displayed in the browser using the 
 browsers built in audio player.  Pressing the play button starts the audio, and 
@@ -3141,11 +3141,11 @@ Now add the video:
 <!--~~~~~~~~~~~~~~~~~~ 84. audio element added before paragraph element (76) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image084.png"
+<img src="/images/image084.webp"
   width="60%"
   alt="Add audio element before the paragraph element." />
 </p>
-<!-- ![](images/image084.png){width="6.0in" height="3.1173075240594925in"} -->
+<!-- ![](images/image084.webp){width="6.0in" height="3.1173075240594925in"} -->
 
 Next, add the video element before the paragraph element.  Inside the video element, add the 
 source element and set the src attribute to video.mp4.  Then set the type attribute to 
@@ -3159,11 +3159,11 @@ controls attribute to the video element.
 <!--~~~~~~~~~~~~~~~~~~ 85. video control attributes added to about.html (77) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image085.png"
+<img src="/images/image085.webp"
   width="60%"
   alt="Video control attributes added to about.html." />
 </p>
-<!-- ![](images/image085.png){width="6.0in" height="3.3833333333333333in"} -->
+<!-- ![](images/image085.webp){width="6.0in" height="3.3833333333333333in"} -->
 
 Save the file again and open the page in your browser.
 
@@ -3178,11 +3178,11 @@ video element.
 <!--~~~~~~~~~~~~~~~~~~~~~ 86. add muted attribute to video element (78) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image086.png"
+<img src="/images/image086.webp"
   width="60%"
   alt="Add muted attribute to video element." />
 </p>
-<!-- ![](images/image086.png){width="6.0in" height="3.3833333333333333in"} -->
+<!-- ![](images/image086.webp){width="6.0in" height="3.3833333333333333in"} -->
 
 Save the file again and opened the page.  And everything is working as expected.
 
@@ -3203,26 +3203,26 @@ used to add an image to a web page. The image's address is specified
 using the src attribute. 
 
 For example, if you wanted to embed an image
-file named photo.png, you can do that with the following HTML. <b>&lt;img
-src=&quot;photo.png&quot;&gt;</b> You can also specify the width and height of the
+file named photo, you can do that with the following HTML. <b>&lt;img
+src=&quot;photo&quot;&gt;</b> You can also specify the width and height of the
 image using the width and height attributes. 
 
 For example, if the width of the photo is 640 pixels and the height of the photo is 480 pixels,
-you can use the following HTML. <b>&lt;img src=&quot;photo.png&quot; width=&quot;640&quot;
+you can use the following HTML. <b>&lt;img src=&quot;photo&quot; width=&quot;640&quot;
 height=&quot;480&quot;&gt;</b> It is important to note that you can set the image to
 a larger or smaller size and the web browser will automatically scale
 the image.
 
 For example, you can update the previous HTML to half the
 width and height and the image would shrink by 50%. <b>&lt;img
-src=&quot;photo.png&quot; width=&quot;320&quot; height=&quot;240&quot;&gt;</b> One useful feature of
+src=&quot;photo&quot; width=&quot;320&quot; height=&quot;240&quot;&gt;</b> One useful feature of
 rendering images in the web browser is that the web browser can
 automatically keep the correct ratio of width to height. 
 
 So for example,
 if you want to scale the image by 50%, you can simply set the width
 attribute and the web browser will automatically calculate the height.
-<b>&lt;img src=&quot;photo.png&quot; width=&quot;320&quot;&gt;</b> 
+<b>&lt;img src=&quot;photo&quot; width=&quot;320&quot;&gt;</b> 
 
 But what happens if the photo doesn't load? Perhaps the file was accidentally 
 deleted, or you mistyped the file name. Luckily, the web browser has a way to display
@@ -3230,7 +3230,7 @@ some text when the image fails to load. This is done using the alt
 attribute. 
 
 For example, you can display the text My Profile Photo using
-the alt attribute in the previous HTML. <b>&lt;img src=&quot;photo.png&quot;
+the alt attribute in the previous HTML. <b>&lt;img src=&quot;photo&quot;
 width=&quot;320&quot; alt=&quot;My Profile Photo&quot;&gt;</b> It is important to ensure
 that screen reader accessibility software can interpret images displayed
 in the web browser. 
@@ -3242,7 +3242,7 @@ and the <b>&lt;figcaption&gt;</b> is specified after it.
 
 ```
   <figure> 
-    <img src="[photo.png]{.underline}" width="320" alt="My Profile Photo"> 
+    <img src="[photo]{.underline}" width="320" alt="My Profile Photo"> 
     <figcaption>A photo of myself on a beach in 2015</figcaption>
   </figure>
 ```
@@ -3255,7 +3255,7 @@ only supports specific file types. These file types are:</p>
   <li>.AVIF -- AV1 Image Format<br><br></li>
   <li>.GIF -- Graphics Interchange Format<br><br></li>
   <li>.JPEG / .JPG -- Joint Photographic Expert Group image format<br><br></li>
-  <li>.PNG -- Portable Network Graphics<br><br></li>
+  <li> -- Portable Network Graphics<br><br></li>
   <li>.SVG -- Scalable Vector Graphics<br><br></li>
   <li>.WEBP -- Web Picture Format<br<<br></li>
 </ul>
@@ -3492,11 +3492,11 @@ I&apos;ve opened the index.html in Visual Studio Code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87. add iframe element (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image087.png"
+<img src="/images/image087.webp"
   width="60%"
   alt="Add iFrame element." />
 </p>
-<!-- ![](images/image087.png){width="6.0in" height="3.364102143482065in"} -->
+<!-- ![](images/image087.webp){width="6.0in" height="3.364102143482065in"} -->
 
 First, I add the iFrame element.
 
@@ -3505,7 +3505,7 @@ The other restaurant didn&apos;t provide the URL for the promotional image.
 For now, I&apos;ll embed a placeholder image that they did provide.
 
 To do this, I add an SRC attribute to the iFrame element and set its
-value to placeholder.png.
+value to placeholder.
 
 The image will always be 320 pixels by 128 pixels in size.
 
@@ -3533,11 +3533,11 @@ embedding content from another website.
 <!--~~~~~~~~~~~~~~~~ 88. sandbox and limit capabilities of iframe element (86) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image088.png"
+<img src="/images/image088.webp"
   width="65%"
   alt="Sandbox and limit capabilities of iFrame element." />
 </p>
-<!-- ![](images/image088.png){width="6.5in" height="0.6861111111111111in"} -->
+<!-- ![](images/image088.webp){width="6.5in" height="0.6861111111111111in"} -->
 
 To address these concerns, I&apos;ve decided to sandbox and limit the
 capabilities of the iFrame element.
@@ -3589,11 +3589,11 @@ implement the same code on their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. add security features (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image089.png"
+<img src="/images/image089.webp"
   width="50%"
   alt="Add security features." />
 </p>
-<!-- ![](images/image089.png){width="5.0in" height="2.0747867454068243in"} -->
+<!-- ![](images/image089.webp){width="5.0in" height="2.0747867454068243in"} -->
 
 Hopefully this will lead to a lot more business for both restaurants.
 
@@ -3656,11 +3656,11 @@ Let&apos;s examine how to animate some simple graphics.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. how to animate simple graphics (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image090.png"
+<img src="/images/image090.webp"
   width="50%"
   alt="How to animate some simple graphics." />
 </p>
-<!-- ![](images/image090.png){width="5.0in" height="2.2067311898512685in"} -->
+<!-- ![](images/image090.webp){width="5.0in" height="2.2067311898512685in"} -->
 
 <h4>Using the 2D canvas</h4>
 
@@ -3675,11 +3675,11 @@ I have set its with attribute to 640 its height attribute to 480.
 <!--~~~~~~~~~~~~~~~~~~~~~ 91. set id attribute to underscore canvas (89) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image091.png"
+<img src="/images/image091.webp"
   width="50%"
   alt="Set ID attribute to underscore canvas." />
 </p>
-<!-- ![](images/image091.png){width="5.0in" height="2.7243591426071743in"} -->
+<!-- ![](images/image091.webp){width="5.0in" height="2.7243591426071743in"} -->
 
 I have also set its ID attribute to my underscore canvas so that I can
 access the element in my javascript code after the canvas element I have
@@ -3693,11 +3693,11 @@ The result is stored in a variable named canvas.
 <!--~~~~~~~~~~~~~~~~ 92. look up the two d canvas context, pass in parm d (89) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image092.png"
+<img src="/images/image092.webp"
   width="50%"
   alt="Look up the two D canvas context using canvas dot get context and pass in parm to D." />
 </p>
-<!-- [](images/image092.png){width="5.0in" height="2.2441240157480316in"} -->
+<!-- [](images/image092.webp){width="5.0in" height="2.2441240157480316in"} -->
 
 Next, I look up the two D canvas context using canvas dot get context
 and pass in the parameter to D.
@@ -3719,11 +3719,11 @@ path, context dot arc and context dot fill functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. define function draw ball  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image093.png"
+<img src="/images/image093.webp"
   width="50%"
   alt="Define animated functions: move and draw ball." />
 </p>
-<!-- ![](images/image093.png){width="5.0in" height="1.0293799212598425in"} -->
+<!-- ![](images/image093.webp){width="5.0in" height="1.0293799212598425in"} -->
 
 Finally, I define an animate function which calls the move ball and draw
 ball functions after doing this, it then calls window dot request
@@ -3969,11 +3969,11 @@ container and items present inside it. 
 <!--~~~~~~~~~~~~~~~~~~~ 94. diagram of a flexbox and all its properties (95) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image094.png"
+<img src="/images/image094.webp"
   width="50%"
   alt="Diagram of a flexbox and all its properties." />
 </p>
-<!-- !(images/image094.png){width="5.0in" height="2.00704615048119in"} -->
+<!-- !(images/image094.webp){width="5.0in" height="2.00704615048119in"} -->
 
 Image source:
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology>
@@ -4015,11 +4015,11 @@ to configure a flexbox.
 <!--~~~~~~~~~~~~~~~~~~ 95. css code with listed number boxes one..seven (96) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image095.png"
+<img src="/images/image095.webp"
   width="32%"
   alt="Output for CSS code with listed number boxes." />
 </p>
-<!-- !(images/image095.png){width="3.2604166666666665in" height="3.6145833333333335in"} -->
+<!-- !(images/image095.webp){width="3.2604166666666665in" height="3.6145833333333335in"} -->
 
 There are seven div containers inside the HTML file.
 
@@ -4045,11 +4045,11 @@ starting in the top left corner.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. css aligned number boxes (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image096.png"
+<img src="/images/image096.webp"
   width="54%"
   alt="Output for CSS code with aligned number boxes." />
 </p>
-<!-- !(images/image096.png){width="5.395833333333333in" height="1.8125in"} -->
+<!-- !(images/image096.webp){width="5.395833333333333in" height="1.8125in"} -->
 
 <h4>Alignment properties</h4>
 
@@ -4087,11 +4087,11 @@ Let's first examine the use of justify-content which has a value of
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. css code output centered (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image097.png"
+<img src="/images/image097.webp"
   width="62%"
   alt="Output for CSS code with justification in the center." />
 </p>
-<!-- !(images/image097.png){width="6.208333333333333in" height="0.875in"} -->
+<!-- !(images/image097.webp){width="6.208333333333333in" height="0.875in"} -->
 
 <h4>flex-wrap:</h4>
 
@@ -4111,11 +4111,11 @@ span the entire width of the axis.
 <!--~~~~~~~~~~~~~~~~~~~ 98. css code with wrapped number boxes centered (98) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image098.png"
+<img src="/images/image098.webp"
   width="29%"
   alt="Output for CSS code with wrapped number boxes, justified in the center." />
 </p>
-<!-- !(images/image098.png) {width="2.9166666666666665in" height="2.03125in"} -->
+<!-- !(images/image098.webp) {width="2.9166666666666665in" height="2.03125in"} -->
 
 The items will now be wrapped to the size of the available viewport.
 
@@ -4141,11 +4141,11 @@ rows to vertical columns.
 <!--~~~~~~~~~~~~~~~~~~~~ 99. display of listed number boxes as a flex (99) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image099.png"
+<img src="/images/image099.webp"
   width="34%"
   alt="Display of listed number boxes as a flex." />
 </p>
-<!-- !(images/image099.png){width="3.4479166666666665in" height="3.6770833333333335in"} -->
+<!-- !(images/image099.webp){width="3.4479166666666665in" height="3.6770833333333335in"} -->
 
 The output looks like the original output; however, it is now actually a
 flex.
@@ -4175,11 +4175,11 @@ Let's change the value for it to 'flex-end'.
 <!--~~~~~~~~~~~~ 100. right-centered number boxes with flex end align method (100) ~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image100.png"
+<img src="/images/image100.webp"
   width="25%"
   alt="Right-centered number boxes with the flex and aligning method." />
 </p>
-<!-- (images/image100.png){width="2.5729166666666665in" height="3.71875in"} -->
+<!-- (images/image100.webp){width="2.5729166666666665in" height="3.71875in"} -->
 
 The term 'end' refers to the right side of the page as the left side is
 seen as the beginning.
@@ -4207,11 +4207,11 @@ This property can be used on individual items inside the flex.
 <!--~~~~~~~~~~~~~~~~ 101. display change in color and alignment third box (101) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image101.png"
+<img src="/images/image101.webp"
   width="25%"
   alt="Output to display a change in color and alignment of individual items, third box in this case." />
 </p>
-<!-- (images/image101.png){width="2.9166666666666665in" height="3.7604166666666665in"} -->
+<!-- (images/image101.webp){width="2.9166666666666665in" height="3.7604166666666665in"} -->
 
 Here the color and alignment of the third box have been changed and it
 overrides the properties set using align-items.  
@@ -4245,11 +4245,11 @@ columns using row-gap and column-gap properties.
 <!--~~~~~~~~~~~~~~ 102. display of items with different spacing, vertically (102) ~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image102.png"
+<img src="/images/image102.webp"
   width="28%"
   alt="Display of items with different spacing vertically." />
 </p>
-<!-- (images/image102.png){width="2.8645833333333335in" height="3.34375in"} -->
+<!-- (images/image102.webp){width="2.8645833333333335in" height="3.34375in"} -->
 
 There is a clear change in spacing between the items.
 
@@ -4288,11 +4288,11 @@ horizontal best-distributed between two rows.
 <!--~~~~~~~ 103. list of items as default raw modified by removing flex directions (103) ~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image103.png"
+<img src="/images/image103.webp"
   width="25%"
   alt="List of items as default raw modified by removing the flex direction." />
 </p>
-<!-- !(images/image103.png){width="4.625in" height="1.5416666666666667in"} -->
+<!-- !(images/image103.webp){width="4.625in" height="1.5416666666666667in"} -->
 
 The rest of the remaining code is unchanged. However, the output will
 change if the code is modified with the addition of the flex property
@@ -4313,11 +4313,11 @@ inside the flex item box3 class.
 <!--~~~~~~~~ 104. third box takes up entire free space after flex-growth set to 1 (103) ~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image104.png"
+<img src="/images/image104.webp"
   width="47%"
   alt="Different spacing of items in row display." />
 </p>
-<!-- (images/image104.png){width="4.697916666666667in" height="1.84375in"} -->
+<!-- (images/image104.webp){width="4.697916666666667in" height="1.84375in"} -->
 
 The third box now takes up the entire free space available because
 flex-growth's value has been set to 1. So if we have <b>flex-grow</b> set
@@ -4435,11 +4435,11 @@ Let&apos;s explore the three most common uses of flexbox is in CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 105. search bar application in flexbox (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image105.png"
+<img src="/images/image105.webp"
   width="30%"
   alt="Flex box search bar application." />
 </p>
-<!-- ![](images/image105.png){width="3.0in" height="0.5715277777777777in"} -->
+<!-- ![](images/image105.webp){width="3.0in" height="0.5715277777777777in"} -->
 
 The first application of flexbox that you will cover that is commonly used
 is a search bar.
@@ -4452,11 +4452,11 @@ button.
 <!--~~~~~~~~~~~~~~~~~~~~~ 106. home, culinary blog, menu, contact us (106) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image106.png"
+<img src="/images/image106.webp"
   width="65%"
   alt="Navigation bar using flex with home, blog, menu and contact us." />
 </p>
-<!-- ![](images/image106.png){width="6.5in" height="0.7138888888888889in"} -->
+<!-- ![](images/image106.webp){width="6.5in" height="0.7138888888888889in"} -->
 
 Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
@@ -4465,11 +4465,11 @@ responsive on different devices.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. flex box image gallery (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image107.png"
+<img src="/images/image107.webp"
   width="20%"
   alt="Flex box image gallery example." />
 </p>
-<!-- ![](images/image107.png){width="2.0in" height="1.6397517497812772in"} -->
+<!-- ![](images/image107.webp){width="2.0in" height="1.6397517497812772in"} -->
 
 Finally, another type of flexbox that is commonly used is an image gallery.
 
@@ -4481,11 +4481,11 @@ these flexboxes to ensure a simple layout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. first example flexbox file (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image108.png"
+<img src="/images/image108.webp"
   width="65%"
   alt="First example flexbox file.  Create search bar, add reference to css in head." />
 </p>
-<!-- ![](images/image108.png){width="6.5in" height="3.2194444444444446in"} -->
+<!-- ![](images/image108.webp){width="6.5in" height="3.2194444444444446in"} -->
 
 In the first example of a flexbox file, I will create a search bar, I
 add a reference to the CSS file in the head section of the HTML page.
@@ -4499,11 +4499,11 @@ box where I typed my search, and finally the Submit button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. flexbox search style rules (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image109.png"
+<img src="/images/image109.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image109.png){width="3.1875in" height="4.958333333333333in"} -->
+<!-- ![](images/image109.webp){width="3.1875in" height="4.958333333333333in"} -->
 
 In the CSS code, I first write rules for the container, then for the search
 icon, the search box, and finally for the button.
@@ -4544,22 +4544,22 @@ menus.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. unordered list with four items (109) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image110.png"
+<img src="/images/image110.webp"
   width="34%"
   alt="Unordered list with four items in a container class." />
 </p>
-<!-- ![](images/image110.png){width="3.4166666666666665in" height="1.5345330271216098in"} -->
+<!-- ![](images/image110.webp){width="3.4166666666666665in" height="1.5345330271216098in"} -->
 
 In this case, I created an unordered list that consists of four items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 111. example start (*) universal selector (109) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image111.png"
+<img src="/images/image111.webp"
   width="30%"
   alt="Star (*) or universal selector applies rule to every element in CSS code." />
 </p>
-<!-- ![](images/image111.png){width="3.0729166666666665in" height="4.729166666666667in"} -->
+<!-- ![](images/image111.webp){width="3.0729166666666665in" height="4.729166666666667in"} -->
 
 Notice that in my CSS code I use something called a star or universal
 selector.
@@ -4596,11 +4596,11 @@ gallery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. gallery and six images (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image112.png"
+<img src="/images/image112.webp"
   width="30%"
   alt="Div element with class container with six images." />
 </p>
-<!-- ![](images/image112.png){width="6.5in" height="3.2416666666666667in"} -->
+<!-- ![](images/image112.webp){width="6.5in" height="3.2416666666666667in"} -->
 
 All the elements for the gallery are in the body of the HTML file.
 
@@ -4622,11 +4622,11 @@ Next, let&apos;s focus on the container.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. css container flex (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image113.png"
+<img src="/images/image113.webp"
   width="30%"
   alt="Container style." />
 </p>
-<!-- ![](images/image113.png){width="3.375in" height="4.052083333333333in"} -->
+<!-- ![](images/image113.webp){width="3.375in" height="4.052083333333333in"} -->
 
 First, I set the value of display to flex, then I add the flex-wrap property which determines whether the flex
 items should be forced in one line or should wrap over multiple lines.
@@ -4681,11 +4681,11 @@ turn has the following three sub properties.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 114. flex-grow, -shrink  and -basis (112) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image114.png"
+<img src="/images/image114.webp"
   width="30%"
   alt="flex-grow, flex-shrink and flex-basis." />
 </p>
-<!-- ![](images/image114.png){width="3.0in" height="0.25416666666666665in"} -->
+<!-- ![](images/image114.webp){width="3.0in" height="0.25416666666666665in"} -->
 
 Flex grow, which specifies how much the item will grow compared to other
 flexible items, flex shrink, which specifies how much the item will
@@ -4696,11 +4696,11 @@ And flex basis, which specifies the initial length of the flexible item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. flex property (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image115.png"
+<img src="/images/image115.webp"
   width="50%"
   alt="flex property." />
 </p>
-<!-- ![](images/image115.png){width="5.0in" height="0.9262828083989502in"} -->
+<!-- ![](images/image115.webp){width="5.0in" height="0.9262828083989502in"} -->
 
 Flex property can be declared with something called a shorthand notation
 such as flex 01 auto, where 01 and auto are the default values for the
@@ -4718,11 +4718,11 @@ I&apos;ve been asked to write code to make this possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. flexcharts.html (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image116.png"
+<img src="/images/image116.webp"
   width="50%"
   alt="flexcharts.html." />
 </p>
-<!-- ![](images/image116.png){width="5.125in" height="4.916666666666667in"} -->
+<!-- ![](images/image116.webp){width="5.125in" height="4.916666666666667in"} -->
 
 I&apos;ve set up my basic html document structure in a file named flex
 charts dot html.
@@ -4745,11 +4745,11 @@ and then I press enter.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. class container: dish (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image117.png"
+<img src="/images/image117.webp"
   width="65%"
   alt="Class container: class dish." />
 </p>
-<!-- ![](images/image117.png){width="6.5in" height="4.179861111111111in"} -->
+<!-- ![](images/image117.webp){width="6.5in" height="4.179861111111111in"} -->
 
 Inside the container I create a class called dish by typing dot dish and
 pressing enter as there are three dishes in the popular list, I copy and
@@ -4758,11 +4758,11 @@ paste this item twice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. class name for each dish (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image118.png"
+<img src="/images/image118.webp"
   width="65%"
   alt="Class name for each dish item." />
 </p>
-<!-- ![](images/image118.png){width="6.5in" height="4.179861111111111in"} -->
+<!-- ![](images/image118.webp){width="6.5in" height="4.179861111111111in"} -->
 
 To distinguish between the dishes, I add a class name for each of the
 items after the word dish I name item one pasta, item two, pizza and
@@ -4786,11 +4786,11 @@ of each item.
 <!--~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image119.png"
+<img src="/images/image119.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image119.png){width="6.5in" height="3.7784722222222222in"} -->
+<!-- ![](images/image119.webp){width="6.5in" height="3.7784722222222222in"} -->
 
 Now that my code is created, I move to CSS by clicking on the flex
 charts dot CSS file at the top of my screen and checking that it&apos;s
@@ -4846,11 +4846,11 @@ interpret.
 <!--~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image120.png"
+<img src="/images/image120.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image120.png){width="6.5in" height="3.7784722222222222in"} -->
+<!-- ![](images/image120.webp){width="6.5in" height="3.7784722222222222in"} -->
 
 I&apos;m going to add individual colors to the chart items at the bottom of
 my CSS file I press enter twice and type dot pasta.
@@ -4858,11 +4858,11 @@ my CSS file I press enter twice and type dot pasta.
 <!--~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image121.png"
+<img src="/images/image121.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image121.png){width="4.0in" height="1.0751706036745408in"} -->
+<!-- ![](images/image121.webp){width="4.0in" height="1.0751706036745408in"} -->
 
 I press enter and within this div class I add background color, followed
 by the hex code of the color I want to use in the next line.
@@ -4880,11 +4880,11 @@ page, the flex adjusts itself while the label remains unchanged.
 <!--~~~~~~~~~~~~~~~~~~~~~ 122.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image122.png"
+<img src="/images/image122.webp"
   width="63%"
   alt="." />
 </p>
-<!-- ![](images/image122.png){width="6.333333333333333in" height="5.041666666666667in"} -->
+<!-- ![](images/image122.webp){width="6.333333333333333in" height="5.041666666666667in"} -->
 
 The next example is very similar to the one I created for the earlier
 bar charts.
@@ -4897,11 +4897,11 @@ of them.
 <!--~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image123.png"
+<img src="/images/image123.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image123.png){width="3.0in" height="3.6488549868766404in"} -->
+<!-- ![](images/image123.webp){width="3.0in" height="3.6488549868766404in"} -->
 
 If you look at my CSS code, I follow the same order.
 
@@ -4922,11 +4922,11 @@ stacked on top of each other.
 <!--~~~~~~~~~~~~~~~~~~~~~ 124.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image124.png"
+<img src="/images/image124.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image124.png){width="4.09375in" height="3.0208333333333335in"} -->
+<!-- ![](images/image124.webp){width="4.09375in" height="3.0208333333333335in"} -->
 
 What alignment to use may or may not come intuitively, but if you look
 at a few more examples, it will start making sense.
@@ -4935,11 +4935,11 @@ at a few more examples, it will start making sense.
 <!--~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image125.png"
+<img src="/images/image125.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image125.png){width="6.5in" height="3.7527777777777778in"} -->
+<!-- ![](images/image125.webp){width="6.5in" height="3.7527777777777778in"} -->
 
 Like in this case the container contains male and female classes that
 need to be stacked on top of each other, which is why I have used flex
@@ -4973,11 +4973,11 @@ each other to form squares or rectangles.
 <!--~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image126.png"
+<img src="/images/image126.webp"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image126.png){width="5.0in" height="2.8867530621172355in"} -->
+<!-- ![](images/image126.webp){width="5.0in" height="2.8867530621172355in"} -->
 
 CSS Grids are two-dimensional design layouts that are responsive and
 compatible with browser variations.
@@ -4992,11 +4992,11 @@ your viewport.
 <!--~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image127.png"
+<img src="/images/image127.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image127.png){width="6.5in" height="3.6326388888888888in"} -->
+<!-- ![](images/image127.webp){width="6.5in" height="3.6326388888888888in"} -->
 
 Grids divide the page into rows and columns, and the space between these
 tracks are called gutters or gaps.
@@ -5005,11 +5005,11 @@ tracks are called gutters or gaps.
 <!--~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image128.png"
+<img src="/images/image128.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image128.png){width="6.5in" height="3.540277777777778in"} -->
+<!-- ![](images/image128.webp){width="6.5in" height="3.540277777777778in"} -->
 
 A cell is the space in a grid container where a row and column
 intersect.
@@ -5024,11 +5024,11 @@ to iteratively make changes to a grid.
 <!--~~~~~~~~~~~~~~~~~~~~~ 129.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image129.png"
+<img src="/images/image129.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image129.png){width="3.0in" height="3.720317147856518in"} -->
+<!-- ![](images/image129.webp){width="3.0in" height="3.720317147856518in"} -->
 
 First, let&apos;s create a HTML document called index.html.
 
@@ -5053,11 +5053,11 @@ actually one.
 <!--~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image130.png"
+<img src="/images/image130.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image130.png){width="3.0in" height="3.118733595800525in"} -->
+<!-- ![](images/image130.webp){width="3.0in" height="3.118733595800525in"} -->
 
 It&apos;s just the default settings of CSS for a layout.
 
@@ -5078,11 +5078,11 @@ It&apos;s usually a part of container elements inside our code.
 <!--~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image131.png"
+<img src="/images/image131.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image131.png){width="6.5in" height="3.886111111111111in"} -->
+<!-- ![](images/image131.webp){width="6.5in" height="3.886111111111111in"} -->
 
 The updated container now has the display property value set to grid and
 the property values configured for three columns and two rows.
@@ -5091,11 +5091,11 @@ the property values configured for three columns and two rows.
 <!--~~~~~~~~~~~~~~~~~~~~~ 132.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image132.png"
+<img src="/images/image132.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image132.png){width="6.5in" height="2.8604166666666666in"} -->
+<!-- ![](images/image132.webp){width="6.5in" height="2.8604166666666666in"} -->
 
 That&apos;s two changes from the previous configuration.
 
@@ -5108,11 +5108,11 @@ set the size of each of the three columns using pixel values.
 <!--~~~~~~~~~~~~~~~~~~~~~ 133.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image133.png"
+<img src="/images/image133.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image133.png){width="6.5in" height="2.736111111111111in"} -->
+<!-- ![](images/image133.webp){width="6.5in" height="2.736111111111111in"} -->
 
 The use of fr, which is an abbreviation for fraction, has been
 introduced.
@@ -5138,11 +5138,11 @@ interchangeably with both rows and columns.
 <!--~~~~~~~~~~~~~~~~~~~~~ 134.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image134.png"
+<img src="/images/image134.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image134.png){width="6.5in" height="2.7805555555555554in"} -->
+<!-- ![](images/image134.webp){width="6.5in" height="2.7805555555555554in"} -->
 
 Now to add a couple of properties such as grid gap or gutter and
 background color to define the grid, the updated view displays a red box
@@ -5160,11 +5160,11 @@ grid auto columns collectively called the implicit grid.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image135.png"
+<img src="/images/image135.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image135.png){width="6.5in" height="2.7805555555555554in"} -->
+<!-- ![](images/image135.webp){width="6.5in" height="2.7805555555555554in"} -->
 
 Let&apos;s replace the grid template rows property in the code with grid
 auto rows. All the rows are now auto-resized to 100 pixels.
@@ -5176,11 +5176,11 @@ layout easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image136.png"
+<img src="/images/image136.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image136.png){width="6.5in" height="2.7805555555555554in"} -->
+<!-- ![](images/image136.webp){width="6.5in" height="2.7805555555555554in"} -->
 
 First, the repeat function passes the number of repeats required for a
 given number of rows and columns.
@@ -5195,11 +5195,11 @@ of code modification.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image137.png"
+<img src="/images/image137.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image137.png){width="6.5in" height="2.7805555555555554in"} -->
+<!-- ![](images/image137.webp){width="6.5in" height="2.7805555555555554in"} -->
 
 Next, the min-max function sets the minimum and maximum values expected
 for the sizes of rows and columns.
@@ -5579,11 +5579,11 @@ Now I can start adding the different elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image140.png"
+<img src="/images/image140.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image140.png){width="3.0in" height="2.3651159230096237in"}  -->
+<!-- ![](images/image140.webp){width="3.0in" height="2.3651159230096237in"}  -->
 
 First is the restaurant&apos;s name, little lemon, which I put into the header.
 
@@ -5600,11 +5600,11 @@ First for the body, I need to use the display property to code the grid.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image141.png"
+<img src="/images/image141.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image141.png){width="3.0in" height="2.3651159230096237in"} -->
+<!-- ![](images/image141.webp){width="3.0in" height="2.3651159230096237in"} -->
 
 I define as high as 150 VH. One VH is equal to 1 percent of the viewport height.
 
@@ -5629,11 +5629,11 @@ It looks good.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image142.png"
+<img src="/images/image142.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image142.png){width="3.0in" height="2.9506944444444443in"} -->
+<!-- ![](images/image142.webp){width="3.0in" height="2.9506944444444443in"} -->
 
 I&apos;m going to do the same for the main and the footer elements.
 
@@ -5657,11 +5657,11 @@ point and the number of columns each element spans.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image143.png"
+<img src="/images/image143.webp"
   width="37%"
   alt="." />
 </p>
-<!-- ![](images/image143.png){width="3.75in" height="3.426025809273841in"} -->
+<!-- ![](images/image143.webp){width="3.75in" height="3.426025809273841in"} -->
 
 Don&apos;t worry, this will all become a lot clearer when I go through the following example.
 
@@ -5689,11 +5689,11 @@ fraction each.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image144.png"
+<img src="/images/image144.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image144.png){width="6.5in" height="3.0347222222222223in"} -->
+<!-- ![](images/image144.webp){width="6.5in" height="3.0347222222222223in"} -->
 
 Next, I define the properties of the segment.
 
@@ -5713,11 +5713,11 @@ background.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image145.png"
+<img src="/images/image145.webp"
   width="45%"
   alt="." />
 </p>
-<!-- ![](images/image145.png){width="4.46875in" height="4.40625in"} -->
+<!-- ![](images/image145.webp){width="4.46875in" height="4.40625in"} -->
 
 The next part is important.
 
@@ -5741,11 +5741,11 @@ span across eight columns.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image146.png"
+<img src="/images/image146.webp"
   width="45%"
   alt="." />
 </p>
-<!-- ![](images/image146.png){width="4.46875in" height="4.40625in"} -->
+<!-- ![](images/image146.webp){width="4.46875in" height="4.40625in"} -->
 
 Let&apos;s change the color here to bisque.
 
@@ -5757,11 +5757,11 @@ Let&apos;s add the other segments and then we&apos;ll examine the code again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image147.png"
+<img src="/images/image147.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image147.png){width="6.5in" height="4.1194444444444445in"} -->
+<!-- ![](images/image147.webp){width="6.5in" height="4.1194444444444445in"} -->
 
 Let&apos;s examine the output again.
 
@@ -5858,11 +5858,11 @@ conventionally. Let&apos;s examine an example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image148.png"
+<img src="/images/image148.webp"
   width="50%"
   alt="Grid-based output presenting header, navigation, main area, and footer." />
 </p>
-<!-- (images/image148.png){width="5.0in" height="2.7146172353455817in"} -->
+<!-- (images/image148.webp){width="5.0in" height="2.7146172353455817in"} -->
 
 Though there are five sets of rules, logically the CSS code is divided
 into two sections. The first is where you define the rules for the grid
@@ -6041,11 +6041,11 @@ already covered.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image149.png"
+<img src="/images/image149.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image149.png){width="3.0in" height="2.7163867016622922in"} -->
+<!-- ![](images/image149.webp){width="3.0in" height="2.7163867016622922in"} -->
 
 You learned about element or type selectors.
 
@@ -6055,11 +6055,11 @@ their element type.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image150.png"
+<img src="/images/image150.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image150.png){width="3.0in" height="2.7163867016622922in"} -->
+<!-- ![](images/image150.webp){width="3.0in" height="2.7163867016622922in"} -->
 
 You also get ID selectors,
 
@@ -6071,11 +6071,11 @@ select a specific element for styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image151.png"
+<img src="/images/image151.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image151.png){width="3.0in" height="2.7163867016622922in"} -->
+<!-- ![](images/image151.webp){width="3.0in" height="2.7163867016622922in"} -->
 
 You were introduced to class selectors. Class selectors allow you to select
 elements based on the class attribute applied to them.
@@ -6103,11 +6103,11 @@ Can you recall what attributes and value mean?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image152.png"
+<img src="/images/image152.webp"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image152.png){width="5.0in" height="2.6837609361329835in"} -->
+<!-- ![](images/image152.webp){width="5.0in" height="2.6837609361329835in"} -->
 
 A quick recap, let&apos;s say you have a html image tag, img is the name of
 the tag, while src and alt are the names of its attributes.
@@ -6117,11 +6117,11 @@ The actual name of the image file, first.jpeg is the value.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image153.png"
+<img src="/images/image153.webp"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image153.png){width="5.0in" height="2.662671697287839in"} -->
+<!-- ![](images/image153.webp){width="5.0in" height="2.662671697287839in"} -->
 
 Now let&apos;s explore an example of how attribute selectors can be used.
 
@@ -6137,11 +6137,11 @@ different attributes of the html.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image154.png"
+<img src="/images/image154.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image154.png){width="4.0in" height="3.123287401574803in"} -->
+<!-- ![](images/image154.webp){width="4.0in" height="3.123287401574803in"} -->
 
 For instance, you can style all elements that have a defined class by
 adding class inside the square brackets.
@@ -6151,11 +6151,11 @@ In this case, it will turn the second and third link green.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image155.png"
+<img src="/images/image155.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image155.png){width="4.0in" height="3.123287401574803in"} -->
+<!-- ![](images/image155.webp){width="4.0in" height="3.123287401574803in"} -->
 
 Alternatively, you can target all three elements by inserting the href
 attribute, a star and a common value that is part of all the links that
@@ -6169,11 +6169,11 @@ meta.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image156.png"
+<img src="/images/image156.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image156.png){width="4.0in" height="3.123287401574803in"} -->
+<!-- ![](images/image156.webp){width="4.0in" height="3.123287401574803in"} -->
 
 Or you can target only the first element by adding the specific link as
 the value of the href attribute, that you want to target inside the
@@ -6188,11 +6188,11 @@ move on to two other widely used selectors that you need to know about.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image157.png"
+<img src="/images/image157.webp"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image157.png){width="5.0in" height="1.9545942694663168in"} -->
+<!-- ![](images/image157.webp){width="5.0in" height="1.9545942694663168in"} -->
 
 Nth-of-type and nth-child selectors, the syntax of these two selectors
 is very similar.
@@ -6203,11 +6203,11 @@ of a specified parent element, but what does parent mean exactly?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image158.png"
+<img src="/images/image158.webp"
   width="65%"
   alt="." />
 </p>
-<!-- ![](images/image158.png){width="6.5in" height="4.215972222222222in"} -->
+<!-- ![](images/image158.webp){width="6.5in" height="4.215972222222222in"} -->
 
 Well, say you have a few list elements in an unordered list element.
 
@@ -6224,11 +6224,11 @@ colored aqua in this case.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image159.png"
+<img src="/images/image159.webp"
   width="25%"
   alt="." />
 </p>
-<!-- ![](images/image159.png){width="2.5in" height="2.4502843394575677in"} -->
+<!-- ![](images/image159.webp){width="2.5in" height="2.4502843394575677in"} -->
 
 Another commonly used selector is the star selector, just like in many
 other programming languages, star selectors are used for selecting all
@@ -6242,22 +6242,22 @@ styles that browsers use before they apply your styling to the web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image160.png"
+<img src="/images/image160.webp"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image160.png){width="5.0in" height="2.368589238845144in"} -->
+<!-- ![](images/image160.webp){width="5.0in" height="2.368589238845144in"} -->
 
 Finally, did you know that you can group selectors?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image161.png"
+<img src="/images/image161.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image161.png){width="4.0in" height="2.388888888888889in"} -->
+<!-- ![](images/image161.webp){width="4.0in" height="2.388888888888889in"} -->
 
 If you want to apply the same styling to more than one type of element,
 like the heading one and paragraph elements you can use group selectors.
@@ -6464,11 +6464,11 @@ apply rules to elements based on their relationship with one another.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image162.png"
+<img src="/images/image162.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image162.png){width="3.0in" height="3.145278871391076in"} -->
+<!-- ![](images/image162.webp){width="3.0in" height="3.145278871391076in"} -->
 
 4 main types of combination selectors. Descendant selectors, child
 selectors, general sibling selectors, and adjacent sibling selectors.
@@ -6491,11 +6491,11 @@ hair.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image163.png"
+<img src="/images/image163.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image163.png){width="3.0in" height="3.138888888888889in"} -->
+<!-- ![](images/image163.webp){width="3.0in" height="3.138888888888889in"} -->
 
 For example, you can have an HTML file with a div tag, and its ID
 attributes set to blog, inside the div tag are a few heading tags.
@@ -6506,11 +6506,11 @@ ID blog.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image164.png"
+<img src="/images/image164.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image164.png){width="6.0in" height="2.9967946194225723in"} -->
+<!-- ![](images/image164.webp){width="6.0in" height="2.9967946194225723in"} -->
 
 So, to make all the h1 descendants blue, you can add the ID selector
 hash #blog followed by the h1 selector with a space in between and then
@@ -6520,11 +6520,11 @@ the properties in curly brackets.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image165.png"
+<img src="/images/image165.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image165.png){width="6.0in" height="2.9967946194225723in"} -->
+<!-- ![](images/image165.webp){width="6.0in" height="2.9967946194225723in"} -->
 
 Child selectors on the other hand are more specific than descendant
 selectors.
@@ -6543,11 +6543,11 @@ with the blog id attribute.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image166.png"
+<img src="/images/image166.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image166.png){width="6.0in" height="2.9967946194225723in"} -->
+<!-- ![](images/image166.webp){width="6.0in" height="2.9967946194225723in"} -->
 
 Next, let&apos;s focus on general sibling selectors, which apply rules to
 all the selectors of the same type that follow the first type.
@@ -6575,11 +6575,11 @@ and then selects the next younger brothers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image167.png"
+<img src="/images/image167.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image167.png){width="6.0in" height="2.9967946194225723in"} -->
+<!-- ![](images/image167.webp){width="6.0in" height="2.9967946194225723in"} -->
 
 Finally, let&apos;s replace the tilde with a plus sign to update this
 selector to an adjacent sibling selector.
@@ -6618,11 +6618,11 @@ Now, let&apos;s inspect the CSS rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image168.png"
+<img src="/images/image168.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image168.png){width="6.0in" height="2.9967946194225723in"} -->
+<!-- ![](images/image168.webp){width="6.0in" height="2.9967946194225723in"} -->
 
 First, I set basic rules for the html body.
 
@@ -6654,11 +6654,11 @@ So what elements will be styled?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image169.png"
+<img src="/images/image169.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image169.png){width="6.0in" height="2.9967946194225723in"} -->
+<!-- ![](images/image169.webp){width="6.0in" height="2.9967946194225723in"} -->
 
 Remember, sibling selectors apply rules to all the selectors of the same
 type that follow the first type.
@@ -6675,11 +6675,11 @@ rules will affect the un ordered list that follows it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image170.png"
+<img src="/images/image170.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image170.png){width="6.0in" height="3.1955129046369204in"} -->
+<!-- ![](images/image170.webp){width="6.0in" height="3.1955129046369204in"} -->
 
 Let&apos;s inspect the output.
 
@@ -6697,11 +6697,11 @@ efficiently apply the same styling to several elements with one rule.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image171.png"
+<img src="/images/image171.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image171.png){width="6.0in" height="3.1955129046369204in"} -->
+<!-- ![](images/image171.webp){width="6.0in" height="3.1955129046369204in"} -->
 
 If there is another instance where an un ordered list follows a div tag
 on this page, it will also have a box shadow.
@@ -6712,11 +6712,11 @@ tag, the styling will not be applied to those elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image172.png"
+<img src="/images/image172.webp"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image172.png){width="6.0in" height="3.1955129046369204in"} -->
+<!-- ![](images/image172.webp){width="6.0in" height="3.1955129046369204in"} -->
 
 Next, I will demonstrate how to use the adjacent selector.
 
@@ -6746,11 +6746,11 @@ after the reference element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image173.png"
+<img src="/images/image173.webp"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image173.png){width="5.0in" height="2.66292760279965in"} -->
+<!-- ![](images/image173.webp){width="5.0in" height="2.66292760279965in"} -->
 
 Let&apos;s inspect the output and CSS code.
 
@@ -6809,11 +6809,11 @@ and so on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image174.png"
+<img src="/images/image174.webp"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image174.png){width="3.0in" height="2.3188779527559054in"} -->
+<!-- ![](images/image174.webp){width="3.0in" height="2.3188779527559054in"} -->
 
 Let&apos;s review the general syntax that you use for various
 pseudo-classes.
@@ -6829,11 +6829,11 @@ Let&apos;s explore a few of these general classifications.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image175.png"
+<img src="/images/image175.webp"
   width="15%"
   alt="." />
 </p>
-<!-- ![](images/image175.png){width="1.5in" height="2.45675634295713in"} -->
+<!-- ![](images/image175.webp){width="1.5in" height="2.45675634295713in"} -->
 
 The first group you need to know about is user action states, which
 include the hover pseudo-class, which changes the style of an element
@@ -6855,11 +6855,11 @@ element inside a div element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image176.png"
+<img src="/images/image176.webp"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image176.png){width="4.0in" height="1.9089741907261593in"} -->
+<!-- ![](images/image176.webp){width="4.0in" height="1.9089741907261593in"} -->
 
 The paragraph element has a class defined as &quot;mypage&quot; and the button
 class is defined as &quot;mybutton.&quot;
@@ -6867,11 +6867,11 @@ class is defined as &quot;mybutton.&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image177.png"
+<img src="/images/image177"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image177.png){width="4.0in" height="1.9089741907261593in"} -->
+<!-- ![](images/image177){width="4.0in" height="1.9089741907261593in"} -->
 
 Now, let&apos;s explore the CSS.
 
@@ -6884,11 +6884,11 @@ you use the hover pseudo-class to target a tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image178.png"
+<img src="/images/image178"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image178.png){width="4.0in" height="1.9089741907261593in"} -->
+<!-- ![](images/image178){width="4.0in" height="1.9089741907261593in"} -->
 
 To change the mybutton class, you use the active pseudo-class.
 
@@ -6904,11 +6904,11 @@ you can also use them to target HTML class attributes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image179.png"
+<img src="/images/image179"
   width="20%"
   alt="." />
 </p>
-<!-- ![](images/image179.png){width="2.0in" height="2.3480828958880138in"} -->
+<!-- ![](images/image179){width="2.0in" height="2.3480828958880138in"} -->
 
 Next, let&apos;s focus on Form states.
 
@@ -6929,11 +6929,11 @@ numbers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image180.png"
+<img src="/images/image180"
   width="20%"
   alt="." />
 </p>
-<!-- ![](images/image180.png){width="2.0in" height="2.3480828958880138in"} -->
+<!-- ![](images/image180){width="2.0in" height="2.3480828958880138in"} -->
 
 Another pseudo-class type that you should know about is specific
 position-based states.
@@ -7019,11 +7019,11 @@ line-height: 1; 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image181.png"
+<img src="/images/image181"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image181.png){width="4.0in" height="2.9822779965004376in"} -->
+<!-- ![](images/image181){width="4.0in" height="2.9822779965004376in"} -->
 
 Although the code only changed the first letter of each bullet point, it
 makes a big difference in terms of presentation. Now let's change the
@@ -7052,11 +7052,11 @@ li::first-line {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image182.png"
+<img src="/images/image182"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image182.png){width="4.0in" height="1.812587489063867in"} -->
+<!-- ![](images/image182){width="4.0in" height="1.812587489063867in"} -->
 
 Because it's only the first line of each bullet point, it almost
 functions like dividers between the three different points instead of
@@ -7071,11 +7071,11 @@ viewport.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image183.png"
+<img src="/images/image183"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image183.png){width="4.0in" height="3.24050634295713in"} -->
+<!-- ![](images/image183){width="4.0in" height="3.24050634295713in"} -->
 
 <h4>::selection</h4>
 
@@ -7106,11 +7106,11 @@ Here is an example of a selection of text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. selection example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image184.png"
+<img src="/images/image184"
   width="60%"
   alt="Output for selection of text display." />
 </p>
-<!-- !(images/image184.png){width="6.238194444444445in" height="3.838888888888889in"} -->
+<!-- !(images/image184){width="6.238194444444445in" height="3.838888888888889in"} -->
 
 And another example of the same text but with a different section
 selected and highlighted.
@@ -7120,11 +7120,11 @@ selected and highlighted.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image185.png"
+<img src="/images/image185"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image185.png){width="4.0in" height="2.4914523184601927in"} -->
+<!-- ![](images/image185){width="4.0in" height="2.4914523184601927in"} -->
 
 Different segments of the text are highlighted depending on the text
 that is selected at any given point.
@@ -7150,11 +7150,11 @@ li::marker {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. example marker (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image186.png"
+<img src="/images/image186"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image186.png){width="4.0in" height="2.205076552930884in"} -->
+<!-- ![](images/image186){width="4.0in" height="2.205076552930884in"} -->
 
 Now the bullet points are cornflower blue and they have the shape specified in the code.
 
@@ -7203,11 +7203,11 @@ important tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image187.png"
+<img src="/images/image187"
   width="40%"
   alt="Selection of texts preceding and following a statement." />
 </p>
-<!-- ![(images/image187.png){width="4.0in" height="1.3951760717410324in"} -->
+<!-- ![(images/image187){width="4.0in" height="1.3951760717410324in"} -->
 
 The "content" property is where the text for the guidelines goes. The
 word "tip" has been added before each guideline thanks to the rules
@@ -7238,11 +7238,11 @@ already opened.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image188.png"
+<img src="/images/image188"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image188.png){width="4.0in" height="1.481058617672791in"} -->
+<!-- ![](images/image188){width="4.0in" height="1.481058617672791in"} -->
 
 For instance, a HTML file can have two a tags, each with its own href
 that links to a different page of a website.
@@ -7250,11 +7250,11 @@ that links to a different page of a website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image189.png"
+<img src="/images/image189"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image189.png){width="4.0in" height="1.2613757655293087in"} -->
+<!-- ![](images/image189){width="4.0in" height="1.2613757655293087in"} -->
 
 To give the links their initial color, you can use the link pseudo-class
 selector, and to let the links change color, once a user has visited
@@ -7274,11 +7274,11 @@ need to follow when writing pseudo-class rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image190.png"
+<img src="/images/image190"
   width="18%"
   alt="." />
 </p>
-<!-- ![](images/image190.png){width="1.75in" height="2.192946194225722in"} -->
+<!-- ![](images/image190){width="1.75in" height="2.192946194225722in"} -->
 
 LVHA stands for link, visited, hover, active.
 
@@ -7295,11 +7295,11 @@ the hover pseudo-class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image191.png"
+<img src="/images/image191"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image191.png){width="6.0in" height="3.066666666666667in"} -->
+<!-- ![](images/image191){width="6.0in" height="3.066666666666667in"} -->
 
 In the pseudo_links.html file, I added three tags: a heading tag,
 followed by a paragraph tag, and another paragraph tag.
@@ -7310,11 +7310,11 @@ and the first paragraph tag has a link to their Instagram page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image192.png"
+<img src="/images/image192"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image192.png){width="3.0in" height="3.5801531058617675in"} -->
+<!-- ![](images/image192){width="3.0in" height="3.5801531058617675in"} -->
 
 Now I go to my CSS code by clicking on the pseudo_links.css file at the top
 of my screen.
@@ -7332,11 +7332,11 @@ CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image193.png"
+<img src="/images/image193"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image193.png){width="3.0in" height="3.09911854768154in"} -->
+<!-- ![](images/image193){width="3.0in" height="3.09911854768154in"} -->
 
 As expected, when I move the mouse over the link, the color changes to
 green because I added green as the value of the color attribute in the
@@ -7362,11 +7362,11 @@ To do this, I use the pseudoshadow.html file I created previously.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image194.png"
+<img src="/images/image194"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image194.png){width="6.0in" height="3.548570647419073in"} -->
+<!-- ![](images/image194){width="6.0in" height="3.548570647419073in"} -->
 
 In this file, I added four paragraph tags, each belonging to a class
 called textual.
@@ -7377,11 +7377,11 @@ as placeholder text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image195.png"
+<img src="/images/image195"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image195.png){width="3.0in" height="1.9930074365704287in"} -->
+<!-- ![](images/image195){width="3.0in" height="1.9930074365704287in"} -->
 
 The CSS code that I added is fairly simple.
 
@@ -7403,11 +7403,11 @@ the shadow is set to black.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image196.png"
+<img src="/images/image196"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image196.png){width="6.0in" height="3.038096019247594in"} -->
+<!-- ![](images/image196){width="6.0in" height="3.038096019247594in"} -->
 
 I moved back to my HTML file to output this code and click on the
 &quot;View&quot; icon.
@@ -7419,11 +7419,11 @@ The text looks like regular blocks of texts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image197.png"
+<img src="/images/image197"
   width="60%"
   alt="." />
 </p>
-<!-- ![](images/image197.png){width="6.0in" height="3.038096019247594in"} -->
+<!-- ![](images/image197){width="6.0in" height="3.038096019247594in"} -->
 
 But when I hover over a block of code with my mouse, it gets highlighted
 with a box-shadow around the edges.
@@ -7568,11 +7568,11 @@ was good enough to integrate it into online experiences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image198.png"
+<img src="/images/image198"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image198.png){width="5.0in" height="0.9904757217847769in"} -->
+<!-- ![](images/image198){width="5.0in" height="0.9904757217847769in"} -->
 
 The graphics interchange form or 'gifs' can arguably be labeled as the
 first attempt to bring effects to web pages.
@@ -7653,11 +7653,11 @@ visit the pros and cons of adding effects on web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image199.png"
+<img src="/images/image199"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image199.png){width="5.0in" height="1.5174606299212599in"} -->
+<!-- ![](images/image199){width="5.0in" height="1.5174606299212599in"} -->
 
 The primary driving factor of web pages these days is to attract the
 attention of user web pages that use animation and effects optimally
@@ -7680,11 +7680,11 @@ especially used to create intuitive navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image200.png"
+<img src="/images/image200"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image200.png){width="3.0in" height="3.1425339020122482in"} -->
+<!-- ![](images/image200){width="3.0in" height="3.1425339020122482in"} -->
 
 You should now understand what effects and animations are.
 
@@ -7713,11 +7713,11 @@ interesting effects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. text effects: pros and cons (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image201.png"
+<img src="/images/image201"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image201.png){width="5.0in" height="3.6455030621172355in"} -->
+<!-- ![](images/image201){width="5.0in" height="3.6455030621172355in"} -->
 
 First, I will explain how to use the text-overflow property that
 determines how overflowing content is displayed on your website.
@@ -7745,22 +7745,22 @@ ellipsis.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image202.png"
+<img src="/images/image202"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image202.png){width="4.0in" height="0.7689818460192476in"} -->
+<!-- ![](images/image202){width="4.0in" height="0.7689818460192476in"} -->
 
 An ellipsis is three dots that represent the texts that is clipped.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image203.png"
+<img src="/images/image203"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image203.png){width="4.0in" height="0.7689818460192476in"} -->
+<!-- ![](images/image203){width="4.0in" height="0.7689818460192476in"} -->
 
 If I hover over the overflowing text which is present inside, the hidden text
 is displayed.
@@ -7779,11 +7779,11 @@ If I hover over with the cursor, the clipped text is displayed.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image204.png"
+<img src="/images/image204"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image204.png){width="4.0in" height="4.245989720034996in"} -->
+<!-- ![](images/image204){width="4.0in" height="4.245989720034996in"} -->
 
 In the third example, I demonstrate how to create vertical text.
 
@@ -7798,11 +7798,11 @@ Then in the CSS code, I set the writing mode property to be vertical-rl.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image205.png"
+<img src="/images/image205"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image205.png){width="4.0in" height="4.162047244094488in"} -->
+<!-- ![](images/image205){width="4.0in" height="4.162047244094488in"} -->
 
 The next example demonstrates the word wrap property.
 
@@ -7822,11 +7822,11 @@ In the next two examples, I will add text effects using simple CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image206.png"
+<img src="/images/image206"
   width="20%"
   alt="." />
 </p>
-<!-- ![](images/image206.png){width="2.40625in" height="0.8229166666666666in"} -->
+<!-- ![](images/image206){width="2.40625in" height="0.8229166666666666in"} -->
 
 In this example, I use a property called text shadow, which has a shorthand with four values.
 
@@ -7840,11 +7840,11 @@ The third is the blur radius, and the fourth is the shadow color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image207.png"
+<img src="/images/image207"
   width="50%"
   alt="." />
 </p>
-<!-- ![](images/image207.png){width="5.0in" height="2.854640201224847in"} -->
+<!-- ![](images/image207){width="5.0in" height="2.854640201224847in"} -->
 
 This next example explores an extension of the same idea.
 
@@ -7856,11 +7856,11 @@ that class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image208.png"
+<img src="/images/image208"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image208.png){width="3.0in" height="1.78125in"} -->
+<!-- ![](images/image208){width="3.0in" height="1.78125in"} -->
 
 I can use the output to determine whether I need to adjust the color effects until
 I&apos;m happy with it.
@@ -7949,11 +7949,11 @@ properties.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image209.png"
+<img src="/images/image209"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image209.png){width="4.0in" height="1.5043383639545056in"} -->
+<!-- ![](images/image209){width="4.0in" height="1.5043383639545056in"} -->
 
 The Syntax of the transform and transition properties are similar.
 
@@ -7977,11 +7977,11 @@ Let&apos;s explore how these two properties work together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image210.png"
+<img src="/images/image210"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image210.png){width="3.0in" height="2.5833333333333335in"} -->
+<!-- ![](images/image210){width="3.0in" height="2.5833333333333335in"} -->
 
 For example, you can set up your H one elements to rotate zero degrees
 by default, but by using the hover pseudo class and the transform
@@ -7993,11 +7993,11 @@ Without a transition, the rotation will be instant.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image211.png"
+<img src="/images/image211"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image211.png){width="3.0in" height="2.308860454943132in"} -->
+<!-- ![](images/image211){width="3.0in" height="2.308860454943132in"} -->
 
 But by adding the transition property with the value transform to s the
 rotation will animate over two seconds.
@@ -8008,11 +8008,11 @@ properties, let&apos;s explore a practical example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image212.png"
+<img src="/images/image212"
   width="40%"
   alt="." />
 </p>
-<!-- ![](images/image212.png){width="4.0in" height="3.401709317585302in"} -->
+<!-- ![](images/image212){width="4.0in" height="3.401709317585302in"} -->
 
 I already set up an html file that contains a div tag with the class
 container and in it to other div tags.
@@ -8024,11 +8024,11 @@ The second contains the letter B with a class called B.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image213.png"
+<img src="/images/image213"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image213.png){width="3.0in" height="2.2823917322834646in"} -->
+<!-- ![](images/image213){width="3.0in" height="2.2823917322834646in"} -->
 
 Let&apos;s view the CSS file.
 
@@ -8044,11 +8044,11 @@ There are a number of key word and function values inside this property.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image214.png"
+<img src="/images/image214"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image214.png){width="3.0in" height="2.4924475065616796in"} -->
+<!-- ![](images/image214){width="3.0in" height="2.4924475065616796in"} -->
 
 I choose skew X from the suggestion list that appears this will tilt the
 letter on its X access.
@@ -8066,11 +8066,11 @@ But this time I use the keyword, rotate and add the value of 20 degrees.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image215.png"
+<img src="/images/image215"
   width="25%"
   alt="." />
 </p>
-<!-- ![](images/image215.png){width="2.5in" height="2.0770395888013997in"} -->
+<!-- ![](images/image215){width="2.5in" height="2.0770395888013997in"} -->
 
 This will cause a different effect.
 
@@ -8086,11 +8086,11 @@ You need to add the transition property.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image216.png"
+<img src="/images/image216"
   width="25%"
   alt="Transition property." />
 </p>
-<!-- ![](images/image216.png){width="2.5in" height="2.2356496062992126in"} -->
+<!-- ![](images/image216){width="2.5in" height="2.2356496062992126in"} -->
 
 I add the transition property to both classes with the value of five
 seconds.
@@ -8111,11 +8111,11 @@ the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. green box/square (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image217.png"
+<img src="/images/image217"
   width="30%"
   alt="Green box or square." />
 
-<!-- ![](images/image217.png){width="5.0in" height="2.6142858705161856in"} -->
+<!-- ![](images/image217){width="5.0in" height="2.6142858705161856in"} -->
 
 The initial output will be a green box.
 
@@ -8153,11 +8153,11 @@ Next will only happen when I hover over the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218. transformed property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image218.png"
+<img src="/images/image218"
   width="30%"
   alt="Transformed Property." />
 
-<!-- ![](images/image218.png){width="5.0in" height="2.6142858705161856in"} -->
+<!-- ![](images/image218){width="5.0in" height="2.6142858705161856in"} -->
 
 Let&apos;s add the transformed property.
 
@@ -8220,10 +8220,10 @@ But to control the execution of the steps of the animation, they use the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. syntax of keyframe rule (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image219.png"
+<img src="/images/image219"
   width="30%"
   alt="Synax of the Keyframe rule." />
-<!-- ![](images/image219.png){width="4.0in" height="1.2076192038495188in"} -->
+<!-- ![](images/image219){width="4.0in" height="1.2076192038495188in"} -->
 
 Next, let&apos;s explore the syntax of the \@keyframe rule, and the animation property.
 
@@ -8236,7 +8236,7 @@ that keyframe.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220. keyframe rule (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image220.png"
+<img src="/images/image220"
   width="30%"
   alt="Keyframe rule." />
 <!-- width="4.0in" height="1.856084864391951in"} -->
@@ -8248,10 +8248,10 @@ The animation name links the animation to a specific keyframe rule.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. animation property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image221.png"
+<img src="/images/image221"
   width="30%"
   alt="Animation property." />
- <!-- ![](images/image221.png){width="4.0in" height="1.7866666666666666in"} -->
+ <!-- ![](images/image221){width="4.0in" height="1.7866666666666666in"} -->
 
 The animation property has a number of sub properties like animation name,
 animation delay, and so on.
@@ -8267,11 +8267,11 @@ However, each of the sub properties can be listed individually as well.
 <!--~~~~~~~~~~~~~~~~~~~ 222. clock example with hour and minute hands (xxx) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image222.png"
+<img src="/images/image222"
   width="30%"
   alt="Clock example with class hour and minute hands." />
 </p>
-<!-- ![](images/image222.png){width="3.0in" height="2.4266666666666667in"} -->
+<!-- ![](images/image222){width="3.0in" height="2.4266666666666667in"} -->
 
 To understand animation cues, let&apos;s explore a simple animation of a
 clock with hour and minute hands.
@@ -8291,11 +8291,11 @@ now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 223. two classes, clock and hand (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image223.png"
+<img src="/images/image223"
   width="30%"
   alt="." />
 </p>
-<!-- ![](images/image223.png){width="3.0in" height="1.4677099737532808in"} -->
+<!-- ![](images/image223){width="3.0in" height="1.4677099737532808in"} -->
 
 All that you need to know is that you create two classes, clock and hand,
 and insert style rules that specify the basic layout and appearance of
@@ -8326,11 +8326,11 @@ the default values.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. css keyframe cycle (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image224.png"
+<img src="/images/image224"
   width="30%"
   alt="CSS keyframe cycle." />
 </p>
-<!-- ![](images/image224.png){width="3.0in" height="1.4677099737532808in"} -->
+<!-- ![](images/image224){width="3.0in" height="1.4677099737532808in"} -->
 
 Finally, you can add the \@keyframe rule.
 
@@ -8498,16 +8498,16 @@ to{width: 100px; 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 226. 100 pixel image, right (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p float="left">
-<img src="/images/image225.png"
+<img src="/images/image225"
   width="250px"
   alt="Width change from 50 to 100 pixels, left image." />
-<img src="/images/image226.png"
+<img src="/images/image226"
   width="500px"
   alt="100 pixels, right image." />
 </p>
 <!--
-![](images/image225.png){width="3.0in" height="1.44in"}
-![](images/image226.png){width="3.0in" height="1.44in"} -->
+![](images/image225){width="3.0in" height="1.44in"}
+![](images/image226){width="3.0in" height="1.44in"} -->
 
 In the example, the width of the object changes from 50 pixels to 100
 pixels over a span of 3 seconds and loops infinitely afterward.
@@ -8545,16 +8545,16 @@ Now, let's add an intermediary step at 50%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes, right image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p float="left">
-<img src="/images/image227.png"
+<img src="/images/image227"
   width="300"
   alt="Updating keyframes demo - left." />
-<img src="/images/image228.png"
+<img src="/images/image228"
   width="300"
   alt="Updating keyframes demo - right." />
 </p>
 
-<!-- ![](images/image227.png){width="3.0in" height="1.759047462817148in"} -->
-<!-- ![](images/image228.png){width="3.0in" height="1.759047462817148in"} -->
+<!-- ![](images/image227){width="3.0in" height="1.759047462817148in"} -->
+<!-- ![](images/image228){width="3.0in" height="1.759047462817148in"} -->
 
 The output is drastically different now after adding just two lines of
 code. Just like this, you can keep adding steps inside your \@keyframes
@@ -8589,11 +8589,11 @@ named styles.css.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 229. define bouncing ball in html (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image229.png"
+<img src="/images/image229"
   width="40%"
   alt="Define bouncing ball div id=ball in html." />
 </p>
-<!-- ![](images/image229.png){width="4.0in" height="2.4507655293088364in"} -->
+<!-- ![](images/image229){width="4.0in" height="2.4507655293088364in"} -->
 
 First, I&apos;ll add the HTML element that will be animated.
 
@@ -8605,12 +8605,12 @@ ball.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. adding keyframe definition (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image230.png"
+<img src="/images/image230"
   width="40%"
   alt="Adding keyframe definition to CSS." />
 </p>
 -->
-<!-- ![](images/image230.png){width="4.0in" height="3.6355555555555554in"} -->
+<!-- ![](images/image230){width="4.0in" height="3.6355555555555554in"} -->
 
 Now I open styles.css.
 
@@ -8658,11 +8658,11 @@ color of the circle.
 <!--~~~~~~~~~~~~~~~ 231. change ball color with background color property (208) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image231.png"
+<img src="/images/image231"
   width="15%"
   alt="Change color of ball." />
 </p>
-<!-- ![](images/image231.png){width="1.5in" height="1.3216458880139983in"} -->
+<!-- ![](images/image231){width="1.5in" height="1.3216458880139983in"} -->
 
 I save the file and open index.html in live preview.
 
@@ -8673,11 +8673,11 @@ Now to connect the animation to the element, I open styles.css again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. transform in styles.css (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image232.png"
+<img src="/images/image232"
   width="35%"
   alt="Styles.css for bouncing ball-transform command." />
 </p>
-<!-- ![](images/image232.png){width="3.5in" height="3.548386920384952in"} -->
+<!-- ![](images/image232){width="3.5in" height="3.548386920384952in"} -->
 
 In the CSS rule for the ball element, I add the animation property and set its value to bounce 2s.
 
@@ -9622,20 +9622,20 @@ properties to you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. hovering icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image233.png"
+<img src="/images/image233"
   width="10%"
   alt="Hovering Icon." />
 </p>
-<!-- !(images/image233.png){width="1.0in" height="0.8010444006999126in"} -->
+<!-- !(images/image233){width="1.0in" height="0.8010444006999126in"} -->
 <!------------------------------------------------------------------------------------------------>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. targetting icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image234.png"
+<img src="/images/image234"
   width="4%"
   alt="Targetting Icon." />
 </p>
-<!-- !(images/image234.png){width="0.4in" height="0.32257983377077865in"} -->
+<!-- !(images/image234){width="0.4in" height="0.32257983377077865in"} -->
 
 On selecting the desired element, one way to use the Elements tab for
 debugging is by right-clicking on that element, scrolling to 'Copy' and
@@ -9645,11 +9645,11 @@ then selecting an option from the drop-down list that appears.
 <!--~~~~~~~~~~~~~~~~~~~~~ 235. display of submenu from copy option (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image235.png"
+<img src="/images/image235"
   width="50%"
   alt="Display of submenu from copy option." />
 </p>
-<!-- !(images/image235.png){width="5.0in" height="2.9711570428696414in"} -->
+<!-- !(images/image235){width="5.0in" height="2.9711570428696414in"} -->
 
 This way, you can explore the isolated code to find the problem.
 
@@ -9660,11 +9660,11 @@ option from the dropdown list that appears.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 236. break point on submenu option (229) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image236.png"
+<img src="/images/image236"
   width="50%"
   alt="Break point on Submenu options." />
 </p>
-<!-- ![Break on Submenu options](images/image236.png){width="5.0in" height="2.7334055118110236in"} -->
+<!-- ![Break on Submenu options](images/image236){width="5.0in" height="2.7334055118110236in"} -->
 
 Nowadays, some browsers are providing options such as Cumulative Layout
 Shift (CLS) that helps determine the overall efficiency of a web page.
@@ -9676,11 +9676,11 @@ bar:
 <!--~~~~~~~~~~~~~~~~~~~~~ 237. horizontal bar and element families (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image237.png"
+<img src="/images/image237"
   width="60%"
   alt="Horizontal bar and element families." />
 </p>
-<!-- ![Horizontal bar and element families](images/image237.png){width="6.0in" height="0.39473206474190725in"} -->
+<!-- ![Horizontal bar and element families](images/image237){width="6.0in" height="0.39473206474190725in"} -->
 
 One very useful feature is the ability to make changes in your code
 directly inside the browser. First, use the 'element selector' mentioned
@@ -10362,11 +10362,11 @@ a header, main content and footer.
 <!--~~~~~~~~~~~~~~~~~~~ 238. outline: header, main content and footer (###) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image238.png"
+<img src="/images/image238"
   width="40%"
   alt="Outline: Header, main and footer." />
 </p>
-<!-- ![](images/image238.png){width="4.0in" height="2.466454505686789in"} -->
+<!-- ![](images/image238){width="4.0in" height="2.466454505686789in"} -->
 
 You will have to decide whether you are going to use a grid or flexbox
 layout for your home page. Your header should contain the client logo
@@ -10459,11 +10459,11 @@ They are:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. lucky shrub (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image239.png"
+<img src="/images/image239"
   width="5%"
   alt="Lucky shrub logo." />
 </p>
-<!-- ![Logo of the fictional client Lucky Shrub](images/image239.png){width="0.5in" height="1.0057808398950132in"} -->
+<!-- ![Logo of the fictional client Lucky Shrub](images/image239){width="0.5in" height="1.0057808398950132in"} -->
 
 Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design
 firm that specializes in garden design and creation, maintenance and
@@ -10488,11 +10488,11 @@ nursery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. hair day logo (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image240.png"
+<img src="/images/image240"
   width="20%"
   alt="Hair Day logo." />
 </p>
-<!-- ![Logo of the fictional client Hair day](images/image240.png){width="2.0in" height="1.3277668416447943in"} -->
+<!-- ![Logo of the fictional client Hair day](images/image240){width="2.0in" height="1.3277668416447943in"} -->
 
 Based in Madison, Wisconsin, Hair Day is a boutique hair salon that
 specializes in cut, color and styling. Hair Day also offers makeup and
@@ -10519,11 +10519,11 @@ manicurist and one make-up artist.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 241. little lemon fictional client logo (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image241.png"
+<img src="/images/image241"
   width="20%"
   alt="Logo of the fictional client Little Lemon." />
 </p>
-<!-- (images/image241.png){width="4.0in" height="1.0925109361329834in"} -->
+<!-- (images/image241){width="4.0in" height="1.0925109361329834in"} -->
 
 Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean
 restaurant, focused on traditional recipes served with a modern twist.
