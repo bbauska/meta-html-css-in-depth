@@ -39,14 +39,20 @@ must be eager to get started with coding.
 In the first module, you will start with an introduction to the course
 and gain insight into what your career path as an HTML and CSS developer
 might look like. You will also receive tips on how to take this course
-successfully. Then, you&apos;ll move on to semantic tags and the importance
+successfully. 
+
+Then, you&apos;ll move on to <i>semantic tags</i> and the importance
 of taking a structured approach to creating a well-formed web page.
-After which you will learn about metadata and tags and how you can use
-them to influence your web page&apos;s ranking through Search Engine
-Optimization (SEO). Following this section, you will learn about user
-input and forms and you will create and test a form by yourself. In the
-final part of the module, you will learn about media elements and
-you&apos;ll learn how to embed video and audio on a web page. 
+
+After which you will learn about <i>metadata and tags</i> and how you can use
+them to influence your web page&apos;s ranking through <i>Search Engine
+Optimization (SEO)</i>. 
+
+Following this section, you will learn about <i>user input and forms</i> and 
+you will create and test a form by yourself.
+
+In the final part of the module (1), you will learn about <i>media elements</i> 
+and you&apos;ll learn how to embed video and audio on a web page.
 
 After completing this module (1), you should be able to:
 
@@ -63,16 +69,22 @@ After completing this module (1), you should be able to:
 
 <h2>Module 2</h2>
 
-In module 2, you will focus on CSS layouts, grids and flexboxes. You
+In module 2, you will focus on CSS layouts, <i>grids and flexboxes</i>. You
 will learn about fundamental layouts that you can use to design a good
-web page. Next, you will learn about CSS selectors which correspond to
-specific elements or element groups in an HTML document. In this
-section, you also learn about pseudo-class selectors that you can use to
-improve the interactivity of your web pages without having to add overly
-advanced styling. In this module, you will also learn about keyframes,
-animations and effects in CSS. The final part of this module is about
-how to use browser developer tools to assist with debugging and
-resolving HTML and CSS issues.
+web page. 
+
+Next, you will learn about <i>CSS selectors</i> which correspond to
+specific elements or element groups in an HTML document. 
+
+In this section, you also learn about <i>pseudo-class selectors</i> 
+that you can use to improve the interactivity of your web pages without 
+having to add overly advanced styling.
+
+In this module, you will also learn about <i>keyframes,
+animations and effects</i> in CSS. 
+
+The final part of this module is about how to use <i>browser developer 
+tools</i> to assist with debugging and resolving HTML and CSS issues.
 
 After completing this module (2), you should be able to:
 
