@@ -1840,17 +1840,17 @@ files through the steps below.</p>
 <p>The following code is an example solution for the previous exercise.</p>
 <p>This code is placed inside the &lt;main&gt; element of index.html.</p>
 
-<pre>  &lt;form&gt;&lt;/p&gt;
-    &lt;div&gt;&lt;/p&gt;
-      &lt;label for="username"&gt;Username&lt;/label&gt;&lt;/p&gt;
-      &lt;input type="text" id="username" required minlength="2"&gt;&lt;/p&gt;
-    &lt;/div&gt;&lt;/p&gt;
-    &lt;div&gt;&lt;/p&gt;
-      &lt;label for="password"&gt;Password&lt;/label&gt;&lt;/p&gt;
-      &lt;input type="password" id="password" required minlength="2"&gt;&lt;/p&gt;
-    &lt;/div&gt;&lt;/p&gt;
-    &lt;button type="submit"&gt;Log In&lt;/button&gt;&lt;/p&gt;
-  &lt;/form&gt;&lt;/p&gt;</pre>
+<pre>1.   &lt;form&gt;&lt;/p&gt;
+2.     &lt;div&gt;&lt;/p&gt;
+3.       &lt;label for="username"&gt;Username&lt;/label&gt;&lt;/p&gt;
+4.       &lt;input type="text" id="username" required minlength="2"&gt;&lt;/p&gt;
+5.     &lt;/div&gt;&lt;/p&gt;
+6.     &lt;div&gt;&lt;/p&gt;
+7.       &lt;label for="password"&gt;Password&lt;/label&gt;&lt;/p&gt;
+8.       &lt;input type="password" id="password" required minlength="2"&gt;&lt;/p&gt;
+9.     &lt;/div&gt;&lt;/p&gt;
+10.     &lt;button type="submit"&gt;Log In&lt;/button&gt;&lt;/p&gt;
+11.   &lt;/form&gt;&lt;/p&gt;</pre>
 
 <p>While reviewing the code, note the following items:</p>
 
@@ -2418,17 +2418,18 @@ checkbox, date, email, number, password, submit, text,</strong> and
 <strong>url</strong>. These values dictate the appearance of the
 element. For example, this code:</p>
 
-<pre>  &lt;form action="my_action_page"&gt;
-    &lt;label for="uname"&gt;Username:&lt;/label&gt;
-    &lt;br&gt;
-    &lt;input type="text" id="uname" name="username"&gt;
-    &lt;br&gt;
-    &lt;label for="pwd"&gt;Password:&lt;/label&gt;
-    &lt;br&gt;
-    &lt;input type="password" id="pwd" name="pwd"&gt;
-    &lt;br&gt;&lt;br&gt;
-    &lt;input type="submit" value="Login"&gt;
-  &lt;/form&gt;</pre>
+<pre>
+1.  &lt;form action="my_action_page"&gt;
+2.    &lt;label for="uname"&gt;Username:&lt;/label&gt;
+3.    &lt;br&gt;
+4.    &lt;input type="text" id="uname" name="username"&gt;
+5.    &lt;br&gt;
+6.    &lt;label for="pwd"&gt;Password:&lt;/label&gt;
+7.    &lt;br&gt;
+8.    &lt;input type="password" id="pwd" name="pwd"&gt;
+9.  &lt;br&gt;&lt;br&gt;
+10.   &lt;input type="submit" value="Login"&gt;
+11. &lt;/form&gt;</pre>
 
 <p>Results in the following output:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2480,8 +2481,8 @@ include:</p>
   <li>The following line of code defines a text area of 10 visible lines and nearly 30 characters wide where the user can input a maximum of 200 characters:</li>
 </ul>
 
-<pre>  &lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
-  &lt;/textarea&gt;</pre>
+<pre>&lt;textarea name="response" rows="10" cols="30" maxlength=”200”&gt;
+&lt;/textarea&gt;</pre>
 
 <h4>&lt;button&gt;</h4>
 
@@ -2489,8 +2490,8 @@ include:</p>
 defines the behavior when the button is clicked by the user. For
 example, in the code below, an alert message is shown to the user.</p>
 
-<pre>  &lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
-  &lt;/button&gt;</pre>
+<pre>&lt;button type="button" onclick="alert('You just clicked!')"&gt;Click Me!
+&lt;/button&gt;</pre>
 
 <h3>&lt;fieldset&gt; </h3>
 
@@ -2503,21 +2504,21 @@ qualification can be grouped separately in two field sets.</p>
 <p>Defines a caption for the <strong>&lt;fieldset&gt;</strong> element.
 For example:</p>
 
-<pre>  &lt;fieldset&gt;
-    &lt;legend&gt;Personal Info&lt;/legend&gt;
-    &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
-    &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;
-  &lt;/fieldset&gt;
-
-  &lt;fieldset&gt;
-    &lt;legend&gt;Qualificaiton&lt;/legend&gt;
-    &lt;label for="pdegree"&gt;Primary degree:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt;
-    &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt;
-    &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt;
-  &lt;/fieldset&gt;</pre>
+<pre>1.  &lt;fieldset&gt;
+2.    &lt;legend&gt;Personal Info&lt;/legend&gt;
+3.    &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+4.    &lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
+5.    &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+6.    &lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;
+7.  &lt;/fieldset&gt;
+8. 
+9.  &lt;fieldset&gt;
+10.   &lt;legend&gt;Qualificaiton&lt;/legend&gt;
+11.   &lt;label for="pdegree"&gt;Primary degree:&lt;/label&gt;&lt;br&gt;
+12.   &lt;input type="text" id="pdegree" name="degree" value="Masters"&gt;&lt;br&gt;
+13.   &lt;label for="fos"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+14.   &lt;input type="text" id="fos" name="field" value="Psychology"&gt;&lt;br&gt;
+15. &lt;/fieldset&gt;</pre>
 
 <h3>&lt;datalist&gt;</h3>
 
@@ -2525,18 +2526,18 @@ For example:</p>
 differs from <strong>&lt;select&gt;</strong> since the user can still
 provide textual or numeric input other than the listed options.</p>
 
-<pre>  &lt;form action="/my_action_page"&gt;
-    &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt;
-    &lt;input list="flowers" name="flowers"&gt;
-    &lt;datalist id="flowers"&gt;
-      &lt;option value="Rose"&gt;
-      &lt;option value="Lily"&gt;
-      &lt;option value="Tulip"&gt;
-      &lt;option value="Daffodil"&gt;
-      &lt;option value="Orchid"&gt;
-    &lt;/datalist&gt;
-    ...
-  &lt;/form&gt;</pre>
+<pre>1. &lt;form action="/my_action_page"&gt;
+2.   &lt;label for="flowers"&gt;Favourite flower:&lt;/label&gt;&lt;br&gt;
+3.   &lt;input list="flowers" name="flowers"&gt;
+4.   &lt;datalist id="flowers"&gt;
+5.     &lt;option value="Rose"&gt;
+6.     &lt;option value="Lily"&gt;
+7.     &lt;option value="Tulip"&gt;
+8.     &lt;option value="Daffodil"&gt;
+9.     &lt;option value="Orchid"&gt;
+10.   &lt;/datalist&gt;
+11.     ...
+12. &lt;/form&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 82. datalist input type with drop-down menu (72) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2808,10 +2809,10 @@ tags to provide a description of the image. The <strong>&lt;img&gt;</strong>
 tag is added inside the <strong>&lt;figure&gt;</strong> tag and the
 <strong>&lt;figcaption&gt;</strong> is specified after it.</p>
 
-<pre>  &lt;figure&gt;
-    &lt;img src="photo.png" width="320" alt="My Profile Photo"&gt;
-    &lt;figcaption&gt;A photo of myself on a beach in 2015&lt;/figcaption&gt;
-  &lt;/figure&gt;</pre>
+<pre>&lt;figure&gt;
+  &lt;img src="photo.png" width="320" alt="My Profile Photo"&gt;
+  &lt;figcaption&gt;A photo of myself on a beach in 2015&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
 
 <p>One last thing to note is that like videos and audio, the web browser
 only supports specific file types. These file types are:</p>
@@ -2972,8 +2973,8 @@ are applied. To apply more than one permission, use a space-separated
 list. For example, the following would allow form submission and scripts
 while keeping other restrictions active:</p>
 
-<pre>  &lt;iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts"&gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="my_iframe_sandbox.html" sandbox="allow-forms allow-scripts"&gt;
+&lt;/iframe&gt;</pre>
 
 <h4>src</h4>
 
@@ -2989,8 +2990,8 @@ override the <strong>src</strong> attribute. For instance, the following
 code will display "My inline html" in the frame, instead of loading
 <strong>my_iframe_src.html</strong>.</p>
 
-<pre>  &lt;iframe src="my_iframe_src.html" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="my_iframe_src.html" srcdoc="&lt;p&gt;My inline html&lt;/p&gt;" &gt;
+&lt;/iframe&gt;</pre>
 
 <h4>loading</h4>
 
@@ -3001,8 +3002,8 @@ allows you to defer loading iframe content if it is further down your
 web page and outside of the display area when the page is initially
 loaded.</p>
 
-<pre>  &lt;iframe src="my_iframe_src.html" loading="lazy" &gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="my_iframe_src.html" loading="lazy" &gt;
+&lt;/iframe&gt;</pre>
 
 <h4>title</h4>
 
@@ -3010,8 +3011,8 @@ loaded.</p>
 accessibility purposes. The value of this attribute should accurately
 describe the iframe's content.</p>
 
-<pre>  &lt;iframe src="history.html" title="An embedded document about the history of my family" &gt;
-  &lt;/iframe&gt;</pre>
+<pre>&lt;iframe src="history.html" title="An embedded document about the history of my family" &gt;
+&lt;/iframe&gt;</pre>
 
 <h4>iFrame as a picture</h4>
 
@@ -3409,17 +3410,17 @@ href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-term
 
 <h4>Original HTML code:</h4>
 
-<pre>  &lt;body&gt;
-    &lt;div class="flex-container"&gt;
-      &lt;div class="box box1"&gt;  One..&lt;/div&gt;
-      &lt;div class="box box2"&gt;  Two..&lt;/div&gt;
-      &lt;div class="box box3"&gt;  Three..&lt;/div&gt;
-      &lt;div class="box box4"&gt;  Four..&lt;/div&gt;
-      &lt;div class="box box5"&gt;  Five..&lt;/div&gt;
-      &lt;div class="box box6"&gt;  Six..&lt;/div&gt;
-      &lt;div class="box box7"&gt;  Seven..&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;</pre>
+<pre>&lt;body&gt;
+  &lt;div class="flex-container"&gt;
+    &lt;div class="box box1"&gt;  One..&lt;/div&gt;
+    &lt;div class="box box2"&gt;  Two..&lt;/div&gt;
+    &lt;div class="box box3"&gt;  Three..&lt;/div&gt;
+    &lt;div class="box box4"&gt;  Four..&lt;/div&gt;
+    &lt;div class="box box5"&gt;  Five..&lt;/div&gt;
+    &lt;div class="box box6"&gt;  Six..&lt;/div&gt;
+    &lt;div class="box box7"&gt;  Seven..&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;</pre>
 
 <h4>Original CSS file: </h4>
 
@@ -3617,18 +3618,18 @@ columns using row-gap and column-gap properties.</p>
 
 <h4>CSS Code:</h4>
 
-<pre>  .flex-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:flex-end;
-    gap:10px;
-  }
-  .box3{
-    background-color: blanchedalmond;
-    align-self: center;
-  }</pre>
+<pre>1.  .flex-container{
+2.    display: flex;
+3.    justify-content: center;
+4.    flex-direction: column;
+5.    flex-wrap: wrap;
+6.    align-items:flex-end;
+7.    gap:10px;
+8.  }
+9.  .box3{
+10.   background-color: blanchedalmond;
+11.   align-self: center;
+12. }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4947,36 +4948,36 @@ conventionally. Let's examine an example.</p>
 
 <h4>HTML Code:</h4>
 
-<pre>  &lt;head&gt;
-    &lt;link rel="stylesheet" href="gridta.css"&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;header&gt; Header &lt;/header&gt;
-    &lt;nav class="nav-bar"&gt; Navigation &lt;/nav&gt;
-    &lt;main&gt; Main area &lt;/main&gt;
-    &lt;footer&gt; Footer &lt;/footer&gt;
-  &lt;/body&gt;</pre>
+<pre>1.  &lt;head&gt;
+2.    &lt;link rel="stylesheet" href="gridta.css"&gt;
+3.  &lt;/head&gt;
+4. 
+5.  &lt;body&gt;
+6.    &lt;header&gt; Header &lt;/header&gt;
+7.    &lt;nav class="nav-bar"&gt; Navigation &lt;/nav&gt;
+8.    &lt;main&gt; Main area &lt;/main&gt;
+9.    &lt;footer&gt; Footer &lt;/footer&gt;
+10. &lt;/body&gt;</pre>
 
 <h4>CSS Code:</h4>
 
-<pre>  body {
-    display: grid;
-    height: 200px;
-    grid-template-areas: "head head"
-                         "nav  main"
-                         "footer  footer";
-    grid-template-rows: 30px 1fr 30px;
-    grid-template-columns: 150px 1fr;
-  }
-  header {
-    grid-area: head;
-    background-color: lightsalmon;
-  }
-  .nav-bar {
-    grid-area: nav;
-    background-color: lightblue;
-  }</pre>
+<pre>1.  body {
+2.    display: grid;
+3.    height: 200px;
+4.    grid-template-areas: "head head"
+5.                          "nav  main"
+6.                          "footer  footer";
+7.    grid-template-rows: 30px 1fr 30px;
+8.    grid-template-columns: 150px 1fr;
+9.  }
+10. header {
+11.   grid-area: head;
+12.   background-color: lightsalmon;
+13. }
+14. .nav-bar {
+15.   grid-area: nav;
+16.   background-color: lightblue;
+17. }</pre>
  
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4996,9 +4997,9 @@ are distributed is according to how you have defined the names inside
 the grid-template-areas property. In the example above the relevant code
 is:</p>
 
-<pre>  grid-template-areas: "head head"
-                       "nav  main"
-                       "footer  footer";</pre>
+<pre>grid-template-areas: "head head"
+                     "nav  main"
+                     "footer  footer";</pre>
 
 <p>The ‘head’ is written twice to imply two columns and the rest of the
 content follows the usual convention.
@@ -5020,9 +5021,9 @@ distributed proportionately.</p>
 <p>Let’s return to the example.
 If you keep all other properties the same but you change the grid-template-areas as follows:</p>
 
-<pre>  grid-template-areas: "head head head"
-                       "nav  main main"
-                       "footer footer footer";</pre>
+<pre>grid-template-areas: "head head head"
+                     "nav  main main"
+                     "footer footer footer";</pre>
 
 <p>The output will remain the same as you have fixed the value of the
 third row to “30px”.</p>
@@ -5893,33 +5894,33 @@ of each of the three points in the example text.</p>
 
 <h4>HTML code:</h4>
 
-<pre>  &lt;!DOCTYPE html&gt;
-    &lt;html&gt;
-      &lt;head&gt;
-        &lt;link rel="stylesheet" href="pseudo4.css"&gt;
-      &lt;/head&gt;
-    &lt;body&gt; 
-      &lt;ul&gt;
-        &lt;li&gt; Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. &lt;/li&gt; 
-            &lt;li&gt;The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.&lt;/li&gt; 
-        &lt;li&gt;
-        Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.&lt;/li&gt; 
-      &lt;/ul&gt;
-    &lt;/body&gt; 
-  &lt;/html&gt;</pre>
+<pre>1.   &lt;!DOCTYPE html&gt;
+2.     &lt;html&gt;
+3.       &lt;head&gt;
+4.         &lt;link rel="stylesheet" href="pseudo4.css"&gt;
+5.       &lt;/head&gt;
+6.     &lt;body&gt; 
+7.       &lt;ul&gt;
+8.         &lt;li&gt; Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. &lt;/li&gt; 
+9.             &lt;li&gt;The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.&lt;/li&gt; 
+10.         &lt;li&gt;
+11.         Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy.&lt;/li&gt; 
+12.       &lt;/ul&gt;
+13.     &lt;/body&gt; 
+14.   &lt;/html&gt;</pre>
 
 <h4>CSS code:</h4>
 
-<pre>  li::first-letter { 
- 
-  color:coral; 
- 
-  font-size: 1.3em; 
- 
-  font-weight: bold; 
- 
-  line-height: 1; 
-  }</pre>
+<pre>1.  li::first-letter { 
+2.  
+3.    color:coral; 
+4.  
+5.    font-size: 1.3em; 
+6.  
+7.    font-weight: bold; 
+8.  
+9.    line-height: 1; 
+10. }</pre>
 
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6068,22 +6069,22 @@ guidelines to identify them as important tips.</p>
 
 <h4>CSS code:</h4>
 
-<pre>  #tips::before{
-    background: darkkhaki;
-    color:darkslategray;
-    content: "Tip:";
-    padding-left: 3px;
-    padding-right: 5px;
-    border-radius: 10%;
-  }
- 
-  #tips::after{
-    background:darkkhaki;
-    color:darkslategray;
-    content: "!!";
-    padding-right: 5px;
-    border-radius: 20%;
-  }</pre>
+<pre>1.   #tips::before{
+2.     background: darkkhaki;
+3.     color:darkslategray;
+4.     content: "Tip:";
+5.     padding-left: 3px;
+6.     padding-right: 5px;
+7.     border-radius: 10%;
+8.   }
+9.  
+10.   #tips::after{
+11.     background:darkkhaki;
+12.     color:darkslategray;
+13.     content: "!!";
+14.     padding-right: 5px;
+15.     border-radius: 20%;
+16.   }</pre>
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7786,21 +7787,21 @@ along the x, y, z co-ordinates</p>
 
 <h4><strong>Global value types:</strong></h4>
 
-<pre>  .sample-class {
-    transform: inherit;
-  }
-  .sample-class {
-    transform: initial;
-  }
-  .sample-class {
-    transform: revert;
-  }
-  .sample-class {
-    transform: revert-layer;
-  }
-  .sample-class {
-    transform: unset;
-  }</pre>
+<pre>1.  .sample-class {
+2.    transform: inherit;
+3.  }
+4.  .sample-class {
+5.    transform: initial;
+6.  }
+7.  .sample-class {
+8.    transform: revert;
+9.  }
+10. .sample-class {
+11.   transform: revert-layer;
+12. }
+13. .sample-class {
+14.   transform: unset;
+15. }</pre>
 
 <h4>Multiple transform over the same element</h4>
 
