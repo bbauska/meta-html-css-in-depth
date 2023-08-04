@@ -103,15 +103,15 @@ HTML stands for Hypertext Markup Language.
 
 But what does that mean?
 
-![](images/image003.png){width="5.0in"
-height="1.6068372703412073in"}
+![](images/image003.png)
+<!-- {width="5.0in" height="1.6068372703412073in"} -->
 
 Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 
-![](images/image004.png){width="5.0in"
-height="1.6068350831146108in"}
+![](images/image004.png)
+<!-- {width="5.0in" height="1.6068350831146108in"} -->
 
 HTML elements with their opening and closing tags in angle brackets make
 up an HTML document.
