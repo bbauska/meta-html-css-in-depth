@@ -4,11 +4,11 @@ title: "**HTML & CSS in Depth**"
 
 (Coursera/meta)
 
-![](images/image001.png){width="1.549261811023622in"
-height="0.5in"}
+![](images/image001.png)
+<!-- {width="1.549261811023622in" height="0.5in"} -->
 
-![](images/image002.png){width="1.0175437445319335in"
-height="0.5in"}
+![](images/image002.png)
+<!-- {width="1.0175437445319335in" height="0.5in"} -->
 
 # HTML &amp; CSS in Depth
 <h7>(by meta/Coursera)</h7>
