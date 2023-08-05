@@ -11,7 +11,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image001.webp"
+<img src="/images/image001b.png"
   width="20%"
   alt="Coursera logo." />
 </p>
