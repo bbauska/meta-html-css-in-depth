@@ -2246,7 +2246,7 @@ I save the file and open it in Live Preview. Success.
 The form is set up correctly. Let&apos;s test it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. form snapshot and cocde (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 67. book a table form snapshot and cocde (56) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image067.webp"
@@ -2267,12 +2267,12 @@ On a mobile device with a way smaller screen, it may be difficult for
 the user to accurately select the small button elements.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. book a table form, cont'd (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image068.webp"
   width="60%"
-  alt="." />
+  alt="Book a table form, continued." />
 </p>
 <!-- ![](images/image068.webp){width="6.0in" height="3.223718285214348in"} -->
 
@@ -2449,12 +2449,12 @@ wondering what exactly happens when you click on that order button.
 In this module, you will learn what happens when forms are submitted in
 the web browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. book a table form example 'live' (60) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image069.webp"
   width="30%"
-  alt="." />
+  alt="Book a Table form 'live'." />
 </p>
 <!-- ![](images/image069.webp){width="3.0in" height="1.6926279527559056in"} -->
 
@@ -2471,7 +2471,7 @@ files.
 But it is also possible to send data as part of a request.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 70. how forms send data to the web server (61) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 70. how forms send data to the web server (60) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image070.webp"
@@ -6879,7 +6879,7 @@ class is defined as &quot;mybutton.&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image177"
+<img src="/images/image177.webp"
   width="40%"
   alt="." />
 </p>
@@ -6896,7 +6896,7 @@ you use the hover pseudo-class to target a tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image178"
+<img src="/images/image178.webp"
   width="40%"
   alt="." />
 </p>
@@ -6916,7 +6916,7 @@ you can also use them to target HTML class attributes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image179"
+<img src="/images/image179.webp"
   width="20%"
   alt="." />
 </p>
@@ -6941,7 +6941,7 @@ numbers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image180"
+<img src="/images/image180.webp"
   width="20%"
   alt="." />
 </p>
@@ -7018,12 +7018,12 @@ each of the three points in the example text.
 <h4>CSS code:</h4>
 
 ```
-li::first-letter { 
-color:coral; 
-font-size: 1.3em; 
-font-weight: bold; 
-line-height: 1; 
-} 
+li::first-letter {
+  color:coral;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1;
+}
 ```
 
 <h4>Output</h4>
@@ -7031,7 +7031,7 @@ line-height: 1; 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image181"
+<img src="/images/image181.webp"
   width="40%"
   alt="." />
 </p>
@@ -7064,7 +7064,7 @@ li::first-line {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image182"
+<img src="/images/image182.webp"
   width="40%"
   alt="." />
 </p>
@@ -7080,12 +7080,12 @@ viewport.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183. pseudo-element example (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image183"
+<img src="/images/image183.webp"
   width="40%"
-  alt="." />
+  alt="Selection is another useful pseudo-element." />
 </p>
 <!-- ![](images/image183){width="4.0in" height="3.24050634295713in"} -->
 
@@ -7115,10 +7115,10 @@ Here is an example of a selection of text.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. selection example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. selection example (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image184"
+<img src="/images/image184.webp"
   width="60%"
   alt="Output for selection of text display." />
 </p>
@@ -7129,12 +7129,12 @@ selected and highlighted.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. marker example (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image185"
+<img src="/images/image185.webp"
   width="40%"
-  alt="." />
+  alt="Marker example." />
 </p>
 <!-- ![](images/image185){width="4.0in" height="2.4914523184601927in"} -->
 
@@ -7159,12 +7159,12 @@ li::marker {
 
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. example marker (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. example marker (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image186"
+<img src="/images/image186.webp"
   width="40%"
-  alt="." />
+  alt="Example marker." />
 </p>
 <!-- ![](images/image186){width="4.0in" height="2.205076552930884in"} -->
 
@@ -7212,12 +7212,12 @@ important tips.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. content property: tips (175) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image187"
+<img src="/images/image187.webp"
   width="40%"
-  alt="Selection of texts preceding and following a statement." />
+  alt="Content property is where the text for the guidelines go." />
 </p>
 <!-- ![(images/image187){width="4.0in" height="1.3951760717410324in"} -->
 
@@ -7250,7 +7250,7 @@ already opened.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image188"
+<img src="/images/image188.webp"
   width="40%"
   alt="." />
 </p>
@@ -7262,7 +7262,7 @@ that links to a different page of a website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image189"
+<img src="/images/image189.webp"
   width="40%"
   alt="." />
 </p>
@@ -7286,7 +7286,7 @@ need to follow when writing pseudo-class rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image190"
+<img src="/images/image190.webp"
   width="18%"
   alt="." />
 </p>
@@ -7307,7 +7307,7 @@ the hover pseudo-class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image191"
+<img src="/images/image191.webp"
   width="60%"
   alt="." />
 </p>
@@ -7322,7 +7322,7 @@ and the first paragraph tag has a link to their Instagram page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image192"
+<img src="/images/image192.webp"
   width="30%"
   alt="." />
 </p>
@@ -7344,7 +7344,7 @@ CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image193"
+<img src="/images/image193.webp"
   width="30%"
   alt="." />
 </p>
@@ -7374,7 +7374,7 @@ To do this, I use the pseudoshadow.html file I created previously.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image194"
+<img src="/images/image194.webp"
   width="60%"
   alt="." />
 </p>
@@ -7389,7 +7389,7 @@ as placeholder text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image195"
+<img src="/images/image195.webp"
   width="30%"
   alt="." />
 </p>
@@ -7415,7 +7415,7 @@ the shadow is set to black.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image196"
+<img src="/images/image196.webp"
   width="60%"
   alt="." />
 </p>
@@ -7431,7 +7431,7 @@ The text looks like regular blocks of texts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image197"
+<img src="/images/image197.webp"
   width="60%"
   alt="." />
 </p>
@@ -7580,7 +7580,7 @@ was good enough to integrate it into online experiences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image198"
+<img src="/images/image198.webp"
   width="50%"
   alt="." />
 </p>
@@ -7665,7 +7665,7 @@ visit the pros and cons of adding effects on web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image199"
+<img src="/images/image199.webp"
   width="50%"
   alt="." />
 </p>
@@ -7692,7 +7692,7 @@ especially used to create intuitive navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image200"
+<img src="/images/image200.webp"
   width="50%"
   alt="." />
 </p>
@@ -7725,7 +7725,7 @@ interesting effects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. text effects: pros and cons (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image201"
+<img src="/images/image201.webp"
   width="50%"
   alt="." />
 </p>
@@ -7757,7 +7757,7 @@ ellipsis.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image202"
+<img src="/images/image202.webp"
   width="40%"
   alt="." />
 </p>
@@ -7768,7 +7768,7 @@ An ellipsis is three dots that represent the texts that is clipped.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image203"
+<img src="/images/image203.webp"
   width="40%"
   alt="." />
 </p>
@@ -7791,7 +7791,7 @@ If I hover over with the cursor, the clipped text is displayed.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image204"
+<img src="/images/image204.webp"
   width="40%"
   alt="." />
 </p>
@@ -7810,7 +7810,7 @@ Then in the CSS code, I set the writing mode property to be vertical-rl.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image205"
+<img src="/images/image205.webp"
   width="40%"
   alt="." />
 </p>
@@ -7834,7 +7834,7 @@ In the next two examples, I will add text effects using simple CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image206"
+<img src="/images/image206.webp"
   width="20%"
   alt="." />
 </p>
@@ -7852,7 +7852,7 @@ The third is the blur radius, and the fourth is the shadow color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image207"
+<img src="/images/image207.webp"
   width="50%"
   alt="." />
 </p>
@@ -7868,7 +7868,7 @@ that class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image208"
+<img src="/images/image208.webp"
   width="30%"
   alt="." />
 </p>
@@ -7961,7 +7961,7 @@ properties.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image209"
+<img src="/images/image209.webp"
   width="40%"
   alt="." />
 </p>
@@ -7989,8 +7989,8 @@ Let&apos;s explore how these two properties work together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image210"
-  width="30%"
+<img src="/images/image210.webp"
+  width="300"
   alt="." />
 </p>
 <!-- ![](images/image210){width="3.0in" height="2.5833333333333335in"} -->
@@ -8005,8 +8005,8 @@ Without a transition, the rotation will be instant.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image211"
-  width="30%"
+<img src="/images/image211.webp"
+  width="300"
   alt="." />
 </p>
 <!-- ![](images/image211){width="3.0in" height="2.308860454943132in"} -->
@@ -8020,8 +8020,8 @@ properties, let&apos;s explore a practical example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image212"
-  width="40%"
+<img src="/images/image212.webp"
+  width="400"
   alt="." />
 </p>
 <!-- ![](images/image212){width="4.0in" height="3.401709317585302in"} -->
@@ -8036,8 +8036,8 @@ The second contains the letter B with a class called B.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image213"
-  width="30%"
+<img src="/images/image213.webp"
+  width="300"
   alt="." />
 </p>
 <!-- ![](images/image213){width="3.0in" height="2.2823917322834646in"} -->
@@ -8056,8 +8056,8 @@ There are a number of key word and function values inside this property.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image214"
-  width="30%"
+<img src="/images/image214.webp"
+  width="300"
   alt="." />
 </p>
 <!-- ![](images/image214){width="3.0in" height="2.4924475065616796in"} -->
@@ -8078,8 +8078,8 @@ But this time I use the keyword, rotate and add the value of 20 degrees.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image215"
-  width="25%"
+<img src="/images/image215.webp"
+  width="250"
   alt="." />
 </p>
 <!-- ![](images/image215){width="2.5in" height="2.0770395888013997in"} -->
@@ -8098,8 +8098,8 @@ You need to add the transition property.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image216"
-  width="25%"
+<img src="/images/image216.webp"
+  width="250"
   alt="Transition property." />
 </p>
 <!-- ![](images/image216){width="2.5in" height="2.2356496062992126in"} -->
@@ -8123,10 +8123,9 @@ the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. green box/square (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image217"
+<img src="/images/image217.webp"
   width="30%"
   alt="Green box or square." />
-
 <!-- ![](images/image217){width="5.0in" height="2.6142858705161856in"} -->
 
 The initial output will be a green box.
@@ -8165,7 +8164,7 @@ Next will only happen when I hover over the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218. transformed property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image218"
+<img src="/images/image218.webp"
   width="30%"
   alt="Transformed Property." />
 
@@ -8232,7 +8231,7 @@ But to control the execution of the steps of the animation, they use the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. syntax of keyframe rule (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image219"
+<img src="/images/image219.webp"
   width="30%"
   alt="Synax of the Keyframe rule." />
 <!-- ![](images/image219){width="4.0in" height="1.2076192038495188in"} -->
@@ -8248,7 +8247,7 @@ that keyframe.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220. keyframe rule (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image220"
+<img src="/images/image220.webp"
   width="30%"
   alt="Keyframe rule." />
 <!-- width="4.0in" height="1.856084864391951in"} -->
@@ -8260,7 +8259,7 @@ The animation name links the animation to a specific keyframe rule.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. animation property (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image221"
+<img src="/images/image221.webp"
   width="30%"
   alt="Animation property." />
  <!-- ![](images/image221){width="4.0in" height="1.7866666666666666in"} -->
@@ -8279,7 +8278,7 @@ However, each of the sub properties can be listed individually as well.
 <!--~~~~~~~~~~~~~~~~~~~ 222. clock example with hour and minute hands (xxx) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image222"
+<img src="/images/image222.webp"
   width="30%"
   alt="Clock example with class hour and minute hands." />
 </p>
@@ -8303,7 +8302,7 @@ now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 223. two classes, clock and hand (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image223"
+<img src="/images/image223.webp"
   width="30%"
   alt="." />
 </p>
@@ -8338,7 +8337,7 @@ the default values.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. css keyframe cycle (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image224"
+<img src="/images/image224.webp"
   width="30%"
   alt="CSS keyframe cycle." />
 </p>
@@ -8510,10 +8509,10 @@ to{width: 100px; 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 226. 100 pixel image, right (205) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p float="left">
-<img src="/images/image225"
+<img src="/images/image225.webp"
   width="250px"
   alt="Width change from 50 to 100 pixels, left image." />
-<img src="/images/image226"
+<img src="/images/image226.webp"
   width="500px"
   alt="100 pixels, right image." />
 </p>
@@ -8557,10 +8556,10 @@ Now, let's add an intermediary step at 50%.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228. keyframes, right image (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p float="left">
-<img src="/images/image227"
+<img src="/images/image227.webp"
   width="300"
   alt="Updating keyframes demo - left." />
-<img src="/images/image228"
+<img src="/images/image228.webp"
   width="300"
   alt="Updating keyframes demo - right." />
 </p>
@@ -8601,7 +8600,7 @@ named styles.css.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 229. define bouncing ball in html (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image229"
+<img src="/images/image229.webp"
   width="40%"
   alt="Define bouncing ball div id=ball in html." />
 </p>
@@ -8617,11 +8616,10 @@ ball.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. adding keyframe definition (207) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image230"
+<img src="/images/image230.webp"
   width="40%"
   alt="Adding keyframe definition to CSS." />
 </p>
--->
 <!-- ![](images/image230){width="4.0in" height="3.6355555555555554in"} -->
 
 Now I open styles.css.
@@ -8670,7 +8668,7 @@ color of the circle.
 <!--~~~~~~~~~~~~~~~ 231. change ball color with background color property (208) ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image231"
+<img src="/images/image231.webp"
   width="15%"
   alt="Change color of ball." />
 </p>
@@ -8685,7 +8683,7 @@ Now to connect the animation to the element, I open styles.css again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. transform in styles.css (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image232"
+<img src="/images/image232.webp"
   width="35%"
   alt="Styles.css for bouncing ball-transform command." />
 </p>
@@ -9634,7 +9632,7 @@ properties to you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233. hovering icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image233"
+<img src="/images/image233.webp"
   width="10%"
   alt="Hovering Icon." />
 </p>
@@ -9643,7 +9641,7 @@ properties to you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234. targetting icon (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image234"
+<img src="/images/image234.webp"
   width="4%"
   alt="Targetting Icon." />
 </p>
@@ -9657,7 +9655,7 @@ then selecting an option from the drop-down list that appears.
 <!--~~~~~~~~~~~~~~~~~~~~~ 235. display of submenu from copy option (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image235"
+<img src="/images/image235.webp"
   width="50%"
   alt="Display of submenu from copy option." />
 </p>
@@ -9672,7 +9670,7 @@ option from the dropdown list that appears.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 236. break point on submenu option (229) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image236"
+<img src="/images/image236.webp"
   width="50%"
   alt="Break point on Submenu options." />
 </p>
@@ -9688,7 +9686,7 @@ bar:
 <!--~~~~~~~~~~~~~~~~~~~~~ 237. horizontal bar and element families (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image237"
+<img src="/images/image237.webp"
   width="60%"
   alt="Horizontal bar and element families." />
 </p>
@@ -10374,7 +10372,7 @@ a header, main content and footer.
 <!--~~~~~~~~~~~~~~~~~~~ 238. outline: header, main content and footer (###) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image238"
+<img src="/images/image238.webp"
   width="40%"
   alt="Outline: Header, main and footer." />
 </p>
@@ -10471,7 +10469,7 @@ They are:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239. lucky shrub (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image239"
+<img src="/images/image239.webp"
   width="5%"
   alt="Lucky shrub logo." />
 </p>
@@ -10500,7 +10498,7 @@ nursery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240. hair day logo (245) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image240"
+<img src="/images/image240.webp"
   width="20%"
   alt="Hair Day logo." />
 </p>
@@ -10531,7 +10529,7 @@ manicurist and one make-up artist.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 241. little lemon fictional client logo (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="/images/image241"
+<img src="/images/image241.webp"
   width="20%"
   alt="Logo of the fictional client Little Lemon." />
 </p>
@@ -11020,4 +11018,4 @@ the end…
 
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h6>7-22-2023 at 3:47pm</h6>
+<h5>8-04-2023 at 7:06pm</h5>
