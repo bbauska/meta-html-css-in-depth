@@ -4631,7 +4631,7 @@ border to zero.
 Next, let&apos;s focus on the container.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. css container flex (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. css container flex (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image113.webp"
@@ -4772,7 +4772,7 @@ paste this item twice.
 <p align="center" width="100%">
 <img src="/images/image118.webp"
   width="65%"
-  alt="Class name for each dish item." />
+  alt="Class name for each dish item in flexcharts.html." />
 </p>
 <!-- ![](images/image118.webp){width="6.5in" height="4.179861111111111in"} -->
 
@@ -4795,12 +4795,12 @@ Finally, I add the respective labels for each dish.
 To do this, I add the percentage between the angle brackets at the end
 of each item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 119. flexchart.html adding style to head (116) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image119.webp"
   width="65%"
-  alt="." />
+  alt="flexchart.html adding style to head." />
 </p>
 <!-- ![](images/image119.webp){width="6.5in" height="3.7784722222222222in"} -->
 
@@ -4889,12 +4889,12 @@ background colors as indicated.
 What&apos;s important to note here is that as you change the size of the web
 page, the flex adjusts itself while the label remains unchanged.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 122.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 122. flexcharts.html and flexcharts.css (117) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image122.webp"
   width="63%"
-  alt="." />
+  alt="flexcharts.html and flexcharts.css." />
 </p>
 <!-- ![](images/image122.webp){width="6.333333333333333in" height="5.041666666666667in"} -->
 
