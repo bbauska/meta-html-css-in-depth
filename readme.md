@@ -10983,7 +10983,7 @@ goal.</p>
     specifies the last modified date and time on which you have made certain 
     changes,</p></li>
   <li><p>&lt;meta name="rating" content="safe for kids"&gt; specifies the expected 
-  audience for your page,</p></li>
+  audience for your page, and</p></li>
   <li>&lt;meta name="copyright" content="Nocopyright 2023"&gt; specifies a Copyright.</li>
 </ul>
 
@@ -10997,7 +10997,7 @@ goal.</p>
   <li><p>&lt;meta http-equiv="refresh"/&gt; specifies the duration of the page 
     before it’s considered stale,</p></li>
   <li><p>&lt;meta http-equiv=”Content-language”/&gt; specifies the language of 
-    the page,</p></li>
+    the page, and</p></li>
   <li>&lt;meta http-equiv="Cache-Control" content="no-cache"&gt; instructs the 
     browser how to cache your page.</li>
 </ul>
@@ -11009,7 +11009,7 @@ goal.</p>
     that telephone numbers should appear as hypertext links that can be clicked 
 	to make a phone call,</p></li>
   <li><p>&lt;meta name="HandheldFriendly" content="true"/&gt; specifies that 
-    the page can be properly visualized on mobile devices,</p></li>
+    the page can be properly visualized on mobile devices, and</p></li>
   <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt; 
     specifies the area of the window in which web content can be seen.</li>
 </ul>
