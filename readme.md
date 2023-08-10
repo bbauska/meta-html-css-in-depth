@@ -58,12 +58,12 @@ After completing this module (1), you should be able to:
 
 <ul>
   <li>Use common semantic and meta tags to improve the accessibility,
-      readability and SEO of a web page.<br></li>
-  <li>Create commonly-used web page layouts and components.<br></li>
-  <li>Create and test a form with client-side validation.<br></li>
+      readability and SEO of a web page,<br></li>
+  <li>Create commonly-used web page layouts and components,<br></li>
+  <li>Create and test a form with client-side validation,<br></li>
   <li>Recognize server-side connections and the languages used to carry
-      out requests and responses.<br></li>
-  <li>Post form data to a server.<br></li>
+      out requests and responses,<br></li>
+  <li>Post form data to a server, and<br></li>
   <li>Create a video and audio player that can rate the media played.</li>
 </ul>
 
@@ -89,11 +89,11 @@ tools</i> to assist with debugging and resolving HTML and CSS issues.
 After completing this module (2), you should be able to:
 
 <ul>
-  <li>Use Flexbox and CSS grids to create responsive layouts and charts.<br></li>
-  <li>Use advanced CSS selectors such as pseudo-classes for targeted styling.<br></li>
-  <li>Use CSS effects to introduce text effects, animations and transformations into your stylesheet.<br></li>
-  <li>Create simple keyframe animations.<br></li>
-  <li>Perform basic front-end testing, debugging and error handling.<br></li>
+  <li>Use Flexbox and CSS grids to create responsive layouts and charts,<br></li>
+  <li>Use advanced CSS selectors such as pseudo-classes for targeted styling,<br></li>
+  <li>Use CSS effects to introduce text effects, animations and transformations into your stylesheet,<br></li>
+  <li>Create simple keyframe animations,<br></li>
+  <li>Perform basic front-end testing, debugging and error handling, and<br></li>
   <li>Adapt your CSS to perform as expected in different browsers.</li>
 </ul>
 
@@ -1209,18 +1209,18 @@ dealing with different concepts related to the topics you have covered
 in this section.
 
 <ul>
-  <li><a href="https://www.dofactory.com/html/metatags" target="_blank">HTML meta tags</a><br></li>
-  <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/" target="_blank">Semantic elements</a><br></li>
-  <li><a href="https://www.instructables.com/Bare-Bones-Web-Page/" target="_blank">Simple bare bones HTML webpage</a><br></li>
-  <li><a href="https://www.vandelaydesign.com/newsletter-tutorial/" target="_blank">HTML5/CSS bare-bones newsletter template</a><br></li>
-  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html" target="_blank">Add open graph social metadata-Twitter</a><br></li>
-  <li><a href="https://css-tricks.com/essential-meta-tags-social-images/" target="_blank">Essential meta tags for social media</a><br></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">The meta element</a><br></li>
-  <li><a href="https://ogp.me/" target="_blank">Open graph protocol</a><br></li>
-  <li><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" target="_blank">Using open graph protocol on websites</a><br></li>
-  Kli><a href="https://developers.facebook.com/docs/sharing/webmasters/" target="_blank">Meta OGP guide for webmasters</a><br></li>
-  <li><a href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html" target="_blank">Bootstrap with HTML</a><br></li>
-  <li><a href="https://getbootstrap.com/docs/5.2/examples/" target="_blank">Bootstrap Layout Examples</a></li>
+  <li><a href="https://www.dofactory.com/html/metatags" target="_blank">HTML meta tags</a>,<br></li>
+  <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/" target="_blank">Semantic elements</a>,<br></li>
+  <li><a href="https://www.instructables.com/Bare-Bones-Web-Page/" target="_blank">Simple bare bones HTML webpage</a>,<br></li>
+  <li><a href="https://www.vandelaydesign.com/newsletter-tutorial/" target="_blank">HTML5/CSS bare-bones newsletter template</a>,<br></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-add-twitter-card-and-open-graph-social-metadata-to-your-webpage-with-html" target="_blank">Add open graph social metadata-Twitter</a>,<br></li>
+  <li><a href="https://css-tricks.com/essential-meta-tags-social-images/" target="_blank">Essential meta tags for social media</a>,<br></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">The meta element</a>,<br></li>
+  <li><a href="https://ogp.me/" target="_blank">Open graph protocol</a>,<br></li>
+  <li><a href="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/" target="_blank">Using open graph protocol on websites</a>,<br></li>
+  Kli><a href="https://developers.facebook.com/docs/sharing/webmasters/" target="_blank">Meta OGP guide for webmasters</a>,<br></li>
+  <li><a href="https://www.bootstrapdash.com/blog/use-bootstrap-with-html" target="_blank">Bootstrap with HTML</a>, and<br></li>
+  <li><a href="https://getbootstrap.com/docs/5.2/examples/" target="_blank">Bootstrap Layout Examples</a>.</li>
 </ul>
 
 <h4>Forms and validation</h4>
@@ -3263,13 +3263,13 @@ and the <b>&lt;figcaption&gt;</b> is specified after it.
 only supports specific file types. These file types are:</p>
 
 <ul>
-  <li>.APNG -- Animated Portable Network Graphics<br><br></li>
-  <li>.AVIF -- AV1 Image Format<br><br></li>
-  <li>.GIF -- Graphics Interchange Format<br><br></li>
-  <li>.JPEG / .JPG -- Joint Photographic Expert Group image format<br><br></li>
-  <li> -- Portable Network Graphics<br><br></li>
-  <li>.SVG -- Scalable Vector Graphics<br><br></li>
-  <li>.WEBP -- Web Picture Format<br<<br></li>
+  <li>.APNG -- Animated Portable Network Graphics,<br><br></li>
+  <li>.AVIF -- AV1 Image Format,<br><br></li>
+  <li>.GIF -- Graphics Interchange Format,<br><br></li>
+  <li>.JPEG / .JPG -- Joint Photographic Expert Group image format,<br><br></li>
+  <li> -- Portable Network Graphics,<br><br></li>
+  <li>.SVG -- Scalable Vector Graphics, and<br><br></li>
+  <li>.WEBP -- Web Picture Format.<br<<br></li>
 </ul>
 
 <p>Images will be important as you build websites and ensuring they are accessible will provide a better user experience for all visitors.</p>
@@ -5813,11 +5813,11 @@ of grid-template-areas the values present will be the different names. 
 The process isn't prescriptive but these are the steps in general:
 
 <ul>
-  <li>Define the grid using display property<br></li>
-  <li>Set the height and width of the grid<br></li>
-  <li>Set the grid-template-areas with the appropriate name identifiers<br></li>
-  <li>Add the appropriate sizes for the rows inside the grid using grid-template-rows property<br></li>
-  <li>Add the appropriate sizes for the columns inside the grid using grid-template-columns property</li>
+  <li>Define the grid using display property,<br></li>
+  <li>Set the height and width of the grid,<br></li>
+  <li>Set the grid-template-areas with the appropriate name identifiers,<br></li>
+  <li>Add the appropriate sizes for the rows inside the grid using grid-template-rows property, and<br></li>
+  <li>Add the appropriate sizes for the columns inside the grid using grid-template-columns property.</li>
 </ul>
 
 But how exactly do you use these names and where do they come from? The
@@ -11007,7 +11007,7 @@ goal.</p>
 <ul>
   <li><p>&lt;meta name="format-detection" content="telephone=yes"/&gt; indicates 
     that telephone numbers should appear as hypertext links that can be clicked 
-	to make a phone call,</p></li>
+   to make a phone call,</p></li>
   <li><p>&lt;meta name="HandheldFriendly" content="true"/&gt; specifies that 
     the page can be properly visualized on mobile devices, and</p></li>
   <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt; 
