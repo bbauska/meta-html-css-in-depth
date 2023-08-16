@@ -11,7 +11,7 @@
       max-width: 100%
     }
     .image {
-      flex-basis: 40%
+      flex-basis: 40%;
     }
     .text {
       font-size: 20px;
@@ -19,6 +19,7 @@
     }
 * {
   box-sizing: border-box;
+  margin-left:10px;
 }
 
 .column {
@@ -50,17 +51,20 @@ p {
 }
 
 div {
-  float: left; }
+  float: left; 
+}
   
 .border {
   border-width: 1px;
   border-color: #778899;
-  border-style: solid; }
+  border-style: solid; 
+}
 
 h1  {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   text-align: center;
-  font-size: 21px; }
+  font-size: 21px; 
+}
   
 h2 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
@@ -68,44 +72,45 @@ h2 {
   font-size: 18px;
   text-align: left; 
   margin-right: 23px;
-  margin-left: 5px; }
+  margin-left: 5px; 
+}
   
 h3 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 17px;
-  }
+}
 
 h4 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 16px;
-  }
-
+}
 h5 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 15px;
   text-align: left;
-  margin-left: 5px; }
-
+  margin-left: 5px; 
+}
 h6 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 13px;
   text-align: left; 
-  margin-left: 5px; }
-
+  margin-left: 5px; 
+}
 h7 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 11px;
   text-align: left; 
-  margin-left: 5px; }
-    
+  margin-left: 5px; 
+}
 p {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 15px;
   text-align: left; 
-  margin-left: 5px; }
+  margin-left: 5px;
+}
 
 <!-- background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%) -->
 
