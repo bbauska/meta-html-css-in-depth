@@ -12,7 +12,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image001b.png"
-  width="20%"
+  width="192px;"
   alt="Coursera logo." />
 </p>
 <!-- width="1.549261811023622in" height="0.5in" -->
@@ -22,7 +22,7 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.webp?raw=true"
-  width="10%"
+  width="100px;"
   alt="Meta logo." />
 </p>
 <!-- width="1.0175437445319335in" height="0.5in" -->
@@ -126,7 +126,7 @@ But what does that mean?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.webp"
-  width="50%"
+  width="480px;"
   alt="Hypertext and Markup." />
 </p>
 <!-- width="5.0in" height="1.6068372703412073in" -->
@@ -694,7 +694,7 @@ But that&apos;s for later modules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image027.webp"
-  width="12%"
+  width="1.16in" height="3.0in"
   alt="Semantic HTML document structure." />
 </p>
 <!-- width="1.1618055555555555in" height="3.0in" -->
@@ -707,13 +707,15 @@ optimization of web pages.
 
 An important part of being a developer is not just the tools you use,
 such as your integrated development environment, but also the repository
-of knowledge and code templates you build up over time. In this module,
-I&apos;m going to introduce you to one of these templates, which will help
-you get set up quickly for building webpages. Let&apos;s open Visual Studio
-Code to go through the templates step-by-step. In the folder, we have
-<b><i>index.html</i></b> along with the JS folder and a CSS folder. Inside the
-JS folder, there&apos;s a file named <b><i>script.js</i></b>. There is no content in
-this file. It is added to this folder so that you can easily add
+of knowledge and code templates you build up over time.
+
+In this module, I&apos;m going to introduce you to one of these templates, which will help
+you get set up quickly for building webpages. 
+
+Let&apos;s open Visual Studio Code to go through the templates step-by-step. In 
+the folder, we have <b><i>index.html</i></b> along with the JS folder and a CSS 
+folder. Inside the JS folder, there&apos;s a file named <b><i>script.js</i></b>. 
+There is no content in this file. It is added to this folder so that you can easily add
 JavaScript code to the webpage. I recommend that you add any other
 JavaScript files to this folder too. Next, I&apos;ll open the CSS folder. In
 the folder there&apos;s a file named <b><i>styles.css</i></b>. Again, there is no
@@ -725,7 +727,7 @@ also to this folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image028.webp"
-  width="60%"
+  width="576px;"
   alt="Semantic HTML document structure." />
 </p>
 <!-- width="6.0in" height="3.4929483814523183in" -->
@@ -11018,4 +11020,4 @@ the end…
 
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h5>8-04-2023 at 7:06pm</h5>
+<h5>8-28-2023 at 4:50pm</h5>
