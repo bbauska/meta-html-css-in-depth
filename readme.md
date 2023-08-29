@@ -4303,7 +4303,7 @@ horizontal best-distributed between two rows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image103.webp"
-  width="25%"
+  width="200px;"
   alt="List of items as default raw modified by removing the flex direction." />
 </p>
 <!-- !(images/image103.webp){width="4.625in" height="1.5416666666666667in"} -->
@@ -4328,7 +4328,7 @@ inside the flex item box3 class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image104.webp"
-  width="47%"
+  width="200px;"
   alt="Different spacing of items in row display." />
 </p>
 <!-- (images/image104.webp){width="4.697916666666667in" height="1.84375in"} -->
@@ -4450,7 +4450,7 @@ Let&apos;s explore the three most common uses of flexbox is in CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image105.webp"
-  width="30%"
+  width="200px;"
   alt="Flex box search bar application." />
 </p>
 <!-- ![](images/image105.webp){width="3.0in" height="0.5715277777777777in"} -->
@@ -4467,7 +4467,7 @@ button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image106.webp"
-  width="65%"
+  width="200px;"
   alt="Navigation bar using flex with home, blog, menu and contact us." />
 </p>
 <!-- ![](images/image106.webp){width="6.5in" height="0.7138888888888889in"} -->
@@ -4480,7 +4480,7 @@ responsive on different devices.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image107.webp"
-  width="20%"
+  width="200px;"
   alt="Flex box image gallery example." />
 </p>
 <!-- ![](images/image107.webp){width="2.0in" height="1.6397517497812772in"} -->
@@ -4492,11 +4492,11 @@ the window. In the next few minutes, you will discover how to create
 these flexboxes to ensure a simple layout.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. first example flexbox file (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. head with four options (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image108.webp"
-  width="65%"
+  width="600px;"
   alt="First example flexbox file.  Create search bar, add reference to css in head." />
 </p>
 <!-- ![](images/image108.webp){width="6.5in" height="3.2194444444444446in"} -->
@@ -4514,7 +4514,7 @@ box where I typed my search, and finally the Submit button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image109.webp"
-  width="30%"
+  width="300px;"
   alt="." />
 </p>
 <!-- ![](images/image109.webp){width="3.1875in" height="4.958333333333333in"} -->
@@ -4559,7 +4559,7 @@ menus.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image110.webp"
-  width="34%"
+  width="300px;"
   alt="Unordered list with four items in a container class." />
 </p>
 <!-- ![](images/image110.webp){width="3.4166666666666665in" height="1.5345330271216098in"} -->
@@ -4570,7 +4570,7 @@ In this case, I created an unordered list that consists of four items.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image111.webp"
-  width="30%"
+  width="300px;"
   alt="Star (*) or universal selector applies rule to every element in CSS code." />
 </p>
 <!-- ![](images/image111.webp){width="3.0729166666666665in" height="4.729166666666667in"} -->
@@ -4611,7 +4611,7 @@ gallery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image112.webp"
-  width="30%"
+  width="300px;"
   alt="Div element with class container with six images." />
 </p>
 <!-- ![](images/image112.webp){width="6.5in" height="3.2416666666666667in"} -->
@@ -4637,7 +4637,7 @@ Next, let&apos;s focus on the container.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image113.webp"
-  width="30%"
+  width="300px;"
   alt="Container style." />
 </p>
 <!-- ![](images/image113.webp){width="3.375in" height="4.052083333333333in"} -->
@@ -4696,7 +4696,7 @@ turn has the following three sub properties.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image114.webp"
-  width="30%"
+  width="300px;"
   alt="flex-grow, flex-shrink and flex-basis." />
 </p>
 <!-- ![](images/image114.webp){width="3.0in" height="0.25416666666666665in"} -->
@@ -4711,7 +4711,7 @@ And flex basis, which specifies the initial length of the flexible item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image115.webp"
-  width="50%"
+  width="500px;"
   alt="flex property." />
 </p>
 <!-- ![](images/image115.webp){width="5.0in" height="0.9262828083989502in"} -->
@@ -4733,7 +4733,7 @@ I&apos;ve been asked to write code to make this possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image116.webp"
-  width="50%"
+  width="500px;"
   alt="flexcharts.html." />
 </p>
 <!-- ![](images/image116.webp){width="5.125in" height="4.916666666666667in"} -->
@@ -4760,7 +4760,7 @@ and then I press enter.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image117.webp"
-  width="65%"
+  width="500px;"
   alt="Class container: class dish." />
 </p>
 <!-- ![](images/image117.webp){width="6.5in" height="4.179861111111111in"} -->
@@ -4773,7 +4773,7 @@ paste this item twice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image118.webp"
-  width="65%"
+  width="500px;"
   alt="Class name for each dish item in flexcharts.html." />
 </p>
 <!-- ![](images/image118.webp){width="6.5in" height="4.179861111111111in"} -->
@@ -4801,7 +4801,7 @@ of each item.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image119.webp"
-  width="65%"
+  width="500px;"
   alt="flexchart.html adding style to head." />
 </p>
 <!-- ![](images/image119.webp){width="6.5in" height="3.7784722222222222in"} -->
@@ -4857,12 +4857,12 @@ The output preferred dishes and the percentage is 35, 50 and 15 appear
 on my screen, to improve the visuals of my chart and make it easier to
 interpret.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 120. flexchart, flex-basis, preferred dishes (xxx) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image120.webp"
-  width="65%"
-  alt="." />
+  width="500px;"
+  alt="Flexchart, flex-basis, and preferred dishes." />
 </p>
 <!-- ![](images/image120.webp){width="6.5in" height="3.7784722222222222in"} -->
 
@@ -4873,7 +4873,7 @@ my CSS file I press enter twice and type dot pasta.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image121.webp"
-  width="40%"
+  width="500px;"
   alt="." />
 </p>
 <!-- ![](images/image121.webp){width="4.0in" height="1.0751706036745408in"} -->
@@ -4895,7 +4895,7 @@ page, the flex adjusts itself while the label remains unchanged.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image122.webp"
-  width="63%"
+  width="500px;"
   alt="flexcharts.html and flexcharts.css." />
 </p>
 <!-- ![](images/image122.webp){width="6.333333333333333in" height="5.041666666666667in"} -->
@@ -4908,11 +4908,11 @@ containers for male and female and then I set the flex spaces for each
 of them.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 123. flexchart.html preferred dishes (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image123.webp"
-  width="30%"
+  width="300px;"
   alt="." />
 </p>
 <!-- ![](images/image123.webp){width="3.0in" height="3.6488549868766404in"} -->
@@ -4937,7 +4937,7 @@ stacked on top of each other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image124.webp"
-  width="40%"
+  width="300px;"
   alt="." />
 </p>
 <!-- ![](images/image124.webp){width="4.09375in" height="3.0208333333333335in"} -->
@@ -4950,7 +4950,7 @@ at a few more examples, it will start making sense.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image125.webp"
-  width="65%"
+  width="300px;"
   alt="." />
 </p>
 <!-- ![](images/image125.webp){width="6.5in" height="3.7527777777777778in"} -->
@@ -4970,7 +4970,7 @@ and allows you to see and understand trends and patterns.
 In this section you&apos;ve explored ways to create bar charts using flex
 box.
 
-CSS grids
+### CSS grids
 
 CSS Grid layouts are important when it comes to designing a good
 webpage.
