@@ -3198,7 +3198,7 @@ video element.
 </p>
 <!-- ![](images/image086.webp){width="6.0in" height="3.3833333333333333in"} -->
 
-Save the file again and opened the page.  And everything is working as expected.
+Save the file again and open the page.  And everything is working as expected.
 
 The about page is a great addition to the little Lemon website for
 customers wanting to learn more about the business.  Using embedded players is a good way to make 
