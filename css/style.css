@@ -19,7 +19,7 @@
     }
 * {
   box-sizing: border-box;
-  margin-left:10px;
+  margin-left:15px;
 }
 
 .column {
@@ -43,11 +43,7 @@
 }
 
 body {
-  font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
-}
-
-p {
-  margin: 15px;
+  font-family: Bahnschrift, "Avenir Next", Calibri, Verdana, sans-serif;
 }
 
 div {
@@ -65,7 +61,6 @@ h1  {
   text-align: center;
   font-size: 21px; 
 }
-  
 h2 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   color: darkgreen;
@@ -74,12 +69,10 @@ h2 {
   margin-right: 23px;
   margin-left: 5px; 
 }
-  
 h3 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 17px;
 }
-
 h4 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 16px;
@@ -105,19 +98,7 @@ h7 {
   text-align: left; 
   margin-left: 5px; 
 }
-p {
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 15px;
-  text-align: left; 
-  margin-left: 5px;
-}
 
-<!-- background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%) -->
-
-/* Multi-position color stop: A gradient tilted 45 degrees,
-   with a red bottom-left half and a blue top-right half,
-   with a hard line where the gradient changes from red to blue */
-   
 background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
 
 body {
@@ -149,38 +130,21 @@ body {
   background-color: #555;  /* very dark gray */
 }
 
-.dropbtn {
-  background-color: #04006D;  /* very dark blue */
-  color: white;
-  padding: 11px;
-  font-size: 11px;
-  border: none;
+ul li {
+  padding: 10px;
+  line-height:110%;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
+}
+ol li {
+  padding: 10px;
+  line-height:110%;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+p { 
+  font-size: 14.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left;
+  margin-left: 15px;  /* 10px */
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ccc;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #398e41;}
 
