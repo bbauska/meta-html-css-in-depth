@@ -7392,7 +7392,7 @@ as placeholder text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image195.webp"
-  width="30%"
+  style="width:30%"
   alt="." />
 </p>
 <!-- ![](images/image195){width="3.0in" height="1.9930074365704287in"} -->
@@ -7418,7 +7418,7 @@ the shadow is set to black.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image196.webp"
-  width="60%"
+  style="width:60%"
   alt="." />
 </p>
 <!-- ![](images/image196){width="6.0in" height="3.038096019247594in"} -->
@@ -7434,7 +7434,7 @@ The text looks like regular blocks of texts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image197.webp"
-  width="60%"
+  style="width:60%"
   alt="." />
 </p>
 <!-- ![](images/image197){width="6.0in" height="3.038096019247594in"} -->
@@ -7583,7 +7583,7 @@ was good enough to integrate it into online experiences.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image198.webp"
-  width="50%"
+  style="width:50%"
   alt="." />
 </p>
 <!-- ![](images/image198){width="5.0in" height="0.9904757217847769in"} -->
@@ -7668,7 +7668,7 @@ visit the pros and cons of adding effects on web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image199.webp"
-  width="50%"
+  style="width:50%"
   alt="." />
 </p>
 <!-- ![](images/image199){width="5.0in" height="1.5174606299212599in"} -->
@@ -7695,7 +7695,7 @@ especially used to create intuitive navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image200.webp"
-  width="50%"
+  style="width:50%"
   alt="." />
 </p>
 <!-- ![](images/image200){width="3.0in" height="3.1425339020122482in"} -->
@@ -7728,7 +7728,7 @@ interesting effects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image201.webp"
-  width="50%"
+  style="width:50%"
   alt="." />
 </p>
 <!-- ![](images/image201){width="5.0in" height="3.6455030621172355in"} -->
@@ -7760,7 +7760,7 @@ ellipsis.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image202.webp"
-  width="40%"
+  style="width:40%"
   alt="." />
 </p>
 <!-- ![](images/image202){width="4.0in" height="0.7689818460192476in"} -->
@@ -7771,7 +7771,7 @@ An ellipsis is three dots that represent the texts that is clipped.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image203.webp"
-  width="40%"
+  style="width:40%"
   alt="." />
 </p>
 <!-- ![](images/image203){width="4.0in" height="0.7689818460192476in"} -->
@@ -7794,7 +7794,7 @@ If I hover over with the cursor, the clipped text is displayed.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image204.webp"
-  width="40%"
+  style="width:40%"
   alt="." />
 </p>
 <!-- ![](images/image204){width="4.0in" height="4.245989720034996in"} -->
@@ -7813,7 +7813,7 @@ Then in the CSS code, I set the writing mode property to be vertical-rl.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image205.webp"
-  width="40%"
+  style="width:40%"
   alt="." />
 </p>
 <!-- ![](images/image205){width="4.0in" height="4.162047244094488in"} -->
@@ -7837,7 +7837,7 @@ In the next two examples, I will add text effects using simple CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image206.webp"
-  width="20%"
+  style="width:20%"
   alt="." />
 </p>
 <!-- ![](images/image206){width="2.40625in" height="0.8229166666666666in"} -->
@@ -7855,7 +7855,7 @@ The third is the blur radius, and the fourth is the shadow color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image207.webp"
-  width="50%"
+  style="width:50%"
   alt="." />
 </p>
 <!-- ![](images/image207){width="5.0in" height="2.854640201224847in"} -->
@@ -7871,7 +7871,7 @@ that class.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image208.webp"
-  width="30%"
+  style="width:30%"
   alt="." />
 </p>
 <!-- ![](images/image208){width="3.0in" height="1.78125in"} -->
@@ -7964,7 +7964,7 @@ properties.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image209.webp"
-  width="40%"
+  style="width:40%"
   alt="." />
 </p>
 <!-- ![](images/image209){width="4.0in" height="1.5043383639545056in"} -->
@@ -8126,7 +8126,7 @@ the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image217.webp"
-  width="30%"
+  style="width:30%"
   alt="Green box or square." />
 <!-- ![](images/image217){width="5.0in" height="2.6142858705161856in"} -->
 
@@ -8167,7 +8167,7 @@ Next will only happen when I hover over the box.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image218.webp"
-  width="30%"
+  style="width:30%"
   alt="Transformed Property." />
 
 <!-- ![](images/image218){width="5.0in" height="2.6142858705161856in"} -->
@@ -8234,7 +8234,7 @@ But to control the execution of the steps of the animation, they use the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image219.webp"
-  width="30%"
+  style="width:30%"
   alt="Synax of the Keyframe rule." />
 <!-- ![](images/image219){width="4.0in" height="1.2076192038495188in"} -->
 
@@ -8250,7 +8250,7 @@ that keyframe.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image220.webp"
-  width="30%"
+  style="width:30%"
   alt="Keyframe rule." />
 <!-- width="4.0in" height="1.856084864391951in"} -->
 
@@ -8262,7 +8262,7 @@ The animation name links the animation to a specific keyframe rule.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image221.webp"
-  width="30%"
+  style="width:30%"
   alt="Animation property." />
  <!-- ![](images/image221){width="4.0in" height="1.7866666666666666in"} -->
 
@@ -8281,7 +8281,7 @@ However, each of the sub properties can be listed individually as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image222.webp"
-  width="30%"
+  style="width:30%"
   alt="Clock example with class hour and minute hands." />
 </p>
 <!-- ![](images/image222){width="3.0in" height="2.4266666666666667in"} -->
@@ -8305,7 +8305,7 @@ now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image223.webp"
-  width="30%"
+  style="width:30%"
   alt="." />
 </p>
 <!-- ![](images/image223){width="3.0in" height="1.4677099737532808in"} -->
@@ -8340,7 +8340,7 @@ the default values.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image224.webp"
-  width="30%"
+  style="width:30%"
   alt="CSS keyframe cycle." />
 </p>
 <!-- ![](images/image224){width="3.0in" height="1.4677099737532808in"} -->
@@ -8603,7 +8603,7 @@ named styles.css.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image229.webp"
-  width="40%"
+  style="width:40%"
   alt="Define bouncing ball div id=ball in html." />
 </p>
 <!-- ![](images/image229){width="4.0in" height="2.4507655293088364in"} -->
@@ -8619,7 +8619,7 @@ ball.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image230.webp"
-  width="40%"
+  style="width:40%"
   alt="Adding keyframe definition to CSS." />
 </p>
 <!-- ![](images/image230){width="4.0in" height="3.6355555555555554in"} -->
@@ -8671,7 +8671,7 @@ color of the circle.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image231.webp"
-  width="15%"
+  stye="width:15%"
   alt="Change color of ball." />
 </p>
 <!-- ![](images/image231){width="1.5in" height="1.3216458880139983in"} -->
@@ -8686,7 +8686,7 @@ Now to connect the animation to the element, I open styles.css again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image232.webp"
-  width="35%"
+  style="width:35%"
   alt="Styles.css for bouncing ball-transform command." />
 </p>
 <!-- ![](images/image232){width="3.5in" height="3.548386920384952in"} -->
@@ -9635,7 +9635,7 @@ properties to you.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image233.webp"
-  width="10%"
+  style="width:10%"
   alt="Hovering Icon." />
 </p>
 <!-- !(images/image233){width="1.0in" height="0.8010444006999126in"} -->
@@ -9644,7 +9644,7 @@ properties to you.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image234.webp"
-  width="4%"
+  style="width:4%"
   alt="Targetting Icon." />
 </p>
 <!-- !(images/image234){width="0.4in" height="0.32257983377077865in"} -->
@@ -9658,7 +9658,7 @@ then selecting an option from the drop-down list that appears.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image235.webp"
-  width="50%"
+  style="width:50%"
   alt="Display of submenu from copy option." />
 </p>
 <!-- !(images/image235){width="5.0in" height="2.9711570428696414in"} -->
@@ -9673,7 +9673,7 @@ option from the dropdown list that appears.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image236.webp"
-  width="50%"
+  style="width:50%"
   alt="Break point on Submenu options." />
 </p>
 <!-- ![Break on Submenu options](images/image236){width="5.0in" height="2.7334055118110236in"} -->
@@ -9689,7 +9689,7 @@ bar:
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image237.webp"
-  width="60%"
+  style="width:60%"
   alt="Horizontal bar and element families." />
 </p>
 <!-- ![Horizontal bar and element families](images/image237){width="6.0in" height="0.39473206474190725in"} -->
