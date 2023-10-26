@@ -19,7 +19,6 @@
     }
 * {
   box-sizing: border-box;
-  margin-left:15px;
 }
 
 .column {
@@ -67,7 +66,7 @@ h2 {
   font-size: 18px;
   text-align: left; 
   margin-right: 23px;
-  margin-left: 5px; 
+  margin-left: 15px;
 }
 h3 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
@@ -82,21 +81,21 @@ h5 {
   color: black;
   font-size: 15px;
   text-align: left;
-  margin-left: 5px; 
+  margin-left: 15px; 
 }
 h6 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 13px;
   text-align: left; 
-  margin-left: 5px; 
+  margin-left: 15px; 
 }
 h7 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
   font-size: 11px;
   text-align: left; 
-  margin-left: 5px; 
+  margin-left: 15px; 
 }
 
 background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
@@ -105,6 +104,7 @@ body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 1.2em;
   text-align: left;
+  margin-left: 15px;
   padding: 10px
   background-color: #eeeeee;  /* very light gray */
   color: #000000;  /* black */
