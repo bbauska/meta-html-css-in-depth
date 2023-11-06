@@ -40,10 +40,12 @@ h2 {
 h3 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 17px;
+  margin-left: 15px;
 }
 h4 {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   font-size: 16px;
+  margin-left: 15px;
 }
 h5 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
@@ -117,6 +119,8 @@ p {
 }
 
 img {
+  display: block;
+  margin: 0 auto; 
   max-width: 100%
 }
   .image {
@@ -126,10 +130,10 @@ img {
     font-size: 20px;
     padding-left: 20px;
   }
-img.displayed {
-  display: block;
-  margin: 0 auto; 
-}
+  .displayed {
+    display: block;
+    margin: 0 auto; 
+  }
   .border {
     border-width: 1px;
     border-color: #778899;  /* dark grayish blue */
