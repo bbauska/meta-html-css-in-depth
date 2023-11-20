@@ -10,8 +10,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="http://brians-resume.bauska.org" />
 <meta name="date" content="Monday, April 11th, 2023"/>
-<meta name="revised" content="Thursday, August 10th, 2023, 1:48 pm" />
+<!-- <meta name="revised" content="Thursday, August 10th, 2023, 1:48 pm" /> -->
+<meta name="revised" content="Monday, November 20th, 2023, 10:53 am" />
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta name="title" content="Meta HTML/CSS in Depth"/>
 <meta name="description" content="Meta Coursera in depth description and educational source.  Sponsored by Meta.  Taught by Coursera.  HTML and CSS in Depth."/>
 
 <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
@@ -6040,7 +6042,7 @@ guidelines to identify them as important tips.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image189.webp?raw=true"
-  alt="Selection of texts preceding and following a statement" />
+  alt="Selection of texts preceding and following a statement"
   style="width:35%;" />
 
 <p>The “content” property is where the text for the guidelines goes. The
@@ -6071,7 +6073,7 @@ already opened.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image190.webp?raw=true"
-  alt="Home and Whoi We Are tags."
+  alt="Home and Who We Are tags."
   style="width:35%;" />
 
 <p>For instance, a HTML file can have two a tags, each with its own href that links to a different 
@@ -6081,7 +6083,7 @@ page of a website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image191.webp?raw=true"
-  alt="CSS for Home and Who We Are."
+  alt="CSS for Home and Who We Are tag."
   style="width:35%;" />
   
 <p>To give the links their initial color, you can use the link pseudo-class selector, and 
@@ -6103,19 +6105,17 @@ need to follow when writing pseudo-class rules.</p>
   alt="Link, Visited, Hover, and Active."
   style="width:15%;" />
 
-<p>LVHA stands for link, visited, hover, active.
-So always apply pseudo-class styles in the correct order.
-First link, then visited, next hover, and lastly active.
-Now that you know more about web-link states, let's explore how to
-use the link, visited, hover, and active pseudo-classes.
-Additionally, you will learn two more effects that you can create
-with the hover pseudo-class.</p>
+<p>LVHA stands for link, visited, hover, active. Always apply pseudo-class styles 
+in the correct order. First link, then visited, next hover, and lastly active. 
+Now that you know more about web-link states, let's explore how to use the link, 
+visited, hover, and active pseudo-classes. Additionally, you will learn two more 
+effects that you can create with the hover pseudo-class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 193. pseudo_links.html with tags (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image193.webp?raw=true"
-  alt="."
+  alt="pseudo_links.html with tags."
   style="width:50%;" />
 
 <p>In the pseudo_links.html file, I added three tags: a heading tag,
@@ -6127,18 +6127,17 @@ and the first paragraph tag has a link to their Instagram page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image194.webp?raw=true"
-  alt="."
+  alt="CSS file pseudo_links.css."
   style="width:25%;" />
 
-<p>Now I go to my CSS code by clicking on the pseudo_links.css file at the top of my screen.</p>
-<p>In this file, I already added properties related to the
-pseudo-classes we discussed previously, namely link, visited, hover, and
-active.</p>
+<p>Now I go to my CSS code by clicking on the pseudo_links.css file at the top of 
+my screen.</p>
+<p>In this file, I already added properties related to the pseudo-classes we discussed 
+previously, namely link, visited, hover, and active.</p>
 <p>To display the output of this code, I moved back to my HTML file and
 click the "View" icon at the top right of my screen.</p>
-<p>By default, the link to the Little Lemon Instagram page displays in a
-blue color because I set it to blue with the link pseudo-class in the
-CSS code.</p>
+<p>By default, the link to the Little Lemon Instagram page displays in a blue color 
+because I set it to blue with the link pseudo-class in the CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. pseudo-links example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6162,7 +6161,6 @@ violet because I defined it to do that with the visited
 pseudo-class.</p>
 <p>I'm now going to demonstrate how you can use the pseudo-class hover.</p>
 <p>To do this, I use the pseudoshadow.html file I created previously.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 196. hover effect with pseudo-shadow (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6247,21 +6245,23 @@ hover effect.</p>
 <tr class="even">
 <td>Class</td>
 <td>.class</td>
-<td><strong>.alpha { }</strong></td>
+<td><p><strong>.alpha { }</strong></p></td>
 </tr>
 <tr class="odd">
 <td>ID</td>
 <td>#id</td>
-<td><strong>#alpha { }</strong></td>
+<td><p><strong>#alpha { }</strong></p></td>
 </tr>
 <tr class="even">
 <td>Universal</td>
 <td>*</td>
-<td><strong>* { }</strong></td>
+<td><p><strong>* { }</strong></p></td>
 </tr>
 </tbody>
 </table>
-<h4>Variations of simple selectors</h4>
+
+<h4>Variations of simple selectors:</h4>
+
 <table>
 <colgroup>
 <col style="width: 19%" />
@@ -6305,7 +6305,7 @@ hover effect.</p>
 </tbody>
 </table>
 
-<h4>Descendant selectors/combinators</h4>
+<h4>Descendant selectors/combinators:</h4>
 
 <table>
 <colgroup>
@@ -6349,7 +6349,9 @@ hover effect.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="attribute-selectors">Attribute selectors</h4>
+
+<h4 id="attribute-selectors">Attribute selectors:</h4>
+
 <table>
 <colgroup>
 <col style="width: 24%" />
@@ -6567,7 +6569,9 @@ element</td>
 </tr>
 </tbody>
 </table>
-<h4 id="pseudo-element-selectors">Pseudo-element selectors</h4>
+
+<h4 id="pseudo-element-selectors">Pseudo-element selectors:</h4>
+
 <table>
 <colgroup>
 <col style="width: 19%" />
@@ -9920,7 +9924,7 @@ increasingly specific styling to various elements.</p>
 <p>the end...</p>
 
 <footer>
-  <h6>last updated 11/20/23 1:49am</h6>
+  <h6>last updated 11/20/23 10:49am</h6>
 </footer>
 
 </body>
