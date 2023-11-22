@@ -72,6 +72,7 @@ h7 {
 background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
 
 body {
+  width: 60%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 1.2em;
   text-align: left;
