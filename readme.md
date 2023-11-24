@@ -1,12 +1,12 @@
 ---
-meta-html-css-in-depth: "meta & Coursera's HTML & CSS in Depth"
+meta-html-css-in-depth: "Meta/Coursera's HTML & CSS in Depth"
 ---
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth - meta.bauska.site ~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1 align="center">HTML &amp; CSS in Depth</h1>
-<h6 align="center">(Coursera/meta)</h6>
+<h6 align="center">(Coursera/Meta)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -383,7 +383,7 @@ the semantics of the page.
 I&apos;ve set up my basic html document structure in a file named <i>blog.html</i>. I&apos;ll 
 start off by adding my basic semantic structure.
 
-First, I add the <em>header<em> element. Followed by the <em>nav</em> element. Then 
+First, I add the <em>header</em> element. Followed by the <em>nav</em> element. Then 
 the <em>main</em> element. Lastly, the <em>footer</em> element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
