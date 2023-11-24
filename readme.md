@@ -1,5 +1,5 @@
 ---
-meta-html-css-in-depth: "HTML & CSS in Depth"
+meta-html-css-in-depth: "meta & Coursera's HTML & CSS in Depth"
 ---
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
