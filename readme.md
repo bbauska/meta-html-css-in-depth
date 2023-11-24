@@ -9,7 +9,6 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 <h6 align="center">(Coursera/meta)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image001b.png"
   width="192px;"
@@ -19,7 +18,6 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image002.webp?raw=true"
   width="100px;"
@@ -31,15 +29,14 @@ meta-html-css-in-depth: "HTML & CSS in Depth"
 
 <h4>Prerequisites</h4>
 
-To take this course, you don&apos;t need any developer experience, but you
-must be eager to get started with coding.
+To take this course, you don&apos;t need any developer experience, but you must 
+be eager to get started with coding.
 
 <h2>Module 1</h2>
 
-In the first module, you will start with an introduction to the course
-and gain insight into what your career path as an HTML and CSS developer
-might look like. You will also receive tips on how to take this course
-successfully. 
+In the first module, you will start with an introduction to the course and gain 
+insight into what your career path as an HTML and CSS developer might look like. 
+You will also receive tips on how to take this course successfully. 
 
 Then, you&apos;ll move on to <i>semantic tags</i> and the importance
 of taking a structured approach to creating a well-formed web page.
@@ -52,7 +49,7 @@ Following this section, you will learn about <i>user input and forms</i> and
 you will create and test a form by yourself.
 
 In the final part of the module (1), you will learn about <i>media elements</i> 
-and you&apos;ll learn how to embed video and audio on a web page.
+and how to embed video and audio on a web page.
 
 After completing this module (1), you should be able to:
 
@@ -76,15 +73,15 @@ web page.
 Next, you will learn about <i>CSS selectors</i> which correspond to
 specific elements or element groups in an HTML document. 
 
-In this section, you also learn about <i>pseudo-class selectors</i> 
-that you can use to improve the interactivity of your web pages without 
-having to add overly advanced styling.
+In this section, you also learn about <i>pseudo-class selectors</i> that you can 
+use to improve the interactivity of your web pages without having to add overly 
+advanced styling.
 
-In this module, you will also learn about <i>keyframes,
-animations and effects</i> in CSS. 
+In this module, you will also learn about <i>keyframes, animations and effects</i> 
+in CSS. 
 
-The final part of this module is about how to use <i>browser developer 
-tools</i> to assist with debugging and resolving HTML and CSS issues.
+The final part of this module is about how to use <i>browser developer tools</i> 
+to assist with debugging and resolving HTML and CSS issues.
 
 After completing this module (2), you should be able to:
 
@@ -99,31 +96,28 @@ After completing this module (2), you should be able to:
 
 <h2>Module 3</h2>
 
-In this last module (3), you will have an opportunity to recap what you
-learned in the course and put it into practice by creating a home page
-for a client persona.
+In this last module (3), you will have an opportunity to recap what you learned 
+in the course and put it into practice by creating a home page for a client persona.
 
 After completing this module (3), you should be able to:
+
 <ul>
-  <li>Apply the skills you learned in this course to introduce more
-    advanced styling into your portfolio.</li>
+  <li>Apply the skills you learned in this course to introduce more advanced styling 
+    into your portfolio.</li>
 </ul>
 
-<h2>Course Introduction</h2>
+<h1 id="Intro">Course Introduction</h1>
 
-Perhaps you know a little about HTML and CSS from another course you
-did, or perhaps you don&apos;t know much at all.
-
-Either way, a quick summary will be useful.
+Perhaps you know a little about HTML and CSS from another course you did, or perhaps 
+you don&apos;t know much at all. Either way, a quick summary will be useful.
 
 Let&apos;s explore some basic HTML and CSS principles and practices.
 
-HTML stands for Hypertext Markup Language.
+HTML stands for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage.
 
 But what does that mean?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image003.webp"
   width="480px;"
@@ -135,8 +129,7 @@ Hypertext is text which contains links to other text.
 
 Markup refers to tags and elements used within a document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image004.webp"
   width="65%"
@@ -144,39 +137,36 @@ Markup refers to tags and elements used within a document.
 </p>
 <!-- width="5.0in" height="1.6068350831146108in" -->
 
-HTML elements with their opening and closing tags in angle brackets make
-up an HTML document.
-
-These elements form the structure of a webpage and describe what to
-display to the web browser.
-
-When it comes to HTML, it&apos;s important to know about the purpose of HTML
-in the web browser.  The use of HTML tags and correct syntax, and how HTML elements are used
-in a web document.
+HTML elements with their opening and closing tags in angle brackets make up an 
+HTML document. These elements form the structure of a webpage and describe what 
+to display to the web browser. When it comes to HTML, it&apos;s important to know 
+about the purpose of HTML in the web browser.  The use of HTML tags and correct 
+syntax, and how HTML elements are used in a web document. 
 
 But what can you do with HTML?  You can add images to a web page with HTML code.
 You can use it to display data in tables, and you can build forms with a
 wide range of inputs.  Also, using the correct HTML structure and appropriate 
 elements as a foundation is an essential part of building accessible websites.
-HTML can assist in ensuring web accessibility by supporting the
-technology people with disabilities use to interact with and understand
-websites.
 
-Another important concept to know about when you&apos;re talking about HTML
-is the Document Object Model or DOM.  Users need to be able to interact with 
-elements on a web page.  This means that HTML document must be represented in 
-a way that JavaScript code can query and update it.  That&apos;s the function 
-of the DOM.  It&apos;s a model of the objects in your HTML file.  Web developers 
-interact with the DOM through JavaScript to update content, set up events and 
-animate HTML elements.
+HTML can assist in ensuring web accessibility by supporting the technology people 
+with disabilities use to interact with and understand websites. Another important 
+concept to know about when you&apos;re talking about HTML is the Document Object 
+Model or DOM.  
 
-Now that you&apos;ve covered the basics of HTML, let&apos;s move on to CSS or
-Cascading Style Sheets.  If HTML is the frame and structure of a building, then 
-CSS is the paint, wallpaper, fixtures, and overall style.  CSS tells the web browser 
-how to display HTML elements on screen.
+Users need to be able to interact with elements on a web page.  This means that 
+HTML document must be represented in a way that JavaScript code can query and update 
+it.  That&apos;s the function of the DOM.  It&apos;s a model of the objects in your 
+HTML file.  
+
+Web developers interact with the DOM through JavaScript to update content, set up 
+events and animate HTML elements. Now that you&apos;ve covered the basics of HTML, 
+let&apos;s move on to CSS or Cascading Style Sheets.
+
+If HTML is the frame and structure of a building, then CSS is the paint, wallpaper, 
+fixtures, and overall style.  CSS tells the web browser how to display HTML elements 
+on screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 05. style, box model and document flow (04) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.webp"
   width="60%"
@@ -185,37 +175,36 @@ how to display HTML elements on screen.
 <!-- width="5.0in" height="1.6068372703412073in" -->
 
 You use CSS to;
-  - style elements within an HTML document,
-  - create an appealing layout for your webpage using the box model
-  - and arrange page elements using normal document flow.
+  - Style elements within an HTML document,
+  - Create an appealing layout for your webpage using the box model, and
+  - Arrange page elements using normal document flow.
 
-That was your HTML and CSS refresher.  Now get ready to dive deeper into 
-learning more about these two topics.
+That was your HTML and CSS refresher.  Now get ready to dive deeper into learning 
+more about these two topics.
 
 <h4>Semantic tags and why we need them</h4>
 
-By now you know that HTML describes the content of a web page.
-But how do you describe the meaning of a web page?
-To understand this in a real-world context, think of buttons in an
-elevator.  The vertical arrangement of buttons isn&apos;t enough for someone to
-understand their meaning.  To convey the meaning or semantics of the button, 
-numbers are added so that people know which button will take them to which floor.
+By now you know that HTML describes the content of a web page. But how do you describe 
+the meaning of a web page? 
 
-When you write HTML it&apos;s good practice to semantically describe the
-content.  This allows search engines and accessibility software such as screen
-readers to understand the contents of a page, fortunately you can do
-this by using some basic HTML tags.
+To understand this in a real-world context, think of buttons in an elevator. The 
+vertical arrangement of buttons isn&apos;t enough for someone to understand their 
+meaning.  To convey the meaning or semantics of the button, numbers are added so 
+that people know which button will take them to which floor.
 
-For example, using a heading tags such as H1 describes that the content
-is a heading.  Similarly, the UL and OL tags describe lists.
-However, there are many more semantic HTML elements available to you as
-a developer.
+When you write HTML it&apos;s good practice to semantically describe the content.  
+This allows search engines and accessibility software such as screen readers to 
+understand the contents of a page, fortunately you can do this by using some basic 
+HTML tags.
 
-In this report I will share a structured approach you can take to make
-sure that you create a well-formed web page.
+For example, using a heading tag such as H1 describes that the content is a heading.  
+Similarly, the UL and OL tags describe lists. However, there are many more semantic 
+HTML elements available to you as a developer.
+
+In this next module I will share a structured approach you can take to make sure 
+that you create a well-formed web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 06. basic html page structure, again (05) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.webp"
   width="50%"
@@ -229,8 +218,7 @@ head and body.
 Inside the body tag you can lay out the website with very semantic tags
 to describe each of the sections.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image007.webp"
   width="50%"
@@ -241,8 +229,7 @@ to describe each of the sections.
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 08. template w/header, main and footer (06) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 08. template w/header, main and footer (05) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image008.webp"
   width="50%"
@@ -250,17 +237,15 @@ using the header, main and footer semantic HTML tags.
 </p>
 <!-- width="5.0in" height="2.370726159230096in" -->
 
-For example, suppose you lay out your page with a <b>header section</b> that
-contains some company logo and navigation links.
+For example, suppose you lay out your page with a <b>header section</b> that contains 
+some company logo and navigation links.
 
 Then a <b>main section</b> contains sections and articles.
 
 Finally, a <b>footer section</b> contains contact information and social media
 links.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image009.webp"
   width="50%"
@@ -274,8 +259,7 @@ semantically using the <b>Nav tag</b>.
 Depending on how web pages designed the Nav element is often placed
 after the header element and the header element is used for logos.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image010.webp"
   width="50%"
@@ -291,18 +275,13 @@ Next is the main content of a web page.
 The two key semantic elements for your main content are the <b>article and
 section elements</b>.
 
-First let&apos;s examine the article element.
-
-The HTML specification states that according to the World Wide Web
-Consortium&apos;s website, the article element indicates content which
-represents a complete.
-
-Or self-contained composition in a document page application or site
-that is independently distributable.
-
-That&apos;s quite a mouthful.
+First let&apos;s examine the article element. The HTML specification states that 
+according to the World Wide Web Consortium&apos;s website, the article element 
+indicates content which represents a complete. Or self-contained composition in 
+a document page application or site that is independently distributable. That&apos;s 
+quite a mouthful.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper icon/image (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image011.webp"
@@ -311,78 +290,57 @@ That&apos;s quite a mouthful.
 </p>
 <!-- width="1.5in" height="1.9452449693788276in" -->
 
-It may help to think of a page in a newspaper.
+It may help to think of a page in a newspaper. There are many articles on the page 
+and you can cut out the individual articles with scissors if needed. The articles 
+you can remove are the article element.
 
-There are many articles on the page and you can cut out the individual
-articles with scissors if needed.
+Examples; forum post, magazine or newspaper article, a blog entry, user submitted 
+comment, interactive widget or gadget, or any independent item of content.
 
-The articles you can remove are the article element.
-
-Examples; forum post, magazine or newspaper article, a blog entry, user
-submitted comment, interactive widget or gadget, or any independent item
-of content.
-
-Let&apos;s examine how the article element is used say you are developing a
-blog about your summer holiday.
-
-It&apos;s good practice to contain the blog post content inside of the
-article element because it&apos;s a complete self-contained composition on a
-web page.
+Let&apos;s examine how the article element is used say you are developing a blog 
+about your summer holiday. It&apos;s good practice to contain the blog post content 
+inside of the article element because it&apos;s a complete self-contained composition 
+on a web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image012.webp"
-  width="40%"
+  width="35%"
   alt="Article element." />
 </p>
 <!-- width="4.0in" height="2.4813560804899386in" -->
 
-You should place the article element within the main element.
+You should place the <em>article</em> element within the <i>main</i> element. 
 
-Then add your regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags within the
-article element.
-The reason for doing it this way is because the main element
-semantically represents the main content of the page.
-
-And inside of it there can be multiple article elements for something
-like a blog post list.
+Then add your regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags within the 
+article element. The reason for doing it this way is because the main element semantically 
+represents the main content of the page. And inside of it there can be multiple 
+article elements for something like a blog post list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image013.webp"
-  width="40%"
+  width="35%"
   alt="At the end of your document is the footer element." />
 </p>
 <!-- width="4.0in" height="2.424242125984252in" -->
 
-At the end of your document is the footer element.
+At the end of your document is the <em>footer</em> element. This might contain 
+additional navigational links or content. It is important to note that semantic 
+elements are not limited to this structure. Since their purpose is to describe 
+the semantics of the content, the elements can be nested inside of each other.
+If it accurately describes the content, let&apos;s update the previous example 
+to use a nested semantic structure.
 
-This might contain additional navigational links or content.
+You add a <em>header</em> element to the <em>article</em> element, inside the header
+element at the heading element with the blog title and a <em>paragraph</em> element 
+describing the date and author of the blog post. Inside the <em>main</em> element 
+at the content of the blog post. That&apos;s it, let&apos;s examine the section element.
 
-It is important to note that semantic elements are not limited to this
-structure.
-
-Since their purpose is to describe the semantics of the content, the
-elements can be nested inside of each other.
-
-If it accurately describes the content, let&apos;s update the previous
-example to use a nested semantic structure.
-
-You add a header element to the article element, inside the header
-element at the heading element with the blog title and a paragraph
-element describing the date and author of the blog post.
-
-Inside the main element at the content of the blog post.
-
-That&apos;s it, let&apos;s examine the section element.
-
-You can add a section element to semantically define individual sections
+You can add a <em>section</em> element to semantically define individual sections
 of the article.
-
-It is important to note that sections should contain heading elements to
-semantically describe the section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 14. descriptive section elements - describes web page (09) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -393,37 +351,42 @@ semantically describe the section.
 </p>
 <!-- width="4.0in" height="1.9722222222222223in" -->
 
-It is also possible to use section elements to describe different sections of
-your webpage, the section element doesn't require the article element.
+It is important to note that sections should contain heading elements to semantically 
+describe the section. 
 
+It is also possible to use <em>section</em> elements to describe different sections 
+of your webpage, the section element doesn't require the <em>article</em> element. 
 It all depends on how you want to semantically describe your page.
 
-And now you know how to semantically describe the contents of a web
-page, your web pages more accessible because the content is semantically
-described to add meaning.
+And now you know how to semantically describe the contents of a web page, your web 
+pages more accessible because the content is semantically described to add meaning.
 
-Now, search engines and accessibility software can easily understand the
-contents of your well-formed web page.
+Now, search engines and accessibility software can easily understand the contents 
+of your well-formed web page.
 
 <h4>Semantic tags in action</h4>
 
-The Little Lemon Restaurant has asked me to add a new blog page to their
-website. They&apos;ve told me that the page will contain several blog posts,
-and that it must use semantic html so that search engines and
-accessibility software can understand the semantics of the page.
+The Little Lemon Restaurant has asked me to add a new blog page to their website. 
+They&apos;ve told me that the page will contain several blog posts, and that it 
+must use semantic html so that search engines and accessibility software can understand 
+the semantics of the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. basic html document structure (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 15. adding basic semantic structure (09) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image015.webp"
   width="50%"
-  alt="Basic HTML document structure ." />
+  alt="Basic HTML document structure; header, nav, main, and footer." />
 </p>
 <!-- width="4.0in" height="2.4551279527559053in" -->
 
-I&apos;ve set up my basic html document structure in a file named blog.html.  I&apos;ll start off by adding my basic semantic structure.
+I&apos;ve set up my basic html document structure in a file named <i>blog.html</i>. I&apos;ll 
+start off by adding my basic semantic structure.
+
+First, I add the <em>header<em> element. Followed by the <em>nav</em> element. Then 
+the <em>main</em> element. Lastly, the <em>footer</em> element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image016.webp"
@@ -432,73 +395,60 @@ I&apos;ve set up my basic html document structure in a file named blog.html.  I&
 </p>
 <!-- width="6.0in" height="3.598718285214348in" -->
 
-First, I add the header element. Followed by the nav element, Followed
-by the main element. Followed by the footer element.
+Remember this structure describes the semantics of this html document. Specifically, 
+the header element will be used to display the Little Lemon logo, and the nav element 
+will be used to describe the navigational structure of the website.
 
-Remember this structure describes the semantics of this html document.
-Specifically, the header element will be used to display the Little
-Lemon logo, and the nav element will be used to describe the
-navigational structure of the website.
+The <em>main</em> element will feature the main content of the web page, and the 
+<em>footer</em> will be used to display copyright information.
 
-The main element will feature the main content of the web page, and the
-footer will be used to display copyright information.
+When a search engine or accessibility software reads this document, the semantic 
+tags will help the software understand the purpose and meaning of different sections 
+of the document.
 
-When a search engine or accessibility software reads this document, the
-semantic tags will help the software understand the purpose and meaning
-of different sections of the document.
-
-I will now add the details to each element. Inside the header element, I
+I will now add the details to each element. Inside the <em>header</em> element, I
 add the Little Lemon logo using the image tag.
 
-Inside the nav element, I add the navigation links in an ordered list
-element using the ul tag.
-
-I then add three list item elements using the li tag. Inside the list
-items, I add the hyperlinks for index.html, location.html and blog.html
-using the anchor tag.
-
-In the main element, I add an h1 tag for the blog heading.
+Inside the <em>nav</em> element, I add the navigation links in an ordered list
+element using the <em>ul</em> tag. I then add three list item elements using the <em>li</em> 
+tag. Inside the list items, I add the hyperlinks for <em>index.html</em>, <em>location.html</em> 
+and <em>blog.html</em> using the anchor tag. In the main element, I add an <em>h1</em> 
+tag for the blog heading.
 
 The restaurant told me that there will be two blog posts for their
 website.
 
-I add two article elements after the h1 element. Inside the first
-article element, I add an h2 tag for the title of the blog post.
-
-The title is 20% off this weekend. I then add a paragraph element below
-the title which contains the blog post text.
-
-Inside the second article element, I add an h2 tag for the title which
-is our new menu.
-
-Again, I add a paragraph element below the title which contains the blog
-post text.
-
-Finally, I add a paragraph element to the footer element.
-
-In this paragraph element, I add the copyright notice.
+I add two article elements after the <em>h1</em> element. Inside the first <em>article</em> 
+element, I add an <em>h2</em> tag for the title of the blog post. The title is 
+"20% off this weekend". I then add a <em>paragraph</em> element below the title 
+which contains the blog post text. Inside the second article element, I add an 
+<em>h2</em> tag for the title which is our new menu. Again, I add a paragraph element 
+below the title which contains the blog post text. Finally, I add a paragraph element 
+to the footer element. In this paragraph element, I add the copyright notice.
 
 The blog pages now semantically described through the html document.
 
-I now save the file by pressing Control and S or Command and S on Mac.
+Now save the file by pressing Control and S or Command and S on Mac. I then right 
+click the <em>blog.html</em> file and select live preview to preview the file. The 
+blog page looks good and all thanks to proper semantic design that ensures accessibility 
+and search engine optimization (SEO).
 
-I then right click the blog.html file and select live preview to preview
-the file.
-
-The blog page looks good and all thanks to proper semantic design that
-ensures accessibility and search engine optimization.
-
-I&apos;m sure that the Little Lemon Restaurant will get lots of business
-through their blog, and their customers with disabilities will be able
-to access the blog with no problems
+I&apos;m sure that the Little Lemon Restaurant will get lots of business through 
+their blog, and their customers with disabilities will be able to access the blog 
+with no problems.
 
 <h4>Metadata</h4>
 
-When was the last time you used a search engine? Probably in the last few hours or minutes. Perhaps you just wanted to quickly look something up or maybe you needed more in-depth information on a topic. Either way, the search engine you used will have returned a list of results that were most relevant to what you searched for. 
+When was the last time you used a search engine? Probably in the last few hours 
+or minutes. Perhaps you just wanted to quickly look something up or maybe you needed 
+more in-depth information on a topic. Either way, the search engine you used will 
+have returned a list of results that were most relevant to what you searched for. 
 
-But how does a search engine determine which web pages are most relevant in this video? You will learn how search engines analyze web pages and how meta tags help provide information for search engines.
+But how does a search engine determine which web pages are most relevant in this 
+video? You will learn how search engines analyze web pages and how meta tags help 
+provide information for search engines.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo - search engine optimization (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo - search engine optimization (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image017.webp"
@@ -512,33 +462,26 @@ optimization or SEO.  This process involves making improvements to a
 website's content semantics & delivery to improve its ranking in search
 results.
 
-You might be wondering what exactly does a search engine do when it
-analyzes a web page?
+You might be wondering what exactly does a search engine do when it analyzes a 
+web page? Well when a search engine visits your website, it analyzes the html
+document and media content. If it finds a link to another html document, it follows 
+the link to that document and continues following links until it is finished analyzing
+the entire website. Based on the results of the analysis and the content on your 
+website, the search engine will rank the website for various search terms.
 
-Well when a search engine visits your website, it analyzes the html
-document and media content.
-
-If it finds a link to another html document, it follows the link to that
-document and continues following links until it is finished analyzing
-the entire website.
-
-Based on the results of the analysis and the content on your website,
-the search engine will rank the website for various search terms.
-
-While your website might be the number one result for one search term, it could rank very low for another.
-
-Every search engine has its own algorithm for ranking websites.
-
-And while it&apos;s not disclosed how the ranks are determined, there are many best practices you can follow to influence how search engines analyze and rank your website.
-
-But for now, let&apos;s just focus on how meta tags influence website ranking.
+While your website might be the number one result for one search term, it could 
+rank very low for another. Every search engine has its own algorithm for ranking 
+websites. And while it&apos;s not disclosed how the ranks are determined, there 
+are many best practices you can follow to influence how search engines analyze 
+and rank your website. But for now, let&apos;s just focus on how meta tags influence 
+website ranking.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags and metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags define metadata (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image018.webp"
   width="60%"
-  alt="META tags and metadata - data about the web page." />
+  alt="Meta tags define metadata about a web page." />
 </p>
 <!-- width="6.0in" height="1.5410258092738407in" -->
 
@@ -551,28 +494,28 @@ Meta tags are added inside the head element of your html document and as
 you know, nothing inside the head element is displayed in the web
 browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. meta tags (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. meta tags (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image019.webp"
   width="32%"
-  alt="S.E.O. Search Engine Optimization." />
+  alt="Meta tags." />
 </p>
 <!-- width="3.2in" height="2.4929385389326333in" -->
 
 In other words, meta tags are unseen elements within the browser. Note that
 there is no closing tag for the meta tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 20. meta element attributes: name and content (14) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 20. meta element attributes: name and content (12) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image020.webp"
   width="60%"
-  alt="S.E.O. Search Engine Optimization." />
+  alt="Meta element attributes; name and content." />
 </p>
 <!-- width="6.0in" height="1.275in" -->
 
-The meta element has two attributes, name and content.
+The <i>meta element</i> has two attributes, <i>name</i> and <i>content</i>.
 
 The name attribute specifies the name of the metadata and the content
 attribute specifies the value of the metadata.
@@ -588,12 +531,12 @@ Let&apos;s examine some examples of metadata.
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
 
-The author metadata specifies the author of the web page.
+The <i>author</i> metadata specifies the author of the web page.
 
-The name attribute is author and the content attribute is the person and
+The <i>name</i> attribute is author and the <i>content</i> attribute is the person and/or 
 company who are the author of the web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. description metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. description metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image022.webp"
@@ -602,15 +545,13 @@ company who are the author of the web page.
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
 
-The description metadata describes the content of the web page.
-
-This is often used by search engines as descriptive text in search
-results.
+The <i>description</i> metadata describes the content of the web page. This is 
+often used by search engines as descriptive text in search results.
 
 The name attribute is set to description and the content attribute is
 the descriptive text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. keyword metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. keyword metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image023.webp"
@@ -619,50 +560,50 @@ the descriptive text.
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
 
-The keywords metadata was previously used to provide search keywords for
-search engines.
-
-However, this led to a lot of websites using the keywords metadata to
+The <i>keywords</i> metadata was previously used to provide search keywords for
+search engines. However, this led to a lot of websites using the keywords metadata to
 manipulate search rankings.
 
 One of the major search engines now ignores this metadata and another
 uses keywords metadata as a spam indicator because of this, it&apos;s
-recommended not to include this metadata in modern web pages.
-
+recommended <b>not</b> to include this metadata in modern web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. robot's metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. robots metadata (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image024.webp"
   width="60%"
-  alt="Robot's metadata." />
+  alt="Robots metadata." />
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
 
-Another type of metadata is the robot&apos;s metadata and it tells search
-engines if and how they should analyze your web page.
+Another type of metadata is the <i>robots</i> metadata and it tells search engines 
+if and how they should analyze your web page.
 
 The name 'robots' comes from the automated software often referred to as
 bots, that search engines used to analyze websites.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 25. robot content: index, follow, no index, nofollow (16) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 25. robots content: index, follow, no index, nofollow (14) ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image025.webp"
   width="26%"
-  alt="Robot contents: index, follow, no index and no follow." />
+  alt="Robots contents: index, follow, no index and no follow." />
 </p>
 <!-- width="2.6041666666666665in" height="4.90625in" -->
 
-The content attribute for Robots has four possible values. <i>Index</i> tells
-the bot to analyze the page. <i>Follow</i> tells the bot to also visit all
-links on the web page. <i>No index</i> tells the bot not to analyze the page.
-Some bots will ignore this so it&apos;s best not to rely on this to stop
-bots from analyzing your page and <i>no follow</i> tells the bot not to visit
-links on the web page. Again, some bots will ignore this value so it&apos;s
-best not to rely on it.
+The content attribute for Robots has four possible values;
+
+<ol>
+  <li><b><i>Index</i></b> tells the bot to analyze the page,</li>
+  <li><b><i>Follow</i></b> tells the bot to also visit all links on the web page,</li>
+  <li><b><i>No index</i></b> tells the bot not to analyze the page. Some bots will ignore 
+    this so it&apos;s best not to rely on this to stop bots from analyzing your page, and</li>
+  <li><b><i>No follow</i></b> tells the bot not to visit links on the web page. Again, some bots will 
+    ignore this value so it&apos;s best not to rely on it.
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image026.webp"
@@ -671,26 +612,30 @@ best not to rely on it.
 </p>
 <!-- width="6.0in" height="2.1801279527559054in" -->
 
-Finally, there&apos;s the <i>view ports</i> metadata. The <i>view port</i> metadata is
-important when designing responsive web pages. Why you might ask. Because
-when a web pages is viewed on a phone or tablet, the device will by default
-attempt to render the web page as if it is being viewed on a desktop.
-This results in a poor browsing experience for the user. 
+Finally, there&apos;s the <i>view ports</i> metadata. The <i>view port</i> metadata 
+is important when designing responsive web pages. Why you might ask. Because when 
+a web pages is viewed on a phone or tablet, the device will by default attempt 
+to render the web page as if it is being viewed on a desktop. This results in a 
+poor browsing experience for the user.
 
-The solution is to define <i>view ports</i> metadata. 
+The solution is to define <i>view ports</i> metadata.
 
-There are many values available for <i>view ports</i> metadata. The most used value for the mobile experiences is to set the width to device dash with and the initial scale to 1.0, you can learn more about view ports in the additional reading. It&apos;s important to note that view port metadata does not solve all the issues with browsing websites on mobile devices.
+There are many values available for <i>view ports</i> metadata. The most used value 
+for the mobile experiences is to set the width to device dash with and the initial 
+scale to 1.0, you can learn more about view ports in the additional reading. It&apos;s 
+important to note that view port metadata does not solve all the issues with browsing 
+websites on mobile devices.
 
 The other part of the solution is responsive web design.
 
-But we were talking about search engine optimization, right? View port metadata is important for the user experience and it&apos;s also important for search engine optimization.
-
-This is because many search engines now include websites mobile experience as a part of their ranking algorithms, there is more metadata that you can define on you web page to specifically improve its presence on social media.
-
-But that&apos;s for later modules.
-
+But we were talking about search engine optimization, right? View port metadata 
+is important for the user experience and it&apos;s also important for search engine 
+optimization. This is because many search engines now include websites mobile experience 
+as a part of their ranking algorithms, there is more metadata that you can define 
+on you web page to specifically improve its presence on social media. But that&apos;s 
+for later modules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 27. metadata in bare bones layout (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 27. metadata in bare bones layout (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image027.webp"
@@ -11020,4 +10965,4 @@ the end…
 
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
-<h5>8-28-2023 at 4:50pm</h5>
+<h5>11-24-2023 at 12:00pm</h5>
