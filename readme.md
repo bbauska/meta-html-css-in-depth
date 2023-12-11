@@ -10869,6 +10869,13 @@ goal.</p>
 
 <h4>Basic meta tags (meta tags for SEO)</h4>
 
+<p>The meta data is always passed as a name-value pair.</p>
+<p>For example in http-equiv="Content-Type", http-equiv is the key name and "Content-Type" 
+is the value, same with charset="utf-8".</p>
+
+<h5>In HTML5, both &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+and &lt;meta charset="utf-8" /&gt; are the same.</h5>
+
 <ul>
   <li><p>&lt;meta name=”description”/&gt; provides a brief description of the web 
     page,</p></li>
