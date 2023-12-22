@@ -142,7 +142,7 @@ img {
   }
 
 table {
-  margin: 15px;
+  margin-left: 15px;
   border-collapse: collapse;
   width: 80%;
   overflow-x: auto;
