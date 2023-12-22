@@ -141,6 +141,9 @@ img {
     border-style: solid; 
   }
 
+table, th, td {
+  border: 1px solid;
+}
 table {
   margin-left: 15px;
   border-collapse: collapse;
