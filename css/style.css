@@ -142,9 +142,9 @@ img {
   }
 
 table {
-  margin: 1em 0;
+  margin: 15px;
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
   overflow-x: auto;
   display: block;
   font-variant-numeric: lining-nums tabular-nums;
