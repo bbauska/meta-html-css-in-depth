@@ -140,3 +140,27 @@ img {
     border-color: #778899;  /* dark grayish blue */
     border-style: solid; 
   }
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+  margin-bottom: 0.75em;
+}
+tbody {
+  margin-top: 0.5em;
+  border-top: 1px solid #1a1a1a;  /* very dark gray (mostly black) */
+  border-bottom: 1px solid #1a1a1a;  /* very dark gray (mostly black) */
+}
+th {
+  border-top: 1px solid #1a1a1a;  /* very dark gray (mostly black) */
+  padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+  padding: 0.125em 0.5em 0.25em 0.5em;
+}
