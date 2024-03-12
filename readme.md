@@ -12,6 +12,7 @@ meta-html-css-in-depth: "Meta/Coursera's HTML & CSS in Depth"
 <p align="center" width="100%">
 <img src="/images/image001b.png"
   width="192px;"
+  title="Coursera logo"
   alt="Coursera logo." />
 </p>
 <!-- width="1.549261811023622in" height="0.5in" -->
@@ -21,6 +22,7 @@ meta-html-css-in-depth: "Meta/Coursera's HTML & CSS in Depth"
 <p align="center" width="100%">
 <img src="/images/image002.webp?raw=true"
   width="100px;"
+  title="Meta logo"
   alt="Meta logo." />
 </p>
 <!-- width="1.0175437445319335in" height="0.5in" -->
@@ -121,9 +123,9 @@ But what does that mean?
 <p align="center" width="100%">
 <img src="/images/image003.webp"
   width="480px;"
+  title="Hypertext and Markup"
   alt="Hypertext and Markup." />
 </p>
-<!-- width="5.0in" height="1.6068372703412073in" -->
 
 Hypertext is text which contains links to other text.
 
@@ -133,9 +135,9 @@ Markup refers to tags and elements used within a document.
 <p align="center" width="100%">
 <img src="/images/image004.webp"
   width="65%"
+  title="Basic HTML page structure"
   alt="Basic HTML page structure." />
 </p>
-<!-- width="5.0in" height="1.6068350831146108in" -->
 
 HTML elements with their opening and closing tags in angle brackets make up an 
 HTML document. These elements form the structure of a webpage and describe what 
@@ -170,9 +172,9 @@ on screen.
 <p align="center" width="100%">
 <img src="/images/image005.webp"
   width="60%"
+  title="Style, box model and document flow"
   alt="Style, box model and document flow." />
 </p>
-<!-- width="5.0in" height="1.6068372703412073in" -->
 
 You use CSS to;
   - Style elements within an HTML document,
@@ -208,6 +210,7 @@ that you create a well-formed web page.
 <p align="center" width="100%">
 <img src="/images/image006.webp"
   width="50%"
+  title="Basic HTML page structure, again"
   alt="Basic HTML page structure, again." />
 </p>
 <!-- width="5.0in" height="1.6068372703412073in" -->
@@ -222,9 +225,9 @@ to describe each of the sections.
 <p align="center" width="100%">
 <img src="/images/image007.webp"
   width="50%"
+  title="HTML tags"
   alt="HTML tags." />
 </p>
-<!-- width="5.0in" height="2.175748031496063in" -->
 
 For a typical HTML page, the structure can be semantically described
 using the header, main and footer semantic HTML tags.
@@ -233,9 +236,9 @@ using the header, main and footer semantic HTML tags.
 <p align="center" width="100%">
 <img src="/images/image008.webp"
   width="50%"
+  title="Template example with header, main and footer"
   alt="Template example with header, main and footer." />
 </p>
-<!-- width="5.0in" height="2.370726159230096in" -->
 
 For example, suppose you lay out your page with a <b>header section</b> that contains 
 some company logo and navigation links.
@@ -249,9 +252,9 @@ links.
 <p align="center" width="100%">
 <img src="/images/image009.webp"
   width="50%"
+  title="Nav tag"
   alt="Nav tag." />
 </p>
-<!-- width="5.0in" height="2.370726159230096in" -->
 
 The <b>main navigation section</b> of your web page can also be described
 semantically using the <b>Nav tag</b>.
@@ -263,9 +266,9 @@ after the header element and the header element is used for logos.
 <p align="center" width="100%">
 <img src="/images/image010.webp"
   width="50%"
+  title="Unordered list tag"
   alt="Unordered list tag." />
 </p>
-<!-- width="5.0in" height="2.3707272528433947in" -->
 
 The main links of your website are then added inside the Nav element.
 It is common practice for developers to specify their links as an
@@ -285,9 +288,9 @@ quite a mouthful.
 <p align="center" width="100%">
 <img src="/images/image011.webp"
   width="15%"
+  title="Newspaper"
   alt="Newspaper." />
 </p>
-<!-- width="1.5in" height="1.9452449693788276in" -->
 
 It may help to think of a page in a newspaper. There are many articles on the page 
 and you can cut out the individual articles with scissors if needed. The articles 
@@ -320,9 +323,9 @@ article elements for something like a blog post list.
 <p align="center" width="100%">
 <img src="/images/image013.webp"
   width="35%"
+  title="At the end of your document is the footer element"
   alt="At the end of your document is the footer element." />
 </p>
-<!-- width="4.0in" height="2.424242125984252in" -->
 
 At the end of your document is the <em>footer</em> element. This might contain 
 additional navigational links or content. It is important to note that semantic 
@@ -343,9 +346,9 @@ of the article.
 <p align="center" width="100%">
 <img src="/images/image014.webp"
   width="50%"
+  title="Descriptive section elements - describes web page"
   alt="Descriptive section elements - describes web page." />
 </p>
-<!-- width="4.0in" height="1.9722222222222223in" -->
 
 It is important to note that sections should contain heading elements to semantically 
 describe the section. 
@@ -371,9 +374,9 @@ the semantics of the page.
 <p align="center" width="100%">
 <img src="/images/image015.webp"
   width="50%"
+  title="Basic HTML document structure; header, nav, main, and footer"
   alt="Basic HTML document structure; header, nav, main, and footer." />
 </p>
-<!-- width="4.0in" height="2.4551279527559053in" -->
 
 I&apos;ve set up my basic html document structure in a file named <i>blog.html</i>. I&apos;ll 
 start off by adding my basic semantic structure.
@@ -385,9 +388,9 @@ the <em>main</em> element. Lastly, the <em>footer</em> element.
 <p align="center" width="100%">
 <img src="/images/image016.webp"
   width="60%"
+  title="Header, nav, main and footer elements"
   alt="Header, nav, main and footer elements." />
 </p>
-<!-- width="6.0in" height="3.598718285214348in" -->
 
 Remember this structure describes the semantics of this html document. Specifically, 
 the header element will be used to display the Little Lemon logo, and the nav element 
@@ -446,9 +449,9 @@ provide information for search engines.
 <p align="center" width="100%">
 <img src="/images/image017.webp"
   width="31%"
+  title="S.E.O. Search Engine Optimization"
   alt="S.E.O. Search Engine Optimization." />
 </p>
-<!-- width="3.1041666666666665in" height="1.8125in" -->
 
 A major part of launching a website is a process called search engine
 optimization or SEO.  This process involves making improvements to a
@@ -473,9 +476,9 @@ website ranking.
 <p align="center" width="100%">
 <img src="/images/image018.webp"
   width="60%"
+  title="Meta tags define metadata about a web page"
   alt="Meta tags define metadata about a web page." />
 </p>
-<!-- width="6.0in" height="1.5410258092738407in" -->
 
 Meta tags define metadata about a web page.
 
@@ -490,6 +493,7 @@ browser.
 <p align="center" width="100%">
 <img src="/images/image019.webp"
   width="32%"
+  title="Meta tags"
   alt="Meta tags." />
 </p>
 <!-- width="3.2in" height="2.4929385389326333in" -->
@@ -501,6 +505,7 @@ there is no closing tag for the meta tag.
 <p align="center" width="100%">
 <img src="/images/image020.webp"
   width="60%"
+  title="Meta element attributes; name and content"
   alt="Meta element attributes; name and content." />
 </p>
 <!-- width="6.0in" height="1.275in" -->
@@ -516,6 +521,7 @@ Let&apos;s examine some examples of metadata.
 <p align="center" width="100%">
 <img src="/images/image021.webp"
   width="60%"
+  title="Author metadata"
   alt="Author metadata." />
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
@@ -529,6 +535,7 @@ company who are the author of the web page.
 <p align="center" width="100%">
 <img src="/images/image022.webp"
   width="60%"
+  title="Description metadata"
   alt="Description metadata." />
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
@@ -543,6 +550,7 @@ the descriptive text.
 <p align="center" width="100%">
 <img src="/images/image023.webp"
   width="60%"
+  title="S.E.O. Search Engine Optimization"
   alt="S.E.O. Search Engine Optimization." />
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
@@ -559,6 +567,7 @@ recommended <b>not</b> to include this metadata in modern web pages.
 <p align="center" width="100%">
 <img src="/images/image024.webp"
   width="60%"
+  title="Robots metadata"
   alt="Robots metadata." />
 </p>
 <!-- width="6.0in" height="2.388461286089239in" -->
@@ -573,6 +582,7 @@ bots, that search engines used to analyze websites.
 <p align="center" width="100%">
 <img src="/images/image025.webp"
   width="26%"
+  title="Robots contents: index, follow, no index and no follow"
   alt="Robots contents: index, follow, no index and no follow." />
 </p>
 <!-- width="2.6041666666666665in" height="4.90625in" -->
@@ -592,6 +602,7 @@ The content attribute for Robots has four possible values;
 <p align="center" width="100%">
 <img src="/images/image026.webp"
   width="60%"
+  title="View ports metadata"
   alt="View ports metadata." />
 </p>
 <!-- width="6.0in" height="2.1801279527559054in" -->
@@ -623,6 +634,7 @@ for later modules.
 <p align="center" width="100%">
 <img src="/images/image027.webp"
   width="1.16in" height="3.0in"
+  title="Semantic HTML document structure"
   alt="Semantic HTML document structure." />
 </p>
 <!-- width="1.1618055555555555in" height="3.0in" -->
@@ -3041,13 +3053,12 @@ To do that, add the controls attribute to the audio element. Then save the file 
 opened the web page in your browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. audio in about.html (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image083.webp"
   width="60%"
+  title="Add audio to about.html sample screen"
   alt="Add audio to about.html sample screen." />
 </p>
-<!-- ![](images/image083.webp){width="6.0in" height="3.1173075240594925in"} -->
 
 You can see that the audio is loading and is displayed in the browser using the 
 browsers built in audio player.  Pressing the play button starts the audio, and 
@@ -3056,13 +3067,12 @@ pressing pause will pause it.  Everything is working as expected.
 Now add the video:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 84. audio element added before paragraph element (76) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image084.webp"
   width="60%"
+  title="Add audio element before the paragraph element"
   alt="Add audio element before the paragraph element." />
 </p>
-<!-- ![](images/image084.webp){width="6.0in" height="3.1173075240594925in"} -->
 
 Next, add the video element before the paragraph element.  Inside the video element, add the 
 source element and set the src attribute to video.mp4.  Then set the type attribute to 
@@ -3074,13 +3084,12 @@ To provide a good user experience, enable the video controls.  To do this, I add
 controls attribute to the video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 85. video control attributes added to about.html (77) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image085.webp"
   width="60%"
+  title="Video control attributes added to about.html"
   alt="Video control attributes added to about.html." />
 </p>
-<!-- ![](images/image085.webp){width="6.0in" height="3.3833333333333333in"} -->
 
 Save the file again and open the page in your browser.
 
@@ -3093,13 +3102,12 @@ To do this, I go back to my html and add the muted attribute to the
 video element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 86. add muted attribute to video element (78) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image086.webp"
   width="60%"
+  title="Add muted attribute to video element"
   alt="Add muted attribute to video element." />
 </p>
-<!-- ![](images/image086.webp){width="6.0in" height="3.3833333333333333in"} -->
 
 Save the file again and open the page.  And everything is working as expected.
 
@@ -3407,13 +3415,12 @@ In this section, I&apos;m going to demonstrate how to do that.
 I&apos;ve opened the index.html in Visual Studio Code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87. add iframe element (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image087.webp"
   width="60%"
+  title="Add iFrame element"
   alt="Add iFrame element." />
 </p>
-<!-- ![](images/image087.webp){width="6.0in" height="3.364102143482065in"} -->
 
 First, I add the iFrame element.
 
@@ -3448,13 +3455,12 @@ Their concerns are valid as there are many security vulnerabilities with
 embedding content from another website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 88. sandbox and limit capabilities of iframe element (86) ~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image088.webp"
   width="65%"
+  title="Sandbox and limit capabilities of iFrame element"
   alt="Sandbox and limit capabilities of iFrame element." />
 </p>
-<!-- ![](images/image088.webp){width="6.5in" height="0.6861111111111111in"} -->
 
 To address these concerns, I&apos;ve decided to sandbox and limit the
 capabilities of the iFrame element.
@@ -3504,13 +3510,12 @@ Now that they know it&apos;s secure, the other restaurant is going to
 implement the same code on their website.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. add security features (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image089.webp"
   width="50%"
+  title="Add security features"
   alt="Add security features." />
 </p>
-<!-- ![](images/image089.webp){width="5.0in" height="2.0747867454068243in"} -->
 
 Hopefully this will lead to a lot more business for both restaurants.
 
@@ -3571,13 +3576,12 @@ information so for now let&apos;s focus on the canvas element.
 Let&apos;s examine how to animate some simple graphics.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. how to animate simple graphics (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image090.webp"
   width="50%"
+  title="How to animate some simple graphics"
   alt="How to animate some simple graphics." />
 </p>
-<!-- ![](images/image090.webp){width="5.0in" height="2.2067311898512685in"} -->
 
 <h4>Using the 2D canvas</h4>
 
@@ -3590,10 +3594,10 @@ I have added the canvas html element.
 I have set its with attribute to 640 its height attribute to 480.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 91. set id attribute to underscore canvas (89) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image091.webp"
   width="50%"
+  title="Set ID attribute to underscore canvas"
   alt="Set ID attribute to underscore canvas." />
 </p>
 <!-- ![](images/image091.webp){width="5.0in" height="2.7243591426071743in"} -->
@@ -3608,13 +3612,12 @@ underscore canvas at the parameter.
 The result is stored in a variable named canvas.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 92. look up the two d canvas context, pass in parm d (89) ~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image092.webp"
   width="50%"
+  title="Look up the two D canvas context using canvas dot get context and pass in parm to D"
   alt="Look up the two D canvas context using canvas dot get context and pass in parm to D." />
 </p>
-<!-- [](images/image092.webp){width="5.0in" height="2.2441240157480316in"} -->
 
 Next, I look up the two D canvas context using canvas dot get context
 and pass in the parameter to D.
@@ -3634,13 +3637,12 @@ then draws the ball in its current position using the context dot begin
 path, context dot arc and context dot fill functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. define function draw ball  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image093.webp"
   width="50%"
+  title="Define animated functions: move and draw ball"
   alt="Define animated functions: move and draw ball." />
 </p>
-<!-- ![](images/image093.webp){width="5.0in" height="1.0293799212598425in"} -->
 
 Finally, I define an animate function which calls the move ball and draw
 ball functions after doing this, it then calls window dot request
@@ -3884,13 +3886,12 @@ control alignment, spacing, direction and eventually styling of the
 container and items present inside it. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 94. diagram of a flexbox and all its properties (95) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image094.webp"
   width="50%"
+  title="Diagram of a flexbox and all its properties"
   alt="Diagram of a flexbox and all its properties." />
 </p>
-<!-- !(images/image094.webp){width="5.0in" height="2.00704615048119in"} -->
 
 Image source:
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology>
@@ -3930,13 +3931,12 @@ to configure a flexbox.
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 95. css code with listed number boxes one..seven (96) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image095.webp"
   width="32%"
+  title="Output for CSS code with listed number boxes"
   alt="Output for CSS code with listed number boxes." />
 </p>
-<!-- !(images/image095.webp){width="3.2604166666666665in" height="3.6145833333333335in"} -->
 
 There are seven div containers inside the HTML file.
 
@@ -3960,13 +3960,12 @@ The output is now seven flex containers that run from left to right
 starting in the top left corner.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. css aligned number boxes (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image096.webp"
   width="54%"
+  title="Output for CSS code with aligned number boxes"
   alt="Output for CSS code with aligned number boxes." />
 </p>
-<!-- !(images/image096.webp){width="5.395833333333333in" height="1.8125in"} -->
 
 <h4>Alignment properties</h4>
 
@@ -4002,13 +4001,12 @@ Let's first examine the use of justify-content which has a value of
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. css code output centered (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image097.webp"
   width="62%"
+  title="Output for CSS code with justification in the center"
   alt="Output for CSS code with justification in the center." />
 </p>
-<!-- !(images/image097.webp){width="6.208333333333333in" height="0.875in"} -->
 
 <h4>flex-wrap:</h4>
 
@@ -4026,13 +4024,12 @@ span the entire width of the axis.
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 98. css code with wrapped number boxes centered (98) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image098.webp"
   width="29%"
+  title="Output for CSS code with wrapped number boxes, justified in the center"
   alt="Output for CSS code with wrapped number boxes, justified in the center." />
 </p>
-<!-- !(images/image098.webp) {width="2.9166666666666665in" height="2.03125in"} -->
 
 The items will now be wrapped to the size of the available viewport.
 
@@ -4056,13 +4053,12 @@ rows to vertical columns.
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 99. display of listed number boxes as a flex (99) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image099.webp"
   width="34%"
+  title="Display of listed number boxes as a flex"
   alt="Display of listed number boxes as a flex." />
 </p>
-<!-- !(images/image099.webp){width="3.4479166666666665in" height="3.6770833333333335in"} -->
 
 The output looks like the original output; however, it is now actually a
 flex.
@@ -4090,13 +4086,12 @@ Let's change the value for it to 'flex-end'.
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 100. right-centered number boxes with flex end align method (100) ~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image100.webp"
   width="25%"
+  title="Right-centered number boxes with the flex and aligning method"
   alt="Right-centered number boxes with the flex and aligning method." />
 </p>
-<!-- (images/image100.webp){width="2.5729166666666665in" height="3.71875in"} -->
 
 The term 'end' refers to the right side of the page as the left side is
 seen as the beginning.
@@ -5772,14 +5767,14 @@ conventionally. Let&apos;s examine an example.
 
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-~~~~~~~~~ 148. grid-based output presenting header, nav, main area and footer (xxx) ~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image148.webp"
   width="50%"
+  title="Grid-based output presenting header, navigation, main area, and footer"
   alt="Grid-based output presenting header, navigation, main area, and footer." />
 </p>
-<!-- (images/image148.webp){width="5.0in" height="2.7146172353455817in"} -->
 
 Though there are five sets of rules, logically the CSS code is divided
 into two sections. The first is where you define the rules for the grid
@@ -10931,3 +10926,4 @@ the end…
 <!-- readme.md markdown for meta-html-css-in-depth or meta.bauska.site -->
 <!-- not quite done... near though -->
 <h5>11-24-2023 at 12:00pm</h5>
+<h5>3-11-2024 at 6:06pm</h5>
