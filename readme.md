@@ -1,68 +1,19 @@
-<!DOCTYPE html>
+---
+title: |
+  meta's HTML & CSS in Depth
+  by meta
+author: "bbauska"
+date last editted: "5/3/2024 Fri 8+am"
+output: 
+  markdown:
+    with some style
+---
+
+<h1 align="center">HTML &amp; CSS in Depth</h1>
+
+<h6 align="center">(by meta - META)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of meta-html-css-in-depth ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meta.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>HTML &amp; CSS in Depth</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="author" content="http://brians-resume.bauska.org" />
-<meta name="date" content="Monday, April 11th, 2023"/>
-<!-- <meta name="revised" content="Thursday, August 10th, 2023, 1:48 pm" /> -->
-<!-- <meta name="revised" content="Monday, November 20th, 2023, 10:53 am" /> -->
-<meta name="revised" content="Tuesday, March 12th, 2024, 5:23 pm" />
-<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<meta name="title" content="Meta HTML/CSS in Depth"/>
-<meta name="description" content="Meta Coursera in depth description and educational source.  Sponsored by Meta.  Taught by Coursera.  HTML and CSS in Depth."/>
-
-<link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
-<link rel="stylesheet" href="css/style.css">
-  
-<!-- Open Graph data -->
-<meta property="og:title" content="meta-in-depth" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://meta.bauska.org/" />
-
-<!-- Facebook image must be at least 600x315px -->
-<meta property="og:image" content="https://www.meta.bauska.org/images/image.jpg" />
-<meta property="og:description" content="meta HTML &amp; CSS in Depth." />
-<meta property="og:site_name" content="meta-html-css-in-depth" />
-<meta property="fb:admins" content="https://www.facebook.com/help/211813265517027/?helpref=uf_share" /><link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-
-<body>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<script>
-  <!-- get the button -->
-  var mybutton = document.getElementById("myBtn");
-
-  <!-- when the user scrolls down 10px from the top of the document, show the button -->
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
-  <!-- to table of contents (approx ###), if applicable was; 315 -->
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-<h1 style="text-align: center">HTML &amp; CSS in Depth</h1>
+<!--~~~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth in bbauska.github.io ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -387,7 +338,7 @@ element. Finally, the footer element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image016.webp?raw=true"
+  src="/images/image016.png?raw=true"
   title="Header, nav, main and footer"
   alt="Header, nav, main and footer."
   style="width:45%;" />
@@ -443,7 +394,7 @@ provide information for search engines.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo: search engine optimization (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image017.webp?raw=true"
+  src="/images/image017.png?raw=true"
   title="SEO: Search Engine Optimization"
   alt="SEO: Search Engine Optimization."
   style="width:15%;" />
@@ -468,7 +419,7 @@ ranking.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags vs metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image018.webp?raw=true"
+  src="/images/image018.png?raw=true"
   title="Meta tags define metadata.  Metadata is data about the web page"
   alt="Meta tags define metadata.  Metadata is data about the web page."
   style="width:35%;" />
@@ -482,7 +433,7 @@ browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 19. meta tags: unseen elements within the browser (14) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image019.webp?raw=true"
+  src="/images/image019.png?raw=true"
   title="Meta tags: Unseen elements within the browser"
   alt="Meta tags: Unseen elements within the browser."
   style="width:25%;" />
@@ -492,7 +443,7 @@ browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 20. meta element: has two attributes; name and content (14) ~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image020.webp?raw=true"
+  src="/images/image020.png?raw=true"
   title="Meta Element: 2 attributes; name and content"
   alt="Meta Element: 2 attributes; name and content."
   style="width:35%;" />
@@ -504,7 +455,7 @@ attribute specifies the value of the metadata.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. author metadata (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image021.webp?raw=true"
+  src="/images/image021.png?raw=true"
   title="Author metadata: Specifies the author of the web page"
   alt="Author metadata: Specifies the author of the web page."
   style="width:45%;" />
@@ -515,7 +466,7 @@ and company who are the author of the web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. description metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image022.webp?raw=true"
+  src="/images/image022.png?raw=true"
   title="Description metadata: Describes the content of the web page"
   alt="Description metadata: Describes the content of the web page."
   style="width:45%;" />
@@ -528,7 +479,7 @@ the descriptive text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. keyword metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image023.webp?raw=true"
+  src="/images/image023.png?raw=true"
   title="Keywords metadata - do not use any longer"
   alt="Keywords metadata - do not use any longer."
   style="width:45%;" />
@@ -543,7 +494,7 @@ recommended not to include this metadata in modern web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. robots metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image024.webp?raw=true"
+  src="/images/image024.png?raw=true"
   title="Robots metadata, contents index, follow"
   alt="Robots metadata, contents index, follow."
   style="width:45%;" />
@@ -555,7 +506,7 @@ as bots, that search engines used to analyze websites.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 25. robots metadata: index, follow, noindex, nofollow (16) ~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image025.webp?raw=true"
+  src="/images/image025.png?raw=true"
   title="Robots metadata: index, follow, noindex, nofollow"
   alt="Robots metadata: index, follow, noindex, nofollow."
   style="width:15%;" />
@@ -601,7 +552,7 @@ on social media.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. search engine optimization (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image027.webp?raw=true"
+  src="/images/image027.png?raw=true"
   title="SEO: author, description, keywords, robots and viewports metadata"
   alt="SEO: author, description, keywords, robots and viewports metadata."
   style="width:7%;" />
@@ -633,7 +584,7 @@ other CSS files also to this folder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. example semantic structure (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image028.webp?raw=true"
+  src="/images/image028.png?raw=true"
   title="Template HTML with semantic structure set up"
   alt="Template HTML with semantic structure set up."
   style="width:45%;" />
@@ -657,7 +608,7 @@ section and update the content attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. more commented out code (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image029.webp?raw=true"
+  src="/images/image029.png?raw=true"
   title="More commented out code for icons"
   alt="More commented out code for icons."
   style="width:45%;" />
@@ -673,7 +624,7 @@ reference the styles.css file in the CSS folder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. body element (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image030.webp?raw=true"
+  src="/images/image030.png?raw=true"
   title="Body element"
   alt="Body element."
   style="width:45%;" />
@@ -686,7 +637,7 @@ and the footer element for any copyright notices or links to secondary webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. include js here (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image031.webp?raw=true"
+  src="/images/image031.png?raw=true"
   title="Include JavaScript here"
   alt="Include JavaScript here."
   style="width:45%;" />
@@ -723,7 +674,7 @@ experience.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. navbar example (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image032.webp?raw=true"
+  src="/images/image032.png?raw=true"
   title="Example of a top navbar layout on a web page"
   alt="Example of a top navbar layout on a web page."
   style="width:45%;" />
@@ -737,7 +688,7 @@ fixed interval.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. example of a carousel layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image033.webp?raw=true"
+  src="/images/image033.png?raw=true"
   title="Example of a Carousel Layout on a web page"
   alt="Example of a Carousel Layout on a web page."
   style="width:45%;" />
@@ -750,7 +701,7 @@ the page each day based on current events.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 34. sample longer featured blog post (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image034.webp?raw=true"
+  src="/images/image034.png?raw=true"
   title="Example of a longer featured Blog Layout on a web page"
   alt="Example of a longer featured Blog Layout on a web page."
   style="width:45%;" />
@@ -760,7 +711,7 @@ by a series of article summary areas that link to full articles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. sample blog post (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image035.webp?raw=true"
+  src="/images/image035.png?raw=true"
   title="Sample blog post"
   alt="Sample blog post."
   style="width:45%;" />
@@ -775,7 +726,7 @@ a good user experience for business users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. example dashboard layout (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image036.webp?raw=true"
+  src="/images/image036.png?raw=true"
   title="Example of a Dashboard Layout on a web page"
   alt="Example of a Dashboard Layout on a web page."
   style="width:45%;" />
@@ -814,7 +765,7 @@ Protocol in 2010.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 37. open graph protocol: metadata rules for describing websites (26) ~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image037.webp?raw=true"
+  src="/images/image037.png?raw=true"
   title="Open Graph Protocol: metadata rules for describing websites"
   alt="Open Graph Protocol: metadata rules for describing websites."
   style="width:25%;" />
@@ -839,7 +790,7 @@ properties on a webpage.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 38. open graph protocol: title, type, url & image (26) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image038.webp?raw=true"
+  src="/images/image038.png?raw=true"
   title="Open Graph Protocol: Title, Type, Url, and Image"
   alt="Open Graph Protocol: Title, Type, Url, and Image."
   style="width:45%;" />
@@ -867,7 +818,7 @@ about later. But let's briefly explore three of these.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. og: local property (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image039.webp?raw=true"
+  src="/images/image039.png?raw=true"
   title="OG: local property"
   alt="OG: local property."
   style="width:45%;" />
@@ -997,7 +948,7 @@ best to provide as much information as possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. more head element meta tags (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image041.webp?raw=true"
+  src="/images/image041.png?raw=true"
   title="More Head element meta tags"
   alt="More Head element meta tags."
   style="width:45%;" />
@@ -1112,7 +1063,7 @@ browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. input types (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image042.webp?raw=true"
+  src="/images/image042.png?raw=true"
   title="Input Types"
   alt="Input Types."
   style="width:15%;" />
@@ -1129,7 +1080,7 @@ feedback.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. required attribute (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image043.webp?raw=true"
+  src="/images/image043.png?raw=true"
   title="Required Attribute: User must supply a value to an input field"
   alt="Required Attribute: User must supply a value to an input field."
   style="width:25%;" />
@@ -1352,7 +1303,7 @@ user accounts on the Little Lemon website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. signup form document structure (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image044.webp?raw=true"
+  src="/images/image044.png?raw=true"
   title="Signup form document structure"
   alt="Signup form document structure."
   style="width:45%;" />
@@ -1417,7 +1368,7 @@ user what each field represents.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 45. label and input with id attribute (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image045.webp?raw=true"
+  src="/images/image045.png?raw=true"
   title="Label and Input with Id attribute"
   alt="Label and Input with Id attribute."
   style="width:45%;" />
@@ -1442,7 +1393,7 @@ for each input element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. signup example form (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image046.webp?raw=true"
+  src="/images/image046.png?raw=true"
   title="Example signup form"
   alt="Example signup form."
   style="width:25%;" />
@@ -1453,7 +1404,7 @@ for each input element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. add submit button to form (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image047.webp?raw=true"
+  src="/images/image047.png?raw=true"
   title="Add submit button to form"
   alt="Add submit button to form."
   style="width:45%;" />
@@ -1489,7 +1440,7 @@ that you can apply to elements for further validation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 48. log-in form: username and password (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image048.webp?raw=true"
+  src="/images/image048.png?raw=true"
   title="Log-in form: username and password"
   alt="Log-in form: username and password."
   style="width:45%;" />
@@ -1508,7 +1459,7 @@ user enters values to both fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. required attribute (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image049.webp?raw=true"
+  src="/images/image049.png?raw=true"
   title="Required attribute"
   alt="Required attribute."
   style="width:45%;" />
@@ -1519,7 +1470,7 @@ submitted to the web server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. check required fields (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image050.webp?raw=true"
+  src="/images/image050.png?raw=true"
   title="Check required fields"
   alt="Check required fields."
   style="width:15%;" />
@@ -1540,7 +1491,7 @@ correct length of data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. required length (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image051.webp?raw=true"
+  src="/images/image051.png?raw=true"
   title="Required length"
   alt="Required length."
   style="width:45%;" />
@@ -1563,7 +1514,7 @@ input element selector.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 52. error check with input element selector (46) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image052.webp?raw=true"
+  src="/images/image052.png?raw=true"
   title="Error check with input element selector"
   alt="Error check with input element selector."
   style="width:45%;" />
@@ -1577,7 +1528,7 @@ or invalid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 53. error check with border 2px solid red (47) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image053.webp?raw=true"
+  src="/images/image053.png?raw=true"
   title="Error check with border 2px solid red"
   alt="Error check with border 2px solid red."
   style="width:45%;" />
@@ -1591,7 +1542,7 @@ demonstrated in this Real-world example of a login screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. pseudo-class focus (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image054.webp?raw=true"
+  src="/images/image054.png?raw=true"
   title="Pseudo-class focus"
   alt="Pseudo-class focus."
   style="width:45%;" />
@@ -1621,7 +1572,7 @@ leaving the course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. creating an html document (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image056.webp?raw=true"
+  src="/images/image056.png?raw=true"
   style="width:35%"
   title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&amp;hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g"
   alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&amp;hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g" />
@@ -1631,7 +1582,7 @@ Visual Studio Code already setup and ready for you to start writing code!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. project folder and files (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image057.webp?raw=true"
+  src="/images/image057.png?raw=true"
   title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&amp;hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o"
   alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&amp;hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o"
   style="width:35%;" />
@@ -1641,7 +1592,7 @@ left sidebar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. project folder and files, page 2 (49) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image058.webp?raw=true"
+  src="/images/image058.png?raw=true"
   title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files..webp?expiry=1676419200000&amp;hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c"
   alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files..webp?expiry=1676419200000&amp;hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c"
   style="width:35%;" />
@@ -1650,7 +1601,7 @@ left sidebar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. editor area (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image059.webp?raw=true"
+  src="/images/image059.png?raw=true"
   title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&amp;hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI"
   alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&amp;hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI"
   style="width:35%;" />
@@ -1683,7 +1634,7 @@ Visual Studio Code toolbar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. coursera terminal work area (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image060.webp?raw=true"
+  src="/images/image060.png?raw=true"
   title="Coursera terminal work area"
   alt="Coursera terminal work area."
   style="width:35%;" />
@@ -1698,7 +1649,7 @@ Visual Studio Code toolbar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. coursera terminal lab files (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image061.webp"
+  src="./images/image061.png"
   style="width:35%;"
   title="Coursera terminal lab files"
   alt="Coursera terminal lab files." />
@@ -1711,7 +1662,7 @@ from your local device into the Visual Studio Code file tree.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. how to use visual studio (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image062.webp"
+  src="./images/image062.png"
   title="Coursera Terminal lab files"
   alt="Coursera Terminal lab files."
   style="width:35%;" />
@@ -1742,7 +1693,7 @@ files through the steps below.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 63. style.css and index.html in project folder (51) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image063.webp"
+  src="./images/image063.png"
   title="Project folder with .dotfiles-coursera, index.html and style.css"
   alt="Project folder with .dotfiles-coursera, index.html and style.css."
   style="width:35%;" />
@@ -1787,7 +1738,7 @@ table booking system to their website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 64. form book a table w/contact person, number, table size, location (52) ~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image064.webp?raw=true"
+  src="/images/image064.png?raw=true"
   title="Book a Table form"
   alt="Book a Table form."
   style="width:25%;" />
@@ -1808,7 +1759,7 @@ selected.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. book a table form updates (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image065.webp?raw=true"
+  src="/images/image065.png?raw=true"
   title="Book a table form updates in vs code (or many better ones out there)"
   alt="Book a table form updates in vs code (or many better ones out there)."
   style="width:35%;" />
@@ -1867,7 +1818,7 @@ Again, I set the name attribute to location.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 66. main section of index.html using radio buttons (55) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image066.webp?raw=true"
+  src="/images/image066.png?raw=true"
   title="Main section, fields using radio buttons"
   alt="Main section, fields using radio buttons."
   style="width:45%;" />
@@ -1877,7 +1828,7 @@ Again, I set the name attribute to location.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. sample form book a table (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image067.webp?raw=true"
+  src="/images/image067.png?raw=true"
   title="Sample form, Book a table"
   alt="Sample form, Book a table."
   style="width:45%;" />
@@ -1893,7 +1844,7 @@ the user to accurately select the small button elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 68. more sample form book a table (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image068.webp?raw=true"
+  src="/images/image068.png?raw=true"
   title="More changes to form Book a table"
   alt="More changes to form Book a table."
   style="width:45%;" />
@@ -1999,7 +1950,7 @@ input element and set its content to location.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. live preview book a table form (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image069.webp?raw=true"
+  src="/images/image069.png?raw=true"
   title="Live preview of Book a Table form"
   alt="Live preview of Book a Table form."
   style="width:25%;" />
@@ -2023,7 +1974,7 @@ this form again in the near future.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. example checkout cart (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image070.webp?raw=true"
+  src="/images/image070.png?raw=true"
   title="Example checkout cart"
   alt="Example checkout cart."
   style="width:25%;" />
@@ -2038,7 +1989,7 @@ in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. http request response cycle (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image071.webp?raw=true"
+  src="/images/image071.png?raw=true"
   title="HTTP Request Response Cycle"
   alt="HTTP Request Response Cycle."
   style="width:25%;" />
@@ -2054,7 +2005,7 @@ files.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 72. how forms send data to a web server (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image072.webp?raw=true"
+  src="/images/image072.png?raw=true"
   title="How forms send data to a web server"
   alt="How forms send data to a web server."
   style="width:25%;" />
@@ -2072,7 +2023,7 @@ server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. form method get and post (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image073.webp?raw=true"
+  src="/images/image073.png?raw=true"
   title="Form methods GET and POST"
   alt="Form methods GET and POST."
   style="width:45%;" />
@@ -2081,7 +2032,7 @@ server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. login-form (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image074.webp?raw=true"
+  src="/images/image074.png?raw=true"
   title="Login-form"
   alt="Login-form."
   style="width:45%;" />
@@ -2092,7 +2043,7 @@ the web browser navigation bar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. login form data (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image075.webp?raw=true"
+  src="/images/image075.png?raw=true"
   title="Login Form data"
   alt="Login Form data."
   style="width:45%;" />
@@ -2118,7 +2069,7 @@ attribute to post.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. post form data (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image076.webp?raw=true"
+  src="/images/image076.png?raw=true"
   title="Post Form Data"
   alt="Post Form Data."
   style="width:45%;" />
@@ -2237,7 +2188,7 @@ elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 77. input type: text, value: username (65) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image077.webp?raw=true"
+  src="/images/image077.png?raw=true"
   title="Example Input Type: text, value: username"
   alt="Example Input Type: text, value: username."
   style="width:35%;" />
@@ -2253,7 +2204,7 @@ border on regular corners.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. checkbox input type (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image078.webp?raw=true"
+  src="/images/image078.png?raw=true"
   title="Checkbox input type"
   alt="Checkbox input type."
   style="width:35%;" />
@@ -2274,7 +2225,7 @@ solve this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. css visual styling (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image079.webp?raw=true"
+  src="/images/image079.png?raw=true"
   title="CSS visual styling"
   alt="CSS visual styling."
   style="width:35%;" />
@@ -2294,7 +2245,7 @@ and then type equals in this case text or email.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 80. css font, width, height and border (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image080.webp?raw=true"
+  src="/images/image080.png?raw=true"
   title="CSS properties: font, width, height and border"
   alt="CSS properties: font, width, height and border."
   style="width:35%;" />
@@ -2344,7 +2295,7 @@ element. For example, this code:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 81. username and password input types (69) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image081.webp?raw=true"
+  src="/images/image081.png?raw=true"
   title="Two input types, text and password, as it displays in the browser"
   alt="Two input types, text and password, as it displays in the browser."
   style="width:15%;" />
@@ -2450,7 +2401,7 @@ provide textual or numeric input other than the listed options.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 82. datalist input type with drop-down menu (71) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image082.webp?raw=true"
+  src="/images/image082.png?raw=true"
   title="Datalist input type with its drop-down list containing the options visible"
   alt="Datalist input type with its drop-down list containing the options visible."
   style="width:15%;" />
@@ -2477,7 +2428,7 @@ below the code block.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 83. option input type with drop-down list (71) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image083.webp?raw=true"
+  src="/images/image083.png?raw=true"
   title="Option input type as with its drop-down list visible"
   alt="Option input type as with its drop-down list visible."
   style="width:15%;" />
@@ -2581,7 +2532,7 @@ in embedded players.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. about.html (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image084.webp?raw=true"
+  src="/images/image084.png?raw=true"
   title="about.html"
   alt="about.html."
   style="width:45%;" />
@@ -2606,7 +2557,7 @@ saved the file and opened the web page in my browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. menu screen: little lemon (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image085.webp?raw=true"
+  src="/images/image085.png?raw=true"
   title="Menu screen: Little Lemon"
   alt="Menu screen: Little Lemon."
   style="width:45%;" />
@@ -2620,7 +2571,7 @@ pause it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 86. video element added to menu screen (76) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image086.webp?raw=true"
+  src="/images/image086.png?raw=true"
   title="Video element added to menu screen: Little Lemon"
   alt="Video element added to menu screen: Little Lemon."
   style="width:45%;" />
@@ -2640,7 +2591,7 @@ controls.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 87. demo menu screen: litle lemon (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image087.webp?raw=true"
+  src="/images/image087.png?raw=true"
   title="Menu screen for Little Lemon"
   alt="Menu screen for Little Lemon."
   style="width:45%;" />
@@ -2656,7 +2607,7 @@ video element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. muted attribute added (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image088.webp?raw=true"
+  src="/images/image088.png?raw=true"
   title="Muted attribute added to video element"
   alt="Muted attribute added to video element."
   style="width:45%;" />
@@ -2937,7 +2888,7 @@ Little Lemon website without needing to contact me first.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. add iframe element (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image089.webp?raw=true"
+  src="/images/image089.png?raw=true"
   title="Add iFrame element"
   alt="Add iFrame element."
   style="width:45%;" />
@@ -2966,7 +2917,7 @@ with embedding content from another website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 90. iframe element attributes for security (85) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image090.webp?raw=true"
+  src="/images/image090.png?raw=true"
   title="iFrame element attributes for security"
   alt="iFrame element attributes for security."
   style="width:45%;" />
@@ -3006,7 +2957,7 @@ implement the same code on their website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 91. blog menu for little lemon restaurant (86) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image091.webp?raw=true"
+  src="/images/image091.png?raw=true"
   title="Menu blog for little lemon restaurant"
   alt="Menu blog for little lemon restaurant."
   style="width:45%;" />
@@ -3057,7 +3008,7 @@ information so for now let's focus on the canvas element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 92. index.html - set width and height (87) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image092.webp?raw=true"
+  src="/images/image092.png?raw=true"
   title="Index.html - set canvas width and height"
   alt="Index.html - set canvas width and height."
   style="width:45%;" />
@@ -3071,7 +3022,7 @@ dot Js inside index dot html.  Adding the canvas html element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 93. animate.js to animate a bouncing ball (88) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image093.webp?raw=true"
+  src="/images/image093.png?raw=true"
   title="animate.js to animate a bouncing ball"
   alt="animate.js to animate a bouncing ball."
   style="width:45%;" />
@@ -3088,7 +3039,7 @@ pass in my underscore canvas at the parameter.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. variable named canvas (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image094.webp?raw=true"
+  src="/images/image094.png?raw=true"
   title="Variable named canvas"
   alt="Variable named canvas."
   style="width:45%;" />
@@ -3109,7 +3060,7 @@ path, context dot arc and context dot fill functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. define animate function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image095.webp?raw=true"
+  src="/images/image095.png?raw=true"
   title="Define animate function"
   alt="Define animate function."
   style="width:45%;" />
@@ -3302,7 +3253,7 @@ container and items present inside it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 96. diagram of a flexbox and its properties (94) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image096.webp?raw=true"
+  src="/images/image096.png?raw=true"
   title="Diagram of a flexbox and all its properties"
   alt="Diagram of a flexbox and all its properties."
   style="width:35%" />
@@ -3342,7 +3293,7 @@ href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-term
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. seven div on seven rows (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image097.webp?raw=true"
+  src="/images/image097.png?raw=true"
   title="Seven div containers on seven rows"
   alt="Seven div containers on seven rows."
   style="width:25%;" />
@@ -3367,7 +3318,7 @@ starting in the top left corner.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 98. output for css with aligned number boxes (96) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image098.webp"
+  src="./images/image098.png"
   title="Output for CSS Code with aligned number boxes"
   alt="Output for CSS Code with aligned number boxes."
   style="width:35%;" />
@@ -3402,7 +3353,7 @@ inside it:</p>
 <!--~~~~~~~~~~~~~~~ 99. the output for css code with justification in the center (96) ~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image099.webp"
+  src="./images/image099.png"
   title="The output for CSS Code with justification in the center"
   alt="The output for CSS Code with justification in the center."
   style="width:35%;" />
@@ -3423,7 +3374,7 @@ span the entire width of the axis.</p>
 <!--~~~~~~~~~~~~~~~~~~ 100. seven number boxes centered on three rows (97) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image100.webp?raw=true"
+  src="/images/image100.png?raw=true"
   title="Output for CSS code with wrapped number boxes justified in the center"
   alt="Output for CSS code with wrapped number boxes justified in the center."
   style="width:20%;" />
