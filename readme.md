@@ -13,7 +13,7 @@ output:
 
 <h6 align="center">(by meta - META)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth in bbauska.github.io ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth in bbauska.github.io ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -24,7 +24,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image002.webp?raw=true"
+  src="/images/image002.png?raw=true"
   title="meta logo"
   alt="meta logo."
   style="width:15%;" />
@@ -111,7 +111,7 @@ Let's explore some basic HTML and CSS principles and practices.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image003.webp?raw=true"
+  src="/images/image003.png?raw=true"
   title="Hypertext and Markup"
   alt="Hypertext and Markup."
   style="width:45%" />
@@ -121,7 +121,7 @@ Let's explore some basic HTML and CSS principles and practices.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image004.webp?raw=true"
+  src="/images/image004.png?raw=true"
   title="Basic HTML page structure"
   alt="Basic HTML page structure."
   style="width:45%" />
@@ -151,7 +151,7 @@ on screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 05. css to style elements, box model, document flow (04) ~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image005.webp?raw=true"
+  src="/images/image005.png?raw=true"
   title="Use CSS to Style elements, use Box Model, and arrange page elements"
   alt="Use CSS to Style elements, use Box Model, and arrange page elements."
   style="width:45%;" />
