@@ -9,26 +9,29 @@ output:
     with some style
 ---
 
-<h1 align=center">HTML &amp; CSS in Depth</h1>
+<h1 align="center">HTML &amp; CSS in Depth</h1>
 
 <h6 align="center">(by meta - META)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ readme.md of meta-html-css-in-depth in bbauska.github.io ~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. coursera logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image001b.png?raw=true"
   title="Coursera logo"
   alt="Coursera logo."
   style="width:20%;" />
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. meta logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image002.png?raw=true"
   title="meta logo"
   alt="meta logo."
   style="width:15%;" />
-
+</p>
 <h2>Course syllabus</h2>
 
 <h3>Prerequisites</h3>
