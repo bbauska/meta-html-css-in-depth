@@ -113,21 +113,25 @@ Let's explore some basic HTML and CSS principles and practices.</p>
 <p>But what does that mean?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. hypertext and markup (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image003.png?raw=true"
   title="Hypertext and Markup"
   alt="Hypertext and Markup."
   style="width:45%" />
+</p>
 
 <p>Hypertext is text which contains links to other text.</p>
 <p>Markup refers to tags and elements used within a document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. basic html page structure (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image004.png?raw=true"
   title="Basic HTML page structure"
   alt="Basic HTML page structure."
   style="width:45%" />
+</p>
 
 <p>HTML elements with their opening and closing tags in angle brackets make up 
 an HTML document. These elements form the structure of a webpage and describe what 
@@ -153,11 +157,13 @@ fixtures, and overall style. CSS tells the web browser how to display HTML eleme
 on screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 05. css to style elements, box model, document flow (04) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image005.png?raw=true"
   title="Use CSS to Style elements, use Box Model, and arrange page elements"
   alt="Use CSS to Style elements, use Box Model, and arrange page elements."
   style="width:45%;" />
+</p>
 
 <h5>You use CSS to;</h5>
 
@@ -188,11 +194,13 @@ more semantic HTML elements available to you as a developer.</p>
 that you create a well-formed web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. basic html page structure (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image006.webp?raw=true"
   title="Basic HTML page structure"
   alt="Basic HTML page structure."
   style="width:45%" />
+</p>
 
 <p>Let's revisit the basic structure of an HTML page which includes the head and 
 body.</p>
@@ -200,21 +208,25 @@ body.</p>
 each of the sections.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image007.webp?raw=true"
   title="HTML tags"
   alt="HTML tags."
   style="width:45%" />
+</p>
 
 <p>For a typical HTML page, the structure can be semantically described using the 
 header, main and footer semantic HTML tags.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. header and nav links (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image008.webp?raw=true"
   title="Header and navigation links example"
   alt="Header and navigation links example."
   style="width:45%" />
+</p>
 
 <p>For example, suppose you lay out your page with a <b>header section</b> that contains 
 some company logo and navigation links.</p>
@@ -222,11 +234,13 @@ some company logo and navigation links.</p>
 <p>Finally, a <b>footer section</b> contains contact information and social media links.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag - main navigation section (06) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image009.webp?raw=true"
   title="Nav tag - the main navigation section"
   alt="Nav tag - the main navigation section."
   style="width:45%" />
+</p>
 
 <p>The <b>main navigation section</b> of your web page can also be described semantically 
 using the <b>Nav</b> tag.</p>
@@ -234,11 +248,13 @@ using the <b>Nav</b> tag.</p>
 placed after the header element and the header element is used for logos.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag inside nav (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image010.webp?raw=true"
   title="Unordered list tag inside of nav tag"
   alt="Unordered list tag inside of nav tag."
   style="width:45%" />
+</p>
 
 <p>The main links of your website are then added inside the Nav element. It is 
 common practice for developers to specify their links as an unordered list inside 
@@ -252,11 +268,13 @@ document page application or site that is independently distributable. That's qu
 a mouthful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image011.webp?raw=true"
   title="Newspaper image"
   alt="Newspaper image."
   style="width:15%" />
+</p>
 
 <p>It may help to think of a page in a newspaper.  There are many articles on 
 the page and you can cut out the individual articles with scissors if needed.
@@ -269,11 +287,13 @@ inside of the article element because it's a complete self-contained composition
 on a web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image012.webp?raw=true"
   title="Article element"
   alt="Article element."
   style="width:45%" />
+</p>
 
 <p>You should place the article element within the main element. Then add your 
 regular heading &lt;h2&gt; and paragraph &lt;p&gt; tags within the article element.</p>
@@ -282,11 +302,13 @@ the main content of the page. And inside of it there can be multiple article ele
 for something like a blog post list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image013.webp?raw=true"
   title="Footer element"
   alt="Footer element."
   style="width:45%" />
+</p>
 
 <p>At the end of your document is the footer element. This might contain 
 additional navigational links or content. It is important to note that 
@@ -303,11 +325,13 @@ blog post. That's it, let's examine the section element.</p>
 sections of the article.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. descriptive section elements (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image014.webp?raw=true"
   title="Descriptive section elements"
   alt="Descriptive section elements."
   style="width:45%;" />
+</p>
 
 <p>It is important to note that sections should contain heading elements to semantically 
 describe the section.</p>
@@ -328,11 +352,13 @@ posts, and that it must use semantic html so that search engines and
 accessibility software can understand the semantics of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. adding basic semantic structure (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image015.webp?raw=true"
   title="Adding basic semantic structure"
   alt="Adding basic semantic structure."
   style="width:35%;" />
+</p>
 
 <p>I've set up my basic html document structure in a file named blog.html. I'll 
 start off by adding my basic semantic structure.</p>
@@ -340,12 +366,13 @@ start off by adding my basic semantic structure.</p>
 element. Finally, the footer element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. header, nav, main and footer (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image016.png?raw=true"
   title="Header, nav, main and footer"
   alt="Header, nav, main and footer."
   style="width:45%;" />
-
+</p>
 
 <p>Remember this structure describes the semantics of this html document. Specifically, 
 the header element will be used to display the Little Lemon logo, and the nav element 
@@ -396,12 +423,13 @@ You will learn how search engines analyze web pages and how meta tags help
 provide information for search engines.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 17. seo: search engine optimization (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image017.png?raw=true"
   title="SEO: Search Engine Optimization"
   alt="SEO: Search Engine Optimization."
   style="width:15%;" />
-
+</p>
 <p>A major part of launching a website is a process called search engine optimization 
 or SEO. This process involves making improvements to a website’s content semantics 
 &amp; delivery to improve its ranking in search results.</p>
@@ -421,12 +449,13 @@ rank your website. But for now, let's just focus on how meta tags influence webs
 ranking.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. meta tags vs metadata (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image018.png?raw=true"
   title="Meta tags define metadata.  Metadata is data about the web page"
   alt="Meta tags define metadata.  Metadata is data about the web page."
   style="width:35%;" />
-
+</p>
 <p>Meta tags define metadata about a web page.</p>
 <p>What is metadata? You ask? It's data about other data which in this
 case is data about the web page.</p>
@@ -435,21 +464,25 @@ as you know, nothing inside the head element is displayed in the web
 browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 19. meta tags: unseen elements within the browser (14) ~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image019.png?raw=true"
   title="Meta tags: Unseen elements within the browser"
   alt="Meta tags: Unseen elements within the browser."
   style="width:25%;" />
+</p>
 
 <p>In other words, meta tags are unseen elements within the browser.</p>
 <p>Note that there is no closing tag for the meta tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 20. meta element: has two attributes; name and content (14) ~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image020.png?raw=true"
   title="Meta Element: 2 attributes; name and content"
   alt="Meta Element: 2 attributes; name and content."
   style="width:35%;" />
+</p>
 
 <p>The meta element has two attributes, name and content.</p>
 <p>The name attribute specifies the name of the metadata and the content
@@ -457,22 +490,25 @@ attribute specifies the value of the metadata.</p>
 <p>Let's examine some examples of metadata.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. author metadata (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image021.png?raw=true"
   title="Author metadata: Specifies the author of the web page"
   alt="Author metadata: Specifies the author of the web page."
   style="width:45%;" />
-
+</p>
 <p>The author metadata specifies the author of the web page.</p>
 <p>The name attribute is author and the content attribute is the person
 and company who are the author of the web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. description metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image022.png?raw=true"
   title="Description metadata: Describes the content of the web page"
   alt="Description metadata: Describes the content of the web page."
   style="width:45%;" />
+</p>
 
 <p>The description metadata describes the content of the web page.</p>
 <p>This is often used by search engines as descriptive text in search
@@ -481,12 +517,13 @@ results.</p>
 the descriptive text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. keyword metadata (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image023.png?raw=true"
   title="Keywords metadata - do not use any longer"
   alt="Keywords metadata - do not use any longer."
   style="width:45%;" />
-
+</p>
 <p>The keywords metadata was previously used to provide search keywords
 for search engines.</p>
 <p>However, this led to a lot of websites using the keywords metadata to
@@ -496,24 +533,26 @@ uses keywords metadata as a spam indicator because of this, it's
 recommended not to include this metadata in modern web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. robots metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image024.png?raw=true"
   title="Robots metadata, contents index, follow"
   alt="Robots metadata, contents index, follow."
   style="width:45%;" />
-
+</p>
 <p>Another type of metadata is the robot's metadata and it tells search
 engines if and how they should analyze your web page.</p>
 <p>The name ‘robots’ comes from the automated software often referred to
 as bots, that search engines used to analyze websites.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 25. robots metadata: index, follow, noindex, nofollow (16) ~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image025.png?raw=true"
   title="Robots metadata: index, follow, noindex, nofollow"
   alt="Robots metadata: index, follow, noindex, nofollow."
   style="width:15%;" />
-
+</p>
 <p>The content attribute for Robots has four possible values.</p>
 <p>Index tells the bot to analyze the page.</p>
 <p>Follow tells the bot to also visit all links on the web page.</p>
@@ -524,12 +563,13 @@ page and,</p>
 some bots will ignore this value so it's best not to rely on it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image026.webp?raw=true"
   title="Robots metadata: index, follow, noindex, nofollow"
   alt="Robots metadata: index, follow, noindex, nofollow."
   style="width:45%;" />
-
+</p>
 <p>Finally, there's the view ports metadata.</p>
 <p>The view port metadata is important when designing responsive web pages.</p>
 <p>Why you might ask because when a web pages viewed on a phone or tablet, the 
@@ -554,12 +594,13 @@ on social media.</p>
 <p>But that's for later modules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. search engine optimization (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image027.png?raw=true"
   title="SEO: author, description, keywords, robots and viewports metadata"
   alt="SEO: author, description, keywords, robots and viewports metadata."
   style="width:7%;" />
-
+</p>
 <p>For now, it's important to know that author, description, keywords, robots and viewports metadata all
 play a role in the search engine optimization of web pages.</p>
 
@@ -586,12 +627,13 @@ can easily add CSS rules to the webpage. Again, it's best if you add any
 other CSS files also to this folder.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. example semantic structure (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image028.png?raw=true"
   title="Template HTML with semantic structure set up"
   alt="Template HTML with semantic structure set up."
   style="width:45%;" />
-
+</p>
 <p>I go back to my template folder and open it in Visual Studio Code. I
 open the index.html file. The file has a semantic HTML document
 structure set up.</p>
@@ -610,12 +652,13 @@ webpage on social media, you should remember to uncomment this HTML
 section and update the content attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. more commented out code (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image029.png?raw=true"
   title="More commented out code for icons"
   alt="More commented out code for icons."
   style="width:45%;" />
-
+</p>
 <p>The next block of commented out code is for icons.</p>
 <p>If you want to show an icon in the web browser tab for your website, 
 you can update the href attributes here to point to your icon.</p>
@@ -626,12 +669,13 @@ reference the styles.css file in the CSS folder.</p>
 <p>By now you can probably see how useful this template is.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. body element (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image030.png?raw=true"
   title="Body element"
   alt="Body element."
   style="width:45%;" />
-
+</p>
 <p>Let's continue to the body element.</p>
 <p>The body element already contains a basic semantic structure.</p>
 <p>This includes the header element for your website title or logo, the nav 
@@ -639,12 +683,13 @@ element for your website navigation, the main element for your main content,
 and the footer element for any copyright notices or links to secondary webpages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. include js here (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image031.png?raw=true"
   title="Include JavaScript here"
   alt="Include JavaScript here."
   style="width:45%;" />
-
+</p>
 <p>Below the footer element, you add script elements for JavaScript
 files.</p>
 <p>To make your life easy, a script element is already set up to
@@ -676,12 +721,13 @@ provides the visitor to the website with a consistent navigation
 experience.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. navbar example (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image032.png?raw=true"
   title="Example of a top navbar layout on a web page"
   alt="Example of a top navbar layout on a web page."
   style="width:45%;" />
-
+</p>
 <h3>Carousel layout</h3>
 
 <p>Product-focused websites often use a large carousel on their homepage
@@ -690,12 +736,13 @@ contains content items that will rotate through the carousel area at a
 fixed interval.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. example of a carousel layout (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image033.png?raw=true"
   title="Example of a Carousel Layout on a web page"
   alt="Example of a Carousel Layout on a web page."
   style="width:45%;" />
-
+</p>
 <h4>Blog layout</h4>
 
 <p>The blog layout is used to feature multiple content items of differing importance.</p>
@@ -703,22 +750,24 @@ fixed interval.</p>
 the page each day based on current events.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 34. sample longer featured blog post (23) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image034.png?raw=true"
   title="Example of a longer featured Blog Layout on a web page"
   alt="Example of a longer featured Blog Layout on a web page."
   style="width:45%;" />
-
+</p>
 <p>The layout typically features different-sized feature areas followed
 by a series of article summary areas that link to full articles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. sample blog post (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="displayed"
+<p align="center">
+  <img class="displayed"
   src="/images/image035.png?raw=true"
   title="Sample blog post"
   alt="Sample blog post."
   style="width:45%;" />
-
+</p>
 <h4>Dashboard layout</h4>
 
 <p>Dashboard layouts are often used in enterprise software for managing
