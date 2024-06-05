@@ -9,7 +9,7 @@ output:
     with some style
 ---
 
-<h1 align="center">HTML &amp; CSS in Depth</h1>
+<h1 style="align:center;">HTML &amp; CSS in Depth</h1>
 
 <h6 align="center">(by meta - META)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
