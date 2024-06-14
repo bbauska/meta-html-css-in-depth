@@ -779,11 +779,13 @@ or reporting data such as graphs and tables. This trendy layout provides
 a good user experience for business users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. example dashboard layout (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image036.png?raw=true"
   title="Example of a Dashboard Layout on a web page"
   alt="Example of a Dashboard Layout on a web page."
   style="width:45%;" />
+</p>
 
 <h4>More layouts</h4>
 
@@ -1363,11 +1365,13 @@ website.</p>
 user accounts on the Little Lemon website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. signup form document structure (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image044.png?raw=true"
   title="Signup form document structure"
   alt="Signup form document structure."
   style="width:45%;" />
+</p>
 
 <p>I've set up my basic HTML document structure in a file named,
 signup.html.</p>
@@ -1435,6 +1439,7 @@ user what each field represents.</p>
   alt="Label and Input with Id attribute."
   style="width:45%;" />
 </p>
+
 <p>To do this, I'll add a label element before each input element.</p>
 <p>Now I want to explain why I set the ID attribute for each input field
 earlier in the module.</p>
@@ -1461,6 +1466,7 @@ for each input element.</p>
   alt="Example signup form."
   style="width:25%;" />
 </p>
+
 <p>I save the file again and open the Live Preview.</p>
 <p>Oh, yes, that's much better.</p>
 <p>The form labels now display above the input fields.</p>
@@ -1473,6 +1479,7 @@ for each input element.</p>
   alt="Add submit button to form."
   style="width:45%;" />
 </p>
+
 <p>To finalize the form, I need to add one more thing, the submit
 button. Inside the last div element, I add a button element.</p>
 <p>I set the button type attribute to submit.</p>
@@ -3357,11 +3364,13 @@ container and items present inside it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 96. diagram of a flexbox and its properties (94) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image096.png?raw=true"
   title="Diagram of a flexbox and all its properties"
   alt="Diagram of a flexbox and all its properties."
   style="width:35%" />
+</p>
 
 <h5>Image source: <a
 href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology">https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology</a></h5>
@@ -6204,11 +6213,12 @@ set.</p>
 need to follow when writing pseudo-class rules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 192. link, visited, hover, active (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image192.png?raw=true"
   alt="Link, Visited, Hover, and Active."
   style="width:15%;" />
+</p>
 
 <p>LVHA stands for link, visited, hover, active. Always apply pseudo-class styles 
 in the correct order. First link, then visited, next hover, and lastly active. 
@@ -6217,11 +6227,12 @@ visited, hover, and active pseudo-classes. Additionally, you will learn two more
 effects that you can create with the hover pseudo-class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 193. pseudo_links.html with tags (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image193.png?raw=true"
   alt="pseudo_links.html with tags."
   style="width:50%;" />
+</p>
 
 <p>In the pseudo_links.html file, I added three tags: a heading tag,
 followed by a paragraph tag, and another paragraph tag.
@@ -6229,11 +6240,12 @@ In the heading tag, I added the name of the restaurant, Little Lemon,
 and the first paragraph tag has a link to their Instagram page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194. pseudo_links.css (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image194.png?raw=true"
   alt="CSS file pseudo_links.css."
   style="width:25%;" />
+</p>
 
 <p>Now I go to my CSS code by clicking on the pseudo_links.css file at the top of 
 my screen.</p>
@@ -6245,11 +6257,12 @@ click the "View" icon at the top right of my screen.</p>
 because I set it to blue with the link pseudo-class in the CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. pseudo-links example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image195.png?raw=true"
   alt="Pseudo-class links example."
   style="width:25%;" />
+</p>
 
 <p>As expected, when I move the mouse over the link, the color changes
 to green because I added green as the value of the color attribute in
@@ -6268,21 +6281,23 @@ pseudo-class.</p>
 <p>To do this, I use the pseudoshadow.html file I created previously.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 196. hover effect with pseudo-shadow (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image196.png?raw=true"
   alt="Hover effect with pseudo-class."
   style="width:50%;" />
+</p>
 
 <p>In this file, I added four paragraph tags, each belonging to a class called textual.</p>
 <p>I also added random text, commonly used in publishing and graphic design as placeholder text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 197. pseudo-class hover and shadow effects (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image197.png?raw=true"
   alt="Pseudo-class hover and shadow effects."
   style="width:25%;" />
+</p>
 
 <p>The CSS code that I added is fairly simple.</p>
 <p>The first property defines the properties of the textual class.</p>
@@ -6295,22 +6310,24 @@ set to zero pixels, the blur radius is set to 25 pixels, and the color
 of the shadow is set to black.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 198. offset and box-shadow example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image198.png?raw=true"
   alt="Offset and box-shadow example, Little Lemon."
   style="width:50%;" />
+</p>
 
 <p>I moved back to my HTML file to output this code and click on the "View" icon.</p>
 <p>The Little Lemon page with blocks of texts displays.</p>
 <p>The text looks like regular blocks of texts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199. hover pseudo-class (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image199.png?raw=true"
   alt="Hover pseudo-class."
   style="width:50%;" />
+</p>
 
 <p>But when I hover over a block of code with my mouse, it gets
 highlighted with a box-shadow around the edges.</p>
@@ -6765,11 +6782,12 @@ are an all pervasive part of web development.</p>
 technology was good enough to integrate it into online experiences.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 200. animation: graphics in motion (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image200.png?raw=true"
   alt="Animation: Graphics in Motion."
   style="width:50%;" />
+</p>
 
 <p>The graphics interchange form or ‘gifs’ can arguably be labeled as
 the first attempt to bring effects to web pages.</p>
@@ -6826,11 +6844,12 @@ users are scrolling.</p>
 visit the pros and cons of adding effects on web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. effects: pros and cons (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image201.png?raw=true"
   alt="Effects: Pros and Cons."
   style="width:50%;" />
+</p>
 
 <p>The primary driving factor of web pages these days is to attract the
 attention of user web pages that use animation and effects optimally
