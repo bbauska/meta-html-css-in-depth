@@ -196,7 +196,7 @@ that you create a well-formed web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. basic html page structure (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image006.webp?raw=true"
+  src="/images/image006.png?raw=true"
   title="Basic HTML page structure"
   alt="Basic HTML page structure."
   style="width:45%" />
@@ -210,7 +210,7 @@ each of the sections.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html tags (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image007.webp?raw=true"
+  src="/images/image007.png?raw=true"
   title="HTML tags"
   alt="HTML tags."
   style="width:45%" />
@@ -222,7 +222,7 @@ header, main and footer semantic HTML tags.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. header and nav links (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image008.webp?raw=true"
+  src="/images/image008.png?raw=true"
   title="Header and navigation links example"
   alt="Header and navigation links example."
   style="width:45%" />
@@ -236,7 +236,7 @@ some company logo and navigation links.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 09. nav tag - main navigation section (06) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image009.webp?raw=true"
+  src="/images/image009.png?raw=true"
   title="Nav tag - the main navigation section"
   alt="Nav tag - the main navigation section."
   style="width:45%" />
@@ -250,7 +250,7 @@ placed after the header element and the header element is used for logos.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 10. unordered list tag inside nav (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image010.webp?raw=true"
+  src="/images/image010.png?raw=true"
   title="Unordered list tag inside of nav tag"
   alt="Unordered list tag inside of nav tag."
   style="width:45%" />
@@ -270,7 +270,7 @@ a mouthful.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. newspaper image (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img class="displayed"
-  src="/images/image011.webp?raw=true"
+  src="/images/image011.png?raw=true"
   title="Newspaper image"
   alt="Newspaper image."
   style="width:15%" />
@@ -289,7 +289,7 @@ on a web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. article element (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image012.webp?raw=true"
+  src="/images/image012.png?raw=true"
   title="Article element"
   alt="Article element."
   style="width:45%" />
@@ -304,7 +304,7 @@ for something like a blog post list.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. footer element (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image013.webp?raw=true"
+  src="/images/image013.png?raw=true"
   title="Footer element"
   alt="Footer element."
   style="width:45%" />
@@ -327,7 +327,7 @@ sections of the article.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. descriptive section elements (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image014.webp?raw=true"
+  src="/images/image014.png?raw=true"
   title="Descriptive section elements"
   alt="Descriptive section elements."
   style="width:45%;" />
@@ -354,7 +354,7 @@ accessibility software can understand the semantics of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 15. adding basic semantic structure (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image015.webp?raw=true"
+  src="/images/image015.png?raw=true"
   title="Adding basic semantic structure"
   alt="Adding basic semantic structure."
   style="width:35%;" />
@@ -565,7 +565,7 @@ some bots will ignore this value so it's best not to rely on it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. viewport metadata (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img class="displayed"
-  src="/images/image026.webp?raw=true"
+  src="/images/image026.png?raw=true"
   title="Robots metadata: index, follow, noindex, nofollow"
   alt="Robots metadata: index, follow, noindex, nofollow."
   style="width:45%;" />
@@ -961,7 +961,7 @@ social media platforms.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 40. metadata required by protocol (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image040.webp?raw=true"
+  src="/images/image040.png?raw=true"
   title="Metadata required by protocol"
   alt="Metadata required by protocol."
   style="width:45%;" />
@@ -1626,8 +1626,8 @@ leaving the course.</p>
 <img class="displayed"
   src="/images/image056.png?raw=true"
   style="width:35%"
-  title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&amp;hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g"
-  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iKUP2iD8QV-lD9og_LFfqw_7c22d2f4938c48a18c9cf8d9e1613cf1_Screen-Shot-2022-06-24-at-12.54.48-PM.png?expiry=1676419200000&amp;hmac=5NCTwYUvrsD2pdxMfSiQTUq4KmXXY01V9uJKi1jq_1g" />
+  title="Creating an HTML Document"
+  alt="Creating an HTML Document" />
 
 <p>When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing code!</p>
@@ -1635,8 +1635,8 @@ Visual Studio Code already setup and ready for you to start writing code!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. project folder and files (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image057.png?raw=true"
-  title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&amp;hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o"
-  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j2bI-PfPRP2myPj3z7T9RQ_d20ba050929b4f13b1cdecf66973caf1_Screen-Shot-2022-06-24-at-3.42.35-PM.png?expiry=1676419200000&amp;hmac=VfUIhEAze0Mn0n-3aDA3JkVZJ_TZtpa4IjZr9svW90o"
+  title="Preject Folder and Files"
+  alt="Preject Folder and Files."
   style="width:35%;" />
 
 <p>You'll see all the files for the lab in the Project folder in the
@@ -1645,8 +1645,8 @@ left sidebar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. project folder and files, page 2 (49) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image058.png?raw=true"
-  title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files..webp?expiry=1676419200000&amp;hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c"
-  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Lj6w04QzSnG-sNOEM7pxzQ_ff173aadfaed42edb87ca2c1638ab8f1_files..webp?expiry=1676419200000&amp;hmac=xFE1qZs4efIL0ZM5aypM2bu2gAhsWfjKwpCr4n2Vk7c"
+  title="Preject Folder and Files, Page 2"
+  alt="Preject Folder and Files, Page 2."
   style="width:35%;" />
 
 <p>And the large editor area where you write your code for the lab.</p>
@@ -1654,8 +1654,8 @@ left sidebar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. editor area (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image059.png?raw=true"
-  title="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&amp;hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI"
-  alt="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/0I0KDNoPQsONCgzaD2LDjw_ecc373151e254b37a17f200b026ba4f1_editor.png?expiry=1676419200000&amp;hmac=wZ-eOJth3iyjhcPhCnjGkhuea_ReIye6A-M3U2bKshI"
+  title="Editor Area"
+  alt="Editor Area."
   style="width:35%;" />
 
 <p>All <b>Lab</b> exercises will include two important files.
@@ -3185,17 +3185,20 @@ to use inputs and forums or embed videos and audio. Well done.</p>
 <p>The following resources will be helpful as additional references in
 dealing with different concepts related to the topics you have covered
 in this module. </p>
-<p><a href="https://html.com/media/" target="_blank" rel="noopener noreferrer">https://html.com/media/</a></p>
-<p><a
-href="https://studio.support.brightcove.com/publish/choosing-correct-embed-code.html" target="_blank" rel="noopener noreferrer">https://studio.support.brightcove.com/publish/choosing-correct-embed-code.html</a></p>
-<p><a
-href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML</a></p>
-<p><a
-href="https://www.educba.com/iframes-in-html/" target="_blank" rel="noopener noreferrer">https://www.educba.com/iframes-in-html/</a></p>
-<p><a
-href="https://www.tutorialrepublic.com/html-tutorial/html5-canvas.php" target="_blank" rel="noopener noreferrer">https://www.tutorialrepublic.com/html-tutorial/html5-canvas.php</a></p>
-<p><a
-href="https://html.spec.whatwg.org/multipage/media.html" target="_blank" rel="noopener noreferrer">https://html.spec.whatwg.org/multipage/media.html</a></p>
+
+<ul>
+  <li><a href="https://html.com/media/" target="_blank" rel="noopener noreferrer">HTML Media</a></li>
+  <li><a href="https://studio.support.brightcove.com/publish/choosing-correct-embed-code.html" 
+    target="_blank" rel="noopener noreferrer">Choosing the Correct Embed Code</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" 
+    target="_blank" rel="noopener noreferrer">Images in HTML</a></li>
+  <li><a href="https://www.educba.com/iframes-in-html/" target="_blank" rel="noopener noreferrer">
+    iFrames in HTML</a></li>
+  <li><a href="https://www.tutorialrepublic.com/html-tutorial/html5-canvas.php" target="_blank" rel="noopener noreferrer">
+    HTML Canvas</a></li>
+  <li><a href="https://html.spec.whatwg.org/multipage/media.html" 
+    target="_blank" rel="noopener noreferrer">HTML Media Elements</a></li>
+</ul>
 
 <h3>CSS web layout</h3>
 
