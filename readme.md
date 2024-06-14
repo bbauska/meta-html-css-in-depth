@@ -9449,7 +9449,7 @@ open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~ 258. webpage elements laid out and positioned correctly (257) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image258.webp?raw=true"
+  src="/images/image258.png?raw=true"
   title="Webpage elements laid out and positioned correctly"
   alt="Webpage elements laid out and positioned correctly."
   style="width:35%;" />
@@ -9460,7 +9460,7 @@ open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~ 259. now you know how to position web page elements correctly (257) ~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image259.webp?raw=true"
+  src="/images/image259.png?raw=true"
   title="Now you know how to position webpage elements corerctly (well, at least one way)"
   alt="Now you know how to position webpage elements corerctly (well, at least one way)."
   style="width:25%;" />
@@ -9513,7 +9513,7 @@ download is complete.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 260. review and accept license agreement (259) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image260.webp?raw=true"
+  src="/images/image260.png?raw=true"
   title="Step 3: Review and accept license agreement for MS Visual Studio Code"
   alt="Step 3: Review and accept license agreement for MS Visual Studio Code."
   style="width:35%;" />
@@ -9526,7 +9526,7 @@ then click Next.</p>
 <!--~~~~~~~~~~~~~~~~ 261. destination location (enter or accept default) (260) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image261.webp?raw=true"
+  src="/images/image261.png?raw=true"
   title="Step 4: Destination location. Keep default or enter a new location"
   alt="Step 4: Destination location. Keep default or enter a new location."
   style="width:35%;" />
@@ -9538,7 +9538,7 @@ destination location and click next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 262. make sure add to path is selected (261) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image262.webp?raw=true"
+  src="/images/image262.png?raw=true"
   title="Step 5: Make sure Add to Path is selected, click next"
   alt="Step 5: Make sure Add to Path is selected, click next."
   style="width:35%;" />
@@ -9551,7 +9551,7 @@ destination location and click next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263. click install when ready (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image263.webp?raw=true"
+  src="/images/image263.png?raw=true"
   title="Step 7: Click install when ready"
   alt="Step 7: Click install when ready."
   style="width:35%;" />
@@ -9577,7 +9577,7 @@ application link in Finder below.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 264. mac and linux menu screen color wheel (261) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image264.webp?raw=true"
+  src="/images/image264.png?raw=true"
   style="width:35%;"
   title="Set up Visual Studio Code on Mac Step 4"
   alt="Set up Visual Studio Code on Mac Step 4." />
@@ -9771,7 +9771,7 @@ a client persona.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 266. outline of course objectives (265) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image266.webp?raw=true"
+  src="/images/image266.png?raw=true"
   title="Summary: Use tags, create forms, create layouts and perform tests"
   alt="Summary: Use tags, create forms, create layouts and perform tests."
   style="width:25%" />
