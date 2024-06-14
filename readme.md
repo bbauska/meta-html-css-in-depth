@@ -728,6 +728,7 @@ experience.</p>
   alt="Example of a top navbar layout on a web page."
   style="width:45%;" />
 </p>
+
 <h3>Carousel layout</h3>
 
 <p>Product-focused websites often use a large carousel on their homepage
@@ -743,6 +744,7 @@ fixed interval.</p>
   alt="Example of a Carousel Layout on a web page."
   style="width:45%;" />
 </p>
+
 <h4>Blog layout</h4>
 
 <p>The blog layout is used to feature multiple content items of differing importance.</p>
@@ -816,12 +818,13 @@ information about a website before a user clicks on the link.</p>
 Protocol in 2010.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 37. open graph protocol: metadata rules for describing websites (26) ~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image037.png?raw=true"
   title="Open Graph Protocol: metadata rules for describing websites"
   alt="Open Graph Protocol: metadata rules for describing websites."
   style="width:25%;" />
-
+</p>
 <p>The Open Graph Protocol is a set of Metadata rules that allow web pages to describe themselves to social
 networks.</p>
 <p>There are many Metadata options available within the protocol, but
@@ -841,12 +844,13 @@ convention to identify it as an Open Graph Protocol related tag.</p>
 properties on a webpage.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 38. open graph protocol: title, type, url & image (26) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image038.png?raw=true"
   title="Open Graph Protocol: Title, Type, Url, and Image"
   alt="Open Graph Protocol: Title, Type, Url, and Image."
   style="width:45%;" />
-
+</p>
 <p>These are title, type, URL, and image.</p>
 <p>The title property defines the title of the page, this is the text
 that will appear in the preview.</p>
@@ -869,12 +873,13 @@ about later. But let's briefly explore three of these.</p>
 <p>The description property provides a description of the webpage.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. og: local property (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image039.png?raw=true"
   title="OG: local property"
   alt="OG: local property."
   style="width:45%;" />
-
+</p>
 <p>The og:locale property describes the language and territory of the
 webpage's content.</p>
 <p>For example, en_US specifies that the page is in English and the
@@ -960,12 +965,13 @@ social media platforms.</p>
 <p>I've opened index.html in visual studio code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 40. metadata required by protocol (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image040.png?raw=true"
   title="Metadata required by protocol"
   alt="Metadata required by protocol."
   style="width:45%;" />
-
+</p>
 <p>At a minimum, I need to add four pieces of metadata required by the
 protocol.</p>
 <p>To do this, I add the four meta tags inside the head element.</p>
@@ -999,12 +1005,13 @@ additional information to the platforms.</p>
 best to provide as much information as possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. more head element meta tags (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image041.png?raw=true"
   title="More Head element meta tags"
   alt="More Head element meta tags."
   style="width:45%;" />
-
+</p>
 <p>I'll add three more meta tags to the head element.
 On the first tag, I had the property attribute and set its value to
 og:description.
@@ -1114,12 +1121,13 @@ validation.</p>
 browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. input types (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image042.png?raw=true"
   title="Input Types"
   alt="Input Types."
   style="width:15%;" />
-
+</p>
 <p>As demonstrated in the example, email is used for email addresses.</p>
 <p>Others include "tel" for telephone numbers, "url" for URLs such as
 www.data.com, "date" for date values, "time" for time values, "number"
@@ -1131,12 +1139,13 @@ entered data against the requirements of the input type and provide user
 feedback.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. required attribute (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image043.png?raw=true"
   title="Required Attribute: User must supply a value to an input field"
   alt="Required Attribute: User must supply a value to an input field."
   style="width:25%;" />
-
+</p>
 <p>Another example is the required attribute, which indicates that the
 user must supply a value to an input field.</p>
 <p>The web browser will alert a user if a required value is
@@ -1419,12 +1428,13 @@ field on screen.</p>
 user what each field represents.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 45. label and input with id attribute (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image045.png?raw=true"
   title="Label and Input with Id attribute"
   alt="Label and Input with Id attribute."
   style="width:45%;" />
-
+</p>
 <p>To do this, I'll add a label element before each input element.</p>
 <p>Now I want to explain why I set the ID attribute for each input field
 earlier in the module.</p>
@@ -1444,23 +1454,25 @@ the input field displays below the label. I then repeat the same process
 for each input element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. signup example form (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image046.png?raw=true"
   title="Example signup form"
   alt="Example signup form."
   style="width:25%;" />
-
+</p>
 <p>I save the file again and open the Live Preview.</p>
 <p>Oh, yes, that's much better.</p>
 <p>The form labels now display above the input fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. add submit button to form (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image047.png?raw=true"
   title="Add submit button to form"
   alt="Add submit button to form."
   style="width:45%;" />
-
+</p>
 <p>To finalize the form, I need to add one more thing, the submit
 button. Inside the last div element, I add a button element.</p>
 <p>I set the button type attribute to submit.</p>
@@ -1491,12 +1503,13 @@ they validate the format of data, but there are additional attributes
 that you can apply to elements for further validation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 48. log-in form: username and password (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image048.png?raw=true"
   title="Log-in form: username and password"
   alt="Log-in form: username and password."
   style="width:45%;" />
-
+</p>
 <p>First, let's explore how you can ensure that the user provides a
 value to a form field. This example of a log-in form contains two
 fields, one for the username and one for the password.</p>
@@ -1510,23 +1523,25 @@ the processing of the request, a HTTP request was still submitted.</p>
 user enters values to both fields.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. required attribute (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image049.png?raw=true"
   title="Required attribute"
   alt="Required attribute."
   style="width:45%;" />
-
+</p>
 <p>Now with the required attribute in the code, if one of the fields is
 empty and the user clicks the submit button, the request will not be
 submitted to the web server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. check required fields (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image050.png?raw=true"
   title="Check required fields"
   alt="Check required fields."
   style="width:15%;" />
-
+</p>
 <p>The web browser will focus on the first empty input element and inform the user that a field is
 empty.</p>
 <p>Now the form creates a much better user experience and prevents
@@ -1542,12 +1557,13 @@ passwords by requiring a minimum password length of five characters.</p>
 correct length of data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. required length (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image051.png?raw=true"
   title="Required length"
   alt="Required length."
   style="width:45%;" />
-
+</p>
 <p>You can add the min length and max length attributes to the fields to
 specify the required length. In this case, since the minimum value for
 the username is set to three, a two-character entry would be
@@ -1565,12 +1581,13 @@ users, like a form field that turns red when the data is invalid.</p>
 input element selector.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 52. error check with input element selector (46) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image052.png?raw=true"
   title="Error check with input element selector"
   alt="Error check with input element selector."
   style="width:45%;" />
-
+</p>
 <p>You then apply the pseudo-class selector called invalid.</p>
 <p>You will learn more about pseudo-class selectors later in this
 course.</p>
@@ -1579,12 +1596,13 @@ elements based on their state, such as whether the input data is valid
 or invalid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 53. error check with border 2px solid red (47) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image053.png?raw=true"
   title="Error check with border 2px solid red"
   alt="Error check with border 2px solid red."
   style="width:45%;" />
-
+</p>
 <p>Then you add a CSS property to set the border of the element to red.</p>
 <p>But since all the form fields are empty when the form loads
 initially, their state is still practically invalid.</p>
@@ -1593,12 +1611,13 @@ demonstrated in this Real-world example of a login screen.</p>
 <p>Ideally, you only want fields to appear red as the user enters invalid data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. pseudo-class focus (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image054.png?raw=true"
   title="Pseudo-class focus"
   alt="Pseudo-class focus."
   style="width:45%;" />
-
+</p>
 <p>To do this, you need to apply another pseudo-class called focus,
 which checks if the user is currently entering data into this field.</p>
 <p>Now the form will appear normal when the page first loads, and when
@@ -1623,41 +1642,45 @@ leaving the course.</p>
 <p>The Labs contain instructions explaining the coding task.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. creating an html document (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image056.png?raw=true"
   style="width:35%"
   title="Creating an HTML Document"
   alt="Creating an HTML Document" />
-
+</p>
 <p>When you click the button to open the lab, a new tab will open with
 Visual Studio Code already setup and ready for you to start writing code!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. project folder and files (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image057.png?raw=true"
   title="Preject Folder and Files"
   alt="Preject Folder and Files."
   style="width:35%;" />
-
+</p>
 <p>You'll see all the files for the lab in the Project folder in the
 left sidebar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 58. project folder and files, page 2 (49) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image058.png?raw=true"
   title="Preject Folder and Files, Page 2"
   alt="Preject Folder and Files, Page 2."
   style="width:35%;" />
-
+</p>
 <p>And the large editor area where you write your code for the lab.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. editor area (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image059.png?raw=true"
   title="Editor Area"
   alt="Editor Area."
   style="width:35%;" />
-
+</p>
 <p>All <b>Lab</b> exercises will include two important files.
 A <b>README.md</b> file which contains instructions for using
 Visual Studio Code and most importantly, how to run and view the output
@@ -1685,12 +1708,13 @@ this by selecting the <b>Terminal</b> option in the upper
 Visual Studio Code toolbar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. coursera terminal work area (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image060.png?raw=true"
   title="Coursera terminal work area"
   alt="Coursera terminal work area."
   style="width:35%;" />
-
+</p>
 <p><strong>How to download files from your Visual Studio Code Lab to your local device</strong></p>
 
 <ol type="1">
@@ -1700,12 +1724,13 @@ Visual Studio Code toolbar.</p>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. coursera terminal lab files (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image061.png"
   style="width:35%;"
   title="Coursera terminal lab files"
   alt="Coursera terminal lab files." />
-
+</p>
 <h4>How to upload local files to your Visual Studio Code Lab</h4>
 
 <p>If you'd like to upload your course files from your local device to
@@ -1713,12 +1738,13 @@ your Visual Studio Code lab, <strong>drag and drop</strong> your file
 from your local device into the Visual Studio Code file tree.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. how to use visual studio (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image062.png"
   title="Coursera Terminal lab files"
   alt="Coursera Terminal lab files."
   style="width:35%;" />
-
+</p>
 <p>How to get a fresh copy of course-provided starter files. Your work will be saved 
 and persist within your Visual Studio Code lab while you are enrolled in the course.
 If you'd like to get a fresh copy of the original instructor-provided files at 
@@ -1744,11 +1770,13 @@ files through the steps below.</p>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 63. style.css and index.html in project folder (51) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image063.png"
   title="Project folder with .dotfiles-coursera, index.html and style.css"
   alt="Project folder with .dotfiles-coursera, index.html and style.css."
   style="width:35%;" />
+</p>
 
 <ol start="3" type="1">
   <li>You should now see a fresh copy of the original instructor-provided 
@@ -1789,12 +1817,13 @@ convenient. That's one of the reasons why the Little Lemon restaurant is adding 
 table booking system to their website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 64. form book a table w/contact person, number, table size, location (52) ~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image064.png?raw=true"
   title="Book a Table form"
   alt="Book a Table form."
   style="width:25%;" />
-
+</p>
 <p>By now, you should know that a HTML form will be an ideal solution for that.
 Like most restaurants, Little Lemon has different table sizes and
 different sections in the restaurant where customers can be seated.
@@ -1810,12 +1839,13 @@ selected.</p>
 <p>Now, let's explore how to set up a HTML form with radio buttons.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. book a table form updates (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image065.png?raw=true"
   title="Book a table form updates in vs code (or many better ones out there)"
   alt="Book a table form updates in vs code (or many better ones out there)."
   style="width:35%;" />
-
+</p>
 <p>I've opened Visual Studio Code and added a new file called booking.html.
 I've set up the basic HTML structure and added a form element.
 First, I'll add to fieldset elements, one for the table size and one
@@ -1869,22 +1899,24 @@ the value attribute to outdoors.
 Again, I set the name attribute to location.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 66. main section of index.html using radio buttons (55) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image066.png?raw=true"
   title="Main section, fields using radio buttons"
   alt="Main section, fields using radio buttons."
   style="width:45%;" />
-
+</p>
 <p>I save the file and open it in Live Preview. Success.</p>
 <p>The form is set up correctly. Let's test it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. sample form book a table (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image067.png?raw=true"
   title="Sample form, Book a table"
   alt="Sample form, Book a table."
   style="width:45%;" />
-
+</p>
 <p>If I choose an option for the table size and then choose a different
 option, my previous choice is deselected.
 The table location field behaves the same. I can only choose indoors
@@ -1895,12 +1927,13 @@ or outdoors.</p>
 the user to accurately select the small button elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 68. more sample form book a table (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image068.png?raw=true"
   title="More changes to form Book a table"
   alt="More changes to form Book a table."
   style="width:45%;" />
-
+</p>
 <p>Luckily, there is a way to improve this by setting the text and
 button as the input area.</p>
 <p>I open booking.html again, for each input element and texts, I wrap
@@ -2001,12 +2034,13 @@ input element and set its content to location.</p>
 <p>Then set the 'for attribute' to booking_location.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69. live preview book a table form (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image069.png?raw=true"
   title="Live preview of Book a Table form"
   alt="Live preview of Book a Table form."
   style="width:25%;" />
-
+</p>
 <p>Save the file, and open it in live preview.</p>
 <p>When you click on the date field, the browser opens a calendar and
 allows you to select a date.</p>
@@ -2025,12 +2059,13 @@ this form again in the near future.</p>
 <h4>Form submission</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. example checkout cart (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image070.png?raw=true"
   title="Example checkout cart"
   alt="Example checkout cart."
   style="width:25%;" />
-
+</p>
 <p>When ordering products online, you fill out your address and your credit card number, 
 then you click on an Order button that confirms your order.</p>
 <p>Because you are learning more about front-end development, you might
@@ -2040,12 +2075,13 @@ button.</p>
 in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. http request response cycle (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image071.png?raw=true"
   title="HTTP Request Response Cycle"
   alt="HTTP Request Response Cycle."
   style="width:25%;" />
-
+</p>
 <p> By now, you know that the web browser communicates with a web server using a HTTP request response
 cycle.</p>
 <p>This means that the web browser sends requests to the web server, and
@@ -2056,12 +2092,13 @@ files.</p>
 <p>But it is also possible to send data as part of a request.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 72. how forms send data to a web server (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image072.png?raw=true"
   title="How forms send data to a web server"
   alt="How forms send data to a web server."
   style="width:25%;" />
-
+</p>
 <p>This is how forms send data to the web server.</p>
 <p>In fact, there are two ways a form can send data to the web server
 using the HTTP GET method or the HTTP POST method.</p>
@@ -2074,32 +2111,35 @@ the two different methods.</p>
 server.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. form method get and post (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image073.png?raw=true"
   title="Form methods GET and POST"
   alt="Form methods GET and POST."
   style="width:45%;" />
-
+</p>
 <p>How would it work if the method attribute is set to GET?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. login-form (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image074.png?raw=true"
   title="Login-form"
   alt="Login-form."
   style="width:45%;" />
-
+</p>
 <p>When the Login button is clicked, the form data is sent as part of the request URL.</p>
 <p>This means that the user data is appended to the end of the URL in
 the web browser navigation bar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. login form data (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image075.png?raw=true"
   title="Login Form data"
   alt="Login Form data."
   style="width:45%;" />
-
+</p>
 <p>The web server receives the HTTP GET request, and extracts the form data from the URL.</p>
 <p>While this is an easy way to submit data, it has three key problems.</p>
 <p>First, the length of a URL is limited to around 2,000 characters
@@ -2120,12 +2160,13 @@ credit card numbers, this is a major privacy and security risk.</p>
 attribute to post.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. post form data (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image076.png?raw=true"
   title="Post Form Data"
   alt="Post Form Data."
   style="width:45%;" />
-
+</p>
 <p>When the form is submitted using the post method, the form data is
 inserted into the content of the HTTP request.</p>
 <p>When the submit button is pressed, it will send an HTTP post request
@@ -2239,12 +2280,13 @@ differently on various web browsers and how to solve this problem.</p>
 elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 77. input type: text, value: username (65) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image077.png?raw=true"
   title="Example Input Type: text, value: username"
   alt="Example Input Type: text, value: username."
   style="width:35%;" />
-
+</p>
 <p>The same input type HTML code displays differently in web browsers
 such as Firefox, Microsoft Edge, Chrome, and Safari.</p>
 <p>For example, there are subtle differences in the height and corners
@@ -2255,12 +2297,13 @@ Safari on Mac OS differs a lot from the other browsers using a thinner
 border on regular corners.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. checkbox input type (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image078.png?raw=true"
   title="Checkbox input type"
   alt="Checkbox input type."
   style="width:35%;" />
-
+</p>
 <p>Next, let's explore the checkbox input type.</p>
 <p>Again, the exact same input type HTML code, will let the checkbox
 displayed differently in a checked and unchecked state in different
@@ -2276,12 +2319,13 @@ inconsistently across different web browsers, let's focus on how to
 solve this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. css visual styling (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image079.png?raw=true"
   title="CSS visual styling"
   alt="CSS visual styling."
   style="width:35%;" />
-
+</p>
 <p>As you know, CSS allows you to define the visual styling of HTML elements.</p>
 <p>Defining CSS rules for the different HTML form elements will ensure
 that your element is styled consistently across web browsers.</p>
@@ -2296,12 +2340,13 @@ and then type equals in this case text or email.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 80. css font, width, height and border (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image080.png?raw=true"
   title="CSS properties: font, width, height and border"
   alt="CSS properties: font, width, height and border."
   style="width:35%;" />
-
+</p>
 <p>Then apply CSS properties to set the font, width, height, and border.</p>
 <p>If you specify styling with CSS in this way, the individual elements
 of your forms will display consistently across browsers.</p>
@@ -2346,12 +2391,13 @@ element. For example, this code:</p>
 <p>Results in the following output:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 81. username and password input types (69) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image081.png?raw=true"
   title="Two input types, text and password, as it displays in the browser"
   alt="Two input types, text and password, as it displays in the browser."
   style="width:15%;" />
-<!-- style="width:2in;height:1.3972in" -->
+</p>
 
 <p>Note how the type <strong>password</strong> hides the user input.</p>
 
@@ -2452,12 +2498,13 @@ provide textual or numeric input other than the listed options.</p>
   &lt;/form&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 82. datalist input type with drop-down menu (71) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image082.png?raw=true"
   title="Datalist input type with its drop-down list containing the options visible"
   alt="Datalist input type with its drop-down list containing the options visible."
   style="width:15%;" />
-<!-- style="width:2in;height:2.15084in" -->
+</p>
 
 <h3>&lt;output&gt; </h3>
 
@@ -2479,13 +2526,13 @@ below the code block.</p>
   &lt;/select&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 83. option input type with drop-down list (71) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image083.png?raw=true"
   title="Option input type as with its drop-down list visible"
   alt="Option input type as with its drop-down list visible."
   style="width:15%;" />
-<!-- style="width:2in;height:1.59055in" -->
-
+</p>
 <p>By default, the first item in the drop-down list is selected. To
 define a pre-selected option, add the selected attribute to the
 option.</p>
@@ -2583,12 +2630,13 @@ website.</p>
 in embedded players.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. about.html (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image084.png?raw=true"
   title="about.html"
   alt="about.html."
   style="width:45%;" />
-
+</p>
 <p>I've set up my basic html document structure in a file named
 about.html.</p>
 <p>I start off by adding the heading tag containing the text about.</p>
@@ -2608,12 +2656,13 @@ audio.</p>
 saved the file and opened the web page in my browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. menu screen: little lemon (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image085.png?raw=true"
   title="Menu screen: Little Lemon"
   alt="Menu screen: Little Lemon."
   style="width:45%;" />
-
+</p>
 <p>I can see that the audio is loading and is displayed in the browser
 using the browsers built in audio player.</p>
 <p>Pressing the play button starts the audio, and pressing pause will
@@ -2622,12 +2671,13 @@ pause it.</p>
 <p>Now I'll add the video.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 86. video element added to menu screen (76) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image086.png?raw=true"
   title="Video element added to menu screen: Little Lemon"
   alt="Video element added to menu screen: Little Lemon."
   style="width:45%;" />
-
+</p>
 <p>I add a video element before the paragraph element.</p>
 <p>Inside the video element, I add the source element and set the src
 attribute to video.mp4.</p>
@@ -2641,13 +2691,13 @@ controls.</p>
 <p>To do this, I add the controls attribute to the video element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 87. demo menu screen: litle lemon (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image087.png?raw=true"
   title="Menu screen for Little Lemon"
   alt="Menu screen for Little Lemon."
   style="width:45%;" />
-
+</p>
 <p>I saved the file again and open the page in my browser.</p>
 <p>The video appears and I can click on the play button to start the
 video.</p>
@@ -2657,13 +2707,13 @@ be disabled by default.</p>
 video element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. muted attribute added (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image088.png?raw=true"
   title="Muted attribute added to video element"
   alt="Muted attribute added to video element."
   style="width:45%;" />
-
+</p>
 <p>Save the file again and open the page.  And everything is working 
 as expected.  That's great.</p>
 
@@ -2938,13 +2988,13 @@ Little Lemon website without needing to contact me first.</p>
 <p>I've opened the index.html in Visual Studio Code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. add iframe element (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image089.png?raw=true"
   title="Add iFrame element"
   alt="Add iFrame element."
   style="width:45%;" />
-
+</p>
 <p>First, I add the iFrame element.</p>
 <p>The other restaurant didn't provide the URL for the promotional
 image.</p>
@@ -2967,13 +3017,13 @@ and customers interacting with your website.</p>
 with embedding content from another website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 90. iframe element attributes for security (85) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image090.png?raw=true"
   title="iFrame element attributes for security"
   alt="iFrame element attributes for security."
   style="width:45%;" />
-
+</p>
 <p>To address these concerns, I've decided to sandbox and limit the
 capabilities of the iFrame element.</p>
 <p>I opened my index.html file again.</p>
@@ -3007,13 +3057,13 @@ potentially unsecured browser features.</p>
 implement the same code on their website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 91. blog menu for little lemon restaurant (86) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image091.png?raw=true"
   title="Menu blog for little lemon restaurant"
   alt="Menu blog for little lemon restaurant."
   style="width:45%;" />
-
+</p>
 <p>Hopefully this will lead to a lot more business for both
 restaurants.</p>
 <p>The canvas element</p>
@@ -3058,13 +3108,13 @@ information so for now let's focus on the canvas element.</p>
 <p>Let's examine how to animate some simple graphics.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 92. index.html - set width and height (87) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image092.png?raw=true"
   title="Index.html - set canvas width and height"
   alt="Index.html - set canvas width and height."
   style="width:45%;" />
-
+</p>
 <p>Using the 2D canvas. Let's animate a bouncing ball. I've opened 
 visual studio code and set up two files index dot html and animation 
 dot Js inside index dot html.  Adding the canvas html element.</p>
@@ -3072,13 +3122,13 @@ dot Js inside index dot html.  Adding the canvas html element.</p>
 <p>Set its width attribute to 640, and its height attribute to 480.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 93. animate.js to animate a bouncing ball (88) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image093.png?raw=true"
   title="animate.js to animate a bouncing ball"
   alt="animate.js to animate a bouncing ball."
   style="width:45%;" />
-
+</p>
 <p>I have also set its ID attribute to my underscore canvas so that I
 can access the element in my javascript code after the canvas element I
 have a script element with its SRC attribute set to animation dot Js I
@@ -3089,13 +3139,13 @@ pass in my underscore canvas at the parameter.</p>
 <p>The result is stored in a variable named canvas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. variable named canvas (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image094.png?raw=true"
   title="Variable named canvas"
   alt="Variable named canvas."
   style="width:45%;" />
-
+</p>
 <p>Next, I look up the two D canvas context using canvas dot get context
 and pass in the parameter to D.</p>
 <p>The result is stored in a variable named context below this I define
@@ -3110,13 +3160,13 @@ then draws the ball in its current position using the context dot begin
 path, context dot arc and context dot fill functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. define animate function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image095.png?raw=true"
   title="Define animate function"
   alt="Define animate function."
   style="width:45%;" />
-
+</p>
 <p>Finally, I define an animate function which calls the move ball and
 draw ball functions after doing this, it then calls window dot request
 animation frame to schedule the animate function to be called again at
@@ -3346,13 +3396,13 @@ href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-term
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. seven div on seven rows (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image097.png?raw=true"
   title="Seven div containers on seven rows"
   alt="Seven div containers on seven rows."
   style="width:25%;" />
-
+</p>
 <p>There are seven div containers inside the HTML file.</p>
 <p>The corresponding CSS file contains rules for all seven div tags that
 have the box class. Note how two class names are given for each of the
@@ -3371,13 +3421,13 @@ flex.</p>
 starting in the top left corner.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 98. output for css with aligned number boxes (96) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image098.png"
   title="Output for CSS Code with aligned number boxes"
   alt="Output for CSS Code with aligned number boxes."
   style="width:35%;" />
-
+</p>
 <h4>Alignment properties</h4>
 
 <p>Let’s examine a few alignment properties inside the flex. There are
@@ -3406,12 +3456,13 @@ inside it:</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 99. the output for css code with justification in the center (96) ~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image099.png"
   title="The output for CSS Code with justification in the center"
   alt="The output for CSS Code with justification in the center."
   style="width:35%;" />
+</p>
 
 <h4>flex-wrap:</h4>
 
@@ -3427,12 +3478,13 @@ span the entire width of the axis.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 100. seven number boxes centered on three rows (97) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image100.png?raw=true"
   title="Output for CSS code with wrapped number boxes justified in the center"
   alt="Output for CSS code with wrapped number boxes justified in the center."
   style="width:20%;" />
+</p>
 
 <p>The items will now be wrapped to the size of the available viewport.</p>
 
@@ -3454,12 +3506,13 @@ horizontal rows to vertical columns.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 101. display seven listed number boxes as a flex (98) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image101.webp?raw=true"
   title="Display seven listed number boxes as a flex"
   alt="Display seven listed number boxes as a flex."
   style="width:25%" />
+</p>
 
 <p>The output looks like the original output; however, it is now
 actually a flex.</p>
@@ -3484,12 +3537,13 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~ 102. right-centered number boxes with flex end aligning method (99) ~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image102.webp?raw=true"
   title="Right-centered number boxes with flex end aligning method"
   alt="Right-centered number boxes with flex end aligning method."
   style="width:15%;" />
+</p>
 
 <p>The term ‘end’ refers to the right side of the page as the left side is seen as the beginning.</p>
 
@@ -3512,12 +3566,13 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 103. output display seven box align and color change (100) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image103.webp?raw=true"
   title="Display 7 box change in color and alignment"
   alt="Display 7 box change in color and alignment."
   style="width:15%;" />
+</p>
 
 <p>Here the color and alignment of the third box have been changed and it overrides the properties 
 set using align-items.</p>
@@ -3546,12 +3601,13 @@ columns using row-gap and column-gap properties.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 104. display of items with different spacing (101) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image104.webp?raw=true"
   title="Display of items with different spacing"
   alt="Display of items with different spacing."
   style="width:15%;" />
+</p>
 
 <p>There is a clear change in spacing between the items.</p>
 <p>The final set of properties are flex-grow, flex-shrink and
@@ -3583,12 +3639,13 @@ aligned and horizontal best-distributed between two rows.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. seven box example (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image105.webp?raw=true"
   title="List of items as default raw modified by removing the flex direction"
   alt="List of items as default raw modified by removing the flex direction."
   style="width:35%;" />
+</p>
 
 <p>The rest of the remaining code is unchanged. However, the output will
 change if the code is modified with the addition of the flex property
@@ -3605,12 +3662,13 @@ inside the flex item box3 class.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 106. different spacing of items in row display (101) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image106.webp?raw=true"
   title="Different spacing of items in row display"
   alt="Different spacing of items in row display."
   style="width:35%;" />
+</p>
 
 <p>The third box now takes up the entire free space available because
 flex-growth’s value has been set to 1. So if we
@@ -3797,36 +3855,39 @@ binding elements together or creating an easy layout.</p>
 <p>Let's explore the three most common uses of flexbox is in CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. search bar and flex (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image107.webp?raw=true"
   title="Search bar and flexbox"
   alt="Search bar and flexbox."
   style="width:25%;" />
+</p>
 
 <p>The first application of flexbox that you will cover that is commonly used is a search bar.</p>
 <p>You can use flex in search bars because it ties up all the elements, such as the small Search icon, 
 the search input area, and the Submit button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. nav bar example (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image108.webp?raw=true"
   title="Nav bar example"
   alt="Nav bar example."
   style="width:45%;" />
+</p>
 
 <p>Next, you can create the navigation bar using flex, which consists of
 several different layouts, and it makes your navigation bar highly
 responsive on different devices.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. four images, realign (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image109.webp?raw=true"
   title="4 images, noodles for realignment"
   alt="4 images, noodles for realignment."
   style="width:25%;" />
+</p>
 
 <p>Finally, another type of flexbox that is commonly used is an image gallery.</p>
 
@@ -3835,12 +3896,13 @@ of the window. In the next few minutes, you will discover how to create
 these flexboxes to ensure a simple layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. html input searchbox function (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image110.webp?raw=true"
   title="HTML input searchBox function in div tag"
   alt="HTML input searchBox function in div tag."
   style="width:45%;" />
+</p>
 
 <p>In the first example of a flexbox file, I will create a search bar, I
 add a reference to the CSS file in the head section of the HTML
@@ -3853,12 +3915,13 @@ the search box where I typed my search, and finally the Submit
 button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 111. css container property and settings (107) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image111.webp?raw=true"
   title="CSS Container property and settings"
   alt="CSS Container property and settings."
   style="width:25%;" />
+</p>
 
 <p>In the CSS code, I first write rules for the container, then for the search icon, the search box, and
 finally for the button.</p>
@@ -3885,23 +3948,25 @@ doesn't change.</p>
 menus.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. unordered list w/4 items (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image112.webp?raw=true"
   title="Unordered 4 item list with class='container'"
   alt="Unordered 4 item list with class='container'."
   style="width:35%;" />
+</p>
 
 <p>In this case, I created an unordered list that consists of four
 items.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. star (*) example in css (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image113.webp?raw=true"
   title="Star (*) example in css flexbox"
   alt="Star (*) example in css flexbox."
   style="width:35%" />
+</p>
 
 <p>Notice that in my CSS code I use something called a star or universal
 selector.</p>
@@ -3926,12 +3991,13 @@ horizontal navigation menu.</p>
 image gallery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 114. body with div class='container' and images (109) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image114.webp?raw=true"
   title="body with div class='container' and images"
   alt="body with div class='container' and images."
   style="width:45%" />
+</p>
 
 <p>All the elements for the gallery are in the body of the HTML
 file.</p>
@@ -3946,12 +4012,13 @@ the border to zero.</p>
 <p>Next, let's focus on the container.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 115. flex-wrap - force 1 line or wrap multiple? (110) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image115.webp?raw=true"
   title="Flex-wrap: wrap - with justify-content: space-between, with 5px padding"
   alt="Flex-wrap: wrap - with justify-content: space-between, with 5px padding."
   style="width:25%" />
+</p>
 
 <p>First, I set the value of display to flex, then I add the flex-wrap property which determines
 whether the flex items should be forced in one line or should wrap over
@@ -3990,12 +4057,13 @@ charts. These bar charts are called flex charts.</p>
 in turn has the following three sub properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 116. flex-grow, flex-shrink, flex-basis (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image116.webp?raw=true"
   title="flex-grow, flex-shrink, flex-basis"
   alt="flex-grow, flex-shrink, flex-basis."
   style="width:25%;" />
+</p>
 
 <p>Flex grow, which specifies how much the item will grow compared to
 other flexible items, flex shrink, which specifies how much the item
@@ -4004,12 +4072,13 @@ will shrink compared to other flexible items.</p>
 item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 117. flex-property default flex: 0,1 auto (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image117.webp?raw=true"
   title="flex-property default flex: 0,1 auto"
   alt="flex-property default flex: 0,1 auto."
   style="width:35%;" />
+</p>
 
 <p>Flex property can be declared with something called a shorthand
 notation such as flex 01 auto, where 01 and auto are the default values
@@ -4022,12 +4091,13 @@ their website to draw attention to their most popular dishes.</p>
 <p>I've been asked to write code to make this possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. flexcharts.css and .html (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image118.webp?raw=true"
   title="Flexcharts.html and .css"
   alt="Flexcharts.html and .css."
   style="width:35%;" />
+</p>
 
 <p>I've set up my basic html document structure in a file named flex
 charts dot html.</p>
@@ -4043,24 +4113,26 @@ then add the name of the label preferred dishes.</p>
 and then I press enter.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. new class .dish (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image119.webp?raw=true"
   title="New class .dish"
   alt="New class .dish."
   style="width:45%;" />
+</p>
 
 <p>Inside the container I create a class called dish by typing dot dish
 and pressing enter as there are three dishes in the popular list, I copy
 and paste this item twice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. dish pasta, pizza and burrito (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image120.webp?raw=true"
   title="dish pasta, pizza, and burrito"
   alt="dish pasta, pizza, and burrito."
   style="width:45%;" />
+</p>
 
 <p>To distinguish between the dishes, I add a class name for each of the
 items after the word dish I name item one pasta, item two, pizza and
@@ -4076,12 +4148,13 @@ length of the item.</p>
 end of each item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. flexcharts.css and .html (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image121.webp"
   title="flexcharts.css and flexcharts.html"
   alt="flexcharts.css and flexcharts.html."
   style="width:45%;" />
+</p>
 
 <p>Now that my code is created, I move to CSS by clicking on the flex
 charts dot CSS file at the top of my screen and checking that it's
@@ -4121,23 +4194,25 @@ appear on my screen, to improve the visuals of my chart and make it
 easier to interpret.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122. flexchart.html (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image122.webp"
   title="Flexchart.html"
   alt="Flexchart.html"
   style="width:45%;" />
+</p>
 
 <p>I'm going to add individual colors to the chart items at the bottom
 of my CSS file I press enter twice and type dot pasta.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123. flexchart.css (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image123.webp"
   title="Flexchart.css"
   alt="Flexchart.css."
   style="width:35%;" />
+</p>
 
 <p>I press enter and within this div class I add background color, followed by the hex code of the color I
 want to use in the next line.</p>
@@ -4149,12 +4224,13 @@ background colors as indicated.</p>
 web page, the flex adjusts itself while the label remains unchanged.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 124. flexchart.html and flexchart.css (117) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image124.webp"
   title="Both flexchart.html and flexchart.css"
   alt="Both flexchart.html and flexchart.css."
   style="width:45%;" />
+</p>
 
 <p>The next example is very similar to the one I created for the earlier
 bar charts.</p>
@@ -4163,12 +4239,13 @@ containers for male and female and then I set the flex spaces for each
 of them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 125. preferred dishes 35%, 50% and 15% (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image125.webp"
   title="Preferred dishes 35% 50% and 15%"
   alt="Preferred dishes 35% 50% and 15%"
   style="width:25%;" />
+</p>
 
 <p>If you look at my CSS code, I follow the same order.</p>
 <p>First, I address the columns which is the outermost container, then
@@ -4182,23 +4259,25 @@ horizontal bar charts.</p>
 are stacked on top of each other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. barcharts2.html (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image126.webp"
   title="barcharts2.html"
   alt="barcharts2.html."
   style="width:35%;" />
+</p>
 
 <p>What alignment to use may or may not come intuitively, but if you
 look at a few more examples, it will start making sense.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 127. container contains male and female classes (118) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/image127.webp"
   title="Container contains male and female classes"
   alt="Container contains male and female classes."
   style="width:45%;" />
+</p>
 
 <p>Like in this case the container contains male and female classes that
 need to be stacked on top of each other, which is why I have used flex
@@ -4220,12 +4299,13 @@ by organizing relevant content to make it easier to comprehend.</p>
 cross each other to form squares or rectangles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 128. grid container, rows and columns (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image128.webp?raw=true"
   title="Grid Container, Rows and Columns"
   alt="Grid Container, Rows and Columns."
   style="width:35%;" />
+</p>
 
 <p>CSS Grids are two-dimensional design layouts that are responsive and
 compatible with browser variations.</p>
@@ -4235,23 +4315,25 @@ tables, especially when you are working with larger scale layouts.</p>
 your viewport.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. grid container, gutter (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image129.webp?raw=true"
   title="Grid Container, Gutter"
   alt="Grid Container, Gutter."
   style="width:45%;" />
+</p>
 
 <p>Grids divide the page into rows and columns, and the space between
 these tracks are called gutters or gaps.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. grid container, grid cell (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image130.webp?raw=true"
   title="Grid Container, Grid Cell"
   alt="Grid Container, Grid Cell."
   style="width:45%;" />
+</p>
 
 <p>A cell is the space in a grid container where a row and column
 intersect.</p>
@@ -4261,12 +4343,13 @@ modify grids.</p>
 to iteratively make changes to a grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. index.html (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image131.webp?raw=true"
   title="Sample Index.html"
   alt="Sample Index.html."
   style="width:25%;" />
+</p>
 
 <p>First, let's create a HTML document called index.html.</p>
 <p>Right now, the contents displayed in the viewport are just a vertical
@@ -4283,12 +4366,13 @@ necessary for its size.</p>
 not actually one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. set values (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image132.webp?raw=true"
   title="Set Values"
   alt="Set Values."
   style="width:25%;" />
+</p>
 
 <p>It's just the default settings of CSS for a layout.</p>
 <p>Once you convert this into the grid layout, you'll be able to recognize the flexibility it can add.</p>
@@ -4298,23 +4382,25 @@ not actually one.</p>
 <p>It's usually a part of container elements inside our code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 133. assign grid value to display property (122) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image133.webp?raw=true"
   title="Assign Grid Value to Display Property"
   alt="Assign Grid Value to Display Property."
   style="width:35%;" />
+</p>
 
 <p>The updated container now has the display property value set to grid
 and the property values configured for three columns and two rows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. updated container (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image134.webp?raw=true"
   title="Updated Container"
   alt="Updated Container."
   style="width:35%;" />
+</p>
 
 <p>That's two changes from the previous configuration.</p>
 <p>Let's examine them.</p>
@@ -4322,12 +4408,13 @@ and the property values configured for three columns and two rows.</p>
 to set the size of each of the three columns using pixel values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 135. updated container with fraction (124) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image135.webp?raw=true"
   title="Updated Container with Fraction"
   alt="Updated Container with Fraction."
   style="width:35%;" />
+</p>
 
 <p>The use of fr, which is an abbreviation for fraction, has been introduced.</p>
 <p>Fraction effectively divides the grid.</p>
@@ -4343,12 +4430,13 @@ actual pixel sizes.</p>
 interchangeably with both rows and columns.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 136. grid gap and background color (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image136.webp?raw=true"
   title="Grid Gap and Background Color"
   alt="Grid Gap and Background Color."
   style="width:35%;" />
+</p>
 
 <p>Now to add a couple of properties such as grid gap or gutter and
 background color to define the grid, the updated view displays a red box
@@ -4361,12 +4449,13 @@ leaves more space between the grid cells.</p>
 and grid auto columns collectively called the implicit grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. auto properties (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image137.webp?raw=true"
   title="Auto Properties"
   alt="Auto Properties."
   style="width:35%;" />
+</p>
 
 <p>Let's replace the grid template rows property in the code with grid
 auto rows. All the rows are now auto-resized to 100 pixels.</p>
@@ -4374,12 +4463,13 @@ auto rows. All the rows are now auto-resized to 100 pixels.</p>
 layout easier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138. repeat function (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image138.webp?raw=true"
   title="Repeat Function - passes number of repeats required for a given number of rows and columns"
   alt="Repeat Function - passes number of repeats required for a given number of rows and columns."
   style="width:35%;" />
+</p>
 
 <p>First, the repeat function passes the number of repeats required for
 a given number of rows and columns.</p>
@@ -4390,12 +4480,13 @@ just reduced the amount of code you need to write.</p>
 ease of code modification.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. minmax function (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image139.webp?raw=true"
   title="Min and Max values expected for the sizes of rows and columns"
   alt="Min and Max values expected for the sizes of rows and columns."
   style="width:35%;" />
+</p>
 
 <p>Next, the min-max function sets the minimum and maximum values
 expected for the sizes of rows and columns.</p>
@@ -4670,13 +4761,14 @@ commonly used grid layouts are created and where you can use them.</p>
 <p>Now I can start adding the different elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. extra.html (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image142.webp?raw=true"
   title="Extra.html"
   alt="Extra.html"
   style="width:35%" />
-  
+</p>
+
 <p>First is the restaurant's name, little lemon, which I put into the header.</p>
 <p>In the main element, I type menu and for the footer, I type About Us.</p>
 <p>After saving, next, I will open up extra.CSS.</p>
@@ -4685,13 +4777,14 @@ name and then the footer.</p>
 <p>First for the body, I need to use the display property to code the grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143. extra.css (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image143.webp?raw=true"
   title="Extra.css"
   alt="Extra.css"
   style="width:35%" />
-  
+</p> 
+
 <p>I define as high as 150 VH. One VH is equal to 1 percent of the viewport height.</p>
 <p>Now, I add the grid template rows property that will track the sizing
 functions for the grid rows.</p>
@@ -4705,13 +4798,14 @@ height.</p>
 <p>It looks good.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. more extra.css (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image144.webp?raw=true"
   title="More extra.css"
   alt="More extra.css."
   style="width:35%" />
-  
+</p>
+
 <p>I'm going to do the same for the main and the footer elements.</p>
 <p>I've changed the colors, but everything else is the same.</p>
 <p>Let's examine the output again. It looks exactly like I was
@@ -4726,13 +4820,14 @@ equal size.</p>
 starting point and the number of columns each element spans.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. gridtwelve.html (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image145.webp?raw=true"
   title="gridtwelve.html"
   alt="gridtwelve.html"
   style="width:35%" />
-  
+</p>
+
 <p>Don't worry, this will all become a lot clearer when I go through the following example.</p>
 <p>I'm opening gridtwelve.html in Visual Studio code.</p>
 <p>First, I create a container with class parent and inside it I'll add
@@ -7064,11 +7159,12 @@ container and in it to other div tags.</p>
 <p>The second contains the letter B with a class called B.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image215.webp?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>Let's view the CSS file.</p>
 <p>It has two class selectors dot A and dot B and each has a margin property.</p>
@@ -7077,12 +7173,12 @@ container and in it to other div tags.</p>
 <p>There are a number of key word and function values inside this property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image216.webp?raw=true"
   alt="."
   style="width:25%;" />
-<!--  style="width:3in;height:2.49245in" -->
+</p>
 
 <p>I choose skew X from the suggestion list that appears this will tilt the letter on its X access.</p>
 <p>You can also choose to skew it on its Y axis or even on both axes. I
@@ -7093,12 +7189,12 @@ add a value of 20 degrees.</p>
 degrees.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image217.webp?raw=true"
   alt="."
   style="width:25%;" />
-<!--  style="width:2.5in;height:2.07704in" -->
+</p>
 
 <p>This will cause a different effect.</p>
 <p>Let's inspect the output A display skew almost like an italic letter
@@ -7109,12 +7205,12 @@ them as they are applied to change this.</p>
 <p>You need to add the transition property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image218.webp?raw=true"
   alt="."
   style="width:25%;" />
-<!--  style="width:2.5in;height:2.23565in" -->
+</p>
 
 <p>I add the transition property to both classes with the value of five seconds.</p>
 <p>This time you can notice how the letters transform because it happens slower.</p>
@@ -7126,12 +7222,12 @@ using a hover pseudo class and grouping selectors to perform
 transformations on the box.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image219.webp?raw=true"
   alt="."
   style="width:25%;" />
-<!--  style="width:5in;height:2.61429in" -->
+</p>
 
 <p>The initial output will be a green box.</p>
 <p>Let's go to the CSS file and write the rules for the box.</p>
@@ -7156,12 +7252,12 @@ class.</p>
 <p>Next will only happen when I hover over the box.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 220. transform2.css box and box hover (196) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image220.webp?raw=true"
   alt="Transform box, rotate when hovering."
   style="width:25%;" />
-<!-- style="width:5in;height:2.61429in" -->
+</p>
 
 <p>Let's add the transformed property.</p>
 <p>This time I add, rotate around the Z axis, the Z axis is
@@ -7204,12 +7300,12 @@ animation property.</p>
 the @keyframe rule.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. keyframe rule (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image221.webp?raw=true"
   alt="Keyframe rule."
   style="width:20%;" />
-<!-- style="width:4in;height:1.20762in" -->
+</p>
 
 <p>Next, let's explore the syntax of the @keyframe rule, and the animation property.</p>
 <p>The @keyframe rule specifies the name of the animation, and the
@@ -7218,23 +7314,23 @@ individual keyframes for the animation.</p>
 that keyframe.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 222. keyframe rule syntax (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image222.webp?raw=true"
   alt="Keyframe rule syntax."
   style="width:20%;" />
-<!-- style="width:4in;height:1.85608in" -->
+</p>
 
 <p>The @keyframe rule can also use the optional keywords, from and to, to show transitions.</p>
 <p>The animation name links the animation to a specific keyframe rule.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223. animation property (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image223.webp?raw=true"
   alt="Animation property."
   style="width:20%;" />
-<!-- style="width:4in;height:1.78667in" -->
+</p>
 
 <p>The animation property has a number of sub properties like animation name, 
 animation delay, and so on.</p>
@@ -7245,12 +7341,12 @@ you simply leave them out.</p>
 <p>However, each of the sub properties can be listed individually as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 224. html simple clock hour and minute (198) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image224.webp?raw=true"
   alt="HTML Simple Clock with hour and minute."
   style="width:20%;" />
-<!-- style="width:3in;height:2.42667in" -->
+</p>
 
 <p>To understand animation cues, let's explore a simple animation of a
 clock with hour and minute hands.</p>
@@ -7265,12 +7361,12 @@ part of the CSS, the basic styling properties of the clock are not
 covered now.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. css minutes and hours (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image225.webp?raw=true"
   alt="CSS minutes and hours."
   style="width:20%;" />
-<!-- style="width:3in;height:1.46771in" -->
+</p>
 
 <p>All that you need to know is that you create two classes, clock and hand, and insert style rules that
 specify the basic layout and appearance of the clock and hands.</p>
@@ -7289,12 +7385,12 @@ function.</p>
 to the default values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226. keyframes cycle from and to (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image226.webp?raw=true"
   alt="Keyframe cycles from and to."
   style="width:20%;" />
-<!-- style="width:3in;height:1.46771in" -->
+</p>
 
 <p>Finally, you can add the @keyframe rule.</p>
 <p>Type @keyframes cycle, and then the two special keywords, namely from and to.</p>
@@ -7424,7 +7520,7 @@ animation property. </p>
 <h4>And this is the output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227/228. red rectangles (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image227.webp?raw=true"
   alt="Red rectangle."
@@ -7433,6 +7529,7 @@ animation property. </p>
   src="/images/image228.webp?raw=true"
   alt="Another red rectangle."
   style="width:100px;" />
+</p>
 
 <p>In the example, the width of the object changes from 50 pixels to 100
 pixels over a span of 3 seconds and loops infinitely afterward.</p>
@@ -7462,18 +7559,20 @@ percentages, it will have the same output.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. brown rectangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image229.webp?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. green rectangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image230.webp?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>The output is drastically different now after adding just two lines
 of code. Just like this, you can keep adding steps inside your
@@ -7500,11 +7599,12 @@ file named index.html.</p>
 named styles.css.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. animation example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image231.webp?raw=true"
-  alt="."
+  alt="Animation example."
   style="width:25%;" />
+</p>
 
 <p>First, I'll add the HTML element that will be animated.
 In this case, the element will represent the bouncing ball.
@@ -7512,11 +7612,12 @@ I add a div element to the body element and set its ID attribute to
 ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. css keyframes and animation (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image232.webp?raw=true"
   alt="CSS keyframes and animation."
   style="width:25%;" />
+</p>
 
 <p>Now I open styles.css.
 First, I add the keyframes definition.
@@ -7552,12 +7653,12 @@ appear like a circle.</p>
 the color of the circle.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233. ball in the top left corner (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image233.webp?raw=true"
   alt="Ball/Circle in CSS."
   style="width:15%;" />
-<!-- style="width:1.5in;height:1.32165in" -->
+</p>
 
 <p>I save the file and open index.html in live preview.
 Great, the ball is rendering correctly.
@@ -7565,12 +7666,12 @@ Now to connect the animation to the element, I open styles.css
 again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 234. styles.css - animating ball (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image234.webp?raw=true"
   alt="."
   style="width:25%;" />
-<!-- style="width:3.5in;height:3.54839in" -->
+</p>
 
 <p>In the CSS rule for the ball element, I add the animation property and set its value to bounce
 2s.</p>
@@ -8328,32 +8429,32 @@ this option by hovering over a specific element on your page that will
 display its properties to you.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. hovering icon (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image235.webp?raw=true"
   alt="Hovering icon."
   style="width:10%;" />
-<!-- style="width:1in;height:0.80104in" -->
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. targetting icon (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image236.webp?raw=true"
   alt="Targetting icon."
   style="width:4%;" />
-<!-- style="width:0.4in;height:0.32258in" -->
+</p>
 
 <p>On selecting the desired element, one way to use the Elements tab for
 debugging is by right-clicking on that element, scrolling to ‘Copy’ and
 then selecting an option from the drop-down list that appears.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 237. display of submenu from copy option (227) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image237.webp?raw=true"
   alt="Display of submenu from copy option."
   style="width:35%;" />
-<!-- style="width:5in;height:2.97116in" -->
+</p>
 
 <p>This way, you can explore the isolated code to find the problem.</p>
 <p>Additionally, you can add the Breakpoint option that is more useful
@@ -8361,12 +8462,12 @@ for interactive pages by selecting the ‘Break on’ option and selecting
 an option from the dropdown list that appears.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 238. breakpoint and cumulative layout shift (228) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image238.webp?raw=true"
   alt="Break on submenu options."
   style="width:35%" />
-<!-- style="width:5in;height:2.73341in" -->
+</p>
 
 <p>Nowadays, some browsers are providing options such as Cumulative
 Layout Shift (CLS) that helps determine the overall efficiency of a web
@@ -8375,11 +8476,13 @@ page.</p>
 horizontal bar:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 239. horizontal bar and element families (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image239.webp?raw=true"
   title="Horizontal bar and element families"
   alt="Horizontal bar and element families."
   style="width:55%;" />
+</p>
 
 <p>One very useful feature is the ability to make changes in your code
 directly inside the browser. First, use the ‘element selector’ mentioned
@@ -8889,11 +8992,13 @@ necessary HTML and CSS skills and knowledge to develop a home page with
 a header, main content and footer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 240. home page with header, main content and footer (242) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed border"
   src="/images/image240.webp?raw=true"
   title="Home page with header, main content and footer"
   alt="Home page with header, main content and footer."
   style="width:35%;" />
+</p>
 
 <p>You will have to decide whether you are going to use a grid or
 flexbox layout for your home page. Your header should contain the client
@@ -8977,11 +9082,13 @@ from. They are:</p>
 <h4><strong>Retail: Lucky Shrub</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 241. logo of the fictional client lucky shrub (244) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image241.webp?raw=true"
   title="Logo of the fictional client Lucky Shrub"
   alt="Logo of the fictional client Lucky Shrub."
   style="width:5%;" />
+</p>
 
 <p>Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design
 firm that specializes in garden design and creation, maintenance and
@@ -9001,11 +9108,13 @@ nursery.</p>
 <h4><strong>Professional services: Hair Day</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 242. logo of the fictional client hair day (244) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image242.webp?raw=true"
   title="Logo of the fictional client Hair day"
   alt="Logo of the fictional client Hair day."
   style="width:20%;" />
+</p>
 
 <p>Based in Madison, Wisconsin, Hair Day is a boutique hair salon that
 specializes in cut, color and styling. Hair Day also offers makeup and
@@ -9029,11 +9138,13 @@ manicurist and one make-up artist.</p>
 <h4><strong>Restaurant: Little Lemon</strong></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 243. logo of the fictional client little lemon (245) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image243.webp?raw=true"
   title="Logo of the fictional client Little Lemon"
   alt="Logo of the fictional client Little Lemon."
   style="width:25%;" />
+</p>
 
 <p>Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, 
 focused on traditional recipes served with a modern twist. The chefs draw inspiration 
@@ -9077,11 +9188,13 @@ website and social media accounts.</p>
 <p>For the project, you have to choose one client persona to develop a home page for.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. web page layout example (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image244.webp?raw=true"
   title="Web page layout example"
   alt="Web page layout example."
   style="width:35%;" />
+</p>
 
 <p>But if you want to practice, you can build multiple web pages using
 the different HTML and CSS skills that you've learned in this section.
@@ -9091,11 +9204,13 @@ practice for your own project first.  Let's start with the visual layout.
 a navigation menu underneath.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. web page template (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image245.webp?raw=true"
   title="Web page layout template"
   alt="Web page layout template."
   style="width:35%;" />
+</p>
 
 <p>The main content of the page should be below the navigation menu.
 At the bottom of the page is the footer.  The navigation menu requires four links to 
@@ -9160,11 +9275,13 @@ with the semantic HTML document structure based on the bare-bones layout
 from Week 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246. web page layout (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image246.webp?raw=true"
   title="Web page example"
   alt="Web page example."
   style="width:35%;" />
+</p>
 
 <p>In the semantic structure, use the header element for the logo, the nav element for the 
 navigation bar, the main element for the main page content and the footer element for the 
@@ -9175,11 +9292,13 @@ is its own element.  You can use the flexbox layout to split the content into th
 number of columns.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. sample code using article (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image247.webp?raw=true"
   title="Sample code using article and div"
   alt="Sample code using article and div."
   style="width:35%;" />
+</p>
 
 <p>Use the article element to represent each column.  This is because the content of each 
 column will be self-contained and not related to the other columns.  Use a similar approach 
@@ -9191,11 +9310,13 @@ accessibility software.</p>
 div element to allow for the flexbox layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 248. sample little lemon web page (252) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image248.webp?raw=true"
   title="Sample little lemon web page"
   alt="Sample little lemon web page."
   style="width:35%;" />
+</p>
 
 <p>Next, save the file and open the webpage in the web browser.</p>
 <p>The content is displaying on the webpage, but you need to layout and position the elements 
@@ -9203,11 +9324,13 @@ using CSS.  Go back to Visual Studio Code and open styles.css in the CSS folder.
 Rules have been set up for the body and heading elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249. style.css with rem (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image249.webp?raw=true"
   title="Styles.css using rem as unit of measure"
   alt="Styles.css using rem as unit of measure."
   style="width:25%;" />
+</p>
 
 <p>Use REM as a unit of measurement for this project.  The font sizes, margins, 
 and padding properties of the CSS rules will all be REM values. The only exception 
@@ -9215,11 +9338,13 @@ to this rule is the body element where the left and right margins are set to fiv
 percent of the window size. Let's start by adding a rule to center the logo.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. css: header > image (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image250.webp?raw=true"
   title="CSS: header &gt; image."
   alt="CSS: header &gt; image."
   style="width:35%;" />
+</p>
 
 <p>I use an element selector to select the image element that is a descendant 
 of the header element. I then apply three CSS properties to the CSS rule. First, 
@@ -9229,11 +9354,13 @@ properties to auto. These three properties together will center the logo inside
 of the header element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 251. css: nav ul (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image251.webp?raw=true"
   title="CSS: nav ul"
   alt="CSS: nav ul."
   style="width:35%;" />
+</p>
 
 <p>Next, lay out the navigation menu horizontally.  To do this, add an element selector to 
 select the unordered list element that is a descendant of the nav element.  Then apply two CSS 
@@ -9242,11 +9369,13 @@ point as the beginning of each element.  Then set the text align property to cen
 inline elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252. css: nav li (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image252.webp?raw=true"
   title="CSS: Select list item that is descendent of nav element"
   alt="CSS: Select list item that is descendent of nav element."
   style="width:35%;" />
+</p>
 
 <p>Next, add another CSS rule.  This time the selector will select the list 
 item element that is a descendant of the nav element.  Then apply the display 
@@ -9254,52 +9383,62 @@ property and set its value to inline-block. Save the file and open the webpage
 in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 253. logo and navigation bar centered (255) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image253.webp?raw=true"
   title="Logo and navigation bar, centered"
   alt="Logo and navigation bar, centered."
   style="width:35%" />
+</p>
 
 <p>So far so good. Both the logo and the navigation bar are
 centered. Next, I need to set up the flexbox layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. css: section display: flex (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image254.webp?raw=true"
   title="CSS: select section element, add display property and set to flex"
   alt="CSS: select section element, add display property and set to flex."
   style="width:35%;" />
+</p>
 
 <p>I add another CSS rule using the element selector to select the
 section element. I then add the display property and set its value to flex.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 255. css: article flex property to 1 (255) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image255.webp?raw=true"
   title="CSS: select article and set flex property to 1 (one)"
   alt="CSS: select article and set flex property to 1 (one)."
   style="width:25%;" />
+</p>
 
 <p>Next, I add the CSS rule using the element selector to select the
 article element. I then set the flex property to 1.
 I saved the file and open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 256. main content w/one column in 1st row, 3 in 2nd row (256) ~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image256.webp?raw=true"
   title="Main content with one column in the 1st row and 3 columns in the 2nd row"
   alt="Main content with one column in the 1st row and 3 columns in the 2nd row."
   style="width:35%;" />
+</p>
 
 <p>Now, the main content is laid out correctly with one column in the first row 
 and three columns in the second row. Finally, also the layout for the footer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257. css: footer (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image257.webp?raw=true"
   title="CSS: footer elements"
   alt="CSS: footer elements."
   style="width:25%;" />
+</p>
 
 <p>First, add a CSS rule using the element selector to select the footer element. 
 I then add the display property and set its value to flex. Then I add another CSS 
@@ -9308,20 +9447,24 @@ the footer element. I then set the flex property to 1. I save the file again and
 open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 258. webpage elements laid out and positioned correctly (257) ~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image258.webp?raw=true"
   title="Webpage elements laid out and positioned correctly"
   alt="Webpage elements laid out and positioned correctly."
   style="width:35%;" />
+</p>
 
 <p>Success, the webpage elements are now laid out and positioned correctly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 259. now you know how to position web page elements correctly (257) ~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image259.webp?raw=true"
   title="Now you know how to position webpage elements corerctly (well, at least one way)"
   alt="Now you know how to position webpage elements corerctly (well, at least one way)."
   style="width:25%;" />
+</p>
 
 <p>Laying out and positioning your HTML elements first will always save you time 
 later on when you begin applying visual improvements in animations. Doing it this 
@@ -9368,43 +9511,51 @@ href="https://code.visualstudio.com/download">https://code.visualstudio.com/down
 download is complete.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 260. review and accept license agreement (259) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image260.webp?raw=true"
   title="Step 3: Review and accept license agreement for MS Visual Studio Code"
   alt="Step 3: Review and accept license agreement for MS Visual Studio Code."
   style="width:35%;" />
+</p>
 
 <p><strong>Step 3:</strong> Review and accept the license agreement,
 then click Next.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 261. destination location (enter or accept default) (260) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image261.webp?raw=true"
   title="Step 4: Destination location. Keep default or enter a new location"
   alt="Step 4: Destination location. Keep default or enter a new location."
   style="width:35%;" />
+</p>
 
 <p><strong>Step 4:</strong> Keep the default value when prompted for the
 destination location and click next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 262. make sure add to path is selected (261) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image262.webp?raw=true"
   title="Step 5: Make sure Add to Path is selected, click next"
   alt="Step 5: Make sure Add to Path is selected, click next."
   style="width:35%;" />
+</p>
 
 <p><strong>Step 5:</strong> On the additional tasks view, make sure that
 <strong>Add to PATH</strong> is selected. </p>
 <p><strong>Step 6:</strong> Click next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263. click install when ready (261) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image263.webp?raw=true"
   title="Step 7: Click install when ready"
   alt="Step 7: Click install when ready."
   style="width:35%;" />
+</p>
 
 <p><strong>Step 7:</strong> Click install when the ready to install page
 appears.</p>
@@ -9424,11 +9575,13 @@ contents.</p>
 application link in Finder below.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 264. mac and linux menu screen color wheel (261) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image264.webp?raw=true"
   style="width:35%;"
   title="Set up Visual Studio Code on Mac Step 4"
   alt="Set up Visual Studio Code on Mac Step 4." />
+</p>
 
 <h4>Step 5: Open the app.</h4>
 
@@ -9543,6 +9696,7 @@ These are:</p>
 <p>The different combinations are represented in the image below;</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 265. color wheel (263) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image265.gif?raw=true"
   style="width:55%"
@@ -9550,6 +9704,7 @@ These are:</p>
     of colors to others"
   alt="Different color combinations on the color wheel that are based on the relative position 
     of colors to others." />
+</p>
 
 <p>Image source: <a
 href="https://www.moving.com/tips/how-to-choose-a-color-scheme-for-your-home/">
@@ -9614,11 +9769,13 @@ creating a video and audio player that can rate media on a homepage for
 a client persona.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 266. outline of course objectives (265) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="/images/image266.webp?raw=true"
   title="Summary: Use tags, create forms, create layouts and perform tests"
   alt="Summary: Use tags, create forms, create layouts and perform tests."
   style="width:25%" />
+</p>
 
 <p>In addition to these, following your completion of this course in HTML and CSS 
 development, you should now be able to use;</p>
