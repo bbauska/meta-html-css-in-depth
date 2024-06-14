@@ -3508,7 +3508,7 @@ horizontal rows to vertical columns.</p>
 <!--~~~~~~~~~~~~~~~~~~ 101. display seven listed number boxes as a flex (98) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image101.webp?raw=true"
+  src="/images/image101.png?raw=true"
   title="Display seven listed number boxes as a flex"
   alt="Display seven listed number boxes as a flex."
   style="width:25%" />
@@ -3539,7 +3539,7 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 <!--~~~~~~~~~~ 102. right-centered number boxes with flex end aligning method (99) ~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image102.webp?raw=true"
+  src="/images/image102.png?raw=true"
   title="Right-centered number boxes with flex end aligning method"
   alt="Right-centered number boxes with flex end aligning method."
   style="width:15%;" />
@@ -3568,7 +3568,7 @@ property. Let’s change the value for it to ‘flex-end’.</p>
 <!--~~~~~~~~~~~~~~~~ 103. output display seven box align and color change (100) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image103.webp?raw=true"
+  src="/images/image103.png?raw=true"
   title="Display 7 box change in color and alignment"
   alt="Display 7 box change in color and alignment."
   style="width:15%;" />
@@ -3603,7 +3603,7 @@ columns using row-gap and column-gap properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~ 104. display of items with different spacing (101) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image104.webp?raw=true"
+  src="/images/image104.png?raw=true"
   title="Display of items with different spacing"
   alt="Display of items with different spacing."
   style="width:15%;" />
@@ -3641,7 +3641,7 @@ aligned and horizontal best-distributed between two rows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. seven box example (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image105.webp?raw=true"
+  src="/images/image105.png?raw=true"
   title="List of items as default raw modified by removing the flex direction"
   alt="List of items as default raw modified by removing the flex direction."
   style="width:35%;" />
@@ -3664,7 +3664,7 @@ inside the flex item box3 class.</p>
 <!--~~~~~~~~~~~~~~~~~~ 106. different spacing of items in row display (101) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image106.webp?raw=true"
+  src="/images/image106.png?raw=true"
   title="Different spacing of items in row display"
   alt="Different spacing of items in row display."
   style="width:35%;" />
@@ -3857,7 +3857,7 @@ binding elements together or creating an easy layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. search bar and flex (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image107.webp?raw=true"
+  src="/images/image107.png?raw=true"
   title="Search bar and flexbox"
   alt="Search bar and flexbox."
   style="width:25%;" />
@@ -3870,7 +3870,7 @@ the search input area, and the Submit button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. nav bar example (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image108.webp?raw=true"
+  src="/images/image108.png?raw=true"
   title="Nav bar example"
   alt="Nav bar example."
   style="width:45%;" />
@@ -3883,7 +3883,7 @@ responsive on different devices.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. four images, realign (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image109.webp?raw=true"
+  src="/images/image109.png?raw=true"
   title="4 images, noodles for realignment"
   alt="4 images, noodles for realignment."
   style="width:25%;" />
@@ -3898,7 +3898,7 @@ these flexboxes to ensure a simple layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. html input searchbox function (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image110.webp?raw=true"
+  src="/images/image110.png?raw=true"
   title="HTML input searchBox function in div tag"
   alt="HTML input searchBox function in div tag."
   style="width:45%;" />
@@ -3917,7 +3917,7 @@ button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 111. css container property and settings (107) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image111.webp?raw=true"
+  src="/images/image111.png?raw=true"
   title="CSS Container property and settings"
   alt="CSS Container property and settings."
   style="width:25%;" />
@@ -3950,7 +3950,7 @@ menus.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. unordered list w/4 items (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image112.webp?raw=true"
+  src="/images/image112.png?raw=true"
   title="Unordered 4 item list with class='container'"
   alt="Unordered 4 item list with class='container'."
   style="width:35%;" />
@@ -3962,7 +3962,7 @@ items.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. star (*) example in css (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image113.webp?raw=true"
+  src="/images/image113.png?raw=true"
   title="Star (*) example in css flexbox"
   alt="Star (*) example in css flexbox."
   style="width:35%" />
@@ -3993,7 +3993,7 @@ image gallery.</p>
 <!--~~~~~~~~~~~~~~~~~ 114. body with div class='container' and images (109) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image114.webp?raw=true"
+  src="/images/image114.png?raw=true"
   title="body with div class='container' and images"
   alt="body with div class='container' and images."
   style="width:45%" />
@@ -4014,7 +4014,7 @@ the border to zero.</p>
 <!--~~~~~~~~~~~~~~~~~ 115. flex-wrap - force 1 line or wrap multiple? (110) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image115.webp?raw=true"
+  src="/images/image115.png?raw=true"
   title="Flex-wrap: wrap - with justify-content: space-between, with 5px padding"
   alt="Flex-wrap: wrap - with justify-content: space-between, with 5px padding."
   style="width:25%" />
@@ -4059,7 +4059,7 @@ in turn has the following three sub properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 116. flex-grow, flex-shrink, flex-basis (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image116.webp?raw=true"
+  src="/images/image116.png?raw=true"
   title="flex-grow, flex-shrink, flex-basis"
   alt="flex-grow, flex-shrink, flex-basis."
   style="width:25%;" />
@@ -4074,7 +4074,7 @@ item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 117. flex-property default flex: 0,1 auto (111) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image117.webp?raw=true"
+  src="/images/image117.png?raw=true"
   title="flex-property default flex: 0,1 auto"
   alt="flex-property default flex: 0,1 auto."
   style="width:35%;" />
@@ -4093,7 +4093,7 @@ their website to draw attention to their most popular dishes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. flexcharts.css and .html (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image118.webp?raw=true"
+  src="/images/image118.png?raw=true"
   title="Flexcharts.html and .css"
   alt="Flexcharts.html and .css."
   style="width:35%;" />
@@ -4115,7 +4115,7 @@ and then I press enter.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. new class .dish (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image119.webp?raw=true"
+  src="/images/image119.png?raw=true"
   title="New class .dish"
   alt="New class .dish."
   style="width:45%;" />
@@ -4128,7 +4128,7 @@ and paste this item twice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 120. dish pasta, pizza and burrito (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image120.webp?raw=true"
+  src="/images/image120.png?raw=true"
   title="dish pasta, pizza, and burrito"
   alt="dish pasta, pizza, and burrito."
   style="width:45%;" />
@@ -4150,7 +4150,7 @@ end of each item.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. flexcharts.css and .html (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image121.webp"
+  src="./images/image121.png"
   title="flexcharts.css and flexcharts.html"
   alt="flexcharts.css and flexcharts.html."
   style="width:45%;" />
@@ -4196,7 +4196,7 @@ easier to interpret.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 122. flexchart.html (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image122.webp"
+  src="./images/image122.png"
   title="Flexchart.html"
   alt="Flexchart.html"
   style="width:45%;" />
@@ -4208,7 +4208,7 @@ of my CSS file I press enter twice and type dot pasta.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123. flexchart.css (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image123.webp"
+  src="./images/image123.png"
   title="Flexchart.css"
   alt="Flexchart.css."
   style="width:35%;" />
@@ -4226,7 +4226,7 @@ web page, the flex adjusts itself while the label remains unchanged.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 124. flexchart.html and flexchart.css (117) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image124.webp"
+  src="./images/image124.png"
   title="Both flexchart.html and flexchart.css"
   alt="Both flexchart.html and flexchart.css."
   style="width:45%;" />
@@ -4241,7 +4241,7 @@ of them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 125. preferred dishes 35%, 50% and 15% (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image125.webp"
+  src="./images/image125.png"
   title="Preferred dishes 35% 50% and 15%"
   alt="Preferred dishes 35% 50% and 15%"
   style="width:25%;" />
@@ -4261,7 +4261,7 @@ are stacked on top of each other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. barcharts2.html (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image126.webp"
+  src="./images/image126.png"
   title="barcharts2.html"
   alt="barcharts2.html."
   style="width:35%;" />
@@ -4273,7 +4273,7 @@ look at a few more examples, it will start making sense.</p>
 <!--~~~~~~~~~~~~~~~~~ 127. container contains male and female classes (118) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="./images/image127.webp"
+  src="./images/image127.png"
   title="Container contains male and female classes"
   alt="Container contains male and female classes."
   style="width:45%;" />
@@ -4301,7 +4301,7 @@ cross each other to form squares or rectangles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 128. grid container, rows and columns (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image128.webp?raw=true"
+  src="/images/image128.png?raw=true"
   title="Grid Container, Rows and Columns"
   alt="Grid Container, Rows and Columns."
   style="width:35%;" />
@@ -4317,7 +4317,7 @@ your viewport.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. grid container, gutter (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image129.webp?raw=true"
+  src="/images/image129.png?raw=true"
   title="Grid Container, Gutter"
   alt="Grid Container, Gutter."
   style="width:45%;" />
@@ -4329,7 +4329,7 @@ these tracks are called gutters or gaps.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. grid container, grid cell (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image130.webp?raw=true"
+  src="/images/image130.png?raw=true"
   title="Grid Container, Grid Cell"
   alt="Grid Container, Grid Cell."
   style="width:45%;" />
@@ -4345,7 +4345,7 @@ to iteratively make changes to a grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. index.html (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image131.webp?raw=true"
+  src="/images/image131.png?raw=true"
   title="Sample Index.html"
   alt="Sample Index.html."
   style="width:25%;" />
@@ -4368,7 +4368,7 @@ not actually one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. set values (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image132.webp?raw=true"
+  src="/images/image132.png?raw=true"
   title="Set Values"
   alt="Set Values."
   style="width:25%;" />
@@ -4384,7 +4384,7 @@ not actually one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 133. assign grid value to display property (122) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image133.webp?raw=true"
+  src="/images/image133.png?raw=true"
   title="Assign Grid Value to Display Property"
   alt="Assign Grid Value to Display Property."
   style="width:35%;" />
@@ -4396,7 +4396,7 @@ and the property values configured for three columns and two rows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. updated container (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image134.webp?raw=true"
+  src="/images/image134.png?raw=true"
   title="Updated Container"
   alt="Updated Container."
   style="width:35%;" />
@@ -4410,7 +4410,7 @@ to set the size of each of the three columns using pixel values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 135. updated container with fraction (124) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image135.webp?raw=true"
+  src="/images/image135.png?raw=true"
   title="Updated Container with Fraction"
   alt="Updated Container with Fraction."
   style="width:35%;" />
@@ -4432,7 +4432,7 @@ interchangeably with both rows and columns.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 136. grid gap and background color (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image136.webp?raw=true"
+  src="/images/image136.png?raw=true"
   title="Grid Gap and Background Color"
   alt="Grid Gap and Background Color."
   style="width:35%;" />
@@ -4451,7 +4451,7 @@ and grid auto columns collectively called the implicit grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. auto properties (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image137.webp?raw=true"
+  src="/images/image137.png?raw=true"
   title="Auto Properties"
   alt="Auto Properties."
   style="width:35%;" />
@@ -4465,7 +4465,7 @@ layout easier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138. repeat function (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image138.webp?raw=true"
+  src="/images/image138.png?raw=true"
   title="Repeat Function - passes number of repeats required for a given number of rows and columns"
   alt="Repeat Function - passes number of repeats required for a given number of rows and columns."
   style="width:35%;" />
@@ -4482,7 +4482,7 @@ ease of code modification.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. minmax function (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image139.webp?raw=true"
+  src="/images/image139.png?raw=true"
   title="Min and Max values expected for the sizes of rows and columns"
   alt="Min and Max values expected for the sizes of rows and columns."
   style="width:35%;" />
@@ -4763,7 +4763,7 @@ commonly used grid layouts are created and where you can use them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. extra.html (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image142.webp?raw=true"
+  src="/images/image142.png?raw=true"
   title="Extra.html"
   alt="Extra.html"
   style="width:35%" />
@@ -4779,7 +4779,7 @@ name and then the footer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143. extra.css (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image143.webp?raw=true"
+  src="/images/image143.png?raw=true"
   title="Extra.css"
   alt="Extra.css"
   style="width:35%" />
@@ -4800,7 +4800,7 @@ height.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. more extra.css (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image144.webp?raw=true"
+  src="/images/image144.png?raw=true"
   title="More extra.css"
   alt="More extra.css."
   style="width:35%" />
@@ -4822,7 +4822,7 @@ starting point and the number of columns each element spans.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. gridtwelve.html (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image145.webp?raw=true"
+  src="/images/image145.png?raw=true"
   title="gridtwelve.html"
   alt="gridtwelve.html"
   style="width:35%" />
@@ -4844,12 +4844,13 @@ template columns property, which I'm going to repeat 12 times with one
 fraction each.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 146. extra.css > footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image146.webp?raw=true"
+  src="/images/image146.png?raw=true"
   title="extra.css > footer"
   alt="extra.css > footer."
   style="width:45%" />
+</p>
 
 <p>Next, I define the properties of the segment.</p>
 <p>Again, I display grid following up with centering the items at the
@@ -4863,12 +4864,13 @@ continue.</p>
 background.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. define grid column property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image147.webp?raw=true"
+  src="/images/image147.png?raw=true"
   title="Define grid column property"
   alt="Define grid column property."
   style="width:35%" />
+</p>
 
 <p>The next part is important.</p>
 <p>This is where I use the grid column property.</p>
@@ -4883,12 +4885,13 @@ column this time, I'll start from say, the fifth column, and it will
 span across eight columns.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148. change color to bisque ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image148.webp?raw=true"
+  src="/images/image148.png?raw=true"
   title="Change color to bisque"
   alt="Change color to bisque."
   style="width:35%" />
+</p>
 
 <p>Let's change the color here to bisque.</p>
 <p>The color now makes it obvious that the elements starts from the
@@ -4897,11 +4900,12 @@ fifth column and spans eight columns.</p>
 again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 149. span 12, span 8, span 4/6, span 7 (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image149.webp?raw=true"
+  src="/images/image149.png?raw=true"
   alt="."
   style="width:45%" />
+</p>
 
 <p>Let's examine the output again.
 Now, this is looking a lot more presentable.</p>
@@ -4991,12 +4995,13 @@ conventionally. Let's examine an example.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. header, nav, main, footer (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image150.webp?raw=true"
+  src="/images/image150.png?raw=true"
   style="width:45%;"
   title="Grid-based output presenting &quot;header, navigation, main area, and footer.&quot;"
   alt="Grid-based output presenting &quot;header, navigation, main area, and footer.&quot;" />
+</p>
 
 <p>Though there are five sets of rules, logically the CSS code is
 divided into two sections. The first is where you define the rules for
@@ -5140,11 +5145,13 @@ already covered.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151. element or type selectors (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image151.webp?raw=true"
+  src="/images/image151.png?raw=true"
   title="Element or type selectors: p type in index.html and style.css"
   alt="Element or type selectors: p type in index.html and style.css."
   style="width:25%;" />
+</p>
  
 <p>You learned about element or type selectors.</p>
 <p>The element selector allows developers to select html elements based
@@ -5152,11 +5159,13 @@ on their element type.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152. id selectors for styling (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image152.webp?raw=true"
+  src="/images/image152.png?raw=true"
   title="Example ID selector using pound latest in style.css"
   alt="Example ID selector using pound latest in style.css."
   style="width:25%;" />
+</p>
 
 <p>You also get ID selectors,
 ID Selectors use the ID attribute of html element.
@@ -5165,11 +5174,13 @@ select a specific element for styling.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 153. class selectors with .navigation (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image153.webp?raw=true"
+  src="/images/image153.png?raw=true"
   title="Example class selector using dot navigation in style.css"
   alt="Example class selector using dot navigation in style.css."
   style="width:25%;" />
+</p>
 
 <p>You were introduced to class selectors.</p>
 <p>Class selectors allow you to select 
@@ -5188,12 +5199,13 @@ improve the design and styling effect of CSS.</p>
 <p>Can you recall what attributes and value mean?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 154. image tag with source and alt (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image154.webp?raw=true"
+  src="/images/image154.png?raw=true"
   title="Image tag with source and alt"
   alt="Image tag with source and alt."
   style="width:35%;" />
+</p>
   
 <p>A quick recap, let's say you have a html image tag, img is the name
 of the tag, while src and alt are the names of its attributes.</p>
@@ -5201,11 +5213,12 @@ of the tag, while src and alt are the names of its attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 155. attribute selectors with class (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image15.webp?raw=true"
+  src="/images/image15.png?raw=true"
   alt="Attribute selectors with class (home and about)."
   style="width:35%;" />
-<!--  style="width:5in;height:2.66267in" -->
+</p>
 
 <p>Now let's explore an example of how attribute selectors can be
 used.</p>
@@ -5217,23 +5230,24 @@ home, and the third class called about.</p>
 different attributes of the html.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 156. attribute selectors with class, again (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image15.webp?raw=true"
+  src="/images/image15.png?raw=true"
   alt="Again, attribute selectors with class of home and about."
   style="width:25%;" />
-<!--  style="width:4in;height:3.12329in" -->
+</p>
 
 <p>For instance, you can style all elements that have a defined class by
 adding class inside the square brackets.</p>
 <p>In this case, it will turn the second and third link green.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 157. attribute selectors example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image157.webp?raw=true"
+  src="/images/image157.png?raw=true"
   alt="Example of attribute selectors."
   style="width:35%;" />
+</p>
 
 <p>Alternatively, you can target all three elements by inserting the
 href attribute, a star and a common value that is part of all the links
@@ -5243,11 +5257,12 @@ that you want to target.</p>
 meta.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 158. attribute selectors with style (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image158.webp?raw=true"
+  src="/images/image158.png?raw=true"
   alt="Attribute selectors with style."
   style="width:35%;" />
+</p>
 
 <p>Or you can target only the first element by adding the specific link
 as the value of the href attribute, that you want to target inside the
@@ -5259,11 +5274,12 @@ let's move on to two other widely used selectors that you need to know
 about.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 159. nth-of-type and nth-child selectors (149) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image159.webp?raw=true"
+  src="/images/image159.png?raw=true"
   alt="Syntax for nth-of-type and nth-child selectors."
   style="width:50%;" />
+</p>
 
 <p>Nth-of-type and nth-child selectors, the syntax of these two
 selectors is very similar.</p>
@@ -5272,11 +5288,12 @@ nth-type of a specified parent element, but what does parent mean
 exactly?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 160. nth-of-type example using unordered list (150) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image160.webp?raw=true"
+  src="/images/image160.png?raw=true"
   alt="Nth-of-type example using unordered list."
   style="width:50%;" />
+</p>
 
 <p>Well, say you have a few list elements in an unordered list
 element.</p>
@@ -5289,11 +5306,12 @@ nth-child selectors to do that.</p>
 be colored aqua in this case.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161. star selectors syntax (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image161.webp?raw=true"
+  src="/images/image161.png?raw=true"
   alt="Star selectors (*) syntax.  Select all."
   style="width:25%;" />
+</p>
 
 <p>Another commonly used selector is the star selector, just like in
 many other programming languages, star selectors are used for selecting
@@ -5304,20 +5322,22 @@ and styles that browsers use before they apply your styling to the web
 page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. star selectors example (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image162.webp?raw=true"
+  src="/images/image162.png?raw=true"
   alt="Star selectors example."
   style="width:50%;" />
+</p>
 
 <p>Finally, did you know that you can group selectors?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. group selectors syntax (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image163.webp?raw=true"
+  src="/images/image163.png?raw=true"
   alt="Group selectors syntax."
   style="width:35%;" />
+</p>
 
 <p>If you want to apply the same styling to more than one type of
 element, like the heading one and paragraph elements you can use group
@@ -5497,11 +5517,12 @@ can apply rules to elements based on their relationship with one
 another.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 164. 4 main types of combination selectors (156) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image164.webp?raw=true"
+  src="/images/image164.png?raw=true"
   alt="Four types of combination selectors; descendant, child, general and adjacent sibling."
   style="width:25%;" />
+</p>
 
 <p>4 main types of combination selectors. Descendant selectors, child selectors, general sibling
 selectors, and adjacent sibling selectors.</p>
@@ -5517,11 +5538,12 @@ as children, grandchildren and great grandchildren, who have, say, brown
 hair.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 165. descendant selectors example (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image165.webp?raw=true"
+  src="/images/image165.png?raw=true"
   alt="Descendant selectors example."
   style="width:25%;" />
+</p>
 
 <p>For example, you can have an HTML file with a div tag, and its ID
 attributes set to blog, inside the div tag are a few heading tags.</p>
@@ -5529,22 +5551,24 @@ attributes set to blog, inside the div tag are a few heading tags.</p>
 the ID blog.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 166. descendant selectors example, pg 2 (157) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image166.webp?raw=true"
+  src="/images/image166.png?raw=true"
   alt="Descendant selectors example, page 2."
   style="width:60%;" />
+</p>
 
 <p>So, to make all the h1 descendants blue, you can add the ID selector
 hash #blog followed by the h1 selector with a space in between and then
 the properties in curly brackets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 167. child selectors example (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image167.webp?raw=true"
+  src="/images/image167.png?raw=true"
   alt="Child selectors example."
   style="width:50%;" />
+</p>
 
 <p>Child selectors on the other hand are more specific than descendant
 selectors.</p>
@@ -5558,11 +5582,12 @@ close angle bracket in between the two selectors.</p>
 element with the blog id attribute.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 168. general sibling selectors example (158) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image168.webp?raw=true"
+  src="/images/image168.png?raw=true"
   alt="General Sibling selectors example."
   style="width:50%;" />
+</p>
 
 <p>Next, let's focus on general sibling selectors, which apply rules to
 all the selectors of the same type that follow the first type.</p>
@@ -5583,11 +5608,12 @@ another element.</p>
 person and then selects the next younger brothers.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 169. adjacent sibling selectors example (159) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image169.webp?raw=true"
+  src="/images/image169.png?raw=true"
   alt="Adjacent Sibling selectors example."
   style="width:50%;" />
+</p>
 
 <p>Finally, let's replace the tilde with a plus sign to update this
 selector to an adjacent sibling selector.</p>
@@ -5614,11 +5640,12 @@ list with two list items.</p>
 <p>Now, let's inspect the CSS rules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 170. css code for general sibling selector example (160) ~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image170.webp?raw=true"
+  src="/images/image170.png?raw=true"
   alt="CSS code for general sibling selector example."
   style="width:50%;" />
+</p>
 
 <p>First, I set basic rules for the html body.</p>
 <p>This is so that the special effect that I will apply with the sibling
@@ -5639,11 +5666,12 @@ this case is set to gray.</p>
 <p>So what elements will be styled?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 171. sibling selectors example code (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image171.webp?raw=true"
+  src="/images/image171.png?raw=true"
   alt="Sibling selectors example code."
   style="width:50%;" />
+</p>
 
 <p>Remember, sibling selectors apply rules to all the selectors of the
 same type that follow the first type.</p>
@@ -5655,11 +5683,12 @@ rules will affect the un ordered list that follows it.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 172. example unordered list with output (162) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image172.webp?raw=true"
+  src="/images/image172.png?raw=true"
   alt="Sibling selectors exmaple."
   style="width:50%;" />
+</p>
 
 <p>Let's inspect the output.</p>
 <p>The background is orange and there are two box shadows, each with un
@@ -5674,11 +5703,12 @@ rule.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 173. unordered list follows div tag for style (163) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image173.webp?raw=true"
+  src="/images/image173.png?raw=true"
   alt="Unordered list follows a div tag, stying is applied."
   style="width:50%;" />
+</p>
 
 <p>If there is another instance where an un ordered list follows a div
 tag on this page, it will also have a box shadow.</p>
@@ -5687,11 +5717,12 @@ tag, the styling will not be applied to those elements.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. adjacent selector example (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image174.webp?raw=true"
+  src="/images/image174.png?raw=true"
   alt="Example of adjacent selector."
   style="width:50%;" />
+</p>
 
 <p>Next, I will demonstrate how to use the adjacent selector.</p>
 <p>The html file contains an image tag and then three paragraph
@@ -5714,11 +5745,12 @@ element following the reference element.</p>
 type after the reference element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 175. sibling selector example (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image175.webp?raw=true"
+  src="/images/image175.png?raw=true"
   alt="Sibling selector example."
   style="width:50%;" />
+</p>
 
 <p>Let's inspect the output and CSS code.</p>
 <p>As explained, the first paragraph that follows the image is styled
@@ -5762,11 +5794,12 @@ such as, let's say, the fifth item in a list, bold items, empty
 elements, and so on.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. pseudo-classes syntax (166) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image176.webp?raw=true"
+  src="/images/image176.png?raw=true"
   alt="Pseudo-classes syntax."
   style="width:25%;" />
+</p>
 
 <p>Let's review the general syntax that you use for various
 pseudo-classes.</p>
@@ -5778,11 +5811,12 @@ their purpose.</p>
 <p>Let's explore a few of these general classifications.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 177. user action states; hover, active and focus (166) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image177.webp?raw=true"
+  src="/images/image177.png?raw=true"
   alt="User action states are; hover, active and focus."
   style="width:15%;" />
+</p>
 
 <p>The first group you need to know about is user action states, which
 include the hover pseudo-class, which changes the style of an element
@@ -5798,21 +5832,23 @@ can be used.</p>
 button element inside a div element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 178. paragraph class 'mypage' and button class 'mybutton' (166) ~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image178.webp?raw=true"
+  src="/images/image178.png?raw=true"
   alt="Paragraph class 'mypage' and button class 'mybutton'."
   style="width:35%;" />
+</p>
 
 <p>The paragraph element has a class defined as "mypage" and the button
 class is defined as "mybutton."</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 179. css styling for mypage and mybutton (167) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image179.webp?raw=true"
+  src="/images/image179.png?raw=true"
   alt="CSS styling for classes 'mypage' and 'mybutton'."
   style="width:35%;" />
+</p>
   
 <p>Now, let's explore the CSS.</p>
 <p>First it contains basically styling for the mypage and mybutton class
@@ -5821,11 +5857,12 @@ elements.</p>
 it, you use the hover pseudo-class to target a tag.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image180.webp?raw=true"
+  src="/images/image180.png?raw=true"
   alt="."
   style="width:35%;" />
+</p>
 
 <p>To change the mybutton class, you use the active pseudo-class.</p>
 <p>The active pseudo-class changes the properties of an element when the
@@ -5836,11 +5873,12 @@ presses and holds the mouse button.</p>
 you can also use them to target HTML class attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image181.webp?raw=true"
+  src="/images/image181.png?raw=true"
   alt="."
   style="width:20%;" />
+</p>
 
 <p>Next, let's focus on Form states.</p>
 <p>Previously, when discussing form validation, you were introduced to
@@ -5856,10 +5894,12 @@ phone numbers.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image182.webp?raw=true"
+  src="/images/image182.png?raw=true"
   alt="."
   style="width:20%;" />
+</p>
 
 <p>Another pseudo-class type that you should know about is specific
 position-based states.</p>
@@ -5931,11 +5971,12 @@ of each of the three points in the example text.</p>
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183. sample output  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image183.webp?raw=true"
+  src="/images/image183.png?raw=true"
   alt="Sample output."
   style="width:35%;" />
+</p>
 
 <p>Although the code only changed the first letter of each bullet point,
 it makes a big difference in terms of presentation. Now let’s change the
@@ -5961,11 +6002,12 @@ points to light sea green.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. sample output  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image184.webp?raw=true"
+  src="/images/image184.png?raw=true"
   alt="Sample output."
   style="width:35%;" />
+</p>
 
 <p>Because it’s only the first line of each bullet point, it almost
 functions like dividers between the three different points instead of
@@ -5977,11 +6019,12 @@ viewport.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. enlarged sample output (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image185.webp?raw=true"
+  src="/images/image185.png?raw=true"
   alt="."
   style="width:35%;" />
+</p>
 
 <h4>::selection</h4>
 
@@ -6009,11 +6052,12 @@ of text.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 186. example of same text selected and highlighted (xxx) ~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image186.webp?raw=true"
+  src="/images/image186.png?raw=true"
   style="width:50%;"
   alt="Output for selection of text display" />
+</p>
 
 <p>And another example of the same text but with a different section
 selected and highlighted.</p>
@@ -6021,11 +6065,12 @@ selected and highlighted.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. different highlights (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image187.webp?raw=true"
+  src="/images/image187.png?raw=true"
   alt="Highlight different segments."
   style="width:35%;" />
+</p>
 
 <p>Different segments of the text are highlighted depending on the text
 that is selected at any given point.</p>
@@ -6046,11 +6091,12 @@ experience when you use a marker in the following way.</p>
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. change bullet shapes (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image188.webp?raw=true"
+  src="/images/image188.png?raw=true"
   alt="Change bullet shapes."
   style="width:35%;" />
+</p>
 
 <p>Now the bullet points are cornflower blue and they have the shape
 specified in the code.</p>
@@ -6095,11 +6141,12 @@ guidelines to identify them as important tips.</p>
 <h4>Output:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 189. tips and exclamations highlighted (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image189.webp?raw=true"
+  src="/images/image189.png?raw=true"
   alt="Selection of texts preceding and following a statement"
   style="width:35%;" />
+</p>
 
 <p>The “content” property is where the text for the guidelines goes. The
 word “tip” has been added before each guideline thanks to the rules
@@ -6126,21 +6173,23 @@ developers often use them to style the color of links that a user
 already opened.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 190. home and who we are (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image190.webp?raw=true"
+  src="/images/image190.png?raw=true"
   alt="Home and Who We Are tags."
   style="width:35%;" />
+</p>
 
 <p>For instance, a HTML file can have two a tags, each with its own href that links to a different 
 page of a website.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 191. css for home and who we are (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image191.webp?raw=true"
+  src="/images/image191.png?raw=true"
   alt="CSS for Home and Who We Are tag."
   style="width:35%;" />
+</p>
   
 <p>To give the links their initial color, you can use the link pseudo-class selector, and 
 to let the links change color, once a user has visited these pages, you can use the
@@ -6157,7 +6206,7 @@ need to follow when writing pseudo-class rules.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 192. link, visited, hover, active (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image192.webp?raw=true"
+  src="/images/image192.png?raw=true"
   alt="Link, Visited, Hover, and Active."
   style="width:15%;" />
 
@@ -6170,7 +6219,7 @@ effects that you can create with the hover pseudo-class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 193. pseudo_links.html with tags (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image193.webp?raw=true"
+  src="/images/image193.png?raw=true"
   alt="pseudo_links.html with tags."
   style="width:50%;" />
 
@@ -6182,7 +6231,7 @@ and the first paragraph tag has a link to their Instagram page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194. pseudo_links.css (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image194.webp?raw=true"
+  src="/images/image194.png?raw=true"
   alt="CSS file pseudo_links.css."
   style="width:25%;" />
 
@@ -6198,7 +6247,7 @@ because I set it to blue with the link pseudo-class in the CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195. pseudo-links example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image195.webp?raw=true"
+  src="/images/image195.png?raw=true"
   alt="Pseudo-class links example."
   style="width:25%;" />
 
@@ -6221,7 +6270,7 @@ pseudo-class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 196. hover effect with pseudo-shadow (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image196.webp?raw=true"
+  src="/images/image196.png?raw=true"
   alt="Hover effect with pseudo-class."
   style="width:50%;" />
 
@@ -6231,7 +6280,7 @@ pseudo-class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 197. pseudo-class hover and shadow effects (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image197.webp?raw=true"
+  src="/images/image197.png?raw=true"
   alt="Pseudo-class hover and shadow effects."
   style="width:25%;" />
 
@@ -6248,7 +6297,7 @@ of the shadow is set to black.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 198. offset and box-shadow example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image198.webp?raw=true"
+  src="/images/image198.png?raw=true"
   alt="Offset and box-shadow example, Little Lemon."
   style="width:50%;" />
 
@@ -6259,7 +6308,7 @@ of the shadow is set to black.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199. hover pseudo-class (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image199.webp?raw=true"
+  src="/images/image199.png?raw=true"
   alt="Hover pseudo-class."
   style="width:50%;" />
 
@@ -6718,7 +6767,7 @@ technology was good enough to integrate it into online experiences.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 200. animation: graphics in motion (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image200.webp?raw=true"
+  src="/images/image200.png?raw=true"
   alt="Animation: Graphics in Motion."
   style="width:50%;" />
 
@@ -6779,7 +6828,7 @@ visit the pros and cons of adding effects on web pages.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201. effects: pros and cons (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image201.webp?raw=true"
+  src="/images/image201.png?raw=true"
   alt="Effects: Pros and Cons."
   style="width:50%;" />
 
@@ -6797,11 +6846,12 @@ can cause your web page to load slowly in areas with low bandwidth.</p>
 especially used to create intuitive navigation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202. effects: key takeaways (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image202.webp?raw=true"
+  src="/images/image202.png?raw=true"
   alt="Effects/Animation: key takeaways."
   style="width:25%;" />
+</p>
 
 <p>You should now understand what effects and animations are.</p>
 <p>You also got a quick overview of the history of effects and the most
@@ -6824,11 +6874,12 @@ can also make you look dull and cause users to lose attention.</p>
 interesting effects.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 203. text-overflow and ellipsis (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image203.webp?raw=true"
+  src="/images/image203.png?raw=true"
   alt="Text-overflow and ellipsis."
   style="width:50%;" />
+</p>
 
 <p>First, I will explain how to use the text-overflow property that
 determines how overflowing content is displayed on your website.</p>
@@ -6847,15 +6898,16 @@ scroll to add a scroll bar.</p>
 to ellipsis.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 204/205. ellipsis property example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image204.webp?raw=true"
+  src="/images/image204.png?raw=true"
   alt="Ellipsis property example."
   style="width:40%;" />
 <img class="displayed"
-  src="/images/image205.webp?raw=true"
+  src="/images/image205.png?raw=true"
   alt="Ellipsis property example."
   style="width:40%;" />
+</p>
 
 <p>An ellipsis is three dots that represent the texts that is clipped.</p>
 <p>If I hover over the overflowing text which is present inside, the hidden text is displayed.</p>
@@ -6868,11 +6920,12 @@ the limits of the box. (no ellipsis).</p>
 <p>If I hover over with the cursor, the clipped text is displayed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image206.webp?raw=true"
+  src="/images/image206.png?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>In the third example, I demonstrate how to create vertical text.</p>
 <p>In the output, the words 12-15 items are placed vertically within the
@@ -6881,11 +6934,12 @@ otherwise horizontal texts.</p>
 <p>Then in the CSS code, I set the writing mode property to be vertical-rl.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 207.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image207.webp?raw=true"
+  src="/images/image207.png?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>The next example demonstrates the word wrap property.</p>
 <p>Word wrap determines how the words in a paragraph break up and wrap
@@ -6899,11 +6953,12 @@ across multiple lines.</p>
 code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208. little lemon logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image208.webp?raw=true"
+  src="/images/image208.png?raw=true"
   alt="Little Lemon logo."
   style="width:25%;" />
+</p>
 
 <p>In this example, I use a property called text shadow, which has a shorthand with four values.</p>
 <p>The first value is the x-coordinate, which represents the horizontal shadow.</p>
@@ -6911,11 +6966,12 @@ code.</p>
 <p>The third is the blur radius, and the fourth is the shadow color.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 209. class='glow' with shadow (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image209.webp?raw=true"
+  src="/images/image209.png?raw=true"
   alt="Text Effect Example of glow and shadow using css class."
   style="width:25%;" />
+</p>
 
 <p>This next example explores an extension of the same idea.</p>
 <p>My HTML code has two heading tags, each with the class name glow.</p>
@@ -6923,9 +6979,8 @@ code.</p>
 that class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="/images/image210.webp?raw=true"
+  src="/images/image210.png?raw=true"
   alt="."
   style="width:15%;" />
 
@@ -7103,11 +7158,12 @@ with which you can create basic animations.</p>
 transition properties.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image211.webp?raw=true"
+  src="/images/image211.png?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>The Syntax of the transform and transition properties are similar.</p>
 <p>You simply add transform or transition and the value.</p>
@@ -7122,11 +7178,12 @@ with the transformed property.</p>
 <p>Let's explore how these two properties work together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image212.webp?raw=true"
+  src="/images/image212.png?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>For example, you can set up your H one elements to rotate zero
 degrees by default, but by using the hover pseudo class and the
@@ -7136,10 +7193,12 @@ the mouse hovers over it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image213.webp?raw=true"
+  src="/images/image213.png?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>But by adding the transition property with the value transform to s
 the rotation will animate over two seconds.</p>
@@ -7148,10 +7207,12 @@ properties, let's explore a practical example.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
-  src="/images/image214.webp?raw=true"
+  src="/images/image214.png?raw=true"
   alt="."
   style="width:25%;" />
+</p>
 
 <p>I already set up an html file that contains a div tag with the class
 container and in it to other div tags.</p>
@@ -7161,7 +7222,7 @@ container and in it to other div tags.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image215.webp?raw=true"
+  src="/images/image215.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7175,7 +7236,7 @@ container and in it to other div tags.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image216.webp?raw=true"
+  src="/images/image216.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7191,7 +7252,7 @@ degrees.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image217.webp?raw=true"
+  src="/images/image217.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7207,7 +7268,7 @@ them as they are applied to change this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image218.webp?raw=true"
+  src="/images/image218.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7224,7 +7285,7 @@ transformations on the box.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image219.webp?raw=true"
+  src="/images/image219.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7254,7 +7315,7 @@ class.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 220. transform2.css box and box hover (196) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image220.webp?raw=true"
+  src="/images/image220.png?raw=true"
   alt="Transform box, rotate when hovering."
   style="width:25%;" />
 </p>
@@ -7302,7 +7363,7 @@ the @keyframe rule.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221. keyframe rule (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image221.webp?raw=true"
+  src="/images/image221.png?raw=true"
   alt="Keyframe rule."
   style="width:20%;" />
 </p>
@@ -7316,7 +7377,7 @@ that keyframe.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 222. keyframe rule syntax (197) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image222.webp?raw=true"
+  src="/images/image222.png?raw=true"
   alt="Keyframe rule syntax."
   style="width:20%;" />
 </p>
@@ -7327,7 +7388,7 @@ that keyframe.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223. animation property (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image223.webp?raw=true"
+  src="/images/image223.png?raw=true"
   alt="Animation property."
   style="width:20%;" />
 </p>
@@ -7343,7 +7404,7 @@ you simply leave them out.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 224. html simple clock hour and minute (198) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image224.webp?raw=true"
+  src="/images/image224.png?raw=true"
   alt="HTML Simple Clock with hour and minute."
   style="width:20%;" />
 </p>
@@ -7363,7 +7424,7 @@ covered now.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. css minutes and hours (198) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image225.webp?raw=true"
+  src="/images/image225.png?raw=true"
   alt="CSS minutes and hours."
   style="width:20%;" />
 </p>
@@ -7387,7 +7448,7 @@ to the default values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226. keyframes cycle from and to (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image226.webp?raw=true"
+  src="/images/image226.png?raw=true"
   alt="Keyframe cycles from and to."
   style="width:20%;" />
 </p>
@@ -7522,11 +7583,11 @@ animation property. </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227/228. red rectangles (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image227.webp?raw=true"
+  src="/images/image227.png?raw=true"
   alt="Red rectangle."
   style="width:100px;" />
 <img class="displayed"
-  src="/images/image228.webp?raw=true"
+  src="/images/image228.png?raw=true"
   alt="Another red rectangle."
   style="width:100px;" />
 </p>
@@ -7561,7 +7622,7 @@ percentages, it will have the same output.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229. brown rectangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image229.webp?raw=true"
+  src="/images/image229.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7569,7 +7630,7 @@ percentages, it will have the same output.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. green rectangle (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image230.webp?raw=true"
+  src="/images/image230.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -7601,7 +7662,7 @@ named styles.css.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. animation example (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image231.webp?raw=true"
+  src="/images/image231.png?raw=true"
   alt="Animation example."
   style="width:25%;" />
 </p>
@@ -7614,7 +7675,7 @@ ball.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 232. css keyframes and animation (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image232.webp?raw=true"
+  src="/images/image232.png?raw=true"
   alt="CSS keyframes and animation."
   style="width:25%;" />
 </p>
@@ -7655,7 +7716,7 @@ the color of the circle.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233. ball in the top left corner (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image233.webp?raw=true"
+  src="/images/image233.png?raw=true"
   alt="Ball/Circle in CSS."
   style="width:15%;" />
 </p>
@@ -7668,7 +7729,7 @@ again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 234. styles.css - animating ball (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image234.webp?raw=true"
+  src="/images/image234.png?raw=true"
   alt="."
   style="width:25%;" />
 </p>
@@ -8431,7 +8492,7 @@ display its properties to you.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 235. hovering icon (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image235.webp?raw=true"
+  src="/images/image235.png?raw=true"
   alt="Hovering icon."
   style="width:10%;" />
 </p>
@@ -8439,7 +8500,7 @@ display its properties to you.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236. targetting icon (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image236.webp?raw=true"
+  src="/images/image236.png?raw=true"
   alt="Targetting icon."
   style="width:4%;" />
 </p>
@@ -8451,7 +8512,7 @@ then selecting an option from the drop-down list that appears.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 237. display of submenu from copy option (227) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image237.webp?raw=true"
+  src="/images/image237.png?raw=true"
   alt="Display of submenu from copy option."
   style="width:35%;" />
 </p>
@@ -8464,7 +8525,7 @@ an option from the dropdown list that appears.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 238. breakpoint and cumulative layout shift (228) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image238.webp?raw=true"
+  src="/images/image238.png?raw=true"
   alt="Break on submenu options."
   style="width:35%" />
 </p>
@@ -8478,7 +8539,7 @@ horizontal bar:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~ 239. horizontal bar and element families (228) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image239.webp?raw=true"
+  src="/images/image239.png?raw=true"
   title="Horizontal bar and element families"
   alt="Horizontal bar and element families."
   style="width:55%;" />
@@ -8994,7 +9055,7 @@ a header, main content and footer.</p>
 <!--~~~~~~~~~~~~~~~~ 240. home page with header, main content and footer (242) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed border"
-  src="/images/image240.webp?raw=true"
+  src="/images/image240.png?raw=true"
   title="Home page with header, main content and footer"
   alt="Home page with header, main content and footer."
   style="width:35%;" />
@@ -9084,7 +9145,7 @@ from. They are:</p>
 <!--~~~~~~~~~~~~~~~~~~~ 241. logo of the fictional client lucky shrub (244) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image241.webp?raw=true"
+  src="/images/image241.png?raw=true"
   title="Logo of the fictional client Lucky Shrub"
   alt="Logo of the fictional client Lucky Shrub."
   style="width:5%;" />
@@ -9110,7 +9171,7 @@ nursery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 242. logo of the fictional client hair day (244) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image242.webp?raw=true"
+  src="/images/image242.png?raw=true"
   title="Logo of the fictional client Hair day"
   alt="Logo of the fictional client Hair day."
   style="width:20%;" />
@@ -9140,7 +9201,7 @@ manicurist and one make-up artist.</p>
 <!--~~~~~~~~~~~~~~~~~~ 243. logo of the fictional client little lemon (245) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image243.webp?raw=true"
+  src="/images/image243.png?raw=true"
   title="Logo of the fictional client Little Lemon"
   alt="Logo of the fictional client Little Lemon."
   style="width:25%;" />
@@ -9190,7 +9251,7 @@ website and social media accounts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 244. web page layout example (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image244.webp?raw=true"
+  src="/images/image244.png?raw=true"
   title="Web page layout example"
   alt="Web page layout example."
   style="width:35%;" />
@@ -9206,7 +9267,7 @@ a navigation menu underneath.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. web page template (248) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image245.webp?raw=true"
+  src="/images/image245.png?raw=true"
   title="Web page layout template"
   alt="Web page layout template."
   style="width:35%;" />
@@ -9277,7 +9338,7 @@ from Week 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246. web page layout (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image246.webp?raw=true"
+  src="/images/image246.png?raw=true"
   title="Web page example"
   alt="Web page example."
   style="width:35%;" />
@@ -9294,7 +9355,7 @@ number of columns.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. sample code using article (251) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image247.webp?raw=true"
+  src="/images/image247.png?raw=true"
   title="Sample code using article and div"
   alt="Sample code using article and div."
   style="width:35%;" />
@@ -9312,7 +9373,7 @@ div element to allow for the flexbox layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 248. sample little lemon web page (252) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image248.webp?raw=true"
+  src="/images/image248.png?raw=true"
   title="Sample little lemon web page"
   alt="Sample little lemon web page."
   style="width:35%;" />
@@ -9326,7 +9387,7 @@ Rules have been set up for the body and heading elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249. style.css with rem (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image249.webp?raw=true"
+  src="/images/image249.png?raw=true"
   title="Styles.css using rem as unit of measure"
   alt="Styles.css using rem as unit of measure."
   style="width:25%;" />
@@ -9340,7 +9401,7 @@ percent of the window size. Let's start by adding a rule to center the logo.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250. css: header > image (253) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image250.webp?raw=true"
+  src="/images/image250.png?raw=true"
   title="CSS: header &gt; image."
   alt="CSS: header &gt; image."
   style="width:35%;" />
@@ -9356,7 +9417,7 @@ of the header element.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 251. css: nav ul (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image251.webp?raw=true"
+  src="/images/image251.png?raw=true"
   title="CSS: nav ul"
   alt="CSS: nav ul."
   style="width:35%;" />
@@ -9371,7 +9432,7 @@ inline elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252. css: nav li (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image252.webp?raw=true"
+  src="/images/image252.png?raw=true"
   title="CSS: Select list item that is descendent of nav element"
   alt="CSS: Select list item that is descendent of nav element."
   style="width:35%;" />
@@ -9385,7 +9446,7 @@ in the web browser.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~ 253. logo and navigation bar centered (255) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image253.webp?raw=true"
+  src="/images/image253.png?raw=true"
   title="Logo and navigation bar, centered"
   alt="Logo and navigation bar, centered."
   style="width:35%" />
@@ -9397,7 +9458,7 @@ centered. Next, I need to set up the flexbox layout.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. css: section display: flex (255) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image254.webp?raw=true"
+  src="/images/image254.png?raw=true"
   title="CSS: select section element, add display property and set to flex"
   alt="CSS: select section element, add display property and set to flex."
   style="width:35%;" />
@@ -9409,7 +9470,7 @@ section element. I then add the display property and set its value to flex.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 255. css: article flex property to 1 (255) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image255.webp?raw=true"
+  src="/images/image255.png?raw=true"
   title="CSS: select article and set flex property to 1 (one)"
   alt="CSS: select article and set flex property to 1 (one)."
   style="width:25%;" />
@@ -9422,7 +9483,7 @@ I saved the file and open the webpage in the web browser.</p>
 <!--~~~~~~~~~~~~~~ 256. main content w/one column in 1st row, 3 in 2nd row (256) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image256.webp?raw=true"
+  src="/images/image256.png?raw=true"
   title="Main content with one column in the 1st row and 3 columns in the 2nd row"
   alt="Main content with one column in the 1st row and 3 columns in the 2nd row."
   style="width:35%;" />
@@ -9434,7 +9495,7 @@ and three columns in the second row. Finally, also the layout for the footer.</p
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257. css: footer (256) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image257.webp?raw=true"
+  src="/images/image257.png?raw=true"
   title="CSS: footer elements"
   alt="CSS: footer elements."
   style="width:25%;" />
@@ -10012,6 +10073,7 @@ increasingly specific styling to various elements.</p>
   <h6>Last updated 12/21/23 6:54pm</h6>
   <h6>Last updated 3/12/24 5:08pm - Tuesday</h6>
   <h6>Last updated 3/27/24 11:19am - Wednesday</h6>
+  <h6>Last updated 6/14/24 8:48am - Friday</h6>
 </footer>
 
 </body>
