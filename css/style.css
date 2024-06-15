@@ -150,7 +150,7 @@ table {
   border-collapse: collapse;
   width: 80%;
   overflow-x: auto;
-  display: block;
+/*  display: block; */
   font-variant-numeric: lining-nums tabular-nums;
 }
 table caption {
