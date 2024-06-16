@@ -19,12 +19,6 @@ div {
   float: left; 
 }
   
-.border {
-  border-width: 1px;
-  border-color: #778899;
-  border-style: solid; 
-}
-
 h1  {
   font-family: Inter, Georgia, Bahnschrift, sans-serif, Consolas;
   text-align: center;
