@@ -3,7 +3,7 @@ title: |
   meta's HTML & CSS in Depth
   by meta
 author: "bbauska"
-date last editted: "5/3/2024 Fri 8+am"
+date last editted: "9/15/2024 Sun 11+am"
 output: 
   markdown:
     with some style
@@ -118,7 +118,7 @@ Let's explore some basic HTML and CSS principles and practices.</p>
   src="/images/image003.png?raw=true"
   title="Hypertext and Markup"
   alt="Hypertext and Markup."
-  style="width:45%" />
+  style="width:65%" />
 </p>
 
 <p>Hypertext is text which contains links to other text.</p>
@@ -130,7 +130,7 @@ Let's explore some basic HTML and CSS principles and practices.</p>
   src="/images/image004.png?raw=true"
   title="Basic HTML page structure"
   alt="Basic HTML page structure."
-  style="width:45%" />
+  style="width:65%" />
 </p>
 
 <p>HTML elements with their opening and closing tags in angle brackets make up 
@@ -162,7 +162,7 @@ on screen.</p>
   src="/images/image005.png?raw=true"
   title="Use CSS to Style elements, use Box Model, and arrange page elements"
   alt="Use CSS to Style elements, use Box Model, and arrange page elements."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <h5>You use CSS to;</h5>
@@ -199,7 +199,7 @@ that you create a well-formed web page.</p>
   src="/images/image006.png?raw=true"
   title="Basic HTML page structure"
   alt="Basic HTML page structure."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>Let's revisit the basic structure of an HTML page which includes the head and 
@@ -213,7 +213,7 @@ each of the sections.</p>
   src="/images/image007.png?raw=true"
   title="HTML tags"
   alt="HTML tags."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>For a typical HTML page, the structure can be semantically described using the 
@@ -225,7 +225,7 @@ header, main and footer semantic HTML tags.</p>
   src="/images/image008.png?raw=true"
   title="Header and navigation links example"
   alt="Header and navigation links example."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>For example, suppose you lay out your page with a <b>header section</b> that contains 
@@ -239,7 +239,7 @@ some company logo and navigation links.</p>
   src="/images/image009.png?raw=true"
   title="Nav tag - the main navigation section"
   alt="Nav tag - the main navigation section."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>The <b>main navigation section</b> of your web page can also be described semantically 
@@ -253,7 +253,7 @@ placed after the header element and the header element is used for logos.</p>
   src="/images/image010.png?raw=true"
   title="Unordered list tag inside of nav tag"
   alt="Unordered list tag inside of nav tag."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>The main links of your website are then added inside the Nav element. It is 
@@ -292,7 +292,7 @@ on a web page.</p>
   src="/images/image012.png?raw=true"
   title="Article element"
   alt="Article element."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>You should place the article element within the main element. Then add your 
@@ -307,7 +307,7 @@ for something like a blog post list.</p>
   src="/images/image013.png?raw=true"
   title="Footer element"
   alt="Footer element."
-  style="width:45%" />
+  style="width:55%" />
 </p>
 
 <p>At the end of your document is the footer element. This might contain 
@@ -330,7 +330,7 @@ sections of the article.</p>
   src="/images/image014.png?raw=true"
   title="Descriptive section elements"
   alt="Descriptive section elements."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <p>It is important to note that sections should contain heading elements to semantically 
@@ -357,7 +357,7 @@ accessibility software can understand the semantics of the page.</p>
   src="/images/image015.png?raw=true"
   title="Adding basic semantic structure"
   alt="Adding basic semantic structure."
-  style="width:35%;" />
+  style="width:45%;" />
 </p>
 
 <p>I've set up my basic html document structure in a file named blog.html. I'll 
@@ -371,7 +371,7 @@ element. Finally, the footer element.</p>
   src="/images/image016.png?raw=true"
   title="Header, nav, main and footer"
   alt="Header, nav, main and footer."
-  style="width:45%;" />
+  style="width:65%;" />
 </p>
 
 <p>Remember this structure describes the semantics of this html document. Specifically, 
@@ -428,7 +428,7 @@ provide information for search engines.</p>
   src="/images/image017.png?raw=true"
   title="SEO: Search Engine Optimization"
   alt="SEO: Search Engine Optimization."
-  style="width:15%;" />
+  style="width:25%;" />
 </p>
 <p>A major part of launching a website is a process called search engine optimization 
 or SEO. This process involves making improvements to a website’s content semantics 
@@ -454,7 +454,7 @@ ranking.</p>
   src="/images/image018.png?raw=true"
   title="Meta tags define metadata.  Metadata is data about the web page"
   alt="Meta tags define metadata.  Metadata is data about the web page."
-  style="width:35%;" />
+  style="width:45%;" />
 </p>
 <p>Meta tags define metadata about a web page.</p>
 <p>What is metadata? You ask? It's data about other data which in this
@@ -469,7 +469,7 @@ browser.</p>
   src="/images/image019.png?raw=true"
   title="Meta tags: Unseen elements within the browser"
   alt="Meta tags: Unseen elements within the browser."
-  style="width:25%;" />
+  style="width:35%;" />
 </p>
 
 <p>In other words, meta tags are unseen elements within the browser.</p>
@@ -481,7 +481,7 @@ browser.</p>
   src="/images/image020.png?raw=true"
   title="Meta Element: 2 attributes; name and content"
   alt="Meta Element: 2 attributes; name and content."
-  style="width:35%;" />
+  style="width:45%;" />
 </p>
 
 <p>The meta element has two attributes, name and content.</p>
@@ -495,7 +495,7 @@ attribute specifies the value of the metadata.</p>
   src="/images/image021.png?raw=true"
   title="Author metadata: Specifies the author of the web page"
   alt="Author metadata: Specifies the author of the web page."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>The author metadata specifies the author of the web page.</p>
 <p>The name attribute is author and the content attribute is the person
@@ -507,7 +507,7 @@ and company who are the author of the web page.</p>
   src="/images/image022.png?raw=true"
   title="Description metadata: Describes the content of the web page"
   alt="Description metadata: Describes the content of the web page."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <p>The description metadata describes the content of the web page.</p>
@@ -522,7 +522,7 @@ the descriptive text.</p>
   src="/images/image023.png?raw=true"
   title="Keywords metadata - do not use any longer"
   alt="Keywords metadata - do not use any longer."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>The keywords metadata was previously used to provide search keywords
 for search engines.</p>
@@ -538,7 +538,7 @@ recommended not to include this metadata in modern web pages.</p>
   src="/images/image024.png?raw=true"
   title="Robots metadata, contents index, follow"
   alt="Robots metadata, contents index, follow."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>Another type of metadata is the robot's metadata and it tells search
 engines if and how they should analyze your web page.</p>
@@ -551,7 +551,7 @@ as bots, that search engines used to analyze websites.</p>
   src="/images/image025.png?raw=true"
   title="Robots metadata: index, follow, noindex, nofollow"
   alt="Robots metadata: index, follow, noindex, nofollow."
-  style="width:15%;" />
+  style="width:25%;" />
 </p>
 <p>The content attribute for Robots has four possible values.</p>
 <p>Index tells the bot to analyze the page.</p>
@@ -568,7 +568,7 @@ some bots will ignore this value so it's best not to rely on it.</p>
   src="/images/image026.png?raw=true"
   title="Robots metadata: index, follow, noindex, nofollow"
   alt="Robots metadata: index, follow, noindex, nofollow."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>Finally, there's the view ports metadata.</p>
 <p>The view port metadata is important when designing responsive web pages.</p>
@@ -599,7 +599,7 @@ on social media.</p>
   src="/images/image027.png?raw=true"
   title="SEO: author, description, keywords, robots and viewports metadata"
   alt="SEO: author, description, keywords, robots and viewports metadata."
-  style="width:7%;" />
+  style="width:12%;" />
 </p>
 <p>For now, it's important to know that author, description, keywords, robots and viewports metadata all
 play a role in the search engine optimization of web pages.</p>
@@ -632,7 +632,7 @@ other CSS files also to this folder.</p>
   src="/images/image028.png?raw=true"
   title="Template HTML with semantic structure set up"
   alt="Template HTML with semantic structure set up."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>I go back to my template folder and open it in Visual Studio Code. I
 open the index.html file. The file has a semantic HTML document
@@ -657,7 +657,7 @@ section and update the content attributes.</p>
   src="/images/image029.png?raw=true"
   title="More commented out code for icons"
   alt="More commented out code for icons."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>The next block of commented out code is for icons.</p>
 <p>If you want to show an icon in the web browser tab for your website, 
@@ -688,7 +688,7 @@ and the footer element for any copyright notices or links to secondary webpages.
   src="/images/image031.png?raw=true"
   title="Include JavaScript here"
   alt="Include JavaScript here."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>Below the footer element, you add script elements for JavaScript
 files.</p>
@@ -726,7 +726,7 @@ experience.</p>
   src="/images/image032.png?raw=true"
   title="Example of a top navbar layout on a web page"
   alt="Example of a top navbar layout on a web page."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <h3>Carousel layout</h3>
@@ -742,7 +742,7 @@ fixed interval.</p>
   src="/images/image033.png?raw=true"
   title="Example of a Carousel Layout on a web page"
   alt="Example of a Carousel Layout on a web page."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <h4>Blog layout</h4>
@@ -757,7 +757,7 @@ the page each day based on current events.</p>
   src="/images/image034.png?raw=true"
   title="Example of a longer featured Blog Layout on a web page"
   alt="Example of a longer featured Blog Layout on a web page."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>The layout typically features different-sized feature areas followed
 by a series of article summary areas that link to full articles.</p>
@@ -768,7 +768,7 @@ by a series of article summary areas that link to full articles.</p>
   src="/images/image035.png?raw=true"
   title="Sample blog post"
   alt="Sample blog post."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <h4>Dashboard layout</h4>
 
@@ -784,7 +784,7 @@ a good user experience for business users.</p>
   src="/images/image036.png?raw=true"
   title="Example of a Dashboard Layout on a web page"
   alt="Example of a Dashboard Layout on a web page."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <h4>More layouts</h4>
@@ -825,7 +825,7 @@ Protocol in 2010.</p>
   src="/images/image037.png?raw=true"
   title="Open Graph Protocol: metadata rules for describing websites"
   alt="Open Graph Protocol: metadata rules for describing websites."
-  style="width:25%;" />
+  style="width:35%;" />
 </p>
 <p>The Open Graph Protocol is a set of Metadata rules that allow web pages to describe themselves to social
 networks.</p>
@@ -851,7 +851,7 @@ properties on a webpage.</p>
   src="/images/image038.png?raw=true"
   title="Open Graph Protocol: Title, Type, Url, and Image"
   alt="Open Graph Protocol: Title, Type, Url, and Image."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>These are title, type, URL, and image.</p>
 <p>The title property defines the title of the page, this is the text
@@ -880,7 +880,7 @@ about later. But let's briefly explore three of these.</p>
   src="/images/image039.png?raw=true"
   title="OG: local property"
   alt="OG: local property."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>The og:locale property describes the language and territory of the
 webpage's content.</p>
@@ -972,7 +972,7 @@ social media platforms.</p>
   src="/images/image040.png?raw=true"
   title="Metadata required by protocol"
   alt="Metadata required by protocol."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>At a minimum, I need to add four pieces of metadata required by the
 protocol.</p>
@@ -1012,7 +1012,7 @@ best to provide as much information as possible.</p>
   src="/images/image041.png?raw=true"
   title="More Head element meta tags"
   alt="More Head element meta tags."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>I'll add three more meta tags to the head element.
 On the first tag, I had the property attribute and set its value to
@@ -1128,7 +1128,7 @@ browser.</p>
   src="/images/image042.png?raw=true"
   title="Input Types"
   alt="Input Types."
-  style="width:15%;" />
+  style="width:25%;" />
 </p>
 <p>As demonstrated in the example, email is used for email addresses.</p>
 <p>Others include "tel" for telephone numbers, "url" for URLs such as
@@ -1146,7 +1146,7 @@ feedback.</p>
   src="/images/image043.png?raw=true"
   title="Required Attribute: User must supply a value to an input field"
   alt="Required Attribute: User must supply a value to an input field."
-  style="width:25%;" />
+  style="width:35%;" />
 </p>
 <p>Another example is the required attribute, which indicates that the
 user must supply a value to an input field.</p>
@@ -1370,7 +1370,7 @@ user accounts on the Little Lemon website.</p>
   src="/images/image044.png?raw=true"
   title="Signup form document structure"
   alt="Signup form document structure."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <p>I've set up my basic HTML document structure in a file named,
@@ -1437,7 +1437,7 @@ user what each field represents.</p>
   src="/images/image045.png?raw=true"
   title="Label and Input with Id attribute"
   alt="Label and Input with Id attribute."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <p>To do this, I'll add a label element before each input element.</p>
@@ -1477,7 +1477,7 @@ for each input element.</p>
   src="/images/image047.png?raw=true"
   title="Add submit button to form"
   alt="Add submit button to form."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 
 <p>To finalize the form, I need to add one more thing, the submit
@@ -1515,7 +1515,7 @@ that you can apply to elements for further validation.</p>
   src="/images/image048.png?raw=true"
   title="Log-in form: username and password"
   alt="Log-in form: username and password."
-  style="width:45%;" />
+  style="width:55%;" />
 </p>
 <p>First, let's explore how you can ensure that the user provides a
 value to a form field. This example of a log-in form contains two
@@ -10093,6 +10093,7 @@ increasingly specific styling to various elements.</p>
   <h6>Last updated 3/12/24 5:08pm - Tuesday</h6>
   <h6>Last updated 3/27/24 11:19am - Wednesday</h6>
   <h6>Last updated 6/14/24 8:48am - Friday</h6>
+  <h6>Last updated 9/15/24 11:44am - Sunday</h6>
 </footer>
 
 </body>
