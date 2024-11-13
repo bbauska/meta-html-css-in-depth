@@ -4732,33 +4732,33 @@ size of the window displaying the page.</p>
 
 <ul>
   <li>wrap: Automatically wrap the items with as the window space gets smaller.</li>
-  <li>Nowrap: Default setting, items remain rigid and don’t respond to adjustments 
+  <li>nowrap: Default setting, items remain rigid and don’t respond to adjustments 
     made to the window size.</li>
 </ul>
 
-<p><strong>align-items: flex-start | flex-end | center |Stretch</strong><br/>
+<p><strong>align-items: flex-start | flex-end | center | stretch</strong><br/>
 This determines how the flex items are to be positioned on the page.
 Items can be aligned in a variety of ways</p>
 
 <ul>
-  <li>Flex-start: Similar to standard writing, items start at the top left-hand 
+  <li>flex-start: Similar to standard writing, items start at the top left-hand 
     corner and are positioned from left to right</li>
-  <li>Flex-end: Position begins in the bottom right hand corner.</li>
-  <li>Center: Item is positioned from the center.</li>
-  <li>Stretch: item expands to fill the container.</li>
+  <li>flex-end: Position begins in the bottom right hand corner.</li>
+  <li>center: Item is positioned from the center.</li>
+  <li>stretch: item expands to fill the container.</li>
 </ul>
 
-<p><strong>justify-content: flex-start | flex-end | center |
+<p><strong>justify-content: flex-start | flex-end | center | 
 space-between | space-evenly</strong><br/>
 Justify-content determines the alignment of the flex items.</p>
 
 <ul>
-  <li>Flex-start: goes from right to left along the main axis.</li>
-  <li>Flex-end: goes from left to right along the main axis.</li>
-  <li>Center: Starting at the middle, alignments expands from there.</li>
-  <li>Space-between: first and last item are flush with the left and right wall 
+  <li>flex-start: goes from right to left along the main axis.</li>
+  <li>flex-end: goes from left to right along the main axis.</li>
+  <li>center: Starting at the middle, alignments expands from there.</li>
+  <li>space-between: first and last item are flush with the left and right wall 
     respectively, every other item is evenly spaced.</li>
-  <li>Space-evenly: each item is equidistant from each other and the boundary wall</li>
+  <li>space-evenly: each item is equidistant from each other and the boundary wall</li>
 </ul>
 
 <h4>Properties for flexbox items (child)</h4>
