@@ -4524,160 +4524,176 @@ and effort.</p>
 
 <p>Note: ‘|’ stands for alternatives or OR.</p>
 
-<h4>Grid </h4>
+<h4>Grid</h4>
 
 <p>The syntax for creating a grid:</p>
 
-<pre>  selector{
-    display: grid; /* or inline-grid */
-  }</pre>
+<pre>selector{
+  display: grid; /* or inline-grid */
+}</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-&lt;img src="./images/image140.wmf" /&gt;
-&lt;img src="./images/image141.wmf" /&gt;
+<!-- &lt;img src="./images/image140.wmf" /&gt; -->
+<!-- &lt;img src="./images/image141.wmf" /&gt; -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-<p>Grid shorthand consists of the following properties with default
-values:</p>
-<p><strong>grid</strong></p>
-<p>A grid will allow you organize the various elements on your page.</p>
-<p><strong>grid-template-rows: none</strong></p>
-<p>This feature allows you configure your elements so that they are
+<h4>Grid shorthand consists of the following properties with default values:</h4>
+
+<p><strong>grid</strong><br/>
+A grid will allow you organize the various elements on your page.</p>
+
+<p><strong>grid-template-rows: none</strong><br/>
+This feature allows you configure your elements so that they are
 organized similarly to rows on a table.</p>
-<p><strong>grid-template-columns: none</strong></p>
-<p>This feature allows you configure your elements but with this setting
+
+<p><strong>grid-template-columns: none</strong><br/>
+This feature allows you configure your elements but with this setting
 the elements are organized like columns on a table.</p>
-<p><strong>grid-template-areas: none</strong></p>
-<p>This feature allows you configure the names of a grid and how they
+
+<p><strong>grid-template-areas: none</strong><br/>
+This feature allows you configure the names of a grid and how they
 sit in relation to one another.</p>
-<p><strong>grid-auto-rows: auto</strong></p>
-<p>Default setting for all row sizes that have not been explicitly
+
+<p><strong>grid-auto-rows: auto</strong><br/>
+Default setting for all row sizes that have not been explicitly
 configured.</p>
-<p><strong>grid-auto-columns: auto</strong></p>
-<p>Default setting for all column sizes that have not been explicitly
+
+<p><strong>grid-auto-columns: auto</strong><br/>
+Default setting for all column sizes that have not been explicitly
 configured.</p>
-<p><strong>grid-auto-flow: row</strong></p>
-<p>Default location for rows that are not explicitly allocated.</p>
-<p><strong>column-gap: normal</strong></p>
-<p>This sets the gap between the columns</p>
-<p><strong>row-gap: normal</strong></p>
-<p>This sets the gap between the rows</p>
+
+<p><strong>grid-auto-flow: row</strong><br/>
+Default location for rows that are not explicitly allocated.</p>
+
+<p><strong>column-gap: normal</strong><br/>
+This sets the gap between the columns</p>
+
+<p><strong>row-gap: normal</strong><br/>
+This sets the gap between the rows</p>
 
 <h4>Grid properties for container</h4>
 
-<p><strong>grid-template-columns: measurement units | % units
-|repeat()</strong></p>
-<p>Defines the line names, and maintains a constant size of column
+<p><strong>grid-template-columns: measurement units | % units | repeat()</strong><br/>
+Defines the line names, and maintains a constant size of column
 items. Can accept a range of different measurement sizes.</p>
-<p><strong>grid-template-rows: measurement units | % units
-|repeat()</strong></p>
-<p>Defines the line names, and maintains a constant size of rows. Can
+
+<p><strong>grid-template-rows: measurement units | % units | repeat()</strong><br/>
+Defines the line names, and maintains a constant size of rows. Can
 accept a range of different measurement sizes.</p>
-<p><strong>grid-auto-columns: measurement unit (fixed value for all
-columns)</strong></p>
-<p>Determines the default size for columns that have not been explicitly
+
+<p><strong>grid-auto-columns: measurement unit (fixed value for all columns)</strong><br/>
+Determines the default size for columns that have not been explicitly configured.</p>
+
+<p><strong>grid-auto-rows: measurement unit (fixed value for all rows)</strong><br/>
+Determines the default size for rows that have not been explicitly
 configured.</p>
-<p><strong>grid-auto-rows: measurement unit (fixed value for all
-rows)</strong></p>
-<p>Determines the default size for rows that have not been explicitly
-configured.</p>
-<p><strong>grid-template: “header header” auto</strong></p>
-<p>This allows you define and maintain named cells on a grid</p>
-<p><strong>“main right” 75vh</strong></p>
-<p>This defines two cells named main and right, that have a sizing of
-75% of the viewport height.</p>
-<p><strong>“footer footer” 20rem</strong></p>
-<p>This defines two cells named footer and footer, that have a sizing of
-20 root em (rem). This defines the size in relation to the html font
-size.</p>
+
+<p><strong>grid-template: “header header” auto</strong><br/>
+This allows you define and maintain named cells on a grid</p>
+
+<p><strong>“main right” 75vh</strong><br/>
+This defines two cells named main and right, that have a sizing of 75% of the viewport height.</p>
+
+<p><strong>“footer footer” 20rem</strong><br/>
+This defines two cells named footer and footer, that have a sizing of 20 root em (rem). 
+This defines the size in relation to the html font size.</p>
 
 <h4>Gap</h4>
 
-<p><strong>grid-gap: measurement units</strong></p>
-<p>Determines the gap between rows and columns</p>
-<p><strong>grid-column-gap: measurement units</strong></p>
-<p>Determines the gap between columns</p>
-<p><strong>grid-row-gap: m-unit-1 m-unit-2</strong></p>
-<p>Determines the gap between columns</p>
+<p><strong>grid-gap: measurement units</strong><br/>
+Determines the gap between rows and columns</p>
+
+<p><strong>grid-column-gap: measurement units</strong><br/>
+Determines the gap between columns</p>
+
+<p><strong>grid-row-gap: m-unit-1 m-unit-2</strong><br/>
+Determines the gap between columns</p>
 
 <h4>Alignment</h4>
 
-<p><strong>justify-items: start | center | end | stretch</strong></p>
-<p>Defines the default space that is allot to each item on the grid</p>
-<p><strong>align-items: start | center | end | stretch</strong></p>
-<p>Defines the default space related to an item along the grid’s block
-axis</p>
-<p><strong>place-items: start | stretch /* shorthand for two properties
-above */</strong></p>
-<p>This feature allows you align items with the block and inline
-directions.</p>
+<p><strong>justify-items: start | center | end | stretch</strong><br/>
+Defines the default space that is allot to each item on the grid</p>
+
+<p><strong>align-items: start | center | end | stretch</strong><br/>
+Defines the default space related to an item along the grid’s block axis</p>
+
+<p><strong>place-items: start | stretch /* shorthand for two properties above */</strong><br/>
+This feature allows you align items with the block and inline directions.</p>
 
 <h4>Justification</h4>
 
-<p><strong>justify-content: start | center | end | stretch |
-space-between | space-evenly | space-around</strong></p>
-<p>Defines browser allocation of space to content items in relation to
-the main-axis</p>
-<p><strong>align-content: start | center | end | stretch | space-between
-| space-evenly | space-around</strong></p>
-<p>Defines browser allocation of space to content items in relation to
-cross axis and block axis</p>
-<p><strong>place-content: center | start</strong></p>
-<p>This feature allows you align items with the block and inline
-directions.</p>
+<p><strong>justify-content: start | center | end | stretch | space-between | 
+space-evenly | space-around</strong><br/>
+Defines browser allocation of space to content items in relation to the main-axis</p>
+
+<p><strong>align-content: start | center | end | stretch | space-between | 
+space-evenly | space-around</strong><br/>
+Defines browser allocation of space to content items in relation to cross axis 
+and block axis</p>
+
+<p><strong>place-content: center | start</strong><br/>
+This feature allows you align items with the block and inline directions.</p>
 
 <h4>Positioning</h4>
 
-<p><strong>grid-auto-flow: row | column | dense</strong></p>
-<p>This relates to how the items are placed automatically within the
+<p><strong>grid-auto-flow: row | column | dense</strong><br/>
+This relates to how the items are placed automatically within the
 grid</p>
-<p><strong>grid-auto-columns: measurement units</strong></p>
-<p>This relates to the size for columns created without specific size
+
+<p><strong>grid-auto-columns: measurement units</strong><br/>
+This relates to the size for columns created without specific size
 specifications</p>
-<p><strong>grid-auto-rows: measurement units</strong></p>
-<p>This relates to the size for rows created without specific size
+
+<p><strong>grid-auto-rows: measurement units</strong><br/>
+This relates to the size for rows created without specific size
 specifications</p>
 
 <h4>Grid properties for items (child)</h4>
 
-<p><strong>grid-column: column position /* E.g. 1/2 */</strong></p>
-<p>Allows for specifying where on the grid the column is to start.</p>
-<p><strong>grid-column-start: column start position</strong></p>
-<p>This property determines the starting column position an item is
+<p><strong>grid-column: column position /* E.g. 1/2 */</strong><br/>
+Allows for specifying where on the grid the column is to start.</p>
+
+<p><strong>grid-column-start: column start position</strong><br/>
+This property determines the starting column position an item is
 placed on a grid.</p>
-<p><strong>grid-column-end: column end position</strong></p>
-<p>This property determines the end column position an item is placed on
+
+<p><strong>grid-column-end: column end position</strong><br/>
+This property determines the end column position an item is placed on
 a grid.</p>
-<p><strong>grid-row: row position /* E.g. 1/2 */</strong></p>
-<p>Allows for specifying where on the grid the row is to start.</p>
-<p><strong>grid-row-start: row start position</strong></p>
-<p>This property determines the starting row position an item is placed
+
+<p><strong>grid-row: row position /* E.g. 1/2 */</strong><br/>
+Allows for specifying where on the grid the row is to start.</p>
+
+<p><strong>grid-row-start: row start position</strong><br/>
+This property determines the starting row position an item is placed
 on a grid.</p>
-<p><strong>grid-row-end: row end position</strong></p>
-<p>This property determines the end row position an item is placed on a
+
+<p><strong>grid-row-end: row end position</strong><br/>
+This property determines the end row position an item is placed on a
 grid.</p>
 
 <h4>Justification and alignment</h4>
 
-<p><strong>justify-self: start | center | end | stretch</strong></p>
-<p>Determines how an item is positioned inside its aligned container in
+<p><strong>justify-self: start | center | end | stretch</strong><br/>
+Determines how an item is positioned inside its aligned container in
 relation to the appropriate axis.</p>
-<p><strong>align-self: start | center | end | stretch</strong></p>
-<p>Aligns an item within a grid area.</p>
+
+<p><strong>align-self: start | center | end | stretch</strong><br/>
+Aligns an item within a grid area.</p>
+
 <p><strong>place-self: start | stretch /* shorthand for two properties
-above */</strong></p>
-<p>This setting lets one align and justify an item within a block.</p>
+above */</strong><br/>
+This setting lets one align and justify an item within a block.</p>
 
 <h4>Flexbox</h4>
 
 <p>The syntax for creating a flexbox:</p>
 
-<pre>  selector{
-    display: flex | inline-flex
-  }</pre>
+<pre>selector{
+  display: flex | inline-flex
+}</pre>
 
-<p>Here the selector can refer to any of the following flex
-attributes</p>
+<p>Here the selector can refer to any of the following flex attributes:</p>
 
 <ul>
   <li>Attribute selector</li>
@@ -4694,11 +4710,11 @@ while will be inline.</p>
 
 <h4>Properties for flexbox container</h4>
 
-<p><strong>flex-direction: row | row-reverse | column |
-column-reverse</strong></p>
-<p>It is possible to specify the direction your elements will follow.</p>
-<p>Traditionally text goes from left to right which is flex’s default
+<p><strong>flex-direction: row | row-reverse | column | column-reverse</strong><br/>
+It is possible to specify the direction your elements will follow.
+Traditionally text goes from left to right which is flex’s default
 setting however it can be set from right to left or even top to bottom.</p>
+
 <p>The four flex-direction are:</p>
 
 <ul>
@@ -4716,58 +4732,65 @@ size of the window displaying the page.</p>
 
 <ul>
   <li>wrap: Automatically wrap the items with as the window space gets smaller.</li>
-  <li>Nowrap: Default setting, items remain rigid and don’t respond to adjustments made to the window size.</li>
+  <li>Nowrap: Default setting, items remain rigid and don’t respond to adjustments 
+    made to the window size.</li>
 </ul>
 
-<p><strong>align-items: flex-start | flex-end | center |Stretch</strong></p>
-<p>This determines how the flex items are to be positioned on the page.
+<p><strong>align-items: flex-start | flex-end | center |Stretch</strong><br/>
+This determines how the flex items are to be positioned on the page.
 Items can be aligned in a variety of ways</p>
 
 <ul>
-  <li>Flex-start: Similar to standard writing, items start at the top left-hand corner and are positioned from left to right</li>
+  <li>Flex-start: Similar to standard writing, items start at the top left-hand 
+    corner and are positioned from left to right</li>
   <li>Flex-end: Position begins in the bottom right hand corner.</li>
   <li>Center: Item is positioned from the center.</li>
   <li>Stretch: item expands to fill the container.</li>
 </ul>
 
 <p><strong>justify-content: flex-start | flex-end | center |
-space-between | space-evenly</strong></p>
-<p>Justify-content determines the alignment of the flex items.</p>
+space-between | space-evenly</strong><br/>
+Justify-content determines the alignment of the flex items.</p>
 
 <ul>
   <li>Flex-start: goes from right to left along the main axis.</li>
   <li>Flex-end: goes from left to right along the main axis.</li>
   <li>Center: Starting at the middle, alignments expands from there.</li>
-  <li>Space-between: first and last item are flush with the left and right wall respectively, every other item is evenly spaced.</li>
+  <li>Space-between: first and last item are flush with the left and right wall 
+    respectively, every other item is evenly spaced.</li>
   <li>Space-evenly: each item is equidistant from each other and the boundary wall</li>
 </ul>
 
 <h4>Properties for flexbox items (child)</h4>
 
-<p><strong>flex-grow: factor of flex’s main size</strong></p>
-<p>This attribute enables the flex container to grow proportionally to
+<p><strong>flex-grow: factor of flex’s main size</strong><br/>
+This attribute enables the flex container to grow proportionally to
 the other containers present.</p>
-<p><strong>flex-shrink: factor of flex’s main size</strong></p>
-<p>This allows elements to shrink in relation to items around it.</p>
-<p><strong>flex-basis: auto | factor of main’s size | measurement
-unit</strong></p>
-<p>The sets the initial main size of an item. It can be overridden if
+
+<p><strong>flex-shrink: factor of flex’s main size</strong><br/>
+This allows elements to shrink in relation to items around it.</p>
+
+<p><strong>flex-basis: auto | factor of main’s size | measurement unit</strong><br/>
+The sets the initial main size of an item. It can be overridden if
 other stylized elements are configured.</p>
-<p><strong>order:position in flex /* Set ascending by default
-*/</strong></p>
-<p>The standard positioning of items is by source order, however this
+
+<p><strong>order:position in flex /* Set ascending by default */</strong><br/>
+The standard positioning of items is by source order, however this
 feature will enable you to configure where the items appear on the
 page.</p>
-<p><strong>align-self: start | center | end | stretch</strong></p>
-<p>This determines where on the page the child items will be positioned.
+
+<p><strong>align-self: start | center | end | stretch</strong><br/>
+This determines where on the page the child items will be positioned.
 Similar to the main flex attributes, start is to the left and end is to
 the right.</p>
-<p>Grid showcase</p>
-<p>In this section (grid showcase), you will learn about how differently
+
+<p><strong>Grid showcase</strong><br/>
+In this section (grid showcase), you will learn about how differently
 commonly used grid layouts are created and where you can use them.</p>
-<p>Let's start by examining the grid layout named the pancake stack.</p>
-<p>I've opened extra.HTML in Visual Studio Code.</p>
-<p>Now I can start adding the different elements.</p>
+
+<p>Let's start by examining the grid layout named the pancake stack.
+I've opened extra.HTML in Visual Studio Code.
+Now I can start adding the different elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. extra.html (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4778,12 +4801,13 @@ commonly used grid layouts are created and where you can use them.</p>
   style="width:35%" />
 </p>
 
-<p>First is the restaurant's name, little lemon, which I put into the header.</p>
-<p>In the main element, I type menu and for the footer, I type About Us.</p>
-<p>After saving, next, I will open up extra.CSS.</p>
+<p>First is the restaurant's name, little lemon, which I put into the header.<br/>
+In the main element, I type menu and for the footer, I type About Us.<br/>
+After saving, next, I will open up extra.CSS.</p>
+
 <p>First of all, write the rules for the body, followed by the header
-name and then the footer.</p>
-<p>First for the body, I need to use the display property to code the grid.</p>
+name and then the footer.<br/>
+First for the body, I need to use the display property to code the grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143. extra.css (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4795,16 +4819,17 @@ name and then the footer.</p>
 </p> 
 
 <p>I define as high as 150 VH. One VH is equal to 1 percent of the viewport height.</p>
+
 <p>Now, I add the grid template rows property that will track the sizing
-functions for the grid rows.</p>
-<p>I set it to one FR or one fraction for the main section.</p>
-<p>Now, I define the rules for the header.</p>
-<p>I start by setting the background color and follow that up with text
-alignment, which is centered and 2EM padding.</p>
-<p>2EM is a relative height which is twice the size of the current font
-height.</p>
+functions for the grid rows.
+I set it to one FR or one fraction for the main section.</p>
+
+<p>Now, I define the rules for the header.<br/>
+I start by setting the background color and follow that up with text
+alignment, which is centered and 2EM padding.<br/>
+2EM is a relative height which is twice the size of the current font height.</p>
+
 <p>Let's examine the output.</p>
-<p>It looks good.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. more extra.css (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5166,7 +5191,7 @@ already covered.</p>
 <p>The element selector allows developers to select html elements based
 on their element type.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152. id selectors for styling (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 152. id selectors for #latest styling (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
@@ -5181,7 +5206,7 @@ ID Selectors use the ID attribute of html element.
 Since the ID is unique within a web page, it allows the developer to
 select a specific element for styling.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 153. class selectors with .navigation (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 153. class selectors with .navigation class (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
@@ -5224,7 +5249,7 @@ of the tag, while src and alt are the names of its attributes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image15.png?raw=true"
+  src="/images/image155.png?raw=true"
   alt="Attribute selectors with class (home and about)."
   style="width:35%;" />
 </p>
@@ -5241,7 +5266,7 @@ different attributes of the html.</p>
 <!--~~~~~~~~~~~~~~~~~~~~ 156. attribute selectors with class, again (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img class="displayed"
-  src="/images/image15.png?raw=true"
+  src="/images/image156.png?raw=true"
   alt="Again, attribute selectors with class of home and about."
   style="width:25%;" />
 </p>
